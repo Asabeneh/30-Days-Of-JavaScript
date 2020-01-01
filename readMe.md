@@ -38,7 +38,7 @@
 
 # 📔 Day 1
 # Introduction
-**Congratulations** for deciding to participate in a 30 days of JavaScript programming challenge . In this challenge you will learn everything you need to be a JavaScript programmer and in general the whole concepts of programming. In the end of the challenge you will get a 30DaysOfPython programming challenge certificate. Join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
+**Congratulations** for deciding to participate in a 30 days of JavaScript programming challenge . In this challenge you will learn everything you need to be a JavaScript programmer and in general the whole concepts of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge certificate. Join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
 
 **A 30DaysOfJavaScript** is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the browser.
 
