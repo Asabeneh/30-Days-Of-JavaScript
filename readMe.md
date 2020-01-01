@@ -260,7 +260,7 @@ Open the browser console to see the out put from the console.log()
 
 ## External script
 Similar to the internal script, the external script link can be on the header or body but it is preferred to put it in the body.
-First we should create an external JavaScript file with .js extension. Any JavaScript file ends with .js. Create a file introduction.js inside your project directory and write the following code and link this fat the body
+First we should create an external JavaScript file with .js extension. Any JavaScript file ends with .js. Create a file introduction.js inside your project directory and write the following code and link this. js file at the bottom of the body
 ```js
 console.log('Welcome to 30DaysOfJavaScript')
 ```
