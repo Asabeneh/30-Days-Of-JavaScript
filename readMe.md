@@ -239,7 +239,7 @@ First let us write on the head part of the page.
     </body>
   </html>
 ```
-This is how we write inline script most of the time. Writing the JavaScript code in the body section is the most preferred place. Open the browser console to see the out put from the console.log()
+This is how we write internal script most of the time. Writing the JavaScript code in the body section is the most preferred place. Open the browser console to see the out put from the console.log()
 
 ```html
 <!DOCTYPE html>
