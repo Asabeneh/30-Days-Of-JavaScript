@@ -154,7 +154,7 @@ console.log("Hello, World!")
 console.log('Hello, World!')
 ```
 
-So far, we so how to display text using a *console.log()*. If we are printing text or string using *console.log()*, the text has to be under single, double or back tick.
+So far, we saw how to display text using a *console.log()*. If we are printing text or string using *console.log()*, the text has to be under single, double or back tick.
 **Example:**
 ```js
 console.log("Hello, World!")
@@ -178,7 +178,7 @@ console.log(3 ** 2)  // Exponential
 ``` 
 
 ## Code Editor
-We can write code on the browser console but it won't be for a big project. In real work environment, developers use different code editors to write codes. In this 30 days python programming challenge we will use visual studio code. 
+We can write code on the browser console but it won't be for a big project. In real work environment, developers use different code editors to write codes. In this 30 days python JavaScript challenge we will use visual studio code. 
 ### Installing Visual Studio Code
 Visual studio code is a very popular open source text editor and I would recommend to [download](https://code.visualstudio.com/) visual studio code, but if you are in favor of other editors, feel free to follow with what you have.
 
