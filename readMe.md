@@ -38,7 +38,7 @@
 
 # 📔 Day 1
 # Introduction
-**Congratulations** for deciding to participate in a 30 days of JavaScript programming challenge . In this challenge you will learn everything you need to be a JavaScript programmer and in general the whole concepts of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge certificate. Join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
+**Congratulations** for deciding to participate in a 30 days of JavaScript programming challenge. In this challenge you will learn everything you need to be a JavaScript programmer and in general the whole concepts of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge certificate. Join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
 
 **A 30DaysOfJavaScript** is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the browser.
 
@@ -109,7 +109,7 @@ Windows:
 Ctl+Shift+I
 ```
 #### Console.log
-To write our first JavaScript code we used a builtin function **console.log()**. We passed an argument as an input data and the function display the output. We passed 'Hello, World' as input data or argument in the condole.log() function.
+To write our first JavaScript code we used a builtin function **console.log()**. We passed an argument as an input data and the function display the output. We passed 'Hello, World' as input data or argument in the console.log() function.
 ```js
 console.log('Hello, World!')
 ```
@@ -295,7 +295,7 @@ External Script in the body
 Open the browser console to see the out put from the console.log()
 ## Multiple External scripts
 We can link multiple external JavaScript files to a web page.
-Create  helloword.js file inside 30DaysOfJS folder and write the following code
+Create  helloworld.js file inside 30DaysOfJS folder and write the following code
 ```js
 console.log('Hello, World!')
 ```
@@ -395,13 +395,13 @@ Multiline commenting:
 ```
 
 # Variables
-Variables are _containers_ of data. Variables _store_ data in a memory location. When a variable is declared a memory location is reserved and when it is assigned to a value, the memory space will be filled with that data. To declare a variable we use, _var_, _let_ or _const_ key words. I will talk about var, let and const in detail in other section(scope). For now, the above explanation is enough.
+Variables are _containers_ of data. Variables _store_ data in a memory location. When a variable is declared a memory location is reserved and when it is assigned to a value, the memory space will be filled with that data. To declare a variable we use, _var_, _let_ or _const_ keywords. I will talk about var, let and const in detail in other section(scope). For now, the above explanation is enough.
 
 For a variable which changes at different time we use _let_ but if the data doesn't change at all we use _const_. For example PI, country name, gravity do no change and we can use *const*.
 
-A JavaScript variable name  shouldn't begin with a number
+A JavaScript variable name shouldn't begin with a number.
 A JavaScript variable name does not allow special characters except dollar sign and underscore. 
-A JavaScript variable name follow a camelCase convention.
+A JavaScript variable name follows a camelCase convention.
 A JavaScript variable name shouldn't have space between words. The following are valid examples of JavaScript variables.
 
 Valid variables in JavaScript:
