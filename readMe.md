@@ -468,7 +468,7 @@ When you run the files on 01-Day folder you should get this:
 3. Write a multiline comment which says, _comments can make code readable, easy to use_
    _and informative_
 
-4. Create a varaible.js file and declare variables and assign string, boolean, undefined and null data types
+4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
 5. Create datatypes.js file and use the JavaScript ***typeof*** operator to check different data types. Check the data type of each variables
 6. Declare four variables without assigning values
 7. Declare four variables with assigning values
