@@ -32,7 +32,7 @@
   - [Checking Data types](#checking-data-types)
 - [Comments](#comments)
 - [Variables](#variables)
-- [💻 Day 1: Exercises](#%f0%9f%92%bb-day-1-exercises)
+- [💻 Day 1: Exercises](#-day-1-exercises)
 
 
 
