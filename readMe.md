@@ -1,7 +1,7 @@
 ##  Table of Contents
 ![Thirty Days Of JavaScript](./images/30DaysOfJavaScript.png)
 
-- [ð Day 1](#%f0%9f%93%94-day-1)
+- [📔 Day 1](#%f0%9f%93%94-day-1)
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Setup](#setup)
