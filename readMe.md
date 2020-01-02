@@ -38,7 +38,7 @@
 
 # 📔 Day 1
 # Introduction
-**Congratulations** for deciding to participate in a 30 days of JavaScript programming challenge . In this challenge you will learn everything you need to be a JavaScript programmer and in general the whole concepts of programming. In the end of the challenge you will get a 30DaysOfPython programming challenge certificate. Join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
+**Congratulations** for deciding to participate in a 30 days of JavaScript programming challenge . In this challenge you will learn everything you need to be a JavaScript programmer and in general the whole concepts of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge certificate. Join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
 
 **A 30DaysOfJavaScript** is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the browser.
 
@@ -154,7 +154,7 @@ console.log("Hello, World!")
 console.log('Hello, World!')
 ```
 
-So far, we so how to display text using a *console.log()*. If we are printing text or string using *console.log()*, the text has to be under single, double or back tick.
+So far, we saw how to display text using a *console.log()*. If we are printing text or string using *console.log()*, the text has to be under single, double or back tick.
 **Example:**
 ```js
 console.log("Hello, World!")
@@ -178,7 +178,7 @@ console.log(3 ** 2)  // Exponential
 ``` 
 
 ## Code Editor
-We can write code on the browser console but it won't be for a big project. In real work environment, developers use different code editors to write codes. In this 30 days python programming challenge we will use visual studio code. 
+We can write code on the browser console but it won't be for a big project. In real work environment, developers use different code editors to write codes. In this 30 days python JavaScript challenge we will use visual studio code. 
 ### Installing Visual Studio Code
 Visual studio code is a very popular open source text editor and I would recommend to [download](https://code.visualstudio.com/) visual studio code, but if you are in favor of other editors, feel free to follow with what you have.
 
@@ -239,7 +239,7 @@ First let us write on the head part of the page.
     </body>
   </html>
 ```
-This is how we write inline script most of the time. Writing the JavaScript code in the body section is the most preferred place. Open the browser console to see the out put from the console.log()
+This is how we write internal script most of the time. Writing the JavaScript code in the body section is the most preferred place. Open the browser console to see the out put from the console.log()
 
 ```html
 <!DOCTYPE html>
@@ -260,7 +260,7 @@ Open the browser console to see the out put from the console.log()
 
 ## External script
 Similar to the internal script, the external script link can be on the header or body but it is preferred to put it in the body.
-First we should create an external JavaScript file with .js extension. Any JavaScript file ends with .js. Create a file introduction.js inside your project directory and write the following code and link this fat the body
+First we should create an external JavaScript file with .js extension. Any JavaScript file ends with .js. Create a file introduction.js inside your project directory and write the following code and link this. js file at the bottom of the body
 ```js
 console.log('Welcome to 30DaysOfJavaScript')
 ```
