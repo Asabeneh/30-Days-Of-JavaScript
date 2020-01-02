@@ -1,7 +1,7 @@
 ##  Table of Contents
 ![Thirty Days Of JavaScript](./images/30DaysOfJavaScript.png)
 
-- [📔 Day 1](#%f0%9f%93%94-day-1)
+- [ð Day 1](#%f0%9f%93%94-day-1)
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Setup](#setup)
@@ -32,11 +32,11 @@
   - [Checking Data types](#checking-data-types)
 - [Comments](#comments)
 - [Variables](#variables)
-- [💻 Day 1: Exercises](#-day-1-exercises)
+- [ð» Day 1: Exercises](#%f0%9f%92%bb-day-1-exercises)
 
 
 
-# 📔 Day 1
+# ð Day 1
 # Introduction
 **Congratulations** for deciding to participate in a 30 days of JavaScript programming challenge . In this challenge you will learn everything you need to be a JavaScript programmer and in general the whole concepts of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge certificate. Join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
 
@@ -76,18 +76,18 @@ v12.14.0
 I am using node version 12.14.0 which is the recommended version of node.
 
 ## Browser
-There are many browsers out there but I strongly recommend Google Chrome.
+There are many browsers out there, but I strongly recommend Google Chrome.
 ### Installing Google Chrome
-Install [google chrome](https://www.google.com/chrome/) if you do not have one yet. We can write small JavaScript code on the browser console but we do not use the browser console to develop applications.
+Install [google chrome](https://www.google.com/chrome/) if you do not have one yet. We can write small JavaScript code on the browser console, but we do not use the browser console to develop applications.
 
 ![Google Chrome](images/google_chrome.png)
 
 ### Opening Google Chrome Console
-You can open the google chrome either by clicking three dots at the top right corner of chrome browser or using a shortcut. I prefer using shortcuts.
+You can open Google Chrome either by clicking three dots at the top right corner of the Chrome browser or using a shortcut. I prefer using shortcuts.
 ![Opening chrome](images/opening_developer_tool.png)
 
 
-To open chrome console using short cut. 
+To open the Chrome console using a short cut. 
 ```sh
 Mac
 Command+Option+I
@@ -97,13 +97,13 @@ Ctl+Shift+I
 ```
 ![Opening console](images/opening_chrome_console_shortcut.png)
 
-After you open the google chrome console try to explore the marked buttons. We will spend most of the time on the Console part. The Console is the place where your JavaScript code goes. The google console V8 engine change your JavaScript code to machine code.
-Let us write a JavaScript code on google chrome console:
+After you open the Google Chrome console, try to explore the marked buttons. We will spend most of the time on the Console part. The Console is the place where your JavaScript code goes. The google console V8 engine changes your JavaScript code to machine code.
+Let us write a JavaScript code on the Google Chrome console:
 
 ![write code on console](./images/js_code_on_chrome_console.png)
 
 ### Writing Code on browser Console
-We can write any JavaScript code on google console or any browser console but for this challenge we only focus on google chrome console. Open the console using:
+We can write any JavaScript code on the Google Chrome console or any browser console. However, for this challenge, we only focus on Google Chrome console. Open the console using:
 ```sh
 Mac
 Command+Option+I
@@ -112,7 +112,7 @@ Windows:
 Ctl+Shift+I
 ```
 #### Console.log
-To write our first JavaScript code we used a builtin function **console.log()**. We passed an argument as an input data and the function display the output. We passed 'Hello, World' as input data or argument in the console.log() function.
+To write our first JavaScript code, we used a builtin function **console.log()**. We passed an argument as input data, and the function displays the output. We passed 'Hello, World' as input data or argument in the console.log() function.
 ```js
 console.log('Hello, World!')
 ```
@@ -129,7 +129,7 @@ As you can see from the above snippet code, *console.log()* can take multiple ar
 
 Congratulations! You wrote your first JavaScript code using *console.log()*. 
 #### Comment
-We add comment  to our code. Comment is very important to make code more readable and to leave remark in our code. JavaScript does not execute comment part of our code. Any text starts with // in JavaScript is a comment or any thing enclose like this /*  */ is a comment.
+We add comments to our code. A comment is very important to make the code more readable and to leave a remark in our code. JavaScript does not execute the comment part of our code. Any text starts with // in JavaScript is a comment or anything enclosed like this /* */ is a comment.
 
 Example: Single Line Comment
 
@@ -139,17 +139,17 @@ Example: Single Line Comment
 Example: Multiline Comment
 
   /*
-  This is a multiline comment
-  multiline comment take multiple lines.
-  JavaScript is the language the langauge of the web.
+  This is a multiline comment.
+  Multiline comment take multiple lines.
+  JavaScript is the language of the web.
   */
 
 #### Syntax
-JavaScript is a programming language and it has its own syntax like other languages. If we do not write a syntax which JavaScript understands it will raise different kind of errors. We will see different kind of JavaScript errors later but for now let us see syntax error.
+JavaScript is a programming language. It has its syntax like other programming languages. If we do not write a syntax that JavaScript understands, it will raise different error types. Later in this course, we cover different kinds of JavaScript errors. For now, let us see the syntax error.
 
 ![Error](images/raising_syntax_error.png)
 
-I made a deliberate mistake the console raise a syntax error. Actually, the syntax is very informative. It tell what kind of mistake we made and we can fix the by reading error feedback.  The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
+I made a deliberate mistake. As a result, the console raises a syntax error. Actually, the syntax is very informative. It informs what type of mistake we made. By reading the error feedback guideline, we can correct the syntax and fix the problem. The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
 
 
 ```js
@@ -157,7 +157,7 @@ console.log("Hello, World!")
 console.log('Hello, World!')
 ```
 
-So far, we saw how to display text using a *console.log()*. If we are printing text or string using *console.log()*, the text has to be under single, double or back tick.
+So far, we saw how to display text using a *console.log()*. If we are printing text or string using *console.log()*, the text has to be under the single, double, or backtick.
 **Example:**
 ```js
 console.log("Hello, World!")
@@ -166,8 +166,8 @@ console.log(`Hello, World!`)
 ``` 
 #### Arithmetics
 
-Now, let us practice  more writing JavaScript code using *console.log()* on google chrome console for number data types. 
-In addition to text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations
+Now, let us practice more writing JavaScript codes using *console.log()* on google chrome console for number data types. 
+In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
 
 ![Arithmetic](images/arithmetic.png)
 ```js
@@ -181,15 +181,15 @@ console.log(3 ** 2)  // Exponential
 ``` 
 
 ## Code Editor
-We can write code on the browser console but it won't be for a big project. In real work environment, developers use different code editors to write codes. In this 30 days python JavaScript challenge we will use visual studio code. 
+We can write code on the browser console, but it won't be for a big project. In a real working environment, developers use different code editors to write their codes. In this 30 days python JavaScript challenge, we will use visual studio code. 
 ### Installing Visual Studio Code
-Visual studio code is a very popular open source text editor and I would recommend to [download](https://code.visualstudio.com/) visual studio code, but if you are in favor of other editors, feel free to follow with what you have.
+Visual studio code is a very popular open-source text editor. I would recommend to [download](https://code.visualstudio.com/) visual studio code, but if you are in favor of other editors, feel free to follow with what you have.
 
 ![Vscode](images/vscode.png) 
 
 If you installed visual studio code, let us start using it.
 ### How to use visual studio code
-Open the visual studio code by double clicking the visual studio icon. When you open it you will get this kind of interface. Try to interact with the labelled icons.
+Open the visual studio code by double-clicking the visual studio icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
 
 ![Vscode ui](./images/vscode_ui.png)
 ![Vscode add project](./images/adding_project_to_vscode.png)
@@ -199,7 +199,7 @@ Open the visual studio code by double clicking the visual studio icon. When you 
 ![coding running](./images/launched_on_new_tab.png)
 
 # Adding JavaScript to a web page
-JavaScript can be added to a web page in three ways:
+JavaScript can be added to a web page in three different ways:
 - **_Inline script_**
 - **_Internal script_**
 - **_External script_**
@@ -209,7 +209,7 @@ The following sections show different ways of adding JavaScript code to your web
 
 ## Inline Script
 
-Create a folder on your desktop and  call it 30DaysOfJS or in any location and create an **_index.html_** file in project folder. Then paste the following code and open it in a browser, either in [Chrome](https://www.google.com/chrome/).
+Create a folder on your desktop and  call it 30DaysOfJS or in any location and create an **_index.html_** file in the project folder. Then paste the following code and open it in a browser, either in [Chrome](https://www.google.com/chrome/).
 
 ```html
 <!DOCTYPE html>
@@ -222,11 +222,11 @@ Create a folder on your desktop and  call it 30DaysOfJS or in any location and c
     </body>
   </html>
 ```
-Now, you wrote your first inline script. We can create a pop up alert message using the build in *alert()* function.
+Now, you wrote your first inline script. We can create a pop up alert message using the built-in *alert()* function.
 
 ## Internal script
-Internal script can be written in the _head_ or the _body_ but it is preferred to put it on the body of the html document.
-First let us write on the head part of the page.
+The internal script can be written in the _head_ or the _body_, but it is preferred to put it on the body of the HTML document.
+First, let us write on the head part of the page.
 
 ```html
 <!DOCTYPE html>
@@ -242,7 +242,7 @@ First let us write on the head part of the page.
     </body>
   </html>
 ```
-This is how we write internal script most of the time. Writing the JavaScript code in the body section is the most preferred place. Open the browser console to see the out put from the console.log()
+This is how we write the internal script most of the time. Writing the JavaScript code in the body section is the most preferred place. Open the browser console to see the output from the console.log()
 
 ```html
 <!DOCTYPE html>
@@ -258,12 +258,12 @@ This is how we write internal script most of the time. Writing the JavaScript co
     </body>
   </html>
 ```
-Open the browser console to see the out put from the console.log()
+Open the browser console to see the output from the console.log()
 ![js code from vscode](./images/js_code_vscode.png)
 
 ## External script
-Similar to the internal script, the external script link can be on the header or body but it is preferred to put it in the body.
-First we should create an external JavaScript file with .js extension. Any JavaScript file ends with .js. Create a file introduction.js inside your project directory and write the following code and link this. js file at the bottom of the body
+Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
+First, we should create an external JavaScript file with .js extension. Any JavaScript file ends with .js. Create a file introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
 ```js
 console.log('Welcome to 30DaysOfJavaScript')
 ```
@@ -281,7 +281,7 @@ External script in the head
     </body>
     </html
 ```
-External Script in the body
+External script in the body
 ```html
 <!DOCTYPE html>
   <html>
@@ -295,10 +295,10 @@ External Script in the body
     </body>
     </html
 ```
-Open the browser console to see the out put from the console.log()
+Open the browser console to see the output from the console.log()
 ## Multiple External scripts
 We can link multiple external JavaScript files to a web page.
-Create  helloworld.js file inside 30DaysOfJS folder and write the following code
+Create  helloworld.js file inside 30DaysOfJS folder and write the following code.
 ```js
 console.log('Hello, World!')
 ```
@@ -319,7 +319,7 @@ Your main.js file should be below all other scripts. Watch out your exercise nee
 ![Multiple Script](./images/multiple_script.png)
 
 # Introduction to Data types
-In JavaScript and also other programming languages there are different kinds of data types. The following are JavaScript primitive data types:_String, Number, Boolean, undefined, Null_ and _Symbol_.
+In JavaScript and also other programming languages, there are different kinds of data types. The following are JavaScript primitive data types:_String, Number, Boolean, undefined, Null_, and _Symbol_.
 ## Number
 
     - Integer: Integer(negative, zero and positive) numbers
@@ -330,32 +330,32 @@ In JavaScript and also other programming languages there are different kinds of 
         ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
 ## String
-A collection of one or more characters under a single quote , double quote or back stick.
+A collection of one or more characters under a single quote, double-quote, or backtick.
 **Example:**
 
 ```js
 'Asabeneh'
 'Finland'
-'JavaScript is a beautiful programming language'
-"I love teaching"
-'I hope you are enjoying the first day'
-`We can also create a string using a back tick`
+'JavaScript is a beautiful programming language.'
+"I love teaching."
+'I hope you are enjoying the first day.'
+`We can also create a string using a backtick.`
 ```
 
 ## Booleans
-Boolean value is either true or false. Any comparisons return a boolean value which is either true or false.
+A boolean value is either true or false. Any comparisons return a boolean value, which is either true or false.
 
 A boolean data type is either a True or False value.
 
 **Example:**
 
 ```js
-    true  # if the light on ,the value is true
-    false # if the light off, the value is False
+    true # if the light on, the value is true
+ false # if the light off, the value is False
 ```
 
 ## Undefined
-In JavaScript if we don't assign a value to a variable the value is undefined. In addition to that if a function is not returning anything it returns undefined.
+In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
 
 ```js
 let firstName;
@@ -367,7 +367,7 @@ Null in JavaScript means an empty value.
 
 ## Checking Data types
 
-To check the data type of a certain data type we use the **typeof** operator. See the following example.
+To check the data type of a certain data type, we use the **typeof** operator. See the following example.
 ```js
 console.log(typeof 'Asabeneh') // string
 console.log(typeof 5)          // number
@@ -398,9 +398,9 @@ Multiline commenting:
 ```
 
 # Variables
-Variables are _containers_ of data. Variables _store_ data in a memory location. When a variable is declared a memory location is reserved and when it is assigned to a value, the memory space will be filled with that data. To declare a variable we use, _var_, _let_ or _const_ keywords. I will talk about var, let and const in detail in other section(scope). For now, the above explanation is enough.
+Variables are _containers_ of data. Variables used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
 
-For a variable which changes at different time we use _let_ but if the data doesn't change at all we use _const_. For example PI, country name, gravity do no change and we can use *const*.
+For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do no change, and we can use *const*.
 
 A JavaScript variable name  shouldn't begin with a number
 A JavaScript variable name does not allow special characters except dollar sign and underscore. 
@@ -462,19 +462,19 @@ When you run the files on 01-Day folder you should get this:
 ![Day one](./images/day_1.png)
 
 
-# 💻 Day 1: Exercises
+# ð» Day 1: Exercises
 1. Write a single line comment which says, _comments can make code readable_
 2. Write another single comment which says, *welcome to 30DaysOfJavaScript*
 3. Write a multiline comment which says, _comments can make code readable, easy to use_
    _and informative_
 
-4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
-5. Create datatypes.js file and use the JavaScript ***typeof*** operator to check different data types. Check the data type of each variables
-6. Declare four variables without assigning values
-7. Declare four variables with assigning values
-8. Declare variables to store your first name, last name, marital status, country and age in multiple lines
-9. Declare variables to store your first name, last name, marital status, country and age in a single line
-10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to browser console.
+4. Create a varaible.js file and declare variables and assign string, boolean, undefined, and null data types.
+5. Create datatypes.js file and use the JavaScript ***typeof*** operator, to check different data types. Check the data type of each variable.
+6. Declare four variables without assigning values.
+7. Declare four variables with assigning values.
+8. Declare variables to store your first name, last name, marital status, country, and age in multiple lines.
+9. Declare variables to store your first name, last name, marital status, country and age in a single line.
+10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to the browser console.
    Output:
    ```sh
    I am 25 years old.
