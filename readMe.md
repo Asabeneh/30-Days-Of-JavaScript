@@ -40,7 +40,7 @@
 # Introduction
 **Congratulations** for deciding to participate in a 30 days of JavaScript programming challenge . In this challenge you will learn everything you need to be a JavaScript programmer and in general the whole concepts of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge certificate. Join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
 
-**A 30DaysOfJavaScript** is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the browser.
+**A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. I enjoy using and teaching JavaScript and I hope you will do so. JavaScript is the language of the browser.
 
 In this step by step tutorial, you will learn JavaScript, the most popular programming language in the history of mankind.
 You use JavaScript **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **_machine learning_** and **_AI_**.
@@ -56,7 +56,7 @@ No prior knowledge of programming is required to follow this challenge. You need
 5. Code Editor
 
 # Setup
-I believe you have the motivation, computer and internet. 
+I believe you have the motivation and a strong desire to be a developer, computer and internet. If you have those you have everything. 
 
 ## Install Node.js
 You may not need it right now but you may need it for later. Install [node.js](https://nodejs.org/en/).
@@ -67,7 +67,7 @@ After downloading double click and install
 
  ![Install node](images/install_node.png)
 
-We can check if node is installed in our machine by opening our device terminal or command  prompt.
+We can check if node is installed in our local machine by opening our device terminal or command  prompt.
 
 ```sh
 asabeneh $ node -v
@@ -78,9 +78,12 @@ I am using node version 12.14.0 which is the recommended version of node.
 ## Browser
 There are many browsers out there but I strongly recommend Google Chrome.
 ### Installing Google Chrome
-Install [google chrome](https://www.google.com/chrome/) if you do not have one yet. We can write small JavaScript code on the browser console but we can not use the browser console to develop applications.
+Install [google chrome](https://www.google.com/chrome/) if you do not have one yet. We can write small JavaScript code on the browser console but we do not use the browser console to develop applications.
+
+![Google Chrome](images/google_chrome.png)
+
 ### Opening Google Chrome Console
-You can open the google chrome either by clicking three dots at the top right corner of chrome or using short cut. I prefer short cuts.
+You can open the google chrome either by clicking three dots at the top right corner of chrome browser or using a shortcut. I prefer using shortcuts.
 ![Opening chrome](images/opening_developer_tool.png)
 
 
@@ -109,7 +112,7 @@ Windows:
 Ctl+Shift+I
 ```
 #### Console.log
-To write our first JavaScript code we used a builtin function **console.log()**. We passed an argument as an input data and the function display the output. We passed 'Hello, World' as input data or argument in the condole.log() function.
+To write our first JavaScript code we used a builtin function **console.log()**. We passed an argument as an input data and the function display the output. We passed 'Hello, World' as input data or argument in the console.log() function.
 ```js
 console.log('Hello, World!')
 ```
@@ -256,7 +259,7 @@ This is how we write internal script most of the time. Writing the JavaScript co
   </html>
 ```
 Open the browser console to see the out put from the console.log()
-![js code from vscode](./imas/js_code_ve)
+![js code from vscode](./images/js_code_vscode.png)
 
 ## External script
 Similar to the internal script, the external script link can be on the header or body but it is preferred to put it in the body.
@@ -295,7 +298,7 @@ External Script in the body
 Open the browser console to see the out put from the console.log()
 ## Multiple External scripts
 We can link multiple external JavaScript files to a web page.
-Create  helloword.js file inside 30DaysOfJS folder and write the following code
+Create  helloworld.js file inside 30DaysOfJS folder and write the following code
 ```js
 console.log('Hello, World!')
 ```
@@ -312,7 +315,7 @@ console.log('Hello, World!')
     </body
     </html
 ```
-You main.js file should be below all other scripts. Watch out your exercise needs to understand this line.
+Your main.js file should be below all other scripts. Watch out your exercise needs to understand this line.
 ![Multiple Script](./images/multiple_script.png)
 
 # Introduction to Data types
@@ -347,7 +350,7 @@ A boolean data type is either a True or False value.
 **Example:**
 
 ```js
-    true  #  if the light on ,the value is true
+    true  # if the light on ,the value is true
     false # if the light off, the value is False
 ```
 
@@ -364,7 +367,7 @@ Null in JavaScript means an empty value.
 
 ## Checking Data types
 
-To check the data type of a certain data type we use the **typeOf** operator. See the following example.
+To check the data type of a certain data type we use the **typeof** operator. See the following example.
 ```js
 console.log(typeof 'Asabeneh') // string
 console.log(typeof 5)          // number
@@ -395,13 +398,13 @@ Multiline commenting:
 ```
 
 # Variables
-Variables are _containers_ of data. Variables _store_ data in a memory location. When a variable is declared a memory location is reserved and when it is assigned to a value, the memory space will be filled with that data. To declare a variable we use, _var_, _let_ or _const_ key words. I will talk about var, let and const in detail in other section(scope). For now, the above explanation is enough.
+Variables are _containers_ of data. Variables _store_ data in a memory location. When a variable is declared a memory location is reserved and when it is assigned to a value, the memory space will be filled with that data. To declare a variable we use, _var_, _let_ or _const_ keywords. I will talk about var, let and const in detail in other section(scope). For now, the above explanation is enough.
 
 For a variable which changes at different time we use _let_ but if the data doesn't change at all we use _const_. For example PI, country name, gravity do no change and we can use *const*.
 
 A JavaScript variable name  shouldn't begin with a number
 A JavaScript variable name does not allow special characters except dollar sign and underscore. 
-A JavaScript variable name follow a camelCase convention.
+A JavaScript variable name follows a camelCase convention.
 A JavaScript variable name shouldn't have space between words. The following are valid examples of JavaScript variables.
 
 Valid variables in JavaScript:
@@ -423,8 +426,8 @@ Valid variables in JavaScript:
     num_1
     _num_1
     $num1
-    year2019
-    year_2019
+    year2020
+    year_2020
 ```
 Camel case or the first way of declaring is conventional in JavaScript. In this material, camelCase variables will be used.
 
@@ -456,7 +459,7 @@ let name = 'Asabeneh', //name of a person
 console.log(name, job, live);
 ```
 When you run the files on 01-Day folder you should get this:
-![Day one](./images/day-1.png)
+![Day one](./images/day_1.png)
 
 
 # 💻 Day 1: Exercises
