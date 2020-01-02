@@ -429,7 +429,7 @@ Valid variables in JavaScript:
 Camel case or the first way of declaring is conventional in JavaScript. In this material, camelCase variables will be used.
 
 Invalid variable:
-```js
+```sh
   first-name
   1_num
   num_#_1
