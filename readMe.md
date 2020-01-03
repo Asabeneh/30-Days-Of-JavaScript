@@ -1,7 +1,7 @@
 ##  Table of Contents
 ![Thirty Days Of JavaScript](./images/30DaysOfJavaScript.png)
 
-- [📔 Day 1](#%f0%9f%93%94-day-1)
+- [📔Day 1](#%f0%9f%93%94day-1)
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Setup](#setup)
@@ -49,7 +49,7 @@
 
 
 
-# 📔 Day 1
+# 📔Day 1
 # Introduction
 **Congratulations** for deciding to participate in a 30 days of JavaScript programming challenge . In this challenge you will learn everything you need to be a JavaScript programmer and in general the whole concepts of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge certificate. Join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
 
@@ -798,7 +798,7 @@ console.log(country.toLowerCase())   // finland
 5. *substr()*: It takes two arguments,the starting index and number of characters to slice.
 ```js
 let string = 'JavaScript'
-console.log(string.substr(4,6)     // Script
+console.log(string.substr(4,6))    // Script
 let country = 'Finland'
 console.log(country.substr(3, 4))   // land
 
@@ -807,9 +807,9 @@ console.log(country.substr(3, 4))   // land
 
 ```js
 let string = 'JavaScript'
-console.log(string.substring(0,4)     // Java
-console.log(string.substring(4,10)     // Script
-console.log(string.substring(4)     // Script
+console.log(string.substring(0,4))    // Java
+console.log(string.substring(4,10))    // Script
+console.log(string.substring(4))    // Script
 let country = 'Finland'
 console.log(country.substring(0, 3))   // Fin
 console.log(country.substring(3, 7))   // land
@@ -1009,7 +1009,7 @@ let regEx = /\d+/ // d with escape character means d not a normal d instead acts
 console.log(text.match(regEx)) // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
 console.log(text.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
-1.  *repeat()*: it takes a number argument and it returned the repeated version of the string.
+20.  *repeat()*: it takes a number argument and it returned the repeated version of the string.
 ```js
 string.repeat(n)
 ```
@@ -1215,7 +1215,7 @@ Boolean value is either true or false.
 
 ## Exercises: Comparison Operators
 
-Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it by checking using console.log()
+Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it  using console.log()
 
 1. 4 > 3
 1. 4 >= 3
@@ -1230,7 +1230,7 @@ Figure out the result of the following comparison expression first without using
 1. 4 === '4'
 
 ## Exercises: Logical Operators
-Figure out the result of the following expressions first without using console.log() After you decide the result confirm it by checking using console.log()
+Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
 1. 4 > 3 && 10 < 12
 1. 4 > 3 && 10 > 12
 1. 4 > 3 || 10 < 12
