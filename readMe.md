@@ -146,15 +146,15 @@ We add comments to our code. Comments are very important to make code more reada
 
 Example: Single Line Comment
 
- // This is the first comment.
- // This is the second comment.
- // I am a single line comment.
+ // This is the first comment
+ // This is the second comment
+ // I am a single line comment
 Example: Multiline Comment
 
   /*
-  This is a multiline comment.
-  Multiline comments can take multiple lines.
-  JavaScript is the language of the web.
+  This is a multiline comment
+  Multiline comments can take multiple lines
+  JavaScript is the language of the web
   */
 
 #### Syntax
@@ -349,10 +349,10 @@ A collection of one or more characters under a single quote, double-quote, or ba
 ```js
 'Asabeneh'
 'Finland'
-'JavaScript is a beautiful programming language.'
-"I love teaching."
-'I hope you are enjoying the first day.'
-`We can also create a string using a backtick.`
+'JavaScript is a beautiful programming language'
+"I love teaching"
+'I hope you are enjoying the first day'
+`We can also create a string using a backtick`
 ```
 
 ## Booleans
