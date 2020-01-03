@@ -1179,7 +1179,7 @@ let isMarried = !false; // -> true
 10. Split the __string__ into __array__ using __split()__ method
 11. Split the string 30 Days Of JavaScript at the space using __split()__ method
 12. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' __split__ the string at the comma and change it to an array.
-13. Change 30 Days Of JavaScript to Microsoft Academy using __replace()__ method.
+13. Change 30 Days Of JavaScript to 30 Days Of Python using __replace()__ method.
 14. What is character at index 15 in '30 Days Of JavaScript' string use __charAt()__ method.
 15. What is the character code of J in '30 Days Of JavaScript' string using __charCodeAt()__
 16. Use __indexOf__ to determine the position of the first occurrence of a in 30 Days Of JavaScript
