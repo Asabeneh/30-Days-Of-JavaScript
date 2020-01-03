@@ -1118,13 +1118,13 @@ console.log(2 < 3)     // true, because 2 is less than 3
 console.log(2 <= 3)    // true, because 2 is less than 3
 console.log(3 == 2)    // false, because 3 is not equal to 2
 console.log(3 != 2)    // true, because 3 is not equal to 2
-console.log(len('mango') == len('avocado'))  // false
-console.log(len('mango') != len('avocado'))  // true
-console.log(len('mango') < len('avocado'))   // true
-console.log(len('milk') != len('meat'))      // false
-console.log(len('milk') == len('meat'))      // true
-console.log(len('tomato') == len('potato'))  // true
-console.log(len('python') > len('dragon'))   // false
+console.log('mango'.length == 'avocado'.length)  // false
+console.log('mango'.length != 'avocado'.length)  // true
+console.log('mango'.length < 'avocado'.length)   // true
+console.log('milk'.length != 'meat'.length)      // false
+console.log('milk'.length == 'meat'.length)      // true
+console.log('tomato'.length == 'potato'.length)  // true
+console.log('python'.length > 'dragon'.length)   // false
 
 4 > 3;
 4 >= 4;
