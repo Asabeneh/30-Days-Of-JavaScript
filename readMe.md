@@ -43,21 +43,9 @@
     - [Concatenating using addition operator](#concatenating-using-addition-operator)
     - [Template Literals(Template Strings)](#template-literalstemplate-strings)
   - [String Methods](#string-methods)
-- [Booleans](#booleans-1)
-    - [Undefined](#undefined-1)
-    - [Null](#null-1)
-- [Operators](#operators)
-  - [Assignment operators](#assignment-operators)
-  - [Arithmetic Operators](#arithmetic-operators)
-  - [Comparison Operators](#comparison-operators)
-  - [Logical Operators](#logical-operators)
-- [💻 Day 2: Exercises](#%f0%9f%92%bb-day-2-exercises)
-  - [String Part](#string-part)
-  - [Data types Part](#data-types-part)
-  - [Arithmetic Operators Part](#arithmetic-operators-part)
-  - [Booleans Part](#booleans-part)
-  - [Comparison Operators](#comparison-operators-1)
-  - [Logical Operators](#logical-operators-1)
+  - [Exercises: Booleans Part](#exercises-booleans-part)
+  - [Exercises: Comparison Operators](#exercises-comparison-operators)
+  - [Exercises: Logical Operators](#exercises-logical-operators)
 
 
 
@@ -828,7 +816,7 @@ console.log(country.substring(3, 7))   // land
 console.log(country.substring(3))   // land
 
 ```
-7. *split(): The split method splits a string at a specified place.
+7. *split()*: The split method splits a string at a specified place.
 
 ```js
 let string = '30 Days Of JavaScipt'
@@ -926,7 +914,7 @@ console.log(string.indexOf('script'))     // -1
 ```
 14. *lastIndexOf()*: Takes takes a substring and if the substring exists in a string it returns the last position of the substring if it does not exist it returns -1
 ```js
-string.charCodeAt(index)
+string.lastIndexOf(index)
 ```
 ```js
 let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
@@ -936,9 +924,9 @@ console.log(string.lastIndexOf('JavaScript')) // 38
 
 ```
 
-15.  *concat()*: it takes many substrings and creates concatenation.
+15. *concat()*: it takes many substrings and creates concatenation.
 ```js
-string.concate(substring, substring, substring)
+string.concat(substring, substring, substring)
 ```
 ```js
 let string = '30'
@@ -948,7 +936,7 @@ console.log(country.concat("land")) // Finland
 
 ```
 
-16.   *startsWith*: it takes a substring as an argument and it checks if the string starts with that specified substring. It returns a boolean(true or false).
+16. *startsWith*: it takes a substring as an argument and it checks if the string starts with that specified substring. It returns a boolean(true or false).
 ```js
 string.startsWith(substring)
 ```
@@ -964,7 +952,7 @@ console.log(country.startsWith('fin')) // false
 console.log(country.startsWith('land')) //  false
 
 ```
-17.   *endsWith*: it takes a substring as an argument and it checks if the string starts with that specified substring. It returns a boolean(true or false).
+17. *endsWith*: it takes a substring as an argument and it checks if the string starts with that specified substring. It returns a boolean(true or false).
 ```js
 string.endsWith(substring)
 ```
@@ -980,16 +968,16 @@ console.log(country.endsWith('fin')) // false
 console.log(country.endsWith('Fin')) //  false
 
 ```
-18.    *search*: it takes a substring as an argument and it returns the index of the first match.
+18. *search*: it takes a substring as an argument and it returns the index of the first match.
 ```js
-string.serch(substring)
+string.search(substring)
 ```
 ```js
 let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
 console.log(string.search('love')) // 2
 
 ```
-19.     *match*: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign. 
+19. *match*: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign. 
   ```js
   let string = 'love'
   let patternOne = /love/ // with out any flag
@@ -1021,6 +1009,13 @@ let regEx = /\d+/ // d with escape character means d not a normal d instead acts
 console.log(text.match(regEx)) // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
 console.log(text.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
+1.  *repeat()*: it takes a number argument and it returned the repeated version of the string.
+```js
+string.repeat(n)
+```
+```js
+let string = 'love'
+console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
 
 # Booleans
 
@@ -1121,7 +1116,9 @@ console.log(3 != 2)    // true, because 3 is not equal to 2
 console.log(3 == '3')    // true, compare only value
 console.log(3 === '3')    // false, compare both value and data type
 console.log(3 !== '3')    // true, compare both value and data type
-console.log(3 != '3')    // false, compare only value
+console.log(3 !== '3')    // true, compare both value and data type
+console.log(3 != 3)    // false, compare only value
+console.log(3 !== 3)    // false, compare both value and data type
 
 console.log('mango'.length == 'avocado'.length)  // false
 console.log('mango'.length != 'avocado'.length)  // true
@@ -1160,7 +1157,7 @@ let isMarried = !false; // -> true
 
 # 💻  Day 2: Exercises
 
-## String Part
+## Exercises: String Part
 
 1. Declare a variable name challenge and assign it to an initial value **'30 Days Of JavaScript'**.
 2. Print the string on the browser console using __console.log()__
@@ -1193,14 +1190,13 @@ let isMarried = !false; // -> true
 29. Calculate the total annual income of the person by extract the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
 30. Clean the following text and find the most frequent word(hint, use replace and regular express).
 ```js
-    sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is also $the $result of &love& of tea&ching'
+    const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is also $the $result of &love& of tea&ching'
 ```
-## Data types Part
-
-String, number, boolean, null, undefined and symbol(ES6) are JavaScript primitive data types.
+## Exercises: Data types Part
+1. Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it
 
 1. The JavaScript typeof operator uses to check different data types. Check the data type of each variables from question number 1.
-2. 
+   
 ## Arithmetic Operators Part
 JavaScript arithmetic operators are addition(+), subtraction(-), multiplication(\*), division(/), modulus(%), increment(++) and decrement(--).
 
@@ -1210,7 +1206,7 @@ let operandTwo = 3;
 ```
 Using the above operands apply different JavaScript arithmetic operations.
 
-## Booleans Part
+## Exercises: Booleans Part
 
 Boolean value is either true or false.
 
@@ -1230,7 +1226,7 @@ Boolean value is either true or false.
    1. 4 == '4'
    1. 4 === '4'
 
-## Comparison Operators
+## Exercises: Comparison Operators
 
 Boolean value is either true or false. Any comparison return a boolean either true or false.
 Use all the following comparison operators to compare the following values: >, < >=, <=, !=, !==,===.
@@ -1248,7 +1244,7 @@ Which are true or which are false ?
 1. 4 == '4'
 1. 4 === '4'
 
-## Logical Operators
+## Exercises: Logical Operators
 
 Which are true or which are false ?
 
