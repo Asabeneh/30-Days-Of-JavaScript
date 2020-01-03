@@ -2,55 +2,71 @@
 ![Thirty Days Of JavaScript](./images/30DaysOfJavaScript.png)
 
 - [📔Day 1](#%f0%9f%93%94day-1)
-- [Introduction](#introduction)
-- [Requirements](#requirements)
-- [Setup](#setup)
-  - [Install Node.js](#install-nodejs)
-  - [Browser](#browser)
-    - [Installing Google Chrome](#installing-google-chrome)
-    - [Opening Google Chrome Console](#opening-google-chrome-console)
-    - [Writing Code on browser Console](#writing-code-on-browser-console)
-      - [Console.log](#consolelog)
-      - [Console.log with multiple arguments](#consolelog-with-multiple-arguments)
-      - [Comment](#comment)
-      - [Syntax](#syntax)
+  - [Introduction](#introduction)
+  - [Requirements](#requirements)
+  - [Setup](#setup)
+    - [Install Node.js](#install-nodejs)
+    - [Browser](#browser)
+      - [Installing Google Chrome](#installing-google-chrome)
+      - [Opening Google Chrome Console](#opening-google-chrome-console)
+      - [Writing Code on browser Console](#writing-code-on-browser-console)
+        - [Console.log](#consolelog)
+        - [Console.log with multiple arguments](#consolelog-with-multiple-arguments)
+        - [Comment](#comment)
+        - [Syntax](#syntax)
       - [Arithmetics](#arithmetics)
-  - [Code Editor](#code-editor)
-    - [Installing Visual Studio Code](#installing-visual-studio-code)
-    - [How to use visual studio code](#how-to-use-visual-studio-code)
-- [Adding JavaScript to a web page](#adding-javascript-to-a-web-page)
-  - [Inline Script](#inline-script)
-  - [Internal script](#internal-script)
-  - [External script](#external-script)
-  - [Multiple External scripts](#multiple-external-scripts)
-- [Introduction to Data types](#introduction-to-data-types)
-  - [Number](#number)
-  - [String](#string)
-  - [Booleans](#booleans)
-  - [Undefined](#undefined)
-  - [Null](#null)
+    - [Code Editor](#code-editor)
+      - [Installing Visual Studio Code](#installing-visual-studio-code)
+      - [How to use visual studio code](#how-to-use-visual-studio-code)
+  - [Adding JavaScript to a web page](#adding-javascript-to-a-web-page)
+    - [Inline Script](#inline-script)
+    - [Internal script](#internal-script)
+    - [External script](#external-script)
+    - [Multiple External scripts](#multiple-external-scripts)
+  - [Introduction to Data types](#introduction-to-data-types)
+    - [Number](#number)
+    - [String](#string)
+    - [Booleans](#booleans)
+    - [Undefined](#undefined)
+    - [Null](#null)
   - [Checking Data types](#checking-data-types)
-- [Comments](#comments)
-- [Variables](#variables)
+  - [Comments](#comments)
+  - [Variables](#variables)
 - [💻 Day 1: Exercises](#%f0%9f%92%bb-day-1-exercises)
 - [📔 Day 2](#%f0%9f%93%94-day-2)
-- [Data types](#data-types)
-- [Numbers](#numbers)
-  - [Declaring number data types](#declaring-number-data-types)
-  - [Math Object](#math-object)
-- [Strings](#strings)
-  - [String Concatenation](#string-concatenation)
-    - [Concatenating using addition operator](#concatenating-using-addition-operator)
-    - [Template Literals(Template Strings)](#template-literalstemplate-strings)
-  - [String Methods](#string-methods)
+  - [Data types](#data-types)
+    - [Primitive Data Types](#primitive-data-types)
+    - [Non-Primitive Data Types](#non-primitive-data-types)
+  - [Numbers](#numbers)
+    - [Declaring number data types](#declaring-number-data-types)
+    - [Math Object](#math-object)
+  - [Strings](#strings)
+    - [String Concatenation](#string-concatenation)
+      - [Concatenating using addition operator](#concatenating-using-addition-operator)
+      - [Template Literals(Template Strings)](#template-literalstemplate-strings)
+    - [String Methods](#string-methods)
+  - [Booleans](#booleans-1)
+  - [Undefined](#undefined-1)
+  - [Null](#null-1)
+  - [Operators](#operators)
+    - [Assignment operators](#assignment-operators)
+    - [Arithmetic Operators](#arithmetic-operators)
+    - [Comparison Operators](#comparison-operators)
+    - [Logical Operators](#logical-operators)
+    - [Increment Operator](#increment-operator)
+    - [Decrement Operator](#decrement-operator)
+    - [Operator Precendence](#operator-precendence)
+- [💻 Day 2: Exercises](#%f0%9f%92%bb-day-2-exercises)
+  - [Exercises: String Part](#exercises-string-part)
+  - [Exercises: Data types Part](#exercises-data-types-part)
+  - [Exercises: Arithmetic Operators Part](#exercises-arithmetic-operators-part)
   - [Exercises: Booleans Part](#exercises-booleans-part)
   - [Exercises: Comparison Operators](#exercises-comparison-operators)
   - [Exercises: Logical Operators](#exercises-logical-operators)
 
 
-
 # 📔Day 1
-# Introduction
+## Introduction
 **Congratulations** for deciding to participate in a 30 days of JavaScript programming challenge . In this challenge you will learn everything you need to be a JavaScript programmer and in general the whole concepts of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge certificate. Join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
 
 **A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. I enjoy using and teaching JavaScript and I hope you will do so. JavaScript is the language of the browser.
@@ -60,7 +76,7 @@ You use JavaScript **_to add interactivity to websites, to develop mobile apps, 
 **_JavaScript (JS)_** has increased in popularity in recent years and has been the leading
 programming language for four consecutive years and is the most used programming language on
 Github.
-# Requirements
+## Requirements
 No prior knowledge of programming is required to follow this challenge. You need only:
 1. Motivation
 2. Computer
@@ -68,10 +84,10 @@ No prior knowledge of programming is required to follow this challenge. You need
 4. Browser
 5. Code Editor
 
-# Setup
+## Setup
 I believe you have the motivation and a strong desire to be a developer, computer and Internet. If you have those, then you have everything. 
 
-## Install Node.js
+### Install Node.js
 You may not need it right now but you may need it for later. Install [node.js](https://nodejs.org/en/).
 
 ![Node download](images/download_node.png)
@@ -88,14 +104,14 @@ v12.14.0
 ```
 I am using node version 12.14.0, which is the recommended version of node.
 
-## Browser
+### Browser
 There are many browsers out there. However, I strongly recommend Google Chrome.
-### Installing Google Chrome
+#### Installing Google Chrome
 Install [google chrome](https://www.google.com/chrome/) if you do not have one yet. We can write small JavaScript code on the browser console, but we do not use the browser console to develop applications.
 
 ![Google Chrome](images/google_chrome.png)
 
-### Opening Google Chrome Console
+#### Opening Google Chrome Console
 You can open Google Chrome either by clicking three dots at the top right corner of the Chrome browser or using a shortcut. I prefer using shortcuts.
 ![Opening chrome](images/opening_developer_tool.png)
 
@@ -115,7 +131,7 @@ Let us write a JavaScript code on the Google Chrome console:
 
 ![write code on console](./images/js_code_on_chrome_console.png)
 
-### Writing Code on browser Console
+#### Writing Code on browser Console
 We can write any JavaScript code on the Google console or any browser console. However, for this challenge, we only focus on Google Chrome console. Open the console using:
 ```sh
 Mac
@@ -124,12 +140,12 @@ Command+Option+I
 Windows:
 Ctl+Shift+I
 ```
-#### Console.log
+##### Console.log
 To write our first JavaScript code, we used a builtin function **console.log()**. We passed an argument as input data, and the function displays the output. We passed 'Hello, World' as input data or argument in the console.log() function.
 ```js
 console.log('Hello, World!')
 ```
-#### Console.log with multiple arguments
+##### Console.log with multiple arguments
 The console.log(param1, param2, param3), can take multiple arguments.
 ![console log multiple arguments](./images/console_log_multipl_arguments.png)
 
@@ -141,7 +157,7 @@ console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
 As you can see from the above snippet code, *console.log()* can take multiple arguments.
 
 Congratulations! You wrote your first JavaScript code using *console.log()*. 
-#### Comment
+##### Comment
 We add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. Any text starts with // in JavaScript is a comment or anything enclose like this /* */ is a comment.
 
 Example: Single Line Comment
@@ -157,7 +173,7 @@ Example: Multiline Comment
   JavaScript is the language of the web
   */
 
-#### Syntax
+##### Syntax
 JavaScript is a programming language. As a result, it has its syntax like other programming languages. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
 
 ![Error](images/raising_syntax_error.png)
@@ -193,15 +209,15 @@ console.log(3 ** 2)  // Exponential
 
 ``` 
 
-## Code Editor
+### Code Editor
 We can write our codes on the browser console, but it won't be for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days python JavaScript challenge, we will use visual studio code. 
-### Installing Visual Studio Code
+#### Installing Visual Studio Code
 VVisual studio code is a very popular open-source text editor.  I would recommend to [download](https://code.visualstudio.com/) visual studio code, but if you are in favor of other editors, feel free to follow with what you have.
 
 ![Vscode](images/vscode.png) 
 
 If you installed visual studio code, let us start using it.
-### How to use visual studio code
+#### How to use visual studio code
 Open the visual studio code by double-clicking the visual studio icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
 
 ![Vscode ui](./images/vscode_ui.png)
@@ -211,7 +227,7 @@ Open the visual studio code by double-clicking the visual studio icon. When you 
 ![running script](./images/running_script.png)
 ![coding running](./images/launched_on_new_tab.png)
 
-# Adding JavaScript to a web page
+## Adding JavaScript to a web page
 JavaScript can be added to a web page in three different ways:
 - **_Inline script_**
 - **_Internal script_**
@@ -220,7 +236,7 @@ JavaScript can be added to a web page in three different ways:
 
 The following sections show different ways of adding JavaScript code to your web page.
 
-## Inline Script
+### Inline Script
 
 Create a folder on your desktop and  call it 30DaysOfJS or in any location and create an **_index.html_** file in the project folder. Then paste the following code and open it in a browser, either in [Chrome](https://www.google.com/chrome/).
 
@@ -237,7 +253,7 @@ Create a folder on your desktop and  call it 30DaysOfJS or in any location and c
 ```
 Now, you wrote your first inline script. We can create a pop up alert message using the built-in *alert()* function.
 
-## Internal script
+### Internal script
 The internal script can be written in the _head_ or the _body_, but it is preferred to put it on the body of the HTML document.
 First, let us write on the head part of the page.
 
@@ -274,7 +290,7 @@ This is how we write the internal script most of the time. Writing the JavaScrip
 Open the browser console to see the output from the console.log()
 ![js code from vscode](./images/js_code_vscode.png)
 
-## External script
+### External script
 Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
 First, we should create an external JavaScript file with .js extension. Any JavaScript file ends with .js. Create a file introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
 ```js
@@ -309,7 +325,7 @@ External scripts in the body
     </html
 ```
 Open the browser console to see the output from the console.log()
-## Multiple External scripts
+### Multiple External scripts
 We can link multiple external JavaScript files to a web page.
 Create a helloworld.js file inside the 30DaysOfJS folder and write the following code.
 ```js
@@ -331,9 +347,10 @@ console.log('Hello, World!')
 Your main.js file should be below all other scripts. Watch out your exercise needs to understand this line.
 ![Multiple Script](./images/multiple_script.png)
 
-# Introduction to Data types
+## Introduction to Data types
 In JavaScript and also other programming languages, there are different kinds of data types. The following are JavaScript primitive data types:_String, Number, Boolean, undefined, Null_, and _Symbol_.
-## Number
+
+### Number
 
     - Integer: Integer(negative, zero and positive) numbers
         Example:
@@ -342,7 +359,7 @@ In JavaScript and also other programming languages, there are different kinds of
         Example
         ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
-## String
+### String
 A collection of one or more characters under a single quote, double-quote, or backtick.
 **Example:**
 
@@ -355,7 +372,7 @@ A collection of one or more characters under a single quote, double-quote, or ba
 `We can also create a string using a backtick`
 ```
 
-## Booleans
+### Booleans
 A boolean value is either true or false. Any comparisons return a boolean value, which is either true or false.
 
 A boolean data type is either a True or False value.
@@ -367,7 +384,7 @@ A boolean data type is either a True or False value.
     false # if the light off, the value is False
 ```
 
-## Undefined
+### Undefined
 In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
 
 ```js
@@ -375,7 +392,7 @@ let firstName;
 console.log(firstName); //not defined, because it is not assigned to a value yet
 ```
 
-## Null
+### Null
 Null in JavaScript means an empty value.
 
 ## Checking Data types
@@ -389,7 +406,7 @@ console.log(typeof null)      // object type
 console.log(typeof undefined)  // undefined
 ```
 
-# Comments
+## Comments
 Commenting in JavaScript is similar to other programming languages. Comments are important in making your make code more readable.
 There are two ways of commenting:
 - _Single line commenting_
@@ -410,7 +427,7 @@ Multiline commenting:
     */
 ```
 
-# Variables
+## Variables
 Variables are _containers_ of data. Variables used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
 
 For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do no change, and we can use *const*.
@@ -502,11 +519,12 @@ When you run the files on 01-Day folder you should get this:
    ```
 
 # 📔 Day 2
-# Data types
+## Data types
 In the previous section, we mentioned a little bit about data types. Data or values have data types. Data types describe the characteristics of data. Data types can be divided into two
 1. Primitive data types
 2. Non-primitive data types(Object References)
 
+### Primitive Data Types
 
 Primitive data types in JavaScript includes:
  1. Numbers
@@ -545,7 +563,7 @@ let lightOn = true
 let lightOff = false
 console.log(lightOn == lightOff) // false
 ```
-
+### Non-Primitive Data Types
 *Non-primitive* data types are modifiable or mutable. We can modify the value of non-primitive data types after it gets created. 
 Let us see by creating an array. An array is a list of data values in a square bracket. Arrays can contain the same or different data types. Array values are referenced by their index. In JavaScript array index starts at zero. I.e., the first element of an array is found at index zero, the second element at index one, and the third element at index two, etc.
 ```js
@@ -588,11 +606,11 @@ console.log(userOne == userTwo)  // true
 ```
 If you have a hard time understanding the difference between primitive data types and non-primitive data types, you are not the only one. Calm down and just go to the next section and try to come back after some time. Now let us start the data types by number type. 
 
-# Numbers
+## Numbers
 Numbers are integers and decimal values which can do all the arithmetic operations.
 Lets' see some examples of Numbers.
 
-## Declaring number data types
+### Declaring number data types
 
 ```js
 let age = 35
@@ -605,7 +623,7 @@ const boilingPoint = 100 // temperature in oC, boiling point of water which is a
 const bodyTemp = 37 // oC average human body temperature, which is a constant
 console.log(age, gravity, mass, PI, boilingPoint, bodyTemp)
 ```
-## Math Object
+### Math Object
 In JavaScript the Math Object provides a lots of methods to work with numbers.
 ```js
 const PI = Math.PI
@@ -645,7 +663,7 @@ Math.cos(0)
 Math.cos(60)
 ```
 
-# Strings
+## Strings
 
 Strings are texts, which are under **_single_** or **_double_** quote. To declare a string, we need a variable name, assignment operator, a value under a single quote, double-quote, or backtick.
 Lets' see some examples of string:
@@ -660,7 +678,7 @@ let language = 'JavaScript'
 let job = 'teacher'
 ```
 
-## String Concatenation
+### String Concatenation
 Connect two or more strings together is called concatenation. 
 
 ```js
@@ -683,7 +701,7 @@ console.log(fullName);
 Asabeneh Yetayeh
 ```
 We can concatenate string in different ways. 
-### Concatenating using addition operator
+#### Concatenating using addition operator
 Concatenating using the addition operator is an old way. This way of concatenating is tedious and error-prone. It is good to know how to concatenate this way, but I strongly suggest to use the second way.
 ```js
 // Declaring different variables of different data types
@@ -702,7 +720,7 @@ console.log(personInfoOne)
 ```sh
 Asabeneh Yetayeh. I am 250. I live in Finland
 ```
-### Template Literals(Template Strings)
+#### Template Literals(Template Strings)
 To create a template string, we use back two backticks. We can inject data as expression inside a template string. To inject data, we enclose the expression with a curly bracket({}) followed by a $ sign. See the syntax below.
 ```js
 //Syntax
@@ -746,7 +764,7 @@ console.log(`${a} is greater than ${b}: ${a > b}`)
 ```sh
 2 is greater than 3: false
 ```
-## String Methods
+### String Methods
 Everything in JavaScript is an object. A string is a primitive data type that means we can not modify once it is created. The string object has many string methods. There are differnt string methods that can help us to work with strings.
 
 1. *length*: The string *length* method returns the number of characters in a string included empty space.
@@ -1016,8 +1034,9 @@ string.repeat(n)
 ```js
 let string = 'love'
 console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
+```
 
-# Booleans
+## Booleans
 
 A boolean data type represents one of the two values:_true_ or _false_. Boolean value is either true or false. The use of these data types will be clear when you start the comparison operator.  Any comparisons return a boolean value which is either true or false. 
 
@@ -1029,7 +1048,7 @@ let isHungery = false;
 let isMarried = true;
 ```
 
-### Undefined
+## Undefined
 If we declare a variable and if we do not assign a value, the value will be undefined. In addition to this, if a function is not returning the value will be undefined.
 
 ```js
@@ -1037,23 +1056,27 @@ let firstName;
 console.log(firstName); //not defined, because it is not assigned to a value yet
 ```
 
-### Null
+## Null
 
 ```js
 let empty = null;
 console.log(empty); // -> null , means no value
 ```
 
-# Operators
+## Operators
 
-##  Assignment operators
+###  Assignment operators
 An equal sign in JavaScript is an assignment operator. It uses to assign a variable.
 ```js
 let firstName = 'Asabeneh'
 let country = 'Finland'
-```
-## Arithmetic Operators
 
+```
+Assignment Operators
+
+![Assignment operators](images/assignment_operators.png)
+
+### Arithmetic Operators
 Arithmetic operators are mathematical operators.
 - Addition(+): a + b
 - Subtraction(-): a - b
@@ -1098,7 +1121,7 @@ console.log(
   `The boiling point of water is ${boilingPoint} oC.\nHuman body temperature is ${bodyTemp} oC.\nThe gravity of earth is ${gravity} m / s2.`
 );
 ```
-## Comparison Operators
+### Comparison Operators
 
 In programming we compare values, we use comparison operators to compare two values. We check if a value is greater or less or equal to other value. 
 
@@ -1129,7 +1152,7 @@ console.log('tomato'.length == 'potato'.length)  // true
 console.log('python'.length > 'dragon'.length)   // false
 ```
 
-## Logical Operators
+### Logical Operators
 
 The following symbols are the common logical operators:
 &&(ampersand) , ||(pipe) and !(negation).
@@ -1153,10 +1176,39 @@ let isLightOn = true;
 let isLightOff = !isLightOn; // -> false
 let isMarried = !false; // -> true
 ```
+### Increment Operator
+In JavaScrip we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
+1. Pre-increment
+```js
+let count = 0
+console.log(++count) // 1
+console.log(count)    // 1
+```
+2. Post-increment
+```js
+let count = 0
+console.log(count++) // 0
+console.log(count)    // 1
+```
+We use most of the time post-increment. At leas you should remember how to use post-increment operator.
+### Decrement Operator
+In JavaScrip we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement. Let us see each of them:
+1. Pre-decrement
+```js
+let count = 0
+console.log(--count) // -1
+console.log(count)    // -1
+```
+2. Post-decrement
+```js
+let count = 0
+console.log(count--) // 0
+console.log(count)    // -1
+```
+### Operator Precendence
+I would like to recommend you to read about operator precendence from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 
-
-# 💻  Day 2: Exercises
-
+# 💻 Day 2: Exercises
 ## Exercises: String Part
 
 1. Declare a variable name challenge and assign it to an initial value **'30 Days Of JavaScript'**.
@@ -1197,7 +1249,7 @@ let isMarried = !false; // -> true
 
 1. The JavaScript typeof operator uses to check different data types. Check the data type of each variables from question number 1.
    
-## Arithmetic Operators Part
+## Exercises: Arithmetic Operators Part
 JavaScript arithmetic operators are addition(+), subtraction(-), multiplication(*), division(/), modulus(%), exponential(**), increment(++) and decrement(--).
 
 ```js
