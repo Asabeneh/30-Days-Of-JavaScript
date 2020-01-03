@@ -43,7 +43,21 @@
     - [Concatenating using addition operator](#concatenating-using-addition-operator)
     - [Template Literals(Template Strings)](#template-literalstemplate-strings)
   - [String Methods](#string-methods)
+- [Booleans](#booleans-1)
+    - [Undefined](#undefined-1)
+    - [Null](#null-1)
+- [Operators](#operators)
+  - [Assignment operators](#assignment-operators)
+  - [Arithmetic Operators](#arithmetic-operators)
+  - [Comparison Operators](#comparison-operators)
+  - [Logical Operators](#logical-operators)
 - [💻 Day 2: Exercises](#%f0%9f%92%bb-day-2-exercises)
+  - [String Part](#string-part)
+  - [Exercise - 6 : Data types](#exercise---6--data-types)
+  - [Arithmetic Operators Part](#arithmetic-operators-part)
+  - [Booleans Part](#booleans-part)
+  - [Comparison Operators](#comparison-operators-1)
+  - [Logical Operators](#logical-operators-1)
 
 
 
@@ -1008,8 +1022,150 @@ console.log(text.match(regEx)) // ["2", "0", "1", "9", "3", "0", "2", "0", "2", 
 console.log(text.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
 
+# Booleans
+
+A boolean data type represents one of the two values:_true_ or _false_. Boolean value is either true or false. The use of these data types will be clear when you start the comparison operator.  Any comparisons return a boolean value which is either true or false. 
+
+**Example: Boolean Values**
+```js
+let isLightOn = true;
+let isRaining = false;
+let hungery = false;
+let isMarried = true;
+```
+
+### Undefined
+If we declare a variable and if we do not assign a value, the value will be undefined. In addition to this, if a function is not returning the value will be undefined.
+
+```js
+let firstName;
+console.log(firstName); //not defined, because it is not assigned to a value yet
+```
+
+### Null
+
+```js
+let empty = null;
+console.log(empty); // -> null , means no value
+```
+
+# Operators
+
+##  Assignment operators
+An equal sign in JavaScript is an assignment operator. It uses to assign a variable.
+```js
+let firstName = 'Asabeneh'
+let country = 'Finland'
+```
+## Arithmetic Operators
+
+Arithmetic operators are mathematical operators.
+- Addition(+): a + b
+- Subtraction(-): a - b
+- Multiplication(*):a * b
+- Division(/): a / b
+- Modulus(%):a % b
+- Exponential(**):a ** b
+
+```js
+let numOne = 4;
+let numTwo = 3;
+let sum = numOne + numTwo;
+let diff = numOne - numTwo;
+let mult = numOne * numTwo;
+let div = numOne / numTwo;
+let remainder = numOne % numTwo;
+let powerOf = numOne ** numTwo
+console.log(sum, diff, mult, div, remainder, powerOf); // ->7,1,12,1.33,1, 64
+
+let PI = 3.14;
+let radius = 100; // length in meter
+
+const gravity = 9.81; // in m/s2
+let mass = 72; // in Kilogram
+const boilingPoint = 100; // temperature in oC, boiling point of water
+const bodyTemp = 37; // body temperature in oC
+
+//Let us calculate area of a circle
+const areaOfCircle = PI * radius * radius;
+console.log(areaOfCircle); // -> 314 m
+// Let us calculate weight of an object
+const weight = mass * gravity;
+console.log(weight); // -> 706.32 N(Newton)
+
+//Concatenating string with numbers using string interpolation
+/*
+ The boiling point of water is 100 oC.
+ Human body temperature is 37 oC.
+ The gravity of earth is 9.81 m/s2.
+ */
+console.log(
+  `The boiling point of water is ${boilingPoint} oC.\nHuman body temperature is ${body} oC.\nThe gravity of earth is ${gravity} m / s2.`
+);
+```
+## Comparison Operators
+
+In programming we compare values, we use comparison operators to compare two values. We check if a value is greater or less or equal to other value. 
+
+![Comparison Operators](./images/comparison_operators.png)
+**Example: Comparison Operators**
+
+```js
+console.log(3 > 2)     // true, because 3 is greater than 2
+console.log(3 >= 2)    // true, because 3 is greater than 2
+console.log(3 < 2)     // false,  because 3 is greater than 2
+console.log(2 < 3)     // true, because 2 is less than 3
+console.log(2 <= 3)    // true, because 2 is less than 3
+console.log(3 == 2)    // false, because 3 is not equal to 2
+console.log(3 != 2)    // true, because 3 is not equal to 2
+console.log(len('mango') == len('avocado'))  // false
+console.log(len('mango') != len('avocado'))  // true
+console.log(len('mango') < len('avocado'))   // true
+console.log(len('milk') != len('meat'))      // false
+console.log(len('milk') == len('meat'))      // true
+console.log(len('tomato') == len('potato'))  // true
+console.log(len('python') > len('dragon'))   // false
+
+4 > 3;
+4 >= 4;
+4 < 3;
+4 <= 3;
+4 != 3;
+4 !== '4';
+4 == '4';
+4 === '4';
+4 === 4;
+```
+
+## Logical Operators
+
+The following symbols are the common logical operators:
+&&(ampersand) , ||(pipe) and !(negation).
+&& gets true only if the two operands are true.
+|| gets true either of the operand is true.
+! negates true to false, false to true.
+
+```js
+//&& ampersand example
+const check = 4 > 3 && 10 > 5; // true and true -> true
+const check = 4 > 3 && 10 < 5; // true and false -> false
+const check = 4 < 3 && 10 < 5; // false and false -> false
+//|| pipe or, example
+const check = 4 > 3 || 10 > 5; // true and true -> true
+const check = 4 > 3 || 10 < 5; // true and false -> true
+const check = 4 < 3 || 10 < 5; // false and false -> false
+//! Negation examples
+let check = 4 > 3; // -> true
+let check = !(4 > 3); // -> false
+let isLightOn = true;
+let isLightOff = !isLightOn; // -> false
+let isMarried = !false; // -> true
+```
+
 
 # 💻  Day 2: Exercises
+
+## String Part
 
 1. Declare a variable name challenge and assign it to an initial value **'30 Days Of JavaScript'**.
 2. Print the string on the browser console using __console.log()__
@@ -1044,7 +1200,73 @@ console.log(text.match(/\d+/g)) // ["2019", "30", "2020"]
 ```js
     sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?'
 ```
+## Exercise - 6 : Data types
 
+String, number, boolean, null, undefined and symbol(ES6) are JavaScript primitive data types.
+
+1. The JavaScript typeof operator uses to check different data types. Check the data type of each variables from question number 1.
+2. 
+## Arithmetic Operators Part
+JavaScript arithmetic operators are addition(+), subtraction(-), multiplication(\*), division(/), modulus(%), increment(++) and decrement(--).
+
+```js
+let operandOne = 4;
+let operandTwo = 3;
+```
+Using the above operands apply different JavaScript arithmetic operations.
+
+## Booleans Part
+
+Boolean value is either true or false.
+
+1. Write three JavaScript statement which provide truthy value.
+1. Write three JavaScript statement which provide falsy value.
+1. Use all the following comparison operators to compare the following values: >, < >=, <=, !=, !==,===.
+   Which are true or which are false ?
+   1. 4 > 3
+   1. 4 >= 3
+   1. 4 < 3
+   1. 4 <= 3
+   1. 4 == 4
+   1. 4 === 4
+   1. 4 != 4
+   1. 4 !== 4
+   1. 4 != '4'
+   1. 4 == '4'
+   1. 4 === '4'
+
+## Comparison Operators
+
+Boolean value is either true or false. Any comparison return a boolean either true or false.
+Use all the following comparison operators to compare the following values: >, < >=, <=, !=, !==,===.
+Which are true or which are false ?
+
+1. 4 > 3
+1. 4 >= 3
+1. 4 < 3
+1. 4 <= 3
+1. 4 == 4
+1. 4 === 4
+1. 4 != 4
+1. 4 !== 4
+1. 4 != '4'
+1. 4 == '4'
+1. 4 === '4'
+
+## Logical Operators
+
+Which are true or which are false ?
+
+1. 4 > 3 && 10 < 12
+1. 4 > 3 && 10 > 12
+1. 4 > 3 || 10 < 12
+1. 4 > 3 || 10 > 12
+1. !(4 > 3)
+1. !(4 < 3)
+1. !(false)
+1. !(4 > 3 && 10 < 12)
+1. !(4 > 3 && 10 > 12)
+1. !(4 === '4')
 
 
 
