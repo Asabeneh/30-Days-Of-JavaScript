@@ -1198,7 +1198,7 @@ let isMarried = !false; // -> true
 1. The JavaScript typeof operator uses to check different data types. Check the data type of each variables from question number 1.
    
 ## Arithmetic Operators Part
-JavaScript arithmetic operators are addition(+), subtraction(-), multiplication(\*), division(/), modulus(%), increment(++) and decrement(--).
+JavaScript arithmetic operators are addition(+), subtraction(-), multiplication(*), division(/), modulus(%), exponential(**), increment(++) and decrement(--).
 
 ```js
 let operandOne = 4;
@@ -1212,25 +1212,10 @@ Boolean value is either true or false.
 
 1. Write three JavaScript statement which provide truthy value.
 1. Write three JavaScript statement which provide falsy value.
-1. Use all the following comparison operators to compare the following values: >, < >=, <=, !=, !==,===.
-   Which are true or which are false ?
-   1. 4 > 3
-   1. 4 >= 3
-   1. 4 < 3
-   1. 4 <= 3
-   1. 4 == 4
-   1. 4 === 4
-   1. 4 != 4
-   1. 4 !== 4
-   1. 4 != '4'
-   1. 4 == '4'
-   1. 4 === '4'
 
 ## Exercises: Comparison Operators
 
-Boolean value is either true or false. Any comparison return a boolean either true or false.
-Use all the following comparison operators to compare the following values: >, < >=, <=, !=, !==,===.
-Which are true or which are false ?
+Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it by checking using console.log()
 
 1. 4 > 3
 1. 4 >= 3
@@ -1245,9 +1230,7 @@ Which are true or which are false ?
 1. 4 === '4'
 
 ## Exercises: Logical Operators
-
-Which are true or which are false ?
-
+Figure out the result of the following expressions first without using console.log() After you decide the result confirm it by checking using console.log()
 1. 4 > 3 && 10 < 12
 1. 4 > 3 && 10 > 12
 1. 4 > 3 || 10 < 12
