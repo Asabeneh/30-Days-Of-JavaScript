@@ -43,6 +43,8 @@
   - [Strings](#strings)
     - [String Concatenation](#string-concatenation)
       - [Concatenating using addition operator](#concatenating-using-addition-operator)
+      - [Long Literal Strings](#long-literal-strings)
+      - [Escape Sequences in string](#escape-sequences-in-string)
       - [Template Literals(Template Strings)](#template-literalstemplate-strings)
     - [String Methods](#string-methods)
   - [Booleans](#booleans-1)
@@ -527,11 +529,11 @@ In the previous section, we mentioned a little bit about data types. Data or val
 ### Primitive Data Types
 
 Primitive data types in JavaScript includes:
- 1. Numbers
- 2. Strings
- 3. Booleans
- 4. Null
- 5. Undefined
+ 1. Numbers - Integers, floats 
+ 2. Strings - Any data under single or double quote
+ 3. Booleans - true or false value
+ 4. Null - empty value or no value
+ 5. Undefined - a declared variable without a value
 
 Non-primitive data types in JavaScript includes:
 1. Objects
@@ -720,8 +722,39 @@ console.log(personInfoOne)
 ```sh
 Asabeneh Yetayeh. I am 250. I live in Finland
 ```
+#### Long Literal Strings
+A string could be a single character or paragraph or a page. If the string length is too big it does not fit in one line. We can use the backslash character (\) at the end of each line to indicate that the string will continue on the next line.
+**Example:**
+```js
+const paragraph = "My name is Asabeneh Yetayeh. I live in Finland, Helsinki.\
+I am a teacher and I love teaching. I teach HTML, CSS, JavaScript, React, Redux, \
+Node.js, Python, Data Analysis and D3.js for anyone who is interested to learn. \
+In the end of 2019, I was thinking to expand my teaching and to reach \
+to global audience and I started a Python challenge from November 20 - December 19.\
+It was one of the most rewarding and inspiring experience.\
+Now, we are in 2020. I am enjoying preparing the 30DaysOfJavaScript challenge and \
+I hope you are enjoying too."
+console.log(paragraph)
+```
+#### Escape Sequences in string
+In JavaScript and other programming language \ followed by some characters is  an escape sequence. Let's see the most common escape characters:
+* \n: new line
+* \t: Tab means(8 spaces)
+* \\\\: Back slash
+* \\': Single quote (')
+* \\":Double quote (")
+```js
+console.log('I hope every one is enjoying the 30 Days Of JavaScript challenge.\nDo you ?') # line break
+console.log('Days\tTopics\tExercises')
+console.log('Day 1\t3\t5')
+console.log('Day 2\t3\t5')
+console.log('Day 3\t3\t5')
+console.log('Day 4\t3\t5')
+console.log('This is a back slash  symbol (\\)') # To write a back slash
+console.log('In every programming language it starts with \"Hello, World!\"') 
+```
 #### Template Literals(Template Strings)
-To create a template string, we use back two backticks. We can inject data as expression inside a template string. To inject data, we enclose the expression with a curly bracket({}) followed by a $ sign. See the syntax below.
+To create a template string, we use two backticks. We can inject data as expression inside a template string. To inject data, we enclose the expression with a curly bracket({}) followed by a $ sign. See the syntax below.
 ```js
 //Syntax
 `String literal text`
@@ -765,7 +798,7 @@ console.log(`${a} is greater than ${b}: ${a > b}`)
 2 is greater than 3: false
 ```
 ### String Methods
-Everything in JavaScript is an object. A string is a primitive data type that means we can not modify once it is created. The string object has many string methods. There are differnt string methods that can help us to work with strings.
+Everything in JavaScript is an object. A string is a primitive data type that means we can not modify once it is created. The string object has many string methods. There are different string methods that can help us to work with strings.
 
 1. *length*: The string *length* method returns the number of characters in a string included empty space.
   **Example:**
@@ -778,7 +811,8 @@ Everything in JavaScript is an object. A string is a primitive data type that me
 2. *Accessing characters in a string*: We can access each character in a string using its index. In programming, counting starts from 0. The first index of the string is zero, and the last index is one minus the length of the string.
    
   ![Accessing sting by index](./images/string_indexes.png)
-Let us access the first character in 'JavaScript' string.
+  
+Let us access different characters in 'JavaScript' string.
 ```js
 let string = 'JavaScript'
 let firstLetter = string[0]
@@ -792,7 +826,7 @@ console.log(lastIndex)  // 9
 console.log(string[lastIndex]) // t
 
 ```
-3. *toUpperCase()*: this method changes the string to uppercase letters.
+1. *toUpperCase()*: this method changes the string to uppercase letters.
 ```js
 let string = 'JavaScript'
 console.log(string.toUpperCase())      // JAVASCRIPT
