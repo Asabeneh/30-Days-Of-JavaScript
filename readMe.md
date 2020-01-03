@@ -53,7 +53,7 @@
   - [Logical Operators](#logical-operators)
 - [💻 Day 2: Exercises](#%f0%9f%92%bb-day-2-exercises)
   - [String Part](#string-part)
-  - [Exercise - 6 : Data types](#exercise---6--data-types)
+  - [Data types Part](#data-types-part)
   - [Arithmetic Operators Part](#arithmetic-operators-part)
   - [Booleans Part](#booleans-part)
   - [Comparison Operators](#comparison-operators-1)
@@ -1200,7 +1200,7 @@ let isMarried = !false; // -> true
 ```js
     sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?'
 ```
-## Exercise - 6 : Data types
+## Data types Part
 
 String, number, boolean, null, undefined and symbol(ES6) are JavaScript primitive data types.
 
