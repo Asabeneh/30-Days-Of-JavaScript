@@ -1095,7 +1095,7 @@ console.log(weight); // -> 706.32 N(Newton)
  The gravity of earth is 9.81 m/s2.
  */
 console.log(
-  `The boiling point of water is ${boilingPoint} oC.\nHuman body temperature is ${body} oC.\nThe gravity of earth is ${gravity} m / s2.`
+  `The boiling point of water is ${boilingPoint} oC.\nHuman body temperature is ${bodyTemp} oC.\nThe gravity of earth is ${gravity} m / s2.`
 );
 ```
 ## Comparison Operators
