@@ -32,11 +32,10 @@
   - [Checking Data types](#checking-data-types)
 - [Comments](#comments)
 - [Variables](#variables)
-- [ð» Day 1: Exercises](#%f0%9f%92%bb-day-1-exercises)
+- [💻 Day 1: Exercises](#%f0%9f%92%bb-day-1-exercises)
 
 
-
-# ð Day 1
+# 📔 Day 1
 # Introduction
 **Congratulations** for deciding to participate in a 30 days of JavaScript programming challenge . In this challenge you will learn everything you need to be a JavaScript programmer and in general the whole concepts of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge certificate. Join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
 
