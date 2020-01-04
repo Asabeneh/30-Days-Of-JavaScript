@@ -1650,11 +1650,11 @@ console.log(now.getMinutes()) // 56, because the time is 00:56:41
 
 ### Getting seconds
 
-Let's extract or get the minutes from a time object.
+Let's extract or get the seconds from a time object.
 
 ```js
 const now  = new Date () // 
-console.log(now.getMinutes()) // 56, because the time is 00:56:41
+console.log(now.getSeconds()) // 41, because the time is 00:56:41
 ```
 
 ### Getting time
