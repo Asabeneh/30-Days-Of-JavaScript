@@ -1623,11 +1623,11 @@ console.log(now.getMonth()) // 0, because the month is January,  month(0-11)
 
 ### Getting date
 
-Let's extract or get the date of the month from a time object.
+Let's extract or get the day of the month from a time object.
 
 ```js
 const now  = new Date ()
-console.log(now.getMonth()) // 0, because the month is January,  month(0-11)
+console.log(now.getDate()) // 4, because the day of the month is 4th,  day(0-31)
 ```
 
 ### Getting hours
