@@ -160,13 +160,20 @@ In JavaScript the Math Object provides a lots of methods to work with numbers.
 
 ```js
 const PI = Math.PI
-console.log(PI)                  // 3.141592653589793
-console.log(Math.round(PI))      // 3; to round values to the nearest number
-console.log(Math.round(9.81))    // 10
-console.log(Math.floor(PI))      // 3; rounding down
-console.log(Math.ceil(PI))       // 4; rounding up
-console.log(Math.min(-5, 3, 20, 4,5, 10))    // -5, returns the minimum value
-console.log(Math.max(-5, 3, 20, 4,5, 10))    // 20, returns the maximum value
+
+console.log(PI)                           // 3.141592653589793
+// Rounding to the closest number
+// if above .5 up if less 0.5 down rounding
+console.log(Math.round(PI))               // 3; to round values to the nearest number
+console.log(Math.round(9.81))             // 10
+
+console.log(Math.floor(PI))               // 3; rounding down
+
+console.log(Math.ceil(PI))                // 4; rounding up
+
+console.log(Math.min(-5, 3, 20, 4,5, 10)) // -5, returns the minimum value
+
+console.log(Math.max(-5, 3, 20, 4,5, 10)) // 20, returns the maximum value
 
 const randNum = Math.random() // creates random number between 0 to 0.999999
 console.log(randNum)
@@ -198,7 +205,7 @@ Math.cos(60)
 
 #### Random number generator
 
-The JavaScript Math Object has a random() method number generator which generators number from 0 to 0.999999999...
+The JavaScript Math Object has a random() method number generator which generates number from 0 to 0.999999999...
 
 ```js
 let randomNum = Math.random() // generates 0 to 0.999
@@ -207,11 +214,11 @@ let randomNum = Math.random() // generates 0 to 0.999
 Now, let us see how we can use random() method to generate a random number between 0 and 10 inclusive.
 
 ```js
-let randomNum = Math.random() // generates 0 to 0.999
+let randomNum = Math.random()         // generates 0 to 0.999
 let numBtnZeroAndTen = randomNum * 11
-console.log(numBtnZeroAndTen) // this gives: min 0 and max 10.99
+console.log(numBtnZeroAndTen)         // this gives: min 0 and max 10.99
 let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen)
-console.log(randomNumRoundToFloor) // this gives between 0 and 10
+console.log(randomNumRoundToFloor)    // this gives between 0 and 10
 ```
 
 ## Strings
@@ -220,7 +227,7 @@ Strings are texts, which are under **_single_** or **_double_** quote. To declar
 Lets' see some examples of string:
 
 ```js
-let space = ' ' // an empty space string
+let space = ' '           // an empty space string
 let firstName = 'Asabeneh'
 let lastName = 'Yetayeh'
 let country = 'Finland'
@@ -396,24 +403,34 @@ Let us access different characters in 'JavaScript' string.
 ```js
 let string = 'JavaScript'
 let firstLetter = string[0]
-console.log(firstLetter) // J
-let secondLetter = string[1] // a
+
+console.log(firstLetter)        // J
+
+let secondLetter = string[1]    // a
 let thirdLetter = string[2]
-let lastLetter = string[9] 
-console.log(lastLetter) // t
+let lastLetter = string[9]
+
+console.log(lastLetter)          // t
+
 let lastIndex = string.length - 1
+
 console.log(lastIndex)  // 9
-console.log(string[lastIndex]) // t
+console.log(string[lastIndex])   // t
 ```
 
 1. *toUpperCase()*: this method changes the string to uppercase letters.
 
 ```js
 let string = 'JavaScript'
-console.log(string.toUpperCase())      // JAVASCRIPT
+
+console.log(string.toUpperCase())     // JAVASCRIPT
+
 let firstName = 'Asabeneh'
+
 console.log(firstName.toUpperCase())  // ASABENEH
+
 let country = 'Finland'
+
 console.log(country.toUpperCase())    // FINLAND
 ```
 
@@ -421,10 +438,15 @@ console.log(country.toUpperCase())    // FINLAND
 
 ```js
 let string = 'JavasCript'
+
 console.log(string.toLowerCase())     // javascript
+
 let firstName = 'Asabeneh'
+
 console.log(firstName.toLowerCase())  // asabeneh
+
 let country = 'Finland'
+
 console.log(country.toLowerCase())   // finland
 ```
 
@@ -433,6 +455,7 @@ console.log(country.toLowerCase())   // finland
 ```js
 let string = 'JavaScript'
 console.log(string.substr(4,6))    // Script
+
 let country = 'Finland'
 console.log(country.substr(3, 4))   // land
 ```
@@ -441,38 +464,49 @@ console.log(country.substr(3, 4))   // land
 
 ```js
 let string = 'JavaScript'
-console.log(string.substring(0,4))    // Java
+
+console.log(string.substring(0,4))     // Java
 console.log(string.substring(4,10))    // Script
-console.log(string.substring(4))    // Script
+console.log(string.substring(4))       // Script
+
 let country = 'Finland'
+
 console.log(country.substring(0, 3))   // Fin
 console.log(country.substring(3, 7))   // land
-console.log(country.substring(3))   // land
+console.log(country.substring(3))      // land
 ```
 
 7. *split()*: The split method splits a string at a specified place.
 
 ```js
 let string = '30 Days Of JavaScipt'
+
 console.log(string.split())     // ["30 Days Of JavaScript"]
 console.log(string.split(' '))  // ["30", "Days", "Of", "JavaScript"]
+
 let firstName = 'Asabeneh'
-console.log(firstName.split())  // ["Asabeneh"]
+
+console.log(firstName.split())    // ["Asabeneh"]
 console.log(firstName.split(''))  // ["A", "s", "a", "b", "e", "n", "e", "h"]
+
 let countries = 'Finland, Sweden, Norway, Denmark, and Iceland'
-console.log(countries.split(',')) // ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
-console.log(countries.split(', '))   //  ["Finland", "Sweden", "Norway", "Denmark", "and Iceland"]
+
+console.log(countries.split(','))  // ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
+console.log(countries.split(', ')) //  ["Finland", "Sweden", "Norway", "Denmark", "and Iceland"]
 ```
 
 8. *trim()*: Removes trailing space in the beginning or the end of a string.
 
 ```js
 let string = '   30 Days Of JavaScript   '
+
 console.log(string)     
-console.log(string.trim(' '))  //
+console.log(string.trim(' '))
+
 let firstName = ' Asabeneh '
+
 console.log(firstName)
-console.log(firstName.trim())  //
+console.log(firstName.trim())
 ```
 
 ```sh
@@ -486,6 +520,7 @@ Asabeneh
 
 ```js
 let string = '30 Days Of JavaScript'
+
 console.log(string.includes('Days'))     // true
 console.log(string.includes('days'))     // false
 console.log(string.includes('Script'))   // true
@@ -494,6 +529,7 @@ console.log(string.includes('java'))     // false
 console.log(string.includes('Java'))     // true
 
 let country = 'Finland'
+
 console.log(country.includes('fin'))     // false
 console.log(country.includes('Fin'))     // true
 console.log(country.includes('land'))    // true
@@ -509,6 +545,7 @@ string.replace(oldsubstring, newsubstring)
 ```js
 let string = '30 Days Of JavaScript'
 console.log(string.replace('JavaScript', 'Python')) // 30 Days Of Python
+
 let country = 'Finland'
 console.log(country.replace('Fin', 'Noman'))       // Nomanland
 ```
@@ -521,7 +558,8 @@ string.charAt(index)
 
 ```js
 let string = '30 Days Of JavaScript'
-console.log(string.charAt(0)) // 3
+console.log(string.charAt(0))        // 3
+
 let lastIndex = string.length - 1
 console.log(string.charAt(lastIndex)) // t
 ```
@@ -534,7 +572,8 @@ string.charCodeAt(index)
 
 ```js
 let string = '30 Days Of JavaScript'
-console.log(string.charCodeAt(3)) // D ASCII number is 51
+console.log(string.charCodeAt(3))        // D ASCII number is 51
+
 let lastIndex = string.length - 1
 console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
 
@@ -548,6 +587,7 @@ string.indexOf(substring)
 
 ```js
 let string = '30 Days Of JavaScript'
+
 console.log(string.indexOf('D'))          // 3
 console.log(string.indexOf('Days'))       // 3
 console.log(string.indexOf('days'))       // -1
@@ -565,6 +605,7 @@ string.lastIndexOf(index)
 
 ```js
 let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+
 console.log(string.lastIndexOf('love'))       // 67
 console.log(string.lastIndexOf('you'))        // 63
 console.log(string.lastIndexOf('JavaScript')) // 38
@@ -579,6 +620,7 @@ string.concat(substring, substring, substring)
 ```js
 let string = '30'
 console.log(string.concat("Days", "Of", "JavaScript")) // 30DaysOfJavaScript
+
 let country = 'Fin'
 console.log(country.concat("land")) // Finland
 ```
@@ -592,11 +634,13 @@ string.startsWith(substring)
 
 ```js
 let string = 'Love is the best to in this world'
+
 console.log(string.startsWith('Love'))   // true
 console.log(string.startsWith('love'))   // false
 console.log(string.startsWith('world'))  // false
 
 let country = 'Finland'
+
 console.log(country.startsWith('Fin'))   // true
 console.log(country.startsWith('fin'))   // false
 console.log(country.startsWith('land'))  //  false
@@ -610,11 +654,13 @@ string.endsWith(substring)
 
 ```js
 let string = 'Love is the best to in this world'
+
 console.log(string.endsWith('world'))         // true
 console.log(string.endsWith('love'))          // false
 console.log(string.endsWith('in this world')) // true
 
 let country = 'Finland'
+
 console.log(country.endsWith('land'))         // true
 console.log(country.endsWith('fin'))          // false
 console.log(country.endsWith('Fin'))          //  false
@@ -699,8 +745,8 @@ let firstName = 'Asabeneh'      // string
 let lastName = 'Yetayeh'        // string
 let country = 'Finland'         // string
 let city = 'Helsinki'           // string
-let age = 250                   // int, it is not my real age, do not worry about it
-let job
+let age = 250                   // number, it is not my real age, do not worry about it
+let job                         // undefined, because a value was not assigned
 
 console.log(typeof 'Asabeneh')  // string
 console.log(typeof firstName)   // string
@@ -726,7 +772,7 @@ We can convert string to number using the following methods:
 
 - parseInt()
 - Number()
-- +
+- Plus sign(+)
 
 ```js
 let num = '10'
@@ -737,12 +783,14 @@ console.log(numInt) // 10
 ```js
 let num = '10'
 let numInt = Number(num)
+
 console.log(numInt) // 10
 ```
 
 ```js
 let num = '10'
 let numInt = +num
+
 console.log(numInt) // 10
 ```
 
@@ -753,23 +801,26 @@ We can convert string float to number using the following methods:
 
 - parseFloat()
 - Number()
-- +
+- Plus sign(+)
 
 ```js
 let num = '9.81'
 let numFloat = parseFloat(num)
+
 console.log(numFloat) // 9.81
 ```
 
 ```js
 let num = '9.81'
 let numFloat = Number(num)
+
 console.log(numFloat) // 9.81
 ```
 
 ```js
 let num = '9.81'
 let numFloat = +num
+
 console.log(numInt) // 9.81
 ```
 
@@ -783,6 +834,7 @@ We use the following method to convert float to int:
 ```js
 let num = 9.81
 let numInt = parseInt(num)
+
 console.log(numInt) // 9
 ```
 
