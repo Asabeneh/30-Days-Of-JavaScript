@@ -1,6 +1,7 @@
 ##  Table of Contents
 
 [Day 2 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md)
+--
 
 ![Thirty Days Of JavaScript](./images/day_1_1.png)
 
@@ -36,6 +37,7 @@
   - [Comments](#comments)
   - [Variables](#variables)
 - [💻 Day 1: Exercises](#%f0%9f%92%bb-day-1-exercises)
+  - [Day 2 &gt;&gt;](#day-2-gtgt-1)
 
 # 📔Day 1
 
@@ -565,3 +567,4 @@ When you run the files on 01-Day folder you should get this:
 🎉 CONGRATULATIONS ! 🎉
 
 [Day 2 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md)
+--

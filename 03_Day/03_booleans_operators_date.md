@@ -1,6 +1,7 @@
 ## Table of Contents
 
 [<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md) | [Day 4 >>](#)
+--
 
 ![Thirty Days Of JavaScript](./day_1_3.png)
 
@@ -41,6 +42,7 @@
   - [5. Exercises: Logical Operators](#5-exercises-logical-operators)
   - [6 Ternary Operator](#6-ternary-operator)
   - [7. Exercises: Date time Object](#7-exercises-date-time-object)
+  - [&lt;&lt; Day 2 | Day 4 &gt;&gt;](#ltlt-day-2--day-4-gtgt-1)
 
 # 📔 Day 3
 
@@ -569,3 +571,4 @@ You are 25. You are old enough to drive
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md) | [Day 4 >>](#)
+--
