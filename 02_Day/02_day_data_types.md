@@ -789,10 +789,22 @@ The quote 'There is no exercise better for the heart than reaching down and lift
 "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
 ```
 
-32. Generate a random number between 0 and 100 inclusive.
-33. Generate a random number between 50 and 100 inclusive.
-34. Generate a random number between 0 and 255 inclusive.
-35. Access the 'JavaScript' string characters using a random number.
+32. 
+33. Check if 'on' is found in both python and jargon
+34. _I hope this course is not full of jargon_. Check if _jargon_ is in the sentence.
+35. Generate a random number between 0 and 100 inclusive.
+36. Generate a random number between 50 and 100 inclusive.
+37. Generate a random number between 0 and 255 inclusive.
+38. Access the 'JavaScript' string characters using a random number.
+39. Use console.log() and escape characters to print the following pattern.
+    
+```js
+1 1 1 1 1
+2 1 2 4 8
+3 1 3 9 27
+4 1 4 16 64
+5 1 5 25 125
+```
 
 🎉 CONGRATULATIONS ! 🎉
 
