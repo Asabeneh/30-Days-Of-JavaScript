@@ -71,12 +71,12 @@
     - [Getting seconds](#getting-seconds)
     - [Getting time](#getting-time)
 - [💻 Day 3: Exercises](#%f0%9f%92%bb-day-3-exercises)
-  - [Exercises: Data types Part](#exercises-data-types-part)
-  - [Exercises: Arithmetic Operators Part](#exercises-arithmetic-operators-part)
-  - [Exercises: Booleans Part](#exercises-booleans-part)
-  - [Exercises: Comparison Operators](#exercises-comparison-operators)
-  - [Exercises: Logical Operators](#exercises-logical-operators)
-  - [Exercises: Date time Object](#exercises-date-time-object)
+  - [1. Exercises: Data types Part](#1-exercises-data-types-part)
+  - [2. Exercises: Arithmetic Operators Part](#2-exercises-arithmetic-operators-part)
+  - [3. Exercises: Booleans Part](#3-exercises-booleans-part)
+  - [4. Exercises: Comparison Operators](#4-exercises-comparison-operators)
+  - [5. Exercises: Logical Operators](#5-exercises-logical-operators)
+  - [6. Exercises: Date time Object](#6-exercises-date-time-object)
 
 
 # 📔Day 1
@@ -1381,12 +1381,12 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
     
 # 💻 Day 3: Exercises
-## Exercises: Data types Part
+## 1. Exercises: Data types Part
 1. Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it
 
 1. The JavaScript typeof operator uses to check different data types. Check the data type of each variables from question number 1.
    
-## Exercises: Arithmetic Operators Part
+## 2. Exercises: Arithmetic Operators Part
 JavaScript arithmetic operators are addition(+), subtraction(-), multiplication(*), division(/), modulus(%), exponential(**), increment(++) and decrement(--).
 
 ```js
@@ -1395,14 +1395,14 @@ let operandTwo = 3;
 ```
 Using the above operands apply different JavaScript arithmetic operations.
 
-## Exercises: Booleans Part
+## 3. Exercises: Booleans Part
 
 Boolean value is either true or false.
 
 1. Write three JavaScript statement which provide truthy value.
 1. Write three JavaScript statement which provide falsy value.
 
-## Exercises: Comparison Operators
+## 4. Exercises: Comparison Operators
 
 Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it  using console.log()
 
@@ -1418,7 +1418,7 @@ Figure out the result of the following comparison expression first without using
 1. 4 == '4'
 1. 4 === '4'
 
-## Exercises: Logical Operators
+## 5. Exercises: Logical Operators
 Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
 1. 4 > 3 && 10 < 12
 1. 4 > 3 && 10 > 12
@@ -1430,7 +1430,7 @@ Figure out the result of the following expressions first without using console.l
 1. !(4 > 3 && 10 < 12)
 1. !(4 > 3 && 10 > 12)
 1. !(4 === '4')
-## Exercises: Date time Object
+## 6. Exercises: Date time Object
 1. What is the year today?
 1. What is the month today?
 1. What is the date today?
@@ -1439,9 +1439,9 @@ Figure out the result of the following expressions first without using console.l
 1. What is the minutes now?
 1. Find out the numbers of seconds elapsed from January 1, 1970 to now.
 1. Create a human readable time format 
-  1.  YYY-MM-DD  HH:mm:ss
-  2.  DD-MM-YYYY HH:mm:ss
-  3.  DD/MM/YYY HH:mm:ss
+   1.  YYY-MM-DD  HH:mm:ss
+   2.  DD-MM-YYYY HH:mm:ss
+   3.  DD/MM/YYY HH:mm:ss
 
 
 
