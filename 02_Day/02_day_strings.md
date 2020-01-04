@@ -22,7 +22,6 @@
     - [String Methods](#string-methods)
 - [💻 Day 2: Exercises](#%f0%9f%92%bb-day-2-exercises)
   - [Exercises: String Part](#exercises-string-part)
-  - [&lt;&lt; Day 1 | Day 3 &gt;&gt;](#ltlt-day-1--day-3-gtgt-1)
 
 # 📔 Day 2
 
@@ -710,4 +709,3 @@ The quote 'There is no exercise better for the heart than reaching down and lift
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 1](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/readMe.md) | [Day 3 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md)
---
