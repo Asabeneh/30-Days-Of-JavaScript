@@ -51,6 +51,8 @@
   - [Exercises: String Part](#exercises-string-part)
 - [📔 Day 3](#%f0%9f%93%94-day-3)
   - [Booleans](#booleans-1)
+    - [Truthy values:](#truthy-values)
+    - [Falsy values:](#falsy-values)
   - [Undefined](#undefined-1)
   - [Null](#null-1)
   - [Operators](#operators)
@@ -60,6 +62,7 @@
     - [Logical Operators](#logical-operators)
     - [Increment Operator](#increment-operator)
     - [Decrement Operator](#decrement-operator)
+      - [Ternary Operators](#ternary-operators)
     - [Operator Precendence](#operator-precendence)
   - [Date Object](#date-object)
     - [Creating a time object](#creating-a-time-object)
@@ -76,7 +79,8 @@
   - [3. Exercises: Booleans Part](#3-exercises-booleans-part)
   - [4. Exercises: Comparison Operators](#4-exercises-comparison-operators)
   - [5. Exercises: Logical Operators](#5-exercises-logical-operators)
-  - [6. Exercises: Date time Object](#6-exercises-date-time-object)
+  - [6 Ternary Operator](#6-ternary-operator)
+  - [7. Exercises: Date time Object](#7-exercises-date-time-object)
 
 
 # 📔Day 1
@@ -1143,8 +1147,24 @@ let isLightOn = true;
 let isRaining = false;
 let isHungery = false;
 let isMarried = true;
+let truValue = 4 > 3    // true
+let falseValue = 3 < 4  // false
 ```
+We agreed that boolean values are either true or false. 
+### Truthy values:
+-- All numbers(positive and negative) are truthy except zero 
+-- All strings are truthy
+-- The boolean true
+### Falsy values:
+-- 0
+-- 0n
+-- null
+-- undefined
+-- NaN
+-- the boolean false
+-- '', "", ``, empty string
 
+It is good to remember those truthy values and falsy values. In later section, we will use them with conditions to make decision.
 ## Undefined
 If we declare a variable and if we do not assign a value, the value will be undefined. In addition to this, if a function is not returning the value will be undefined.
 
@@ -1302,6 +1322,41 @@ let count = 0
 console.log(count--) // 0
 console.log(count)    // -1
 ```
+#### Ternary Operators
+Ternary operator allows to write a condition.
+Another way to write conditionals is using ternary operators. Look at the following examples:
+
+```js
+let isRaining = true
+isRaining
+  ? console.log('You need a rain coat.')
+  : console.log('No need for a rain coat.');
+isRaining = false
+
+isRaining
+  ? console.log('You need a rain coat.')
+  : console.log('No need for a rain coat.');
+```
+```sh
+You need a rain coat.
+No need for a rain coat.
+```
+
+```js
+let number = 5
+number > 0
+  ? console.log(`${number} is a positive number`)
+  : console.log(`${number} is a number number`);
+number = -5
+
+number > 0
+  ? console.log(`${number} is a positive number`)
+  : console.log(`${number} is a number number`);
+```
+```sh
+5 is a positive number
+-5 is a number number
+```
 ### Operator Precendence
 I would like to recommend you to read about operator precendence from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 
@@ -1430,7 +1485,17 @@ Figure out the result of the following expressions first without using console.l
 1. !(4 > 3 && 10 < 12)
 1. !(4 > 3 && 10 > 12)
 1. !(4 === '4')
-## 6. Exercises: Date time Object
+
+## 6 Ternary Operator
+1. If the length of your name is greater than 7 say, your name is long else say your name is short.
+2. Compare your first name length and your family name length and you should get this output.
+```sh
+let firstName = 'Asabeneh'
+let lastName = 'Yetayeh
+Your first name, Asabeneh is longer than your family name, Yetayeh
+```
+
+## 7. Exercises: Date time Object
 1. What is the year today?
 1. What is the month today?
 1. What is the date today?
