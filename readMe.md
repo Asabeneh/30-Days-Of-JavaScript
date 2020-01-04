@@ -180,15 +180,15 @@ We add comments to our code. Comments are very important to make code more reada
 
 Example: Single Line Comment
 
- // This is the first comment
- // This is the second comment
- // I am a single line comment
+ // This is the first comment  
+ // This is the second comment  
+ // I am a single line comment  
 Example: Multiline Comment
 
   /*
-  This is a multiline comment
-  Multiline comments can take multiple lines
-  JavaScript is the language of the web
+  This is a multiline comment  
+  Multiline comments can take multiple lines  
+  JavaScript is the language of the web  
   */
 
 ##### Syntax
@@ -450,11 +450,12 @@ Variables are _containers_ of data. Variables used to _store_ data in a memory l
 
 For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do no change, and we can use *const*.
 
-A JavaScript variable name  should not begin with a number.
-A JavaScript variable name does not allow special characters except dollar sign and underscore. 
-A JavaScript variable name follows a camelCase convention.
-A JavaScript variable name should not have space between words. The following are valid examples of JavaScript variables.
+* A JavaScript variable name  should not begin with a number.
+* A JavaScript variable name does not allow special characters except dollar sign and underscore. 
+* A JavaScript variable name follows a camelCase convention.
+* A JavaScript variable name should not have space between words. 
 
+The following are valid examples of JavaScript variables.
 Valid variables in JavaScript:
 ```js
     firstName
@@ -477,15 +478,14 @@ Valid variables in JavaScript:
     year2020
     year_2020
 ```
-Camel case or the first way of declaring is conventional in JavaScript. In this material, camelCase variables will be used.
-
+camelCase or the first way of declaring is conventional in JavaScript. In this material, we will use camelCase variables.
 Invalid variable:
 ```sh
   first-name
   1_num
   num_#_1
 ```
-Let's declare variables with different data types. To declare a variable, we need to use let or const keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value. 
+Let us declare variables with different data types. To declare a variable, we need to use let or const keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value. 
 ```js
   # Syntax
   let nameOfVariable = value  
@@ -1152,17 +1152,17 @@ let falseValue = 3 < 4  // false
 ```
 We agreed that boolean values are either true or false. 
 ### Truthy values:
--- All numbers(positive and negative) are truthy except zero 
--- All strings are truthy
--- The boolean true
+* All numbers(positive and negative) are truthy except zero 
+* All strings are truthy
+* The boolean true
 ### Falsy values:
--- 0
--- 0n
--- null
--- undefined
--- NaN
--- the boolean false
--- '', "", ``, empty string
+* 0
+* 0n
+* null
+* undefined
+* NaN
+* the boolean false
+* '', "", ``, empty string
 
 It is good to remember those truthy values and falsy values. In later section, we will use them with conditions to make decision.
 ## Undefined
@@ -1494,6 +1494,12 @@ let firstName = 'Asabeneh'
 let lastName = 'Yetayeh
 Your first name, Asabeneh is longer than your family name, Yetayeh
 ```
+3.  Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
+   Output:
+   ```sh
+   let myAge = 250
+   let yourAge = 25
+   I am 225 years older than you.
 
 ## 7. Exercises: Date time Object
 1. What is the year today?
