@@ -698,7 +698,11 @@ console.log(typeof 'Asabeneh') // str
 console.log(typeof firstName) // str
 console.log(typeof 10) // number
 console.log(typeof 3.14) // number
-console.log(typeof true) // bool
+console.log(typeof true) // boolean
+console.log(typeof false) // boolean
+console.log(typeof NaN) // number
+console.log(typeof undefined) // undefined
+console.log(typeof null)   // object
 ```
 
 ### Changing data type(Casting)

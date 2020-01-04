@@ -167,19 +167,32 @@ In programming we compare values, we use comparison operators to compare two val
 **Example: Comparison Operators**
 
 ```js
-console.log(3 > 2)     // true, because 3 is greater than 2
-console.log(3 >= 2)    // true, because 3 is greater than 2
-console.log(3 < 2)     // false,  because 3 is greater than 2
-console.log(2 < 3)     // true, because 2 is less than 3
-console.log(2 <= 3)    // true, because 2 is less than 3
-console.log(3 == 2)    // false, because 3 is not equal to 2
-console.log(3 != 2)    // true, because 3 is not equal to 2
-console.log(3 == '3')    // true, compare only value
-console.log(3 === '3')    // false, compare both value and data type
-console.log(3 !== '3')    // true, compare both value and data type
-console.log(3 !== '3')    // true, compare both value and data type
-console.log(3 != 3)    // false, compare only value
-console.log(3 !== 3)    // false, compare both value and data type
+console.log(3 > 2)              // true, because 3 is greater than 2
+console.log(3 >= 2)             // true, because 3 is greater than 2
+console.log(3 < 2)              // false,  because 3 is greater than 2
+console.log(2 < 3)              // true, because 2 is less than 3
+console.log(2 <= 3)             // true, because 2 is less than 3
+console.log(3 == 2)             // false, because 3 is not equal to 2
+console.log(3 != 2)             // true, because 3 is not equal to 2
+console.log(3 == '3')           // true, compare only value
+console.log(3 === '3')          // false, compare both value and data type
+console.log(3 !== '3')          // true, compare both value and data type
+console.log(3 !== '3')          // true, compare both value and data type
+console.log(3 != 3)             // false, compare only value
+console.log(3 !== 3)            // false, compare both value and data type
+console.log(0 == false)         // true, equivalent
+console.log(0 == '')            // true, equivalent
+console.log(0 == ' ')           // true, equivalent
+console.log(0 === '')           // false, not exactly the same
+console.log(0 === false)        // false, not exactly the same
+console.log(1 == true)          // true, equivalent
+console.log(1 === true )        // false, not exactly the same
+console.log(undefined == null)  // true
+console.log(undefined === null) // true
+console.log(NaN == NaN)         // false, not equal
+console.log(NaN === NaN)        // false
+console.log(typeof NaN)         // number
+
 
 console.log('mango'.length == 'avocado'.length)  // false
 console.log('mango'.length != 'avocado'.length)  // true
@@ -190,6 +203,9 @@ console.log('tomato'.length == 'potato'.length)  // true
 console.log('python'.length > 'dragon'.length)   // false
 ```
 
+Try to understand the above comparisons with some logic. Remember without any logic might be difficult.
+JavaScript is some how a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
+
 ### Logical Operators
 
 The following symbols are the common logical operators:
@@ -199,20 +215,26 @@ The following symbols are the common logical operators:
 ! negates true to false, false to true.
 
 ```js
-//&& ampersand example
-const check = 4 > 3 && 10 > 5; // true and true -> true
-const check = 4 > 3 && 10 < 5; // true and false -> false
-const check = 4 < 3 && 10 < 5; // false and false -> false
-//|| pipe or, example
-const check = 4 > 3 || 10 > 5; // true and true -> true
-const check = 4 > 3 || 10 < 5; // true and false -> true
-const check = 4 < 3 || 10 < 5; // false and false -> false
+
+//&& ampersand operator example
+
+const check = 4 > 3 && 10 > 5  // true and true -> true
+const check = 4 > 3 && 10 < 5  // true and false -> false
+const check = 4 < 3 && 10 < 5  // false and false -> false
+
+//|| pipe or operator, example
+
+const check = 4 > 3 || 10 > 5  // true and true -> true
+const check = 4 > 3 || 10 < 5  // true and false -> true
+const check = 4 < 3 || 10 < 5  // false and false -> false
+
 //! Negation examples
-let check = 4 > 3; // -> true
-let check = !(4 > 3); // -> false
-let isLightOn = true;
-let isLightOff = !isLightOn; // -> false
-let isMarried = !false; // -> true
+
+let check = 4 > 3            // true
+let check = !(4 > 3)         //  false
+let isLightOn = true
+let isLightOff = !isLightOn  // false
+let isMarried = !false       // true
 ```
 
 ### Increment Operator
@@ -223,7 +245,7 @@ In JavaScrip we use the increment operator to increase a value stored in a varia
 
 ```js
 let count = 0
-console.log(++count) // 1
+console.log(++count)  // 1
 console.log(count)    // 1
 ```
 
@@ -231,7 +253,7 @@ console.log(count)    // 1
 
 ```js
 let count = 0
-console.log(count++) // 0
+console.log(count++)  // 0
 console.log(count)    // 1
 ```
 
@@ -245,7 +267,7 @@ In JavaScrip we use the decrement operator to decrease a value stored in a varia
 
 ```js
 let count = 0
-console.log(--count) // -1
+console.log(--count)  // -1
 console.log(count)    // -1
 ```
 
@@ -253,7 +275,7 @@ console.log(count)    // -1
 
 ```js
 let count = 0
-console.log(count--) // 0
+console.log(count--)  // 0
 console.log(count)    // -1
 ```
 
@@ -266,12 +288,12 @@ Another way to write conditionals is using ternary operators. Look at the follow
 let isRaining = true
 isRaining
   ? console.log('You need a rain coat.')
-  : console.log('No need for a rain coat.');
+  : console.log('No need for a rain coat.')
 isRaining = false
 
 isRaining
   ? console.log('You need a rain coat.')
-  : console.log('No need for a rain coat.');
+  : console.log('No need for a rain coat.')
 ```
 
 ```sh
@@ -283,12 +305,12 @@ No need for a rain coat.
 let number = 5
 number > 0
   ? console.log(`${number} is a positive number`)
-  : console.log(`${number} is a number number`);
+  : console.log(`${number} is a number number`)
 number = -5
 
 number > 0
   ? console.log(`${number} is a positive number`)
-  : console.log(`${number} is a number number`);
+  : console.log(`${number} is a number number`)
 ```
 
 ```sh
@@ -554,7 +576,7 @@ Find the length of python and jargon and make a falsy comparison statement.
 
 ```js
 let firstName = 'Asabeneh'
-let lastName = 'Yetayeh
+let lastName = 'Yetayeh'
 ```
 
 ```sh
