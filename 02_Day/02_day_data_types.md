@@ -74,14 +74,17 @@ Primitive data types are compared by its values. Let us compare different data v
 ```js
 let numOne = 3
 let numTwo = 3
+
 console.log(numOne == numTwo)      // true
 
 let js = 'JavaScript'
 let py = 'Python'
+
 console.log(js == py)             //false 
 
 let lightOn = true
 let lightOff = false
+
 console.log(lightOn == lightOff) // false
 ```
 
@@ -93,6 +96,7 @@ Let us see by creating an array. An array is a list of data values in a square b
 ```js
 let nums = [1, 2, 3]
 nums[0] = 10
+
 console.log(nums)  // [10, 2, 3]
 ```
 
@@ -101,6 +105,7 @@ As you can see, an array in which a non-primitive data type is mutable. Non-prim
 ```js
 let nums = [1, 2, 3]
 let numbers = [1, 2, 3]
+
 console.log(nums == numbers)  // false
 
 let userOne = {
@@ -108,11 +113,13 @@ name:'Asabeneh',
 role:'teaching',
 country:'Finland'
 }
+
 let userTwo = {
 name:'Asabeneh',
 role:'teaching',
 country:'Finland'
 }
+
 console.log(userOne == userTwo)
 ```
 
@@ -122,6 +129,7 @@ Non-primitive values are referred to as reference types because they are being c
 ```js
 let nums = [1, 2, 3]
 let numbers = nums
+
 console.log(nums == numbers)  // true
 
 let userOne = {
@@ -129,7 +137,9 @@ name:'Asabeneh',
 role:'teaching',
 country:'Finland'
 }
+
 let userTwo = userOne
+
 console.log(userOne == userTwo)  // true
 ```
 
@@ -151,6 +161,7 @@ const PI = 3.14 // pi a geometrical constant
 //More Examples
 const boilingPoint = 100 // temperature in oC, boiling point of water which is a constant
 const bodyTemp = 37 // oC average human body temperature, which is a constant
+
 console.log(age, gravity, mass, PI, boilingPoint, bodyTemp)
 ```
 
@@ -177,7 +188,8 @@ console.log(Math.max(-5, 3, 20, 4,5, 10)) // 20, returns the maximum value
 
 const randNum = Math.random() // creates random number between 0 to 0.999999
 console.log(randNum)
-// Let create random number between 0 to 10
+
+// Let us  create random number between 0 to 10
 const num = Math.floor(Math.random () * 11) // creates random number between 0 and 10
 console.log(num)
 
@@ -278,7 +290,9 @@ let language = 'JavaScript'
 let job = 'teacher'
 let age = 250
 let fullName = firstName + space + lastName
+
 let personInfoOne = fullName + '. I am ' + age + '. I live in ' + country; // ES5
+
 console.log(personInfoOne)
 ```
 
@@ -339,10 +353,10 @@ To create a template string, we use two backticks. We can inject data as express
 **Example: 1**
 
 ```js
-console.log(`The sum of 2 and 3 is 5`)
+console.log(`The sum of 2 and 3 is 5`)              // statically writing the data
 let a = 2
 let b = 3
-console.log(`The sum of ${a} and ${b} is ${a + b}`)
+console.log(`The sum of ${a} and ${b} is ${a + b}`) // injecting the data dynamically
 ```
 
 **Example:2**
@@ -389,9 +403,9 @@ Everything in JavaScript is an object. A string is a primitive data type that me
 
    ```js
    let js = 'JavaScript'
-   console.log(js.length)        // 10
+   console.log(js.length)         // 10
    let firstName = 'Asabeneh'
-   console.log(firstName.length) // 8
+   console.log(firstName.length)  // 8
    ```
 
 2. *Accessing characters in a string*: We can access each character in a string using its index. In programming, counting starts from 0. The first index of the string is zero, and the last index is one minus the length of the string.
@@ -404,18 +418,18 @@ Let us access different characters in 'JavaScript' string.
 let string = 'JavaScript'
 let firstLetter = string[0]
 
-console.log(firstLetter)        // J
+console.log(firstLetter)           // J
 
-let secondLetter = string[1]    // a
+let secondLetter = string[1]       // a
 let thirdLetter = string[2]
 let lastLetter = string[9]
 
-console.log(lastLetter)          // t
+console.log(lastLetter)            // t
 
 let lastIndex = string.length - 1
 
 console.log(lastIndex)  // 9
-console.log(string[lastIndex])   // t
+console.log(string[lastIndex])    // t
 ```
 
 1. *toUpperCase()*: this method changes the string to uppercase letters.

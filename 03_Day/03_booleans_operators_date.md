@@ -1,7 +1,6 @@
 ## Table of Contents
 
-[<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_data_types.md) |  [Day 4 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md)
---
+[<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_data_types.md) | [Day 4 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md)
 
 ![Thirty Days Of JavaScript](./day_1_3.png)
 
@@ -47,17 +46,17 @@
 
 ## Booleans
 
-A boolean data type represents one of the two values:_true_ or _false_. Boolean value is either true or false. The use of these data types will be clear when you start the comparison operator.  Any comparisons return a boolean value which is either true or false.
+A boolean data type represents one of the two values:_true_ or _false_. Boolean value is either true or false. The use of these data types will be clear when you start the comparison operator. Any comparisons return a boolean value which is either true or false.
 
 **Example: Boolean Values**
 
 ```js
-let isLightOn = true;
-let isRaining = false;
-let isHungry = false;
-let isMarried = true;
-let truValue = 4 > 3    // true
-let falseValue = 3 < 4  // false
+let isLightOn = true
+let isRaining = false
+let isHungry = false
+let isMarried = true
+let truValue = 4 > 3 // true
+let falseValue = 3 < 4 // false
 ```
 
 We agreed that boolean values are either true or false.
@@ -67,7 +66,7 @@ We agreed that boolean values are either true or false.
 - All numbers(positive and negative) are truthy except zero
 - All strings are truthy
 - The boolean true
-  
+
 ### Falsy values
 
 - 0
@@ -85,15 +84,15 @@ It is good to remember those truthy values and falsy values. In later section, w
 If we declare a variable and if we do not assign a value, the value will be undefined. In addition to this, if a function is not returning the value will be undefined.
 
 ```js
-let firstName;
-console.log(firstName); //not defined, because it is not assigned to a value yet
+let firstName
+console.log(firstName) //not defined, because it is not assigned to a value yet
 ```
 
 ## Null
 
 ```js
-let empty = null;
-console.log(empty); // -> null , means no value
+let empty = null
+console.log(empty) // -> null , means no value
 ```
 
 ## Operators
@@ -117,36 +116,38 @@ Arithmetic operators are mathematical operators.
 
 - Addition(+): a + b
 - Subtraction(-): a - b
-- Multiplication(*): a * b
+- Multiplication(_): a _ b
 - Division(/): a / b
 - Modulus(%):a % b
 - Exponential(**):a ** b
 
 ```js
-let numOne = 4;
-let numTwo = 3;
-let sum = numOne + numTwo;
-let diff = numOne - numTwo;
-let mult = numOne * numTwo;
-let div = numOne / numTwo;
-let remainder = numOne % numTwo;
+let numOne = 4
+let numTwo = 3
+let sum = numOne + numTwo
+let diff = numOne - numTwo
+let mult = numOne * numTwo
+let div = numOne / numTwo
+let remainder = numOne % numTwo
 let powerOf = numOne ** numTwo
-console.log(sum, diff, mult, div, remainder, powerOf); // ->7,1,12,1.33,1, 64
 
-let PI = 3.14;
-let radius = 100; // length in meter
+console.log(sum, diff, mult, div, remainder, powerOf) // 7,1,12,1.33,1, 64
 
-const gravity = 9.81; // in m/s2
-let mass = 72; // in Kilogram
-const boilingPoint = 100; // temperature in oC, boiling point of water
-const bodyTemp = 37; // body temperature in oC
+let PI = 3.14
+let radius = 100          // length in meter
+
+const gravity = 9.81      // in m/s2
+let mass = 72             // in Kilogram
+const boilingPoint = 100  // temperature in oC, boiling point of water
+const bodyTemp = 37       // body temperature in oC
 
 //Let us calculate area of a circle
-const areaOfCircle = PI * radius * radius;
-console.log(areaOfCircle); // -> 314 m
+const areaOfCircle = PI * radius * radius
+console.log(areaOfCircle)  //  314 m
+
 // Let us calculate weight of an object
-const weight = mass * gravity;
-console.log(weight); // -> 706.32 N(Newton)
+const weight = mass * gravity
+console.log(weight)        // 706.32 N(Newton)
 
 //Concatenating string with numbers using string interpolation
 /*
@@ -156,7 +157,7 @@ console.log(weight); // -> 706.32 N(Newton)
  */
 console.log(
   `The boiling point of water is ${boilingPoint} oC.\nHuman body temperature is ${bodyTemp} oC.\nThe gravity of earth is ${gravity} m / s2.`
-);
+)
 ```
 
 ### Comparison Operators
@@ -186,13 +187,12 @@ console.log(0 == ' ')           // true, equivalent
 console.log(0 === '')           // false, not exactly the same
 console.log(0 === false)        // false, not exactly the same
 console.log(1 == true)          // true, equivalent
-console.log(1 === true )        // false, not exactly the same
+console.log(1 === true)         // false, not exactly the same
 console.log(undefined == null)  // true
 console.log(undefined === null) // true
 console.log(NaN == NaN)         // false, not equal
 console.log(NaN === NaN)        // false
 console.log(typeof NaN)         // number
-
 
 console.log('mango'.length == 'avocado'.length)  // false
 console.log('mango'.length != 'avocado'.length)  // true
@@ -215,18 +215,17 @@ The following symbols are the common logical operators:
 ! negates true to false, false to true.
 
 ```js
-
 //&& ampersand operator example
 
-const check = 4 > 3 && 10 > 5  // true and true -> true
-const check = 4 > 3 && 10 < 5  // true and false -> false
-const check = 4 < 3 && 10 < 5  // false and false -> false
+const check = 4 > 3 && 10 > 5 // true and true -> true
+const check = 4 > 3 && 10 < 5 // true and false -> false
+const check = 4 < 3 && 10 < 5 // false and false -> false
 
 //|| pipe or operator, example
 
-const check = 4 > 3 || 10 > 5  // true and true -> true
-const check = 4 > 3 || 10 < 5  // true and false -> true
-const check = 4 < 3 || 10 < 5  // false and false -> false
+const check = 4 > 3 || 10 > 5 // true and true -> true
+const check = 4 > 3 || 10 < 5 // true and false -> true
+const check = 4 < 3 || 10 < 5 // false and false -> false
 
 //! Negation examples
 
@@ -245,16 +244,16 @@ In JavaScrip we use the increment operator to increase a value stored in a varia
 
 ```js
 let count = 0
-console.log(++count)  // 1
-console.log(count)    // 1
+console.log(++count) // 1
+console.log(count)   // 1
 ```
 
 1. Post-increment
 
 ```js
 let count = 0
-console.log(count++)  // 0
-console.log(count)    // 1
+console.log(count++) // 0
+console.log(count)  // 1
 ```
 
 We use most of the time post-increment. At leas you should remember how to use post-increment operator.
@@ -267,16 +266,16 @@ In JavaScrip we use the decrement operator to decrease a value stored in a varia
 
 ```js
 let count = 0
-console.log(--count)  // -1
-console.log(count)    // -1
+console.log(--count) // -1
+console.log(count)  // -1
 ```
 
 2. Post-decrement
 
 ```js
 let count = 0
-console.log(count--)  // 0
-console.log(count)    // -1
+console.log(count--) // 0
+console.log(count)   // -1
 ```
 
 #### Ternary Operators
@@ -326,7 +325,7 @@ I would like to recommend you to read about operator precendence from this [link
 
 ### Window alert() method
 
-As you have seen at very beginning  alert() method displays an alert box with a specified message and an OK button. It is a builtin method and it takes on argument.
+As you have seen at very beginning alert() method displays an alert box with a specified message and an OK button. It is a builtin method and it takes on argument.
 
 ```js
 alert(message)
@@ -340,7 +339,7 @@ Do not use too much alert because it is destructing and annoying, use it just fo
 
 ### Window prompt() method
 
-The window prompt methods display a prompt box  with an input on your browser to take input values and the input data can be stored in a variable. The prompt() method takes two arguments. The second argument is optional.
+The window prompt methods display a prompt box with an input on your browser to take input values and the input data can be stored in a variable. The prompt() method takes two arguments. The second argument is optional.
 
 ```js
 prompt('required text', 'optional text')
@@ -376,7 +375,7 @@ _getFullYear(), getMonths(), getDate(), getDay(), getHours(), getMinutes, getSec
 Once we create time object. The time object will provide information about time. Let us create a time object
 
 ```js
-const now  = new Date ()
+const now = new Date()
 console.log(now) // Sat Jan 04 2020 00:56:41 GMT+0200 (Eastern European Standard Time)
 ```
 
@@ -384,10 +383,10 @@ We have created a time object and we can access any date time information from t
 
 ### Getting full year
 
-Let's extract or get the full  from a time object.
+Let's extract or get the full from a time object.
 
 ```js
-const now  = new Date ()
+const now = new Date()
 console.log(now.getFullYear()) // 2020
 ```
 
@@ -396,7 +395,7 @@ console.log(now.getFullYear()) // 2020
 Let's extract or get the month from a time object.
 
 ```js
-const now  = new Date ()
+const now = new Date()
 console.log(now.getMonth()) // 0, because the month is January,  month(0-11)
 ```
 
@@ -405,7 +404,7 @@ console.log(now.getMonth()) // 0, because the month is January,  month(0-11)
 Let's extract or get the date of the month from a time object.
 
 ```js
-const now  = new Date ()
+const now = new Date()
 console.log(now.getDate()) // 4, because the day of the month is 4th,  day(0-31)
 ```
 
@@ -414,8 +413,8 @@ console.log(now.getDate()) // 4, because the day of the month is 4th,  day(0-31)
 Let's extract or get the day of the week from a time object.
 
 ```js
-const now  = new Date ()
-console.log(now.getDay()) // 6, because the day is Saturday which is the 5th day, 
+const now = new Date()
+console.log(now.getDay()) // 6, because the day is Saturday which is the 5th day,
 // Getting the weekday as a number (0-6)
 ```
 
@@ -424,7 +423,7 @@ console.log(now.getDay()) // 6, because the day is Saturday which is the 5th day
 Let's extract or get the hours from a time object.
 
 ```js
-const now  = new Date ()
+const now = new Date()
 console.log(now.getHours()) // 0, because the time is 00:56:41
 ```
 
@@ -433,7 +432,7 @@ console.log(now.getHours()) // 0, because the time is 00:56:41
 Let's extract or get the minutes from a time object.
 
 ```js
-const now  = new Date ()
+const now = new Date()
 console.log(now.getMinutes()) // 56, because the time is 00:56:41
 ```
 
@@ -442,7 +441,7 @@ console.log(now.getMinutes()) // 56, because the time is 00:56:41
 Let's extract or get the seconds from a time object.
 
 ```js
-const now  = new Date ()
+const now = new Date()
 console.log(now.getSeconds()) // 41, because the time is 00:56:41
 ```
 
@@ -450,19 +449,19 @@ console.log(now.getSeconds()) // 41, because the time is 00:56:41
 
 This method give time in milliseconds starting from January 1, 1970. It is also know as Unix time. We can get the unix time in two ways:
 
-1. Using *getTime()*
+1. Using _getTime()_
 
 ```js
-const now  = new Date () //
+const now = new Date() //
 console.log(now.getTime()) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
 ```
 
-1. Using *Date.now()*
+1. Using _Date.now()_
 
 ```js
-const allSeconds  = Date.now () //
+const allSeconds = Date.now() //
 console.log(allSeconds) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
-const timeInSeconds = new Date ().getTime()
+const timeInSeconds = new Date().getTime()
 console.log(allSeconds == timeInSeconds) // true
 ```
 
@@ -470,16 +469,16 @@ Let us format these values to a human readable time format.
 **Example:**
 
 ```js
-const now = new Date ();
-const year = now.getFullYear(); // return year
-const month = now.getMonth() + 1; // return month(0 - 11)
-const date = now.getDate(); // return date (1 - 31)
-const hours = now.getHours(); // return number (0 - 23)
-const minutes = now.getMinutes();// return number (0 -59)
+const now = new Date()
+const year = now.getFullYear() // return year
+const month = now.getMonth() + 1 // return month(0 - 11)
+const date = now.getDate() // return date (1 - 31)
+const hours = now.getHours() // return number (0 - 23)
+const minutes = now.getMinutes() // return number (0 -59)
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
 
-🌕  You have boundless energy. You have just completed day 3 challenge and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
+🌕 You have boundless energy. You have just completed day 3 challenge and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 # 💻 Day 3: Exercises
 
@@ -492,43 +491,43 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 
 ## 2. Exercises: Arithmetic Operators Part
 
-  1. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+1. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
 
-      ```sh
-      Enter base: 20
-      Enter height: 10
-      The area of the triangle is 50
-      ```
+   ```sh
+   Enter base: 20
+   Enter height: 10
+   The area of the triangle is 50
+   ```
 
 1. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
 
-    ```sh
-    Enter side a: 5
-    Enter side b: 4
-    Enter side c: 3
-    The perimeter of the triangle is 12
-    ```
+   ```sh
+   Enter side a: 5
+   Enter side b: 4
+   Enter side c: 3
+   The perimeter of the triangle is 12
+   ```
 
-2. Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
-3. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
-4. Calculate the slope, x-intercept and y-intercept of y = 2x -2
-5. Slope is (m = y2-y1/x2-x1). Find the slope between point (2, 2) and point(6,10)
-6. Compare the slope of above two questions.
-7. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
-8. Writ a script that prompt a user to enters hours and rate per hour. Calculate pay of the person?
+1. Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
+1. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+1. Calculate the slope, x-intercept and y-intercept of y = 2x -2
+1. Slope is (m = y2-y1/x2-x1). Find the slope between point (2, 2) and point(6,10)
+1. Compare the slope of above two questions.
+1. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
+1. Writ a script that prompt a user to enters hours and rate per hour. Calculate pay of the person?
 
-    ```sh
-    Enter hours: 40
-    Enter rate per hour: 28
-    Your weekly earning is 1120
-    ```
+   ```sh
+   Enter hours: 40
+   Enter rate per hour: 28
+   Your weekly earning is 1120
+   ```
 
-9. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
+1. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
 
-    ```sh
-    Enter number of yours you live: 100
-    You lived 3153600000 seconds.
-    ```
+   ```sh
+   Enter number of yours you live: 100
+   You lived 3153600000 seconds.
+   ```
 
 ## 3. Exercises: Booleans Part
 
@@ -539,7 +538,7 @@ Boolean value is either true or false.
 
 ## 4. Exercises: Comparison Operators
 
-Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it  using console.log()
+Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
 
 1. 4 > 3
 1. 4 >= 3
@@ -552,7 +551,7 @@ Figure out the result of the following comparison expression first without using
 1. 4 != '4'
 1. 4 == '4'
 1. 4 === '4'
-Find the length of python and jargon and make a falsy comparison statement.
+   Find the length of python and jargon and make a falsy comparison statement.
 
 ## 5. Exercises: Logical Operators
 
@@ -616,7 +615,7 @@ You are 25. You are old enough to drive
 1. What is the minutes now?
 1. Find out the numbers of seconds elapsed from January 1, 1970 to now.
 1. Create a human readable time format
-   1. YYY-MM-DD  HH:mm:ss
+   1. YYY-MM-DD HH:mm:ss
    2. DD-MM-YYYY HH:mm:ss
    3. DD/MM/YYY HH:mm:ss
 
