@@ -219,7 +219,7 @@ isRaining
   : console.log('No need for a rain coat.')
 ```
 
-🌕  You have remarkable. You have just completed day 4 challenge and you are four steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
+🌕  You are extraordinary and you have a remarkable potential. You have just completed day 4 challenge and you are four steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
 
 # 💻 Exercise - 8 : Conditionals
 
