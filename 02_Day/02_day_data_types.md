@@ -686,9 +686,9 @@ console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
 25. Use __match()__ to count the number all because's in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 26. Use __concat()__ and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
 27. Use __repeat()__ method to print 30 Days Of JavaScript 2 times
-28. Love is the best thing in this world. Some found their love and some are still looking for their love. Count the number of word love in this sentence.
-29. Calculate the total annual income of the person by extract the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
-30. Clean the following text and find the most frequent word(hint, use replace and regular express).
+28. ** 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word love in this sentence.
+29. ** Calculate the total annual income of the person by extract the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+30. ** Clean the following text and find the most frequent word(hint, use replace and regular express).
 
 ```js
     const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is also $the $result of &love& of tea&ching'

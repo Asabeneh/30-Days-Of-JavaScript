@@ -1,6 +1,6 @@
 ##  Table of Contents
 
-[Day 2 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md)
+[Day 2 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_data_types.md)
 --
 
 ![Thirty Days Of JavaScript](./images/day_1_1.png)
@@ -565,5 +565,4 @@ When you run the files on 01-Day folder you should get this:
 
 🎉 CONGRATULATIONS ! 🎉
 
-[Day 2 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md)
-
+[Day 2 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_data_types.md)

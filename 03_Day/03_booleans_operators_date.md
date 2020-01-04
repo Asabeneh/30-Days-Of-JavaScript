@@ -1,6 +1,6 @@
 ## Table of Contents
 
-[<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md) | [Day 4 >>](#)
+[<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_data_types.md) | [Day 4 >>](#)
 --
 
 ![Thirty Days Of JavaScript](./day_1_3.png)
@@ -569,4 +569,4 @@ You are 25. You are old enough to drive
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md) | [Day 4 >>](#)
+[<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_data_types.md) | [Day 4 >>](#)
