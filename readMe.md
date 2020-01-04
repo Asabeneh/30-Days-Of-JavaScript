@@ -74,6 +74,7 @@
     - [Getting full year](#getting-full-year)
     - [Getting month](#getting-month)
     - [Getting date](#getting-date)
+    - [Getting day](#getting-day)
     - [Getting hours](#getting-hours)
     - [Getting minutes](#getting-minutes)
     - [Getting seconds](#getting-seconds)
@@ -990,7 +991,7 @@ let country = 'Finland'
 console.log(country.toLowerCase())   // finland
 ```
 
-5. *substr()*: It takes two arguments,the starting index and number of characters to slice.
+5. *substr()*: It takes two arguments, the starting index and number of characters to slice.
 
 ```js
 let string = 'JavaScript'
@@ -999,7 +1000,7 @@ let country = 'Finland'
 console.log(country.substr(3, 4))   // land
 ```
 
-6. *substring()*: It takes two arguments,the starting index and the stopping index but it doesn't include the stopping index.
+6. *substring()*: It takes two arguments, the starting index and the stopping index but it doesn't include the stopping index.
 
 ```js
 let string = 'JavaScript'
@@ -1093,6 +1094,7 @@ console.log(string.charAt(lastIndex)) // t
 ```js
 string.charCodeAt(index)
 ```
+
 ```js
 let string = '30 Days Of JavaScript'
 console.log(string.charCodeAt(3)) // D ASCII number is 51
@@ -1100,6 +1102,7 @@ let lastIndex = string.length - 1
 console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
 
 ```
+
 13. *indexOf()*: Takes takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1
 
 ```js
@@ -1552,7 +1555,7 @@ I would like to recommend you to read about operator precendence from this [link
 As you have seen at very beginning  alert() method displays an alert box with a specified message and an OK button. It is a builtin method and it takes on argument.
 
 ```js
-alert(mesage)
+alert(message)
 ```
 
 ```js
@@ -1581,9 +1584,11 @@ A confirm box is often used to ask permission from a user to do something. Windo
 Clicking the OK yields true value, clicking the Cancel yields true value.
 
 ```js
-const agree = confirm('Do you like to delete ? ')
-console.log(agree)
+const agree = confirm('Are you sure you like to delete? ')
+console.log(agree) // result will be true or false based on what you click on the dialog box
 ```
+
+These are not all the window methods we will have a separate section to go deep into window methods.
 
 ## Date Object
 
@@ -1627,7 +1632,17 @@ Let's extract or get the date of the month from a time object.
 
 ```js
 const now  = new Date ()
-console.log(now.getMonth()) // 0, because the month is January,  month(0-11)
+console.log(now.getDate()) // 4, because the day of the month is 4th,  day(0-31)
+```
+
+### Getting day
+
+Let's extract or get the day of the week from a time object.
+
+```js
+const now  = new Date ()
+console.log(now.getDay()) // 6, because the day is Saturday which is the 5th day, 
+// Getting the weekday as a number (0-6)
 ```
 
 ### Getting hours
@@ -1653,7 +1668,7 @@ console.log(now.getMinutes()) // 56, because the time is 00:56:41
 Let's extract or get the seconds from a time object.
 
 ```js
-const now  = new Date () // 
+const now  = new Date ()
 console.log(now.getSeconds()) // 41, because the time is 00:56:41
 ```
 
@@ -1668,12 +1683,12 @@ const now  = new Date () //
 console.log(now.getTime()) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
 ```
 
-2. Using *Date.now()*
+1. Using *Date.now()*
 
 ```js
 const allSeconds  = Date.now () //
 console.log(allSeconds) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
-const timeInSeconds = new Date ().getTime() 
+const timeInSeconds = new Date ().getTime()
 console.log(allSeconds == timeInSeconds) // true
 ```
 
@@ -1750,7 +1765,7 @@ Figure out the result of the following expressions first without using console.l
 ## 6 Ternary Operator
 
 1. If the length of your name is greater than 7 say, your name is long else say your name is short.
-2. Compare your first name length and your family name length and you should get this output.
+1. Compare your first name length and your family name length and you should get this output.
 
 ```js
 let firstName = 'Asabeneh'
@@ -1762,7 +1777,7 @@ let lastName = 'Yetayeh
 Your first name, Asabeneh is longer than your family name, Yetayeh
 ```
 
-3. Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
+1. Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
    Output:
 
    ```js
@@ -1775,7 +1790,7 @@ Your first name, Asabeneh is longer than your family name, Yetayeh
    I am 225 years older than you.
    ```
 
-4. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+1. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
 
 ```js
 // if the age is 25
@@ -1787,9 +1802,9 @@ You are 25. You are old enough to drive
 ## 7. Exercises: Date time Object
 
 1. What is the year today?
-1. What is the month today?
+1. What is the month today as a number?
 1. What is the date today?
-1. What is the day today?
+1. What is the day today as a number?
 1. What is the hours now?
 1. What is the minutes now?
 1. Find out the numbers of seconds elapsed from January 1, 1970 to now.
