@@ -1259,7 +1259,7 @@ console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
 16. Use __indexOf__ to determine the position of the first occurrence of a in 30 Days Of JavaScript
 17. Use __lastIndexOf__ to determine the position of the last occurrence of a in 30 Days Of JavaScript.
 18. Use __indexOf__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
-19. Use __lastIndexOf__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
+19. Use __lastIndexOf__ to find the position of the last occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 20. Use __search__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 21. Use __trim()__ to remove if there is trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
 22. Use __startsWith()__ method with the string *30 Days Of JavaScript* make the result true
