@@ -541,7 +541,7 @@ When you run the files on 01-Day folder you should get this:
 
 ![Day one](./images/day_1.png)
 
-🌕  You have completed day 1 challenge. Now do some exercises for you brain and for your muscle.
+🌕  You are amazing. You have just completed day 1 challenge and you are in your way to greatness. Now do some exercises for your brain and for your muscle.
 
 # 💻 Day 1: Exercises
 
