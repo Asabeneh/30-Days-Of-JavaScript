@@ -1762,7 +1762,7 @@ let lastName = 'Yetayeh
 Your first name, Asabeneh is longer than your family name, Yetayeh
 ```
 
-1. Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
+3. Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
    Output:
 
    ```js
@@ -1775,7 +1775,7 @@ Your first name, Asabeneh is longer than your family name, Yetayeh
    I am 225 years older than you.
    ```
 
-2. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+4. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
 
 ```js
 // if the age is 25
