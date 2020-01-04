@@ -2,7 +2,7 @@
 
 [<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md) | [Day 4 >>](#)
 
-![Thirty Days Of JavaScript](../images/30DaysOfJavaScript.png)
+![Thirty Days Of JavaScript](./day_1_3.png)
 
 - [📔 Day 3](#%f0%9f%93%94-day-3)
   - [Booleans](#booleans)
@@ -456,6 +456,8 @@ const minutes = now.getMinutes();// return number (0 -59)
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
 
+🌕  You have completed day 3 challenge. Now do some exercises for you brain and for your muscle.  
+
 # 💻 Day 3: Exercises
 
 ## 1. Exercises: Data types Part
@@ -563,5 +565,7 @@ You are 25. You are old enough to drive
    1. YYY-MM-DD  HH:mm:ss
    2. DD-MM-YYYY HH:mm:ss
    3. DD/MM/YYY HH:mm:ss
+
+🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md) | [Day 4 >>](#)

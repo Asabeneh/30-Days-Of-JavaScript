@@ -4,9 +4,7 @@
 [<< Day 1](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/readMe.md) | [Day 3 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md)
 --
 
-![Thirty Days Of JavaScript](../images/30DaysOfJavaScript.png)
-
-
+![Thirty Days Of JavaScript](./day_1_2.png)
 
 - [📔 Day 2](#%f0%9f%93%94-day-2)
   - [Data types](#data-types)
@@ -655,6 +653,8 @@ let string = 'love'
 console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
 ```
 
+🌕  You have completed day 2 challenge. Now do some exercises for you brain and for your muscle.  
+
 # 💻 Day 2: Exercises
 
 ## Exercises: String Part
@@ -705,5 +705,7 @@ The quote 'There is no exercise better for the heart than reaching down and lift
 ```sh
 "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
 ```
+
+🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 1](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/readMe.md) | [Day 3 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md)

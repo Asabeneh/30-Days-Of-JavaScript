@@ -2,7 +2,7 @@
 
 [Day 2 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md)
 
-![Thirty Days Of JavaScript](./images/30DaysOfJavaScript.png)
+![Thirty Days Of JavaScript](./images/day_1_1.png)
 
 - [📔Day 1](#%f0%9f%93%94day-1)
   - [Introduction](#introduction)
@@ -539,6 +539,8 @@ When you run the files on 01-Day folder you should get this:
 
 ![Day one](./images/day_1.png)
 
+🌕  You have completed day 1 challenge. Now do some exercises for you brain and for your muscle.
+
 # 💻 Day 1: Exercises
 
 1. Write a single line comment which says, _comments can make code readable_
@@ -559,5 +561,7 @@ When you run the files on 01-Day folder you should get this:
    I am 25 years old.
    You are 30 years old.
    ```
+
+🎉 CONGRATULATIONS ! 🎉
 
 [Day 2 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md)
