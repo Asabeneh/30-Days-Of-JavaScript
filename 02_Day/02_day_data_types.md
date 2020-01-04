@@ -488,16 +488,16 @@ Asabeneh
 let string = '30 Days Of JavaScript'
 console.log(string.includes('Days'))     // true
 console.log(string.includes('days'))     // false
-console.log(string.includes('Script'))     // true
-console.log(string.includes('script'))     // false
+console.log(string.includes('Script'))   // true
+console.log(string.includes('script'))   // false
 console.log(string.includes('java'))     // false
 console.log(string.includes('Java'))     // true
 
 let country = 'Finland'
-console.log(country.includes('fin')) // false
-console.log(country.includes('Fin')) // true
-console.log(country.includes('land')) // true
-console.log(country.includes('Land')) // false
+console.log(country.includes('fin'))     // false
+console.log(country.includes('Fin'))     // true
+console.log(country.includes('land'))    // true
+console.log(country.includes('Land'))    // false
 ```
 
 10. *replace()*: takes to parameter the old substring and new substring.
@@ -592,14 +592,14 @@ string.startsWith(substring)
 
 ```js
 let string = 'Love is the best to in this world'
-console.log(string.startsWith('Love')) // true
-console.log(string.startsWith('love')) // false
-console.log(string.startsWith('world')) // false
+console.log(string.startsWith('Love'))   // true
+console.log(string.startsWith('love'))   // false
+console.log(string.startsWith('world'))  // false
 
 let country = 'Finland'
-console.log(country.startsWith('Fin')) // true
-console.log(country.startsWith('fin')) // false
-console.log(country.startsWith('land')) //  false
+console.log(country.startsWith('Fin'))   // true
+console.log(country.startsWith('fin'))   // false
+console.log(country.startsWith('land'))  //  false
 ```
 
 17. *endsWith*: it takes a substring as an argument and it checks if the string starts with that specified substring. It returns a boolean(true or false).
@@ -610,14 +610,14 @@ string.endsWith(substring)
 
 ```js
 let string = 'Love is the best to in this world'
-console.log(string.endsWith('world')) // true
-console.log(string.endsWith('love')) // false
+console.log(string.endsWith('world'))         // true
+console.log(string.endsWith('love'))          // false
 console.log(string.endsWith('in this world')) // true
 
 let country = 'Finland'
-console.log(country.endsWith('land')) // true
-console.log(country.endsWith('fin')) // false
-console.log(country.endsWith('Fin')) //  false
+console.log(country.endsWith('land'))         // true
+console.log(country.endsWith('fin'))          // false
+console.log(country.endsWith('Fin'))          //  false
 ```
 
 18. *search*: it takes a substring as an argument and it returns the index of the first match.
@@ -635,8 +635,8 @@ console.log(string.search('love')) // 2
 
 ```js
 let string = 'love'
-let patternOne = /love/ // with out any flag
-let patternTwo = /love/gi // g-means to search in the whole text, i - case insensitive
+let patternOne = /love/     // with out any flag
+let patternTwo = /love/gi   // g-means to search in the whole text, i - case insensitive
 ```
 
 ```js
@@ -645,24 +645,31 @@ string.match(substring)
 
 ```js
 let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
-console.log(string.match('love')) //
-/*
-output
+console.log(string.match('love'))
+```
+
+```sh
+//output
 
 ["love", index: 2, input: "I love JavaScript. If you do not love JavaScript what else can you love.", groups: undefined]
-*/
+```
+
+```js
 let pattern = /love/gi
-console.log(string.match(pattern)) // ["love", "love", "love"]
+console.log(string.match(pattern))   // ["love", "love", "love"]
 ```
 
 Let us extract numbers from text using regular expression. This is not regular expression section, no panic.
 
 ```js
-let txt = 'In 2019, I run 30 Days of Pyhton. Now, in 2020 I super exited to start this challenge'
-let regEx = /\d+/ // d with escape character means d not a normal d instead acts a digit
-// + means one or more digit numbers, 
+let txt = 'In 2019, I run 30 Days of Python. Now, in 2020 I super exited to start this challenge'
+let regEx = /\d+/
+
+// d with escape character means d not a normal d instead acts a digit
+// + means one or more digit numbers,
 // if there is g after that it means global, search everywhere.
-console.log(txt.match(regEx)) // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
+
+console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
 console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
 
@@ -688,21 +695,23 @@ console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
 // Different python data types
 // Let's declare different data types
 
-let firstName = 'Asabeneh' // string
-let lastName = 'Yetayeh' // string
-let country = 'Finland' // string
-let city = 'Helsinki' // string
-let age = 250 // int, it is not my real age, do not worry about it
+let firstName = 'Asabeneh'      // string
+let lastName = 'Yetayeh'        // string
+let country = 'Finland'         // string
+let city = 'Helsinki'           // string
+let age = 250                   // int, it is not my real age, do not worry about it
+let job
 
-console.log(typeof 'Asabeneh') // str
-console.log(typeof firstName) // str
-console.log(typeof 10) // number
-console.log(typeof 3.14) // number
-console.log(typeof true) // boolean
-console.log(typeof false) // boolean
-console.log(typeof NaN) // number
-console.log(typeof undefined) // undefined
-console.log(typeof null)   // object
+console.log(typeof 'Asabeneh')  // string
+console.log(typeof firstName)   // string
+console.log(typeof 10)          // number
+console.log(typeof 3.14)        // number
+console.log(typeof true)        // boolean
+console.log(typeof false)       // boolean
+console.log(typeof NaN)         // number
+console.log(typeof job)         // undefined
+console.log(typeof undefined)   // undefined
+console.log(typeof null)        // object
 ```
 
 ### Changing data type(Casting)
@@ -845,7 +854,7 @@ The quote 'There is no exercise better for the heart than reaching down and lift
   ```
 
 40. Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
-20. Check if parseInt('9.8') is equal to 10 if not make it exactly equal with 10.
+41. Check if parseInt('9.8') is equal to 10 if not make it exactly equal with 10.
 
 🎉 CONGRATULATIONS ! 🎉
 
