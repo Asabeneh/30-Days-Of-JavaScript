@@ -1,6 +1,8 @@
 ## Table of Contents
 
-![Thirty Days Of JavaScript](./images/30DaysOfJavaScript.png)
+[<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md) | [Day 4 >>](#)
+
+![Thirty Days Of JavaScript](../images/30DaysOfJavaScript.png)
 
 - [📔 Day 3](#%f0%9f%93%94-day-3)
   - [Booleans](#booleans)
@@ -106,7 +108,7 @@ let country = 'Finland'
 
 Assignment Operators
 
-![Assignment operators](images/assignment_operators.png)
+![Assignment operators](../images/assignment_operators.png)
 
 ### Arithmetic Operators
 
@@ -160,7 +162,7 @@ console.log(
 
 In programming we compare values, we use comparison operators to compare two values. We check if a value is greater or less or equal to other value.
 
-![Comparison Operators](./images/comparison_operators.png)
+![Comparison Operators](../images/comparison_operators.png)
 **Example: Comparison Operators**
 
 ```js
@@ -344,7 +346,7 @@ These are not all the window methods we will have a separate section to go deep 
 Time is an important thing. We like to know the time a certain activity or event. In JavaScript current time and date is created using JavaScript Date Object. The object we create using Date object provides many methods to work with date and time.The methods we use to get date and time information from a date object values are started with a word _get_ because it provide the information.
 _getFullYear(), getMonths(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
 
-![Date time Object](images/date_time_object.png)
+![Date time Object](../images/date_time_object.png)
 
 ### Creating a time object
 
@@ -562,4 +564,4 @@ You are 25. You are old enough to drive
    2. DD-MM-YYYY HH:mm:ss
    3. DD/MM/YYY HH:mm:ss
 
-[<< Day 2]((https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md)) | [Day 4 >>](#)
+[<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md) | [Day 4 >>](#)

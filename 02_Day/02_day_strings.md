@@ -1,9 +1,12 @@
 
 ##  Table of Contents
 
-![Thirty Days Of JavaScript](./images/30DaysOfJavaScript.png)
-
 [<< Day 1](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/readMe.md) | [Day 3 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md)
+--
+
+![Thirty Days Of JavaScript](../images/30DaysOfJavaScript.png)
+
+
 
 - [📔 Day 2](#%f0%9f%93%94-day-2)
   - [Data types](#data-types)
@@ -364,7 +367,7 @@ Everything in JavaScript is an object. A string is a primitive data type that me
 
 2. *Accessing characters in a string*: We can access each character in a string using its index. In programming, counting starts from 0. The first index of the string is zero, and the last index is one minus the length of the string.
 
-  ![Accessing sting by index](./images/string_indexes.png)
+  ![Accessing sting by index](../images/string_indexes.png)
   
 Let us access different characters in 'JavaScript' string.
 

@@ -1,7 +1,8 @@
 ##  Table of Contents
 
-![Thirty Days Of JavaScript](./images/30DaysOfJavaScript.png)
 [Day 2 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_strings.md)
+
+![Thirty Days Of JavaScript](./images/30DaysOfJavaScript.png)
 
 - [📔Day 1](#%f0%9f%93%94day-1)
   - [Introduction](#introduction)
