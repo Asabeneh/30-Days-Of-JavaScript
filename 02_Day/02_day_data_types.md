@@ -13,6 +13,7 @@
   - [Numbers](#numbers)
     - [Declaring number data types](#declaring-number-data-types)
     - [Math Object](#math-object)
+      - [Random number generator](#random-number-generator)
   - [Strings](#strings)
     - [String Concatenation](#string-concatenation)
       - [Concatenating using addition operator](#concatenating-using-addition-operator)
@@ -20,12 +21,13 @@
       - [Escape Sequences in string](#escape-sequences-in-string)
       - [Template Literals(Template Strings)](#template-literalstemplate-strings)
     - [String Methods](#string-methods)
-  - [Numbers](#numbers-1)
-    - [Declaring number data types](#declaring-number-data-types-1)
-    - [Math Object](#math-object-1)
-      - [Random number generator](#random-number-generator)
+  - [Checking Data types and Casting](#checking-data-types-and-casting)
+    - [Checking data types](#checking-data-types)
+    - [Changing data type(Casting)](#changing-data-typecasting)
+      - [String to Int](#string-to-int)
+      - [String to Float](#string-to-float)
+      - [Float to Int](#float-to-int)
 - [💻 Day 2: Exercises](#%f0%9f%92%bb-day-2-exercises)
-  - [Exercises: String Part](#exercises-string-part)
 
 # 📔 Day 2
 
@@ -131,7 +133,7 @@ let userTwo = userOne
 console.log(userOne == userTwo)  // true
 ```
 
-If you have a hard time understanding the difference between primitive data types and non-primitive data types, you are not the only one. Calm down and just go to the next section and try to come back after some time. Now let us start the data types by number type. 
+If you have a hard time understanding the difference between primitive data types and non-primitive data types, you are not the only one. Calm down and just go to the next section and try to come back after some time. Now let us start the data types by number type.
 
 ## Numbers
 
@@ -192,6 +194,24 @@ Math.sin(60)
 
 Math.cos(0)
 Math.cos(60)
+```
+
+#### Random number generator
+
+The JavaScript Math Object has a random() method number generator which generators number from 0 to 0.999999999...
+
+```js
+let randomNum = Math.random() // generates 0 to 0.999
+```
+
+Now, let us see how we can use random() method to generate a random number between 0 and 10 inclusive.
+
+```js
+let randomNum = Math.random() // generates 0 to 0.999
+let numBtnZeroAndTen = randomNum * 11
+console.log(numBtnZeroAndTen) // this gives: min 0 and max 10.99
+let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen)
+console.log(randomNumRoundToFloor) // this gives between 0 and 10
 ```
 
 ## Strings
@@ -657,90 +677,105 @@ let string = 'love'
 console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
 ```
 
-## Numbers
+## Checking Data types and Casting
 
-Numbers are integers and decimal values which can do all the arithmetic operations.
-Lets' see some examples of Numbers.
+### Checking data types
 
-### Declaring number data types
+- Check Data types: To check the data type of a certain data type we use the _typeof_ and we also change one data type to another.
+  **Example:**
 
 ```js
-let age = 35
-const gravity = 9.81 //we use const for non-changing values, gravitational constant in  m/s2
-let mass = 72 // mass in Kilogram
-const PI = 3.14 // pi a geometrical constant
+// Different python data types
+// Let's declare different data types
 
-//More Examples
-const boilingPoint = 100 // temperature in oC, boiling point of water which is a constant
-const bodyTemp = 37 // oC average human body temperature, which is a constant
-console.log(age, gravity, mass, PI, boilingPoint, bodyTemp)
+let firstName = 'Asabeneh' // string
+let lastName = 'Yetayeh' // string
+let country = 'Finland' // string
+let city = 'Helsinki' // string
+let age = 250 // int, it is not my real age, do not worry about it
+
+console.log(typeof 'Asabeneh') // str
+console.log(typeof firstName) // str
+console.log(typeof 10) // number
+console.log(typeof 3.14) // number
+console.log(typeof true) // bool
 ```
 
-### Math Object
+### Changing data type(Casting)
 
-In JavaScript the Math Object provides a lots of methods to work with numbers.
+- Casting: Converting one data type to another data type. We use _parseInt()_, _parsefloat()_,_Number()_, _+ sign_, _str()_
+  When we do arithmetic operations string numbers should be first converted to integer or float if not it returns an error.
+
+#### String to Int
+
+We can convert string number to a number. Any number inside a quote is a string number.  An example of a string number: '10', '5', etc.
+We can convert string to number using the following methods:
+
+- parseInt()
+- Number()
+- +
 
 ```js
-const PI = Math.PI
-console.log(PI)                  // 3.141592653589793
-console.log(Math.round(PI))      // 3; to round values to the nearest number
-console.log(Math.round(9.81))    // 10
-console.log(Math.floor(PI))      // 3; rounding down
-console.log(Math.ceil(PI))       // 4; rounding up
-console.log(Math.min(-5, 3, 20, 4,5, 10))    // -5, returns the minimum value
-console.log(Math.max(-5, 3, 20, 4,5, 10))    // 20, returns the maximum value
-
-const randNum = Math.random() // creates random number between 0 to 0.999999
-console.log(randNum)
-// Let create random number between 0 to 10
-const num = Math.floor(Math.random () * 11) // creates random number between 0 and 10
-console.log(num)
-
-//Absolute value
-console.log(Math.abs(-10))    //10
-//Square root
-console.log(Math.sqrt(100))     // 10
-console.log(Math.sqrt(2))      //1.4142135623730951
-// Power
-console.log(Math.pow(3, 2)) // 9
-console.log(Math.E) // 2.718
-
-// Logarithm
-//Returns the natural logarithm of base E of x, Math.log(x)
-console.log(Math.log(2))    // 0.6931471805599453
-console.log(Math.log(10))   // 2.302585092994046
-
-// Trigonometry
-Math.sin(0)
-Math.sin(60)
-
-Math.cos(0)
-Math.cos(60)
+let num = '10'
+let numInt = parseInt(num)
+console.log(numInt) // 10
 ```
 
-#### Random number generator
-
-The JavaScript Math Object has a random() method number generator which generators number from 0 to 0.999999999...
-
 ```js
-let randomNum = Math.random() // generates 0 to 0.999
+let num = '10'
+let numInt = Number(num)
+console.log(numInt) // 10
 ```
 
-Now, let us see how we can use random() method to generate a random number between 0 and 10 inclusive.
+```js
+let num = '10'
+let numInt = +num
+console.log(numInt) // 10
+```
+
+#### String to Float
+
+We can convert string float number to a float number. Any  float number inside a quote is a string float number.  An example of a string float number: '9.81', '3.14', '1.44', etc.
+We can convert string float to number using the following methods:
+
+- parseFloat()
+- Number()
+- +
 
 ```js
-let randomNum = Math.random() // generates 0 to 0.999
-let numBtnZeroAndTen = randomNum * 11
-console.log(numBtnZeroAndTen) // this gives: min 0 and max 10.99
-let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen)
-console.log(randomNumRoundToFloor) // this gives between 0 and 10
+let num = '9.81'
+let numFloat = parseFloat(num)
+console.log(numFloat) // 9.81
+```
+
+```js
+let num = '9.81'
+let numFloat = Number(num)
+console.log(numFloat) // 9.81
+```
+
+```js
+let num = '9.81'
+let numFloat = +num
+console.log(numInt) // 9.81
+```
+
+#### Float to Int
+
+We can convert float numbers to integers.
+We use the following method to convert float to int:
+
+- parseInt()
+  
+```js
+let num = 9.81
+let numInt = parseInt(num)
+console.log(numInt) // 9
 ```
 
 🌕  You are awesome. You have just completed day 2 challenge and you are two steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
 
 # 💻 Day 2: Exercises
-
-## Exercises: String Part
 
 1. Declare a variable name challenge and assign it to an initial value **'30 Days Of JavaScript'**.
 2. Print the string on the browser console using __console.log()__
@@ -789,7 +824,6 @@ The quote 'There is no exercise better for the heart than reaching down and lift
 "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
 ```
 
-32. 
 33. Check if 'on' is found in both python and jargon
 34. _I hope this course is not full of jargon_. Check if _jargon_ is in the sentence.
 35. Generate a random number between 0 and 100 inclusive.
@@ -797,14 +831,17 @@ The quote 'There is no exercise better for the heart than reaching down and lift
 37. Generate a random number between 0 and 255 inclusive.
 38. Access the 'JavaScript' string characters using a random number.
 39. Use console.log() and escape characters to print the following pattern.
-    
-```js
-1 1 1 1 1
-2 1 2 4 8
-3 1 3 9 27
-4 1 4 16 64
-5 1 5 25 125
-```
+
+  ```js
+  1 1 1 1 1
+  2 1 2 4 8
+  3 1 3 9 27
+  4 1 4 16 64
+  5 1 5 25 125
+  ```
+
+40. Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
+20. Check if parseInt('9.8') is equal to 10 if not make it exactly equal with 10.
 
 🎉 CONGRATULATIONS ! 🎉
 
