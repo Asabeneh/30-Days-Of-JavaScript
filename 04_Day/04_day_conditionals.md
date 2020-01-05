@@ -111,7 +111,7 @@ if (isRaining) {
 // No need for a rain coat.
 ```
 
-The above condition is false, therefore the else block was executed. How about if our condition is more than two, we will use *ele if* conditions.
+The above condition is false, therefore the else block was executed. How about if our condition is more than two, we will use *else if* conditions.
 
 ### If else if else
 
