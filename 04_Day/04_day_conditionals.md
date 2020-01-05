@@ -1,15 +1,15 @@
 ## Table of Contents
 
-[<< Day 3](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_day_booleans_operators_date.md) | [Day 5 >>](#)
+[<< Day 3](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md) | [Day 5 >>](#)
 --
 
 ![Thirty Days Of JavaScript](./day_1_4.png)
 
 - [📔 Day 4](#%f0%9f%93%94-day-4)
   - [Conditionals](#conditionals)
-    - [If](#if)
-    - [If Else](#if-else)
-    - [If else if else](#if-else-if-else)
+    - [if](#if)
+    - [if else](#if-else)
+    - [if else if else](#if-else-if-else)
     - [Switch](#switch)
     - [Ternary Operators](#ternary-operators)
 - [💻 Exercise - 8 : Conditionals](#%f0%9f%92%bb-exercise---8--conditionals)
@@ -32,7 +32,7 @@ Conditions can be implementing using the following ways:
 - switch
 - ternary operator
 
-### If
+### if
 
 In JavaScript and other programming languages the key word _if_ use to check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
 
@@ -62,7 +62,7 @@ if (isRaining) {
 
 As you can see in the above condition, 3 is greater than 0 and it is a positive number. The condition was true and the block code was executed. However, if the condition is false, we do not see a result. The same goes for the second condition, if isRaining is false the if block will not be executed and we do not see an output. In order to see the result of the falsy condition, we should have another block, which is going to be _else_.
 
-### If Else
+### if else
 
 If condition is true the first block will be executed, if not the else condition will be executed.
 
@@ -113,7 +113,7 @@ if (isRaining) {
 
 The above condition is false, therefore the else block was executed. How about if our condition is more than two, we will use *else if* conditions.
 
-### If else if else
+### if else if else
 
 On our daily life, we make decision on daily basis. We make decision not by checking  one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full conditions. We use *else if* when we have multiple conditions.
 
@@ -160,7 +160,23 @@ if (weather === 'rainy') {
 
 ### Switch
 
-Switch  is an alternative for **if else if else else**
+Switch  is an alternative for **if else if else else**.
+The switch statement starts with a switch keyword followed by a parenthesis and code block. Inside the code block we will have different cases. Case block run if the value in the switch statement parenthesis match with the case vale. The break is to terminate and it does not go down after the condition is satisfied.  The default block run if all the cases don't satisfy the condition.
+
+```js
+switch(caseValue){
+  case 1:
+    // code
+    break
+  case 2:
+   // code
+   break
+  case 3:
+  // code
+  default:
+   // code
+}
+```
 
 ```js
 let weather = 'cloudy'
@@ -309,4 +325,4 @@ isRaining
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 3](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_day_booleans_operators_date.md) | [Day 5 >>](#)
+[<< Day 3](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md) | [Day 5 >>](#)

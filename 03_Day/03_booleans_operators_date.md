@@ -17,7 +17,7 @@
     - [Logical Operators](#logical-operators)
     - [Increment Operator](#increment-operator)
     - [Decrement Operator](#decrement-operator)
-      - [Ternary Operators](#ternary-operators)
+    - [Ternary Operators](#ternary-operators)
     - [Operator Precendence](#operator-precendence)
   - [Window Methods](#window-methods)
     - [Window alert() method](#window-alert-method)
@@ -204,7 +204,9 @@ console.log('python'.length > 'dragon'.length)   // false
 ```
 
 Try to understand the above comparisons with some logic. Remember without any logic might be difficult.
-JavaScript is some how a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
+JavaScript is some how a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
+
+As rule of thumb, if a value is not true with == it will not be equall with ===. Using === is safer than using ===. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
 
 ### Logical Operators
 
@@ -278,7 +280,7 @@ console.log(count--) // 0
 console.log(count)   // -1
 ```
 
-#### Ternary Operators
+### Ternary Operators
 
 Ternary operator allows to write a condition.
 Another way to write conditionals is using ternary operators. Look at the following examples:
