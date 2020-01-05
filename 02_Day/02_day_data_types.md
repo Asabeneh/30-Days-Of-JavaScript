@@ -154,13 +154,13 @@ Lets' see some examples of Numbers.
 
 ```js
 let age = 35
-const gravity = 9.81 //we use const for non-changing values, gravitational constant in  m/s2
-let mass = 72 // mass in Kilogram
-const PI = 3.14 // pi a geometrical constant
+const gravity = 9.81  //we use const for non-changing values, gravitational constant in  m/s2
+let mass = 72         // mass in Kilogram
+const PI = 3.14       // pi a geometrical constant
 
 //More Examples
 const boilingPoint = 100 // temperature in oC, boiling point of water which is a constant
-const bodyTemp = 37 // oC average human body temperature, which is a constant
+const bodyTemp = 37      // oC average human body temperature, which is a constant
 
 console.log(age, gravity, mass, PI, boilingPoint, bodyTemp)
 ```
@@ -173,14 +173,17 @@ In JavaScript the Math Object provides a lots of methods to work with numbers.
 const PI = Math.PI
 
 console.log(PI)                           // 3.141592653589793
+
 // Rounding to the closest number
 // if above .5 up if less 0.5 down rounding
-console.log(Math.round(PI))               // 3; to round values to the nearest number
+
+console.log(Math.round(PI))               // 3 to round values to the nearest number
+
 console.log(Math.round(9.81))             // 10
 
-console.log(Math.floor(PI))               // 3; rounding down
+console.log(Math.floor(PI))               // 3 rounding down
 
-console.log(Math.ceil(PI))                // 4; rounding up
+console.log(Math.ceil(PI))                // 4 rounding up
 
 console.log(Math.min(-5, 3, 20, 4,5, 10)) // -5, returns the minimum value
 
@@ -190,16 +193,21 @@ const randNum = Math.random() // creates random number between 0 to 0.999999
 console.log(randNum)
 
 // Let us  create random number between 0 to 10
+
 const num = Math.floor(Math.random () * 11) // creates random number between 0 and 10
 console.log(num)
 
 //Absolute value
-console.log(Math.abs(-10))    //10
+console.log(Math.abs(-10))      //10
+
 //Square root
 console.log(Math.sqrt(100))     // 10
+
 console.log(Math.sqrt(2))      //1.4142135623730951
+
 // Power
 console.log(Math.pow(3, 2)) // 9
+
 console.log(Math.E) // 2.718
 
 // Logarithm
@@ -228,7 +236,9 @@ Now, let us see how we can use random() method to generate a random number betwe
 ```js
 let randomNum = Math.random()         // generates 0 to 0.999
 let numBtnZeroAndTen = randomNum * 11
+
 console.log(numBtnZeroAndTen)         // this gives: min 0 and max 10.99
+
 let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen)
 console.log(randomNumRoundToFloor)    // this gives between 0 and 10
 ```
@@ -269,7 +279,6 @@ console.log(fullName);
 ```
 
 ```sh
-// out
 Asabeneh Yetayeh
 ```
 
@@ -709,8 +718,6 @@ console.log(string.match('love'))
 ```
 
 ```sh
-//output
-
 ["love", index: 2, input: "I love JavaScript. If you do not love JavaScript what else can you love.", groups: undefined]
 ```
 
