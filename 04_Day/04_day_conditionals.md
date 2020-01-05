@@ -134,13 +134,13 @@ if (condition) {
 ```js
 let a = 0
 if (a > 0) {
-  console.log(`A${a} is a positive number`)
+  console.log(`${a} is a positive number`)
 } else if (a < 0) {
-  print(`${a} is a negative number`)
-  else if (a == 0) {
-  print(` ${a} is zero`)
+  console.log(`${a} is a negative number`)
+} else if (a == 0) {
+  console.log(`${a} is zero`)
 } else {
-  print('${a) is not a number')
+  console.log(`${a} is not a number`)
 }
 ```
 
