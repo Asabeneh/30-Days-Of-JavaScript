@@ -274,7 +274,7 @@ isRaining
     9 is is an odd number.
     ```
 
-1. Check if a day is week end day or a working day. Your script will take day as an input.
+1. Check if a day is weekend day or a working day. Your script will take day as an input.
 
 ```sh
     What is the day is today? Saturday
