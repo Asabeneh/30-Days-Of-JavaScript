@@ -708,7 +708,10 @@ let patternOne = /love/     // with out any flag
 let patternTwo = /love/gi   // g-means to search in the whole text, i - case insensitive
 ```
 
+Match syntax
+
 ```js
+// syntax
 string.match(substring)
 ```
 
@@ -726,7 +729,7 @@ let pattern = /love/gi
 console.log(string.match(pattern))   // ["love", "love", "love"]
 ```
 
-Let us extract numbers from text using regular expression. This is not regular expression section, no panic.
+Let us extract numbers from text using regular expression. This is not regular expression section, no panic, we will cover regular expression in other section.
 
 ```js
 let txt = 'In 2019, I run 30 Days of Python. Now, in 2020 I super exited to start this challenge'
@@ -740,7 +743,7 @@ console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", 
 console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
 
-20.  *repeat()*: it takes a number argument and it returned the repeated version of the string.
+20.   *repeat()*: it takes a number argument and it returned the repeated version of the string.
 
 ```js
 string.repeat(n)
