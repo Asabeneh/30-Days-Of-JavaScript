@@ -60,7 +60,7 @@ for(let i = 0; i < numbers.length; i++){
 console.log(sum)  // 15
 ```
 
-Creating a new are based on the existing array
+Creating a new array based on the existing array
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -72,6 +72,16 @@ for(let i = 0; i < numbers.length; i++){
 }
 
 console.log(newArr)  // [1, 4, 9, 16, 25]
+```
+
+```js
+const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
+const newArr = []
+for(let i = 0; i < countries.length; i++){
+  newArr.push(countries[i].toUpperCase())
+}
+
+console.log(newArr)  // ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
 ```
 
 ### while loop
@@ -143,6 +153,16 @@ for (const tech of webTechs) {
   console.log(tech[0]) //get only the first letter of each element,  H C J R N M
 }
 
+```
+
+```js
+const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
+const newArr = []
+for(const country of countries){
+  newArr.push(country.toUpperCase())
+}
+
+console.log(newArr)  // ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
 ```
 
 ### break
