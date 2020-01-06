@@ -291,7 +291,7 @@ isRaining
     Enter a number: 2
     2 is an even number
 
-    Enter a number 9
+    Enter a number: 9
     9 is is an odd number.
     ```
 
