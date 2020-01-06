@@ -558,7 +558,6 @@ When you run the files on 01-Day folder you should get this:
 10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to the browser console.
 
    ```sh
-   Output:
    I am 25 years old.
    You are 30 years old.
    ```

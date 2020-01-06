@@ -502,7 +502,7 @@ console.log(country.substring(3))      // land
 7. *split()*: The split method splits a string at a specified place.
 
 ```js
-let string = '30 Days Of JavaScipt'
+let string = '30 Days Of JavaScript'
 
 console.log(string.split())     // ["30 Days Of JavaScript"]
 console.log(string.split(' '))  // ["30", "Days", "Of", "JavaScript"]
