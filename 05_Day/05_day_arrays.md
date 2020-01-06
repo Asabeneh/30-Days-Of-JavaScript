@@ -80,19 +80,19 @@ console.log('Numbers:', numbers)
 console.log('Number of numbers:', numbers.length)
 
 console.log('Fruits:', fruits)
-console.log('Number of fruits:', len(fruits))
+console.log('Number of fruits:', fruits.length)
 
 console.log('Vegetables:', vegetables)
-console.log('Number of vegetables:', len(vegetables))
+console.log('Number of vegetables:', vegetables.length)
 
 console.log('Animal products:', animalProducts)
-console.log('Number of animal products:', len(animalProducts))
+console.log('Number of animal products:', animalProducts.length)
 
-console.log('Web technologies:', web_techs)
-console.log('Number of web technologies:', len(webTechs))
+console.log('Web technologies:', webTechs)
+console.log('Number of web technologies:', webTechs.length)
 
 console.log('Countries:', countries)
-console.log('Number of countries:', len(countries))
+console.log('Number of countries:', countries.length)
 ```
 
 ```sh
