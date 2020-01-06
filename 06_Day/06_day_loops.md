@@ -11,6 +11,8 @@
     - [while loop](#while-loop)
     - [do while loop](#do-while-loop)
     - [for of loop](#for-of-loop)
+    - [break](#break)
+    - [continue](#continue)
   - [💻 Exercises:Day 6](#%f0%9f%92%bb-exercisesday-6)
 
 # 📔 Day 6
@@ -143,7 +145,15 @@ for (const tech of webTechs) {
 
 ```
 
-🌕 You are so brave, you made to this far. You have just completed day 6 challenges and you are 6 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+### break
+
+content will be added soon
+
+### continue
+
+content will added soon
+
+🌕 You are so brave, you made it to this far. Now, you have gained the power to automate repetitive and tedious tasks. You have just completed day 6 challenges and you are 6 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## 💻 Exercises:Day 6
 
