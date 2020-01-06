@@ -304,6 +304,7 @@ fill: Fill all the array elements with a static value
 ```js
 const arr = Array() // creates an an empty array
 console.log(arr)
+
 const eightXvalues = Array(8).fill('X') // it creates eight element values
 console.log(eightXvalues) // ['X', 'X','X','X','X','X','X','X']
 
@@ -396,21 +397,23 @@ lastIndexOf:Give the position of the last item in the array. If it exist it retu
 
 ```js
 const numbers = [1, 2, 3, 4, 5, 3, 1, 2]
-console.log(numbers.lastIndexOf(2)) // -> 7
-console.log(numbers.lastIndexOf(0)) // -> -1
-console.log(numbers.lastIndexOf(1)) // -> 6
-console.log(numbers.lastIndexOf(4)) // -> 3
-console.log(numbers.lastIndexOf(6)) // -> -1
+
+console.log(numbers.lastIndexOf(2)) // -7
+console.log(numbers.lastIndexOf(0)) // -1
+console.log(numbers.lastIndexOf(1)) //  6
+console.log(numbers.lastIndexOf(4)) //  3
+console.log(numbers.lastIndexOf(6)) // -1
 ```
 
 includes:To check if an item exist in an array. If it exist it returns the true else it returns false.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
-console.log(numbers.includes(5)) // -> true
-console.log(numbers.includes(0)) // -> false
-console.log(numbers.includes(1)) // -> true
-console.log(numbers.includes(6)) // -> false
+
+console.log(numbers.includes(5)) // true
+console.log(numbers.includes(0)) // false
+console.log(numbers.includes(1)) // true
+console.log(numbers.includes(6)) // false
 
 const webTechs = [
   'HTML',
@@ -432,9 +435,10 @@ Array.isArray:To check if the data type is an array
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
-console.log(Array.isArray(numbers)) // -> true
+console.log(Array.isArray(numbers)) // true
+
 const number = 100
-console.log(Array.isArray(number)) // -> false
+console.log(Array.isArray(number)) // false
 ```
 
 #### Converting array to string
@@ -444,6 +448,7 @@ toString:Converts array to string
 ```js
 const numbers = [1, 2, 3, 4, 5]
 console.log(numbers.toString()) // 1,2,3,4,5
+
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 console.log(names.toString()) // Asabeneh,Mathias,Elias,Brook
 ```
@@ -455,7 +460,9 @@ join:To join the elements of the array, the argument passed in the join method w
 ```js
 const numbers = [1, 2, 3, 4, 5]
 console.log(numbers.join()) // 1,2,3,4,5
+
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+
 console.log(names.join()) // Asabeneh,Mathias,Elias,Brook
 console.log(names.join('')) //AsabenehMathiasEliasBrook
 console.log(names.join(' ')) //Asabeneh Mathias Elias Brook
@@ -575,7 +582,8 @@ reverse: reverse the order of an array
 ```js
 const numbers = [1, 2, 3, 4, 5]
 numbers.reverse() // -> reverse array order
-console.log(numbers) // -> [5, 4, 3, 2, 1]
+
+console.log(numbers) // [5, 4, 3, 2, 1]
 
 numbers.reverse()
 console.log(numbers) // [1, 2, 3, 4, 5]
@@ -662,11 +670,13 @@ const webTechs = [
     ```js
     let text =
     'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+    console.log(words)
+    console.log(words.length)
     ```
 
     ```sh
-    words = ["I", "love", "teaching", "and", "empowering", "people", "I", "teach", "HTML", "CSS", "JS", "React", "Python"]
-    console.log(words.length) //13
+    ["I", "love", "teaching", "and", "empowering", "people", "I", "teach", "HTML", "CSS", "JS", "React", "Python"]
+    13
     ```
 
 1. In the following shopping cart add, remove, edit items
@@ -686,6 +696,7 @@ const webTechs = [
     ```js
     const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
     const backEnd = ['Node','Express', 'MongoDB']
+  
     console.log(fullStack)
     ```
 
