@@ -129,15 +129,18 @@ As we have seen in earlier section, we can split a string at different position 
 
 ```js
 let js = 'JavaScript'
-const charsInJavaScript = js.split('') // ["J", "a", "v", "a", "S", "c", "r", "i", "p", "t"]
-console.log(charsInJavaScript)
+const charsInJavaScript = js.split('')
+
+console.log(charsInJavaScript) // ["J", "a", "v", "a", "S", "c", "r", "i", "p", "t"]
 
 let companiesString = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
 const companies = companiesString.split(',')
+
 console.log(companies) // ["Facebook", " Google", " Microsoft", " Apple", " IBM", " Oracle", " Amazon"]
 let text =
   'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
 const words = text.split(' ')
+
 console.log(words)
 // the text has special characters think how you can just get only the words
 // ["I", "love", "teaching", "and", "empowering", "people.", "I", "teach", "HTML,", "CSS,", "JS,", "React,", "Python"]
@@ -152,14 +155,19 @@ We access each element in an array using their index. An array index start from 
 ```js
 const fruits = ['banana', 'orange', 'mango', 'lemon']
 let firstFruit = fruits[0] // we are accessing the first item using its index
+
 console.log(firstFruit) // banana
+
 secondFruit = fruits[1]
 console.log(secondFruit) // orange
-lastFruit = fruits[3]
+
+let lastFruit = fruits[3]
 console.log(lastFruit) // lemon
-// Last index
+// Last index can be calculated as follows
+
 let lastIndex = len(fruits) - 1
-let lastFruit = fruits[lastIndex]
+lastFruit = fruits[lastIndex]
+console.log(lastFruit)  // lemon
 ```
 
 ```js
@@ -258,11 +266,11 @@ const countries = [
   'Ireland',
   'Japan',
   'Kenya'
-] 
+]
 
-countries[0] = 'Afghanistan'  // Albania replaced by Afghanistan
+countries[0] = 'Afghanistan'  // Replacing Albania by Afghanistan
 let lastIndex = countries.length - 1
-countries[lastIndex] = 'Korea'
+countries[lastIndex] = 'Korea' // Replacing Kenya by Korea
 
 console.log(countries)
 ```

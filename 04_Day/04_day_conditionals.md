@@ -9,7 +9,7 @@
   - [Conditionals](#conditionals)
     - [if](#if)
     - [if else](#if-else)
-    - [if else if else](#if-else-if-else)
+    - [if else if else else](#if-else-if-else-else)
     - [Switch](#switch)
     - [Ternary Operators](#ternary-operators)
 - [💻 Exercise : Conditionals](#%f0%9f%92%bb-exercise--conditionals)
@@ -113,7 +113,7 @@ if (isRaining) {
 
 The above condition is false, therefore the else block was executed. How about if our condition is more than two, we will use *else if* conditions.
 
-### if else if else
+### if else if else else
 
 On our daily life, we make decision on daily basis. We make decision not by checking  one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full conditions. We use *else if* when we have multiple conditions.
 
