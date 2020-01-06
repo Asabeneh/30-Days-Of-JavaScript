@@ -309,10 +309,10 @@ const eightXvalues = Array(8).fill('X') // it creates eight element values
 console.log(eightXvalues) // ['X', 'X','X','X','X','X','X','X']
 
 const eight0values = Array(8).fill(0) // it creates eight element values
-console.log(eight0Values) // [0, 0, 0, 0, 0, 0, 0, 0]
+console.log(eight0values) // [0, 0, 0, 0, 0, 0, 0, 0]
 
 const four4values = Array(4).fill(4) // it creates 4 element values
-console.log(four4Values) // [4, 4, 4, 4, 4, 4, 4, 4]
+console.log(four4values) // [4, 4, 4, 4, 4, 4, 4, 4]
 ```
 
 #### Concatenating array using concat
