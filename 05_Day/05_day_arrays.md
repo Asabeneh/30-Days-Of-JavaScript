@@ -1,34 +1,37 @@
 ## Table of Contents
 
-## [<< Day 1](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/readMe.md) | [Day 3 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md)
+[<< Day 4](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_conditionals.md) | [Day 6 >>](#)
+--
+![Day 5](../images/banners/day_1_5.png)
 
-- [Table of Contents](#table-of-contents)
-- [&lt;&lt; Day 1 | Day 3 &gt;&gt;](#ltlt-day-1--day-3-gtgt)
-- [Arrays](#arrays)
-  - [How to create an empty array](#how-to-create-an-empty-array)
-  - [How to create an array with values](#how-to-create-an-array-with-values)
-  - [Creating an array using split](#creating-an-array-using-split)
-  - [Accessing array items using index](#accessing-array-items-using-index)
-  - [Modifying array element](#modifying-array-element)
-  - [Methods to manipulate array](#methods-to-manipulate-array)
-    - [Array Constructor](#array-constructor)
-    - [Creating static values with fill](#creating-static-values-with-fill)
-    - [Concatenating array using concat](#concatenating-array-using-concat)
-    - [Getting array length](#getting-array-length)
-    - [Getting index an element in arr array](#getting-index-an-element-in-arr-array)
-    - [Getting last index of an element in array](#getting-last-index-of-an-element-in-array)
-    - [Checking array](#checking-array)
-    - [Converting array to string](#converting-array-to-string)
-    - [Joining array elements](#joining-array-elements)
-    - [Slice array elements](#slice-array-elements)
-    - [Splice method in array](#splice-method-in-array)
-    - [Adding item to an array using push](#adding-item-to-an-array-using-push)
-    - [Removing the end element using pop](#removing-the-end-element-using-pop)
-    - [Removing an element from the beginning](#removing-an-element-from-the-beginning)
-    - [Add an element from the beginning](#add-an-element-from-the-beginning)
-    - [Reversing array order](#reversing-array-order)
-    - [Sorting elements in array](#sorting-elements-in-array)
-- [Exercise](#exercise)
+- [📔 Day 5](#%f0%9f%93%94-day-5)
+  - [Arrays](#arrays)
+    - [How to create an empty array](#how-to-create-an-empty-array)
+    - [How to create an array with values](#how-to-create-an-array-with-values)
+    - [Creating an array using split](#creating-an-array-using-split)
+    - [Accessing array items using index](#accessing-array-items-using-index)
+    - [Modifying array element](#modifying-array-element)
+    - [Methods to manipulate array](#methods-to-manipulate-array)
+      - [Array Constructor](#array-constructor)
+      - [Creating static values with fill](#creating-static-values-with-fill)
+      - [Concatenating array using concat](#concatenating-array-using-concat)
+      - [Getting array length](#getting-array-length)
+      - [Getting index an element in arr array](#getting-index-an-element-in-arr-array)
+      - [Getting last index of an element in array](#getting-last-index-of-an-element-in-array)
+      - [Checking array](#checking-array)
+      - [Converting array to string](#converting-array-to-string)
+      - [Joining array elements](#joining-array-elements)
+      - [Slice array elements](#slice-array-elements)
+      - [Splice method in array](#splice-method-in-array)
+      - [Adding item to an array using push](#adding-item-to-an-array-using-push)
+      - [Removing the end element using pop](#removing-the-end-element-using-pop)
+      - [Removing an element from the beginning](#removing-an-element-from-the-beginning)
+      - [Add an element from the beginning](#add-an-element-from-the-beginning)
+      - [Reversing array order](#reversing-array-order)
+      - [Sorting elements in array](#sorting-elements-in-array)
+  - [💻 Exercise](#%f0%9f%92%bb-exercise)
+
+# 📔 Day 5
 
 ## Arrays
 
@@ -546,7 +549,9 @@ webTechs.reverse() // after sorting we can reverse it
 console.log(webTechs) // ["Redux", "React", "Node", "MongoDB", "JavaScript", "HTML", "CSS"]
 ```
 
-## Exercise
+🌕  You are diligent and you have already achieved quite a lot. You have just completed day 4 challenge and you are four steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
+
+## 💻 Exercise
 
 ```js
 const countries = [
@@ -649,3 +654,6 @@ const webTechs = [
 1. Find the middle country(ies) in the [countries list](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
 1. Divide the countries list into two equal lists if it is even.  If countries array is not even one more country for the first half.
   
+🎉 CONGRATULATIONS ! 🎉
+
+[<< Day 4](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_conditionals.md) | [Day 6 >>](#)
