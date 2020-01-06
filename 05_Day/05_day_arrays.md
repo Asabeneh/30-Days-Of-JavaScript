@@ -401,6 +401,19 @@ console.log(numbers.includes(5)) // -> true
 console.log(numbers.includes(0)) // -> false
 console.log(numbers.includes(1)) // -> true
 console.log(numbers.includes(6)) // -> false
+
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+] // List of web technologies
+
+console.log(webTechs.includes('Node'))  // true
+console.log(webTechs.includes('C'))     // false
 ```
 
 #### Checking array
@@ -438,6 +451,19 @@ console.log(names.join('')) //AsabenehMathiasEliasBrook
 console.log(names.join(' ')) //Asabeneh Mathias Elias Brook
 console.log(names.join(', ')) //Asabeneh, Mathias, Elias, Brook
 console.log(names.join(' # ')) //Asabeneh # Mathias # Elias # Brook
+
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+] // List of web technologies
+
+console.log(webTechs.join())       // "HTML,CSS,JavaScript,React,Redux,Node,MongoDB"
+console.log(webTechs.join(' # '))  // "HTML # CSS # JavaScript # React # Redux # Node # MongoDB"
 ```
 
 #### Slice array elements
@@ -445,10 +471,11 @@ console.log(names.join(' # ')) //Asabeneh # Mathias # Elias # Brook
 Slice: To cut out a multiple items in range. It takes two parameters:starting and ending position. It doesn't include the ending position
 
 ```js
-  const numbers = [1,2,3,4,5];
+  const numbers = [1,2,3,4,5]
+
   console.log(numbers.slice() // -> it copies all  item
   console.log(numbers.slice(0) // -> it copies all  item
-  console.log(numbers.indexOf(0, numbers.length)) // it copies all  item
+  console.log(numbers.slice(0, numbers.length)) // it copies all  item
   console.log(numbers.slice(1,4)) // -> [2,3,4] // it doesn't include the ending position
 ```
 
@@ -458,6 +485,7 @@ Splice: It takes three parameters:Starting position, number of times to be remov
 
 ```js
   const numbers = [1, 2, 3, 4, 5];
+
   console.log(numbers.splice()                // -> remove all items
   console.log(numbers.splice(0,1))            // remove the first item
   console.log(numbers.splice(3, 3, 6, 7, 8))  // -> [1,2,6,7,8] //it removes two item and replace three items
@@ -472,6 +500,7 @@ Push: adding item in the end. To add item to the end of an existing array we use
 // syntax
 const arr  = ['item1', 'item2','item3']
 arr.push('new item')
+
 console.log(arr)
 // ['item1', 'item2','item3','new item']
 ```
@@ -479,7 +508,9 @@ console.log(arr)
 ```js
 const numbers = [1, 2, 3, 4, 5]
 numbers.push(6)
+
 console.log(numbers) // -> [1,2,3,4,5,6]
+
 numbers.pop() // -> remove one item from the end
 console.log(numbers) // -> [1,2,3,4,5]
 ```
@@ -487,7 +518,9 @@ console.log(numbers) // -> [1,2,3,4,5]
 ```js
 let fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.push('apple')
+
 console.log(fruits)    // ['banana', 'orange', 'mango', 'lemon', 'apple']
+
 fruits.push('lime')
 console.log(fruits)   // ['banana', 'orange', 'mango', 'lemon', 'apple', 'lime']
 ```
@@ -499,6 +532,7 @@ Pop: Removing item in the end
 ```js
 const numbers = [1, 2, 3, 4, 5]
 numbers.pop() // -> remove one item from the end
+
 console.log(numbers) // -> [1,2,3,4]
 ```
 
@@ -509,6 +543,7 @@ shift: Removing one array element in the beginning of the array
 ```js
 const numbers = [1, 2, 3, 4, 5]
 numbers.shift() // -> remove one item from the beginning
+
 console.log(numbers) // -> [2,3,4,5]
 ```
 
@@ -519,6 +554,7 @@ unshift: Adding array element in the beginning of the array
 ```js
 const numbers = [1, 2, 3, 4, 5]
 numbers.unshift(0) // -> remove one item from the beginning
+
 console.log(numbers) // -> [0,1,2,3,4,5]
 ```
 
