@@ -227,10 +227,15 @@ If you installed visual studio code, let us start using it.
 Open the visual studio code by double-clicking the visual studio icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
 
 ![Vscode ui](./images/vscode_ui.png)
+
 ![Vscode add project](./images/adding_project_to_vscode.png)
+
 ![Vscode open project](./images/opening_project_on_vscode.png)
+
 ![script file](images/scripts_on_vscode.png)
+
 ![running script](./images/running_script.png)
+
 ![coding running](./images/launched_on_new_tab.png)
 
 ## Adding JavaScript to a web page
@@ -298,6 +303,7 @@ This is how we write the internal script most of the time. Writing the JavaScrip
 ```
 
 Open the browser console to see the output from the console.log()
+
 ![js code from vscode](./images/js_code_vscode.png)
 
 ### External script
@@ -320,7 +326,7 @@ External scripts in the head
     </head>
     <body>
     </body>
-    </html
+    </html>
 ```
 
 External scripts in the body
@@ -336,7 +342,7 @@ External scripts in the body
       // Here is the recommended place to put the external script
       <script src="introduction.js"></script>
     </body>
-    </html
+    </html>
 ```
 
 Open the browser console to see the output from the console.log()
@@ -361,10 +367,11 @@ console.log('Hello, World!')
       <script src ="./helloworld.js"></script>
       <script src="./introduction.js"></script>
     </body>
-  </html
+  </html>
 ```
 
 Your main.js file should be below all other scripts. Watch out your exercise needs to understand this line.
+
 ![Multiple Script](./images/multiple_script.png)
 
 ## Introduction to Data types
@@ -403,8 +410,8 @@ A boolean data type is either a True or False value.
 **Example:**
 
 ```js
-    true  # if the light on ,the value is true
-    false # if the light off, the value is False
+    true  // if the light on ,the value is true
+    false // if the light off, the value is False
 ```
 
 ### Undefined
@@ -431,8 +438,8 @@ To check the data type of a certain data type, we use the **typeof** operator. S
 ```js
 console.log(typeof 'Asabeneh') // string
 console.log(typeof 5)          // number
-console.log(typeof true )     // boolean
-console.log(typeof null)      // object type
+console.log(typeof true )      // boolean
+console.log(typeof null)       // object type
 console.log(typeof undefined)  // undefined
 ```
 
@@ -445,6 +452,7 @@ There are two ways of commenting:
 - _Multiline commenting_
 
 ```js
+// commenting the code itself with a single comment
 // let firstName = 'Asabeneh'; single line comment
 // let lastName = 'Yetayeh'; single line comment
 ```
@@ -466,10 +474,10 @@ Variables are _containers_ of data. Variables used to _store_ data in a memory l
 
 For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do no change, and we can use *const*.
 
-* A JavaScript variable name  should not begin with a number.
-* A JavaScript variable name does not allow special characters except dollar sign and underscore.
-* A JavaScript variable name follows a camelCase convention.
-* A JavaScript variable name should not have space between words.
+- A JavaScript variable name  should not begin with a number.
+- A JavaScript variable name does not allow special characters except dollar sign and underscore.
+- A JavaScript variable name follows a camelCase convention.
+- A JavaScript variable name should not have space between words.
 
 The following are valid examples of JavaScript variables.
 Valid variables in JavaScript:
@@ -516,21 +524,24 @@ Let us declare variables with different data types. To declare a variable, we ne
 
 ```js
 // Declaring different variables of different data types
-let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
-let country = 'Finland' // country
-let city = 'Helsinki' // capital city
-let age = 100 // age in years
+
+let firstName = 'Asabeneh'  // first name of a person
+let lastName = 'Yetayeh'    // last name of a person
+let country = 'Finland'     // country
+let city = 'Helsinki'       // capital city
+let age = 100               // age in years
 let isMarried = true
+
 console.log(firstName, lastName, country, city, age, isMarried); //Asabeneh, Yetayeh, Finland, Helsinki, 100, True
 
 // Declaring variables with number values
-const gravity = 9.81; // earth gravity  in m/s2
-const boilingPoint = 100; // water boiling point, temperature in oC
-const PI = 3.14; // geometrical constant
+const gravity = 9.81      // earth gravity  in m/s2
+const boilingPoint = 100  // water boiling point, temperature in oC
+const PI = 3.14           // geometrical constant
+
 console.log(gravity, boilingPoint, PI); // 9.81, 100, 3.14
 // Variables can also be declaring in one line separated by comma
-let name = 'Asabeneh', //name of a person
+let name = 'Asabeneh', // name of a person
   job = 'teacher',
   live = 'Finland';
 console.log(name, job, live);
