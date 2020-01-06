@@ -3,7 +3,7 @@
 [<< Day 3](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md) | [Day 5 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md)
 --
 
-![Thirty Days Of JavaScript](./day_1_4.png)
+![Thirty Days Of JavaScript](../images/banners/day_1_4.png)
 
 - [📔 Day 4](#%f0%9f%93%94-day-4)
   - [Conditionals](#conditionals)
@@ -193,9 +193,11 @@ switch (weather) {
   default:
     console.log(' No need for rain coat.')
 }
+
 // Switch More Examples
-var dayUserInput = prompt('What day is today ?')
-var day = dayUserInput.toLowerCase()
+let dayUserInput = prompt('What day is today ?')
+let day = dayUserInput.toLowerCase()
+
 switch (day) {
   case 'monday':
     console.log('Today is Monday')
@@ -218,10 +220,10 @@ switch (day) {
   case 'sunday':
     console.log('Today is Sunday')
     break
-
   default:
     console.log('It is not a week day.')
 }
+
 ```
 
 ### Ternary Operators

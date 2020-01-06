@@ -4,7 +4,7 @@
 [<< Day 1](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/readMe.md) | [Day 3 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md)
 --
 
-![Thirty Days Of JavaScript](./day_1_2.png)
+![Thirty Days Of JavaScript](../images/banners/day_1_2.png)
 
 - [📔 Day 2](#%f0%9f%93%94-day-2)
   - [Data types](#data-types)

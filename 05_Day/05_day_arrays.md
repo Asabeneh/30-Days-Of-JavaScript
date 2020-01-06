@@ -167,6 +167,7 @@ console.log(lastFruit) // lemon
 
 let lastIndex = fruits.length - 1
 lastFruit = fruits[lastIndex]
+
 console.log(lastFruit)  // lemon
 ```
 
@@ -328,9 +329,9 @@ console.log(thirdList) // [1, 2, 3, 4, 5, 6]
 ```
 
 ```js
-const fruits = ['banana', 'orange', 'mango', 'lemon'] // array of fruits
+const fruits = ['banana', 'orange', 'mango', 'lemon']                 // array of fruits
 const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] // array of vegetables
-const fruitsAndVegetables = fruits.concat(vegetables) // concatinate the two arrays
+const fruitsAndVegetables = fruits.concat(vegetables)                 // concatenate the two arrays
 
 console.log(fruitsAndVegetables)
 ```
@@ -382,7 +383,7 @@ if(index != -1){
 index != -1 ? console.log('This fruit does exist in the array'): console.log('This fruit does not exist in the array')
 
 // let us check if a avocado exist in the array
-let indexOfAvocado = fruits.indexOf('avocado')  // -1
+let indexOfAvocado = fruits.indexOf('avocado')  // -1, if the element not found index is -1
 if(indexOfAvocado!= -1){
    console.log('This fruit does exist in the array')  
 } else {
