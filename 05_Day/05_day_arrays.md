@@ -165,7 +165,7 @@ let lastFruit = fruits[3]
 console.log(lastFruit) // lemon
 // Last index can be calculated as follows
 
-let lastIndex = len(fruits) - 1
+let lastIndex = fruits.length - 1
 lastFruit = fruits[lastIndex]
 console.log(lastFruit)  // lemon
 ```
@@ -179,7 +179,7 @@ console.log(numbers[0])      //  -> 0
 console.log(numbers[5])      //  -> 100
 
 let lastIndex = numbers.length - 1;
-console.log(numbers[lastIndex]) -> 100
+console.log(numbers[lastIndex]) // -> 100
 ```
 
 ```js
@@ -199,7 +199,7 @@ console.log(webTechs[0])     //  -> HTML
 console.log(webTechs[6])     //  -> MongoDB
 
 let lastIndex = webTechs.length - 1
-console.log(webTechs[lastIndex]) -> MongoDB
+console.log(webTechs[lastIndex]) // -> MongoDB
 ```
 
 ```js
@@ -222,7 +222,7 @@ console.log(countries[0])   //  -> Albania
 console.log(countries[10])  //  -> Kenya
 
 let lastIndex = countries.length - 1;
-console.log(countries[lastIndex]) -> // Kenya
+console.log(countries[lastIndex]) //  -> Kenya
 ```
 
 ```js
@@ -242,7 +242,7 @@ console.log(shoppingCart[0]) //  -> Milk
 console.log(shoppingCart[7]) //  -> Sugar
 
 let lastIndex = shoppingCart.length - 1;
-console.log(shoppingCart[lastIndex]) -> // Sugar
+console.log(shoppingCart[lastIndex]) //  -> Sugar
 ```
 
 ### Modifying array element
