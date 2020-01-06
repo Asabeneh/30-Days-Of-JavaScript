@@ -1,6 +1,7 @@
 ## Table of Contents
 
 [<< Day 5](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md) | [Day 7 >>](#)
+--
 
 ![Day 5](../images/banners/day_1_5.png)
 

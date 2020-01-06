@@ -1,6 +1,6 @@
 ## Table of Contents
 
-[<< Day 4](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md) | [Day 6 >>](#)
+[<< Day 4](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md) | [Day 6 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_loops.md)
 --
 ![Day 5](../images/banners/day_1_5.png)
 
@@ -745,4 +745,4 @@ const webTechs = [
   
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 4](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md) | [Day 6 >>](#)
+[<< Day 4](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md) | [Day 6 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_loops.md)
