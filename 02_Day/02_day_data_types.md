@@ -862,7 +862,7 @@ let numInt = parseInt(num)
 console.log(numInt) // 9
 ```
 
-🌕  You are awesome. You have just completed day 2 challenge and you are two steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
+🌕  You are awesome. You have just completed day 2 challenges and you are two steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
 
 # 💻 Day 2: Exercises
 

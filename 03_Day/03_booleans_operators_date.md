@@ -481,7 +481,7 @@ const minutes = now.getMinutes() // return number (0 -59)
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
 
-🌕 You have boundless energy. You have just completed day 3 challenge and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You have boundless energy. You have just completed day 3 challenges and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 # 💻 Day 3: Exercises
 

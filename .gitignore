@@ -3,6 +3,7 @@ playground
 /playground
 .DS_Store
 test.js
+res.md
 day3.md
 day4.md
 day5.md
@@ -13,7 +14,6 @@ day9.md
 day10.md
 01_02_03_days_backup.md
 test.md
-06_Day
 07_Day
 08_Day
 09_Day

@@ -29,6 +29,7 @@
       - [Add an element from the beginning](#add-an-element-from-the-beginning)
       - [Reversing array order](#reversing-array-order)
       - [Sorting elements in array](#sorting-elements-in-array)
+    - [Array of arrays](#array-of-arrays)
   - [💻 Exercise](#%f0%9f%92%bb-exercise)
 
 # 📔 Day 5
@@ -612,7 +613,27 @@ webTechs.reverse() // after sorting we can reverse it
 console.log(webTechs) // ["Redux", "React", "Node", "MongoDB", "JavaScript", "HTML", "CSS"]
 ```
 
-🌕  You are diligent and you have already achieved quite a lot. You have just completed day 5 challenge and you are 5 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
+### Array of arrays
+
+Array can store different data types including an array itself. Let us create an array of arrays
+
+```js
+const firstNums = [1, 2, 3]
+const secondNums = [1, 4, 9]
+
+const arrayOfArray =  [[1, 2, 3], [1, 2, 3]]
+console.log(arrayOfArray[0]) // [1, 2, 3]
+
+ const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+ const backEnd = ['Node','Express', 'MongoDB']
+ const fullStack = [frontEnd, backEnd]
+ console.log(fullStack)   // [["HTML", "CSS", "JS", "React", "Redux"], ["Node", "Express", "MongoDB"]]
+ console.log(fullStack.length)  // 2
+ console.log(fullStack[0])  // ["HTML", "CSS", "JS", "React", "Redux"]
+ console.log(fullStack[1]) // ["Node", "Express", "MongoDB"]
+```
+
+🌕  You are diligent and you have already achieved quite a lot. You have just completed day 5 challenges and you are 5 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## 💻 Exercise
 
@@ -691,7 +712,7 @@ const webTechs = [
    - Remove 'Honey' if you are allergic to honey
    - modify tea to 'Green Tea'
 1. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
-1. In the webTechs array check if Sass exists in the array if it exists print 'Sass is a CSS preprocess'. If it does not exist add Sass to the array.
+1. In the webTechs array check if Sass exists in the array  and if it exists print 'Sass is a CSS preprocess'. If it does not exist add Sass to the array and print the array.
 1. Concatenate the following two variables and store it in a fullStack variable.
 
     ```js
@@ -705,7 +726,7 @@ const webTechs = [
     ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
     ```
 
-1. The following is a list of 10 students ages:
+1. The following is an array of 10 students ages:
 
     ```js
     const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
@@ -717,8 +738,10 @@ const webTechs = [
     - Find the average age(all items divided by number of items)
     - Find the range of the ages(max minus min)
     - Compare the value of (min - average) and (max - average), use *abs()* method
-1. Find the middle country(ies) in the [countries list](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
-1. Divide the countries list into two equal lists if it is even.  If countries array is not even one more country for the first half.
+1.Slice the first ten countries from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
+1. Find the middle country(ies) in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
+1. Find the middle country(ies) in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
+1. Divide the countries array into two equal arrays if it is even.  If countries array is not even , one more country for the first half.
   
 🎉 CONGRATULATIONS ! 🎉
 
