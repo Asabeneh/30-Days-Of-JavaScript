@@ -215,7 +215,8 @@ const countries = [
   'Ireland',
   'Japan',
   'Kenya'
-] // List of countries;
+] // List of countries
+
 console.log(countries)      // -> all countries in array
 console.log(countries[0])   //  -> Albania
 console.log(countries[10])  //  -> Kenya
@@ -234,7 +235,8 @@ const shoppingCart = [
   'Meat',
   'Eggs',
   'Sugar'
-]; // List of food products
+] // List of food products
+
 console.log(shoppingCart) // -> all shoppingCart in array
 console.log(shoppingCart[0]) //  -> Milk
 console.log(shoppingCart[7]) //  -> Sugar
@@ -320,12 +322,20 @@ concat:To concatenate two arrays.
 const firstList = [1, 2, 3]
 const secondList = [4, 5, 6]
 const thirdList = firstList.concat(secondList)
-console.log(thirdList) // [1, 2, 3, 4, 5, 6]
 
+console.log(thirdList) // [1, 2, 3, 4, 5, 6]
+```
+
+```js
 const fruits = ['banana', 'orange', 'mango', 'lemon'] // array of fruits
 const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] // array of vegetables
 const fruitsAndVegetables = fruits.concat(vegetables)
-//["banana", "orange", "mango", "lemon", "Tomato", "Potato", "Cabbage", "Onion", "Carrot"]
+
+console.log(fruitsAndVegetables)
+```
+
+```sh
+["banana", "orange", "mango", "lemon", "Tomato", "Potato", "Cabbage", "Onion", "Carrot"]
 ```
 
 #### Getting array length
