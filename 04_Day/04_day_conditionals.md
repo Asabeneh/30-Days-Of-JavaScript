@@ -1,6 +1,6 @@
 ## Table of Contents
 
-[<< Day 3](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md) | [Day 5 >>](#)
+[<< Day 3](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md) | [Day 5 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md)
 --
 
 ![Thirty Days Of JavaScript](./day_1_4.png)
@@ -9,10 +9,10 @@
   - [Conditionals](#conditionals)
     - [if](#if)
     - [if else](#if-else)
-    - [if else if else](#if-else-if-else)
+    - [if else if else else](#if-else-if-else-else)
     - [Switch](#switch)
     - [Ternary Operators](#ternary-operators)
-- [💻 Exercise - 8 : Conditionals](#%f0%9f%92%bb-exercise---8--conditionals)
+- [💻 Exercise : Conditionals](#%f0%9f%92%bb-exercise--conditionals)
 
 # 📔 Day 4
 
@@ -113,7 +113,7 @@ if (isRaining) {
 
 The above condition is false, therefore the else block was executed. How about if our condition is more than two, we will use *else if* conditions.
 
-### if else if else
+### if else if else else
 
 On our daily life, we make decision on daily basis. We make decision not by checking  one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full conditions. We use *else if* when we have multiple conditions.
 
@@ -237,7 +237,7 @@ isRaining
 
 🌕  You are extraordinary and you have a remarkable potential. You have just completed day 4 challenge and you are four steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
 
-# 💻 Exercise - 8 : Conditionals
+# 💻 Exercise  : Conditionals
 
 1. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:You are old enough to drive but if not 18 give feedback to wait for the years he supposed to wait for.
 
@@ -255,8 +255,11 @@ isRaining
    Enter your age: 30
    You are 5 years older than me.
    ```
-  
-1. If a is greater than b return a is greater than b else a is less than b. Do it both using if else and ternary operator.
+
+1. If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement in to ways
+
+    - using if else
+    - ternary operator.
 
     ```js
       let a = 4
@@ -306,7 +309,7 @@ isRaining
     Friday is a work day.
   ```
 
-8. Write a program which tells the number days in a month.
+1. Write a program which tells the number days in a month.
 
   ```sh
     Enter month: January
@@ -325,4 +328,4 @@ isRaining
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 3](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md) | [Day 5 >>](#)
+[<< Day 3](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md) | [Day 5 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md)

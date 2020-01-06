@@ -1,6 +1,7 @@
 ## Table of Contents
 
 [<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_data_types.md) | [Day 4 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md)
+--
 
 ![Thirty Days Of JavaScript](./day_1_3.png)
 
