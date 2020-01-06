@@ -503,7 +503,7 @@ Splice: It takes three parameters:Starting position, number of times to be remov
 ```js
   const numbers = [1, 2, 3, 4, 5];
 
-  console.log(numbers.splice()                // -> remove all items
+  console.log(numbers.splice())                // -> remove all items
   console.log(numbers.splice(0,1))            // remove the first item
   console.log(numbers.splice(3, 3, 6, 7, 8))  // -> [1,2,6,7,8] //it removes two item and replace three items
 
