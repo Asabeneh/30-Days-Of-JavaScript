@@ -35,13 +35,13 @@
 
 ## Arrays
 
-In contrast to variables array can store _multiple values_. Each value in an array has an _index_ and each index has _a reference in a memory address_. Each value can be accessed by using their _indexes_. The index of an array starts from _zero_ and the last element is less by one from the length of the array.
+In contrast to variables, an array can store _multiple values_. Each value in an array has an _index_, and each index has _a reference in a memory address_. Each value can be accessed by using their _indexes_. The index of an array starts from _zero_, and the last element is less by one from the length of the array.
 
-Array is a collection of different data types which are ordered and changeable(modifiable). Allows duplicate element and different data types. An array can be empty or it may have different data type values
+An array is a collection of different data types which are ordered and changeable(modifiable). An array allows storing duplicate elements and different data types. An array can be empty, or it may have different data type values.
 
 ### How to create an empty array
 
-In JavaScript we can create array in different ways. Let us different ways to create an array.
+In JavaScript, we can create an array in different ways. Let us different ways to create an array.
 
 - Using Array constructor
 
@@ -125,7 +125,7 @@ console.log(arr)
 
 ### Creating an array using split
 
-As we have seen in earlier section, we can split a string at different position and we can change to an array. Let us see the examples blow.
+As we have seen in the earlier section, we can split a string at different positions, and we can change to an array. Let us see the examples below.
 
 ```js
 let js = 'JavaScript'
@@ -148,7 +148,7 @@ console.log(words)
 
 ### Accessing array items using index
 
-We access each element in an array using their index. An array index start from 0. The picture below show clearly the starting of the index.
+We access each element in an array using their index. An array index starts from 0. The picture below clearly shows the starting of the index.
 
 ![arr index](../images/array_index.png)
 
@@ -247,7 +247,7 @@ console.log(shoppingCart[lastIndex]) //  -> Sugar
 
 ### Modifying array element
 
-An array is mutable(modifiable). Once an array is created we can modify the contents or the array elements.
+An array is mutable(modifiable). Once an array is created, we can modify the contents of the array elements.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -283,7 +283,7 @@ console.log(countries)
 
 ### Methods to manipulate array
 
-There are different methods to manipulate an array. These are some of the available methods to deal with arrays:_Array,length, concat, indexOf, slice, splice, join, toString, includes, lastIndexOf, isArray, fill, push, pop, shift, unshift_
+There are different methods to manipulate an array. These are some of the available methods to deal with arrays:_Array, length, concat, indexOf, slice, splice, join, toString, includes, lastIndexOf, isArray, fill, push, pop, shift, unshift_
 
 #### Array Constructor
 
@@ -305,13 +305,13 @@ fill: Fill all the array elements with a static value
 const arr = Array() // creates an an empty array
 console.log(arr)
 
-const eightXvalues = Array(8).fill('X') // it creates eight element values
+const eightXvalues = Array(8).fill('X') // it creates eight element values filled with 'X'
 console.log(eightXvalues) // ['X', 'X','X','X','X','X','X','X']
 
-const eight0values = Array(8).fill(0) // it creates eight element values
+const eight0values = Array(8).fill(0) // it creates eight element values filled with '0'
 console.log(eight0values) // [0, 0, 0, 0, 0, 0, 0, 0]
 
-const four4values = Array(4).fill(4) // it creates 4 element values
+const four4values = Array(4).fill(4) // it creates 4 element values filled with '4'
 console.log(four4values) // [4, 4, 4, 4, 4, 4, 4, 4]
 ```
 
@@ -330,7 +330,7 @@ console.log(thirdList) // [1, 2, 3, 4, 5, 6]
 ```js
 const fruits = ['banana', 'orange', 'mango', 'lemon'] // array of fruits
 const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] // array of vegetables
-const fruitsAndVegetables = fruits.concat(vegetables)
+const fruitsAndVegetables = fruits.concat(vegetables) // concatinate the two arrays
 
 console.log(fruitsAndVegetables)
 ```
@@ -345,7 +345,7 @@ Length:To know the size of the array
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
-console.log(numbers.length) // -> 5
+console.log(numbers.length) // -> 5 is the size of the array
 ```
 
 #### Getting index an element in arr array
@@ -361,7 +361,7 @@ console.log(numbers.indexOf(1)) // -> 0
 console.log(numbers.indexOf(6)) // -> -1
 ```
 
-Check an element if it exist in an array
+Check an element if it exist in an array.
 
 - Check items in a list
   
@@ -393,12 +393,12 @@ if(indexOfAvocado!= -1){
 
 #### Getting last index of an element in array
 
-lastIndexOf:Give the position of the last item in the array. If it exist it returns the index else it returns -1.
+lastIndexOf: It gives the position of the last item in the array. If it exist, it returns the index else it returns -1.
 
 ```js
 const numbers = [1, 2, 3, 4, 5, 3, 1, 2]
 
-console.log(numbers.lastIndexOf(2)) // -7
+console.log(numbers.lastIndexOf(2)) // 7
 console.log(numbers.lastIndexOf(0)) // -1
 console.log(numbers.lastIndexOf(1)) //  6
 console.log(numbers.lastIndexOf(4)) //  3
@@ -455,7 +455,7 @@ console.log(names.toString()) // Asabeneh,Mathias,Elias,Brook
 
 #### Joining array elements
 
-join:To join the elements of the array, the argument passed in the join method will be joined in the array and return as a string. By default it joins with a comma but we can pass different string parameter which can be joined between the items.
+join: It used to join the elements of the array, the argument passed in the join method will be joined in the array and return as a string. By default, it joins with a comma, but we can pass different string parameter which can be joined between the items.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -485,7 +485,7 @@ console.log(webTechs.join(' # '))  // "HTML # CSS # JavaScript # React # Redux #
 
 #### Slice array elements
 
-Slice: To cut out a multiple items in range. It takes two parameters:starting and ending position. It doesn't include the ending position
+Slice: To cut out a multiple items in range. It takes two parameters:starting and ending position. It doesn't include the ending position.
 
 ```js
   const numbers = [1,2,3,4,5]
@@ -498,7 +498,7 @@ Slice: To cut out a multiple items in range. It takes two parameters:starting an
 
 #### Splice method in array
 
-Splice: It takes three parameters:Starting position, number of times to be removed and number items to be added.
+Splice: It takes three parameters:Starting position, number of times to be removed and number of items to be added.
 
 ```js
   const numbers = [1, 2, 3, 4, 5];
@@ -511,7 +511,7 @@ Splice: It takes three parameters:Starting position, number of times to be remov
 
 #### Adding item to an array using push
 
-Push: adding item in the end. To add item to the end of an existing array we use the push method
+Push: adding item in the end. To add item to the end of an existing array we use the push method.
 
 ```js
 // syntax
@@ -544,7 +544,7 @@ console.log(fruits)   // ['banana', 'orange', 'mango', 'lemon', 'apple', 'lime']
 
 #### Removing the end element using pop
 
-Pop: Removing item in the end
+Pop: Removing item in the end.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -555,7 +555,7 @@ console.log(numbers) // -> [1,2,3,4]
 
 #### Removing an element from the beginning
 
-shift: Removing one array element in the beginning of the array
+shift: Removing one array element in the beginning of the array.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -566,7 +566,7 @@ console.log(numbers) // -> [2,3,4,5]
 
 #### Add an element from the beginning
 
-unshift: Adding array element in the beginning of the array
+unshift: Adding array element in the beginning of the array.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -577,7 +577,7 @@ console.log(numbers) // -> [0,1,2,3,4,5]
 
 #### Reversing array order
 
-reverse: reverse the order of an array
+reverse: reverse the order of an array.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -591,7 +591,7 @@ console.log(numbers) // [1, 2, 3, 4, 5]
 
 #### Sorting elements in array
 
-sort: arrange array elements in ascending order. Sort takes a call back function, we wil see how we use sort with call back function in the coming sections.
+sort: arrange array elements in ascending order. Sort takes a call back function, we will see how we use sort with call back function in the coming sections.
 
 ```js
 const webTechs = [
