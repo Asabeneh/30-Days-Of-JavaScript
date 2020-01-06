@@ -611,7 +611,7 @@ webTechs.reverse() // after sorting we can reverse it
 console.log(webTechs) // ["Redux", "React", "Node", "MongoDB", "JavaScript", "HTML", "CSS"]
 ```
 
-🌕  You are diligent and you have already achieved quite a lot. You have just completed day 4 challenge and you are four steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
+🌕  You are diligent and you have already achieved quite a lot. You have just completed day 5 challenge and you are 5 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
 
 ## 💻 Exercise
 
