@@ -1,6 +1,6 @@
 ## Table of Contents
 
-[<< Day 5](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md) | [Day 7 >>](#)
+[<< Day 5](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md) | [Day 7 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_functions.md)
 --
 
 ![Day 5](../images/banners/day_1_6.png)
@@ -30,21 +30,44 @@ In programming languages to carry out repetitive task we use different kinds of 
 for(initialization, condition, increment/decrement){
   // code goes here
 }
+```
+
+```js
 for(let i = 0; i <= 5; i++){
   console.log(i)
 }
 // 0 1 2 3 4 5
+```
 
+```js
 for(let i = 5; i >= 0; i--){
   console.log(i)
 }
 // 5  4  3  2  1  0
+```
 
+```js
 for(let i = 0; i <= 5; i++){
   console.log(`${i} * ${i} = ${i * i}`)
 }
-// 0 1 4 9 16 25
+```
 
+```sh
+0 * 0 = 0
+1 * 1 = 1
+2 * 2 = 4
+3 * 3 = 9
+4 * 4 = 16
+5 * 5 = 25
+```
+
+```js
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+const newArr = []
+for(let i = 0; i < countries.length; i++){
+  newArr.push(countries[i].toUpperCase())
+}
+//["FINLAND", "SWEDEN", "DENMARK", "NORWAY", "ICELAND"]
 ```
 
 Adding all elements in the array
@@ -92,6 +115,7 @@ while (i <= 5) {
   console.log(i)
   i++
 }
+// 0 1 2 3 4 5
 ```
 
 ### do while loop
@@ -102,6 +126,7 @@ do {
   console.log(i)
   i++
 } while (i <= 5)
+// 0 1 2 3 4 5
 ```
 
 ### for of loop
@@ -177,33 +202,33 @@ content will added soon
 
 ## 💻 Exercises:Day 6
 
-```js
-const countries = [
-  'Albania',
-  'Bolivia',
-  'Canada',
-  'Denmark',
-  'Ethiopia',
-  'Finland',
-  'Germany',
-  'Hungary',
-  'Ireland',
-  'Japan',
-  'Kenya'
-]
+  ```js
+  const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+  ]
 
-const webTechs = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Node',
-  'MongoDB'
-]
+  const webTechs = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB'
+  ]
 
-const mernStack = ['MongoDB', 'Express', 'React', 'Node']
-```
+  const mernStack = ['MongoDB', 'Express', 'React', 'Node']
+  ```
 
 1. Iterate 0 to 10 using for loop, do the same using while and do while loop
 2. Iterate 10 to 0 using for loop, do the same using while and do while loop
@@ -294,15 +319,15 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
 
 17. Write a script which generates a random hexadecimal number.
 
-  ```sh
-  '#ee33df'
-  ```
+    ```sh
+    '#ee33df'
+    ```
 
 18. Write a script which generates a random rgb color number.
 
-  ```sh
-  rgb(240,180,80)
-  ```
+    ```sh
+    rgb(240,180,80)
+    ```
 
 19. Using the above countries array, create the following new array.
 
@@ -348,9 +373,9 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
 
 24.  Using the above countries array, find the country containing the biggest number of characters.
 
-    ```sh
-    Ethiopia
-    ```
+      ```sh
+      Ethiopia
+      ```
 
 25. Using the above countries array, find the country containing only 5 characters.
 
@@ -371,30 +396,32 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
 30. This is a fruit array , ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop without using a reverse method.
 31. Print all the elements of array as shown below.
 
- ```js
-  const fullStack = [
-    ['HTML', 'CSS', 'JS', 'React'],
-    ['Node', 'Express', 'MongoDB']
-  ]
-````
+    ```js
+      const fullStack = [
+        ['HTML', 'CSS', 'JS', 'React'],
+        ['Node', 'Express', 'MongoDB']
+      ]
+    ````
 
-  ```sh
-    HTML
-    CSS
-    JS
-    REACT
-    NODE
-    EXPRESS
-    MONGODB
-  ```
-
-32.  Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-33.  Find the country containing the hightest number of characters in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
+    ```sh
+      HTML
+      CSS
+      JS
+      REACT
+      NODE
+      EXPRESS
+      MONGODB
+    ```
+32. Copy countries array(Avoid mutation)
+33. Arrays are mutable. Create a copy of array which does not modify the original. Sort the copied array and store in a variable sortedCountries
+34. Sort the webTechs array and mernStack array
 35.  Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-36.  Extract all the countries containing only four characters from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-37.  Extract all the countries containing two or more words from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-38.  Reverse the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and capitalize each country and stored it as an array
+36.  Find the country containing the hightest number of characters in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
+37.  Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
+38.  Extract all the countries containing only four characters from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
+39.  Extract all the countries containing two or more words from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
+40.  Reverse the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and capitalize each country and stored it as an array
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 5](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md) | [Day 7 >>](#)
+[<< Day 5](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md) | [Day 7 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_functions.md)
