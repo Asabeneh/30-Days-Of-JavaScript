@@ -762,7 +762,7 @@ console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
   **Example:**
 
 ```js
-// Different python data types
+// Different javascript data types
 // Let's declare different data types
 
 let firstName = 'Asabeneh'      // string
