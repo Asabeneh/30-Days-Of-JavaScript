@@ -282,23 +282,41 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
     5j2khz
     ```
 
-16. Develop a small script which generate a any number of characters random id:
+16. Develop a small script which generate any number of characters random id:
 
     ```sh
-    fe3jo1gl124g
+      fe3jo1gl124g
     ```
 
     ```sh
-    xkqci4utda1lmbelpkm03rba
+      xkqci4utda1lmbelpkm03rba
     ```
 
-17. Using the above countries array, create the following new array.
+17. Write a script which generates a random hexadecimal number.
+
+  ```sh
+  '#ee33df'
+  ```
+
+18. Write a script which generates a random rgb color number.
+
+  ```sh
+  rgb(240,180,80)
+  ```
+
+19. Using the above countries array, create the following new array.
 
     ```sh
     ["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
     ```
 
-18. Use the countries array to create the following array of arrays:
+20. Using the above countries array, create an array for countries length'.
+
+    ```sh
+    [7, 7, 6, 7, 8, 7, 7, 7, 7, 5, 5]
+    ```
+
+21. Use the countries array to create the following array of arrays:
 
     ```sh
       [
@@ -316,54 +334,66 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
     ]
     ```
 
-19. In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print 'These are countries without land'.
+22. In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print 'These are countries without land'.
 
     ```sh
     ['Finland', 'Iceland']
     ```
 
-20. In above countries array, check if there a country or countries end with a substring 'ia'. If there are countries end with, print it as array. If there is no country containing the word 'land', print 'These are countries ends without ia'.
+23. In above countries array, check if there a country or countries end with a substring 'ia'. If there are countries end with, print it as array. If there is no country containing the word 'land', print 'These are countries ends without ia'.
 
     ```sh
     ['Albania', 'Bolivia','Ethiopia']
     ```
 
-21. Using the above countries array, create an array for countries length'.
-
-    ```sh
-    [7, 7, 6, 7, 8, 7, 7, 7, 7, 5, 5]
-    ```
-
-22. Using the above countries array, find the country containing the biggest number of characters.
+24.  Using the above countries array, find the country containing the biggest number of characters.
 
     ```sh
     Ethiopia
     ```
 
-23. Using the above countries array, find the country containing only 5 characters.
+25. Using the above countries array, find the country containing only 5 characters.
 
     ```sh
     ['Japan', 'Kenya']
     ```
 
-24. Find the longest word in the webTechs array
-25. Use the webTechs are to create the following array of arrays:
+26. Find the longest word in the webTechs array
+27. Use the webTechs are to create the following array of arrays:
 
     ```sh
     [["HTML", 4], ["CSS", 3],["JavaScript", 10],["React", 5],["Redux", 5],["Node", 4],["MongoDB", 7]]
     ```
 
-26. An application created using MongoDB, Express, React and Node is called a MERN stack. Create the acronym MERN by using the array mernStack
+28. An application created using MongoDB, Express, React and Node is called a MERN stack. Create the acronym MERN by using the array mernStack
 
-27. Iterate through the array, ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"] using a for loop or for of loop and print out the items.
-28. This is a fruit array , ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop without using a reverse method.
+29. Iterate through the array, ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"] using a for loop or for of loop and print out the items.
+30. This is a fruit array , ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop without using a reverse method.
+31. Print all the elements of array as shown below.
 
-29. Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-30. Find the country containing the hightest number of characters in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
-31. Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-32. Extract all the countries containing only four characters from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-33. Extract all the countries containing two or more words from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-34. Reverse the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and capitalize each country and stored it as an array
+ ```js
+  const fullStack = [
+    ['HTML', 'CSS', 'JS', 'React'],
+    ['Node', 'Express', 'MongoDB']
+  ]
+````
+
+  ```sh
+    HTML
+    CSS
+    JS
+    REACT
+    NODE
+    EXPRESS
+    MONGODB
+  ```
+
+32.  Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
+33.  Find the country containing the hightest number of characters in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
+35.  Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
+36.  Extract all the countries containing only four characters from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
+37.  Extract all the countries containing two or more words from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
+38.  Reverse the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and capitalize each country and stored it as an array
 
 🎉 CONGRATULATIONS ! 🎉
 
