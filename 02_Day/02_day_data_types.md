@@ -311,7 +311,7 @@ Asabeneh Yetayeh. I am 250. I live in Finland
 
 #### Long Literal Strings
 
-A string could be a single character or paragraph or a page. If the string length is too big it does not fit in one line. We can use the backslash character (\) at the end of each line to indicate that the string will continue on the next line.
+A string could be a single character or paragraph or a page. If the string length is too big it does not fit in one line. We can use the backslash character (\\) at the end of each line to indicate that the string will continue on the next line.
 **Example:**
 
 ```js
