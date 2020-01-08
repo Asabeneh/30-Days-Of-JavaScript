@@ -80,12 +80,13 @@ addTwoNumbers() // function has to be called to be executed by it name
 ```
 
 ```js
-  function generateFullName ():
+  function generateFullName (){
       let firstName = 'Asabeneh'
       let lastName = 'Yetayeh'
       let space = ' '
       let fullName = firstName + space + lastName
       console.log(fullName)
+}
   generateFullName() // calling a function
 ```
 
@@ -94,12 +95,13 @@ addTwoNumbers() // function has to be called to be executed by it name
 Function can also return values, if a function does not return values the value of the function is undefined. Let us write the above functions with return. From now on, we return value to a function instead of printing it.
 
 ```js
-function generateFullName ():
+function generateFullName (){
       let firstName = 'Asabeneh'
       let lastName = 'Yetayeh'
       let space = ' '
       let fullName = firstName + space + lastName
       return fullName
+}
 console.log(generateFullName())
 
   function addTwoNumbers {
