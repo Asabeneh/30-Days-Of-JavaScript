@@ -103,9 +103,12 @@ function generateFullName (){
       return fullName
 }
 console.log(generateFullName())
+```
 
-  function addTwoNumbers {
-       let numOne = 2
+```js
+
+  function addTwoNumbers() {
+      let numOne = 2
       let numTwo = 3
       let total = numOne + numTwo
       return total
