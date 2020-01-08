@@ -168,11 +168,11 @@ for(let i = 0; i < 3; i++){
 
 ```
 
-The scope *let* and *const* is the same. The difference is only reassigning. We can not change or reassign the value of const variable.
+The scope *let* and *const* is the same. The difference is only reassigning. We can not change or reassign the value of const variable. I would strongly suggest you to use *let* and *const*, by using *let* and *const* you will writ clean code and avoid hard to debug mistakes. As a rule of thumb, you can use *let* for any value which change, *const* for any constant value, array, object, arrow function and function expression.
 
 ## 📔 Object
 
-Everything can be an object and objects do have properties and properties have values.
+Everything can be an object and objects do have properties and properties have values, so an object is key value pair. The order of the key is not reserved, or there is no order.
 Creating an object literal. To create an object literal, we use two curly brackets.
 
 ### Creating an empty object
@@ -357,9 +357,10 @@ _Object.assign_: To copy an object without modifying the original object
 
 ```js
 const person = {
-  name: 'Asabeneh',
-  age: 200,
+  firstName: 'Asabeneh',
+  age: 250,
   country: 'Finland',
+  city:'Helsinki',
   skills: ['HTML', 'CSS', 'JS'],
   title: 'teacher',
   address: {
@@ -368,7 +369,7 @@ const person = {
     city: 'Helsinki'
   },
   getPersonInfo: function() {
-    return `I am ${this.name} and I live in ${this.country}. I am ${this.age}.`
+    return `I am ${this.firstName} and I live in ${city}, ${this.country}. I am ${this.age}.`
   }
 }
 
