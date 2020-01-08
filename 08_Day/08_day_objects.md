@@ -19,7 +19,7 @@
 
 [<< Day 7](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_function_programming.md) | [Day 9 >>](#)
 
-![Thirty Days Of JavaScript](../images/banners/day_1_7.png)
+![Thirty Days Of JavaScript](../images/banners/day_1_8.png)
 
 - [Day 8](#day-8)
   - [Scope](#scope)
