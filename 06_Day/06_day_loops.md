@@ -1,6 +1,6 @@
 ## Table of Contents
 
-[<< Day 5](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md) | [Day 7 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_functions.md)
+[<< Day 5](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md) | [Day 7 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/07_Day/07_day_functions.md)
 --
 
 ![Day 5](../images/banners/day_1_6.png)
@@ -424,4 +424,4 @@ content will added soon
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 5](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md) | [Day 7 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_functions.md)
+[<< Day 5](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md) | [Day 7 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/07_Day/07_day_functions.md)
