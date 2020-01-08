@@ -10,8 +10,8 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Created by
-  <a href="https://goku.me" target="_blank">Asabeneh Yetayeh</a><br>
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
   <small> January, 2020</small>
   </sub>
 </div>

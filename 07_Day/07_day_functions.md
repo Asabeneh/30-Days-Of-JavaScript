@@ -1,6 +1,5 @@
 <div align="center">
   <h1> 30 Days Of JavaScript</h1>
-
   <a class="header-badge" target="_blank" href="https://github.com/practicalAI/practicalAI">
   <img alt="GitHub stars" src="https://img.shields.io/github/stars/asabeneh/30DaysOfJavaScript?style=social">
   </a>
@@ -11,8 +10,8 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Created by
-  <a href="https://goku.me" target="_blank">Asabeneh Yetayeh</a><br>
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
   <small> January, 2020</small>
   </sub>
 </div>
@@ -30,11 +29,14 @@
     - [Function with two parameters](#function-with-two-parameters)
     - [Function with many parameters](#function-with-many-parameters)
     - [Function with unlimited number of parameters](#function-with-unlimited-number-of-parameters)
+      - [Unlimited number of parameters in regular function](#unlimited-number-of-parameters-in-regular-function)
+      - [Unlimited number of parameters in arrow function](#unlimited-number-of-parameters-in-arrow-function)
     - [Anonymous Function](#anonymous-function)
     - [Expression Function](#expression-function)
     - [Self Invoking Functions](#self-invoking-functions)
     - [Arrow Function](#arrow-function)
     - [Function with default parameters](#function-with-default-parameters)
+    - [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
   - [💻 Exercises](#%f0%9f%92%bb-exercises)
 
 # 📔 Day 7
@@ -220,7 +222,23 @@ console.log(areaOfCircle(10))
 
 ### Function with unlimited number of parameters
 
-Sometimes we do not know how many arguments the user going to pass. Therefore, we should know how to write a function which can take unlimited number of arguments. A function declaration provides a function scoped arguments array like object. Any thing we passed as argument in the function can be access from arguments. Let us see an example
+Sometimes we do not know how many arguments the user going to pass. Therefore, we should know how to write a function which can take unlimited number of arguments. The way we do it has a significant difference between a function declaration(regular function) and arrow function.Let us see examples both in function declaration and arrow function.
+
+#### Unlimited number of parameters in regular function
+
+ A function declaration provides a function scoped arguments array like object. Any thing we passed as argument in the function can be accessed from arguments object inside the functions. Let us see an example
+
+ ```js
+// Let us access the arguments object
+​
+function sumAllNums() {
+  console.log(arguments)
+}
+
+sumAllNums(1, 2, 3, 4)) 
+// Arguments(4) [1, 2, 3, 4, callee: ƒ, Symbol(Symbol.iterator): ƒ]
+
+```
 
 ```js
 // function declaration
@@ -228,7 +246,41 @@ Sometimes we do not know how many arguments the user going to pass. Therefore, w
 function sumAllNums() {
   let sum = 0
   for (let i = 0; i < arguments.length; i++) {
-    sum = sum + arguments[i]
+    sum += arguments[i]
+  }
+  return sum
+}
+
+console.log(sumAllNums(1, 2, 3, 4)) // 10
+console.log(sumAllNums(10, 20, 13, 40, 10))  // 93
+console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
+```
+
+#### Unlimited number of parameters in arrow function
+
+ Arrow function does not have the function scoped arguments object. To implement a function which takes unlimited number of arguments in an arrow function we use spread operator followed by any parameter name.  Any thing we passed as argument in the function can be accessed as array in the arrow function. Let us see an example
+
+ ```js
+// Let us access the arguments object
+​
+const sumAllNums = (...args) => {
+  // console.log(arguments), arguments object not found in arrow function
+  // instead we use an a parameter followed by spread operator
+  console.log(args)
+}
+
+sumAllNums(1, 2, 3, 4))
+// [1, 2, 3, 4]
+
+```
+
+```js
+// function declaration
+​
+const sumAllNums = (...args) => {
+  let sum = 0
+  for (const element of args) {
+    sum += element
   }
   return sum
 }
@@ -275,7 +327,7 @@ console.log(square(2)) // -> 4
 Self invoking functions are anonymous functions which do not need to be called to return a value.
 
 ```js
-;(function(n) {
+(function(n) {
   console.log(n * n)
 })(2) // 4, but instead of just printing if we want to return and store the data, we do as shown below
 
@@ -450,6 +502,8 @@ const weightOfObject = (mass, gravity = 9.81) => mass * gravity + ' N'
 console.log('Weight of an object in Newton: ', weightOfObject(100)) // 9.81 gravity at the surface of Earth
 console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gravity at surface of Moon
 ```
+
+### Function declaration versus Arrow function
 
 🌕 You are a rising stat, now you knew function . Now, you are super charged with the power of functions. You have just completed day 6 challenges and you are 6 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 

@@ -1,6 +1,5 @@
 <div align="center">
   <h1> 30 Days Of JavaScript</h1>
-
   <a class="header-badge" target="_blank" href="https://github.com/practicalAI/practicalAI">
   <img alt="GitHub stars" src="https://img.shields.io/github/stars/asabeneh/30DaysOfJavaScript?style=social">
   </a>
@@ -11,8 +10,8 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Created by
-  <a href="https://goku.me" target="_blank">Asabeneh Yetayeh</a><br>
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
   <small> January, 2020</small>
   </sub>
 </div>
