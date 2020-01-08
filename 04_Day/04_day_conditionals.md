@@ -1,7 +1,22 @@
-## Table of Contents
+<div align="center">
+  <h1> 30 Days Of JavaScript</h1>
+  <a class="header-badge" target="_blank" href="https://github.com/practicalAI/practicalAI">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/asabeneh/30DaysOfJavaScript?style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  </a>
+
+  <sub>Created by
+  <a href="https://goku.me" target="_blank">Asabeneh Yetayeh</a><br>
+  <small> January, 2020</small>
+  </sub>
+</div>
 
 [<< Day 3](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md) | [Day 5 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md)
---
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_4.png)
 

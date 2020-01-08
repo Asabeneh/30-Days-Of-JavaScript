@@ -1,6 +1,23 @@
-## Table of Contents
+<div align="center">
+  <h1> 30 Days Of JavaScript</h1>
 
-## [<< Day 6](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_loops.md) | [Day 7 >>](#)
+  <a class="header-badge" target="_blank" href="https://github.com/practicalAI/practicalAI">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/asabeneh/30DaysOfJavaScript?style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  </a>
+
+  <sub>Created by
+  <a href="https://goku.me" target="_blank">Asabeneh Yetayeh</a><br>
+  <small> January, 2020</small>
+  </sub>
+</div>
+
+[<< Day 6](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_loops.md) | [Day 8 >>](#)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_7.png)
 
@@ -366,7 +383,7 @@ console.log(generateFullName('David', 'Smith'))
 ```
 
 ```js
-function calculate_age(birthYear, currentYear = 2019) {
+function calculateAge(birthYear, currentYear = 2019) {
   let age = currentYear - birthYear
   return age
 }
@@ -604,4 +621,4 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 6](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_loops.md) | [Day 7 >>](#)
+[<< Day 6](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_loops.md) | [Day 8 >>](#)
