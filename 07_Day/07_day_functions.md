@@ -2,17 +2,17 @@
 
 ## [<< Day 6](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_loops.md) | [Day 7 >>](#)
 
-![Thirty Days Of JavaScript](./day_1_7.png)
+![Thirty Days Of JavaScript](../images/banners/day_1_7.png)
 
 - [📔 Day 7](#%f0%9f%93%94-day-7)
   - [Functions](#functions)
     - [Function Declaration](#function-declaration)
-      - [Function without a parameter and return](#function-without-a-parameter-and-return)
+    - [Function without a parameter and return](#function-without-a-parameter-and-return)
     - [Function returning value](#function-returning-value)
-      - [Function with a parameter](#function-with-a-parameter)
-      - [Function with two parameters](#function-with-two-parameters)
-      - [Function with many parameters](#function-with-many-parameters)
-      - [Function with unlimited number of parameters](#function-with-unlimited-number-of-parameters)
+    - [Function with a parameter](#function-with-a-parameter)
+    - [Function with two parameters](#function-with-two-parameters)
+    - [Function with many parameters](#function-with-many-parameters)
+    - [Function with unlimited number of parameters](#function-with-unlimited-number-of-parameters)
     - [Anonymous Function](#anonymous-function)
     - [Expression Function](#expression-function)
     - [Self Invoking Functions](#self-invoking-functions)
@@ -53,7 +53,7 @@ function functionName() {
 functionName() // calling function by its name and with parentheses
 ```
 
-#### Function without a parameter and return
+### Function without a parameter and return
 
 Function can be declared without a parameter.
 
@@ -113,7 +113,7 @@ console.log(generateFullName())
 console.log(addTwoNumbers())
 ```
 
-#### Function with a parameter
+### Function with a parameter
 
 In a function we can pass different data types(number, string, boolean, object, function) as a parameter.
 
@@ -138,7 +138,7 @@ function square(number) {
 console.log(square(10))
 ```
 
-#### Function with two parameters
+### Function with two parameters
 
 ```js
 // function with two parameters
@@ -165,7 +165,7 @@ function printFullName(firstName, lastName) {
 console.log(printFullName('Asabeneh', 'Yetayeh'))
 ```
 
-#### Function with many parameters
+### Function with many parameters
 
 ```js
 // function with multiple parameters
@@ -196,7 +196,7 @@ console.log(areaOfCircle(10))
 
 ```
 
-#### Function with unlimited number of parameters
+### Function with unlimited number of parameters
 
 Sometimes we do not know how many arguments the user going to pass. Therefore, we should know how to write a function which can take unlimited number of arguments. A function declaration provides a function scoped arguments array like object. Any thing we passed as argument in the function can be access from arguments. Let us see an example
 
