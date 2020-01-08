@@ -190,7 +190,7 @@ console.log(0 === false)        // false, not exactly the same
 console.log(1 == true)          // true, equivalent
 console.log(1 === true)         // false, not exactly the same
 console.log(undefined == null)  // true
-console.log(undefined === null) // true
+console.log(undefined === null) // false
 console.log(NaN == NaN)         // false, not equal
 console.log(NaN === NaN)        // false
 console.log(typeof NaN)         // number
@@ -207,7 +207,7 @@ console.log('python'.length > 'dragon'.length)   // false
 Try to understand the above comparisons with some logic. Remember without any logic might be difficult.
 JavaScript is some how a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
 
-As rule of thumb, if a value is not true with == it will not be equall with ===. Using === is safer than using ===. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
+As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
 
 ### Logical Operators
 
@@ -307,17 +307,17 @@ No need for a rain coat.
 let number = 5
 number > 0
   ? console.log(`${number} is a positive number`)
-  : console.log(`${number} is a number number`)
+  : console.log(`${number} is a negative number`)
 number = -5
 
 number > 0
   ? console.log(`${number} is a positive number`)
-  : console.log(`${number} is a number number`)
+  : console.log(`${number} is a negative number`)
 ```
 
 ```sh
 5 is a positive number
--5 is a number number
+-5 is a negative number
 ```
 
 ### Operator Precendence
