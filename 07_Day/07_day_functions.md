@@ -366,7 +366,7 @@ console.log(generateFullName('David', 'Smith'))
 ```
 
 ```js
-function calculate_age(birthYear, currentYear = 2019) {
+function calculateAge(birthYear, currentYear = 2019) {
   let age = currentYear - birthYear
   return age
 }
