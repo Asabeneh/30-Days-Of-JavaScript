@@ -388,9 +388,7 @@ console.log(printFullName('Asabeneh', 'Yetayeh'))
 The above function has only the return statement, therefore, we can explicitly return it as follows.
 
 ```js
-const printFullName = (firstName, lastName) => {
-  return `${firstName} ${lastName}`
-}
+const printFullName = (firstName, lastName) => `${firstName} ${lastName}`
 
 console.log(printFullName('Asabeneh', 'Yetayeh'))
 ```
