@@ -26,7 +26,7 @@
     - [Window Scope](#window-scope)
     - [Global scope](#global-scope)
     - [Local scope](#local-scope)
-  - [📔 Object](#%f0%9f%93%94-object)
+  - [📔 Object](#-object)
     - [Creating an empty object](#creating-an-empty-object)
     - [Creating an objecting with values](#creating-an-objecting-with-values)
     - [Getting values from an object](#getting-values-from-an-object)
