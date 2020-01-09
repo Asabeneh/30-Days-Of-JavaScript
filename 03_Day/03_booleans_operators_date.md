@@ -49,7 +49,7 @@
     - [Getting minutes](#getting-minutes)
     - [Getting seconds](#getting-seconds)
     - [Getting time](#getting-time)
-- [💻 Day 3: Exercises](#%f0%9f%92%bb-day-3-exercises)
+- [💻 Day 3: Exercises](#-day-3-exercises)
   - [1. Exercises: Data types Part](#1-exercises-data-types-part)
   - [2. Exercises: Arithmetic Operators Part](#2-exercises-arithmetic-operators-part)
   - [3. Exercises: Booleans Part](#3-exercises-booleans-part)
