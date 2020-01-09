@@ -28,7 +28,7 @@
     - [for of loop](#for-of-loop)
     - [break](#break)
     - [continue](#continue)
-  - [💻 Exercises:Day 6](#%f0%9f%92%bb-exercisesday-6)
+  - [💻 Exercises:Day 6](#-exercisesday-6)
 
 # 📔 Day 6
 

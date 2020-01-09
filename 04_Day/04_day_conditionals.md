@@ -27,7 +27,7 @@
     - [if else if else](#if-else-if-else)
     - [Switch](#switch)
     - [Ternary Operators](#ternary-operators)
-- [💻 Exercise : Conditionals](#%f0%9f%92%bb-exercise--conditionals)
+- [💻 Exercise : Conditionals](#-exercise--conditionals)
 
 # 📔 Day 4
 

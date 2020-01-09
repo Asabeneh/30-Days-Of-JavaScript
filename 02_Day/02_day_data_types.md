@@ -41,7 +41,7 @@
       - [String to Int](#string-to-int)
       - [String to Float](#string-to-float)
       - [Float to Int](#float-to-int)
-- [💻 Day 2: Exercises](#%f0%9f%92%bb-day-2-exercises)
+- [💻 Day 2: Exercises](#-day-2-exercises)
 
 # 📔 Day 2
 

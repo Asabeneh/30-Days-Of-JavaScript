@@ -37,7 +37,7 @@
     - [Arrow Function](#arrow-function)
     - [Function with default parameters](#function-with-default-parameters)
     - [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
-  - [💻 Exercises](#%f0%9f%92%bb-exercises)
+  - [💻 Exercises](#-exercises)
 
 # 📔 Day 7
 
