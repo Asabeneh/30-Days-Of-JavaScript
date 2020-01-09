@@ -20,7 +20,7 @@
 
 ![Day 5](../images/banners/day_1_5.png)
 
-- [📔 Day 5](#%f0%9f%93%94-day-5)
+- [📔 Day 5](#-day-5)
   - [Arrays](#arrays)
     - [How to create an empty array](#how-to-create-an-empty-array)
     - [How to create an array with values](#how-to-create-an-array-with-values)
@@ -46,7 +46,7 @@
       - [Reversing array order](#reversing-array-order)
       - [Sorting elements in array](#sorting-elements-in-array)
     - [Array of arrays](#array-of-arrays)
-  - [💻 Exercise](#%f0%9f%92%bb-exercise)
+  - [💻 Exercise](#-exercise)
 
 # 📔 Day 5
 
