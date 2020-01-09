@@ -494,4 +494,4 @@ console.log(copyPerson.hasOwnProperty('score'))
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 7](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/07_Day/07_day_functions.md) | [Day 9 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/07_Day/07_day_higher_order_functions.md)
+[<< Day 7](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/07_Day/07_day_functions.md) | [Day 9 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md)
