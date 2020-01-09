@@ -17,7 +17,7 @@
 
 </div>
 
-[<< Day 7](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/07_Day/07_day_functions.md) | [Day 9 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/07_Day/07_day_higher_order_functions.md)
+[<< Day 7](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/07_Day/07_day_functions.md) | [Day 9 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_8.png)
 
