@@ -26,7 +26,7 @@
     - [Window Scope](#window-scope)
     - [Global scope](#global-scope)
     - [Local scope](#local-scope)
-  - [📔 Object](#-object)
+  - [📔 Object](#%f0%9f%93%94-object)
     - [Creating an empty object](#creating-an-empty-object)
     - [Creating an objecting with values](#creating-an-objecting-with-values)
     - [Getting values from an object](#getting-values-from-an-object)
@@ -37,7 +37,7 @@
       - [Getting object values using Object.values()](#getting-object-values-using-objectvalues)
       - [Getting object keys and values using Object.entries()](#getting-object-keys-and-values-using-objectentries)
       - [Checking properties using hasOwnProperty()](#checking-properties-using-hasownproperty)
-  - [💻 Exercises](#-exercises)
+  - [💻 Exercises](#%f0%9f%92%bb-exercises)
 
 # Day 8
 
@@ -113,7 +113,7 @@ function letsLearnScope() {
     console.log(a, b, c) // Python 20 30
   }
   // we can not access c because c's scope is only the if block
-  console.log(a, b)
+  console.log(a, b) // JavaScript 10
 }
 letsLearnScope()
 console.log(a, b) // JavaScript 10, accessible
