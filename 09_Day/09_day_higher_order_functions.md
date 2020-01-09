@@ -18,6 +18,9 @@
 </div>
 
 [<< Day 8](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/08_Day/08_day_objects.md) | [Day 10 >>](#)
+
+![Day 5](../images/banners/day_1_9.png)
+
 - [Day 9](#day-9)
   - [Higher Order Function](#higher-order-function)
     - [Callback](#callback)
@@ -492,30 +495,28 @@ console.log(users); // sorted ascending
 34. Use the countries information, in the data folder. Sort countries by name, by capital, by population
 35. \*\*\* Find the 10 most spoken languages:
 
-   ````js
-   // Your output should look like this
-   console.log(mostSpokenLanguages(countries, 10))
-   [(91, 'English'),
-   (45, 'French'),
-   (25, 'Arabic'),
-   (24, 'Spanish'),
-   (9, 'Russian'),
-   (9, 'Portuguese'),
-   (8, 'Dutch'),
-   (7, 'German'),
-   (5, 'Chinese'),
-   (4, 'Swahili'),
-   (4, 'Serbian')]
+    ````js
+    // Your output should look like this
+    console.log(mostSpokenLanguages(countries, 10))
+    [(91, 'English'),
+    (45, 'French'),
+    (25, 'Arabic'),
+    (24, 'Spanish'),
+    (9, 'Russian'),
+    (9, 'Portuguese'),
+    (8, 'Dutch'),
+    (7, 'German'),
+    (5, 'Chinese'),
+    (4, 'Swahili'),
+    (4, 'Serbian')]
 
-   // Your output should look like this
-   console.log(mostSpokenLanguages(countries, 3))
-   [
-   (91, 'English'),
-   (45, 'French'),
-   (25, 'Arabic')
-   ]
- ```
-
+    // Your output should look like this
+    console.log(mostSpokenLanguages(countries, 3))
+    [
+    (91, 'English'),
+    (45, 'French'),
+    (25, 'Arabic')
+    ]```
 
 36. \*\*\* Use countries_data.js file create a function which create the ten most populated countries
 
