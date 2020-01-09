@@ -20,7 +20,7 @@
 
 ![Day 5](../images/banners/day_1_5.png)
 
-- [📔 Day 5](#-day-5)
+- [📔 Day 5](#%f0%9f%93%94-day-5)
   - [Arrays](#arrays)
     - [How to create an empty array](#how-to-create-an-empty-array)
     - [How to create an array with values](#how-to-create-an-array-with-values)
@@ -46,7 +46,7 @@
       - [Reversing array order](#reversing-array-order)
       - [Sorting elements in array](#sorting-elements-in-array)
     - [Array of arrays](#array-of-arrays)
-  - [💻 Exercise](#-exercise)
+  - [💻 Exercise](#%f0%9f%92%bb-exercise)
 
 # 📔 Day 5
 
@@ -520,12 +520,20 @@ Slice: To cut out a multiple items in range. It takes two parameters:starting an
 Splice: It takes three parameters:Starting position, number of times to be removed and number of items to be added.
 
 ```js
-  const numbers = [1, 2, 3, 4, 5];
+  const numbers = [1, 2, 3, 4, 5]
 
   console.log(numbers.splice())                // -> remove all items
-  console.log(numbers.splice(0,1))            // remove the first item
-  console.log(numbers.splice(3, 3, 6, 7, 8))  // -> [1,2,6,7,8] //it removes two item and replace three items
 
+```
+
+```js
+  const numbers = [1, 2, 3, 4, 5]
+  console.log(numbers.splice(0,1))            // remove the first item
+```
+
+```js
+  const numbers = [1, 2, 3, 4, 5];
+  console.log(numbers.splice(3, 3, 6, 7, 8))  // -> [1, 2, 3, 6, 7, 8] //it removes two item and replace three items
 ```
 
 #### Adding item to an array using push
@@ -563,7 +571,7 @@ console.log(fruits)   // ['banana', 'orange', 'mango', 'lemon', 'apple', 'lime']
 
 #### Removing the end element using pop
 
-Pop: Removing item in the end.
+pop: Removing item in the end.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
