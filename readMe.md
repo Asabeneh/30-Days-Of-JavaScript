@@ -443,7 +443,7 @@ console.log(firstName); //not defined, because it is not assigned to a value yet
 Null in JavaScript means an empty value.
 
 ```js
-let emptyValue = nulll
+let emptyValue = null
 ```
 
 ## Checking Data types
