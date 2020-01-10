@@ -17,7 +17,7 @@
 
 </div>
 
-[<< Day 8](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/08_Day/08_day_objects.md) | [Day 10 >>](#)
+[<< Day 8](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/08_Day/08_day_objects.md) | [Day 10 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/10_Day/10_day_Set_and_Map.md)
 
 ![Day 5](../images/banners/day_1_9.png)
 
@@ -695,4 +695,4 @@ Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 8](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/08_Day/08_day_objects.md) | [Day 10 >>](#)
+[<< Day 8](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/08_Day/08_day_objects.md) | [Day 10 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/10_Day/10_day_Set_and_Map.md)
