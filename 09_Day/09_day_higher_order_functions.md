@@ -63,7 +63,7 @@ function cube(callback, n) {
   return callback(n) * n
 }
 ​
-console.log(cube(square, 3))
+console.log(cube(callBack, 3))
 ```
 
 ### Returning function
