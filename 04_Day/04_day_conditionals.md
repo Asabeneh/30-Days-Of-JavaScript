@@ -1,18 +1,33 @@
-## Table of Contents
+<div align="center">
+  <h1> 30 Days Of JavaScript</h1>
+  <a class="header-badge" target="_blank" href="https://github.com/Asabeneh/30DaysOfJavaScript">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/asabeneh/30DaysOfJavaScript?style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  </a>
+
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+  <small> January, 2020</small>
+  </sub>
+</div>
 
 [<< Day 3](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md) | [Day 5 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md)
---
 
-![Thirty Days Of JavaScript](./day_1_4.png)
+![Thirty Days Of JavaScript](../images/banners/day_1_4.png)
 
 - [📔 Day 4](#%f0%9f%93%94-day-4)
   - [Conditionals](#conditionals)
     - [if](#if)
     - [if else](#if-else)
-    - [if else if else else](#if-else-if-else-else)
+    - [if else if else](#if-else-if-else)
     - [Switch](#switch)
     - [Ternary Operators](#ternary-operators)
-- [💻 Exercise : Conditionals](#%f0%9f%92%bb-exercise--conditionals)
+- [💻 Exercise : Conditionals](#-exercise--conditionals)
 
 # 📔 Day 4
 
@@ -113,7 +128,7 @@ if (isRaining) {
 
 The above condition is false, therefore the else block was executed. How about if our condition is more than two, we will use *else if* conditions.
 
-### if else if else else
+### if else if else
 
 On our daily life, we make decision on daily basis. We make decision not by checking  one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full conditions. We use *else if* when we have multiple conditions.
 
@@ -193,9 +208,11 @@ switch (weather) {
   default:
     console.log(' No need for rain coat.')
 }
+
 // Switch More Examples
-var dayUserInput = prompt('What day is today ?')
-var day = dayUserInput.toLowerCase()
+let dayUserInput = prompt('What day is today ?')
+let day = dayUserInput.toLowerCase()
+
 switch (day) {
   case 'monday':
     console.log('Today is Monday')
@@ -218,10 +235,10 @@ switch (day) {
   case 'sunday':
     console.log('Today is Sunday')
     break
-
   default:
     console.log('It is not a week day.')
 }
+
 ```
 
 ### Ternary Operators
@@ -235,7 +252,7 @@ isRaining
   : console.log('No need for a rain coat.')
 ```
 
-🌕  You are extraordinary and you have a remarkable potential. You have just completed day 4 challenge and you are four steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
+🌕  You are extraordinary and you have a remarkable potential. You have just completed day 4 challenges and you are four steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
 
 # 💻 Exercise  : Conditionals
 
@@ -289,7 +306,7 @@ isRaining
     Enter a number: 2
     2 is an even number
 
-    Enter a number 9
+    Enter a number: 9
     9 is is an odd number.
     ```
 

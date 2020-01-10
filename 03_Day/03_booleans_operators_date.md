@@ -1,9 +1,24 @@
-## Table of Contents
+<div align="center">
+  <h1> 30 Days Of JavaScript</h1>
+  <a class="header-badge" target="_blank" href="https://github.com/Asabeneh/30DaysOfJavaScript">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/asabeneh/30DaysOfJavaScript?style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  </a>
+
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+  <small> January, 2020</small>
+  </sub>
+</div>
 
 [<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_data_types.md) | [Day 4 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md)
---
 
-![Thirty Days Of JavaScript](./day_1_3.png)
+![Thirty Days Of JavaScript](../images/banners/day_1_3.png)
 
 - [📔 Day 3](#%f0%9f%93%94-day-3)
   - [Booleans](#booleans)
@@ -34,7 +49,7 @@
     - [Getting minutes](#getting-minutes)
     - [Getting seconds](#getting-seconds)
     - [Getting time](#getting-time)
-- [💻 Day 3: Exercises](#%f0%9f%92%bb-day-3-exercises)
+- [💻 Day 3: Exercises](#-day-3-exercises)
   - [1. Exercises: Data types Part](#1-exercises-data-types-part)
   - [2. Exercises: Arithmetic Operators Part](#2-exercises-arithmetic-operators-part)
   - [3. Exercises: Booleans Part](#3-exercises-booleans-part)
@@ -190,7 +205,7 @@ console.log(0 === false)        // false, not exactly the same
 console.log(1 == true)          // true, equivalent
 console.log(1 === true)         // false, not exactly the same
 console.log(undefined == null)  // true
-console.log(undefined === null) // true
+console.log(undefined === null) // false
 console.log(NaN == NaN)         // false, not equal
 console.log(NaN === NaN)        // false
 console.log(typeof NaN)         // number
@@ -207,7 +222,7 @@ console.log('python'.length > 'dragon'.length)   // false
 Try to understand the above comparisons with some logic. Remember without any logic might be difficult.
 JavaScript is some how a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
 
-As rule of thumb, if a value is not true with == it will not be equall with ===. Using === is safer than using ===. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
+As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
 
 ### Logical Operators
 
@@ -307,17 +322,17 @@ No need for a rain coat.
 let number = 5
 number > 0
   ? console.log(`${number} is a positive number`)
-  : console.log(`${number} is a number number`)
+  : console.log(`${number} is a negative number`)
 number = -5
 
 number > 0
   ? console.log(`${number} is a positive number`)
-  : console.log(`${number} is a number number`)
+  : console.log(`${number} is a negative number`)
 ```
 
 ```sh
 5 is a positive number
--5 is a number number
+-5 is a negative number
 ```
 
 ### Operator Precendence
@@ -481,7 +496,7 @@ const minutes = now.getMinutes() // return number (0 -59)
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
 
-🌕 You have boundless energy. You have just completed day 3 challenge and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You have boundless energy. You have just completed day 3 challenges and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 # 💻 Day 3: Exercises
 
