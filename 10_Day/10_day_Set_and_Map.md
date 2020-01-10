@@ -202,7 +202,7 @@ console.log(counts)
 ```
 
 ```js
-;[
+[
   { lang: 'English', count: 3 },
   { lang: 'Finnish', count: 1 },
   { lang: 'French', count: 2 },
@@ -342,15 +342,21 @@ Map(3) {"Finland" => "Helsinki", "Sweden" => "Stockholm", "Norway" => "Oslo"}
 console.log(countriesMap.get('Finland'))
 ```
 
-````sh
+```sh
 Helsinki
 ```
 
 ### Checking key in Map
 
+Check if a key exist in a map using *has* method. It returns *true* or *false*.
+
 ```js
 console.log(countriesMap.has('Finland'))
-````
+```
+
+```sh
+true
+```
 
 Getting all values from map using loop
 
