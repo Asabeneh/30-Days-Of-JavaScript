@@ -55,7 +55,7 @@ A callback is a function which can be passed as parameter to other function. See
 
 ```js
 // a callback function, the function could be any name
-const callBack = (n) => {
+const callback = (n) => {
   return n ** 2
 }
 ​
@@ -160,7 +160,7 @@ In JavaScript, we use setTimeout higher order function to execute some action at
 
 ```js
 // syntax
-function callBack() {
+function callback() {
   // code goes here
 }
 setTimeout(callback, duration) // duration in milliseconds
