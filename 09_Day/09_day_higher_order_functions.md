@@ -35,8 +35,8 @@
     - [reduce](#reduce)
     - [every](#every)
     - [find](#find)
-    - [some](#some)
     - [findIndex](#findindex)
+    - [some](#some)
     - [sort](#sort)
       - [Sorting string values](#sorting-string-values)
       - [Sorting Numeric values](#sorting-numeric-values)
@@ -451,6 +451,21 @@ console.log(score)
 { name: "Asabeneh", score: 95 }
 ```
 
+### findIndex
+
+_findIndex_: Return the position of the first element which satisfies the condition
+
+```js
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const ages = [24, 22, 25, 32, 35, 18]
+
+const result = names.findIndex(name => name.length > 7)
+console.log(result) // 0
+
+const age = ages.findIndex(age => age < 20)
+console.log(age) // 5
+```
+
 ### some
 
 _some_: Check if some of the elements are similar in one aspect. It returns boolean
@@ -471,20 +486,6 @@ const areAllStr = names.some(name => typeof name === 'number')
 console.log(areAllStr) // false
 ```
 
-### findIndex
-
-_findIndex_: Return the position of the first element which satisfies the condition
-
-```js
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
-const ages = [24, 22, 25, 32, 35, 18]
-
-const result = names.findIndex(name => name.length > 7)
-console.log(result) // 0
-
-const age = ages.findIndex(age => age < 20)
-console.log(age) // 5
-```
 
 ### sort
 
