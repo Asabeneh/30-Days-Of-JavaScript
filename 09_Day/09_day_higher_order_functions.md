@@ -303,11 +303,11 @@ console.log(scoresGreaterEight) //[{name: 'Asabeneh', score: 95}, {name: 'Martha
 ```js
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 const areAllStr = names.every((name) => typeof name ==='string');
-console.log(arrAllStr) // true;
+console.log(areAllStr) // true;
 ```
 
 ```js
-const areAllTrue = [true, true, true, true]
+const bools = [true, true, true, true]
 const areAllTrue = bools.every((b)=> {
   return b === true;
 })
