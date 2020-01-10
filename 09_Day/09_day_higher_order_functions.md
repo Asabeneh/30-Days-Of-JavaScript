@@ -345,6 +345,7 @@ const scores = [
 const score = scores.find((user) => {
   return user.score > 80
 })
+console.log(score) // { name: "Asabeneh", score: 95 }
 ```
 
 ### some
