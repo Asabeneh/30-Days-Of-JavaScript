@@ -95,7 +95,7 @@ const sumArray = arr => {
   const callBack = function(element) {
     sum += element
   }
-  numbers.forEach(callback)
+  numbers.forEach(callBack)
   return sum
   
 }
