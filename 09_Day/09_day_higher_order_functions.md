@@ -64,7 +64,7 @@ function cube(callback, n) {
   return callback(n) * n
 }
 ​
-console.log(cube(square, 3))
+console.log(cube(callback, 3))
 ```
 
 ### Returning function
@@ -488,7 +488,7 @@ console.log(age) // 5
 
 ### sort
 
-_sort_: The sort methods arranges the array elements either ascending or descending order. By default, the **_sort()_** method sorts values as strings.This works well for string array items but not for numbers. If number values are sorted as strings and it give us wrong result. Sort method modify the original array. It is recommended to copy the original data before you start using *sort* method.
+_sort_: The sort methods arranges the array elements either ascending or descending order. By default, the **_sort()_** method sorts values as strings.This works well for string array items but not for numbers. If number values are sorted as strings and it give us wrong result. Sort method modify the original array. It is recommended to copy the original data before you start using _sort_ method.
 
 #### Sorting string values
 
