@@ -241,9 +241,7 @@ const countries = [
   'Kenya'
 ]
 const countriesToUpperCase = countries.map(function(country){
-  let countryCode = country.toUpperCase().slice(0, 3)
-  let country = country.length
-  return []
+  return country.toUpperCase();
 })
 console.log(countriesToUpperCase)
 // ['ALBANIA', 'BOLIVIA', 'CANADA', 'DENMARK', 'ETHIOPIA', 'FINLAND', 'GERMANY', 'HUNGARY', 'IRELAND', 'JAPAN', 'KENYA']
