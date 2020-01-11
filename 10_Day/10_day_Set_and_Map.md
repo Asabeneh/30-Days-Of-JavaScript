@@ -13,7 +13,7 @@
   </sub>
 </div>
 
-[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](#)
+[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>]([#](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_destructuring_and_spreading.md))
 
 ![Day 5](../images/banners/day_1_10.png)
 
@@ -380,7 +380,7 @@ Sweden Stockholm
 Norway Oslo
 ```
 
-🌕 You established a big milestone, you are unstoppable.Keep going! You have just completed day 10 challenges and you are 10 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You established a big milestone, you are unstoppable. Keep going! You have just completed day 10 challenges and you are 10 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## Exercises
 
@@ -419,4 +419,4 @@ Norway Oslo
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](#)
+[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>]([#](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_destructuring_and_spreading.md))

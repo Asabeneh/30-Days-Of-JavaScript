@@ -524,6 +524,8 @@ console.log(sumAllNums(1, 2, 3,4,5))
 
 ```
 
+🌕 You achieved quite a lot so far. Now, your level of JavaScript is upper intermediate. Keep going! You have just completed day 11 challenges and you are 11 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+
 ## Exercise
 
 ```js
