@@ -1,7 +1,20 @@
-## Table of Contents
+<div align="center">
+  <h1> 30 Days Of JavaScript</h1>
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  </a>
 
-[<< Day 4](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md) | [Day 6 >>](#)
---
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+  <small> January, 2020</small>
+  </sub>
+</div>
+
+[<< Day 4](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md) | [Day 6 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_loops.md)
+
 ![Day 5](../images/banners/day_1_5.png)
 
 - [📔 Day 5](#%f0%9f%93%94-day-5)
@@ -29,19 +42,21 @@
       - [Add an element from the beginning](#add-an-element-from-the-beginning)
       - [Reversing array order](#reversing-array-order)
       - [Sorting elements in array](#sorting-elements-in-array)
+    - [Array of arrays](#array-of-arrays)
   - [💻 Exercise](#%f0%9f%92%bb-exercise)
 
 # 📔 Day 5
 
 ## Arrays
 
-In contrast to variables array can store _multiple values_. Each value in an array has an _index_ and each index has _a reference in a memory address_. Each value can be accessed by using their _indexes_. The index of an array starts from _zero_ and the last element is less by one from the length of the array.
+In contrast to variables, an array can store _multiple values_. Each value in an array has an _index_, and each index has _a reference in a memory address_. Each value can be accessed by using their _indexes_. The index of an array starts from _zero_, and the last element is less by one from the length of the array.
 
-Array is a collection of different data types which are ordered and changeable(modifiable). Allows duplicate element and different data types. An array can be empty or it may have different data type values
+An array is a collection of different data types which are ordered and changeable(modifiable). An array allows storing duplicate elements and different data types. An array can be empty, or it may have different data type values.
 
 ### How to create an empty array
 
-In JavaScript we can create array in different ways. Let us different ways to create an array.
+In JavaScript, we can create an array in different ways. Let us different ways to create an array.
+It is very common to use *const* instead of *let* to declare an array variable. If you ar using const it means you do not use that name again.
 
 - Using Array constructor
 
@@ -125,7 +140,7 @@ console.log(arr)
 
 ### Creating an array using split
 
-As we have seen in earlier section, we can split a string at different position and we can change to an array. Let us see the examples blow.
+As we have seen in the earlier section, we can split a string at different positions, and we can change to an array. Let us see the examples below.
 
 ```js
 let js = 'JavaScript'
@@ -148,7 +163,7 @@ console.log(words)
 
 ### Accessing array items using index
 
-We access each element in an array using their index. An array index start from 0. The picture below show clearly the starting of the index.
+We access each element in an array using their index. An array index starts from 0. The picture below clearly shows the starting of the index.
 
 ![arr index](../images/array_index.png)
 
@@ -167,6 +182,7 @@ console.log(lastFruit) // lemon
 
 let lastIndex = fruits.length - 1
 lastFruit = fruits[lastIndex]
+
 console.log(lastFruit)  // lemon
 ```
 
@@ -247,7 +263,7 @@ console.log(shoppingCart[lastIndex]) //  -> Sugar
 
 ### Modifying array element
 
-An array is mutable(modifiable). Once an array is created we can modify the contents or the array elements.
+An array is mutable(modifiable). Once an array is created, we can modify the contents of the array elements.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -283,7 +299,7 @@ console.log(countries)
 
 ### Methods to manipulate array
 
-There are different methods to manipulate an array. These are some of the available methods to deal with arrays:_Array,length, concat, indexOf, slice, splice, join, toString, includes, lastIndexOf, isArray, fill, push, pop, shift, unshift_
+There are different methods to manipulate an array. These are some of the available methods to deal with arrays:_Array, length, concat, indexOf, slice, splice, join, toString, includes, lastIndexOf, isArray, fill, push, pop, shift, unshift_
 
 #### Array Constructor
 
@@ -305,13 +321,13 @@ fill: Fill all the array elements with a static value
 const arr = Array() // creates an an empty array
 console.log(arr)
 
-const eightXvalues = Array(8).fill('X') // it creates eight element values
+const eightXvalues = Array(8).fill('X') // it creates eight element values filled with 'X'
 console.log(eightXvalues) // ['X', 'X','X','X','X','X','X','X']
 
-const eight0values = Array(8).fill(0) // it creates eight element values
+const eight0values = Array(8).fill(0) // it creates eight element values filled with '0'
 console.log(eight0values) // [0, 0, 0, 0, 0, 0, 0, 0]
 
-const four4values = Array(4).fill(4) // it creates 4 element values
+const four4values = Array(4).fill(4) // it creates 4 element values filled with '4'
 console.log(four4values) // [4, 4, 4, 4, 4, 4, 4, 4]
 ```
 
@@ -328,9 +344,9 @@ console.log(thirdList) // [1, 2, 3, 4, 5, 6]
 ```
 
 ```js
-const fruits = ['banana', 'orange', 'mango', 'lemon'] // array of fruits
+const fruits = ['banana', 'orange', 'mango', 'lemon']                 // array of fruits
 const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] // array of vegetables
-const fruitsAndVegetables = fruits.concat(vegetables)
+const fruitsAndVegetables = fruits.concat(vegetables)                 // concatenate the two arrays
 
 console.log(fruitsAndVegetables)
 ```
@@ -345,7 +361,7 @@ Length:To know the size of the array
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
-console.log(numbers.length) // -> 5
+console.log(numbers.length) // -> 5 is the size of the array
 ```
 
 #### Getting index an element in arr array
@@ -361,7 +377,7 @@ console.log(numbers.indexOf(1)) // -> 0
 console.log(numbers.indexOf(6)) // -> -1
 ```
 
-Check an element if it exist in an array
+Check an element if it exist in an array.
 
 - Check items in a list
   
@@ -382,7 +398,7 @@ if(index != -1){
 index != -1 ? console.log('This fruit does exist in the array'): console.log('This fruit does not exist in the array')
 
 // let us check if a avocado exist in the array
-let indexOfAvocado = fruits.indexOf('avocado')  // -1
+let indexOfAvocado = fruits.indexOf('avocado')  // -1, if the element not found index is -1
 if(indexOfAvocado!= -1){
    console.log('This fruit does exist in the array')  
 } else {
@@ -393,12 +409,12 @@ if(indexOfAvocado!= -1){
 
 #### Getting last index of an element in array
 
-lastIndexOf:Give the position of the last item in the array. If it exist it returns the index else it returns -1.
+lastIndexOf: It gives the position of the last item in the array. If it exist, it returns the index else it returns -1.
 
 ```js
 const numbers = [1, 2, 3, 4, 5, 3, 1, 2]
 
-console.log(numbers.lastIndexOf(2)) // -7
+console.log(numbers.lastIndexOf(2)) // 7
 console.log(numbers.lastIndexOf(0)) // -1
 console.log(numbers.lastIndexOf(1)) //  6
 console.log(numbers.lastIndexOf(4)) //  3
@@ -455,7 +471,7 @@ console.log(names.toString()) // Asabeneh,Mathias,Elias,Brook
 
 #### Joining array elements
 
-join:To join the elements of the array, the argument passed in the join method will be joined in the array and return as a string. By default it joins with a comma but we can pass different string parameter which can be joined between the items.
+join: It used to join the elements of the array, the argument passed in the join method will be joined in the array and return as a string. By default, it joins with a comma, but we can pass different string parameter which can be joined between the items.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -485,7 +501,7 @@ console.log(webTechs.join(' # '))  // "HTML # CSS # JavaScript # React # Redux #
 
 #### Slice array elements
 
-Slice: To cut out a multiple items in range. It takes two parameters:starting and ending position. It doesn't include the ending position
+Slice: To cut out a multiple items in range. It takes two parameters:starting and ending position. It doesn't include the ending position.
 
 ```js
   const numbers = [1,2,3,4,5]
@@ -498,20 +514,28 @@ Slice: To cut out a multiple items in range. It takes two parameters:starting an
 
 #### Splice method in array
 
-Splice: It takes three parameters:Starting position, number of times to be removed and number items to be added.
+Splice: It takes three parameters:Starting position, number of times to be removed and number of items to be added.
+
+```js
+  const numbers = [1, 2, 3, 4, 5]
+
+  console.log(numbers.splice())                // -> remove all items
+
+```
+
+```js
+  const numbers = [1, 2, 3, 4, 5]
+  console.log(numbers.splice(0,1))            // remove the first item
+```
 
 ```js
   const numbers = [1, 2, 3, 4, 5];
-
-  console.log(numbers.splice())                // -> remove all items
-  console.log(numbers.splice(0,1))            // remove the first item
-  console.log(numbers.splice(3, 3, 6, 7, 8))  // -> [1,2,6,7,8] //it removes two item and replace three items
-
+  console.log(numbers.splice(3, 3, 6, 7, 8))  // -> [1, 2, 3, 6, 7, 8] //it removes two item and replace three items
 ```
 
 #### Adding item to an array using push
 
-Push: adding item in the end. To add item to the end of an existing array we use the push method
+Push: adding item in the end. To add item to the end of an existing array we use the push method.
 
 ```js
 // syntax
@@ -544,7 +568,7 @@ console.log(fruits)   // ['banana', 'orange', 'mango', 'lemon', 'apple', 'lime']
 
 #### Removing the end element using pop
 
-Pop: Removing item in the end
+pop: Removing item in the end.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -555,7 +579,7 @@ console.log(numbers) // -> [1,2,3,4]
 
 #### Removing an element from the beginning
 
-shift: Removing one array element in the beginning of the array
+shift: Removing one array element in the beginning of the array.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -566,7 +590,7 @@ console.log(numbers) // -> [2,3,4,5]
 
 #### Add an element from the beginning
 
-unshift: Adding array element in the beginning of the array
+unshift: Adding array element in the beginning of the array.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -577,7 +601,7 @@ console.log(numbers) // -> [0,1,2,3,4,5]
 
 #### Reversing array order
 
-reverse: reverse the order of an array
+reverse: reverse the order of an array.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -591,7 +615,7 @@ console.log(numbers) // [1, 2, 3, 4, 5]
 
 #### Sorting elements in array
 
-sort: arrange array elements in ascending order. Sort takes a call back function, we wil see how we use sort with call back function in the coming sections.
+sort: arrange array elements in ascending order. Sort takes a call back function, we will see how we use sort with call back function in the coming sections.
 
 ```js
 const webTechs = [
@@ -611,7 +635,27 @@ webTechs.reverse() // after sorting we can reverse it
 console.log(webTechs) // ["Redux", "React", "Node", "MongoDB", "JavaScript", "HTML", "CSS"]
 ```
 
-🌕  You are diligent and you have already achieved quite a lot. You have just completed day 5 challenge and you are 5 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
+### Array of arrays
+
+Array can store different data types including an array itself. Let us create an array of arrays
+
+```js
+const firstNums = [1, 2, 3]
+const secondNums = [1, 4, 9]
+
+const arrayOfArray =  [[1, 2, 3], [1, 2, 3]]
+console.log(arrayOfArray[0]) // [1, 2, 3]
+
+ const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+ const backEnd = ['Node','Express', 'MongoDB']
+ const fullStack = [frontEnd, backEnd]
+ console.log(fullStack)   // [["HTML", "CSS", "JS", "React", "Redux"], ["Node", "Express", "MongoDB"]]
+ console.log(fullStack.length)  // 2
+ console.log(fullStack[0])  // ["HTML", "CSS", "JS", "React", "Redux"]
+ console.log(fullStack[1]) // ["Node", "Express", "MongoDB"]
+```
+
+🌕  You are diligent and you have already achieved quite a lot. You have just completed day 5 challenges and you are 5 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## 💻 Exercise
 
@@ -690,7 +734,7 @@ const webTechs = [
    - Remove 'Honey' if you are allergic to honey
    - modify tea to 'Green Tea'
 1. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
-1. In the webTechs array check if Sass exists in the array if it exists print 'Sass is a CSS preprocess'. If it does not exist add Sass to the array.
+1. In the webTechs array check if Sass exists in the array  and if it exists print 'Sass is a CSS preprocess'. If it does not exist add Sass to the array and print the array.
 1. Concatenate the following two variables and store it in a fullStack variable.
 
     ```js
@@ -704,7 +748,7 @@ const webTechs = [
     ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
     ```
 
-1. The following is a list of 10 students ages:
+1. The following is an array of 10 students ages:
 
     ```js
     const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
@@ -716,9 +760,11 @@ const webTechs = [
     - Find the average age(all items divided by number of items)
     - Find the range of the ages(max minus min)
     - Compare the value of (min - average) and (max - average), use *abs()* method
-1. Find the middle country(ies) in the [countries list](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
-1. Divide the countries list into two equal lists if it is even.  If countries array is not even one more country for the first half.
+1.Slice the first ten countries from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
+1. Find the middle country(ies) in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
+1. Find the middle country(ies) in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
+1. Divide the countries array into two equal arrays if it is even.  If countries array is not even , one more country for the first half.
   
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 4](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md) | [Day 6 >>](#)
+[<< Day 4](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md) | [Day 6 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_loops.md)
