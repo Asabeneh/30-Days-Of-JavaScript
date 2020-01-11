@@ -35,6 +35,9 @@
     - [Function with default parameters](#function-with-default-parameters)
     - [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
   - [💻 Exercises](#%f0%9f%92%bb-exercises)
+    - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 2](#exercises-level-2)
+    - [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 7
 
@@ -504,6 +507,8 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
 
 ## 💻 Exercises
 
+### Exercises: Level 1
+
 1. Declare a function _fullName_ and it print out your full name.
 2. Declare a function _fullName_ and now it takes firstName, lastName as a parameter and it returns your full - name.
 3. Declare a function _addNumbers_ and it takes two two parameters and it returns sum.
@@ -533,9 +538,11 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
     console.log(findMax(0, -10, -2))
     0
     ```
+  
+### Exercises: Level 2
 
-16. Linear equation is calculated as follows: _ax + by + c = 0_. Write a function which calculates value of a linear equation, _solveLinEquation_.
-17. Quadratic equation is calculated as follows: _ax2 + bx + c = 0_. Write a function which calculates value or values of a quadratic equation, _solveQuadEquation_.
+1. Linear equation is calculated as follows: _ax + by + c = 0_. Write a function which calculates value of a linear equation, _solveLinEquation_.
+1. Quadratic equation is calculated as follows: _ax2 + bx + c = 0_. Write a function which calculates value or values of a quadratic equation, _solveQuadEquation_.
 
     ```js
     console.log(solveQuadratic()) // {0}
@@ -546,22 +553,22 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
     console.log(solveQuadratic(1, -1, 0)) //{1, 0}
     ```
 
-18. Declare a function name _printArray_. It takes array as a parameter and it prints out each value of the array.
-19. 11. Write a function name _showDateTime_ which shows time in this format: 08/01/2020 04:08 using the Date object.
+1. Declare a function name _printArray_. It takes array as a parameter and it prints out each value of the array.
+1. Write a function name _showDateTime_ which shows time in this format: 08/01/2020 04:08 using the Date object.
 
     ```sh
     showDateTime()
     08/01/2020 04:08
     ```
 
-20. Declare a function name _swapValues_. This function swaps value of x to y.
+1. Declare a function name _swapValues_. This function swaps value of x to y.
 
     ```js
     swapValues(3, 4) // x => 4, y=>3
     swapValues(4, 5) // x = 5, y = 4
     ```
 
-21. Declare a function name _reverseArray_. It takes array as a parameter and it returns the reverse of the array (don't use method).
+1. Declare a function name _reverseArray_. It takes array as a parameter and it returns the reverse of the array (don't use method).
 
     ```js
     console.log(reverseArray([1, 2, 3, 4, 5]))
@@ -570,13 +577,13 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
     //['C', 'B', 'A']
     ```
 
-22. Declare a function name _capitalizeArray_. It takes array as a parameter and it returns the - capitalizedarray.
-23. Declare a function name _addItem_. It takes an item parameter and it returns an array after adding the item
-24. Declare a function name _removeItem_. It takes an index parameter and it returns an array after removing an item
-25. Declare a function name _sumOfNumbers_. It takes a number parameter and it adds all the numbers in that range.
-26. Declare a function name _sumOfOdds_. It takes a number parameter and it adds all the odd numbers in that - range.
-27. Declare a function name _sumOfEven_. It takes a number parameter and it adds all the even numbers in that - range.
-28. Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
+1. Declare a function name _capitalizeArray_. It takes array as a parameter and it returns the - capitalizedarray.
+1. Declare a function name _addItem_. It takes an item parameter and it returns an array after adding the item
+1. Declare a function name _removeItem_. It takes an index parameter and it returns an array after removing an item
+1. Declare a function name _sumOfNumbers_. It takes a number parameter and it adds all the numbers in that range.
+1. Declare a function name _sumOfOdds_. It takes a number parameter and it adds all the odd numbers in that - range.
+1. Declare a function name _sumOfEven_. It takes a number parameter and it adds all the even numbers in that - range.
+1. Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
 
     ```sh
     evensAndOdds(100);
@@ -584,30 +591,32 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
     The number of evens are 51.
     ```
 
-29. Write a function which takes any number of arguments and return the sum of the arguments
+1. Write a function which takes any number of arguments and return the sum of the arguments
 
     ```js
     sum(1, 2, 3) // -> 6
     sum(1, 2, 3, 4) // -> 10
     ```
 
-30. Writ a function which generates a _randomUserIp_.
-31. Write a function which generates a _randomMacAddress_
-32. Declare a function name _randomHexaNumberGenerator_. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
+1. Writ a function which generates a _randomUserIp_.
+1. Write a function which generates a _randomMacAddress_
+1. Declare a function name _randomHexaNumberGenerator_. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
 
     ```sh
     console.log(randomHexaNumberGenerator());
     '#ee33df'
     ```
 
-33. Declare a function name _userIdGenerator_. When this function is called it generates seven character id. The function return the id.
+1. Declare a function name _userIdGenerator_. When this function is called it generates seven character id. The function return the id.
 
     ```sh
     console.log(userIdGenerator());
     41XTDbE
     ```
 
-34. Modify question number n . Declare a function name _userIdGeneratedByUser_. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
+### Exercises: Level 3
+
+1. Modify question number n . Declare a function name _userIdGeneratedByUser_. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
 
     ```sh
     userIdGeneratedByUser()
@@ -626,18 +635,18 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
     '
     ```
 
-35. Write a function name _rgbColorGenerator_ and it generates rgb colors.
+1. Write a function name _rgbColorGenerator_ and it generates rgb colors.
 
     ```sh
     rgbColorGenerator()
     rgb(125,244,255)
     ```
 
-36. Write a function **_arrayOfHexaColors_** which return any number of hexadecimal colors in an array.
-37. Write a function **_arrayOfRgbColors_** which return any number of RGB colors in an array.
-38. Write a function **_convertHexaToRgb_** which converts hexa color to rgb and it returns an rgb color.
-39. Write a function **_convertRgbToHexa_** which converts rgb to hexa color and it returns an hexa color.
-40. Write a function **_generateColors_** which can generate any number of hexa or rgb colors.
+1. Write a function **_arrayOfHexaColors_** which return any number of hexadecimal colors in an array.
+1. Write a function **_arrayOfRgbColors_** which return any number of RGB colors in an array.
+1. Write a function **_convertHexaToRgb_** which converts hexa color to rgb and it returns an rgb color.
+1. Write a function **_convertRgbToHexa_** which converts rgb to hexa color and it returns an hexa color.
+1. Write a function **_generateColors_** which can generate any number of hexa or rgb colors.
 
     ```js
     console.log(generateColors('hexa', 3)) // ['#a3e12f', '#03ed55', '#eb3d2b']
@@ -646,34 +655,50 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
     console.log(generateColors('rgb', 1)) // 'rgb(33,79, 176)'
     ```
 
-41. Call your function _shuffleArray_, it takes an array as a parameter and it returns a shuffled array
-42. Call your function _factorial_, it takes a whole number as a parameter and it return a factorial of the number
-43. Call your function _isEmpty_, it takes a parameter and it checks if it is empty or not
-44. Call your function _sum_, it takes any number of arguments and it returns the sum.
-45. Write a function called _sumOfArrayItems_, it takes an array parameter and return the sum of all the items. Check if all the array items are number types. If not give return reasonable feedback.
-46. Write a function called _average_, it takes an array parameter and returns the average of the items. Check if all the array items are number types. If not give return reasonable feedback.
-47. Write a function called _modifyArray_ takes array as parameter and modifies the fifth item of the array and return the array. If the array length is less than five it return 'item not found'.
+1. Call your function _shuffleArray_, it takes an array as a parameter and it returns a shuffled array
+1. Call your function _factorial_, it takes a whole number as a parameter and it return a factorial of the number
+1. Call your function _isEmpty_, it takes a parameter and it checks if it is empty or not
+1. Call your function _sum_, it takes any number of arguments and it returns the sum.
+1. Write a function called _sumOfArrayItems_, it takes an array parameter and return the sum of all the items. Check if all the array items are number types. If not give return reasonable feedback.
+1. Write a function called _average_, it takes an array parameter and returns the average of the items. Check if all the array items are number types. If not give return reasonable feedback.
+1. Write a function called _modifyArray_ takes array as parameter and modifies the fifth item of the array and return the array. If the array length is less than five it return 'item not found'.
 
     ```js
     console.log(modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot']);
-    // →['Avocado', 'Tomato', 'Potato','Mango', 'LEMON', 'Carrot']
-    console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon','Microsoft',  'IBM']);
-    // →['Google', 'Facebook','Apple', 'Amazon','MICROSOFT',  'IBM']
-    console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon']);
-    // →'Not Found'
     ```
 
-48. Write a function called _isPrime_, which checks if a number is prime number.
-49. Write a functions which checks if all items are unique in the array.
-50. Write a function which checks if all the items of the array are the same data type.
-51. JavaScript variable name does not support special characters or symbols except \$ or \_. Write a function **\*isValidVariable** which check if a variable is valid or invalid variable.
-52. Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
+    ```sh
+    ['Avocado', 'Tomato', 'Potato','Mango', 'LEMON', 'Carrot']
+    ```
 
     ```js
-    sevenRandomNumbers()[(1, 4, 5, 7, 9, 8, 0)]
+    console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon','Microsoft',  'IBM']);
     ```
 
-53. Write a function called reverseCountries, it takes countries array and first it copy the array and returns the reverse of the original array
+    ```sh
+    ['Google', 'Facebook','Apple', 'Amazon','MICROSOFT',  'IBM']
+    ```
+
+    ```js
+    console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon']);
+    ```
+
+    ```sh
+      'Not Found'
+    ```
+
+1. Write a function called _isPrime_, which checks if a number is prime number.
+1. Write a functions which checks if all items are unique in the array.
+1. Write a function which checks if all the items of the array are the same data type.
+1. JavaScript variable name does not support special characters or symbols except \$ or \_. Write a function **\*isValidVariable** which check if a variable is valid or invalid variable.
+1. Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
+
+    ```js
+    sevenRandomNumbers()
+    [(1, 4, 5, 7, 9, 8, 0)]
+    ```
+
+1. Write a function called reverseCountries, it takes countries array and first it copy the array and returns the reverse of the original array
 
 🎉 CONGRATULATIONS ! 🎉
 

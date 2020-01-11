@@ -44,6 +44,9 @@
       - [Sorting elements in array](#sorting-elements-in-array)
     - [Array of arrays](#array-of-arrays)
   - [💻 Exercise](#%f0%9f%92%bb-exercise)
+    - [Exercise: Level 1](#exercise-level-1)
+    - [Exercise: Level 2](#exercise-level-2)
+    - [Exercise: Level 3](#exercise-level-3)
 
 # 📔 Day 5
 
@@ -659,6 +662,8 @@ console.log(arrayOfArray[0]) // [1, 2, 3]
 
 ## 💻 Exercise
 
+### Exercise: Level 1
+
 ```js
 const countries = [
   'Albania',
@@ -708,6 +713,9 @@ const webTechs = [
 1. Remove the middle IT company or companies from the array
 1. Remove the last IT company from the array
 1. Remove all IT companies
+
+### Exercise: Level 2
+
 1. Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js ans store the webTechs array in to this file. Access both file in main.js file
 1. First remove all the functions and change the string to array and count the number of words in the array
 
@@ -720,6 +728,7 @@ const webTechs = [
 
     ```sh
     ["I", "love", "teaching", "and", "empowering", "people", "I", "teach", "HTML", "CSS", "JS", "React", "Python"]
+  
     13
     ```
 
@@ -747,6 +756,8 @@ const webTechs = [
     ```sh
     ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
     ```
+
+### Exercise: Level 3
 
 1. The following is an array of 10 students ages:
 

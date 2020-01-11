@@ -38,6 +38,9 @@
       - [Sorting Numeric values](#sorting-numeric-values)
       - [Sorting Object Arrays](#sorting-object-arrays)
   - [💻 Exercises](#%f0%9f%92%bb-exercises)
+    - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 2](#exercises-level-2)
+    - [Exercises: Level 3](#exercises-level-3)
 
 # Day 9
 
@@ -553,6 +556,8 @@ console.log(users) // sorted ascending
 
 ## 💻 Exercises
 
+### Exercises: Level 1
+
 ```js
 const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
@@ -582,8 +587,6 @@ const products = [
 13. Use **_filter_** to filter out countries containing six letters and more in the country array.
 14. Use **_filter_** to filter out country start with 'E';
 15. Use **_filter_** to filter out only prices with values.
-16. Find the total price of products by chaining two or more array iterators(eg. arr.map(callback).filter(callback).reduce(callback))
-17. Find the sum of price of products using only reduce reduce(callback))
 18. Declare a function called getStringLists which takes an array as a parameter and then returns an array only with string items.
 19. Use **_reduce_** to sum all the numbers in the numbers array.
 20. Use **_reduce_** to concatenate all the countries and to produce this sentence: **_Estonia, Finland, Sweden, Denmark, Norway, and IceLand are north European countries_**
@@ -595,13 +598,21 @@ const products = [
 26. Use **_findIndex_** to find the position of the first country containing only six letters in the countries array
 27. Use **_findIndex_** to find the position of **_Norway_** if it doesn't exist in the array you will get -1.
 28. Use **_findIndex_** to find the position of **_Russia_** if it doesn't exist in the array you will get -1.
-29. Declare a function called **_categorizeCountries_** which returns an array of countries which have some common pattern(you find the countries array in this repository as countries.js(eg 'land', 'ia', 'island','stan')).
-30. Create a function which return an array of objects, which is the letter and the number of times the letter use to start with a name of a country.
-31. Declare a **_getFirstTenCountries_** function and return an array of ten countries. Use different functional programming to work on the countries.js array
-32. Declare a **_getLastTenCountries_** function which which returns the last ten countries in the countries array.
-33. Find out which _letter_ is used many _times_ as initial for a country name from the countries array (eg. Finland, Fiji, France etc)
-34. Use the countries information, in the data folder. Sort countries by name, by capital, by population
-35. \*\*\* Find the 10 most spoken languages:
+
+### Exercises: Level 2
+
+1. Find the total price of products by chaining two or more array iterators(eg. arr.map(callback).filter(callback).reduce(callback))
+1. Find the sum of price of products using only reduce reduce(callback))
+1. Declare a function called **_categorizeCountries_** which returns an array of countries which have some common pattern(you find the countries array in this repository as countries.js(eg 'land', 'ia', 'island','stan')).
+1. Create a function which return an array of objects, which is the letter and the number of times the letter use to start with a name of a country.
+1. Declare a **_getFirstTenCountries_** function and return an array of ten countries. Use different functional programming to work on the countries.js array
+1. Declare a **_getLastTenCountries_** function which which returns the last ten countries in the countries array.
+1. Find out which _letter_ is used many _times_ as initial for a country name from the countries array (eg. Finland, Fiji, France etc)
+
+### Exercises: Level 3
+
+1. Use the countries information, in the data folder. Sort countries by name, by capital, by population
+1. \*\*\* Find the 10 most spoken languages:
 
     ````js
     // Your output should look like this
@@ -628,66 +639,65 @@ const products = [
 
     ````
 
-36. \*\*\* Use countries_data.js file create a function which create the ten most populated countries
+1. \*\*\* Use countries_data.js file create a function which create the ten most populated countries
 
-````js
-console.log(mostPopulatedCountries(countries, 10))
+    ````js
+    console.log(mostPopulatedCountries(countries, 10))
 
-[
-{country: 'China', population: 1377422166},
-{country: 'India', population: 1295210000},
-{country: 'United States of America', population: 323947000},
-{country: 'Indonesia', population: 258705000},
-{country: 'Brazil', population: 206135893},
-{country: 'Pakistan', population: 194125062},
-{country: 'Nigeria', population: 186988000},
-{country: 'Bangladesh', population: 161006790},
-{country: 'Russian Federation', population: 146599183},
-{country: 'Japan', population: 126960000}
-]
+    [
+    {country: 'China', population: 1377422166},
+    {country: 'India', population: 1295210000},
+    {country: 'United States of America', population: 323947000},
+    {country: 'Indonesia', population: 258705000},
+    {country: 'Brazil', population: 206135893},
+    {country: 'Pakistan', population: 194125062},
+    {country: 'Nigeria', population: 186988000},
+    {country: 'Bangladesh', population: 161006790},
+    {country: 'Russian Federation', population: 146599183},
+    {country: 'Japan', population: 126960000}
+    ]
 
-console.log(mostPopulatedCountries(countries, 3))
-[
-{country: 'China', population: 1377422166},
-{country: 'India', population: 1295210000},
-{country: 'United States of America', population: 323947000}
-]```
+    console.log(mostPopulatedCountries(countries, 3))
+    [
+    {country: 'China', population: 1377422166},
+    {country: 'India', population: 1295210000},
+    {country: 'United States of America', population: 323947000}
+    ]
+    ```
 
-````
+1. \*\*\* Try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create an object called statistics and create all the functions which do statistical calculations as method for the statistics object. Check the output below.
 
-37. \*\*\* Try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create an object called statistics and create all the functions which do statistical calculations as method for the statistics object. Check the output below.
+    ```js
+    const ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
 
-```js
-const ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
+    console.log('Count:', statistics.count()) // 25
+    console.log('Sum: ', statistics.sum()) // 744
+    console.log('Min: ', statistics.min()) // 24
+    console.log('Max: ', statistics.max()) // 38
+    console.log('Range: ', statistics.range() // 14
+    console.log('Mean: ', statistics.mean()) // 30
+    console.log('Median: ',statistics.median()) // 29
+    console.log('Mode: ', statistics.mode()) // {'mode': 26, 'count': 5}
+    console.log('Variance: ',statistics.var()) // 17.5
+    console.log('Standard Deviation: ', statistics.std()) // 4.2
+    console.log('Variance: ',statistics.var()) // 17.5
+    console.log('Frequency Distribution: ',statistics.freqDist()) # [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
+    ```
 
-console.log('Count:', statistics.count()) // 25
-console.log('Sum: ', statistics.sum()) // 744
-console.log('Min: ', statistics.min()) // 24
-console.log('Max: ', statistics.max()) // 38
-console.log('Range: ', statistics.range() // 14
-console.log('Mean: ', statistics.mean()) // 30
-console.log('Median: ',statistics.median()) // 29
-console.log('Mode: ', statistics.mode()) // {'mode': 26, 'count': 5}
-console.log('Variance: ',statistics.var()) // 17.5
-console.log('Standard Deviation: ', statistics.std()) // 4.2
-console.log('Variance: ',statistics.var()) // 17.5
-console.log('Frequency Distribution: ',statistics.freqDist()) # [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
-```
-
-```sh
-console.log(statistics.describe())
-Count: 25
-Sum:  744
-Min:  24
-Max:  38
-Range:  14
-Mean:  30
-Median:  29
-Mode:  (26, 5)
-Variance:  17.5
-Standard Deviation:  4.2
-Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
-```
+    ```sh
+    console.log(statistics.describe())
+    Count: 25
+    Sum:  744
+    Min:  24
+    Max:  38
+    Range:  14
+    Mean:  30
+    Median:  29
+    Mode:  (26, 5)
+    Variance:  17.5
+    Standard Deviation:  4.2
+    Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
+    ```
 
 🎉 CONGRATULATIONS ! 🎉
 

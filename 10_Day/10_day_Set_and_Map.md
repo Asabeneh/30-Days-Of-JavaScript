@@ -35,6 +35,9 @@
     - [Getting a value from Map](#getting-a-value-from-map)
     - [Checking key in Map](#checking-key-in-map)
   - [Exercises](#exercises)
+    - [Exercises:Level 1](#exerciseslevel-1)
+    - [Exercises:Level 2](#exerciseslevel-2)
+    - [Exercises:Level 3](#exerciseslevel-3)
 
 # Day 10
 
@@ -384,13 +387,29 @@ Norway Oslo
 
 ## Exercises
 
+### Exercises:Level 1
+```js
+const a = {4, 5, 8, 9}
+const b = {3, 4, 5, 7}
+const countries = ['Finland', 'Sweden', 'Norway']
+```
+
 1. create an empty set
 2. Create a set containing 0 to 10 using loop
 3. Remove an element from a set
 4. Clear a set
 5. Create a set of 5 string elements from array
 6. Create a map of countries and number of characters of a country
-7. \*\*\* Find the 10 most spoken languages:
+
+### Exercises:Level 2
+
+1. Find a union b
+2. Find a intersection b
+3. Find a with b
+
+### Exercises:Level 3
+
+1. \*\*\* Use the countries data to find the 10 most spoken languages:
 
    ````js
    // Your output should look like this

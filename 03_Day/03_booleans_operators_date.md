@@ -46,14 +46,10 @@
     - [Getting minutes](#getting-minutes)
     - [Getting seconds](#getting-seconds)
     - [Getting time](#getting-time)
-- [💻 Day 3: Exercises](#%f0%9f%92%bb-day-3-exercises)
-  - [1. Exercises: Data types Part](#1-exercises-data-types-part)
-  - [2. Exercises: Arithmetic Operators Part](#2-exercises-arithmetic-operators-part)
-  - [3. Exercises: Booleans Part](#3-exercises-booleans-part)
-  - [4. Exercises: Comparison Operators](#4-exercises-comparison-operators)
-  - [5. Exercises: Logical Operators](#5-exercises-logical-operators)
-  - [6 Ternary Operator](#6-ternary-operator)
-  - [7. Exercises: Date time Object](#7-exercises-date-time-object)
+  - [💻 Day 3: Exercises](#%f0%9f%92%bb-day-3-exercises)
+    - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 2](#exercises-level-2)
+    - [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 3
 
@@ -146,6 +142,9 @@ let powerOf = numOne ** numTwo
 
 console.log(sum, diff, mult, div, remainder, powerOf) // 7,1,12,1.33,1, 64
 
+```
+
+```js
 let PI = 3.14
 let radius = 100          // length in meter
 
@@ -476,6 +475,7 @@ console.log(now.getTime()) // 1578092201341, this is the number of seconds passe
 ```js
 const allSeconds = Date.now() //
 console.log(allSeconds) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
+
 const timeInSeconds = new Date().getTime()
 console.log(allSeconds == timeInSeconds) // true
 ```
@@ -490,21 +490,60 @@ const month = now.getMonth() + 1 // return month(0 - 11)
 const date = now.getDate() // return date (1 - 31)
 const hours = now.getHours() // return number (0 - 23)
 const minutes = now.getMinutes() // return number (0 -59)
+
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
 
 🌕 You have boundless energy. You have just completed day 3 challenges and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
-# 💻 Day 3: Exercises
+## 💻 Day 3: Exercises
 
-## 1. Exercises: Data types Part
+### Exercises: Level 1
 
-1. Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it
-1. The JavaScript typeof operator uses to check different data types. Check the data type of each variables from question number 1.
-1. Check if type of '10' is equal to 10
-1. Check if parseInt('9.8') is equal to 10
+1. Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.
+2. Check if type of '10' is equal to 10
+3. Check if parseInt('9.8') is equal to 10
+4. Boolean value is either true or false.
+   1. Write three JavaScript statement which provide truthy value.
+   2. Write three JavaScript statement which provide falsy value.
 
-## 2. Exercises: Arithmetic Operators Part
+5. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+   1. 4 > 3
+   2. 4 >= 3
+   3. 4 < 3
+   4. 4 <= 3
+   5. 4 == 4
+   6. 4 === 4
+   7. 4 != 4
+   8. 4 !== 4
+   9. 4 != '4'
+   10. 4 == '4'
+   11. 4 === '4'
+   12. Find the length of python and jargon and make a falsy comparison statement.
+
+6. Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
+   1. 4 > 3 && 10 < 12
+   2. 4 > 3 && 10 > 12
+   3. 4 > 3 || 10 < 12
+   4. 4 > 3 || 10 > 12
+   5. !(4 > 3)
+   6. !(4 < 3)
+   7. !(false)
+   8. !(4 > 3 && 10 < 12)
+   9. !(4 > 3 && 10 > 12)
+   10. !(4 === '4')
+   11. There is no 'on' in both dragon and python
+
+7. Use the Date object to do the following activities
+   1. What is the year today?
+   2. What is the month today as a number?
+   3. What is the date today?
+   4. What is the day today as a number?
+   5. What is the hours now?
+   6. What is the minutes now?
+   7. Find out the numbers of seconds elapsed from January 1, 1970 to now.
+
+### Exercises: Level 2
 
 1. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
 
@@ -531,11 +570,45 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
 1. Writ a script that prompt a user to enters hours and rate per hour. Calculate pay of the person?
 
-   ```sh
-   Enter hours: 40
-   Enter rate per hour: 28
-   Your weekly earning is 1120
+    ```sh
+    Enter hours: 40
+    Enter rate per hour: 28
+    Your weekly earning is 1120
+    ```
+
+1. If the length of your name is greater than 7 say, your name is long else say your name is short.
+1. Compare your first name length and your family name length and you should get this output.
+
+    ```js
+    let firstName = 'Asabeneh'
+    let lastName = 'Yetayeh'
+    ```
+
+    ```sh
+    Your first name, Asabeneh is longer than your family name, Yetayeh
+    ```
+
+1. Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
+
+   ```js
+   let myAge = 250
+   let yourAge = 25
    ```
+
+   ```sh
+   I am 225 years older than you.
+   ```
+
+1. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+
+    ```sh
+
+    Enter birth year: 1995
+    You are 25. You are old enough to drive
+
+    Enter birth year: 2005
+    You are 15. You will be allowed to drive after 3 years.
+    ```
 
 1. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
 
@@ -544,95 +617,15 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    You lived 3153600000 seconds.
    ```
 
-## 3. Exercises: Booleans Part
+1. Create a human readable time format using the Date time object
+   1. YYY-MM-DD HH:mm
+   2. DD-MM-YYYY HH:mm
+   3. DD/MM/YYY HH:mm
 
-Boolean value is either true or false.
+### Exercises: Level 3
 
-1. Write three JavaScript statement which provide truthy value.
-1. Write three JavaScript statement which provide falsy value.
-
-## 4. Exercises: Comparison Operators
-
-Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
-
-1. 4 > 3
-1. 4 >= 3
-1. 4 < 3
-1. 4 <= 3
-1. 4 == 4
-1. 4 === 4
-1. 4 != 4
-1. 4 !== 4
-1. 4 != '4'
-1. 4 == '4'
-1. 4 === '4'
-   Find the length of python and jargon and make a falsy comparison statement.
-
-## 5. Exercises: Logical Operators
-
-1. Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
-   1. 4 > 3 && 10 < 12
-   2. 4 > 3 && 10 > 12
-   3. 4 > 3 || 10 < 12
-   4. 4 > 3 || 10 > 12
-   5. !(4 > 3)
-   6. !(4 < 3)
-   7. !(false)
-   8. !(4 > 3 && 10 < 12)
-   9. !(4 > 3 && 10 > 12)
-   10. !(4 === '4')
-2. There is no 'on' in both dragon and python
-
-## 6 Ternary Operator
-
-1. If the length of your name is greater than 7 say, your name is long else say your name is short.
-1. Compare your first name length and your family name length and you should get this output.
-
-```js
-let firstName = 'Asabeneh'
-let lastName = 'Yetayeh'
-```
-
-```sh
-//Output
-Your first name, Asabeneh is longer than your family name, Yetayeh
-```
-
-1. Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
-   Output:
-
-   ```js
-   let myAge = 250
-   let yourAge = 25
-   ```
-
-   ```sh
-   //output
-   I am 225 years older than you.
-   ```
-
-1. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
-
-```sh
-// if the age is 25
-You are 25. You are old enough to drive
-// if the age is under 18
- You are 15. You will be allowed to drive after 3 years.
-```
-
-## 7. Exercises: Date time Object
-
-1. What is the year today?
-1. What is the month today as a number?
-1. What is the date today?
-1. What is the day today as a number?
-1. What is the hours now?
-1. What is the minutes now?
-1. Find out the numbers of seconds elapsed from January 1, 1970 to now.
-1. Create a human readable time format
-   1. YYY-MM-DD HH:mm:ss
-   2. DD-MM-YYYY HH:mm:ss
-   3. DD/MM/YYY HH:mm:ss
+1. Create a human readable time format using the Date time object. The hour and the minute should be all time two digits(7 hours should be 07 and 5 minutes should be 05 )
+   1. YYY-MM-DD HH:mm eg. 20120-01-02 07:05
 
 🎉 CONGRATULATIONS ! 🎉
 
