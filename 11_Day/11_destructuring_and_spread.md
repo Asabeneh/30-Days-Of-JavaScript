@@ -15,7 +15,7 @@
 
 [<< Day 10](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_Set_and_Map.md) | [Day 12>>](#)
 
-![Day 5](../images/banners/day_1_11.png)
+![Day 11](../images/banners/day_1_11.png)
 
 - [Day 11](#day-11)
   - [Destructuring and Spread](#destructuring-and-spread)
