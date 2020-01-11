@@ -132,7 +132,7 @@ role:'teaching',
 country:'Finland'
 }
 
-console.log(userOne == userTwo)
+console.log(userOne == userTwo) //false
 ```
 
 Rule of thumb, we do not compare non-primitive data types. Do not compare array, function, or object.
