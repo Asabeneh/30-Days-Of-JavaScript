@@ -39,8 +39,8 @@
       - [String to Int](#string-to-int)
       - [String to Float](#string-to-float)
       - [Float to Int](#float-to-int)
-- [💻 Day 2: Exercises](#%f0%9f%92%bb-day-2-exercises)
-  - [Exercise: Level 1](#exercise-level-1)
+  - [💻 Day 2: Exercises](#%f0%9f%92%bb-day-2-exercises)
+    - [Exercise: Level 1](#exercise-level-1)
     - [Exercise: Level 2](#exercise-level-2)
     - [Exercises: Level 3](#exercises-level-3)
 
@@ -135,7 +135,7 @@ role:'teaching',
 country:'Finland'
 }
 
-console.log(userOne == userTwo)
+console.log(userOne == userTwo) // false
 ```
 
 Rule of thumb, we do not compare non-primitive data types. Do not compare array, function, or object.
@@ -879,9 +879,9 @@ console.log(numInt) // 9
 
 🌕  You are awesome. You have just completed day 2 challenges and you are two steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
 
-# 💻 Day 2: Exercises
+## 💻 Day 2: Exercises
 
-## Exercise: Level 1
+### Exercise: Level 1
 
 1. Declare a variable name challenge and assign it to an initial value **'30 Days Of JavaScript'**.
 2. Print the string on the browser console using __console.log()__

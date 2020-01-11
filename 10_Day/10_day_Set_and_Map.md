@@ -13,7 +13,7 @@
   </sub>
 </div>
 
-[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_destructuring_and_spreading.md)
+[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_destructuring_and_spread.md)
 
 ![Day 5](../images/banners/day_1_10.png)
 
@@ -438,4 +438,4 @@ const countries = ['Finland', 'Sweden', 'Norway']
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_destructuring_and_spreading.md)
+[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_destructuring_and_spread.md)

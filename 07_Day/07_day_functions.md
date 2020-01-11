@@ -690,7 +690,7 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
 1. Write a function called _isPrime_, which checks if a number is prime number.
 1. Write a functions which checks if all items are unique in the array.
 1. Write a function which checks if all the items of the array are the same data type.
-1. JavaScript variable name does not support special characters or symbols except \$ or \_. Write a function **\*isValidVariable** which check if a variable is valid or invalid variable.
+1. JavaScript variable name does not support special characters or symbols except \$ or \_. Write a function **isValidVariable** which check if a variable is valid or invalid variable.
 1. Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
 
     ```js
