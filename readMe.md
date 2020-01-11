@@ -1,8 +1,5 @@
 <div align="center">
   <h1> 30 Days Of JavaScript</h1>
-  <a class="header-badge" target="_blank" href="https://github.com/Asabeneh/30DaysOfJavaScript">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/asabeneh/30DaysOfJavaScript?style=social">
-  </a>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>

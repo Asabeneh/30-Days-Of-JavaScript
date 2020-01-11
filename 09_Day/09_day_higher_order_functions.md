@@ -1,8 +1,5 @@
 <div align="center">
   <h1> 30 Days Of JavaScript</h1>
-  <a class="header-badge" target="_blank" href="https://github.com/Asabeneh/30DaysOfJavaScript">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/asabeneh/30DaysOfJavaScript?style=social">
-  </a>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -10,11 +7,10 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> January, 2020</small>
-</sub>
-
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+  <small> January, 2020</small>
+  </sub>
 </div>
 
 [<< Day 8](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/08_Day/08_day_objects.md) | [Day 10 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/10_Day/10_day_Set_and_Map.md)

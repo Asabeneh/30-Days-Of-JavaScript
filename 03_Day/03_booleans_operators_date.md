@@ -1,8 +1,5 @@
 <div align="center">
   <h1> 30 Days Of JavaScript</h1>
-  <a class="header-badge" target="_blank" href="https://github.com/Asabeneh/30DaysOfJavaScript">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/asabeneh/30DaysOfJavaScript?style=social">
-  </a>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -49,7 +46,7 @@
     - [Getting minutes](#getting-minutes)
     - [Getting seconds](#getting-seconds)
     - [Getting time](#getting-time)
-- [💻 Day 3: Exercises](#-day-3-exercises)
+- [💻 Day 3: Exercises](#%f0%9f%92%bb-day-3-exercises)
   - [1. Exercises: Data types Part](#1-exercises-data-types-part)
   - [2. Exercises: Arithmetic Operators Part](#2-exercises-arithmetic-operators-part)
   - [3. Exercises: Booleans Part](#3-exercises-booleans-part)
