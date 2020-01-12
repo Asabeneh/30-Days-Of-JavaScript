@@ -1,8 +1,5 @@
 <div align="center">
   <h1> 30 Days Of JavaScript</h1>
-  <a class="header-badge" target="_blank" href="https://github.com/Asabeneh/30DaysOfJavaScript">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/asabeneh/30DaysOfJavaScript?style=social">
-  </a>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -27,7 +24,10 @@
     - [if else if else](#if-else-if-else)
     - [Switch](#switch)
     - [Ternary Operators](#ternary-operators)
-- [💻 Exercise : Conditionals](#-exercise--conditionals)
+  - [💻 Exercises](#%f0%9f%92%bb-exercises)
+    - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 2](#exercises-level-2)
+    - [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 4
 
@@ -254,7 +254,9 @@ isRaining
 
 🌕  You are extraordinary and you have a remarkable potential. You have just completed day 4 challenges and you are four steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
 
-# 💻 Exercise  : Conditionals
+## 💻 Exercises
+
+### Exercises: Level 1
 
 1. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:You are old enough to drive but if not 18 give feedback to wait for the years he supposed to wait for.
 
@@ -287,19 +289,6 @@ isRaining
       4 is greater than 3
     ```
 
-1. Write a code which give grade students according to theirs scores:
-   - 80-100, A
-   - 70-89, B
-   - 60-69, C
-   - 50-59, D
-   - 0 -49, F
-1. Check if the season is Autumn, Winter, Spring or Summer.
-   If the user input is:
-   - September, October or November, the season is Autumn.
-   - December, January or February, the season is Winter.
-   - March, April or May, the season is Spring
-   - June, July or August, the season is Summer
-
 1. Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using JavaScript?
 
     ```sh
@@ -310,6 +299,20 @@ isRaining
     9 is is an odd number.
     ```
 
+### Exercises: Level 2
+
+1. Write a code which  can give grade to students according to theirs scores:
+   - 80-100, A
+   - 70-89, B
+   - 60-69, C
+   - 50-59, D
+   - 0-49, F
+1. Check if the season is Autumn, Winter, Spring or Summer.
+   If the user input is:
+   - September, October or November, the season is Autumn.
+   - December, January or February, the season is Winter.
+   - March, April or May, the season is Spring
+   - June, July or August, the season is Summer
 1. Check if a day is weekend day or a working day. Your script will take day as an input.
 
 ```sh
@@ -326,6 +329,8 @@ isRaining
     Friday is a work day.
   ```
 
+### Exercises: Level 3
+
 1. Write a program which tells the number days in a month.
 
   ```sh
@@ -341,7 +346,6 @@ isRaining
     Enter month: FEbruary
     February has 28 days.
   ```
-
 
 🎉 CONGRATULATIONS ! 🎉
 

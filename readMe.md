@@ -1,8 +1,5 @@
 <div align="center">
   <h1> 30 Days Of JavaScript</h1>
-  <a class="header-badge" target="_blank" href="https://github.com/Asabeneh/30DaysOfJavaScript">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/asabeneh/30DaysOfJavaScript?style=social">
-  </a>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -51,7 +48,7 @@
   - [Checking Data types](#checking-data-types)
   - [Comments](#comments)
   - [Variables](#variables)
-- [💻 Day 1: Exercises](#-day-1-exercises)
+- [💻 Day 1: Exercises](#%f0%9f%92%bb-day-1-exercises)
 
 # 📔Day 1
 
@@ -443,7 +440,7 @@ console.log(firstName); //not defined, because it is not assigned to a value yet
 Null in JavaScript means an empty value.
 
 ```js
-let emptyValue = nulll
+let emptyValue = null
 ```
 
 ## Checking Data types
@@ -544,22 +541,39 @@ let firstName = 'Asabeneh'  // first name of a person
 let lastName = 'Yetayeh'    // last name of a person
 let country = 'Finland'     // country
 let city = 'Helsinki'       // capital city
-let age = 100               // age in years
-let isMarried = true
+let isMarried = true       // boolean data type
 
-console.log(firstName, lastName, country, city, age, isMarried); //Asabeneh, Yetayeh, Finland, Helsinki, 100, True
+console.log(firstName, lastName, country, city, age, isMarried)
+```
 
+```sh
+Asabeneh Yetayeh Finland Helsinki 100 True
+```
+
+```js
 // Declaring variables with number values
+let age = 100             // age in years
 const gravity = 9.81      // earth gravity  in m/s2
 const boilingPoint = 100  // water boiling point, temperature in oC
 const PI = 3.14           // geometrical constant
 
-console.log(gravity, boilingPoint, PI); // 9.81, 100, 3.14
+console.log(gravity, boilingPoint, PI)
+```
+
+```sh
+9.81 100 3.14
+```
+
+```js
 // Variables can also be declaring in one line separated by comma
 let name = 'Asabeneh', // name of a person
   job = 'teacher',
   live = 'Finland';
 console.log(name, job, live);
+```
+
+```sh
+Asabeneh teacher Finland
 ```
 
 When you run the files on 01-Day folder you should get this:
