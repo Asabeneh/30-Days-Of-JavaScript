@@ -13,7 +13,7 @@
   </sub>
 </div>
 
-[<< Day 10](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_Set_and_Map.md) | [Day 12>>](#)
+[<< Day 10](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_Set_and_Map.md) | [Day 12>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/12_Day/12_day_regular_expressions.md)
 
 ![Day 11](../images/banners/day_1_11.png)
 
@@ -688,6 +688,7 @@ const users = [
     }
   }
 
+```
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 10](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_Set_and_Map.md) | [Day 12>>](#)
+[<< Day 10](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_Set_and_Map.md) | [Day 12>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/12_Day/12_day_regular_expressions.md)
