@@ -426,40 +426,6 @@ console.log(result) // true
 ### Exercises: Level 1
 
 1. Calculate the total annual income of the person from the following text. ‘He earns 4000 euro from salary per month, 10000 euro annual bonus, 5500 euro online courses per month.’
-
-### Exercises: Level 2
-
-1. What is the most frequent word in the following paragraph ?
-
-```js
-    paragraph = 'I love teaching. If you do not love teaching what else can you love. I love Python if you do not love something which can give you all the capabilities to develop an application what else can you love.
-```
-
-```sh
-    [(6, 'love'),
-    (5, 'you'),
-    (3, 'can'),
-    (2, 'what'),
-    (2, 'teaching'),
-    (2, 'not'),
-    (2, 'else'),
-    (2, 'do'),
-    (2, 'I'),
-    (1, 'which'),
-    (1, 'to'),
-    (1, 'the'),
-    (1, 'something'),
-    (1, 'if'),
-    (1, 'give'),
-    (1, 'develop'),
-    (1, 'capabilities'),
-    (1, 'application'),
-    (1, 'an'),
-    (1, 'all'),
-    (1, 'Python'),
-    (1, 'If')]
-```
-
 1. The position of some particles on the horizontal x-axis -12, -4, -3 and  -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers and find the distance between the two furthest particles.
 
 ```js
@@ -477,24 +443,81 @@ distance = 12
     is_valid_variable('firstname') # True
     ```
 
+### Exercises: Level 2
+
+1. Write a function called *tenMostFrequentWords* which get the ten most frequent word from a string?
+
+    ```js
+        paragraph = `I love teaching. If you do not love teaching what else can you love. I love Python if you do not love something which can give you all the capabilities to develop an application what else can you love.`
+        console.log(tenMostFrequentWords(paragraph))
+    ```
+
+    ```sh
+        [(6, 'love'),
+        (5, 'you'),
+        (3, 'can'),
+        (2, 'what'),
+        (2, 'teaching'),
+        (2, 'not'),
+        (2, 'else'),
+        (2, 'do'),
+        (2, 'I'),
+        (1, 'which'),
+        (1, 'to'),
+        (1, 'the'),
+        (1, 'something'),
+        (1, 'if'),
+        (1, 'give'),
+        (1, 'develop'),
+        (1, 'capabilities'),
+        (1, 'application'),
+        (1, 'an'),
+        (1, 'all'),
+        (1, 'Python'),
+        (1, 'If')
+        ]
+    ```
+
+    ```js
+    console.log(tenMostFrequentWords(paragraph, 10))
+    ```
+
+    ```sh
+    [   (6, 'love'),
+        (5, 'you'),
+        (3, 'can'),
+        (2, 'what'),
+        (2, 'teaching'),
+        (2, 'not'),
+        (2, 'else'),
+        (2, 'do'),
+        (2, 'I'),
+        (1, 'which')
+    ]
+    ```
+
 ### Exercises: Level 3
 
 1. Writ a function which cleans text. Clean the following text. After cleaning, count three most frequent words in the string.
   
   ```js
-    sentence = '''%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?'''
+    sentence = `%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?`
 
    console.log(cleanText(sentence))
+   ```
 
+   ```sh
     I am a teacher and I love teaching There is nothing as more rewarding as educating and empowering people I found teaching more interesting than any other jobs Does this motivate you to be a teacher
     ```
 1. Write a function which find the most frequent words. After cleaning, count three most frequent words in the string.
 
-```js
- console.log(mostFrequentWords(cleaned_text))
- [(3, 'I'), (2, 'teaching'), (2, 'teacher')]
-```
+    ```js
+    console.log(mostFrequentWords(cleanedText))
+    [(3, 'I'), (2, 'teaching'), (2, 'teacher')]
+    ```
+
 
 🎉 CONGRATULATIONS ! 🎉
+
 
 [<< Day 11](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_day_destructuring_and_spread.md) | [Day 13>>](#)
