@@ -12,7 +12,7 @@
   </sub>
 </div>
 
-[<< Day 11](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_day_destructuring_and_spread.md) | [Day 13>>](#)
+[<< Day 11](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_day_destructuring_and_spread.md) | [Day 13>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/13_Day/13_day_console_object_methods.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_12.png)
 
