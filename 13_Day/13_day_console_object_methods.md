@@ -13,7 +13,7 @@
   </sub>
 </div>
 
-[<< Day 11](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/12_Day/12_day_regular_expressions.md) | [Day 14>>](#)
+[<< Day 12](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/12_Day/12_day_regular_expressions.md) | [Day 14>>](#)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_13.png)
 - [Day 13](#day-13)
@@ -319,7 +319,7 @@ The console.clear() cleans the browser console.
 
  1. Display the countries array as a table
  2. Display the countries object as a table
- 3. User console.group() to group logs
+ 3. Use console.group() to group logs
 
 ### Exercises:Level 2
 
@@ -334,4 +334,4 @@ The console.clear() cleans the browser console.
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 11](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/12_Day/12_day_regular_expressions.md) | [Day 14>>](#)
+[<< Day 12](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/12_Day/12_day_regular_expressions.md) | [Day 14>>](#)
