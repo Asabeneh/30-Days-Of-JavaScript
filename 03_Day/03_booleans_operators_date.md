@@ -65,7 +65,7 @@ let isRaining = false
 let isHungry = false
 let isMarried = true
 let truValue = 4 > 3 // true
-let falseValue = 3 < 4 // false
+let falseValue = 4 < 3 // false
 ```
 
 We agreed that boolean values are either true or false.
