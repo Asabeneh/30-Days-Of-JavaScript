@@ -13,7 +13,7 @@
   </sub>
 </div>
 
-[<< Day 11](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/12_Day/12_day_regular_expressions.md) | [Day 14>>](#)
+[<< Day 12](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/12_Day/12_day_regular_expressions.md) | [Day 14>>](#)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_13.png)
 - [Day 13](#day-13)
@@ -334,4 +334,4 @@ The console.clear() cleans the browser console.
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 11](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/12_Day/12_day_regular_expressions.md) | [Day 14>>](#)
+[<< Day 12](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/12_Day/12_day_regular_expressions.md) | [Day 14>>](#)
