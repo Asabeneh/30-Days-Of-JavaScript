@@ -16,7 +16,7 @@
 
 [<< Day 13](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/13_Day/13_day_console_object_methods.md) | [Day 15>>](#)
 
-![Thirty Days Of JavaScript](../images/banners/day_1_15.png)
+![Thirty Days Of JavaScript](../images/banners/day_1_14.png)
 
 - [Day 14](#day-14)
   - [Error Handling](#error-handling)
