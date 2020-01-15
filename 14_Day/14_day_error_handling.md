@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 13](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/13_Day/13_day_console_object_methods.md) | [Day 15>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/15_Day/15_day_15_classes.md)
+[<< Day 13](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/13_Day/13_day_console_object_methods.md) | [Day 15>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/15_Day/15_day_classes.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_14.png)
 
@@ -190,4 +190,4 @@ Practice
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 13](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/13_Day/13_day_console_object_methods.md) | [Day 15>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/15_Day/15_day_15_classes.md)
+[<< Day 13](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/13_Day/13_day_console_object_methods.md) | [Day 15>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/15_Day/15_day_classes.md)
