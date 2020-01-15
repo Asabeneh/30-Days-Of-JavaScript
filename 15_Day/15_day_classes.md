@@ -508,13 +508,11 @@ class Person {
     let formattedSkills = skills ? `He knows ${skills}` : ''
 
     let info = `${fullName} is ${this.age}. He lives ${this.city}, ${this.country}. ${formattedSkills}`
-    console.log(this)
     return info
   }
   static favoriteSkill() {
     const skills = ['HTML', 'CSS', 'JS', 'React', 'Python', 'Node']
     const index = Math.floor(Math.random() * skills.length)
-    console.log('hi')
     return skills[index]
   }
   static showDateTime() {
@@ -609,7 +607,6 @@ class Student extends Person {
     let pronoun = this.gender == 'Male' ? 'He' : 'She'
 
     let info = `${fullName} is ${this.age}. ${pronoun} lives in ${this.city}, ${this.country}. ${formattedSkills}`
-    console.log(this)
     return info
   }
 }
