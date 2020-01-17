@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 15](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/15_Day/15_day_classes.md) | [Day 17>>](#)
+[<< Day 15](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/15_Day/15_day_classes.md) | [Day 17 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/17_Day/17_day_web_storage.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_16.png)
 
@@ -460,7 +460,7 @@ console.log(text)
 }
 ```
 
-🌕 You are extraordinary Now, you knew a light-weight data format which you may use to store data or to send it an HTTP server. You are 16 steps a head to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You are extraordinary.  Now, you knew a light-weight data format which you may use to store data or to send it an HTTP server. You are 16 steps a head to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## Exercises
 
@@ -594,4 +594,4 @@ const text = `{
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 15](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/15_Day/15_day_classes.md) | [Day 17>>](#)
+[<< Day 15](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/15_Day/15_day_classes.md) | [Day 17 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/17_Day/17_day_web_storage.md)
