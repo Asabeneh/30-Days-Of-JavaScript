@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 14](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/14_Day/14_day_error_handling.md) | [Day 16>>](#)
+[<< Day 14](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/14_Day/14_day_error_handling.md) | [Day 16>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/16_Day/16_day_json.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_15.png)
 
@@ -35,6 +35,7 @@
     - [Exercises Level 1](#exercises-level-1)
     - [Exercises Level 2](#exercises-level-2)
     - [Exercises Level 3](#exercises-level-3)
+
 # Day 15
 
 ## Classes
@@ -706,8 +707,8 @@ Standard Deviation:  4.2
 Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
 ```
 
-1. Create a class called PersonAccount. It has firstname, lastname, incomes, expenses properties and it has totalIncome, totalExpense, accountInfo,addIncome, addExpense and accountBalance methods. Incomes is a set of incomes and its description and  expenses is also a set of expenses and its description.
+1. Create a class called PersonAccount. It has firstname, lastname, incomes, expenses properties and it has totalIncome, totalExpense, accountInfo,addIncome, addExpense and accountBalance methods. Incomes is a set of incomes and its description and expenses is also a set of expenses and its description.
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 14](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/14_Day/14_day_error_handling.md) | [Day 16>>](#)
+[<< Day 14](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/14_Day/14_day_error_handling.md) | [Day 16>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/16_Day/16_day_json.md)

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document Object Model:30 Days Of JavaScript</title>
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|Roboto|Lato|Raleway
+:300,400,500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            text-align: center;
+            margin-top: 50px;
+            font-family: 'Lato', sans-serif;
+
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 50px auto;
+            background: #fbe324;
+            width: 650px;
+            padding: 15px;
+            color: #444;
+            font-weight: lighter;
+
+        }
+
+        input {
+            width: 250px;
+            height: 45px;
+            text-indent: 10px;
+            font-size: 18px;
+        }
+
+        input:focus {
+            border: 1px solid #fbe324;
+            outline: 1px solid #fbe324;
+        }
+
+        input::placeholder {
+            color: rgb(195, 190, 190);
+        }
+
+        button {
+            width: 150px;
+            height: 45px;
+            border: none;
+            background: #fbe324;
+            color: #444;
+            font-size: 18px;
+            font-family: 'Lato', sans-serif;
+        }
+
+        button:focus{
+            border: 1px solid #fbe324;
+            outline: 1px solid #fbe324;
+        }
+
+        p {
+            margin: 15px auto;
+            background: #fbe324;
+            width: 650px;
+            padding: 5px;
+            font-size: 28px;
+            font-family: 'Raleway', sans-serif;
+
+        }
+
+        span {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            padding: 5px;
+            border-radius: 50%;
+            background: rgb(246, 192, 91);
+            line-height: 70px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Body Mass Index Calculator</h1>
+
+    <input type="text" id="mass" placeholder="Mass in Kilogram" />
+    <input type="text" id="height" placeholder="Height in meters" />
+    <button>Calculate BMI</button>
+
+    <script>
+        const mass = document.querySelector('#mass')
+        const height = document.querySelector('#height')
+        const button = document.querySelector('button')
+        const bmiResult = document.createElement('p')
+        let bmi
+        button.addEventListener('click', () => {
+            bmi = mass.value / height.value ** 2
+            bmiResult.innerHTML = `<span>${bmi.toFixed(2)}</span>`
+            document.body.appendChild(bmiResult)
+
+        })
+    </script>
+</body>
+
+</html>
