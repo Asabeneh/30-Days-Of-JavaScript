@@ -327,8 +327,8 @@ const users = {
   }
 }
 
-const text = JSON.stringify(users, undefined, 4)
-console.log(text) // text means JSON- because json is a string form of an object.
+const txt = JSON.stringify(users, undefined, 4)
+console.log(txt) // text means JSON- because json is a string form of an object.
 ```
 
 ```sh
@@ -446,8 +446,8 @@ const user = {
   points: 30
 }
 
-const text = JSON.stringify(user,['firstName', 'lastName', 'country', 'city', 'age'],4)
-console.log(text)
+const txt = JSON.stringify(user,['firstName', 'lastName', 'country', 'city', 'age'],4)
+console.log(txt)
 ```
 
 ```sh
