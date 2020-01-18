@@ -13,7 +13,7 @@
   </sub>
 </div>
 
-[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_destructuring_and_spread.md)
+[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_day_destructuring_and_spread.md)
 
 ![Day 10](../images/banners/day_1_10.png)
 
@@ -388,6 +388,7 @@ Norway Oslo
 ## Exercises
 
 ### Exercises:Level 1
+
 ```js
 const a = {4, 5, 8, 9}
 const b = {3, 4, 5, 7}
@@ -409,33 +410,36 @@ const countries = ['Finland', 'Sweden', 'Norway']
 
 ### Exercises:Level 3
 
+1. How many languages are there in the countries object file.
+
 1. \*\*\* Use the countries data to find the 10 most spoken languages:
 
    ````js
    // Your output should look like this
    console.log(mostSpokenLanguages(countries, 10))
-   [(91, 'English'),
-   (45, 'French'),
-   (25, 'Arabic'),
-   (24, 'Spanish'),
-   (9, 'Russian'),
-   (9, 'Portuguese'),
-   (8, 'Dutch'),
-   (7, 'German'),
-   (5, 'Chinese'),
-   (4, 'Swahili'),
-   (4, 'Serbian')]
+   [
+   {'English':91},
+   {'French':45},
+   {'Arabic':25},
+   {'Spanish':24},
+   {'Russian':9},
+   {'Portuguese':9},
+   {'Dutch':8},
+   {'German':7},
+   {'Chinese':5},
+   {'Swahili':4},
+   {'Serbian':4}]
 
    // Your output should look like this
    console.log(mostSpokenLanguages(countries, 3))
-   [
-   (91, 'English'),
-   (45, 'French'),
-   (25, 'Arabic')
-   ]```
 
-   ````
+  [
+   {'English':91},
+   {'French':45},
+   {'Arabic':25}
+   ]
+````
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_destructuring_and_spread.md)
+[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_day_destructuring_and_spread.md)
