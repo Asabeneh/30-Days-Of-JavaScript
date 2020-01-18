@@ -204,9 +204,10 @@ class Person {
 }
 
 const person1 = new Person() // it will take the default values
-const person1 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
+const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
 
 console.log(person1)
+console.log(person2)
 ```
 
 ```sh
