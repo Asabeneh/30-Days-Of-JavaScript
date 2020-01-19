@@ -350,7 +350,7 @@ Zero or many times. The pattern could may not occur or it can occur many times.
 
 const pattern = /[a].*/g  //. any character, + any character one or more times 
 const txt = 'Apple and banana are fruits'
-const matches = re.match(pattern)
+const matches = txt.match(pattern)
 
 console.log(matches)  // ['and banana are fruits']
 
@@ -383,7 +383,7 @@ console.log(matches)  // ['2019']
 
 ```js
 const txt = 'This regular expression example was made in December 6,  2019.'
-const regex_pattern = /\d{1, 4}/g   // 1 to 4
+const pattern = /\d{1,4}/g   // 1 to 4
 const matches = txt.match(pattern)
 console.log(matches)  // ['6', '2019']
 ```
@@ -396,7 +396,7 @@ console.log(matches)  // ['6', '2019']
 const txt = 'This regular expression example was made in December 6,  2019.'
 const pattern = /^This/ // ^ means starts with
 const matches = txt.match(pattern)
-console.log(matches)  / ['This']
+console.log(matches)  // ['This']
 ```
 
 - Negation
@@ -405,12 +405,12 @@ console.log(matches)  / ['This']
 const txt = 'This regular expression example was made in December 6,  2019.'
 const pattern = /[^A-Za-z,. ]+/g  // ^ in set character means negation, not A to Z, not a to z, no space, no coma no period
 const matches = txt.match(pattern)
-console.log(matches)  ["6", "2019"]
+console.log(matches)  // ["6", "2019"]
 ```
 
 ### Exact match
 
-It should hav ^ starting and $ which is an end.
+It should have ^ starting and $ which is an end.
 
 ```js
 let pattern = /^[A-Z][a-z]{3,12}$/;
