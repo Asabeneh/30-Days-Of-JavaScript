@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 16](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/16_Day/16_day_json.md) | [Day 18 >>]()
+[<< Day 16](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/16_Day/16_day_json.md) | [Day 18 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/18_Day/18_day_promise.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_17.png)
 
@@ -230,4 +230,4 @@ localStorage.clear()
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 16](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/16_Day/16_day_json.md) | [Day 18 >>]()
+[<< Day 16](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/16_Day/16_day_json.md) | [Day 18 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/18_Day/18_day_promise.md)

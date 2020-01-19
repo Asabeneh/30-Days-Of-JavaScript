@@ -16,7 +16,7 @@
 
 [<< Day 17](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/17_Day/17_day_web_storage.md) | [Day 19>>]()
 
-![Thirty Days Of JavaScript](../images/banners/day_1_17.png)
+![Thirty Days Of JavaScript](../images/banners/day_1_18.png)
 
 - [Day 18](#day-18)
   - [Promise](#promise)
