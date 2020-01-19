@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 17](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/17_Day/17_day_web_storage.md) | [Day 19>>]()
+[<< Day 17](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/17_Day/17_day_web_storage.md) | [Day 19>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/19_Day/19_day_closure.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_18.png)
 
@@ -269,4 +269,4 @@ const catsAPI = 'https://api.thecatapi.com/v1/breeds'
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 17](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/17_Day/17_day_web_storage.md) | [Day 19>>]()
+[<< Day 17](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/17_Day/17_day_web_storage.md) | [Day 19>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/19_Day/19_day_closure.md)
