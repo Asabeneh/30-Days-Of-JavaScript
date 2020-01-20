@@ -514,7 +514,7 @@ distance = 12
 
     ```js
     console.log(mostFrequentWords(cleanedText))
-    [(3, 'I'), (2, 'teaching'), (2, 'teacher')]
+    [{word:'I', count:3}, {word:'teaching', count:2}, {word:'teacher', count:2}]
     ```
 
 
