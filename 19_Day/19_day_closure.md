@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 18](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/18_Day/18_day_promise.md) | [Day 20 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/20_Day/20_day_dom.md)
+[<< Day 18](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/18_Day/18_day_promise.md) | [Day 20 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/20_Day/20_day_writing_clean_code.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_19.png)
 - [Day 19](#day-19)
@@ -101,4 +101,4 @@ console.log(innerFuncs.minusOne)
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 18](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/18_Day/18_day_promise.md) | [Day 20 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/20_Day/20_day_dom.md)
+[<< Day 18](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/18_Day/18_day_promise.md) | [Day 20 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/20_Day/20_day_writing_clean_code.md)
