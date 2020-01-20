@@ -475,7 +475,7 @@ const student = {
   isMarried:true,
   skills:['HTML', 'CSS', 'JS', 'React','Node', 'Python', ]
 }
-const text = `{
+const txt = `{
     "Alex": {
         "email": "alex@alex.com",
         "skills": [
@@ -589,8 +589,8 @@ const text = `{
 
 ### Exercises Level 3
 
-1. Parse the *text* JSON to object.
-2. Find the the user who has many skills.
+1. Parse the *txt* JSON to object.
+2. Find the the user who has many skills from the variable stored in *txt*.
 
 🎉 CONGRATULATIONS ! 🎉
 

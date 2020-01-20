@@ -199,7 +199,7 @@ Promise {<resolved>: 4}
 
 The word *async* in front of a function means that function will return a promise. The above square function instead of a value it returned a promise.
 
-How do we access the value from the promise? To access the value from the promise, will use await.
+How do we access the value from the promise? To access the value from the promise, we will use the keyword *await*.
 
 ```js
 const square = async function (n) {
