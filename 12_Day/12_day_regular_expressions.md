@@ -454,29 +454,28 @@ distance = 12
     ```
 
     ```sh
-        [(6, 'love'),
-        (5, 'you'),
-        (3, 'can'),
-        (2, 'what'),
-        (2, 'teaching'),
-        (2, 'not'),
-        (2, 'else'),
-        (2, 'do'),
-        (2, 'I'),
-        (1, 'which'),
-        (1, 'to'),
-        (1, 'the'),
-        (1, 'something'),
-        (1, 'if'),
-        (1, 'give'),
-        (1, 'develop'),
-        (1, 'capabilities'),
-        (1, 'application'),
-        (1, 'an'),
-        (1, 'all'),
-        (1, 'Python'),
-        (1, 'If')
-        ]
+        [{'love':6},
+        {'you':5},
+        {'can':3},
+        {'what':2},
+        {'teaching':2},
+        {'not':2},
+        {'else':2},
+        {'do':2},
+        {'I':2},
+        {'which':1},
+        {'to':1},
+        {'the':1},
+        {'something':1},
+        {'if':1},
+        {'give':1},
+        {'develop':1},
+        {'capabilities':1},
+        {'application':1},
+        {'an':1},
+        {'all':1},
+        {'Python':1},
+        {'If':1}]
     ```
 
     ```js
@@ -484,17 +483,16 @@ distance = 12
     ```
 
     ```sh
-    [   (6, 'love'),
-        (5, 'you'),
-        (3, 'can'),
-        (2, 'what'),
-        (2, 'teaching'),
-        (2, 'not'),
-        (2, 'else'),
-        (2, 'do'),
-        (2, 'I'),
-        (1, 'which')
-    ]
+   [{'love':6},
+    {'you':5},
+    {'can':3},
+    {'what':2},
+    {'teaching':2},
+    {'not':2},
+    {'else':2},
+    {'do':2},
+    {'I':2},
+    {'which':1}]
     ```
 
 ### Exercises: Level 3
