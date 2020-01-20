@@ -454,28 +454,29 @@ distance = 12
     ```
 
     ```sh
-        [{'love':6},
-        {'you':5},
-        {'can':3},
-        {'what':2},
-        {'teaching':2},
-        {'not':2},
-        {'else':2},
-        {'do':2},
-        {'I':2},
-        {'which':1},
-        {'to':1},
-        {'the':1},
-        {'something':1},
-        {'if':1},
-        {'give':1},
-        {'develop':1},
-        {'capabilities':1},
-        {'application':1},
-        {'an':1},
-        {'all':1},
-        {'Python':1},
-        {'If':1}]
+        [
+        {word:'love', count:6},
+        {word:'you', count:5},
+        {word:'can', count:3},
+        {word:'what', count:2},
+        {word:'teaching', count:2},
+        {word:'not', count:2},
+        {word:'else', count:2},
+        {word:'do', count:2},
+        {word:'I', count:2},
+        {word:'which', count:1},
+        {word:'to', count:1},
+        {word:'the', count:1},
+        {word:'something', count:1},
+        {word:'if', count:1},
+        {word:'give', count:1},
+        {word:'develop',count:1},
+        {word:'capabilities',count:1},
+        {word:'application', count:1},
+        {word:'an',count:1},
+        {word:'all',count:1},
+        {word:'Python',count:1},
+        {word:'If',count:1}]
     ```
 
     ```js
@@ -483,16 +484,17 @@ distance = 12
     ```
 
     ```sh
-   [{'love':6},
-    {'you':5},
-    {'can':3},
-    {'what':2},
-    {'teaching':2},
-    {'not':2},
-    {'else':2},
-    {'do':2},
-    {'I':2},
-    {'which':1}]
+   [{word:'love', count:6},
+    {word:'you', count:5},
+    {word:'can', count:3},
+    {word:'what', count:2},
+    {word:'teaching', count:2},
+    {word:'not', count:2},
+    {word:'else', count:2},
+    {word:'do', count:2},
+    {word:'I', count:2},
+    {word:'which', count:1}
+    ]
     ```
 
 ### Exercises: Level 3
