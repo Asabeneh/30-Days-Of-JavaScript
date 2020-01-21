@@ -3,108 +3,76 @@
 
 <head>
     <title>Document Object Model:30 Days Of JavaScript</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-        }
-
-        body {
-            text-align: center;
-            margin-top: 50px;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 300;
-
-        }
-
-        h1 {
-            font-size: 36px;
-            margin: 50px auto;
-            background: #fbe324;
-            width: 650px;
-            padding: 15px;
-            color: #444;
-            font-weight: 500;
-            letter-spacing: 2px;
-            word-spacing: 2px;
-
-        }
-
-        input {
-            width: 250px;
-            height: 45px;
-            text-indent: 10px;
-            font-size: 18px;
-        }
-
-        input:focus {
-            border: 1px solid #fbe324;
-            outline: 1px solid #fbe324;
-        }
-
-        input::placeholder {
-            color: rgb(195, 190, 190);
-        }
-
-        button {
-            width: 150px;
-            height: 45px;
-            border: none;
-            background: #fbe324;
-            color: #444;
-            font-size: 18px;
-            font-family: 'Lato', sans-serif;
-        }
-
-        button:focus {
-            border: 1px solid #fbe324;
-            outline: 1px solid #fbe324;
-        }
-
-        p {
-            margin: 15px auto;
-            background: #fbe324;
-            width: 650px;
-            padding: 5px;
-            font-size: 28px;
-            font-family: 'Raleway', sans-serif;
-
-        }
-
-        span {
-            display: inline-block;
-            width: 100px;
-            height: 100px;
-            padding: 10px;
-            border-radius: 50%;
-            background: rgb(246, 192, 91);
-            line-height: 80px;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300, 400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <h1>Body Mass Index Calculator</h1>
-
-    <input type="text" id="mass" placeholder="Mass in Kilogram" />
-    <input type="text" id="height" placeholder="Height in meters" />
-    <button>Calculate BMI</button>
+    <div class="wrapper">
+        <h1>Asabeneh Yetayeh challenges in 2020</h1>
+        <h2>30DaysOfJavaScript Challenge</h2>
+        <ul>
+            <li>30DaysOfPython Challenge Done</li>
+            <li>30DaysOfJavaScript Challenge Ongoing</li>
+            <li>30DaysOfReact Challenge Coming</li>
+            <li>30DaysOfFullStack Challenge Coming</li>
+            <li>30DaysOfDataAnalysis Challenge Coming</li>
+            <li>30DaysOfReactNative Challenge Coming</li>
+            <li>30DaysOfMachineLearning Challenge Coming</li>
+        </ul>
+    </div>
 
     <script>
-        const mass = document.querySelector('#mass')
-        const height = document.querySelector('#height')
-        const button = document.querySelector('button')
-        const bmiResult = document.createElement('p')
-        let bmi
-        button.addEventListener('click', () => {
-            bmi = mass.value / height.value ** 2
-            bmiResult.innerHTML = `<span>${bmi.toFixed(2)}</span>`
-            document.body.appendChild(bmiResult)
+        const hexaColor = () => {
+            const str = '0123456789abcdef'
+            let hexa = '#'
+            let index
+            for (let i = 0; i < 6; i++) {
+                index = Math.floor(Math.random() * str.length)
+                hexa += str[index]
+            }
+            return hexa
+        }
 
-        })
+        const wrapper = document.querySelector('.wrapper')
+        wrapper.style.width = '50%'
+        wrapper.style.margin = 'auto'
+        const title = document.querySelector('h1')
+        setInterval(() => {
+            title.style.color = hexaColor()
+        }, 1000)
+        const subTitle = document.querySelector('h2')
+        title.style.textAlign = 'center'
+        title.style.fontFamily = 'Montserrat'
+        title.style.fontWeight = 500
+
+        subTitle.style.textAlign = 'center'
+        subTitle.style.fontFamily = 'Montserrat'
+        subTitle.style.fontWeight = 300
+        const ul = document.querySelector('ul')
+        const lists = document.querySelectorAll('li')
+        for (const list of lists) {
+            list.style.listStyle = 'none'
+            list.style.padding = '25px'
+            list.style.margin = '3px'
+            list.style.fontFamily = 'Montserrat'
+            list.style.fontWeight = 300;
+            list.style.letterSpacing = '0.0625em'
+
+            if (list.textContent.includes('Done')) {
+                list.style.background = '#21bf73'
+            } else if (list.textContent.includes('Ongoing')) {
+                list.style.background = '#fddb3a'
+
+
+
+            } else {
+                list.style.background = '#fd5e53'
+
+            }
+
+        }
     </script>
 </body>
 
