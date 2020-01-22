@@ -543,7 +543,7 @@ let country = 'Finland'     // country
 let city = 'Helsinki'       // capital city
 let isMarried = true       // boolean data type
 
-console.log(firstName, lastName, country, city, age, isMarried)
+console.log(firstName, lastName, country, city, isMarried)
 ```
 
 ```sh

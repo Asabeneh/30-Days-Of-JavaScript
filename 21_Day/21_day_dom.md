@@ -33,6 +33,8 @@
     - [Adding Text to HTML element](#adding-text-to-html-element)
       - [Adding Text content using textContent](#adding-text-content-using-textcontent)
       - [Adding Text Content using innHTML](#adding-text-content-using-innhtml)
+        - [Text Content](#text-content)
+        - [Inner HTML](#inner-html)
     - [Adding style](#adding-style)
       - [Adding Style Color](#adding-style-color)
       - [Adding Style Background Color](#adding-style-background-color)
@@ -216,9 +218,76 @@ titles[3].textContent = 'Fourth Title'
 
 Most people get confused between _textContent_ and _innerHTML_. _textContent_ is meant to add text to an HTML element, however innerHTML can add a text or HTML element or elements as a child.
 
+##### Text Content
+
+We assign *textContent* HTML object property to a text
+
 ```js
 const titles = document.querySelectorAll('h1')
 titles[3].textContent = 'Fourth Title'
+```
+
+##### Inner HTML
+
+We use innerHTML property when we like to replace or a completely new children content to a parent element.
+It value we assign is going to be a string of HTML elements.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript for Everyone:DOM</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <h1>Asabeneh Yetayeh challenges in 2020</h1>
+        <h2>30DaysOfJavaScript Challenge</h2>
+        <ul></ul>
+    </div>
+    <script>
+    const lists = `
+    <li>30DaysOfPython Challenge Done</li>
+            <li>30DaysOfJavaScript Challenge Ongoing</li>
+            <li>30DaysOfReact Challenge Coming</li>
+            <li>30DaysOfFullStack Challenge Coming</li>
+            <li>30DaysOfDataAnalysis Challenge Coming</li>
+            <li>30DaysOfReactNative Challenge Coming</li>
+            <li>30DaysOfMachineLearning Challenge Coming</li>`
+  const ul = document.querySelector('ul')
+  ul.innerHTML = lists
+    </script>
+  </body>
+</html>
+```
+
+The innerHTML property can allow us also to remove all the children of a parent element. Instead of using removeChild() I would recommend the following method.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript for Everyone:DOM</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <h1>Asabeneh Yetayeh challenges in 2020</h1>
+        <h2>30DaysOfJavaScript Challenge</h2>
+        <ul>
+            <li>30DaysOfPython Challenge Done</li>
+            <li>30DaysOfJavaScript Challenge Ongoing</li>
+            <li>30DaysOfReact Challenge Coming</li>
+            <li>30DaysOfFullStack Challenge Coming</li>
+            <li>30DaysOfDataAnalysis Challenge Coming</li>
+            <li>30DaysOfReactNative Challenge Coming</li>
+            <li>30DaysOfMachineLearning Challenge Coming</li>
+        </ul>
+    </div>
+    <script>
+  const ul = document.querySelector('ul')
+  ul.innerHTML = ''
+    </script>
+  </body>
+</html>
 ```
 
 ### Adding style
