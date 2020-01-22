@@ -222,6 +222,7 @@ titles[3].textContent = 'Fourth Title'
 ```
 
 ### Adding style
+
 #### Adding Style Color
 
 Let us add some style to our titles. If the element has even index we give it green color else red.
@@ -278,31 +279,6 @@ As you have notice, the properties of css when we use it in JavaScript is going 
 
 ## Exercises
 
-```html
-<!-- index.html -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>JavaScript for Everyone:DOM</title>
-  </head>
-  <body>
-    <div class="wrapper">
-        <h1>Asabeneh Yetayeh challenges in 2020</h1>
-        <h2>30DaysOfJavaScript Challenge</h2>
-        <ul>
-            <li>30DaysOfPython Challenge Done</li>
-            <li>30DaysOfJavaScript Challenge Ongoing</li>
-            <li>30DaysOfReact Challenge Coming</li>
-            <li>30DaysOfFullStack Challenge Coming</li>
-            <li>30DaysOfDataAnalysis Challenge Coming</li>
-            <li>30DaysOfReactNative Challenge Coming</li>
-            <li>30DaysOfMachineLearning Challenge Coming</li>
-        </ul>
-    </div>
-  </body>
-</html>
-```
-
 ### Exercise: Level 1
 
 1. Create an index.html file and put four p elements as above: Get the first paragraph by using **_document.querySelector(tagname)_** and tag name
@@ -324,13 +300,13 @@ As you have notice, the properties of css when we use it in JavaScript is going 
 
 1. Develop the following application, use the following HTML elements to get started with. You will get the same code on starter folder.  Apply all the styles and functionality using JavaScript only.
 
-- The year color is changing every 1 second
-- The date and time background color is changing every on seconds
-- Completed challenge has background green
-- Ongoing challenge has background yellow
-- Coming challenges have background red
+   - The year color is changing every 1 second
+   - The date and time background color is changing every on seconds
+   - Completed challenge has background green
+   - Ongoing challenge has background yellow
+   - Coming challenges have background red
 
-  ```html
+```html
 <!-- index.html -->
 <!DOCTYPE html>
 <html>
