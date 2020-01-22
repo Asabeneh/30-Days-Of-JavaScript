@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 19](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/19_Day/19_day_closure.md) | [Day 21 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/21_Day/21-day_dom.md)
+[<< Day 19](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/19_Day/19_day_closure.md) | [Day 21 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/21_Day/21_day_dom.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_20.png)
 - [Day 20](#day-20)
@@ -356,4 +356,4 @@ Whatever style guide you follow be consistent. Follow some programming paradigms
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 19](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/19_Day/19_day_closure.md) | [Day 21 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/21_Day/21-day_dom.md)
+[<< Day 19](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/19_Day/19_day_closure.md) | [Day 21 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/21_Day/21_day_dom.md)
