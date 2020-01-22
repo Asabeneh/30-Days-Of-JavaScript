@@ -137,7 +137,7 @@ const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
 
 #### Functions
 
-By now you are very familiar function declaration, expression function, arrow function and anonymous function. In this challenge we tend to use array function instead of other functions. Arrow function is not a replacement for other functions. In addition, arrow functions and function declarations are not exactly the same. So you should know when to use and when not. I will cover the difference in detail in other sections. We will use explicit return instead of implicit return if the function is one liner
+By now you are very familiar function declaration, expression function, arrow function and anonymous function. In this challenge we tend to use arrow function instead of other functions. Arrow function is not a replacement for other functions. In addition, arrow functions and function declarations are not exactly the same. So you should know when to use and when not. I will cover the difference in detail in other sections. We will use explicit return instead of implicit return if the function is one liner
 
 ```js
 // function which prints full name of a person
@@ -182,7 +182,7 @@ const showDateTime = () => {
 
 #### Loops
 
-We coverer many types of loops in this challenges. The regular fo loop, while loop, do while loop, for of loop, forEach loop and for in loop.
+We coverer many types of loops in this challenges. The regular for loop, while loop, do while loop, for of loop, forEach loop and for in loop.
 Lets see how we use them:
 
 ```js
