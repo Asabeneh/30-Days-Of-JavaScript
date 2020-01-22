@@ -51,7 +51,7 @@
     - [Exercise: Level 1](#exercise-level-1)
     - [Exercise: Level 2](#exercise-level-2)
     - [Exercise: Level 3](#exercise-level-3)
-    - [DOM: Mini Projects](#dom-mini-projects)
+      - [DOM: Mini project 1](#dom-mini-project-1)
 
 # Day 20
 
@@ -742,19 +742,46 @@ We can access all the key numbers of the keyboard using different event listener
 8. Select all paragraphs and loop through each elements and give the first and third paragraph a color of color, and the second and the fourth paragraph a red color
 9. Remove all the paragraph and create them using JavaScript
 10. Set text content, id and class to each paragraph
-11. Create a div container on HTML document and create 100 numbers dynamically and append to the container div. Put each number in 150px by 150px box. If the number is even the background will be lightgreen else lightblue.
+
 
 ### Exercise: Level 2
+
+1. Create a div container on HTML document and create 100 numbers dynamically and append to the container div. Put each number in 150px by 150px box. If the number is even the background will be lightgreen else lightblue.
 
 1. Use the rgb color generator function or hexaColor generator to create 10 divs with random background colors
   
 ### Exercise: Level 3
 
-1. Use the countries.js to visualize all the countries on the HTML document. You need one wrapper div and box for each countries. In the box display, the letter the country starts with, the name of the country and the number of characters for the country name.
+#### DOM: Mini project 1
 
+1. Develop the following application, use the following HTML elements to get started with. You will get the same code on starter folder.  Apply all the styles and functionality using JavaScript only.
 
-### DOM: Mini Projects
+  ```html
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript for Everyone:DOM</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <h1>Asabeneh Yetayeh challenges in 2020</h1>
+        <h2>30DaysOfJavaScript Challenge</h2>
+        <ul>
+            <li>30DaysOfPython Challenge Done</li>
+            <li>30DaysOfJavaScript Challenge Ongoing</li>
+            <li>30DaysOfReact Challenge Coming</li>
+            <li>30DaysOfFullStack Challenge Coming</li>
+            <li>30DaysOfDataAnalysis Challenge Coming</li>
+            <li>30DaysOfReactNative Challenge Coming</li>
+            <li>30DaysOfMachineLearning Challenge Coming</li>
+        </ul>
+    </div>
+  </body>
+</html>
+```
 
+![Project 1](../images/projects/dom_getting_elements_project_1.gif)
 
 🎉 CONGRATULATIONS ! 🎉
 
