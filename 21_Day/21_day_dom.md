@@ -18,8 +18,8 @@
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_21.png)
 
-- [Day 20](#day-20)
-  - [Document Object Model (DOM)](#document-object-model-dom)
+- [Day 21](#day-21)
+  - [Document Object Model (DOM) - Day 1](#document-object-model-dom---day-1)
     - [Getting Element](#getting-element)
       - [Getting elements by tag name](#getting-elements-by-tag-name)
       - [Getting elements by class name](#getting-elements-by-class-name)
@@ -34,28 +34,18 @@
       - [Adding Text content using textContent](#adding-text-content-using-textcontent)
       - [Adding Text Content using innHTML](#adding-text-content-using-innhtml)
     - [Adding style](#adding-style)
-    - [Creating an Element](#creating-an-element)
-    - [Creating elements](#creating-elements)
-    - [Appending child to a parent element](#appending-child-to-a-parent-element)
-    - [Removing a child element from a parent node](#removing-a-child-element-from-a-parent-node)
-    - [Event Listeners](#event-listeners)
-      - [Click](#click)
-      - [Double Click](#double-click)
-      - [Mouse enter](#mouse-enter)
-    - [Getting value from an input element](#getting-value-from-an-input-element)
-    - [input value](#input-value)
-      - [input event and change](#input-event-and-change)
-      - [blur event](#blur-event)
-      - [keypress, keydow and keyup](#keypress-keydow-and-keyup)
+      - [Adding Style Color](#adding-style-color)
+      - [Adding Style Background Color](#adding-style-background-color)
+      - [Adding Style Font Size](#adding-style-font-size)
   - [Exercises](#exercises)
     - [Exercise: Level 1](#exercise-level-1)
     - [Exercise: Level 2](#exercise-level-2)
     - [Exercise: Level 3](#exercise-level-3)
       - [DOM: Mini project 1](#dom-mini-project-1)
 
-# Day 20
+# Day 21
 
-## Document Object Model (DOM)
+## Document Object Model (DOM) - Day 1
 
 HTML document is structured as a JavaScript Object. Every HTML element has a different properties which can help to manipulate it. It is possible to get, create, append or remove HTML elements using JavaScript. Check the examples below. Selecting HTML element using JavaScript is similar to selecting using CSS. To select an HTML element, we use tag name, id, class name or other attributes.
 
@@ -232,6 +222,7 @@ titles[3].textContent = 'Fourth Title'
 ```
 
 ### Adding style
+#### Adding Style Color
 
 Let us add some style to our titles. If the element has even index we give it green color else red.
 
@@ -247,380 +238,43 @@ titles.forEach((title, i) => {
 })
 ```
 
-### Creating an Element
+#### Adding Style Background Color
 
-To create an HTML element we use tag name. Creating an HTML element using JavaScript is very simple and straight forward. We use the method _document.createElement()_. The method takes an HTML element tag name as a string parameter.
-
-```js
-// syntax
-document.createElement('tagname')
-```
-
-**Example: Creating an HTML element**
+Let us add some style to our titles. If the element has even index we give it green color else red.
 
 ```js
-let title = document.createElement('h1')
-let firstTitle = document.getElementById('first-title')
-```
-
-### Creating elements
-
-To create multiple elements we should use loop. Using loop we can create as many HTML elements as we want.
-
-```js
-let firstTitle = document.getElementById('first-title')
-let title
-for (let i = 0; i < 3; i++) {
-  title = document.createElement('h1')
-  title.className = 'title'
-  title.style.fontSize = '24px'
-}
-```
-
-### Appending child to a parent element
-
-To see a created element on the HTML document we should append it the parent as a child element. We can access the HTML document body using *document.body*. The *document.body* support the *appendChild()* method.
-
-```js
-// creating multiple elements and appending to parent element
-let title
-for (let i = 0; i < 3; i++) {
-  title = document.createElement('h1')
-  title.className = 'title'
-  title.style.fontSize = '24px'
-  document.body.appendChild(title)
-}
-```
-
-### Removing a child element from a parent node
-
-After creating an HTML, we may want to remove element or elements and we can use the *removeChild()* method.
-
-**Example:**
-
-```html
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Document Object Model:30 Days Of JavaScript</title>
-</head>
-
-<body>
-    <h1>Removing child Node</h1>
-    <h2>Asabeneh Yetayeh challenges in 2020</h1>
-    <ul>
-        <li>30DaysOfPython Challenge Done</li>
-        <li>30DaysOfJavaScript Challenge Done</li>
-        <li>30DaysOfReact Challenge Coming</li>
-        <li>30DaysOfFullStack Challenge Coming</li>
-        <li>30DaysOfDataAnalysis Challenge Coming</li>
-        <li>30DaysOfReactNative Challenge Coming</li>
-        <li>30DaysOfMachineLearning Challenge Coming</li>
-    </ul>
-
-    <script>
-        const ul = document.querySelector('ul')
-        const lists = document.querySelectorAll('li')
-        for (const list of lists) {
-            ul.removeChild(list)
-
-        }
-    </script>
-</body>
-
-</html>
-```
-
-
-### Event Listeners
-
-Common HTML events:onclick, onchange, onmouseover, onmouseout, onkeydown, onkeyup, onload.
-We can add event listener method to any DOM object. Use use **_addEventListener()_** method to listen different event types on HTML elements. The _addEventListener()_ method takes two arguments, an event listener and a callback function.
-
-```js
-selectedElement.addEventListener('eventlistner', function(e) {
-  // the activity you want to occur after the event will be in here
-})
-// or
-
-selectedElement.addEventListener('eventlistner', e => {
-  // the activity you want to occur after the event will be in here
+const titles = document.querySelectorAll('h1')
+titles.forEach((title, i) => {
+  title.fontSize = '24px' // all titles will have 24px font size
+  if (i % 2 === 0) {
+    title.style.backgroundColor = 'green'
+  } else {
+    title.style.backgroundColor = 'red'
+  }
 })
 ```
 
-#### Click
+#### Adding Style Font Size
 
-To attach an event listener to an element, first we select the element then we attach the addEventListener method. The event listener takes event type and callback functions as argument.
-
-The following is an example of click type event.
-
-**Example: click**
-
-```html
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Document Object Model</title>
-</head>
-
-<body>
-    <button>Click Me</button>
-
-
-    <script>
-        const button = document.querySelector('button')
-        button.addEventListener('click', e => {
-            console.log('e gives the event listener object:', e)
-            console.log('e.target gives the selected element: ', e.target)
-            console.log('e.target.textContent gives content of selected element: ', e.target.textContent)
-
-        })
-    </script>
-</body>
-
-</html>
-```
-
-An event can be also attached directly to the HTML element as inline script.
-
-**Example: onclick**
-
-```html
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Document Object Model</title>
-</head>
-
-<body>
-    <button onclick = "clickMe()">Click Me</button>
-    <script>
-        const clickMe = () => {
-            alert('We can attach event on HTML element')
-        }
-    </script>
-</body>
-
-</html>
-```
-
-#### Double Click
-
-To attach an event listener to an element, first we select the element then we attach the addEventListener method. The event listener takes event type and callback functions as argument.
-
-The following is an example of click type event.
-**Example: dblclick**
-
-```html
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Document Object Model</title>
-</head>
-
-<body>
-    <button>Click Me</button>
-
-    <script>
-        const button = document.querySelector('button')
-        button.addEventListener('dblclick', e => {
-            console.log('e gives the event listener object:', e)
-            console.log('e.target gives the selected element: ', e.target)
-            console.log('e.target.textContent gives content of selected element: ', e.target.textContent)
-
-        })
-    </script>
-</body>
-
-</html>
-```
-
-#### Mouse enter
-
-To attach an event listener to an element, first we select the element then we attach the addEventListener method. The event listener takes event type and callback functions as argument.
-
-The following is an example of click type event.
-
-**Example: mouseenter**
-
-```html
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Document Object Model</title>
-</head>
-
-<body>
-    <button>Click Me</button>
-
-    <script>
-        const button = document.querySelector('button')
-        button.addEventListener('mouseenter', e => {
-            console.log('e gives the event listener object:', e)
-            console.log('e.target gives the selected element: ', e.target)
-            console.log('e.target.textContent gives content of selected element: ', e.target.textContent)
-
-        })
-    </script>
-</body>
-</html>
-```
-
-By now you are familiar with addEventListen method and how to attach event listener. There are many types of event listeners. But in this challenge we will focus the most common important events.
-List of events:
-
-- click - when the element clicked
-- dbclick - when the element double clicked
-- mouseenter - when the mouse point enter to the element
-- mouseleave - when the mouse pointer leave the element
-- mousemove - when the mouse pointer move on the element
-- mouseover - when the mouse pointer move on the element
-- mouseout -when the mouse pointer out from  the element
-- input -when value enter to input field
-- change -when value change on input field
-- blur -when the element is not focused
-- keydown - when a key is down
-- keyup - when a key is up
-- keypress - when we press any key
-- onload - when the browser has finished loading a page
-
-Test the above event types by replacing event type in the above snippet code.
-
-### Getting value from an input element
-
-We usually fill forms and forms accept data. Form fields are created using input HTML element. Let us build a small application which allow us to calculate body mas index of a person using two input fields, one button and one p tag.
-
-### input value
-
-```html
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Document Object Model:30 Days Of JavaScript</title>
-</head>
-
-<body>
-    <h1>Body Mass Index Calculator</h1>
-
-    <input type="text" id="mass" placeholder="Mass in Kilogram" />
-    <input type="text" id="height" placeholder="Height in meters" />
-    <button>Calculate BMI</button>
-
-    <script>
-        const mass = document.querySelector('#mass')
-        const height = document.querySelector('#height')
-        const button = document.querySelector('button')
-
-        let bmi
-        button.addEventListener('click', () => {
-            bmi = mass.value / height.value ** 2
-            alert(`your bmi is ${bmi.toFixed(2)}`)
-            console.log(bmi)
-        })
-    </script>
-</body>
-
-</html>
-```
-
-#### input event and change
-
-In the above example, we managed to get input values from two input fields by clicking button. How about if we want to get value without click the button. We can use the *change* or *input* event type to get data right away from the input field when the field is on focus. Let us see how we will handle that.
-
-```html
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Document Object Model:30 Days Of JavaScript</title>
-</head>
-
-<body>
-    <h1>Data Binding using input or change event</h1>
-
-    <input type="text"  placeholder="say something" />
-    <p></p>
-
-    <script>
-        const input = document.querySelector('input')
-        const p = document.querySelector('p')
-
-        input.addEventListener('input', (e) => {
-            p.textContent = e.target.value
-        })
-    </script>
-</body>
-
-</html>
-```
-
-#### blur event
-
-In contrast to *input* or *change*, the *blur* event occur when the input field is not on focus.
+Let us add some style to our titles. If the element has even index we give it 20px else 30px
 
 ```js
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Document Object Model:30 Days Of JavaScript</title>
-</head>
-
-<body>
-    <h1>Giving feedback using blur event</h1>
-
-    <input type="text" id="mass" placeholder="say something" />
-    <p></p>
-
-    <script>
-        const input = document.querySelector('input')
-        const p = document.querySelector('p')
-
-        input.addEventListener('blur', (e) => {
-            p.textContent = 'Field is required'
-            p.style.color = 'red'
-
-        })
-    </script>
-</body>
-
-</html>
+const titles = document.querySelectorAll('h1')
+titles.forEach((title, i) => {
+  title.fontSize = '24px' // all titles will have 24px font size
+  if (i % 2 === 0) {
+    title.style.fontSize = '20px'
+  } else {
+    title.style.fontSize = '30px'
+  }
+})
 ```
 
-#### keypress, keydow and keyup
-
-We can access all the key numbers of the keyboard using different event listener types. Let us use keypress and get the keyCode of each keyboard keys.
-
-```html
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Document Object Model:30 Days Of JavaScript</title>
-</head>
-
-<body>
-    <h1>Key events: Press any key</h1>
-
-    <script>
-        document.body.addEventListener('keypress', (e) => {
-            alert(e.keyCode)
-        })
-    </script>
-</body>
-
-</html>
-```
+As you have notice, the properties of css when we use it in JavaScript is going to be a camelCase. The  following CSS properties change from background-color to backgroundColor, font-size to fontSize, font-family to fontFamily, margin-bottom to marginBottom.
 
 Now, we have covered most DOM topics, tomorrow I will add some contents and I will do proof reading.
 
-🌕 Now, you are with super power, you have completed the most important part. You learned DOM and now you knew how to build a house, keep building houses. Now do some exercises for your brain and for your muscle.
+🌕 Now, you are full charged with a super power, you have completed the most important part of the challenge and in general JavaScript. You learned DOM and now you have the capability to build and develop applications. Now do some exercises for your brain and for your muscle.
 
 ## Exercises
 
@@ -657,18 +311,13 @@ Now, we have covered most DOM topics, tomorrow I will add some contents and I wi
 4. Loop through the nodeList and get the text content of each paragraph
 5. Set a text content to paragraph the fourth paragraph,**_Fourth Paragraph_**
 6. Set id and class attribute for all the paragraphs using different attribute setting methods
-7. Change stye of each paragraph using JavaScript(eg. color, background, border, font-size, font-family)
-8. Select all paragraphs and loop through each elements and give the first and third paragraph a color of color, and the second and the fourth paragraph a red color
-9. Remove all the paragraph and create them using JavaScript
-10. Set text content, id and class to each paragraph
-
 
 ### Exercise: Level 2
 
-1. Create a div container on HTML document and create 100 numbers dynamically and append to the container div. Put each number in 150px by 150px box. If the number is even the background will be lightgreen else lightblue.
+1. Change stye of each paragraph using JavaScript(eg. color, background, border, font-size, font-family)
+1. Select all paragraphs and loop through each elements and give the first and third paragraph a color of green, and the second and the fourth paragraph a red color
+1. Set text content, id and class to each paragraph
 
-1. Use the rgb color generator function or hexaColor generator to create 10 divs with random background colors
-  
 ### Exercise: Level 3
 
 #### DOM: Mini project 1
