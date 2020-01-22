@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 20](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/20_Day/20_day_writing_clean_code.md) | [Day 22 >>]()
+[<< Day 20](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/20_Day/20_day_writing_clean_code.md) | [Day 22 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/22_Day/22_day_dom_day_2.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_21.png)
 
@@ -400,8 +400,10 @@ As you have notice, the properties of css when we use it in JavaScript is going 
 </html>
 ```
 
-![Project 1](../images/projects/dom_getting_elements_project_1.gif)
+![Project 1](../images/projects/dom_min_project_day_challenge_info_1.1.gif)
+
+![Project 2](../images/projects/dom_min_project_day_challenge_info_1.1.png)
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 20](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/20_Day/20_day_writing_clean_code.md) | [Day 22 >>]()
+[<< Day 20](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/20_Day/20_day_writing_clean_code.md) | [Day 22 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/22_Day/22_day_dom_day_2.md)
