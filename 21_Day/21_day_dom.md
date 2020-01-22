@@ -400,9 +400,9 @@ As you have notice, the properties of css when we use it in JavaScript is going 
 </html>
 ```
 
-![Project 1](../images/projects/dom_min_project_day_challenge_info_1.1.gif)
+![Project 1](../images/projects/dom_min_project_day_challenge_info_day_1.1.gif)
 
-![Project 2](../images/projects/dom_min_project_day_challenge_info_1.1.png)
+![Project 2](../images/projects/dom_min_project_day_challenge_info_day_1.1.png)
 
 🎉 CONGRATULATIONS ! 🎉
 
