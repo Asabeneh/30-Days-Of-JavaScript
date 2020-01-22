@@ -221,9 +221,9 @@ The above snippet of code cleared all the child elements.
 
 Check the requirement of this project from both images(jpg and gif). All the data and CSS has been implemented using JavaScript only. The data is found on starter folder project_3.
 
-![Challenge Information](./../images/projects/dom_min_project_challenge_info_day_2.3.gif)
+![Challenge Information](./../images/projects/dom_mini_project_challenge_info_day_2.3.gif)
 
-![Challenge Information](./../images/projects/dom_min_project_challenge_info_day_2.3.png)
+![Challenge Information](./../images/projects/dom_mini_project_challenge_info_day_2.3.png)
 
 🎉 CONGRATULATIONS ! 🎉
 
