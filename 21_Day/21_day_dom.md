@@ -272,9 +272,9 @@ titles.forEach((title, i) => {
 
 As you have notice, the properties of css when we use it in JavaScript is going to be a camelCase. The  following CSS properties change from background-color to backgroundColor, font-size to fontSize, font-family to fontFamily, margin-bottom to marginBottom.
 
-Now, we have covered most DOM topics, tomorrow I will add some contents and I will do proof reading.
+---
 
-🌕 Now, you are full charged with a super power, you have completed the most important part of the challenge and in general JavaScript. You learned DOM and now you have the capability to build and develop applications. Now do some exercises for your brain and for your muscle.
+🌕 Now,  you are fully charged with a super power, you have completed the most important and challenging part of the challenge and in general JavaScript. You learned DOM and now you have the capability to build and develop applications. Now do some exercises for your brain and for your muscle.
 
 ## Exercises
 
@@ -323,6 +323,12 @@ Now, we have covered most DOM topics, tomorrow I will add some contents and I wi
 #### DOM: Mini project 1
 
 1. Develop the following application, use the following HTML elements to get started with. You will get the same code on starter folder.  Apply all the styles and functionality using JavaScript only.
+
+- The year color is changing every 1 second
+- The date and time background color is changing every on seconds
+- Completed challenge has background green
+- Ongoing challenge has background yellow
+- Coming challenges have background red
 
   ```html
 <!-- index.html -->
