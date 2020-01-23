@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 21](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/21_Day/21_day_dom.md) | [Day 23 >>]()
+[<< Day 21](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/21_Day/21_day_dom.md) | [Day 23 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/23_Day/23_day_dom_day_3.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_22.png)
 - [Day 22](#day-22)
@@ -227,4 +227,4 @@ Check the requirement of this project from both images(jpg and gif). All the dat
 
 🎉 CONGRATULATIONS ! 🎉
 
-  [<< Day 21](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/21_Day/21_day_dom.md) | [Day 23 >>]()
+  [<< Day 21](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/21_Day/21_day_dom.md) | [Day 23 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/23_Day/23_day_dom_day_3.md)
