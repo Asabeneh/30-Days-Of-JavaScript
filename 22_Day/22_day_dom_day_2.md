@@ -115,6 +115,7 @@ To see a created element on the HTML document we should append it to the parent 
             title = document.createElement('h1')
             title.className = 'title'
             title.style.fontSize = '24px'
+            title.textContent = i
             document.body.appendChild(title)
         }
     </script>
