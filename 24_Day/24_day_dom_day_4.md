@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 23](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/23_Day/23_day_dom_day_3.md) | [Day 24 >>]()
+[<< Day 23](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/23_Day/23_day_dom_day_3.md) | [Day 25 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/25_Day/25_day_dom_day_5.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_24.png)
 
@@ -34,4 +34,4 @@
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 23](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/23_Day/23_day_dom_day_3.md) | [Day 24 >>]()
+[<< Day 23](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/23_Day/23_day_dom_day_3.md) | [Day 25 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/25_Day/25_day_dom_day_5.md)
