@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 22](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/22_Day/22_day_dom_day_2.md) | [Day 24 >>]()
+[<< Day 22](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/22_Day/22_day_dom_day_2.md) | [Day 24 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/24_Day/24_day_dom_day_4.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_23.png)
 
@@ -331,4 +331,4 @@ We can access all the key numbers of the keyboard using different event listener
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 22](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/22_Day/22_day_dom_day_2.md) | [Day 24 >>]()
+[<< Day 22](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/22_Day/22_day_dom_day_2.md) | [Day 24 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/24_Day/24_day_dom_day_4.md)
