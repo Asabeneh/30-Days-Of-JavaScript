@@ -32,6 +32,8 @@
 
 ![Bar Graph](./../images/projects/dom_min_project_bar_graph_day_5.1.gif)
 
+![Bar Graph](./../images/projects/dom_min_project_bar_graph_day_5.1.png)
+
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 24](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/24_Day/24_day_dom_day_4.md) | [Day 26 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/26_Day/26_day_dom_day_6.md)
