@@ -59,7 +59,7 @@ We can access already created element or elements using JavaScript. To access or
 <!DOCTYPE html>
   <html>
     <head>
-      <title>Document Object Model/title>
+      <title>Document Object Model</title>
     </head>
     <body>
 
@@ -133,7 +133,7 @@ The _document.querySelector_ method can select an HTML or HTML elements by tag n
 **_querySelector_**: can be used to select HTML element by its tag name, id or class. If the tag name is used it selects only the first element.
 
 ```js
-let firstTitle = document.querySelect('h1') // select the first available h2 element
+let firstTitle = document.querySelector('h1') // select the first available h2 element
 let firstTitle = document.querySelector('#first-title') // select id with first-title
 let firstTitle = document.querySelector('.title') // select the first available h2 element with class title
 ```
@@ -141,7 +141,7 @@ let firstTitle = document.querySelector('.title') // select the first available 
 **_querySelectorAll_**: can be used to select html element by its tag name or class. It return a nodeList which is an array like object which support array methods. We can use **_for loop_** or **_forEach_** to loop through each nodeList elements.
 
 ```js
-const allTitles = document.querySelectAll('h1')
+const allTitles = document.querySelectorAll('h1')
 
 console.log(allTitles.length) // 4
 for (let i = 0; i < allTitles.length; i++) {
@@ -299,7 +299,7 @@ Let us add some style to our titles. If the element has even index we give it gr
 ```js
 const titles = document.querySelectorAll('h1')
 titles.forEach((title, i) => {
-  title.fontSize = '24px' // all titles will have 24px font size
+  title.style.fontSize = '24px' // all titles will have 24px font size
   if (i % 2 === 0) {
     title.style.color = 'green'
   } else {
@@ -315,7 +315,7 @@ Let us add some style to our titles. If the element has even index we give it gr
 ```js
 const titles = document.querySelectorAll('h1')
 titles.forEach((title, i) => {
-  title.fontSize = '24px' // all titles will have 24px font size
+  title.style.fontSize = '24px' // all titles will have 24px font size
   if (i % 2 === 0) {
     title.style.backgroundColor = 'green'
   } else {
@@ -331,7 +331,7 @@ Let us add some style to our titles. If the element has even index we give it 20
 ```js
 const titles = document.querySelectorAll('h1')
 titles.forEach((title, i) => {
-  title.fontSize = '24px' // all titles will have 24px font size
+  title.style.fontSize = '24px' // all titles will have 24px font size
   if (i % 2 === 0) {
     title.style.fontSize = '20px'
   } else {
