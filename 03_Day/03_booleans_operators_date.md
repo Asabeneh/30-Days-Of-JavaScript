@@ -125,10 +125,10 @@ Arithmetic operators are mathematical operators.
 
 - Addition(+): a + b
 - Subtraction(-): a - b
-- Multiplication(_): a _ b
+- Multiplication(*): a * b
 - Division(/): a / b
-- Modulus(%):a % b
-- Exponential(**):a ** b
+- Modulus(%): a % b
+- Exponential(**): a ** b
 
 ```js
 let numOne = 4
@@ -231,15 +231,15 @@ The following symbols are the common logical operators:
 ```js
 //&& ampersand operator example
 
-const check = 4 > 3 && 10 > 5 // true and true -> true
-const check = 4 > 3 && 10 < 5 // true and false -> false
-const check = 4 < 3 && 10 < 5 // false and false -> false
+const check = 4 > 3 && 10 > 5 // true && true -> true
+const check = 4 > 3 && 10 < 5 // true && false -> false
+const check = 4 < 3 && 10 < 5 // false && false -> false
 
 //|| pipe or operator, example
 
-const check = 4 > 3 || 10 > 5 // true and true -> true
-const check = 4 > 3 || 10 < 5 // true and false -> true
-const check = 4 < 3 || 10 < 5 // false and false -> false
+const check = 4 > 3 || 10 > 5 // true  || true -> true
+const check = 4 > 3 || 10 < 5 // true  || false -> true
+const check = 4 < 3 || 10 < 5 // false || false -> false
 
 //! Negation examples
 

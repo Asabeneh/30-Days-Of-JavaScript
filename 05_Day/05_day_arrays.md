@@ -331,7 +331,7 @@ const eight0values = Array(8).fill(0) // it creates eight element values filled 
 console.log(eight0values) // [0, 0, 0, 0, 0, 0, 0, 0]
 
 const four4values = Array(4).fill(4) // it creates 4 element values filled with '4'
-console.log(four4values) // [4, 4, 4, 4, 4, 4, 4, 4]
+console.log(four4values) // [4, 4, 4, 4]
 ```
 
 #### Concatenating array using concat
