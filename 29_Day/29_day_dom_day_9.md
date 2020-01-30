@@ -16,7 +16,7 @@
 
 [<< Day 27](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master27_Day27_day_dom_day_7.md) | [Day 29>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/29_Day/29_day_dom_day_9.md)
 
-![Thirty Days Of JavaScript](../images/banners/day_1_28.png)
+![Thirty Days Of JavaScript](../images/banners/day_1_29.png)
 
 - [Day 29](#day-29)
   - [Exercises](#exercises)
