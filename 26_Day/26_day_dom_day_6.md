@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 24](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/24_Day/24_day_dom_day_4.md) | [Day 27 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/27_Day/27_day_dom_day_7.md)
+[<< Day 25](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/25_Day/25_day_dom_day_5.md) | [Day 27 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/27_Day/27_day_dom_day_7.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_26.png)
 
