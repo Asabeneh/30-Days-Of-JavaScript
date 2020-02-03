@@ -617,7 +617,7 @@ console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
 
 ```
 
-1.  *indexOf()*: Takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1
+13.  *indexOf()*: Takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1
 
 ```js
 string.indexOf(substring)
@@ -635,7 +635,7 @@ console.log(string.indexOf('Script'))     //15
 console.log(string.indexOf('script'))     // -1
 ```
 
-1.  *lastIndexOf()*: Takes a substring and if the substring exists in a string it returns the last position of the substring if it does not exist it returns -1
+14.  *lastIndexOf()*: Takes a substring and if the substring exists in a string it returns the last position of the substring if it does not exist it returns -1
 
 ```js
 //syntax
@@ -918,21 +918,21 @@ console.log(numInt) // 9
     The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.
     ```
 
-1. Using console.log() print out the following quote by Mother Teresa.
+2. Using console.log() print out the following quote by Mother Teresa.
 
     ```sh
     "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
     ```
 
-1. Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
-1. Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
-2. Check if 'on' is found in both python and jargon
-3. _I hope this course is not full of jargon_. Check if _jargon_ is in the sentence.
-4. Generate a random number between 0 and 100 inclusive.
-5. Generate a random number between 50 and 100 inclusive.
-6. Generate a random number between 0 and 255 inclusive.
-7. Access the 'JavaScript' string characters using a random number.
-8. Use console.log() and escape characters to print the following pattern.
+3. Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
+4. Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
+5. Check if 'on' is found in both python and jargon
+6. _I hope this course is not full of jargon_. Check if _jargon_ is in the sentence.
+7. Generate a random number between 0 and 100 inclusive.
+8. Generate a random number between 50 and 100 inclusive.
+9. Generate a random number between 0 and 255 inclusive.
+10. Access the 'JavaScript' string characters using a random number.
+11. Use console.log() and escape characters to print the following pattern.
 
     ```js
     1 1 1 1 1
@@ -942,7 +942,7 @@ console.log(numInt) // 9
     5 1 5 25 125
     ```
 
-9.  Use __substr__ to slice out the phrase __because because because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
+12.  Use __substr__ to slice out the phrase __because because because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 
 ### Exercises: Level 3
 
