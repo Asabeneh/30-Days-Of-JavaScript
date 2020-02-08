@@ -610,7 +610,7 @@ string.charCodeAt(index)
 
 ```js
 let string = '30 Days Of JavaScript'
-console.log(string.charCodeAt(3))        // D ASCII number is 51
+console.log(string.charCodeAt(3))        // D ASCII number is 68
 
 let lastIndex = string.length - 1
 console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
