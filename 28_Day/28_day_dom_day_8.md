@@ -34,4 +34,4 @@
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 27](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master27_Day27_day_dom_day_7.md) | [Day 29>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/29_Day/29_day_dom_day_9.md)
+[<< Day 27](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/27_Day/27_day_dom_day_7.md) | [Day 29>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/29_Day/29_day_dom_day_9.md)
