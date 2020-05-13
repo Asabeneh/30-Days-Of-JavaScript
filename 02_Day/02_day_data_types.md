@@ -610,7 +610,7 @@ string.charCodeAt(index)
 
 ```js
 let string = '30 Days Of JavaScript'
-console.log(string.charCodeAt(3))        // D ASCII number is 51
+console.log(string.charCodeAt(3))        // D ASCII number is 68
 
 let lastIndex = string.length - 1
 console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
@@ -685,7 +685,7 @@ console.log(country.startsWith('fin'))   // false
 console.log(country.startsWith('land'))  //  false
 ```
 
-17. *endsWith*: it takes a substring as an argument and it checks if the string starts with that specified substring. It returns a boolean(true or false).
+17. *endsWith*: it takes a substring as an argument and it checks if the string ends with that specified substring. It returns a boolean(true or false).
 
 ```js
 string.endsWith(substring)
