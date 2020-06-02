@@ -11,13 +11,20 @@
   <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
   <small> January, 2020</small>
   </sub>
+  <div>
+
+  🇬🇧 [English](./readMe.md)
+  🇪🇸 [Spanish](./Spanish/readme.md)
+  🇷🇺 [Russian](./RU/README.md)
+
+  </div>
 </div>
 
 [Day 2 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_data_types.md)
 
 ![Thirty Days Of JavaScript](./images/day_1_1.png)
 
-- [📔Day 1](#%f0%9f%93%94day-1)
+- [📔Day 1](#day-1)
   - [Introduction](#introduction)
   - [Requirements](#requirements)
   - [Setup](#setup)
@@ -39,7 +46,7 @@
     - [Internal Script](#internal-script)
     - [External Script](#external-script)
     - [Multiple External Scripts](#multiple-external-scripts)
-  - [Introduction to Data Types](#introduction-to-data-types)
+  - [Introduction to Data types](#introduction-to-data-types)
     - [Number](#number)
     - [String](#string)
     - [Booleans](#booleans)
@@ -48,7 +55,7 @@
   - [Checking Data Types](#checking-data-types)
   - [Comments Again](#comments-again)
   - [Variables](#variables)
-- [💻 Day 1: Exercises](#%f0%9f%92%bb-day-1-exercises)
+- [💻 Day 1: Exercises](#-day-1-exercises)
 
 # 📔Day 1
 

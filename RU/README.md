@@ -12,6 +12,14 @@
 <small> Январь, 2020</small>
 </sub>
 
+  <div>
+
+  🇬🇧 [English](../readMe.md)
+  🇪🇸 [Spanish](../Spanish/readme.md)
+  🇷🇺 [Russian](./README.md)
+
+  </div>
+
 </div>
 
 [День 2 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/RU/02_Day/02_day_data_types.md)
