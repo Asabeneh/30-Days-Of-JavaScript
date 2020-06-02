@@ -49,4 +49,4 @@
 
 ~![Congratulations](./../images/projects/congratulations.gif)
 
-[<< Day 29](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master29_Day29_day_dom_day_9.md) | [Day 30>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/30_Day/30_day_dom_day_10.md)
+[<< Day 29](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/29_Day/29_day_dom_day_9.md) | [Day 30>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/30_Day/30_day_dom_day_10.md)
