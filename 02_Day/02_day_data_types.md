@@ -23,19 +23,19 @@
     - [Primitive Data Types](#primitive-data-types)
     - [Non-Primitive Data Types](#non-primitive-data-types)
   - [Numbers](#numbers)
-    - [Declaring number data types](#declaring-number-data-types)
+    - [Declaring Number Data Types](#declaring-number-data-types)
     - [Math Object](#math-object)
-      - [Random number generator](#random-number-generator)
+      - [Random Number Generator](#random-number-generator)
   - [Strings](#strings)
     - [String Concatenation](#string-concatenation)
-      - [Concatenating using addition operator](#concatenating-using-addition-operator)
+      - [Concatenating Using Dddition Operator](#concatenating-using-addition-operator)
       - [Long Literal Strings](#long-literal-strings)
-      - [Escape Sequences in string](#escape-sequences-in-string)
-      - [Template Literals(Template Strings)](#template-literalstemplate-strings)
+      - [Escape Sequences in Strings](#escape-sequences-in-strings)
+      - [Template Literals (Template Strings)](#template-literals-template-strings)
     - [String Methods](#string-methods)
-  - [Checking Data types and Casting](#checking-data-types-and-casting)
-    - [Checking data types](#checking-data-types)
-    - [Changing data type(Casting)](#changing-data-typecasting)
+  - [Checking Data Types and Casting](#checking-data-types-and-casting)
+    - [Checking Data Types](#checking-data-types)
+    - [Changing Data Type (Casting)](#changing-data-type-casting)
       - [String to Int](#string-to-int)
       - [String to Float](#string-to-float)
       - [Float to Int](#float-to-int)
@@ -46,19 +46,19 @@
 
 # 📔 Day 2
 
-## Data types
+## Data Types
 
-In the previous section, we mentioned a little bit about data types. Data or values have data types. Data types describe the characteristics of data. Data types can be divided into two
+In the previous section, we mentioned a little bit about data types. Data or values have data types. Data types describe the characteristics of data. Data types can be divided into two:
 
 1. Primitive data types
 2. Non-primitive data types(Object References)
 
 ### Primitive Data Types
 
-Primitive data types in JavaScript includes:
+Primitive data types in JavaScript include:
 
  1. Numbers - Integers, floats
- 2. Strings - Any data under single or double quote
+ 2. Strings - Any data under single quote, double quote or backtick quote
  3. Booleans - true or false value
  4. Null - empty value or no value
  5. Undefined - a declared variable without a value
@@ -69,21 +69,22 @@ Non-primitive data types in JavaScript includes:
 2. Functions
 3. Arrays
 
-Now, let us see what exactly mean primitive and non-primitive data types.
-*Primitive* data types are immutable(non-modifiable) data types. Once a primitive data type is created we can not modify it.
+Now, let us see what exactly primitive and non-primitive data types mean.
+*Primitive* data types are immutable(non-modifiable) data types. Once a primitive data type is created we cannot modify it.
+
 **Example:**
 
 ```js
 let word = 'JavaScript'
 ```
 
-If we try to modify the string stored in variable *word*, JavaScript will raise an error. Any data type under a single quote, double-quote, or backtick is a string data type.
+If we try to modify the string stored in variable *word*, JavaScript should raise an error. Any data type under a single quote, double quote, or backtick quote is a string data type.
 
 ```js
 word[0] = 'Y'
 ```
 
-This expression does not change the string stored in the variable *word*. So, we can say that strings are not modifiable or immutable.
+This expression does not change the string stored in the variable *word*. So, we can say that strings are not modifiable or in other words immutable.
 Primitive data types are compared by its values. Let us compare different data values. See the example below:
 
 ```js
@@ -115,7 +116,7 @@ nums[0] = 10
 console.log(nums)  // [10, 2, 3]
 ```
 
-As you can see, an array in which a non-primitive data type is mutable. Non-primitive data types can not be compared by value. Even if two non-primitive data types have the same properties and values, they are not strictly equal.
+As you can see, an array, which is a non-primitive data type is mutable. Non-primitive data types cannot be compared by value. Even if two non-primitive data types have the same properties and values, they are not strictly equal.
 
 ```js
 let nums = [1, 2, 3]
@@ -138,8 +139,8 @@ country:'Finland'
 console.log(userOne == userTwo) // false
 ```
 
-Rule of thumb, we do not compare non-primitive data types. Do not compare array, function, or object.
-Non-primitive values are referred to as reference types because they are being compared by reference instead of value. Two objects are only strictly equal if they refer to the same underlying object.
+Rule of thumb, we do not compare non-primitive data types. Do not compare arrays, functions, or objects.
+Non-primitive values are referred to as reference types, because they are being compared by reference instead of value. Two objects are only strictly equal if they refer to the same underlying object.
 
 ```js
 let nums = [1, 2, 3]
@@ -163,9 +164,9 @@ If you have a hard time understanding the difference between primitive data type
 ## Numbers
 
 Numbers are integers and decimal values which can do all the arithmetic operations.
-Lets' see some examples of Numbers.
+Let's see some examples of Numbers.
 
-### Declaring number data types
+### Declaring Number Data Types
 
 ```js
 let age = 35
@@ -187,22 +188,22 @@ In JavaScript the Math Object provides a lots of methods to work with numbers.
 ```js
 const PI = Math.PI
 
-console.log(PI)                           // 3.141592653589793
+console.log(PI)                            // 3.141592653589793
 
 // Rounding to the closest number
 // if above .5 up if less 0.5 down rounding
 
-console.log(Math.round(PI))               // 3 to round values to the nearest number
+console.log(Math.round(PI))                // 3 to round values to the nearest number
 
-console.log(Math.round(9.81))             // 10
+console.log(Math.round(9.81))              // 10
 
-console.log(Math.floor(PI))               // 3 rounding down
+console.log(Math.floor(PI))                // 3 rounding down
 
-console.log(Math.ceil(PI))                // 4 rounding up
+console.log(Math.ceil(PI))                 // 4 rounding up
 
-console.log(Math.min(-5, 3, 20, 4,5, 10)) // -5, returns the minimum value
+console.log(Math.min(-5, 3, 20, 4, 5, 10)) // -5, returns the minimum value
 
-console.log(Math.max(-5, 3, 20, 4,5, 10)) // 20, returns the maximum value
+console.log(Math.max(-5, 3, 20, 4, 5, 10)) // 20, returns the maximum value
 
 const randNum = Math.random() // creates random number between 0 to 0.999999
 console.log(randNum)
@@ -213,22 +214,22 @@ const num = Math.floor(Math.random () * 11) // creates random number between 0 a
 console.log(num)
 
 //Absolute value
-console.log(Math.abs(-10))      //10
+console.log(Math.abs(-10))      // 10
 
 //Square root
 console.log(Math.sqrt(100))     // 10
 
-console.log(Math.sqrt(2))      //1.4142135623730951
+console.log(Math.sqrt(2))       // 1.4142135623730951
 
 // Power
-console.log(Math.pow(3, 2)) // 9
+console.log(Math.pow(3, 2))     // 9
 
-console.log(Math.E) // 2.718
+console.log(Math.E)             // 2.718
 
 // Logarithm
-//Returns the natural logarithm of base E of x, Math.log(x)
-console.log(Math.log(2))    // 0.6931471805599453
-console.log(Math.log(10))   // 2.302585092994046
+//Returns the natural logarithm with base E of x, Math.log(x)
+console.log(Math.log(2))        // 0.6931471805599453
+console.log(Math.log(10))       // 2.302585092994046
 
 // Trigonometry
 Math.sin(0)
@@ -238,7 +239,7 @@ Math.cos(0)
 Math.cos(60)
 ```
 
-#### Random number generator
+#### Random Number Generator
 
 The JavaScript Math Object has a random() method number generator which generates number from 0 to 0.999999999...
 
@@ -246,7 +247,7 @@ The JavaScript Math Object has a random() method number generator which generate
 let randomNum = Math.random() // generates 0 to 0.999
 ```
 
-Now, let us see how we can use random() method to generate a random number between 0 and 10 inclusive.
+Now, let us see how we can use random() method to generate a random number between 0 and 10:
 
 ```js
 let randomNum = Math.random()         // generates 0 to 0.999
@@ -260,8 +261,8 @@ console.log(randomNumRoundToFloor)    // this gives between 0 and 10
 
 ## Strings
 
-Strings are texts, which are under **_single_** or **_double_** quote. To declare a string, we need a variable name, assignment operator, a value under a single quote, double-quote, or backtick.
-Lets' see some examples of string:
+Strings are texts, which are under **_single_** or **_double_** quote. To declare a string, we need a variable name, assignment operator, a value under a single quote, double quote, or backtick quote.
+Let's see some examples of strings:
 
 ```js
 let space = ' '           // an empty space string
@@ -275,18 +276,9 @@ let job = 'teacher'
 
 ### String Concatenation
 
-Connect two or more strings together is called concatenation.
+Connecting two or more strings together is called concatenation.
 
-```js
-// Declaring different variables of different data types
-let space = ' '
-let firstName = 'Asabeneh'
-let lastName = 'Yetayeh'
-let country = 'Finland'
-let city = 'Helsinki'
-let language = 'JavaScript'
-let job = 'teacher'
-```
+Using the strings declared in the previous String section:
 
 ```js
 let fullName = firstName + space + lastName; // concatenation, merging two string together.
@@ -297,11 +289,11 @@ console.log(fullName);
 Asabeneh Yetayeh
 ```
 
-We can concatenate string in different ways.
+We can concatenate strings in different ways.
 
-#### Concatenating using addition operator
+#### Concatenating Using Addition Operator
 
-Concatenating using the addition operator is an old way. This way of concatenating is tedious and error-prone. It is good to know how to concatenate this way, but I strongly suggest to use the second way.
+Concatenating using the addition operator is an old way. This way of concatenating is tedious and error-prone. It is good to know how to concatenate this way, but I strongly suggest to use the ES6 template strings (explained later on).
 
 ```js
 // Declaring different variables of different data types
@@ -313,9 +305,9 @@ let city = 'Helsinki'
 let language = 'JavaScript'
 let job = 'teacher'
 let age = 250
-let fullName = firstName + space + lastName
+let fullName = firstName.concat(space).concat(lastName)                    // concat string method
 
-let personInfoOne = fullName + '. I am ' + age + '. I live in ' + country; // ES5
+let personInfoOne = fullName + '. I am ' + age + '. I live in ' + country; // ES5 string addition
 
 console.log(personInfoOne)
 ```
@@ -341,32 +333,48 @@ I hope you are enjoying too."
 console.log(paragraph)
 ```
 
-#### Escape Sequences in string
+#### Escape Sequences in Strings
 
-In JavaScript and other programming language \ followed by some characters is  an escape sequence. Let's see the most common escape characters:
+In JavaScript and other programming languages \ followed by some characters is an escape sequence. Let's see the most common escape characters:
 
 - \n: new line
-- \t: Tab means(8 spaces)
+- \t: Tab, means 8 spaces
 - \\\\: Back slash
 - \\': Single quote (')
 - \\":Double quote (")
   
 ```js
-console.log('I hope every one is enjoying the 30 Days Of JavaScript challenge.\nDo you ?') // line break
+console.log('I hope everyone is enjoying the 30 Days Of JavaScript challenge.\nDo you ?') // line break
 console.log('Days\tTopics\tExercises')
 console.log('Day 1\t3\t5')
 console.log('Day 2\t3\t5')
 console.log('Day 3\t3\t5')
 console.log('Day 4\t3\t5')
-console.log('This is a back slash  symbol (\\)') // To write a back slash
+console.log('This is a backslash  symbol (\\)') // To write a backslash
 console.log('In every programming language it starts with \"Hello, World!\"')
 console.log("In every programming language it starts with \'Hello, World!\'")
-console.log('The saying \'Seeing is Believing\' is\'t correct in 2020')
+console.log('The saying \'Seeing is Believing\' isn\'t correct in 2020')
 ```
 
-#### Template Literals(Template Strings)
+Output in console:
 
-To create a template string, we use two backticks. We can inject data as expression inside a template string. To inject data, we enclose the expression with a curly bracket({}) followed by a $ sign. See the syntax below.
+```sh
+I hope everyone is enjoying the 30 Days Of JavaScript challenge.
+Do you ?
+Days  Topics  Exercises
+Day 1 3 5
+Day 2 3 5
+Day 3 3 5
+Day 4 3 5
+This is a backslash  symbol (\)
+In every programming language it starts with "Hello, World!"
+In every programming language it starts with 'Hello, World!'
+The saying 'Seeing is Believing' isn't correct in 2020
+```
+
+#### Template Literals (Template Strings)
+
+To create a template strings, we use two backticks. We can inject data as expressions inside a template string. To inject data, we enclose the expression with a curly bracket({}) preceded by a $ sign. See the syntax below.
 
 ```js
 //Syntax
@@ -406,7 +414,7 @@ I am Asabeneh Yetayeh. I am 250. I live in Finland.
 I am Asabeneh Yetayeh. I live in Helsinki, Finland. I am a teacher. I teach JavaScript.
 ```
 
-Using a string template or string interpolation method, we can add expression, which could be a value or some operations(comparison, arithmetic operations, ternary operation).
+Using a string template or string interpolation method, we can add expressions, which could be a value, or some operations (comparison, arithmetic operations, ternary operation).
 
 ```js
 let a = 2
@@ -420,19 +428,20 @@ console.log(`${a} is greater than ${b}: ${a > b}`)
 
 ### String Methods
 
-Everything in JavaScript is an object. A string is a primitive data type that means we can not modify once it is created. The string object has many string methods. There are different string methods that can help us to work with strings.
+Everything in JavaScript is an object. A string is a primitive data type that means we can not modify it once it is created. The string object has many string methods. There are different string methods that can help us to work with strings.
 
 1. *length*: The string *length* method returns the number of characters in a string included empty space.
-  **Example:**
 
-   ```js
-   let js = 'JavaScript'
-   console.log(js.length)         // 10
-   let firstName = 'Asabeneh'
-   console.log(firstName.length)  // 8
-   ```
+**Example:**
 
-2. *Accessing characters in a string*: We can access each character in a string using its index. In programming, counting starts from 0. The first index of the string is zero, and the last index is one minus the length of the string.
+```js
+let js = 'JavaScript'
+console.log(js.length)         // 10
+let firstName = 'Asabeneh'
+console.log(firstName.length)  // 8
+```
+
+2. *Accessing characters in a string*: We can access each character in a string using its index. In programming, counting starts from 0. The first index of the string is zero, and the last index is the length of the string minus one.
 
   ![Accessing sting by index](../images/string_indexes.png)
   
@@ -456,7 +465,7 @@ console.log(lastIndex)  // 9
 console.log(string[lastIndex])    // t
 ```
 
-1. *toUpperCase()*: this method changes the string to uppercase letters.
+3. *toUpperCase()*: this method changes the string to uppercase letters.
 
 ```js
 let string = 'JavaScript'
@@ -498,7 +507,7 @@ let country = 'Finland'
 console.log(country.substr(3, 4))   // land
 ```
 
-6. *substring()*: It takes two arguments, the starting index and the stopping index but it doesn't include the stopping index.
+6. *substring()*: It takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping index.
 
 ```js
 let string = 'JavaScript'
@@ -544,7 +553,7 @@ console.log(string.trim(' '))
 let firstName = ' Asabeneh '
 
 console.log(firstName)
-console.log(firstName.trim())
+console.log(firstName.trim())  // still removes spaces at the beginning and the end of the string
 ```
 
 ```sh
@@ -554,13 +563,13 @@ console.log(firstName.trim())
 Asabeneh
 ```
 
-9. *includes()*: It takes a substring argument and it check if substring argument exists in the string. *includes()* returns a boolean. It checks if a substring exist in a string and it returns true if it exists and false if it doesn't exist.
+9. *includes()*: It takes a substring argument and it checks if substring argument exists in the string. *includes()* returns a boolean. If a substring exist in a string, it returns true, otherwise it returns false.
 
 ```js
 let string = '30 Days Of JavaScript'
 
 console.log(string.includes('Days'))     // true
-console.log(string.includes('days'))     // false
+console.log(string.includes('days'))     // false - it is case sensitive!
 console.log(string.includes('Script'))   // true
 console.log(string.includes('script'))   // false
 console.log(string.includes('java'))     // false
@@ -574,7 +583,7 @@ console.log(country.includes('land'))    // true
 console.log(country.includes('Land'))    // false
 ```
 
-10. *replace()*: takes to parameter the old substring and new substring.
+10. *replace()*: takes as a parameter the old substring and a new substring.
 
 ```js
 string.replace(oldsubstring, newsubstring)
@@ -602,7 +611,7 @@ let lastIndex = string.length - 1
 console.log(string.charAt(lastIndex)) // t
 ```
 
-12. *charCodeAt()*: Takes index and it returns char code(ASCII number) of the value at that index
+12. *charCodeAt()*: Takes index and it returns char code (ASCII number) of the value at that index
 
 ```js
 string.charCodeAt(index)
@@ -617,7 +626,9 @@ console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
 
 ```
 
+
 13.  *indexOf()*: Takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1
+
 
 ```js
 string.indexOf(substring)
@@ -637,6 +648,7 @@ console.log(string.indexOf('script'))     // -1
 
 14.  *lastIndexOf()*: Takes a substring and if the substring exists in a string it returns the last position of the substring if it does not exist it returns -1
 
+
 ```js
 //syntax
 string.lastIndexOf(substring)
@@ -650,7 +662,7 @@ console.log(string.lastIndexOf('you'))        // 63
 console.log(string.lastIndexOf('JavaScript')) // 38
 ```
 
-15. *concat()*: it takes many substrings and creates concatenation.
+15. *concat()*: it takes many substrings and joins them.
 
 ```js
 string.concat(substring, substring, substring)
@@ -745,10 +757,10 @@ let pattern = /love/gi
 console.log(string.match(pattern))   // ["love", "love", "love"]
 ```
 
-Let us extract numbers from text using regular expression. This is not regular expression section, no panic, we will cover regular expression in other section.
+Let us extract numbers from text using a regular expression. This is not the regular expression section, do not panic! We will cover regular expressions later on.
 
 ```js
-let txt = 'In 2019, I run 30 Days of Python. Now, in 2020 I super exited to start this challenge'
+let txt = 'In 2019, I ran 30 Days of Python. Now, in 2020 I am super exited to start this challenge'
 let regEx = /\d+/
 
 // d with escape character means d not a normal d instead acts a digit
@@ -759,7 +771,7 @@ console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", 
 console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
 
-20.   *repeat()*: it takes a number argument and it returned the repeated version of the string.
+20.   *repeat()*: it takes a number as argument and it returns the repeated version of the string.
 
 ```js
 string.repeat(n)
@@ -770,12 +782,13 @@ let string = 'love'
 console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
 ```
 
-## Checking Data types and Casting
+## Checking Data Types and Casting
 
-### Checking data types
+### Checking Data Types
 
-- Check Data types: To check the data type of a certain data type we use the _typeof_ and we also change one data type to another.
-  **Example:**
+To check the data type of a certain variable we use the _typeof_ method.
+
+**Example:**
 
 ```js
 // Different javascript data types
@@ -800,14 +813,14 @@ console.log(typeof undefined)   // undefined
 console.log(typeof null)        // object
 ```
 
-### Changing data type(Casting)
+### Changing Data Type (Casting)
 
 - Casting: Converting one data type to another data type. We use _parseInt()_, _parseFloat()_, _Number()_, _+ sign_, _str()_
   When we do arithmetic operations string numbers should be first converted to integer or float if not it returns an error.
 
 #### String to Int
 
-We can convert string number to a number. Any number inside a quote is a string number.  An example of a string number: '10', '5', etc.
+We can convert string number to a number. Any number inside a quote is a string number. An example of a string number: '10', '5', etc.
 We can convert string to number using the following methods:
 
 - parseInt()
@@ -836,7 +849,7 @@ console.log(numInt) // 10
 
 #### String to Float
 
-We can convert string float number to a float number. Any  float number inside a quote is a string float number.  An example of a string float number: '9.81', '3.14', '1.44', etc.
+We can convert string float number to a float number. Any float number inside a quote is a string float number. An example of a string float number: '9.81', '3.14', '1.44', etc.
 We can convert string float to number using the following methods:
 
 - parseFloat()
@@ -878,47 +891,48 @@ let numInt = parseInt(num)
 console.log(numInt) // 9
 ```
 
-🌕  You are awesome. You have just completed day 2 challenges and you are two steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
+🌕  You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.  
 
 ## 💻 Day 2: Exercises
 
 ### Exercise: Level 1
 
-1. Declare a variable name challenge and assign it to an initial value **'30 Days Of JavaScript'**.
+1. Declare a variable named challenge and assign it to an initial value **'30 Days Of JavaScript'**.
 2. Print the string on the browser console using __console.log()__
 3. Print the __length__ of the string on the browser console using _console.log()_
-4. Change all the string to capital letters using __toUpperCase()__ method
-5. Change all the string to lowercase letters using __toLowerCase()__ method
-6. Cut(slice) out the first word of the string using __substr()__ or __substring()__ method
+4. Change all the string characters to capital letters using __toUpperCase()__ method
+5. Change all the string characters to lowercase letters using __toLowerCase()__ method
+6. Cut (slice) out the first word of the string using __substr()__ or __substring()__ method
 7. Slice out the phrase *Days Of JavaScript* from *30 Days Of JavaScript*.
 8. Check if the string contains a word __Script__ using __includes()__ method
-9. Split the __string__ into __array__ using __split()__ method
+9. Split the __string__ into an __array__ using __split()__ method
 10. Split the string 30 Days Of JavaScript at the space using __split()__ method
 11. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' __split__ the string at the comma and change it to an array.
 12. Change 30 Days Of JavaScript to 30 Days Of Python using __replace()__ method.
-13. What is character at index 15 in '30 Days Of JavaScript' string use __charAt()__ method.
+13. What is character at index 15 in '30 Days Of JavaScript' string? Use __charAt()__ method.
 14. What is the character code of J in '30 Days Of JavaScript' string using __charCodeAt()__
-15. Use __indexOf__ to determine the position of the first occurrence of a in 30 Days Of JavaScript
-16. Use __lastIndexOf__ to determine the position of the last occurrence of a in 30 Days Of JavaScript.
+15. Use __indexOf__ to determine the position of the first occurrence of __a__ in 30 Days Of JavaScript
+16. Use __lastIndexOf__ to determine the position of the last occurrence of __a__ in 30 Days Of JavaScript.
 17. Use __indexOf__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 18. Use __lastIndexOf__ to find the position of the last occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 19. Use __search__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
-20. Use __trim()__ to remove if there is trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
-21. Use __startsWith()__ method with the string *30 Days Of JavaScript* make the result true
-22. Use __endsWith()__ method with the string *30 Days Of JavaScript* make the result true
-23. Use __match()__ method to find all the a’s in 30 Days Of JavaScript
+20. Use __trim()__ to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
+21. Use __startsWith()__ method with the string *30 Days Of JavaScript* and make the result true
+22. Use __endsWith()__ method with the string *30 Days Of JavaScript* and make the result true
+23. Use __match()__ method to find all the __a__’s in 30 Days Of JavaScript
 24. Use __concat()__ and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
 25. Use __repeat()__ method to print 30 Days Of JavaScript 2 times
 
 ### Exercise: Level 2
 
-1. Using console.log() print out the following statement.
+1. Using console.log() print out the following statement:
 
     ```sh
     The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.
     ```
 
-2. Using console.log() print out the following quote by Mother Teresa.
+
+2. Using console.log() print out the following quote by Mother Teresa:
 
     ```sh
     "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
@@ -928,9 +942,9 @@ console.log(numInt) // 9
 4. Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
 5. Check if 'on' is found in both python and jargon
 6. _I hope this course is not full of jargon_. Check if _jargon_ is in the sentence.
-7. Generate a random number between 0 and 100 inclusive.
-8. Generate a random number between 50 and 100 inclusive.
-9. Generate a random number between 0 and 255 inclusive.
+7. Generate a random number between 0 and 100 inclusively.
+8. Generate a random number between 50 and 100 inclusively.
+9. Generate a random number between 0 and 255 inclusively.
 10. Access the 'JavaScript' string characters using a random number.
 11. Use console.log() and escape characters to print the following pattern.
 
@@ -941,20 +955,19 @@ console.log(numInt) // 9
     4 1 4 16 64
     5 1 5 25 125
     ```
-
-12.  Use __substr__ to slice out the phrase __because because because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
+12.  Use __substr__ to slice out the phrase __because because because__ from the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 
 ### Exercises: Level 3
 
-1. 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word love in this sentence.
-2. Use __match()__ to count the number all because's in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
-3. Clean the following text and find the most frequent word (hint, use replace and regular express).
+1. 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word __love__ in this sentence.
+2. Use __match()__ to count the number of all __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
+3. Clean the following text and find the most frequent word (hint, use replace and regular expressions).
 
     ```js
         const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
     ```
 
-4. Calculate the total annual income of the person by extract the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+4. Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
 
 🎉 CONGRATULATIONS ! 🎉
 
