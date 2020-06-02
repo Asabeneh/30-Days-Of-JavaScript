@@ -46,7 +46,7 @@
     - [Undefined](#undefined)
     - [Null](#null)
   - [Checking Data Types](#checking-data-types)
-  - [Comments](#comments)
+  - [Comments Again](#comments-again)
   - [Variables](#variables)
 - [💻 Day 1: Exercises](#%f0%9f%92%bb-day-1-exercises)
 
@@ -264,7 +264,7 @@ The following sections show different ways of adding JavaScript code to your web
 
 ### Inline Script
 
-Create a folder on your desktop and  call it 30DaysOfJS or in any location and create an **_index.html_** file in the project folder. Then paste the following code and open it in a browser, either in [Chrome](https://www.google.com/chrome/).
+Create a folder on your desktop and  call it 30DaysOfJS or in any location and create an **_index.html_** file in the project folder. Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
 
 ```html
 <!DOCTYPE html>
@@ -280,7 +280,7 @@ Create a folder on your desktop and  call it 30DaysOfJS or in any location and c
 
 Now, you wrote your first inline script. We can create a pop up alert message using the built-in *alert()* function.
 
-### Internal script
+### Internal Script
 
 The internal script can be written in the _head_ or the _body_, but it is preferred to put it on the body of the HTML document.
 First, let us write on the head part of the page.
@@ -299,7 +299,7 @@ First, let us write on the head part of the page.
   </html>
 ```
 
-This is how we write the internal script most of the time. Writing the JavaScript code in the body section is the most preferred place. Open the browser console to see the output from the console.log()
+This is how we write an internal script most of the time. Writing the JavaScript code in the body section is the most preferred option. Open the browser console to see the output from the console.log()
 
 ```html
 <!DOCTYPE html>
@@ -320,16 +320,16 @@ Open the browser console to see the output from the console.log()
 
 ![js code from vscode](./images/js_code_vscode.png)
 
-### External script
+### External Script
 
 Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension. Any JavaScript file ends with .js. Create a file introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
+First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files. Create a file introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
 
 ```js
 console.log('Welcome to 30DaysOfJavaScript')
 ```
 
-External scripts in the head
+External scripts in the _head_:
 
 ```html
 <!DOCTYPE html>
@@ -343,7 +343,7 @@ External scripts in the head
     </html>
 ```
 
-External scripts in the body
+External scripts in the _body_:
 
 ```html
 <!DOCTYPE html>
@@ -361,7 +361,7 @@ External scripts in the body
 
 Open the browser console to see the output from the console.log()
 
-### Multiple External scripts
+### Multiple External Scripts
 
 We can link multiple external JavaScript files to a web page.
 Create a helloworld.js file inside the 30DaysOfJS folder and write the following code.
@@ -384,7 +384,7 @@ console.log('Hello, World!')
   </html>
 ```
 
-Your main.js file should be below all other scripts. Watch out your exercise needs to understand this line.
+*Your main.js file should be below all other scripts*. It is very important to remember this.
 
 ![Multiple Script](./images/multiple_script.png)
 
@@ -394,7 +394,7 @@ In JavaScript and also other programming languages, there are different kinds of
 
 ### Number
 
-- Integer: Integer(negative, zero and positive) numbers
+- Integer: Integer (negative, zero and positive) numbers
         Example:
         ... -3, -2, -1, 0, 1, 2, 3 ...
 - Float: Decimal number
@@ -403,7 +403,7 @@ In JavaScript and also other programming languages, there are different kinds of
 
 ### String
 
-A collection of one or more characters under a single quote, double-quote, or backtick.
+A collection of one or more characters under a single quote, double quote, or backtick quote.
 **Example:**
 
 ```js
@@ -417,7 +417,7 @@ A collection of one or more characters under a single quote, double-quote, or ba
 
 ### Booleans
 
-A boolean value is either true or false. Any comparisons return a boolean value, which is either true or false.
+A boolean value is either True or False. Any comparisons return a boolean value, which is either true or false.
 
 A boolean data type is either a True or False value.
 
@@ -445,9 +445,9 @@ Null in JavaScript means an empty value.
 let emptyValue = null
 ```
 
-## Checking Data types
+## Checking Data Types
 
-To check the data type of a certain data type, we use the **typeof** operator. See the following example.
+To check the data type of a certain variable, we use the **typeof** operator. See the following example.
 
 ```js
 console.log(typeof 'Asabeneh') // string
@@ -457,9 +457,9 @@ console.log(typeof null)       // object type
 console.log(typeof undefined)  // undefined
 ```
 
-## Comments
+## Comments Again
 
-Commenting in JavaScript is similar to other programming languages. Comments are important in making your make code more readable.
+Reminding, that commenting in JavaScript is similar to other programming languages. Comments are important in making your make code more readable.
 There are two ways of commenting:
 
 - _Single line commenting_
@@ -519,7 +519,7 @@ Valid variables in JavaScript:
 ```
 
 camelCase or the first way of declaring is conventional in JavaScript. In this material, we will use camelCase variables.
-Invalid variable:
+Invalid variables:
 
 ```sh
   first-name
@@ -582,7 +582,7 @@ When you run the files on 01-Day folder you should get this:
 
 ![Day one](./images/day_1.png)
 
-🌕  You are amazing. You have just completed day 1 challenge and you are in your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕  You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and for your muscle.
 
 # 💻 Day 1: Exercises
 
