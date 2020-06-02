@@ -11,13 +11,20 @@
   <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
   <small> January, 2020</small>
   </sub>
+  <div>
+
+  🇬🇧 [English](./readMe.md)
+  🇪🇸 [Spanish](./Spanish/readme.md)
+  🇷🇺 [Russian](./RU/README.md)
+
+  </div>
 </div>
 
 [Day 2 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_data_types.md)
 
 ![Thirty Days Of JavaScript](./images/day_1_1.png)
 
-- [📔Day 1](#%f0%9f%93%94day-1)
+- [📔Day 1](#day-1)
   - [Introduction](#introduction)
   - [Requirements](#requirements)
   - [Setup](#setup)
@@ -25,38 +32,38 @@
     - [Browser](#browser)
       - [Installing Google Chrome](#installing-google-chrome)
       - [Opening Google Chrome Console](#opening-google-chrome-console)
-      - [Writing Code on browser Console](#writing-code-on-browser-console)
+      - [Writing Code on Browser Console](#writing-code-on-browser-console)
         - [Console.log](#consolelog)
-        - [Console.log with multiple arguments](#consolelog-with-multiple-arguments)
+        - [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
         - [Comment](#comment)
         - [Syntax](#syntax)
       - [Arithmetics](#arithmetics)
     - [Code Editor](#code-editor)
       - [Installing Visual Studio Code](#installing-visual-studio-code)
-      - [How to use visual studio code](#how-to-use-visual-studio-code)
-  - [Adding JavaScript to a web page](#adding-javascript-to-a-web-page)
+      - [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
+  - [Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
     - [Inline Script](#inline-script)
-    - [Internal script](#internal-script)
-    - [External script](#external-script)
-    - [Multiple External scripts](#multiple-external-scripts)
+    - [Internal Script](#internal-script)
+    - [External Script](#external-script)
+    - [Multiple External Scripts](#multiple-external-scripts)
   - [Introduction to Data types](#introduction-to-data-types)
     - [Number](#number)
     - [String](#string)
     - [Booleans](#booleans)
     - [Undefined](#undefined)
     - [Null](#null)
-  - [Checking Data types](#checking-data-types)
-  - [Comments](#comments)
+  - [Checking Data Types](#checking-data-types)
+  - [Comments Again](#comments-again)
   - [Variables](#variables)
-- [💻 Day 1: Exercises](#%f0%9f%92%bb-day-1-exercises)
+- [💻 Day 1: Exercises](#-day-1-exercises)
 
 # 📔Day 1
 
 ## Introduction
 
-**Congratulations** for deciding to participate in a 30 days of JavaScript programming challenge . In this challenge you will learn everything you need to be a JavaScript programmer and in general the whole concepts of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge certificate. Join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
+**Congratulations** for deciding to participate in 30 days of JavaScript programming challenge. In this challenge you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge certificate. Join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
 
-**A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. I enjoy using and teaching JavaScript and I hope you will do so. JavaScript is the language of the browser.
+**A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. I enjoy using and teaching JavaScript and I hope you will do so too. JavaScript is the language of the web browser.
 
 In this step by step tutorial, you will learn JavaScript, the most popular programming language in the history of mankind.
 You use JavaScript **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **_machine learning_** and **_AI_**.
@@ -88,14 +95,14 @@ After downloading double click and install
 
  ![Install node](images/install_node.png)
 
-We can check if node is installed in our local machine by opening our device terminal or command  prompt.
+We can check if node is installed on our local machine by opening our device terminal or command prompt.
 
 ```sh
 asabeneh $ node -v
 v12.14.0
 ```
 
-I am using node version 12.14.0, which is the recommended version of node.
+When making this tutorial I was using node version 12.14.0, but now the recommended version of node.js for download is 12.17.0.
 
 ### Browser
 
@@ -109,18 +116,18 @@ Install [google chrome](https://www.google.com/chrome/) if you do not have one y
 
 #### Opening Google Chrome Console
 
-You can open Google Chrome either by clicking three dots at the top right corner of the Chrome browser or using a shortcut. I prefer using shortcuts.
+You can open Google Chrome console either by clicking three dots at the top right corner of the browser, selecting _More tools -> Developer tools_ or using a keyboard shortcut. I prefer using shortcuts.
 
 ![Opening chrome](images/opening_developer_tool.png)
 
-To open the Chrome console using a short cut.
+To open the Chrome console using a keyboard shortcut.
 
 ```sh
 Mac
-Command+Option+I
+Command+Option+J
 
-Windows:
-Ctl+Shift+I
+Windows/Linux:
+Ctl+Shift+J
 ```
 
 ![Opening console](images/opening_chrome_console_shortcut.png)
@@ -130,7 +137,7 @@ Let us write a JavaScript code on the Google Chrome console:
 
 ![write code on console](./images/js_code_on_chrome_console.png)
 
-#### Writing Code on browser Console
+#### Writing Code on Browser Console
 
 We can write any JavaScript code on the Google console or any browser console. However, for this challenge, we only focus on Google Chrome console. Open the console using:
 
@@ -144,13 +151,13 @@ Ctl+Shift+I
 
 ##### Console.log
 
-To write our first JavaScript code, we used a builtin function **console.log()**. We passed an argument as input data, and the function displays the output. We passed 'Hello, World' as input data or argument in the console.log() function.
+To write our first JavaScript code, we used a built-in function **console.log()**. We passed an argument as input data, and the function displays the output. We passed 'Hello, World' as input data or argument in the console.log() function.
 
 ```js
 console.log('Hello, World!')
 ```
 
-##### Console.log with multiple arguments
+##### Console.log with Multiple Arguments
 
 The console.log(param1, param2, param3), can take multiple arguments.
 
@@ -162,13 +169,13 @@ console.log('HAPPY', 'NEW', 'YEAR', 2020)
 console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
 ```
 
-As you can see from the above snippet code, *console.log()* can take multiple arguments.
+As you can see from the snippet code above, *console.log()* can take multiple arguments.
 
 Congratulations! You wrote your first JavaScript code using *console.log()*.
 
 ##### Comment
 
-We add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. Any text starts with // in JavaScript is a comment or anything enclose like this /* */ is a comment.
+We add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. Any text line starting with // in JavaScript is a comment or anything enclosed like this /* */ is a comment.
 
 **Example: Single Line Comment**
 
@@ -197,7 +204,7 @@ console.log("Hello, World!")
 console.log('Hello, World!')
 ```
 
-So far, we saw how to display text using a *console.log()*. If we are printing text or string using *console.log()*, the text has to be under the single, double, or backtick.
+So far, we saw how to display text using a *console.log()*. If we are printing text or string using *console.log()*, the text has to be under the single quote, double quote, or a backtick quote.
 **Example:**
 
 ```js
@@ -219,24 +226,24 @@ console.log(3 - 2)   // Subtraction
 console.log(2 * 3)   // Multiplication  
 console.log(3 / 2)   // Division
 console.log(3 % 2)   // Modulus - finding remainder
-console.log(3 ** 2)  // Exponential
+console.log(3 ** 2)  // Exponentiation
 ```
 
 ### Code Editor
 
-We can write our codes on the browser console, but it won't be for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days python JavaScript challenge, we will use visual studio code.
+We can write our codes on the browser console, but it won't do for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days python JavaScript challenge, we will use Visual Studio Code.
 
 #### Installing Visual Studio Code
 
-VVisual studio code is a very popular open-source text editor.  I would recommend to [download](https://code.visualstudio.com/) visual studio code, but if you are in favor of other editors, feel free to follow with what you have.
+VVisual studio code is a very popular open-source text editor.  I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
 
 ![Vscode](images/vscode.png)
 
-If you installed visual studio code, let us start using it.
+If you installed Visual Studio Code, let us start using it.
 
-#### How to use visual studio code
+#### How to Use Visual Studio Code
 
-Open the visual studio code by double-clicking the visual studio icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
+Open the Visual Studio Code by double-clicking its icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
 
 ![Vscode ui](./images/vscode_ui.png)
 
@@ -246,11 +253,13 @@ Open the visual studio code by double-clicking the visual studio icon. When you 
 
 ![script file](images/scripts_on_vscode.png)
 
+![Installing Live Server](images/vsc_live_server.png)
+
 ![running script](./images/running_script.png)
 
 ![coding running](./images/launched_on_new_tab.png)
 
-## Adding JavaScript to a web page
+## Adding JavaScript to a Web Page
 
 JavaScript can be added to a web page in three different ways:
 - **_Inline script_**
@@ -262,7 +271,7 @@ The following sections show different ways of adding JavaScript code to your web
 
 ### Inline Script
 
-Create a folder on your desktop and  call it 30DaysOfJS or in any location and create an **_index.html_** file in the project folder. Then paste the following code and open it in a browser, either in [Chrome](https://www.google.com/chrome/).
+Create a folder on your desktop and  call it 30DaysOfJS or in any location and create an **_index.html_** file in the project folder. Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
 
 ```html
 <!DOCTYPE html>
@@ -278,7 +287,7 @@ Create a folder on your desktop and  call it 30DaysOfJS or in any location and c
 
 Now, you wrote your first inline script. We can create a pop up alert message using the built-in *alert()* function.
 
-### Internal script
+### Internal Script
 
 The internal script can be written in the _head_ or the _body_, but it is preferred to put it on the body of the HTML document.
 First, let us write on the head part of the page.
@@ -297,7 +306,7 @@ First, let us write on the head part of the page.
   </html>
 ```
 
-This is how we write the internal script most of the time. Writing the JavaScript code in the body section is the most preferred place. Open the browser console to see the output from the console.log()
+This is how we write an internal script most of the time. Writing the JavaScript code in the body section is the most preferred option. Open the browser console to see the output from the console.log()
 
 ```html
 <!DOCTYPE html>
@@ -318,16 +327,16 @@ Open the browser console to see the output from the console.log()
 
 ![js code from vscode](./images/js_code_vscode.png)
 
-### External script
+### External Script
 
 Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension. Any JavaScript file ends with .js. Create a file introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
+First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files. Create a file introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
 
 ```js
 console.log('Welcome to 30DaysOfJavaScript')
 ```
 
-External scripts in the head
+External scripts in the _head_:
 
 ```html
 <!DOCTYPE html>
@@ -341,7 +350,7 @@ External scripts in the head
     </html>
 ```
 
-External scripts in the body
+External scripts in the _body_:
 
 ```html
 <!DOCTYPE html>
@@ -359,7 +368,7 @@ External scripts in the body
 
 Open the browser console to see the output from the console.log()
 
-### Multiple External scripts
+### Multiple External Scripts
 
 We can link multiple external JavaScript files to a web page.
 Create a helloworld.js file inside the 30DaysOfJS folder and write the following code.
@@ -382,7 +391,7 @@ console.log('Hello, World!')
   </html>
 ```
 
-Your main.js file should be below all other scripts. Watch out your exercise needs to understand this line.
+*Your main.js file should be below all other scripts*. It is very important to remember this.
 
 ![Multiple Script](./images/multiple_script.png)
 
@@ -392,7 +401,7 @@ In JavaScript and also other programming languages, there are different kinds of
 
 ### Number
 
-- Integer: Integer(negative, zero and positive) numbers
+- Integer: Integer (negative, zero and positive) numbers
         Example:
         ... -3, -2, -1, 0, 1, 2, 3 ...
 - Float: Decimal number
@@ -401,7 +410,7 @@ In JavaScript and also other programming languages, there are different kinds of
 
 ### String
 
-A collection of one or more characters under a single quote, double-quote, or backtick.
+A collection of one or more characters under a single quote, double quote, or backtick quote.
 **Example:**
 
 ```js
@@ -415,7 +424,7 @@ A collection of one or more characters under a single quote, double-quote, or ba
 
 ### Booleans
 
-A boolean value is either true or false. Any comparisons return a boolean value, which is either true or false.
+A boolean value is either True or False. Any comparisons return a boolean value, which is either true or false.
 
 A boolean data type is either a True or False value.
 
@@ -443,9 +452,9 @@ Null in JavaScript means an empty value.
 let emptyValue = null
 ```
 
-## Checking Data types
+## Checking Data Types
 
-To check the data type of a certain data type, we use the **typeof** operator. See the following example.
+To check the data type of a certain variable, we use the **typeof** operator. See the following example.
 
 ```js
 console.log(typeof 'Asabeneh') // string
@@ -455,9 +464,9 @@ console.log(typeof null)       // object type
 console.log(typeof undefined)  // undefined
 ```
 
-## Comments
+## Comments Again
 
-Commenting in JavaScript is similar to other programming languages. Comments are important in making your make code more readable.
+Reminding, that commenting in JavaScript is similar to other programming languages. Comments are important in making your make code more readable.
 There are two ways of commenting:
 
 - _Single line commenting_
@@ -517,7 +526,7 @@ Valid variables in JavaScript:
 ```
 
 camelCase or the first way of declaring is conventional in JavaScript. In this material, we will use camelCase variables.
-Invalid variable:
+Invalid variables:
 
 ```sh
   first-name
@@ -580,7 +589,7 @@ When you run the files on 01-Day folder you should get this:
 
 ![Day one](./images/day_1.png)
 
-🌕  You are amazing. You have just completed day 1 challenge and you are in your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕  You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and for your muscle.
 
 # 💻 Day 1: Exercises
 

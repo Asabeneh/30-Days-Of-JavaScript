@@ -626,7 +626,9 @@ console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
 
 ```
 
-1.  *indexOf()*: Takes a substring, and if the substring exists, it returns the first position of the substring. However if the substring does not exist, it returns -1
+
+13.  *indexOf()*: Takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1
+
 
 ```js
 string.indexOf(substring)
@@ -644,7 +646,8 @@ console.log(string.indexOf('Script'))     //15
 console.log(string.indexOf('script'))     // -1
 ```
 
-1.  *lastIndexOf()*: Takes a substring, and if the substring exists, it returns the last position of the substring. However if it does not exist, it returns -1
+14.  *lastIndexOf()*: Takes a substring and if the substring exists in a string it returns the last position of the substring if it does not exist it returns -1
+
 
 ```js
 //syntax
@@ -694,7 +697,7 @@ console.log(country.startsWith('fin'))   // false
 console.log(country.startsWith('land'))  //  false
 ```
 
-17. *endsWith*: it takes a substring as an argument and it checks if the string starts with that specified substring. It returns a boolean(true or false).
+17. *endsWith*: it takes a substring as an argument and it checks if the string ends with that specified substring. It returns a boolean(true or false).
 
 ```js
 string.endsWith(substring)
@@ -928,6 +931,7 @@ console.log(numInt) // 9
     The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.
     ```
 
+
 2. Using console.log() print out the following quote by Mother Teresa:
 
     ```sh
@@ -951,7 +955,6 @@ console.log(numInt) // 9
     4 1 4 16 64
     5 1 5 25 125
     ```
-
 12.  Use __substr__ to slice out the phrase __because because because__ from the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 
 ### Exercises: Level 3
