@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document Object Model:30 Days Of JavaScript</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300, 400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1>Asabeneh Yetayeh challenges in <span>2020</span></h1>
+        <h2>30DaysOfJavaScript Challenge</h2>
+        <p></p>
+        <ul>
+            <li>30DaysOfPython Challenge Done</li>
+            <li>30DaysOfJavaScript Challenge Ongoing</li>
+            <li>30DaysOfReact Challenge Coming</li>
+            <li>30DaysOfReactNative Challenge Coming</li>
+            <li>30DaysOfFullStack Challenge Coming</li>
+            <li>30DaysOfDataAnalysis Challenge Coming</li>
+            <li>30DaysOfMachineLearning Challenge Coming</li>
+        </ul>
+    </div>
+
+    <script>
+        const hexaColor = () => {
+            const str = '0123456789abcdef'
+            let hexa = '#'
+            let index
+            for (let i = 0; i < 6; i++) {
+                index = Math.floor(Math.random() * str.length)
+                hexa += str[index]
+            }
+            return hexa
+        }
+
+        const showDateTime = () => {
+            const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+                'October', 'November', 'December'
+            ]
+            const now = new Date()
+            const year = now.getFullYear()
+            const month = months[now.getMonth()]
+            const date = now.getDate()
+            let hours = now.getHours()
+            let minutes = now.getMinutes()
+            let seconds = now.getSeconds()
+            if (hours < 10) {
+                hours = '0' + hours
+            }
+            if (minutes < 10) {
+                minutes = '0' + minutes
+            }
+            if (seconds < 10) {
+                seconds = '0' + seconds
+            }
+
+            const dateMonthYear = `${month} ${date}, ${year}`
+
+            const time = hours + ':' + minutes
+            const fullTime = dateMonthYear + ' ' + time
+            return fullTime + `:${seconds}`
+        }
+
+        const wrapper = document.querySelector('.wrapper')
+        const year = document.querySelector('span')
+        const time = document.querySelector('p')
+        wrapper.style.width = '50%'
+        wrapper.style.margin = 'auto'
+        const title = document.querySelector('h1')
+        const subTitle = document.querySelector('h2')
+        title.style.textAlign = 'center'
+        title.style.fontFamily = 'Montserrat'
+        title.style.fontWeight = 500
+
+        subTitle.style.textAlign = 'center'
+        subTitle.style.fontFamily = 'Montserrat'
+        subTitle.style.fontWeight = 300
+        subTitle.style.textDecoration = 'underline'
+
+
+        time.style.textAlign = 'center'
+        time.style.fontFamily = 'Montserrat'
+        time.style.fontWeight = 400
+
+        setInterval(() => {
+            year.style.color = hexaColor()
+            year.style.fontSize = '96px'
+            year.style.fontWeight = 700;
+            time.textContent = showDateTime()
+            time.style.background = hexaColor()
+            time.style.width = "25%"
+            time.style.margin = 'auto'
+            time.style.padding = '10px'
+
+        }, 1000)
+
+
+
+        const ul = document.querySelector('ul')
+        const lists = document.querySelectorAll('li')
+        for (const list of lists) {
+            list.style.listStyle = 'none'
+            list.style.padding = '25px'
+            list.style.margin = '3px'
+            list.style.fontFamily = 'Montserrat'
+            list.style.fontWeight = 300;
+            list.style.letterSpacing = '0.0625em'
+
+            if (list.textContent.includes('Done')) {
+                list.style.background = '#21bf73'
+            } else if (list.textContent.includes('Ongoing')) {
+                list.style.background = '#fddb3a'
+
+
+
+            } else {
+                list.style.background = '#fd5e53'
+
+            }
+
+        }
+    </script>
+</body>
+
+</html>

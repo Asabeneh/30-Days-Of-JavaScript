@@ -203,7 +203,7 @@ functionName(parm1,parm2,parm3,...) // during calling or invoking three argument
 function sumArrayValues(arr) {
   let sum = 0;
   for (let i = 0; i < arr.length; i++) {
-    sum = sum + numbers[i];
+    sum = sum + arr[i];
   }
   return sum;
 }
