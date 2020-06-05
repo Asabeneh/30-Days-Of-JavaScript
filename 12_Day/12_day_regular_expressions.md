@@ -19,22 +19,22 @@
 
 - [📘 Day 12](#%f0%9f%93%98-day-12)
   - [Regular Expressions](#regular-expressions)
-    - [RegEx parameters](#regex-parameters)
+    - [RegExp parameters](#regex-parameters)
       - [Pattern](#pattern)
       - [Flags](#flags)
-    - [Creating a pattern with RegEx Constructor](#creating-a-pattern-with-regex-constructor)
-    - [Creating a pattern without RegEx Constructor](#creating-a-pattern-without-regex-constructor)
-    - [RegExp Object Methods](#regexp-object-methods)
+    - [Creating a pattern with RegExp Constructor](#creating-a-pattern-with-regex-constructor)
+    - [Creating a pattern without RegExp Constructor](#creating-a-pattern-without-regex-constructor)
+    - [RegExpp Object Methods](#regexp-object-methods)
       - [Testing for  a match](#testing-for-a-match)
       - [Array containing all of the match](#array-containing-all-of-the-match)
       - [Replacing a substring](#replacing-a-substring)
     - [Square Bracket](#square-bracket)
-    - [Escape character(\\) in RegEx](#escape-character-in-regex)
+    - [Escape character(\\) in RegExp](#escape-character-in-regex)
     - [One or more times(+)](#one-or-more-times)
     - [Period(.)](#period)
     - [Zero or more times(*)](#zero-or-more-times)
     - [Zero or one times(?)](#zero-or-one-times)
-    - [Quantifier in RegEx](#quantifier-in-regex)
+    - [Quantifier in RegExp](#quantifier-in-regex)
     - [Cart ^](#cart)
     - [Exact match](#exact-match)
   - [💻 Exercises](#%f0%9f%92%bb-exercises)
@@ -46,11 +46,11 @@
 
 ## Regular Expressions
 
-A regular expression or RegEx is a small programming language that helps to find pattern in data. A RegEx can be used to check if some pattern exists in a different data types. To use RegEx in JavaScript either we use RegEx constructor or we can declare a RegEx pattern using two forward slashes followed by a flag. We can create a pattern in two ways.
+A regular expression or RegExp is a small programming language that helps to find pattern in data. A RegExp can be used to check if some pattern exists in a different data types. To use RegExp in JavaScript either we use RegExp constructor or we can declare a RegExp pattern using two forward slashes followed by a flag. We can create a pattern in two ways.
 
 To declare a string we use a single quote, double quote a backtick to declare a regular expression we use two forward slashes and an optional flag. The flag could be g, i, m, s, u or y.
 
-### RegEx parameters
+### RegExp parameters
 
 A regular expression takes two parameters. One required search pattern and an optional flag.
 
@@ -66,14 +66,14 @@ Flags are optional parameters in a regular expression which determine the type o
 - i: case insensitive flag(it searches for both lowercase and uppercase)
 - m: multiline
 
-### Creating a pattern with RegEx Constructor
+### Creating a pattern with RegExp Constructor
 
 Declaring regular expression without global flag and case insensitive flag.
 
 ```js
 // without flag
 let pattern = 'love'
-let regEx = new RegEx(pattern)
+let regEx = new RegExp(pattern)
 ```
 
 Declaring regular expression with global flag and case insensitive flag.
@@ -81,16 +81,16 @@ Declaring regular expression with global flag and case insensitive flag.
 ```js
 let pattern = 'love'
 let flag = 'gi'
-let regEx = new RegEx(pattern, flag)
+let regEx = new RegExp(pattern, flag)
 ```
 
-Declaring a regex pattern using RegEx object. Writing the pattern and the flag inside the RegEx constructor
+Declaring a regex pattern using RegExp object. Writing the pattern and the flag inside the RegExp constructor
 
 ```js
-let regEx = new RegEx('love','gi')
+let regEx = new RegExp('love','gi')
 ```
 
-### Creating a pattern without RegEx Constructor
+### Creating a pattern without RegExp Constructor
 
 Declaring regular expression with global flag and case insensitive flag.
 
@@ -98,15 +98,15 @@ Declaring regular expression with global flag and case insensitive flag.
 let regEx= /love/gi
 ```
 
-The above regular expression is the same as the one which we created with RegEx constructor
+The above regular expression is the same as the one which we created with RegExp constructor
 
 ```js
-let regEx= new RegEx('love','gi')
+let regEx= new RegExp('love','gi')
 ```
 
-### RegExp Object Methods
+### RegExpp Object Methods
 
-Let see some of RegEx methods
+Let see some of RegExp methods
 
 #### Testing for  a match
 
@@ -297,7 +297,7 @@ console.log(matches)
 
 Using the square bracket and or operator , we manage to extract Apple, apple, Banana and banana.
 
-### Escape character(\\) in RegEx
+### Escape character(\\) in RegExp
 
 ```js
 const pattern = /\d/g  // d is a special character which means digits
@@ -370,7 +370,7 @@ console.log(matches)  // ["e-mail", "email", "Email", "E-mail"]
 
 ```
 
-### Quantifier in RegEx
+### Quantifier in RegExp
 
 We can specify the length of the substring we look for in a text, using a curly bracket. Lets imagine, we are interested in substring that their length are 4 characters
 
