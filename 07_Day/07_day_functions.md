@@ -17,7 +17,7 @@
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_7.png)
 
-- [📔 Day 7](#%f0%9f%93%94-day-7)
+- [📔 Day 7](#-day-7)
   - [Functions](#functions)
     - [Function Declaration](#function-declaration)
     - [Function without a parameter and return](#function-without-a-parameter-and-return)
@@ -34,7 +34,7 @@
     - [Arrow Function](#arrow-function)
     - [Function with default parameters](#function-with-default-parameters)
     - [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
-  - [💻 Exercises](#%f0%9f%92%bb-exercises)
+  - [💻 Exercises](#-exercises)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
     - [Exercises: Level 3](#exercises-level-3)
@@ -79,12 +79,13 @@ Function can be declared without a parameter.
 **Example:**
 
 ```js
-// function without parameter,  a function which square a number
+// function without parameter,  a function which make a number square
 function square() {
   let num = 2
   let sq = num * num
   console.log(sq)
 }
+
 square() // 4
 
 // function without parameter
@@ -95,18 +96,20 @@ function addTwoNumbers() {
 
   console.log(sum)
 }
-addTwoNumbers() // function has to be called to be executed by it name
+
+addTwoNumbers() // a function has to be called by its name to be executed 
 ```
 
 ```js
-  function generateFullName (){
+  function printFullName (){
       let firstName = 'Asabeneh'
       let lastName = 'Yetayeh'
       let space = ' '
       let fullName = firstName + space + lastName
       console.log(fullName)
 }
-  generateFullName() // calling a function
+
+printFullName() // calling a function
 ```
 
 ### Function returning value
@@ -114,14 +117,14 @@ addTwoNumbers() // function has to be called to be executed by it name
 Function can also return values, if a function does not return values the value of the function is undefined. Let us write the above functions with return. From now on, we return value to a function instead of printing it.
 
 ```js
-function generateFullName (){
+function printFullName (){
       let firstName = 'Asabeneh'
       let lastName = 'Yetayeh'
       let space = ' '
       let fullName = firstName + space + lastName
       return fullName
 }
-console.log(generateFullName())
+console.log(printFullName())
 ```
 
 ```js
@@ -170,19 +173,20 @@ function functionName(parm1, parm2) {
   //code goes her
 }
 functionName(parm1, parm2) // during calling or invoking two arguments needed
-// Function without parameter doesn't take input, so lets make a parameter with parameter
+// Function without parameter doesn't take input, so lets make a function with parameters
 function sumTwoNumbers(numOne, numTwo) {
   let sum = numOne + numTwo
   console.log(sum)
 }
 sumTwoNumbers(10, 20) // calling functions
 // If a function doesn't return it doesn't store data, so it should return
-function sumTwoNumbersAndReturn(numOne, numTwo) {
+
+function sumTwoNumbers(numOne, numTwo) {
   let sum = numOne + numTwo
   return sum
 }
 
-console.log(sumTwoNumbersAndReturn(10, 20))
+console.log(sumTwoNumbers(10, 20))
 function printFullName(firstName, lastName) {
   return `${firstName} ${lastName}`
 }
@@ -222,7 +226,7 @@ console.log(areaOfCircle(10))
 
 ### Function with unlimited number of parameters
 
-Sometimes we do not know how many arguments the user going to pass. Therefore, we should know how to write a function which can take unlimited number of arguments. The way we do it has a significant difference between a function declaration(regular function) and arrow function.Let us see examples both in function declaration and arrow function.
+Sometimes we do not know how many arguments the user going to pass. Therefore, we should know how to write a function which can take unlimited number of arguments. The way we do it has a significant difference between a function declaration(regular function) and arrow function. Let us see examples both in function declaration and arrow function.
 
 #### Unlimited number of parameters in regular function
 
@@ -304,15 +308,9 @@ const anonymousFun = function() {
 
 ### Expression Function
 
-Expression functions are anonymous functions. After we create a function without a name and with assign it to a variable. To return a value from the function we should call the variable. Look at the example below.
+Expression functions are anonymous functions. After we create a function without a name and we assign it to a variable. To return a value from the function we should call the variable. Look at the example below.
 
 ```js
-//Declaration function
-function square(n) {
-  return n * n
-}
-
-console.log(square(2)) // -> 4
 
 // Function expression
 const square = function(n) {
@@ -342,7 +340,7 @@ console.log(squaredNum)
 
 Arrow function is an alternative to write a function, however function declaration and arrow function have some minor differences.
 
-Arrow function uses arrow instead of the keyword function to declare a function. Let us see both function declaration and arrow function.
+Arrow function uses arrow instead of the keyword *function* to declare a function. Let us see both function declaration and arrow function.
 
 ```js
 // This is how we write normal or declaration function
@@ -357,9 +355,10 @@ const square = n => {
   return n * n
 }
 
-console.log(square(2)) // -> 4
-// if we have only one line, it can be written as follows, explicit return
-const square = n => n * n // -> 4
+console.log(square(2))  // -> 4
+
+// if we have only one line in the code block, it can be written as follows, explicit return
+const square = n => n * n  // -> 4
 ```
 
 ```js
@@ -502,6 +501,8 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
 ```
 
 ### Function declaration versus Arrow function
+
+It ill be covered in other time
 
 🌕 You are a rising star, now you knew function . Now, you are super charged with the power of functions. You have just completed day 7 challenges and you are 7 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
