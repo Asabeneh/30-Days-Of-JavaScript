@@ -17,7 +17,7 @@
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_3.png)
 
-- [📔 Day 3](#%f0%9f%93%94-day-3)
+- [📔 Day 3](#-day-3)
   - [Booleans](#booleans)
     - [Truthy values](#truthy-values)
     - [Falsy values](#falsy-values)
@@ -46,7 +46,7 @@
     - [Getting minutes](#getting-minutes)
     - [Getting seconds](#getting-seconds)
     - [Getting time](#getting-time)
-  - [💻 Day 3: Exercises](#%f0%9f%92%bb-day-3-exercises)
+  - [💻 Day 3: Exercises](#-day-3-exercises)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
     - [Exercises: Level 3](#exercises-level-3)
