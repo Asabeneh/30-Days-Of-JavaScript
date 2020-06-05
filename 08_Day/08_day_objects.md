@@ -17,12 +17,12 @@
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_8.png)
 
-- [📔 Day 8](#%f0%9f%93%94-day-8)
+- [📔 Day 8](#-day-8)
   - [Scope](#scope)
     - [Window Scope](#window-scope)
     - [Global scope](#global-scope)
     - [Local scope](#local-scope)
-  - [📔 Object](#%f0%9f%93%94-object)
+  - [📔 Object](#-object)
     - [Creating an empty object](#creating-an-empty-object)
     - [Creating an objecting with values](#creating-an-objecting-with-values)
     - [Getting values from an object](#getting-values-from-an-object)
@@ -33,9 +33,10 @@
       - [Getting object values using Object.values()](#getting-object-values-using-objectvalues)
       - [Getting object keys and values using Object.entries()](#getting-object-keys-and-values-using-objectentries)
       - [Checking properties using hasOwnProperty()](#checking-properties-using-hasownproperty)
-  - [💻 Exercises](#%f0%9f%92%bb-exercises)
+  - [💻 Exercises](#-exercises)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
+    - [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 8
 
@@ -72,7 +73,7 @@ console.log(a, b) // accessible
 
 ### Global scope
 
-A globally declared variable can be access every where in the same file. But the term global is relative. It can be global to the file or it can be global relative to some block of codes.
+A globally declared variable can be accessed every where in the same file. But the term global is relative. It can be global to the file or it can be global relative to some block of codes.
 
 ```js
 //scope.js
@@ -93,7 +94,7 @@ console.log(a, b) // JavaScript 10, accessible
 
 ### Local scope
 
-A local declared variable can be access only certain block code.
+A variable declared as local can be accessed only in certain block code.
 
 ```js
 //scope.js
@@ -117,7 +118,7 @@ letsLearnScope()
 console.log(a, b) // JavaScript 10, accessible
 ```
 
-Now, you have an understanding of scope. A variable declared with *var* only scoped to function but variable declared with *let* or *const* is block scope(function block, if block, loop etc)
+Now, you have an understanding of scope. A variable declared with *var* only scoped to function but variable declared with *let* or *const* is block scope(function block, if block, loop etc). Block in JavaScript is a code in between two curly brackets ({}).
 
 ```js
 //scope.js
@@ -141,7 +142,7 @@ console.log(i)
 
 ```
 
-In ES6 and above there is *let* and *const*, so you will suffer from the sneakiness of *var*. When we use *let* our variable is block scope and it will not infect other parts of our code.
+In ES6 and above there is *let* and *const*, so you will not suffer from the sneakiness of *var*. When we use *let* our variable is block scoped and it will not infect other parts of our code.
 
 ```js
 //scope.js
@@ -166,12 +167,12 @@ for(let i = 0; i < 3; i++){
 
 ```
 
-The scope *let* and *const* is the same. The difference is only reassigning. We can not change or reassign the value of const variable. I would strongly suggest you to use *let* and *const*, by using *let* and *const* you will writ clean code and avoid hard to debug mistakes. As a rule of thumb, you can use *let* for any value which change, *const* for any constant value, array, object, arrow function and function expression.
+The scope *let* and *const* is the same. The difference is only reassigning. We can not change or reassign the value of const variable. I would strongly suggest you to use *let* and *const*, by using *let* and *const* you will writ clean code and avoid hard to debug mistakes. As a rule of thumb, you can use *let* for any value which change, *const* for any constant value, and for array, object, arrow function and function expression.
 
 ## 📔 Object
 
-Everything can be an object and objects do have properties and properties have values, so an object is key value pair. The order of the key is not reserved, or there is no order.
-Creating an object literal. To create an object literal, we use two curly brackets.
+Everything can be an object and objects do have properties and properties have values, so an object is a key value pair. The order of the key is not reserved, or there is no order.
+To create an object literal, we use two curly brackets.
 
 ### Creating an empty object
 
@@ -185,7 +186,7 @@ const person = {}
 
 Now, the person object has firstName, lastName, age, location, skills and isMarried properties. The value of properties or keys could be a string, number, boolean, an object, null, undefined or a function.
 
-Let us see some examples of object. Each key has a value in object.
+Let us see some examples of object. Each key has a value in the object.
 
 ```js
 const rectangle = {
@@ -573,11 +574,12 @@ console.log(copyPerson.hasOwnProperty('score'))
   ```
 
   Imagine you are getting the above users collection from a MongoDB database.
-    a. Create a function called signUp which allows user to add to the collection. If user exists, inform the user that he has already an account.
-    b. Create a function called signIn which allows user to sign in to the application
+    a. Create a function called signUp which allows user to add to the collection. If user exists, inform the user that he has already an account.  
+    b. Create a function called signIn which allows user to sign in to the application  
+
 3. The products array has three elements and each of them has six properties.
     a. Create a function called rateProduct which rates the product
-    b. Create a function called averageRating which calculate the average rating of a product
+    b. Create a function called averageRating which calculate the average rating of a product  
 
 4. Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove like if it was liked.
 
