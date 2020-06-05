@@ -61,14 +61,14 @@
 
 ## Introduction
 
-**Congratulations** for deciding to participate in 30 days of JavaScript programming challenge. In this challenge you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge certificate. Join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
+**Congratulations** for deciding to participate in 30 days of JavaScript programming challenge. In this challenge you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge completion certificate. In case you need help or if you would like to help others you may join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
 
-**A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. I enjoy using and teaching JavaScript and I hope you will do so too. JavaScript is the language of the web browser.
+**A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. I enjoy using and teaching JavaScript and I hope you will do so too. JavaScript is the language of the web.
 
 In this step by step tutorial, you will learn JavaScript, the most popular programming language in the history of mankind.
 You use JavaScript **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **_machine learning_** and **_AI_**.
 **_JavaScript (JS)_** has increased in popularity in recent years and has been the leading
-programming language for four consecutive years and is the most used programming language on
+programming language for six consecutive years and is the most used programming language on
 Github.
 
 ## Requirements
@@ -83,11 +83,11 @@ No prior knowledge of programming is required to follow this challenge. You need
 
 ## Setup
 
-I believe you have the motivation and a strong desire to be a developer, computer and Internet. If you have those, then you have everything.
+I believe you have the motivation and a strong desire to be a developer, computer and Internet. If you have those, then you have everything to get started.
 
 ### Install Node.js
 
-You may not need it right now but you may need it for later. Install [node.js](https://nodejs.org/en/).
+You may not need node.js right now but you may need it for later. Install [node.js](https://nodejs.org/en/).
 
 ![Node download](images/download_node.png)
 
@@ -193,7 +193,7 @@ We add comments to our code. Comments are very important to make code more reada
 
 ##### Syntax
 
-JavaScript is a programming language. As a result, it has its syntax like other programming languages. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+Programming languages are similar to human languages. English language or any other language uses words, phrases, sentences,compound sentences and other more to convey a meaningful message. The English meaning of syntax is *the arrangement of words and phrases to create well-formed sentences in a language*. The technical definition of syntax is *the structure of statements in a computer language.*  Programing languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
 
 ![Error](images/raising_syntax_error.png)
 
@@ -226,16 +226,16 @@ console.log(3 - 2)   // Subtraction
 console.log(2 * 3)   // Multiplication  
 console.log(3 / 2)   // Division
 console.log(3 % 2)   // Modulus - finding remainder
-console.log(3 ** 2)  // Exponentiation
+console.log(3 ** 2)  // Exponentiation 3 ** 2 == 3 * 3
 ```
 
 ### Code Editor
 
-We can write our codes on the browser console, but it won't do for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days python JavaScript challenge, we will use Visual Studio Code.
+We can write our codes on the browser console, but it won't do for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days JavaScript challenge, we will use Visual Studio Code.
 
 #### Installing Visual Studio Code
 
-VVisual studio code is a very popular open-source text editor.  I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
+Visual studio code is a very popular open-source text editor.  I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
 
 ![Vscode](images/vscode.png)
 
@@ -420,19 +420,20 @@ A collection of one or more characters under a single quote, double quote, or ba
 "I love teaching"
 'I hope you are enjoying the first day'
 `We can also create a string using a backtick`
+'A string could be just as small as one character as big as many pages'
 ```
 
 ### Booleans
 
 A boolean value is either True or False. Any comparisons return a boolean value, which is either true or false.
 
-A boolean data type is either a True or False value.
+A boolean data type is either a true or false value.
 
 **Example:**
 
 ```js
     true  // if the light on ,the value is true
-    false // if the light off, the value is False
+    false // if the light off, the value is false
 ```
 
 ### Undefined
@@ -493,7 +494,9 @@ Multiline commenting:
 
 Variables are _containers_ of data. Variables used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
 
-For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do no change, and we can use *const*.
+For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do no change, and we can use *const*. We will not use var in this challenge and I don't recommend you to use it. It is error prone way of declaring variable it has lots of leak.
+
+A valid JavaScript
 
 - A JavaScript variable name  should not begin with a number.
 - A JavaScript variable name does not allow special characters except dollar sign and underscore.
@@ -514,7 +517,7 @@ Valid variables in JavaScript:
 
     first_name
     last_name
-    is_marreid
+    is_married
     capital_city
 
     num1
@@ -537,7 +540,7 @@ Invalid variables:
 Let us declare variables with different data types. To declare a variable, we need to use let or const keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value.
 
 ```js
-  # Syntax
+  // Syntax
   let nameOfVariable = value  
 ```
 
@@ -594,8 +597,8 @@ When you run the files on 01-Day folder you should get this:
 # 💻 Day 1: Exercises
 
 1. Write a single line comment which says, _comments can make code readable_
-2. Write another single comment which says, *welcome to 30DaysOfJavaScript*
-3. Write a multiline comment which says, _comments can make code readable, easy to use_
+2. Write another single comment which says, *Welcome to 30DaysOfJavaScript*
+3. Write a multiline comment which says, _comments can make code readable, easy to reuse_
    _and informative_
 
 4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
