@@ -17,7 +17,7 @@
 
 ![Day 5](../images/banners/day_1_5.png)
 
-- [📔 Day 5](#%f0%9f%93%94-day-5)
+- [📔 Day 5](#-day-5)
   - [Arrays](#arrays)
     - [How to create an empty array](#how-to-create-an-empty-array)
     - [How to create an array with values](#how-to-create-an-array-with-values)
@@ -43,7 +43,7 @@
       - [Reversing array order](#reversing-array-order)
       - [Sorting elements in array](#sorting-elements-in-array)
     - [Array of arrays](#array-of-arrays)
-  - [💻 Exercise](#%f0%9f%92%bb-exercise)
+  - [💻 Exercise](#-exercise)
     - [Exercise: Level 1](#exercise-level-1)
     - [Exercise: Level 2](#exercise-level-2)
     - [Exercise: Level 3](#exercise-level-3)
@@ -52,14 +52,14 @@
 
 ## Arrays
 
-In contrast to variables, an array can store _multiple values_. Each value in an array has an _index_, and each index has _a reference in a memory address_. Each value can be accessed by using their _indexes_. The index of an array starts from _zero_, and the last element is less by one from the length of the array.
+In contrast to variables, an array can store _multiple values_. Each value in an array has an _index_, and each index has _a reference in a memory address_. Each value can be accessed by using their _indexes_. The index of an array starts from _zero_, and the  index of the last element is less by one from the length of the array.
 
 An array is a collection of different data types which are ordered and changeable(modifiable). An array allows storing duplicate elements and different data types. An array can be empty, or it may have different data type values.
 
 ### How to create an empty array
 
-In JavaScript, we can create an array in different ways. Let us different ways to create an array.
-It is very common to use *const* instead of *let* to declare an array variable. If you ar using const it means you do not use that name again.
+In JavaScript, we can create an array in different ways. Let us see different ways to create an array.
+It is very common to use *const* instead of *let* to declare an array variable. If you ar using const it means you do not use that variable name again.
 
 - Using Array constructor
 
@@ -166,7 +166,7 @@ console.log(words)
 
 ### Accessing array items using index
 
-We access each element in an array using their index. An array index starts from 0. The picture below clearly shows the starting of the index.
+We access each element in an array using their index. An array index starts from 0. The picture below clearly shows the index of each element in the array.
 
 ![arr index](../images/array_index.png)
 
@@ -474,7 +474,7 @@ console.log(names.toString()) // Asabeneh,Mathias,Elias,Brook
 
 #### Joining array elements
 
-join: It used to join the elements of the array, the argument passed in the join method will be joined in the array and return as a string. By default, it joins with a comma, but we can pass different string parameter which can be joined between the items.
+join: It is used to join the elements of the array, the argument we passed in the join method will be joined in the array and return as a string. By default, it joins with a comma, but we can pass different string parameter which can be joined between the items.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -532,8 +532,8 @@ Splice: It takes three parameters:Starting position, number of times to be remov
 ```
 
 ```js
-  const numbers = [1, 2, 3, 4, 5];
-  console.log(numbers.splice(3, 3, 6, 7, 8))  // -> [1, 2, 3, 6, 7, 8] //it removes two item and replace three items
+  const numbers = [1, 2, 3, 4, 5, 6];
+  console.log(numbers.splice(3, 3, 7, 8, 9))  // -> [1, 2, 3, 7, 8, 9] //it removes three item and replace three items
 ```
 
 #### Adding item to an array using push
@@ -618,7 +618,7 @@ console.log(numbers) // [1, 2, 3, 4, 5]
 
 #### Sorting elements in array
 
-sort: arrange array elements in ascending order. Sort takes a call back function, we will see how we use sort with call back function in the coming sections.
+sort: arrange array elements in ascending order. Sort takes a call back function, we will see how we use sort with a call back function in the coming sections.
 
 ```js
 const webTechs = [
@@ -691,33 +691,33 @@ const webTechs = [
 ```
 
 1. Declare an _empty_ array;
-1. Declare an array with more than 5 number of elements
-1. Find the length of your array
-1. Get the first item, the middle item and the last item of the array
-1. Declare an array called _mixedDataTypes_,put different data types in your array and  find length of the array. You are should size be greater than 5
-1. Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
-1. Print the array using _console.log()_
-1. Print the number of companies in the array
-1. Print the first company, middle and last company
-1. Print out each company
-1. Change each company name  to uppercase one by one and print them out
-1. Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
-1. Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is _not found_
-1. Filter out companies which have more than one 'o' without the filter method
-1. Sort the array using _sort()_ method
-1. Reverse the array using _reverse()_ method
-1. Slice out the first 3 companies from the array
-1. Slice out the last 3 companies from the array
-1. Slice out the middle IT company or companies from the array
-1. Remove the first IT company from the array
-1. Remove the middle IT company or companies from the array
-1. Remove the last IT company from the array
-1. Remove all IT companies
+2. Declare an array with more than 5 number of elements
+3. Find the length of your array
+4. Get the first item, the middle item and the last item of the array
+5. Declare an array called _mixedDataTypes_, put different data types in the array and find the length of the array. The array size should  be greater than 5
+6. Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
+7. Print the array using _console.log()_
+8. Print the number of companies in the array
+9. Print the first company, middle and last company
+10. Print out each company
+11. Change each company name  to uppercase one by one and print them out
+12. Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+13. Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is _not found_
+14. Filter out companies which have more than one 'o' without the filter method
+15. Sort the array using _sort()_ method
+16. Reverse the array using _reverse()_ method
+17. Slice out the first 3 companies from the array
+18. Slice out the last 3 companies from the array
+19. Slice out the middle IT company or companies from the array
+20. Remove the first IT company from the array
+21. Remove the middle IT company or companies from the array
+22. Remove the last IT company from the array
+23. Remove all IT companies
 
 ### Exercise: Level 2
 
-1. Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js ans store the webTechs array in to this file. Access both file in main.js file
-1. First remove all the functions and change the string to array and count the number of words in the array
+1. Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js and store the webTechs array in to this file. Access both file in main.js file
+1. First remove all the punctuations and change the string to array and count the number of words in the array
 
     ```js
     let text =
@@ -738,10 +738,10 @@ const webTechs = [
     const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
     ```
 
-   - add 'Meat' in the beginning of your shopping cart if if it has not be already added
-   - add sugar at the end of you shopping cart if it has not been already added
-   - Remove 'Honey' if you are allergic to honey
-   - modify tea to 'Green Tea'
+   - add 'Meat' in the beginning of your shopping cart if it has not been already added
+   - add Sugar at the end of you shopping cart if it has not been already added
+   - remove 'Honey' if you are allergic to honey
+   - modify Tea to 'Green Tea'
 1. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
 1. In the webTechs array check if Sass exists in the array  and if it exists print 'Sass is a CSS preprocess'. If it does not exist add Sass to the array and print the array.
 1. Concatenate the following two variables and store it in a fullStack variable.
