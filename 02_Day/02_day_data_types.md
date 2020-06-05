@@ -18,8 +18,8 @@
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_2.png)
 
-- [📔 Day 2](#%f0%9f%93%94-day-2)
-  - [Data types](#data-types)
+- [📔 Day 2](#-day-2)
+  - [Data Types](#data-types)
     - [Primitive Data Types](#primitive-data-types)
     - [Non-Primitive Data Types](#non-primitive-data-types)
   - [Numbers](#numbers)
@@ -28,7 +28,7 @@
       - [Random Number Generator](#random-number-generator)
   - [Strings](#strings)
     - [String Concatenation](#string-concatenation)
-      - [Concatenating Using Dddition Operator](#concatenating-using-addition-operator)
+      - [Concatenating Using Addition Operator](#concatenating-using-addition-operator)
       - [Long Literal Strings](#long-literal-strings)
       - [Escape Sequences in Strings](#escape-sequences-in-strings)
       - [Template Literals (Template Strings)](#template-literals-template-strings)
@@ -39,7 +39,7 @@
       - [String to Int](#string-to-int)
       - [String to Float](#string-to-float)
       - [Float to Int](#float-to-int)
-  - [💻 Day 2: Exercises](#%f0%9f%92%bb-day-2-exercises)
+  - [💻 Day 2: Exercises](#-day-2-exercises)
     - [Exercise: Level 1](#exercise-level-1)
     - [Exercise: Level 2](#exercise-level-2)
     - [Exercises: Level 3](#exercises-level-3)
@@ -170,11 +170,11 @@ Let's see some examples of Numbers.
 
 ```js
 let age = 35
-const gravity = 9.81  //we use const for non-changing values, gravitational constant in  m/s2
+const gravity = 9.81  // we use const for non-changing values, gravitational constant in  m/s2
 let mass = 72         // mass in Kilogram
 const PI = 3.14       // pi a geometrical constant
 
-//More Examples
+// More Examples
 const boilingPoint = 100 // temperature in oC, boiling point of water which is a constant
 const bodyTemp = 37      // oC average human body temperature, which is a constant
 
@@ -227,7 +227,7 @@ console.log(Math.pow(3, 2))     // 9
 console.log(Math.E)             // 2.718
 
 // Logarithm
-//Returns the natural logarithm with base E of x, Math.log(x)
+// Returns the natural logarithm with base E of x, Math.log(x)
 console.log(Math.log(2))        // 0.6931471805599453
 console.log(Math.log(10))       // 2.302585092994046
 
@@ -244,7 +244,7 @@ Math.cos(60)
 The JavaScript Math Object has a random() method number generator which generates number from 0 to 0.999999999...
 
 ```js
-let randomNum = Math.random() // generates 0 to 0.999
+let randomNum = Math.random() // generates 0 to 0.999...
 ```
 
 Now, let us see how we can use random() method to generate a random number between 0 and 10:
@@ -261,7 +261,7 @@ console.log(randomNumRoundToFloor)    // this gives between 0 and 10
 
 ## Strings
 
-Strings are texts, which are under **_single_** or **_double_** quote. To declare a string, we need a variable name, assignment operator, a value under a single quote, double quote, or backtick quote.
+Strings are texts, which are under **_single_**  , **_double_**, **_back-tick_** quote. To declare a string, we need a variable name, assignment operator, a value under a single quote, double quote, or backtick quote.
 Let's see some examples of strings:
 
 ```js
@@ -272,12 +272,13 @@ let country = 'Finland'
 let city = 'Helsinki'
 let language = 'JavaScript'
 let job = 'teacher'
+let quote = "The saying,'Seeing is Believing' is not correct in 2020."
+let quotWithBackTick = `The saying,'Seeing is Believing' is not correct in 2020.`
 ```
 
 ### String Concatenation
 
 Connecting two or more strings together is called concatenation.
-
 Using the strings declared in the previous String section:
 
 ```js
@@ -305,8 +306,9 @@ let city = 'Helsinki'
 let language = 'JavaScript'
 let job = 'teacher'
 let age = 250
-let fullName = firstName.concat(space).concat(lastName)                    // concat string method
 
+
+let fullName =firstName + space + lastName
 let personInfoOne = fullName + '. I am ' + age + '. I live in ' + country; // ES5 string addition
 
 console.log(personInfoOne)
@@ -330,6 +332,7 @@ to global audience and I started a Python challenge from November 20 - December 
 It was one of the most rewarding and inspiring experience.\
 Now, we are in 2020. I am enjoying preparing the 30DaysOfJavaScript challenge and \
 I hope you are enjoying too."
+
 console.log(paragraph)
 ```
 
@@ -341,7 +344,7 @@ In JavaScript and other programming languages \ followed by some characters is a
 - \t: Tab, means 8 spaces
 - \\\\: Back slash
 - \\': Single quote (')
-- \\":Double quote (")
+- \\": Double quote (")
   
 ```js
 console.log('I hope everyone is enjoying the 30 Days Of JavaScript challenge.\nDo you ?') // line break
@@ -374,7 +377,7 @@ The saying 'Seeing is Believing' isn't correct in 2020
 
 #### Template Literals (Template Strings)
 
-To create a template strings, we use two backticks. We can inject data as expressions inside a template string. To inject data, we enclose the expression with a curly bracket({}) preceded by a $ sign. See the syntax below.
+To create a template strings, we use two back-ticks. We can inject data as expressions inside a template string. To inject data, we enclose the expression with a curly bracket({}) preceded by a $ sign. See the syntax below.
 
 ```js
 //Syntax
@@ -528,17 +531,17 @@ console.log(country.substring(3))      // land
 ```js
 let string = '30 Days Of JavaScript'
 
-console.log(string.split())     // ["30 Days Of JavaScript"]
-console.log(string.split(' '))  // ["30", "Days", "Of", "JavaScript"]
+console.log(string.split())     // Changes to an array -> ["30 Days Of JavaScript"]
+console.log(string.split(' '))  // Split to an array at space -> ["30", "Days", "Of", "JavaScript"]
 
 let firstName = 'Asabeneh'
 
-console.log(firstName.split())    // ["Asabeneh"]
-console.log(firstName.split(''))  // ["A", "s", "a", "b", "e", "n", "e", "h"]
+console.log(firstName.split())    // Change to an array - > ["Asabeneh"]
+console.log(firstName.split(''))  // Split to an array at each letter ->  ["A", "s", "a", "b", "e", "n", "e", "h"]
 
 let countries = 'Finland, Sweden, Norway, Denmark, and Iceland'
 
-console.log(countries.split(','))  // ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
+console.log(countries.split(','))  // split to any array at comma -> ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
 console.log(countries.split(', ')) //  ["Finland", "Sweden", "Norway", "Denmark", "and Iceland"]
 ```
 
@@ -547,7 +550,7 @@ console.log(countries.split(', ')) //  ["Finland", "Sweden", "Norway", "Denmark
 ```js
 let string = '   30 Days Of JavaScript   '
 
-console.log(string)     
+console.log(string)
 console.log(string.trim(' '))
 
 let firstName = ' Asabeneh '
@@ -626,9 +629,7 @@ console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
 
 ```
 
-
 13.  *indexOf()*: Takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1
-
 
 ```js
 string.indexOf(substring)
@@ -704,11 +705,11 @@ string.endsWith(substring)
 ```
 
 ```js
-let string = 'Love is the best to in this world'
+let string = 'Love is the most powerful feeling in the world'
 
 console.log(string.endsWith('world'))         // true
 console.log(string.endsWith('love'))          // false
-console.log(string.endsWith('in this world')) // true
+console.log(string.endsWith('in the world')) // true
 
 let country = 'Finland'
 
@@ -717,7 +718,7 @@ console.log(country.endsWith('fin'))          // false
 console.log(country.endsWith('Fin'))          //  false
 ```
 
-18. *search*: it takes a substring as an argument and it returns the index of the first match.
+18. *search*: it takes a substring as an argument and it returns the index of the first match. The search value can be a string or  a regular expression pattern.
 
 ```js
 string.search(substring)
@@ -725,7 +726,8 @@ string.search(substring)
 
 ```js
 let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
-console.log(string.search('love')) // 2
+console.log(string.search('love'))          // 2
+console.log(string.search(/javascript/gi))  // 7
 ```
 
 19. *match*: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign.
@@ -771,7 +773,7 @@ console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", 
 console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
 
-20.   *repeat()*: it takes a number as argument and it returns the repeated version of the string.
+20. *repeat()*: it takes a number as argument and it returns the repeated version of the string.
 
 ```js
 string.repeat(n)
@@ -931,7 +933,6 @@ console.log(numInt) // 9
     The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.
     ```
 
-
 2. Using console.log() print out the following quote by Mother Teresa:
 
     ```sh
@@ -955,6 +956,7 @@ console.log(numInt) // 9
     4 1 4 16 64
     5 1 5 25 125
     ```
+
 12.  Use __substr__ to slice out the phrase __because because because__ from the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 
 ### Exercises: Level 3
