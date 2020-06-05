@@ -17,14 +17,14 @@
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_4.png)
 
-- [📔 Day 4](#%f0%9f%93%94-day-4)
+- [📔 Day 4](#-day-4)
   - [Conditionals](#conditionals)
     - [if](#if)
     - [if else](#if-else)
     - [if else if else](#if-else-if-else)
     - [Switch](#switch)
     - [Ternary Operators](#ternary-operators)
-  - [💻 Exercises](#%f0%9f%92%bb-exercises)
+  - [💻 Exercises](#-exercises)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
     - [Exercises: Level 3](#exercises-level-3)
@@ -33,7 +33,7 @@
 
 ## Conditionals
 
-Conditional statements are used to decision based on different conditions.
+Conditional statements are used to make decisions based on different conditions.
 By default , statements in JavaScript script executed sequentially from top to bottom. If the processing logic require so, the sequential flow of execution can be altered in two ways:
 
 - Conditional execution: a block of one or more statements will be executed if a certain expression is true
@@ -49,7 +49,7 @@ Conditions can be implementing using the following ways:
 
 ### if
 
-In JavaScript and other programming languages the key word _if_ use to check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
+In JavaScript and other programming languages the key word _if_ is used to check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
 
 ```js
 // syntax
@@ -68,6 +68,8 @@ if (num > 0) {
 //  3 is a positive number
 ```
 
+As you can see in the above condition, 3 is greater than 0 and it is a positive number. The condition was true and the block code was executed. However, if the condition is false, we do not see a result.
+
 ```js
 let isRaining = true
 if (isRaining) {
@@ -75,7 +77,7 @@ if (isRaining) {
 }
 ```
 
-As you can see in the above condition, 3 is greater than 0 and it is a positive number. The condition was true and the block code was executed. However, if the condition is false, we do not see a result. The same goes for the second condition, if isRaining is false the if block will not be executed and we do not see an output. In order to see the result of the falsy condition, we should have another block, which is going to be _else_.
+ The same goes for the second condition, if isRaining is false the if block will not be executed and we do not see an output. In order to see the result of the falsy condition, we should have another block, which is going to be _else_.
 
 ### if else
 
@@ -130,7 +132,7 @@ The above condition is false, therefore the else block was executed. How about i
 
 ### if else if else
 
-On our daily life, we make decision on daily basis. We make decision not by checking  one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full conditions. We use *else if* when we have multiple conditions.
+On our daily life, we make decision on daily basis. We make decision not by checking  one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full of conditions. We use *else if* when we have multiple conditions.
 
 ```js
 // syntax
@@ -241,6 +243,25 @@ switch (day) {
 
 ```
 
+// Examples to use conditions in the cases
+
+```js
+let num = prompt('Enter number');
+switch (true) {
+  case num > 0:
+    console.log('Number is positive');
+    break;
+  case num == 0:
+    console.log('Numbers is zero');
+    break;
+  case num < 0:
+    console.log('Number is negative');
+    break;
+  default:
+    console.log('Entered value was not a number');
+}
+```
+
 ### Ternary Operators
 
 Another way to write conditionals is using ternary operators. We have covered this in other sections but we should also mention it here.
@@ -316,34 +337,34 @@ isRaining
 1. Check if a day is weekend day or a working day. Your script will take day as an input.
 
 ```sh
-    What is the day is today? Saturday
-    Saturday is a weekend day.
+    What is the day  today? Saturday
+    Saturday is a weekend.
 
     What is the day today? saturDaY
-    Saturday is a weekend day.
+    Saturday is a weekend.
 
     What is the day today? Friday
-    Friday is a work day.
+    Friday is a working day.
 
     What is the day today? FrIDAy
-    Friday is a work day.
+    Friday is a working day.
   ```
 
 ### Exercises: Level 3
 
-1. Write a program which tells the number days in a month.
+1. Write a program which tells the number of days in a month.
 
   ```sh
-    Enter month: January
+    Enter a month: January
     January has 31 days.
 
-    Enter month: JANUARY
+    Enter a month: JANUARY
     January has 31 day
 
-    Enter month: February
+    Enter a month: February
     February has 28 days.
 
-    Enter month: FEbruary
+    Enter a month: FEbruary
     February has 28 days.
   ```
 
