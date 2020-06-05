@@ -17,7 +17,7 @@
 
 ![Day 5](../images/banners/day_1_6.png)
 
-- [📔 Day 6](#%f0%9f%93%94-day-6)
+- [📔 Day 6](#-day-6)
   - [Loops](#loops)
     - [for Loop](#for-loop)
     - [while loop](#while-loop)
@@ -25,7 +25,7 @@
     - [for of loop](#for-of-loop)
     - [break](#break)
     - [continue](#continue)
-  - [💻 Exercises:Day 6](#%f0%9f%92%bb-exercisesday-6)
+  - [💻 Exercises:Day 6](#-exercisesday-6)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
     - [Exercises: Level 3](#exercises-level-3)
@@ -36,12 +36,12 @@
 
 Most of the activities we do in life are full of repetitions. Imagine if I ask you to print out from 0 to 100 using console.log(). To implement this simple task it may take you 2 to 5 minutes, such kind of tedious and repetitive task can be carried out using loop.
 
-In programming languages to carry out repetitive task we use different kinds of loop. The following examples are the commonly used loops.
+In programming languages to carry out repetitive task we use different kinds of loops. The following examples are the commonly used loops in JavaScript and other programming languages.
 
 ### for Loop
 
 ```js
-//For loop structure
+// For loop structure
 for(initialization, condition, increment/decrement){
   // code goes here
 }
@@ -51,6 +51,7 @@ for(initialization, condition, increment/decrement){
 for(let i = 0; i <= 5; i++){
   console.log(i)
 }
+
 // 0 1 2 3 4 5
 ```
 
@@ -58,7 +59,8 @@ for(let i = 0; i <= 5; i++){
 for(let i = 5; i >= 0; i--){
   console.log(i)
 }
-// 5  4  3  2  1  0
+
+// 5 4 3 2 1 0
 ```
 
 ```js
@@ -82,7 +84,8 @@ const newArr = []
 for(let i = 0; i < countries.length; i++){
   newArr.push(countries[i].toUpperCase())
 }
-//["FINLAND", "SWEDEN", "DENMARK", "NORWAY", "ICELAND"]
+
+// ["FINLAND", "SWEDEN", "DENMARK", "NORWAY", "ICELAND"]
 ```
 
 Adding all elements in the array
@@ -130,6 +133,7 @@ while (i <= 5) {
   console.log(i)
   i++
 }
+
 // 0 1 2 3 4 5
 ```
 
@@ -141,12 +145,13 @@ do {
   console.log(i)
   i++
 } while (i <= 5)
+
 // 0 1 2 3 4 5
 ```
 
 ### for of loop
 
-We use for of loop for arrays. It is very hand way to iterate through an array if we are not interested in the index.
+We use for of loop for arrays. It is very hand way to iterate through an array if we are not interested in the index of each element in the array.
 
 ```js
 for (const element of arr) {
@@ -159,12 +164,16 @@ for (const element of arr) {
 const numbers = [1, 2, 3, 4, 5]
 
 for (const num of numbers) {
-  console.log(num) //1 2 3 4 5
+  console.log(num)
 }
 
+// 1 2 3 4 5
+
 for (const num of numbers) {
-  console.log(num * num) //1 4 9 16 25
+  console.log(num * num)
 }
+
+// 1 4 9 16 25
 
 // adding all the numbers in the array
 let sum = 0
@@ -172,8 +181,6 @@ for (const num of numbers) {
   sum += sum + num  // can be also shorten like this, sum += num
 }
 console.log(sum) // 15
-
-
 
 const webTechs = [
   'HTML',
@@ -186,11 +193,13 @@ const webTechs = [
 ]
 
 for (const tech of webTechs) {
-  console.log(tech.toUpperCase()) // HTML CSS JAVASCRIPT REACT NODE MONGODB
+  console.log(tech.toUpperCase())
 }
 
+// HTML CSS JAVASCRIPT REACT NODE MONGODB
+
 for (const tech of webTechs) {
-  console.log(tech[0]) //get only the first letter of each element,  H C J R N M
+  console.log(tech[0]) // get only the first letter of each element,  H C J R N M
 }
 
 ```
@@ -207,11 +216,35 @@ console.log(newArr)  // ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
 
 ### break
 
-content will be added soon
+Break is used to interrupt a loop.
+
+```js
+for(let i = 0; i <= 5; i++){
+  if(i == 3){
+    break
+  }
+  console.log(i)
+}
+
+// 0 1 2
+```
+
+The above code stops if 3 found in the iteration process.
 
 ### continue
 
-content will added soon
+We use the keyword *continue* to skip a certain iterations. 
+
+```js
+for(let i = 0; i <= 5; i++){
+  if(i == 3){
+    continue
+  }
+  console.log(i)
+}
+
+// 0 1 2 4 5
+```
 
 🌕 You are so brave, you made it to this far. Now, you have gained the power to automate repetitive and tedious tasks. You have just completed day 6 challenges and you are 6 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
@@ -298,16 +331,16 @@ content will added soon
 7. Use for loop to iterate from 0 to 100 and print only even numbers
 8. Use for loop to iterate from 0 to 100 and print only odd numbers
 9. Use for loop to iterate from 0 to 100 and print only prime numbers
-10. Use for loop to iterate from 0 to 100 and print and print the sum of all numbers.
+10. Use for loop to iterate from 0 to 100 and print the sum of all numbers.
 
     ```sh
-    The sum all numbers is 5050.
+    The sum of all numbers from 0 to 100 is 5050.
     ```
 
 11. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
 
     ```sh
-    The sum of all evens is 2550. And the sum of all odds is 2500.
+    The sum of all evens from 0 to 100 is 2550. And the sum of all odds from 0 to 100 is 2500.
     ```
 
 12. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds. Print sum of evens and sum of odds as array
@@ -378,41 +411,41 @@ content will added soon
     ]
     ```
 
-1. In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print 'All these are countries without land'.
+2. In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print 'All these countries are without land'.
 
     ```sh
     ['Finland', 'Iceland']
     ```
 
-1. In above countries array, check if there is  a country or countries end with a substring 'ia'. If there are countries end with, print it as array. If there is no country containing the word 'ai', print 'These are countries ends without ia'.
+3. In above countries array, check if there is  a country or countries end with a substring 'ia'. If there are countries end with, print it as array. If there is no country containing the word 'ai', print 'These are countries ends without ia'.
 
     ```sh
     ['Albania', 'Bolivia','Ethiopia']
     ```
 
-1. Using the above countries array, find the country containing the biggest number of characters.
+4. Using the above countries array, find the country containing the biggest number of characters.
 
       ```sh
       Ethiopia
       ```
 
-1. Using the above countries array, find the country containing only 5 characters.
+5. Using the above countries array, find the country containing only 5 characters.
 
     ```sh
     ['Japan', 'Kenya']
     ```
 
-1. Find the longest word in the webTechs array
-1. Use the webTechs are to create the following array of arrays:
+6. Find the longest word in the webTechs array
+7. Use the webTechs array to create the following array of arrays:
 
     ```sh
     [["HTML", 4], ["CSS", 3],["JavaScript", 10],["React", 5],["Redux", 5],["Node", 4],["MongoDB", 7]]
     ```
 
-1. An application created using MongoDB, Express, React and Node is called a MERN stack. Create the acronym MERN by using the array mernStack
-1. Iterate through the array, ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"] using a for loop or for of loop and print out the items.
-1. This is a fruit array , ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop without using a reverse method.
-1. Print all the elements of array as shown below.
+8. An application created using MongoDB, Express, React and Node is called a MERN stack app. Create the acronym MERN by using the array mernStack
+9. Iterate through the array, ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"] using a for loop or for of loop and print out the items.
+10. This is a fruit array , ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop without using a reverse method.
+11. Print all the elements of array as shown below.
 
     ```js
       const fullStack = [
