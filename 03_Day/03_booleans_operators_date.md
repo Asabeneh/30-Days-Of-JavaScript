@@ -17,7 +17,7 @@
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_3.png)
 
-- [📔 Day 3](#%f0%9f%93%94-day-3)
+- [📔 Day 3](#-day-3)
   - [Booleans](#booleans)
     - [Truthy values](#truthy-values)
     - [Falsy values](#falsy-values)
@@ -46,7 +46,7 @@
     - [Getting minutes](#getting-minutes)
     - [Getting seconds](#getting-seconds)
     - [Getting time](#getting-time)
-  - [💻 Day 3: Exercises](#%f0%9f%92%bb-day-3-exercises)
+  - [💻 Day 3: Exercises](#-day-3-exercises)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
     - [Exercises: Level 3](#exercises-level-3)
@@ -86,11 +86,11 @@ We agreed that boolean values are either true or false.
 - the boolean false
 - '', "", ``, empty string
 
-It is good to remember those truthy values and falsy values. In later section, we will use them with conditions to make decision.
+It is good to remember those truthy values and falsy values. In later section, we will use them with conditions to make decisions.
 
 ## Undefined
 
-If we declare a variable and if we do not assign a value, the value will be undefined. In addition to this, if a function is not returning the value will be undefined.
+If we declare a variable and if we do not assign a value, the value will be undefined. In addition to this, if a function is not returning the value, it will be undefined.
 
 ```js
 let firstName
@@ -145,23 +145,26 @@ console.log(sum, diff, mult, div, remainder, powerOf) // 7,1,12,1.33,1, 64
 ```
 
 ```js
-let PI = 3.14
+const PI = 3.14
 let radius = 100          // length in meter
-
-const gravity = 9.81      // in m/s2
-let mass = 72             // in Kilogram
-const boilingPoint = 100  // temperature in oC, boiling point of water
-const bodyTemp = 37       // body temperature in oC
 
 //Let us calculate area of a circle
 const areaOfCircle = PI * radius * radius
 console.log(areaOfCircle)  //  314 m
 
+
+const gravity = 9.81      // in m/s2
+let mass = 72             // in Kilogram
+
 // Let us calculate weight of an object
 const weight = mass * gravity
 console.log(weight)        // 706.32 N(Newton)
 
-//Concatenating string with numbers using string interpolation
+const boilingPoint = 100  // temperature in oC, boiling point of water
+const bodyTemp = 37       // body temperature in oC
+
+
+// Concatenating string with numbers using string interpolation
 /*
  The boiling point of water is 100 oC.
  Human body temperature is 37 oC.
@@ -190,14 +193,13 @@ console.log(3 != 2)             // true, because 3 is not equal to 2
 console.log(3 == '3')           // true, compare only value
 console.log(3 === '3')          // false, compare both value and data type
 console.log(3 !== '3')          // true, compare both value and data type
-console.log(3 !== '3')          // true, compare both value and data type
 console.log(3 != 3)             // false, compare only value
 console.log(3 !== 3)            // false, compare both value and data type
 console.log(0 == false)         // true, equivalent
+console.log(0 === false)        // false, not exactly the same
 console.log(0 == '')            // true, equivalent
 console.log(0 == ' ')           // true, equivalent
 console.log(0 === '')           // false, not exactly the same
-console.log(0 === false)        // false, not exactly the same
 console.log(1 == true)          // true, equivalent
 console.log(1 === true)         // false, not exactly the same
 console.log(undefined == null)  // true
@@ -209,13 +211,13 @@ console.log(typeof NaN)         // number
 console.log('mango'.length == 'avocado'.length)  // false
 console.log('mango'.length != 'avocado'.length)  // true
 console.log('mango'.length < 'avocado'.length)   // true
-console.log('milk'.length != 'meat'.length)      // false
 console.log('milk'.length == 'meat'.length)      // true
+console.log('milk'.length != 'meat'.length)      // false
 console.log('tomato'.length == 'potato'.length)  // true
 console.log('python'.length > 'dragon'.length)   // false
 ```
 
-Try to understand the above comparisons with some logic. Remember without any logic might be difficult.
+Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
 JavaScript is some how a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
 
 As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
@@ -224,30 +226,30 @@ As rule of thumb, if a value is not true with == it will not be equal with ===. 
 
 The following symbols are the common logical operators:
 &&(ampersand) , ||(pipe) and !(negation).
-&& gets true only if the two operands are true.
-|| gets true either of the operand is true.
-! negates true to false, false to true.
+The && operator gets true only if the two operands are true.
+The || operator gets true either of the operand is true.
+The ! operator negates true to false and false to true.
 
 ```js
-//&& ampersand operator example
+// && ampersand operator example
 
-const check = 4 > 3 && 10 > 5 // true && true -> true
-const check = 4 > 3 && 10 < 5 // true && false -> false
-const check = 4 < 3 && 10 < 5 // false && false -> false
+const check = 4 > 3 && 10 > 5         // true && true -> true
+const check = 4 > 3 && 10 < 5         // true && false -> false
+const check = 4 < 3 && 10 < 5         // false && false -> false
 
-//|| pipe or operator, example
+// || pipe or operator, example
 
-const check = 4 > 3 || 10 > 5 // true  || true -> true
-const check = 4 > 3 || 10 < 5 // true  || false -> true
-const check = 4 < 3 || 10 < 5 // false || false -> false
+const check = 4 > 3 || 10 > 5         // true  || true -> true
+const check = 4 > 3 || 10 < 5         // true  || false -> true
+const check = 4 < 3 || 10 < 5         // false || false -> false
 
 //! Negation examples
 
-let check = 4 > 3            // true
-let check = !(4 > 3)         //  false
+let check = 4 > 3                     // true
+let check = !(4 > 3)                  //  false
 let isLightOn = true
-let isLightOff = !isLightOn  // false
-let isMarried = !false       // true
+let isLightOff = !isLightOn           // false
+let isMarried = !false                // true
 ```
 
 ### Increment Operator
@@ -258,16 +260,16 @@ In JavaScrip we use the increment operator to increase a value stored in a varia
 
 ```js
 let count = 0
-console.log(++count) // 1
-console.log(count)   // 1
+console.log(++count)        // 1
+console.log(count)          // 1
 ```
 
 1. Post-increment
 
 ```js
 let count = 0
-console.log(count++) // 0
-console.log(count)  // 1
+console.log(count++)        // 0
+console.log(count)          // 1
 ```
 
 We use most of the time post-increment. At leas you should remember how to use post-increment operator.
@@ -349,7 +351,7 @@ alert(message)
 alert('Welcome to 30DaysOfJavaScript')
 ```
 
-Do not use too much alert because it is destructing and annoying, use it just for to test.
+Do not use too much alert because it is destructing and annoying, use it just to test.
 
 ### Window prompt() method
 
@@ -367,8 +369,8 @@ console.log(number)
 ### Window confirm() method
 
 The confirm() method displays a dialog box with a specified message, along with an OK and a Cancel button.
-A confirm box is often used to ask permission from a user to do something. Window confirm() takes an string as an argument.
-Clicking the OK yields true value, clicking the Cancel button yields false value.
+A confirm box is often used to ask permission from a user to execute something. Window confirm() takes a string as an argument.
+Clicking the OK yields true value, whereas clicking the Cancel button yields false value.
 
 ```js
 const agree = confirm('Are you sure you like to delete? ')
@@ -397,7 +399,7 @@ We have created a time object and we can access any date time information from t
 
 ### Getting full year
 
-Let's extract or get the full from a time object.
+Let's extract or get the full year from a time object.
 
 ```js
 const now = new Date()
@@ -419,7 +421,7 @@ Let's extract or get the date of the month from a time object.
 
 ```js
 const now = new Date()
-console.log(now.getDate()) // 4, because the day of the month is 4th,  day(0-31)
+console.log(now.getDate()) // 4, because the day of the month is 4th,  day(1-31)
 ```
 
 ### Getting day
@@ -428,7 +430,8 @@ Let's extract or get the day of the week from a time object.
 
 ```js
 const now = new Date()
-console.log(now.getDay()) // 6, because the day is Saturday which is the 5th day,
+console.log(now.getDay()) // 6, because the day is Saturday which is the 7th day
+//  Sunday is 0, Monday is 1 and Saturday is 6
 // Getting the weekday as a number (0-6)
 ```
 
@@ -494,7 +497,7 @@ const minutes = now.getMinutes() // return number (0 -59)
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
 
-🌕 You have boundless energy. You have just completed day 3 challenges and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕  You have boundless energy. You have just completed day 3 challenges and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## 💻 Day 3: Exercises
 
@@ -618,13 +621,13 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    ```
 
 1. Create a human readable time format using the Date time object
-   1. YYY-MM-DD HH:mm
+   1. YYYY-MM-DD HH:mm
    2. DD-MM-YYYY HH:mm
-   3. DD/MM/YYY HH:mm
+   3. DD/MM/YYYY HH:mm
 
 ### Exercises: Level 3
 
-1. Create a human readable time format using the Date time object. The hour and the minute should be all time two digits(7 hours should be 07 and 5 minutes should be 05 )
+1. Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
    1. YYY-MM-DD HH:mm eg. 20120-01-02 07:05
 
 🎉 CONGRATULATIONS ! 🎉
