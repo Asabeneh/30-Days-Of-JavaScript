@@ -19,9 +19,9 @@
 
 - [📔 Day 4](#%f0%9f%93%94-day-4)
   - [Conditionals](#conditionals)
-    - [if](#if)
-    - [if else](#if-else)
-    - [if else if else](#if-else-if-else)
+    - [If](#if)
+    - [If, Else](#if-else)
+    - [If, Else If, Else](#if-else-if-else)
     - [Switch](#switch)
     - [Ternary Operators](#ternary-operators)
   - [💻 Exercises](#%f0%9f%92%bb-exercises)
@@ -33,11 +33,11 @@
 
 ## Conditionals
 
-Conditional statements are used to decision based on different conditions.
-By default , statements in JavaScript script executed sequentially from top to bottom. If the processing logic require so, the sequential flow of execution can be altered in two ways:
+Conditional statements are used for decisions based on different conditions.
+By default, statements in JavaScript ARE executed sequentially from top to bottom. If the processing logic require so, the sequential flow of execution can be altered in two ways:
 
 - Conditional execution: a block of one or more statements will be executed if a certain expression is true
-- Repetitive execution: a block of one or more statements will be repetitively executed as long as a certain expression is true. In this section, we will cover _if_, _else_ , _else if_ statements. The comparison and logical operator we learned in the previous sections will be useful in here.
+- Repetitive execution: a block of one or more statements will be repetitively executed as long as a certain expression is true. In this section, we will cover _if_, _else_ , _else if_ statements. The comparison and logical operatorS we learned in the previous sections will be useful in here.
 
 Conditions can be implementing using the following ways:
 
@@ -47,14 +47,14 @@ Conditions can be implementing using the following ways:
 - switch
 - ternary operator
 
-### if
+### If
 
-In JavaScript and other programming languages the key word _if_ use to check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
+In JavaScript and other programming languages the key word _if_ is used to check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
 
 ```js
 // syntax
 if (condition) {
-  //this part of code run for truthy condition
+  //this part of code runs for truthy condition
 }
 ```
 
@@ -75,18 +75,18 @@ if (isRaining) {
 }
 ```
 
-As you can see in the above condition, 3 is greater than 0 and it is a positive number. The condition was true and the block code was executed. However, if the condition is false, we do not see a result. The same goes for the second condition, if isRaining is false the if block will not be executed and we do not see an output. In order to see the result of the falsy condition, we should have another block, which is going to be _else_.
+As you can see in the condition examples above, 3 is greater than 0, so it is a positive number. The condition was true and the block of code was executed. However, if the condition is false, we won't see any results. The same goes for the second condition, if isRaining is false the if block will not be executed and we won't see any output. In order to see the result of a falsy condition, we should have another block, which is going to be _else_.
 
-### if else
+### If, Else
 
 If condition is true the first block will be executed, if not the else condition will be executed.
 
 ```js
 // syntax
 if (condition) {
-  // this part of code run for truthy condition
+  // this part of code runs for truthy condition
 } else {
-  // this part of code run for false condition
+  // this part of code runs for false condition
 }
 ```
 
@@ -126,11 +126,11 @@ if (isRaining) {
 // No need for a rain coat.
 ```
 
-The above condition is false, therefore the else block was executed. How about if our condition is more than two, we will use *else if* conditions.
+The last condition is false, therefore the else block was executed. What if we have more than two conditions? We wwould use in that case *else if* conditions.
 
-### if else if else
+### If, Else If, Else
 
-On our daily life, we make decision on daily basis. We make decision not by checking  one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full conditions. We use *else if* when we have multiple conditions.
+In our daily life we make decisions on daily basis. We make decisions not by checking one or two conditions, instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full of conditions. We use *else if* when we have multiple conditions.
 
 ```js
 // syntax
@@ -175,8 +175,8 @@ if (weather === 'rainy') {
 
 ### Switch
 
-Switch  is an alternative for **if else if else else**.
-The switch statement starts with a switch keyword followed by a parenthesis and code block. Inside the code block we will have different cases. Case block run if the value in the switch statement parenthesis match with the case vale. The break is to terminate and it does not go down after the condition is satisfied.  The default block run if all the cases don't satisfy the condition.
+Switch  is an alternative for **If, Else If, Else**.
+The switch statement starts with a switch keyword followed by a parenthesis and code block. Inside the code block we will have different cases. Case block runs, if the value in the switch statement parenthesis matches with the case value. The break statement is to terminate execution so the code execution does not continue running following lines.  The default block runs if all the cases don't satisfy the condition.
 
 ```js
 switch(caseValue){
@@ -243,7 +243,7 @@ switch (day) {
 
 ### Ternary Operators
 
-Another way to write conditionals is using ternary operators. We have covered this in other sections but we should also mention it here.
+Another way to write conditionals is using ternary operators. We have covered this in other sections, but we should also mention it here.
 
 ```js
 let isRaining = true
@@ -252,13 +252,13 @@ isRaining
   : console.log('No need for a rain coat.')
 ```
 
-🌕  You are extraordinary and you have a remarkable potential. You have just completed day 4 challenges and you are four steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
+🌕  You are extraordinary and you have a remarkable potential. You have just completed day 4 challenges and you are four steps ahead on to your way to greatness. Now do some exercises for your brain and for your muscle.  
 
 ## 💻 Exercises
 
 ### Exercises: Level 1
 
-1. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:You are old enough to drive but if not 18 give feedback to wait for the years he supposed to wait for.
+1. Get user input using prompt(“Enter your age:”). If user is 18 or older, give feedback: 'You are old enough to drive', but if not 18 give another feedback stating to wait for the number of years he needs to turn 18. Example:
 
    ```sh
    Enter your age: 30
@@ -268,14 +268,14 @@ isRaining
    You are left with 3 years to drive.
    ```
 
-1. Compare the values of myAge and yourAge using if … else. Based on the comparison log to console who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
+2. Compare the values of myAge and yourAge using if … else. Based on the comparison log output the result to console stating who is older (me or you). Use prompt (“Enter your age:”) to get the age as input.
 
    ```sh
    Enter your age: 30
    You are 5 years older than me.
    ```
 
-1. If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement in to ways
+3. If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in two ways:
 
     - using if else
     - ternary operator.
@@ -289,7 +289,7 @@ isRaining
       4 is greater than 3
     ```
 
-1. Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using JavaScript?
+4. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
 
     ```sh
     Enter a number: 2
@@ -301,19 +301,19 @@ isRaining
 
 ### Exercises: Level 2
 
-1. Write a code which  can give grade to students according to theirs scores:
+1. Write a code which can give grades to students according to theirs scores:
    - 80-100, A
    - 70-89, B
    - 60-69, C
    - 50-59, D
    - 0-49, F
-1. Check if the season is Autumn, Winter, Spring or Summer.
-   If the user input is:
-   - September, October or November, the season is Autumn.
-   - December, January or February, the season is Winter.
-   - March, April or May, the season is Spring
-   - June, July or August, the season is Summer
-1. Check if a day is weekend day or a working day. Your script will take day as an input.
+2. Check if the season is Autumn, Winter, Spring or Summer.
+   The user input should be:
+   - September, October or November - the season is Autumn.
+   - December, January or February - the season is Winter.
+   - March, April or May - the season is Spring
+   - June, July or August - the season is Summer
+3. Check if a day is a weekend day or a working day. Your script will take day as an input.
 
 ```sh
     What is the day is today? Saturday
@@ -331,7 +331,7 @@ isRaining
 
 ### Exercises: Level 3
 
-1. Write a program which tells the number days in a month.
+1. Write a program which tells the number of days in a month. Feel free to implement leap year cases.
 
   ```sh
     Enter month: January
