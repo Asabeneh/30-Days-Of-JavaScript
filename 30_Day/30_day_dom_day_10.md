@@ -12,16 +12,13 @@
 <small> January, 2020</small>
 </sub>
 </div>
+</div>
 
 <div>
-  
 
-<small>Support Asabeneh to create more educational materials</small>
-
-[<img src = '../images/become_patreon.png' alt='become-asabeneh-patreon' title='click' />](https://www.patreon.com/asabeneh?fan_landing=true)  
-
-  </div>
-
+<small>Support [**Asabeneh**](https://www.patreon.com/asabeneh?fan_landing=true) to create more educational materials</small>  
+[<img src = '../images/become_patreon.png' alt='become-asabeneh-patreon' title='click' />](https://www.patreon.com/asabeneh?fan_landing=true) 
+ 
 </div>
 
 [<< Day 29](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master29_Day29_day_dom_day_9.md) | [Day 30>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/30_Day/30_day_dom_day_10.md)
