@@ -18,7 +18,15 @@
   🇷🇺 [Russian](./RU/README.md)
 
   </div>
+<div>
+  <small>Support Asabeneh to create more educational materials</small>
+
+   [<img src = './images/become_patreon.png' alt='become-asabeneh-patreon' title='click' />](https://www.patreon.com/asabeneh?fan_landing=true)
+
+  </div>
 </div>
+</div>
+
 
 [Day 2 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_data_types.md)
 
