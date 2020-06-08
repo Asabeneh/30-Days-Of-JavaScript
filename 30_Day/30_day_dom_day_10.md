@@ -11,14 +11,16 @@
 <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
 <small> January, 2020</small>
 </sub>
+</div>
 
 <div>
-  <small>Support Asabeneh to create more educational materials</small>
+  
 
-   [<img src = '../images/become_patreon.png' alt='become-asabeneh-patreon' title='click' />](https://www.patreon.com/asabeneh?fan_landing=true)
+<small>Support Asabeneh to create more educational materials</small>
+
+[<img src = '../images/become_patreon.png' alt='become-asabeneh-patreon' title='click' />](https://www.patreon.com/asabeneh?fan_landing=true)  
 
   </div>
-</div>
 
 </div>
 
