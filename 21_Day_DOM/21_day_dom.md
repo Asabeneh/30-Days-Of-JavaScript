@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 20](../20_Day_Writing_clean_codes/20_day_writing_clean_code.md) | [Day 22 >>](../22_Day_DOM/22_day_dom_day_2.md)
+[<< Day 20](../20_Day_Writing_clean_codes/20_day_writing_clean_codes.md) | [Day 22 >>](../22_Day_Creating_DOM_elements/22_day_creating_DOM_elements.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_21.png)
 
@@ -406,4 +406,4 @@ As you have notice, the properties of css when we use it in JavaScript is going 
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 20](../20_Day_Writing_clean_codes/20_day_writing_clean_code.md) | [Day 22 >>](../22_Day_DOM/22_day_dom_day_2.md)
+[<< Day 20](../20_Day_Writing_clean_codes/20_day_writing_clean_codes.md) | [Day 22 >>](../22_Day_Creating_DOM_elements/22_day_creating_DOM_elements.md)
