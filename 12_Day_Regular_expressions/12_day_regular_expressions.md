@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript</h1>
+  <h1> 30 Days Of JavaScript: Regular Expressions</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -13,31 +13,31 @@
   </sub>
 </div>
 
-[<< Day 11](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_day_destructuring_and_spread.md) | [Day 13>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/13_Day/13_day_console_object_methods.md)
+[<< Day 11](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md) | [Day 13>>](../13_Day_Console_object_methods/13_day_console_object_methods.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_12.png)
 
-- [📘 Day 12](#%f0%9f%93%98-day-12)
+- [📘 Day 12](#-day-12)
   - [Regular Expressions](#regular-expressions)
-    - [RegExp parameters](#regex-parameters)
+    - [RegExp parameters](#regexp-parameters)
       - [Pattern](#pattern)
       - [Flags](#flags)
-    - [Creating a pattern with RegExp Constructor](#creating-a-pattern-with-regex-constructor)
-    - [Creating a pattern without RegExp Constructor](#creating-a-pattern-without-regex-constructor)
-    - [RegExpp Object Methods](#regexp-object-methods)
+    - [Creating a pattern with RegExp Constructor](#creating-a-pattern-with-regexp-constructor)
+    - [Creating a pattern without RegExp Constructor](#creating-a-pattern-without-regexp-constructor)
+    - [RegExpp Object Methods](#regexpp-object-methods)
       - [Testing for  a match](#testing-for-a-match)
       - [Array containing all of the match](#array-containing-all-of-the-match)
       - [Replacing a substring](#replacing-a-substring)
     - [Square Bracket](#square-bracket)
-    - [Escape character(\\) in RegExp](#escape-character-in-regex)
+    - [Escape character(\\) in RegExp](#escape-character-in-regexp)
     - [One or more times(+)](#one-or-more-times)
     - [Period(.)](#period)
     - [Zero or more times(*)](#zero-or-more-times)
     - [Zero or one times(?)](#zero-or-one-times)
-    - [Quantifier in RegExp](#quantifier-in-regex)
-    - [Cart ^](#cart)
+    - [Quantifier in RegExp](#quantifier-in-regexp)
+    - [Cart ^](#cart-)
     - [Exact match](#exact-match)
-  - [💻 Exercises](#%f0%9f%92%bb-exercises)
+  - [💻 Exercises](#-exercises)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
     - [Exercises: Level 3](#exercises-level-3)
@@ -521,4 +521,4 @@ distance = 12
 🎉 CONGRATULATIONS ! 🎉
 
 
-[<< Day 11](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_day_destructuring_and_spread.md) | [Day 13>>](#)
+[<< Day 11](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md) | [Day 13>>](../13_Day_Console_object_methods/13_day_console_object_methods.md)
