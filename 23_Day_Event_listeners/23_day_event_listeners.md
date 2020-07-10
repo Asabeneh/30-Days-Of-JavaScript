@@ -123,7 +123,6 @@ The following is an example of click type event.
 
   <body>
     <button>Click Me</button>
-
     <script>
       const button = document.querySelector('button')
       button.addEventListener('dblclick', e => {
@@ -156,7 +155,6 @@ The following is an example of click type event.
 
   <body>
     <button>Click Me</button>
-
     <script>
       const button = document.querySelector('button')
       button.addEventListener('mouseenter', e => {
