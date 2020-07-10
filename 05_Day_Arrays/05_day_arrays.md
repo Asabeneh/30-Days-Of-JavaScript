@@ -13,7 +13,7 @@
   </sub>
 </div>
 
-[<< Day 4](../04_Day/04_day_Conditionals.md) | [Day 6 >>](../06_Day/06_day_Loops.md)
+[<< Day 4](../04_Day_Conditionals/04_day_Conditionals.md) | [Day 6 >>](../06_Day_Loops/06_day_Loops.md)
 
 ![Day 5](../images/banners/day_1_5.png)
 
@@ -776,4 +776,4 @@ const webTechs = [
   
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 4](../04_Day/04_day_Conditionals.md) | [Day 6 >>](../06_Day/06_day_Loops.md)
+[<< Day 4](../04_Day_Conditionals/04_day_Conditionals.md) | [Day 6 >>](../06_Day_Loops/06_day_Loops.md)
