@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 24](../24_Day_Mini_project_soloar_system/24_day_mini_project_soloar_system.md) | [Day 26 >>](../26_Day_World_countries_data_visualization_2/26_day_world_countries_data_visualization_2.md)
+[<< Day 24](../24_Day_Project_soloar_system/24_day_project_soloar_system.md) | [Day 26 >>](../26_Day_World_countries_data_visualization_2/26_day_world_countries_data_visualization_2.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_25.png)
 
@@ -36,4 +36,4 @@
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 24](../24_Day_Mini_project_soloar_system/24_day_mini_project_soloar_system.md) | [Day 26 >>](../26_Day_World_countries_data_visualization_2/26_day_world_countries_data_visualization_2.md)
+[<< Day 24](../24_Day_Project_soloar_system/24_day_project_soloar_system.md) | [Day 26 >>](../26_Day_World_countries_data_visualization_2/26_day_world_countries_data_visualization_2.md)
