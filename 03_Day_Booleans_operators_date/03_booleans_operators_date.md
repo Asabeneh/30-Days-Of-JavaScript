@@ -13,7 +13,7 @@
   </sub>
 </div>
 
-[<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_data_types.md) | [Day 4 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md)
+[<< Day 2](../02_Day_Data-types/02_day_Data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_3.png)
 
@@ -632,4 +632,4 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_data_types.md) | [Day 4 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md)
+[<< Day 2](../02_Day_Data-types/02_day_Data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
