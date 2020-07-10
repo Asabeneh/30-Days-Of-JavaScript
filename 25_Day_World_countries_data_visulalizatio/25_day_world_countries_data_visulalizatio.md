@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript</h1>
+  <h1> 30 Days Of JavaScript: World Countrires Data Visualization</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 24](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/24_Day/24_day_dom_day_4.md) | [Day 26 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/26_Day/26_day_dom_day_6.md)
+[<< Day 24](../24_Day_Mini_project_soloar_system/24_day_mini_project_soloar_system.md) | [Day 26 >>](../26_Day_World_countries_data_visulalization/26_day_world_countries_data_visulalizatio.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_25.png)
 
@@ -36,4 +36,4 @@
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 24](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/24_Day/24_day_dom_day_4.md) | [Day 26 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/26_Day/26_day_dom_day_6.md)
+[<< Day 24](../24_Day_Mini_project_soloar_system/24_day_mini_project_soloar_system.md) | [Day 26 >>](../26_Day_World_countries_data_visulalization/26_day_world_countries_data_visulalizatio.md)
