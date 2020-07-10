@@ -13,7 +13,7 @@
   </sub>
 </div>
 
-[<< Day 5](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md) | [Day 7 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/07_Day/07_day_functions.md)
+[<< Day 5](../05_Day_Arrays/05_day_arrays.md) | [Day 7 >>](../07_Day_Functions/07_day_functions.md)
 
 ![Day 5](../images/banners/day_1_6.png)
 
@@ -478,4 +478,4 @@ for(let i = 0; i <= 5; i++){
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 5](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md) | [Day 7 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/07_Day/07_day_functions.md)
+[<< Day 5](../05_Day_Arrays/05_day_arrays.md) | [Day 7 >>](../07_Day_Functions/07_day_functions.md)
