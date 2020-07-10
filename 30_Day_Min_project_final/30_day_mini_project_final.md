@@ -21,7 +21,7 @@
  
 </div>
 
-[<< Day 29](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master29_Day29_day_dom_day_9.md) | [Day 30>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/30_Day/30_day_dom_day_10.md)
+[<< Day 29](../29_Day_Mini_project_animating_characters/29_day_Mini_project_animating_characters.md) 
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_30.png)
 
@@ -56,4 +56,4 @@
 
 ~![Congratulations](./../images/projects/congratulations.gif)
 
-[<< Day 29](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/29_Day/29_day_dom_day_9.md) | [Day 30>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/30_Day/30_day_dom_day_10.md)
+[<< Day 29](../29_Day_Mini_project_animating_characters/29_day_Mini_project_animating_characters.md) 
