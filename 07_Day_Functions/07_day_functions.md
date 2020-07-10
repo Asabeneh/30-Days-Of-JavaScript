@@ -13,7 +13,7 @@
   </sub>
 </div>
 
-[<< Day 6](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_loops.md) | [Day 8 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/08_Day/08_day_objects.md)
+[<< Day 6](../06_Day_Loops/06_day_loops.md) | [Day 8 >>](../08_Day_Objects/08_day_objects.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_7.png)
 
@@ -703,4 +703,4 @@ It ill be covered in other time
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 6](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_loops.md) | [Day 8 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/08_Day/08_day_objects.md)
+[<< Day 6](../06_Day_Loops/06_day_loops.md) | [Day 8 >>](../08_Day_Objects/08_day_objects.md)
