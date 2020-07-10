@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript</h1>
+  <h1> 30 Days Of JavaScript: Error handling</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 13](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/13_Day/13_day_console_object_methods.md) | [Day 15>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/15_Day/15_day_classes.md)
+[<< Day 13](../13_Day_Console_object_methods/13_day_console_object_methods.md) | [Day 15>>](../15_Day_Classes/15_day_classes.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_14.png)
 
@@ -190,4 +190,4 @@ Practice
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 13](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/13_Day/13_day_console_object_methods.md) | [Day 15>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/15_Day/15_day_classes.md)
+[<< Day 13](../13_Day_Console_object_methods/13_day_console_object_methods.md) | [Day 15>>](../15_Day_Classes/15_day_classes.md)
