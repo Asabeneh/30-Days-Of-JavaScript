@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript</h1>
+  <h1> 30 Days Of JavaScript: Closures</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 18](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/18_Day/18_day_promise.md) | [Day 20 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/20_Day/20_day_writing_clean_code.md)
+[<< Day 18](../18_Day_Promises/18_day_promise.md) | [Day 20 >>](../20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_19.png)
 - [Day 19](#day-19)
@@ -101,4 +101,4 @@ console.log(innerFuncs.minusOne)
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 18](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/18_Day/18_day_promise.md) | [Day 20 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/20_Day/20_day_writing_clean_code.md)
+[<< Day 18](../18_Day_Promises/18_day_promise.md) | [Day 20 >>](../20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)
