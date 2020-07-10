@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript</h1>
+  <h1> 30 Days Of JavaScript: Console Object Methods</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 12](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/12_Day/12_day_regular_expressions.md) | [Day 14>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/14_Day/14_day_error_handling.md)
+[<< Day 12](../12_Day_Regular_expressions/12_day_regular_expressions.md) | [Day 14>>](../14_Day_Error_handling/14_day_error_handling.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_13.png)
 
@@ -355,4 +355,4 @@ The console.clear() cleans the browser console.
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 12](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/12_Day/12_day_regular_expressions.md) | [Day 14>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/14_Day/14_day_error_handling.md)
+[<< Day 12](../12_Day_Regular_expressions/12_day_regular_expressions.md) | [Day 14>>](../14_Day_Error_handling/14_day_error_handling.md)
