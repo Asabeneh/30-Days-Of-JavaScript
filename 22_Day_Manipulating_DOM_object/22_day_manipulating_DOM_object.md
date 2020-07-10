@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript</h1>
+  <h1> 30 Days Of JavaScript: Creating DOM Elements</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 21](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/21_Day/21_day_dom.md) | [Day 23 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/23_Day/23_day_dom_day_3.md)
+[<< Day 21](../21_Day_DOM/21_day_dom.md) | [Day 23 >>](../23_Day/23_day_dom_day_3.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_22.png)
 - [Day 22](#day-22)
