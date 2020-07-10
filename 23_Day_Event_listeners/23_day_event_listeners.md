@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 22](../22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md) | [Day 24 >>](../24_Day_Mini_project_solar_system/24_day_mini_project_soloar_system.md)
+[<< Day 22](../22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md) | [Day 24 >>](../24_Day_Mini_project_solar_system/24_day_mini_project_solar_system.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_23.png)
 
@@ -331,4 +331,4 @@ We can access all the key numbers of the keyboard using different event listener
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 22](../22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md) | [Day 24 >>](../24_Day_Mini_project_solar_system/24_day_mini_project_soloar_system.md)
+[<< Day 22](../22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md) | [Day 24 >>](../24_Day_Mini_project_solar_system/24_day_mini_project_solar_system.md)
