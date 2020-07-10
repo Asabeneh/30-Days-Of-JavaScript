@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 28](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/28_Day/28_day_dom_day_8.md) | [Day 30>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/30_Day/30_day_dom_day_10.md)
+[<< Day 28](../28_Day_Mini_project_animating_characters/28_day_mini_project_animating_characters.md) | [Day 30>>](../30_Day_Mini_project_final/30_day_mini_project_final.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_29.png)
 
@@ -41,4 +41,4 @@
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 28](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/28_Day/28_day_dom_day_8.md) | [Day 30>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/30_Day/30_day_dom_day_10.md)
+[<< Day 28](../28_Day_Mini_project_animating_characters/28_day_mini_project_animating_characters.md) | [Day 30>>](../30_Day_Mini_project_final/30_day_mini_project_final.md)
