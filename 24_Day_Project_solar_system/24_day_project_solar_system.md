@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 23](../23_Day_Event_listeners/23_day_event_listeners.md) | [Day 25 >>](../25_Day_World_countries_data_visualization/25_day_world_countries_data_visualization.md)
+[<< Day 23](../23_Day_Event_listeners/23_day_event_listeners.md) | [Day 25 >>](../25_Day_World_countries_data_visualization_1/25_day_world_countries_data_visualization_1.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_24.png)
 
@@ -34,4 +34,5 @@
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 23](../23_Day_Event_listeners/23_day_event_listeners.md) | [Day 25 >>](../25_Day_World_countries_data_visualization/25_day_world_countries_data_visualization.md)
+[<< Day 23](../23_Day_Event_listeners/23_day_event_listeners.md) | [Day 25 >>](../25_Day_World_countries_data_visualization_1/25_day_world_countries_data_visualization_1.md)
+
