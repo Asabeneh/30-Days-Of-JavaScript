@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript</h1>
+  <h1> 30 Days Of JavaScript: Document Object Model(DOM)</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 20](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/20_Day/20_day_writing_clean_code.md) | [Day 22 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/22_Day/22_day_dom_day_2.md)
+[<< Day 20](../20_Day_Writing_clean_codes/20_day_writing_clean_code.md) | [Day 22 >>](../22_Day_DOM/22_day_dom_day_2.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_21.png)
 
@@ -406,4 +406,4 @@ As you have notice, the properties of css when we use it in JavaScript is going 
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 20](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/20_Day/20_day_writing_clean_code.md) | [Day 22 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/22_Day/22_day_dom_day_2.md)
+[<< Day 20](../20_Day_Writing_clean_codes/20_day_writing_clean_code.md) | [Day 22 >>](../22_Day_DOM/22_day_dom_day_2.md)
