@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript</h1>
+  <h1> 30 Days Of JavaScript: Portfolio</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 26](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/26_Day/26_day_dom_day_6.md) | [Day 28>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/28_Day/28_day_dom_day_8.md)
+[<< Day 26](../26_Day_World_countries_data_visualization_2/26_day_world_countries_data_visualization_2.md) | [Day 28 >>](../28_Day_Mini_project_leaderboard/28_day_mini_project_leaderboard.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_27.png)
 
@@ -34,4 +34,4 @@
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 26](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/26_Day/26_day_dom_day_6.md) | [Day 28>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/28_Day/28_day_dom_day_8.md)
+[<< Day 26](../26_Day_World_countries_data_visualization_2/26_day_world_countries_data_visualization_2.md) | [Day 28 >>](../28_Day_Mini_project_leaderboard/28_day_mini_project_leaderboard.md)
