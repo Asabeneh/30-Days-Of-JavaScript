@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript</h1>
+  <h1> 30 Days Of JavaScript: Sets and Maps</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -13,7 +13,7 @@
   </sub>
 </div>
 
-[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_day_destructuring_and_spread.md)
+[<< Day 9](../09_Day_Higher_order_functions/09_day_higher_order_functions.md) | [Day 11>>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)
 
 ![Day 10](../images/banners/day_1_10.png)
 
@@ -414,7 +414,7 @@ const countries = ['Finland', 'Sweden', 'Norway']
 
 1. \*\*\* Use the countries data to find the 10 most spoken languages:
 
-   ````js
+   ```js
    // Your output should look like this
    console.log(mostSpokenLanguages(countries, 10))
    [
@@ -438,8 +438,10 @@ const countries = ['Finland', 'Sweden', 'Norway']
    {'French':45},
    {'Arabic':25}
    ]
-````
+   ```
+
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_day_destructuring_and_spread.md)
+
+[<< Day 9](../09_Day_Higher_order_functions/09_day_higher_order_functions.md) | [Day 11>>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)
