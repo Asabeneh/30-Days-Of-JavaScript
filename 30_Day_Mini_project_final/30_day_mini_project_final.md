@@ -21,7 +21,7 @@
  
 </div>
 
-[<< Day 29](../29_Day_Mini_project_animating_characters/29_day_Mini_project_animating_characters.md) 
+[<< Day 29](../29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md) 
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_30.png)
 
@@ -56,4 +56,4 @@
 
 ~![Congratulations](./../images/projects/congratulations.gif)
 
-[<< Day 29](../29_Day_Mini_project_animating_characters/29_day_Mini_project_animating_characters.md) 
+[<< Day 29](../29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)  
