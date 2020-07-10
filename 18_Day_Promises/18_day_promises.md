@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript</h1>
+  <h1> 30 Days Of JavaScript: Promises</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 17](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/17_Day/17_day_web_storage.md) | [Day 19>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/19_Day/19_day_closure.md)
+[<< Day 17](../17_Day_Web_storages/17_day_web_storages.md) | [Day 19>>](../19_Day_Closures/19_day_closures.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_18.png)
 
@@ -269,4 +269,4 @@ const catsAPI = 'https://api.thecatapi.com/v1/breeds'
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 17](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/17_Day/17_day_web_storage.md) | [Day 19>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/19_Day/19_day_closure.md)
+[<< Day 17](../17_Day_Web_storages/17_day_web_storages.md) | [Day 19>>](../19_Day_Closures/19_day_closures.md)
