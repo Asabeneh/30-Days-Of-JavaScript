@@ -13,7 +13,7 @@
   </sub>
 </div>
 
-[<< Day 8](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/08_Day/08_day_objects.md) | [Day 10 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/10_Day/10_day_Set_and_Map.md)
+[<< Day 8](../08_Day_Objects/08_day_objects.md) | [Day 10 >>](../10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md)
 
 ![Day 5](../images/banners/day_1_9.png)
 
@@ -37,7 +37,7 @@
       - [Sorting string values](#sorting-string-values)
       - [Sorting Numeric values](#sorting-numeric-values)
       - [Sorting Object Arrays](#sorting-object-arrays)
-  - [💻 Exercises](#%f0%9f%92%bb-exercises)
+  - [💻 Exercises](#-exercises)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
     - [Exercises: Level 3](#exercises-level-3)
@@ -701,4 +701,4 @@ const products = [
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 8](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/08_Day/08_day_objects.md) | [Day 10 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/10_Day/10_day_Set_and_Map.md)
+[<< Day 8](../08_Day_Objects/08_day_objects.md) | [Day 10 >>](../10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md)
