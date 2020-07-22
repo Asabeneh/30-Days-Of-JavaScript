@@ -368,7 +368,7 @@ const person = {
     city: 'Helsinki'
   },
   getPersonInfo: function() {
-    return `I am ${this.firstName} and I live in ${city}, ${this.country}. I am ${this.age}.`
+    return `I am ${this.firstName} and I live in ${this.city}, ${this.country}. I am ${this.age}.`
   }
 }
 
