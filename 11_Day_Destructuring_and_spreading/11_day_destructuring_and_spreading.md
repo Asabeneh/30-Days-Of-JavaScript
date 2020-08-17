@@ -57,7 +57,7 @@ Destructuring is a way to unpack arrays, and objects and assigning to a distinct
 
 ```js
   const names = ['Asabeneh', 'Brook', 'David', 'John']
-  let [firstPerson, secondPerson, ThirdPerson, fourth Person] = names
+  let [firstPerson, secondPerson, thirdPerson, fourth Person] = names
 
   console.log(firstName, secondPerson,thirdPerson, fourthPerson)
 ```
@@ -108,7 +108,7 @@ If we like to skip on of the values in the array we use additional comma. The co
 
 ```js
   const names = ['Asabeneh', 'Brook', 'David', 'John']
-  let [, secondPerson, , fourth Person] = name // first and third person is omitted
+  let [, secondPerson, , fourthPerson] = name // first and third person is omitted
 
   console.log(secondPerson, fourthPerson)
 ```

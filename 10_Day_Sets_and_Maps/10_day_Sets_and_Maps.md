@@ -7,10 +7,11 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> January, 2020</small>
-  </sub>
+<sub>Author:
+<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<small> January, 2020</small>
+</sub>
+
 </div>
 
 [<< Day 9](../09_Day_Higher_order_functions/09_day_higher_order_functions.md) | [Day 11>>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)
@@ -67,7 +68,7 @@ const languages = [
   'French',
   'Spanish',
   'English',
-  'French'
+  'French',
 ]
 
 const setOfLangauges = new Set(languages)
@@ -88,7 +89,7 @@ const languages = [
   'French',
   'Spanish',
   'English',
-  'French'
+  'French',
 ]
 
 const setOfLangauges = new Set(languages)
@@ -183,7 +184,7 @@ const languages = [
   'French',
   'Spanish',
   'English',
-  'French'
+  'French',
 ]
 const langSet = new Set(languages)
 console.log(langSet) // Set(4) {"English", "Finnish", "French", "Spanish"}
@@ -193,7 +194,7 @@ const counts = []
 const count = {}
 
 for (const l of langSet) {
-  const filteredLang = languages.filter(lng => lng === l)
+  const filteredLang = languages.filter((lng) => lng === l)
   console.log(filteredLang) // ["English", "English", "English"]
   counts.push({ lang: l, count: filteredLang.length })
 }
@@ -201,11 +202,11 @@ console.log(counts)
 ```
 
 ```js
-[
+;[
   { lang: 'English', count: 3 },
   { lang: 'Finnish', count: 1 },
   { lang: 'French', count: 2 },
-  { lang: 'Spanish', count: 1 }
+  { lang: 'Spanish', count: 1 },
 ]
 ```
 
@@ -254,7 +255,7 @@ let b = [3, 4, 5, 6]
 let A = new Set(a)
 let B = new Set(b)
 
-let c = a.filter(num => B.has(num))
+let c = a.filter((num) => B.has(num))
 let C = new Set(c)
 
 console.log(C)
@@ -276,7 +277,7 @@ let b = [3, 4, 5, 6]
 let A = new Set(a)
 let B = new Set(b)
 
-let c = a.filter(num => !B.has(num))
+let c = a.filter((num) => !B.has(num))
 let C = new Set(c)
 
 console.log(C)
@@ -306,7 +307,7 @@ Map(0) {}
 countries = [
   ['Finland', 'Helsinki'],
   ['Sweden', 'Stockholm'],
-  ['Norway', 'Oslo']
+  ['Norway', 'Oslo'],
 ]
 const map = new Map(countries)
 console.log(map)
@@ -347,7 +348,7 @@ Helsinki
 
 ### Checking key in Map
 
-Check if a key exist in a map using *has* method. It returns *true* or *false*.
+Check if a key exist in a map using _has_ method. It returns _true_ or _false_.
 
 ```js
 console.log(countriesMap.has('Finland'))
@@ -416,32 +417,35 @@ const countries = ['Finland', 'Sweden', 'Norway']
 
    ```js
    // Your output should look like this
-   console.log(mostSpokenLanguages(countries, 10))
-   [
-   {'English':91},
-   {'French':45},
-   {'Arabic':25},
-   {'Spanish':24},
-   {'Russian':9},
-   {'Portuguese':9},
-   {'Dutch':8},
-   {'German':7},
-   {'Chinese':5},
-   {'Swahili':4},
-   {'Serbian':4}]
+   console.log(mostSpokenLanguages(countries, 10))[
+     ({ English: 91 },
+     { French: 45 },
+     { Arabic: 25 },
+     { Spanish: 24 },
+     { Russian: 9 },
+     { Portuguese: 9 },
+     { Dutch: 8 },
+     { German: 7 },
+     { Chinese: 5 },
+     { Swahili: 4 },
+     { Serbian: 4 })
+   ]
 
    // Your output should look like this
    console.log(mostSpokenLanguages(countries, 3))
-
-  [
-   {'English':91},
-   {'French':45},
-   {'Arabic':25}
-   ]
    ```
+
+[
+{'English':91},
+{'French':45},
+{'Arabic':25}
+]
+
+```
 
 
 🎉 CONGRATULATIONS ! 🎉
 
 
 [<< Day 9](../09_Day_Higher_order_functions/09_day_higher_order_functions.md) | [Day 11>>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)
+```
