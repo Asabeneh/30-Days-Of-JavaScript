@@ -7,10 +7,11 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> January, 2020</small>
-  </sub>
+<sub>Author:
+<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<small> January, 2020</small>
+</sub>
+
 </div>
 
 [<< Day 8](../08_Day_Objects/08_day_objects.md) | [Day 10 >>](../10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md)
@@ -181,7 +182,7 @@ Instead of writing regular loop, latest version of JavaScript introduced lots of
 _forEach_: Iterate an array elements. We use _forEach_ only with arrays. It takes a callback function with elements, index parameter and array itself. The index and the array optional.
 
 ```js
-arr.forEach(function(element, index, arr) {
+arr.forEach(function (element, index, arr) {
   console.log(index, element, arr)
 })
 // The above code can be written using arrow function
@@ -222,7 +223,7 @@ console.log(sum)
 
 ```js
 const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
-countries.forEach(element => console.log(element.toUpperCase()))
+countries.forEach((element) => console.log(element.toUpperCase()))
 ```
 
 ```sh
@@ -238,7 +239,7 @@ ICELAND
 _map_: Iterate an array elements and modify the array elements. It takes a callback function with elements and index parameter and return a new array.
 
 ```js
-const modifiedArray = arr.map(function(element, index) {
+const modifiedArray = arr.map(function (element, index) {
   return element
 })
 ```
@@ -249,7 +250,7 @@ const modifiedArray = arr.map((element,index) => element);
 */
 //Example
 const numbers = [1, 2, 3, 4, 5]
-const numbersSquare = numbers.map(num => num * num)
+const numbersSquare = numbers.map((num) => num * num)
 
 console.log(numbersSquare)
 ```
@@ -260,7 +261,7 @@ console.log(numbersSquare)
 
 ```js
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
-const namesToUpperCase = names.map(name => name.toUpperCase())
+const namesToUpperCase = names.map((name) => name.toUpperCase())
 console.log(namesToUpperCase)
 ```
 
@@ -280,9 +281,9 @@ const countries = [
   'Hungary',
   'Ireland',
   'Japan',
-  'Kenya'
+  'Kenya',
 ]
-const countriesToUpperCase = countries.map(country => country.toUpperCase())
+const countriesToUpperCase = countries.map((country) => country.toUpperCase())
 console.log(countriesToUpperCase)
 
 /*
@@ -300,7 +301,7 @@ const countriesToUpperCase = countries.map(country => country.toUpperCase());
 ```
 
 ```js
-const countriesFirstThreeLetters = countries.map(country =>
+const countriesFirstThreeLetters = countries.map((country) =>
   country.toUpperCase().slice(0, 3)
 )
 ```
@@ -315,7 +316,7 @@ _Filter_: Filter out items which full fill filtering conditions and return a new
 
 ```js
 //Filter countries containing land
-const countriesContainingLand = countries.filter(country =>
+const countriesContainingLand = countries.filter((country) =>
   country.includes('land')
 )
 console.log(countriesContainingLand)
@@ -326,7 +327,7 @@ console.log(countriesContainingLand)
 ```
 
 ```js
-const countriesEndsByia = countries.filter(country => country.includes('ia'))
+const countriesEndsByia = countries.filter((country) => country.includes('ia'))
 console.log(countriesEndsByia)
 ```
 
@@ -336,7 +337,7 @@ console.log(countriesEndsByia)
 
 ```js
 const countriesHaveFiveLetters = countries.filter(
-  country => country.length === 5
+  (country) => country.length === 5
 )
 console.log(countriesHaveFiveLetters)
 ```
@@ -351,10 +352,10 @@ const scores = [
   { name: 'Mathias', score: 80 },
   { name: 'Elias', score: 50 },
   { name: 'Martha', score: 85 },
-  { name: 'John', score: 100 }
+  { name: 'John', score: 100 },
 ]
 
-const scoresGreaterEight = scores.filter(score => score.score > 80)
+const scoresGreaterEight = scores.filter((score) => score.score > 80)
 console.log(scoresGreaterEight)
 ```
 
@@ -383,7 +384,7 @@ _every_: Check if all the elements are similar in one aspect. It returns boolean
 
 ```js
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
-const areAllStr = names.every(name => typeof name === 'string')
+const areAllStr = names.every((name) => typeof name === 'string')
 
 console.log(arrAllStr)
 ```
@@ -394,7 +395,7 @@ true
 
 ```js
 const bools = [true, true, true, true]
-const areAllTrue = bools.every(b => {
+const areAllTrue = bools.every((b) => {
   return b === true
 })
 
@@ -412,7 +413,7 @@ _find_: Return the first element which satisfies the condition
 
 ```js
 const ages = [24, 22, 25, 32, 35, 18]
-const age = ages.find(age => age < 20)
+const age = ages.find((age) => age < 20)
 
 console.log(age)
 ```
@@ -423,7 +424,7 @@ console.log(age)
 
 ```js
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
-const result = names.find(name => name.length > 7)
+const result = names.find((name) => name.length > 7)
 console.log(result)
 ```
 
@@ -437,10 +438,10 @@ const scores = [
   { name: 'Mathias', score: 80 },
   { name: 'Elias', score: 50 },
   { name: 'Martha', score: 85 },
-  { name: 'John', score: 100 }
+  { name: 'John', score: 100 },
 ]
 
-const score = scores.find(user => {
+const score = scores.find((user) => {
   return user.score > 80
 })
 console.log(score)
@@ -458,10 +459,10 @@ _findIndex_: Return the position of the first element which satisfies the condit
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 const ages = [24, 22, 25, 32, 35, 18]
 
-const result = names.findIndex(name => name.length > 7)
+const result = names.findIndex((name) => name.length > 7)
 console.log(result) // 0
 
-const age = ages.findIndex(age => age < 20)
+const age = ages.findIndex((age) => age < 20)
 console.log(age) // 5
 ```
 
@@ -473,7 +474,7 @@ _some_: Check if some of the elements are similar in one aspect. It returns bool
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 const bools = [true, true, true, true]
 
-const areSomeTrue = bools.some(b => {
+const areSomeTrue = bools.some((b) => {
   return b === true
 })
 
@@ -481,10 +482,9 @@ console.log(areSomeTrue) //true
 ```
 
 ```js
-const areAllStr = names.some(name => typeof name === 'number')
+const areAllStr = names.some((name) => typeof name === 'number')
 console.log(areAllStr) // false
 ```
-
 
 ### sort
 
@@ -506,13 +506,13 @@ As you can see in the example below, 100 came first after sorted in ascending or
 const numbers = [9.81, 3.14, 100, 37]
 // Using sort method to sort number items provide a wrong result. see below
 console.log(numbers.sort()) //[100, 3.14, 37, 9.81]
-numbers.sort(function(a, b) {
+numbers.sort(function (a, b) {
   return a - b
 })
 
 console.log(numbers) // [3.14, 9.81, 37, 100]
 
-numbers.sort(function(a, b) {
+numbers.sort(function (a, b) {
   return b - a
 })
 console.log(numbers) //[100, 37, 9.81, 3.14]
@@ -523,7 +523,7 @@ console.log(numbers) //[100, 37, 9.81, 3.14]
 When ever we sort objects in an array. We use the object key to compare. Lets see the example below.
 
 ```js
-objArr.sort(function(a, b) {
+objArr.sort(function (a, b) {
   if (a.key < b.key) return -1
   if (a.key > b.key) return 1
   return 0
@@ -531,7 +531,7 @@ objArr.sort(function(a, b) {
 
 // or
 
-objArr.sort(function(a, b) {
+objArr.sort(function (a, b) {
   if (a['key'] < b['key']) return -1
   if (a['key'] > b['key']) return 1
   return 0
@@ -541,7 +541,7 @@ const users = [
   { name: 'Asabeneh', age: 150 },
   { name: 'Brook', age: 50 },
   { name: 'Eyo', age: 100 },
-  { name: 'Elias', age: 22 }
+  { name: 'Elias', age: 22 },
 ]
 users.sort((a, b) => {
   if (a.age < b.age) return -1
@@ -568,7 +568,7 @@ const products = [
   { product: 'potato', price: ' ' },
   { product: 'avocado', price: 8 },
   { product: 'coffee', price: 10 },
-  { product: 'tea', price: '' }
+  { product: 'tea', price: '' },
 ]
 ```
 
@@ -587,17 +587,17 @@ const products = [
 13. Use **_filter_** to filter out countries containing six letters and more in the country array.
 14. Use **_filter_** to filter out country start with 'E';
 15. Use **_filter_** to filter out only prices with values.
-18. Declare a function called getStringLists which takes an array as a parameter and then returns an array only with string items.
-19. Use **_reduce_** to sum all the numbers in the numbers array.
-20. Use **_reduce_** to concatenate all the countries and to produce this sentence: **_Estonia, Finland, Sweden, Denmark, Norway, and IceLand are north European countries_**
-21. Explain the difference between **_some_** and **_every_**
-22. Use **_some_** to check if some names' length greater than seven in names array
-23. Use **_every_** to check if all the countries contain the word land
-24. Explain the difference between **_find_** and **_findIndex_**.
-25. Use **_find_** to find the first country containing only six letters in the countries array
-26. Use **_findIndex_** to find the position of the first country containing only six letters in the countries array
-27. Use **_findIndex_** to find the position of **_Norway_** if it doesn't exist in the array you will get -1.
-28. Use **_findIndex_** to find the position of **_Russia_** if it doesn't exist in the array you will get -1.
+16. Declare a function called getStringLists which takes an array as a parameter and then returns an array only with string items.
+17. Use **_reduce_** to sum all the numbers in the numbers array.
+18. Use **_reduce_** to concatenate all the countries and to produce this sentence: **_Estonia, Finland, Sweden, Denmark, Norway, and IceLand are north European countries_**
+19. Explain the difference between **_some_** and **_every_**
+20. Use **_some_** to check if some names' length greater than seven in names array
+21. Use **_every_** to check if all the countries contain the word land
+22. Explain the difference between **_find_** and **_findIndex_**.
+23. Use **_find_** to find the first country containing only six letters in the countries array
+24. Use **_findIndex_** to find the position of the first country containing only six letters in the countries array
+25. Use **_findIndex_** to find the position of **_Norway_** if it doesn't exist in the array you will get -1.
+26. Use **_findIndex_** to find the position of **_Russia_** if it doesn't exist in the array you will get -1.
 
 ### Exercises: Level 2
 
@@ -614,90 +614,94 @@ const products = [
 1. Use the countries information, in the data folder. Sort countries by name, by capital, by population
 1. \*\*\* Find the 10 most spoken languages:
 
-    ````js
-    // Your output should look like this
-    console.log(mostSpokenLanguages(countries, 10))
-    [(91, 'English'),
-    (45, 'French'),
-    (25, 'Arabic'),
-    (24, 'Spanish'),
-    (9, 'Russian'),
-    (9, 'Portuguese'),
-    (8, 'Dutch'),
-    (7, 'German'),
-    (5, 'Chinese'),
-    (4, 'Swahili'),
-    (4, 'Serbian')]
+   ````js
+   // Your output should look like this
+   console.log(mostSpokenLanguages(countries, 10))
+   [
+   {country: 'English',count:91},
+   {country: 'French',count:45},
+   {country: 'Arabic',count:25},
+   {country: 'Spanish',count:24},
+   {country:'Russian',count:9},
+   {country:'Portuguese', count:9},
+   {country:'Dutch',count:8},
+   {country:'German',count:7},
+   {country:'Chinese',count:5},
+   {country:'Swahili',count:4},
+   {country:'Serbian',count:4}
+   ]
 
-    // Your output should look like this
-    console.log(mostSpokenLanguages(countries, 3))
-    [
-    (91, 'English'),
-    (45, 'French'),
-    (25, 'Arabic')
-    ]```
+   // Your output should look like this
+   console.log(mostSpokenLanguages(countries, 3))
+   [
+   {country: 'English',count: 91},
+   {country: 'French',count: 45},
+   {country: 'Arabic',count: 25},
+   ]```
 
-    ````
+   ````
 
 1. \*\*\* Use countries_data.js file create a function which create the ten most populated countries
 
-    ````js
-    console.log(mostPopulatedCountries(countries, 10))
+   ````js
+   console.log(mostPopulatedCountries(countries, 10))
 
-    [
-    {country: 'China', population: 1377422166},
-    {country: 'India', population: 1295210000},
-    {country: 'United States of America', population: 323947000},
-    {country: 'Indonesia', population: 258705000},
-    {country: 'Brazil', population: 206135893},
-    {country: 'Pakistan', population: 194125062},
-    {country: 'Nigeria', population: 186988000},
-    {country: 'Bangladesh', population: 161006790},
-    {country: 'Russian Federation', population: 146599183},
-    {country: 'Japan', population: 126960000}
-    ]
+   [
+   {country: 'China', population: 1377422166},
+   {country: 'India', population: 1295210000},
+   {country: 'United States of America', population: 323947000},
+   {country: 'Indonesia', population: 258705000},
+   {country: 'Brazil', population: 206135893},
+   {country: 'Pakistan', population: 194125062},
+   {country: 'Nigeria', population: 186988000},
+   {country: 'Bangladesh', population: 161006790},
+   {country: 'Russian Federation', population: 146599183},
+   {country: 'Japan', population: 126960000}
+   ]
 
-    console.log(mostPopulatedCountries(countries, 3))
-    [
-    {country: 'China', population: 1377422166},
-    {country: 'India', population: 1295210000},
-    {country: 'United States of America', population: 323947000}
-    ]
-    ```
+   console.log(mostPopulatedCountries(countries, 3))
+   [
+   {country: 'China', population: 1377422166},
+   {country: 'India', population: 1295210000},
+   {country: 'United States of America', population: 323947000}
+   ]
+   ```
+
+   ````
 
 1. \*\*\* Try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create an object called statistics and create all the functions which do statistical calculations as method for the statistics object. Check the output below.
 
-    ```js
-    const ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
+   ```js
+   const ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
 
-    console.log('Count:', statistics.count()) // 25
-    console.log('Sum: ', statistics.sum()) // 744
-    console.log('Min: ', statistics.min()) // 24
-    console.log('Max: ', statistics.max()) // 38
-    console.log('Range: ', statistics.range() // 14
-    console.log('Mean: ', statistics.mean()) // 30
-    console.log('Median: ',statistics.median()) // 29
-    console.log('Mode: ', statistics.mode()) // {'mode': 26, 'count': 5}
-    console.log('Variance: ',statistics.var()) // 17.5
-    console.log('Standard Deviation: ', statistics.std()) // 4.2
-    console.log('Variance: ',statistics.var()) // 17.5
-    console.log('Frequency Distribution: ',statistics.freqDist()) # [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
-    ```
+   console.log('Count:', statistics.count()) // 25
+   console.log('Sum: ', statistics.sum()) // 744
+   console.log('Min: ', statistics.min()) // 24
+   console.log('Max: ', statistics.max()) // 38
+   console.log('Range: ', statistics.range() // 14
+   console.log('Mean: ', statistics.mean()) // 30
+   console.log('Median: ',statistics.median()) // 29
+   console.log('Mode: ', statistics.mode()) // {'mode': 26, 'count': 5}
+   console.log('Variance: ',statistics.var()) // 17.5
+   console.log('Standard Deviation: ', statistics.std()) // 4.2
+   console.log('Variance: ',statistics.var()) // 17.5
+   console.log('Frequency Distribution: ',statistics.freqDist()) # [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
+   ```
 
-    ```sh
-    console.log(statistics.describe())
-    Count: 25
-    Sum:  744
-    Min:  24
-    Max:  38
-    Range:  14
-    Mean:  30
-    Median:  29
-    Mode:  (26, 5)
-    Variance:  17.5
-    Standard Deviation:  4.2
-    Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
-    ```
+   ```sh
+   console.log(statistics.describe())
+   Count: 25
+   Sum:  744
+   Min:  24
+   Max:  38
+   Range:  14
+   Mean:  30
+   Median:  29
+   Mode:  (26, 5)
+   Variance:  17.5
+   Standard Deviation:  4.2
+   Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
+   ```
 
 🎉 CONGRATULATIONS ! 🎉
 
