@@ -236,10 +236,10 @@ ICELAND
 
 ### map
 
-_map_: Iterate an array elements and modify the array elements. It takes a callback function with elements and index parameter and return a new array.
+_map_: Iterate an array elements and modify the array elements. It takes a callback function with elements,  index , array parameter and return a new array.
 
 ```js
-const modifiedArray = arr.map(function (element, index) {
+const modifiedArray = arr.map(function (element, index, arr) {
   return element
 })
 ```
@@ -327,7 +327,7 @@ console.log(countriesContainingLand)
 ```
 
 ```js
-const countriesEndsByia = countries.filter((country) => country.includes('ia'))
+const countriesEndsByia = countries.filter((country) => country.endsWith('ia'))
 console.log(countriesEndsByia)
 ```
 
@@ -365,11 +365,18 @@ console.log(scoresGreaterEight)
 
 ### reduce
 
-_reduce_: Reduce takes a callback function. The call back function takes accumulator and current value as a parameter and returns a single value:
+_reduce_: Reduce takes a callback function. The call back function takes accumulator,  current, and optional initial value as a parameter and returns a single value. It is a good practice to define an initial value for the accumulator value. If we do not specify this parameter, by default accumulator will get array `first value`. If our array is an _empty array_, then `Javascript` will throw an error.
+
+```js
+arr.reduce((acc, cur) => {
+  // some operations goes here before returning a value
+ return 
+}, initialValue)
+```
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
-const sum = numbers.reduce((accum, curr) => accum + curr)
+const sum = numbers.reduce((acc, cur) => acc + cur, 0)
 
 console.log(sum)
 ```
