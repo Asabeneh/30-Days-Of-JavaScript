@@ -634,8 +634,7 @@ const products = [
    {country:'Dutch',count:8},
    {country:'German',count:7},
    {country:'Chinese',count:5},
-   {country:'Swahili',count:4},
-   {country:'Serbian',count:4}
+   {country:'Swahili',count:4}
    ]
 
    // Your output should look like this
@@ -648,7 +647,7 @@ const products = [
 
    ````
 
-1. \*\*\* Use countries_data.js file create a function which create the ten most populated countries
+2. \*\*\* Use countries_data.js file create a function which create the ten most populated countries
 
    ````js
    console.log(mostPopulatedCountries(countries, 10))
@@ -676,7 +675,7 @@ const products = [
 
    ````
 
-1. \*\*\* Try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create an object called statistics and create all the functions which do statistical calculations as method for the statistics object. Check the output below.
+3. \*\*\* Try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create an object called statistics and create all the functions which do statistical calculations as method for the statistics object. Check the output below.
 
    ```js
    const ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
