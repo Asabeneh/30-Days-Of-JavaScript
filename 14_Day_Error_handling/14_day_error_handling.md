@@ -80,7 +80,7 @@ try {
 ```sh
 ReferenceError: fistName is not defined
     at <anonymous>:4:20
-In any case I will be executed
+In any case it  will be executed
 ```
 
 The catch block take a parameter. It is common to pass e, err or error as a parameter to the catch block. This parameter is an object and it has name and message keys. Lets use the name and message.
