@@ -267,7 +267,7 @@ Set(3) {3, 4, 5}
 
 ### Difference of sets
 
-To find an the difference between two sets can be achieved using filter. Lets find the different of set A and set B (A \ B)
+To find  the difference between two sets can be achieved using filter. Lets find the different of set A and set B (A \ B)
 
 ```js
 let a = [1, 2, 3, 4, 5]
@@ -300,7 +300,7 @@ console.log(map)
 Map(0) {}
 ```
 
-### Creating an Map from array
+### Creating a Map from array
 
 ```js
 countries = [
