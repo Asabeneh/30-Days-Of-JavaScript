@@ -441,11 +441,10 @@ const countries = ['Finland', 'Sweden', 'Norway']
 {'Arabic':25}
 ]
 
-```
 
 
 🎉 CONGRATULATIONS ! 🎉
 
 
 [<< Day 9](../09_Day_Higher_order_functions/09_day_higher_order_functions.md) | [Day 11>>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)
-```
+
