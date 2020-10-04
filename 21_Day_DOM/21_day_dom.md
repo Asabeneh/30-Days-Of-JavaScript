@@ -57,7 +57,7 @@ We can access already created element or elements using JavaScript. To access or
 
 ```html
 <!DOCTYPE html>
-  <html>
+  <html lang="en">
     <head>
       <title>Document Object Model</title>
     </head>
@@ -234,7 +234,7 @@ It value we assign is going to be a string of HTML elements.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>JavaScript for Everyone:DOM</title>
   </head>
@@ -264,7 +264,7 @@ The innerHTML property can allow us also to remove all the children of a parent 
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>JavaScript for Everyone:DOM</title>
   </head>
@@ -378,7 +378,7 @@ As you have notice, the properties of css when we use it in JavaScript is going 
 ```html
 <!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>JavaScript for Everyone:DOM</title>
   </head>

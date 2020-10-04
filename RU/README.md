@@ -281,7 +281,7 @@ JavaScript можно добавить на веб-страницу тремя �
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfScript: Встроенный скрипт</title>
   </head>
@@ -302,7 +302,7 @@ JavaScript можно добавить на веб-страницу тремя �
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfScript: Внутренний скрипт</title>
     <script>
@@ -317,7 +317,7 @@ JavaScript можно добавить на веб-страницу тремя �
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfScript: Внутренний скрипт</title>
   </head>
@@ -349,7 +349,7 @@ console.log("Добро пожаловать на 30 дней JavaScript");
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfJavaScript: Внешний скрипт</title>
     <script src="introduction.js"></script>
@@ -362,7 +362,7 @@ console.log("Добро пожаловать на 30 дней JavaScript");
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfJavaScript:External script</title>
   </head>
@@ -386,7 +386,7 @@ console.log("Hello, World!");
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Multiple External Scripts</title>
   </head>

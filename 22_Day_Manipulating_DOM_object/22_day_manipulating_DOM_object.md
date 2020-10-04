@@ -43,7 +43,7 @@ document.createElement('tagname')
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Document Object Model:30 Days Of JavaScript</title>
@@ -71,7 +71,7 @@ After we create the element we can assign value to the different properties of t
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Document Object Model:30 Days Of JavaScript</title>
@@ -100,7 +100,7 @@ To see a created element on the HTML document we should append it to the parent 
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Document Object Model:30 Days Of JavaScript</title>
@@ -131,7 +131,7 @@ After creating an HTML, we may want to remove element or elements and we can use
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Document Object Model:30 Days Of JavaScript</title>
@@ -167,7 +167,7 @@ As we have see in the previous section there is a better way to eliminate all th
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Document Object Model:30 Days Of JavaScript</title>

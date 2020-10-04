@@ -254,7 +254,7 @@ Las siguientes secciones muestran diferentes formas de añadir código JavaScrip
 Crea una carpeta en tu escritorio y llámala 30DíasDeJS o en cualquier lugar y crea un archivo **_index.html_** en la carpeta del proyecto. Luego pega el siguiente código y ábrelo en un navegador, ya sea en [Chrome](https://www.google.com/chrome/).
 
     <!DOCTYPE html>
-      <html>
+      <html lang="en">
        <head>
          <title>30DíasDeJS:Inline Script</title>
        </head>
@@ -271,7 +271,7 @@ Ahora, escribiste tu primer inline script. Podemos crear un mensaje de alerta em
 El Script interno puede ser escrito en la cabecera del código _('head')_ o en el cuerpo _('body')_, pero es preferible ponerlo en el cuerpo del documento HTML. Primero, escribamos en la parte de la cabeza de la página.
 
     <!DOCTYPE html>
-    <html>
+    <html lang="en">
         <head>
         <title>30DíasDeJS:Scripts Internos</title>
         <script>
@@ -285,7 +285,7 @@ El Script interno puede ser escrito en la cabecera del código _('head')_ o en e
 Así es como escribimos el guión interno la mayor parte del tiempo. Escribir el código de JavaScript en la sección del body es el lugar más recomendado. Abre la consola del navegador para ver la respuesta del console.log()
 
     <!DOCTYPE html>
-    <html>
+    <html lang="en">
         <head>
          <title>30DíasDeJS:Scripts Internos</title>
         </head>
@@ -310,7 +310,7 @@ Al igual que el script interno, el enlace del script externo puede estar en la c
 **Script externo en la cabecera**
 
     <!DOCTYPE html>
-    <html>
+    <html lang="en">
         <head>
          <title>30DíasDeJS:Scripts Externos</title>
         <script src="introduction.js"></script>
@@ -322,7 +322,7 @@ Al igual que el script interno, el enlace del script externo puede estar en la c
 **Script externo en el cuerpo**
 
     <!DOCTYPE html>
-    <html>
+    <html lang="en">
         <head>
          <title>30DíasDeJS:Scripts Externos</title>
         </head>
@@ -343,7 +343,7 @@ Podemos enlazar múltiples archivos externos de JavaScript a una página web. Cr
 
 
     <!DOCTYPE html>
-    <html>
+    <html lang="en">
         <cabeza>
         <título>Múltiples guiones externos</título>
         </cabeza>

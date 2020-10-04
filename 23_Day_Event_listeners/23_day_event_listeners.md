@@ -62,7 +62,7 @@ The following is an example of click type event.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Document Object Model</title>
   </head>
@@ -91,7 +91,7 @@ An event can be also attached directly to the HTML element as inline script.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Document Object Model</title>
   </head>
@@ -116,7 +116,7 @@ The following is an example of click type event.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Document Object Model</title>
   </head>
@@ -148,7 +148,7 @@ The following is an example of click type event.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Document Object Model</title>
   </head>
@@ -198,7 +198,7 @@ We usually fill forms and forms accept data. Form fields are created using input
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Document Object Model:30 Days Of JavaScript</title>
   </head>
@@ -232,7 +232,7 @@ In the above example, we managed to get input values from two input fields by cl
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Document Object Model:30 Days Of JavaScript</title>
   </head>
@@ -261,7 +261,7 @@ In contrast to _input_ or _change_, the _blur_ event occur when the input field 
 
 ```js
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Document Object Model:30 Days Of JavaScript</title>
@@ -294,7 +294,7 @@ We can access all the key numbers of the keyboard using different event listener
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Document Object Model:30 Days Of JavaScript</title>
   </head>

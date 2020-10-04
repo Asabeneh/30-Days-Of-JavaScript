@@ -12,7 +12,7 @@
 <small> January, 2020</small>
 </sub>
 </div>
-</div>
+
 
 <div>
 
