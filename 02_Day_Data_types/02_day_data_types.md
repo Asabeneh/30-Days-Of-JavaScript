@@ -210,7 +210,7 @@ console.log(randNum)
 
 // Let us  create random number between 0 to 10
 
-const num = Math.floor(Math.random () * 11) // creates random number between 0 and 10
+const num = Math.floor(Math.random () * 10) // creates random number between 0 and 10
 console.log(num)
 
 //Absolute value
@@ -247,7 +247,7 @@ The JavaScript Math Object has a random() method number generator which generate
 let randomNum = Math.random() // generates 0 to 0.999...
 ```
 
-Now, let us see how we can use random() method to generate a random number between 0 and 10:
+Now, let us see how we can use random() method to generate a random number between 0 and 11:
 
 ```js
 let randomNum = Math.random()         // generates 0 to 0.999
