@@ -309,6 +309,7 @@ Open the Visual Studio Code by double-clicking its icon. When you open it, you w
 ![coding running](./images/launched_on_new_tab.png)
 
 ## Adding JavaScript to a Web Page
+website
 
 JavaScript can be added to a web page in three different ways:
 
