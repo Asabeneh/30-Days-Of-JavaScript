@@ -357,7 +357,7 @@ const scores = [
 ]
 
 const scoresGreaterEighty = scores.filter((score) => score.score > 80)
-console.log(scoresGreaterEight)
+console.log(scoresGreaterEighty)
 ```
 
 ```sh
