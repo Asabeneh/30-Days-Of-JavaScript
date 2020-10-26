@@ -258,7 +258,6 @@ const calculatePerimeter = rectangle => {
 }
 
 console.log(calculatePerimeter(rect)) // 60
-//with destructuring
 ```
 
 ```js
@@ -305,7 +304,7 @@ console.log(getPersonInfo(person))
 ### Object parameter with destructuring
 
 ```js
-
+//with destructuring
 const calculatePerimeter = ({ width, height }) => {
   return 2 * (width + height)
 }
