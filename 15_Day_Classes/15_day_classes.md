@@ -66,13 +66,13 @@ class Person {
 }
 ```
 
-We have created an Person class but it does not have any thing inside.
+We have created a Person class but it does not have anything inside.
 
 ### Class Instantiation
 
 Instantiation class means creating an object from a class. We need the keyword _new_ and we call the name of the class after the word new.
 
-Let us create a dog object from our Person class.
+Let us create a person object from our Person class.
 
 ```js
 class Person {
@@ -92,7 +92,7 @@ Let use the class constructor to pass different properties for the class.
 
 ### Class Constructor
 
-The constructor is a builtin function which allows as to create a blueprint for our object. The constructor function starts with a keyword constructor followed by a parenthesis. Inside the parenthesis we pass the properties of the object as parameter. We use the _this_ keyword to attach the constructor parameters with the class.
+The constructor is a builtin function which allows us to create a blueprint for our object. The constructor function starts with a keyword constructor followed by a parenthesis. Inside the parenthesis we pass the properties of the object as parameter. We use the _this_ keyword to attach the constructor parameters with the class.
 
 The following Person class constructor has firstName and lastName property. These properties are attached to the Person class using _this_ keyword. _This_ refers to the class itself.
 
@@ -111,7 +111,7 @@ console.log(person)
 ```
 
 ```sh
-Person {firstName: undefined, lastName}
+Person {firstName: undefined, lastName: undefined}
 ```
 
 All the keys of the object are undefined. When ever we instantiate we should pass the value of the properties. Let us pass value at this time when we instantiate the class.
@@ -243,12 +243,12 @@ console.log(person2.getFullName())
 
 ```sh
 Asabeneh Yetayeh
-test.js:19 Lidiya Tekle
+Lidiya Tekle
 ```
 
 ### Properties with initial value
 
-When we create a class for some properties we may have an initial value. For instance if you are playing a game, you starting score will be zero. So, we may have a starting score or score which is zero. In other way, we may have an initial skill and we will acquire some skill after some time.
+When we create a class for some properties we may have an initial value. For instance if you are playing a game, your starting score will be zero. So, we may have a starting score or score which is zero. In other way, we may have an initial skill and we will acquire some skill after some time.
 
 ```js
 class Person {
@@ -551,11 +551,11 @@ The static methods are methods which can be used as utility functions.
 
 ## Inheritance
 
-Using inheritance we can access all the properties and the methods of the parent class. This reduces repetition of code. If you remember, we have a Person parent class and we will create children from it. Our children class could be student, teach etc.
+Using inheritance we can access all the properties and the methods of the parent class. This reduces repetition of code. If you remember, we have a Person parent class and we will create children from it. Our children class could be student, teacher etc.
 
 ```js
 // syntax
-class ChildClassName extends {
+class ChildClassName extends ParentClassName {
  // code goes here
 }
 ```
@@ -675,38 +675,38 @@ Now, the getPersonInfo method has been overridden and it identifies if the perso
 
 1. Let's try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create a class called Statistics and create all the functions which do statistical calculations as method for the Statistics class. Check the output below.
 
-```JS
-ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
+    ```JS
+    ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
 
-console.log('Count:', statistics.count()) // 25
-console.log('Sum: ', statistics.sum()) // 744
-console.log('Min: ', statistics.min()) // 24
-console.log('Max: ', statistics.max()) // 38
-console.log('Range: ', statistics.range() // 14
-console.log('Mean: ', statistics.mean()) // 30
-console.log('Median: ',statistics.median()) // 29
-console.log('Mode: ', statistics.mode()) // {'mode': 26, 'count': 5}
-console.log('Variance: ',statistics.var()) // 17.5
-console.log('Standard Deviation: ', statistics.std()) // 4.2
-console.log('Variance: ',statistics.var()) // 17.5
-console.log('Frequency Distribution: ',statistics.freqDist()) // [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
-```
+    console.log('Count:', statistics.count()) // 25
+    console.log('Sum: ', statistics.sum()) // 744
+    console.log('Min: ', statistics.min()) // 24
+    console.log('Max: ', statistics.max()) // 38
+    console.log('Range: ', statistics.range() // 14
+    console.log('Mean: ', statistics.mean()) // 30
+    console.log('Median: ',statistics.median()) // 29
+    console.log('Mode: ', statistics.mode()) // {'mode': 26, 'count': 5}
+    console.log('Variance: ',statistics.var()) // 17.5
+    console.log('Standard Deviation: ', statistics.std()) // 4.2
+    console.log('Variance: ',statistics.var()) // 17.5
+    console.log('Frequency Distribution: ',statistics.freqDist()) // [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
+    ```
 
-```sh
-// you output should look like this
-console.log(statistics.describe())
-Count: 25
-Sum:  744
-Min:  24
-Max:  38
-Range:  14
-Mean:  30
-Median:  29
-Mode:  (26, 5)
-Variance:  17.5
-Standard Deviation:  4.2
-Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
-```
+    ```sh
+    // you output should look like this
+    console.log(statistics.describe())
+    Count: 25
+    Sum:  744
+    Min:  24
+    Max:  38
+    Range:  14
+    Mean:  30
+    Median:  29
+    Mode:  (26, 5)
+    Variance:  17.5
+    Standard Deviation:  4.2
+    Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
+    ```
 
 1. Create a class called PersonAccount. It has firstname, lastname, incomes, expenses properties and it has totalIncome, totalExpense, accountInfo,addIncome, addExpense and accountBalance methods. Incomes is a set of incomes and its description and expenses is also a set of expenses and its description.
 
