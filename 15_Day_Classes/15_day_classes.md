@@ -569,7 +569,7 @@ class Student extends Person {
   }
 }
 
-const s1 = new Student('Asabeneh', 'Yetayeh', 'Finland', 250, 'Helsinki')
+const s1 = new Student('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
 console.log(s1)
 console.log(s1.saySomething())
 console.log(s1.getFullName())
@@ -577,11 +577,10 @@ console.log(s1.getPersonInfo())
 ```
 
 ```sh
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: "Finland", country: 250, city: "Helsinki", …}
+Student {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki", …}
 I am a child of the person class
 Asabeneh Yetayeh
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: "Finland", country: 250, city: "Helsinki", …}
-Asabeneh Yetayeh is Finland. He lives Helsinki, 250.
+Asabeneh Yetayeh is 250. He lives Helsinki, Finland.
 ```
 
 ### Overriding methods
@@ -605,8 +604,8 @@ class Student extends Person {
       this.skills.slice(0, this.skills.length - 1).join(', ') +
         ` and ${this.skills[this.skills.length - 1]}`
 
-    let formattedSkills = skills ? `He knows ${skills}` : ''
     let pronoun = this.gender == 'Male' ? 'He' : 'She'
+		let formattedSkills = skills ? `${pronoun} knows ${skills}` : ''
 
     let info = `${fullName} is ${this.age}. ${pronoun} lives in ${this.city}, ${this.country}. ${formattedSkills}`
     return info
@@ -633,6 +632,7 @@ s2.setSkill = 'Managing'
 s2.setSkill = 'Organizing'
 
 console.log(s1)
+console.log(s2)
 
 console.log(s1.saySomething())
 console.log(s1.getFullName())
@@ -648,12 +648,10 @@ Student {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finlan
 Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Helsinki", …}
 I am a child of the person class
 Asabeneh Yetayeh
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki", …}
 Asabeneh Yetayeh is 250. He lives in Helsinki, Finland. He knows HTML, CSS and JavaScript
 I am a child of the person class
 Lidiya Tekle
-Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Helsinki", …}
-Lidiya Tekle is 28. She lives in Helsinki, Finland. He knows Planning, Managing and Organizing
+Lidiya Tekle is 28. She lives in Helsinki, Finland. She knows Planning, Managing and Organizing
 ```
 
 Now, the getPersonInfo method has been overridden and it identifies if the person is male or female.
