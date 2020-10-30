@@ -605,7 +605,7 @@ class Student extends Person {
         ` and ${this.skills[this.skills.length - 1]}`
 
     let pronoun = this.gender == 'Male' ? 'He' : 'She'
-		let formattedSkills = skills ? `${pronoun} knows ${skills}` : ''
+    let formattedSkills = skills ? `${pronoun} knows ${skills}` : ''
 
     let info = `${fullName} is ${this.age}. ${pronoun} lives in ${this.city}, ${this.country}. ${formattedSkills}`
     return info
