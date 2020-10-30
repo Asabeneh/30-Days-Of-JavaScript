@@ -395,7 +395,7 @@ if(index != -1) {
 } else {
     console.log('This fruit does not exist in the array')
 }
-// This fruit exists in the array
+// This fruit does exist in the array
 
 // we can use also ternary here
 index != -1 
