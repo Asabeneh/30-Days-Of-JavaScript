@@ -77,7 +77,7 @@ For the examples mentioned above, it makes sense to use localStorage. You may be
 
 In cases, we want to to get rid of the data as soon as the window is closed. Or, perhaps, if we do not want the application to interfere with the same application that’s open in another window. These scenarios are served best with sessionStorage.
 
-Now, let use how use make use of these Web Storage APIs.
+Now, let us how users make use of these Web Storage APIs.
 
 ## HTML5 Web Storage Objects
 
@@ -90,7 +90,7 @@ Web Storage objects:
 
 - _localStorage_ - to display the localStorage object
 - _localStorage.clear()_ - to remove everything in the local storage
-- _localStorage.setItem()_ - to storage data in the localStorage. It takes a key and a value parameters.
+- _localStorage.setItem()_ - to store data in the localStorage. It takes a key and a value parameters.
 - _localStorage.getItem()_ - to display data stored in the localStorage. It takes a key as a parameter.
 - _localStorage.removeItem()_ - to remove stored item form a localStorage. It takes key as a parameter.
 - _localStorage.key()_ - to display a data stored in a localStorage. It takes index as a parameter.

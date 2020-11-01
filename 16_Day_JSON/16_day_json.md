@@ -63,7 +63,7 @@ JSON stands for JavaScript Object Notation. The JSON syntax is derived from Java
 }
 ```
 
-The above JSON example is not much different for a normal object. Then, what is the difference ? The difference is the key of a JSON object should be with double quotes or it should be a string. JavaScript Object and JSON are very similar that we can change JSON to Object and Object to JSON.
+The above JSON example is not much different from a normal object. Then, what is the difference ? The difference is the key of a JSON object should be with double quotes or it should be a string. JavaScript Object and JSON are very similar that we can change JSON to Object and Object to JSON.
 
 Let us see the above example in more detail, it starts with a curly bracket. Inside the curly bracket, there is "users" key which has a value array. Inside the array we have different objects and each objects has keys, each keys has to have double quotes. For instance, we use "firstNaMe" instead of just firstName, however in object we use keys without double quotes. This is the major difference between an object and a JSON. Let's see more examples about JSON.
 
@@ -590,7 +590,7 @@ const txt = `{
 ### Exercises Level 3
 
 1. Parse the *txt* JSON to object.
-2. Find the the user who has many skills from the variable stored in *txt*.
+2. Find the user who has many skills from the variable stored in *txt*.
 
 🎉 CONGRATULATIONS ! 🎉
 
