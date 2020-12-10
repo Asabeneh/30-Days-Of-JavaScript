@@ -240,7 +240,7 @@ const rectangle = {
   perimeter: 80
 }
 let { width, heigh, area, perimeter = 60 } = rectangle
-console.log(width, height, area, perimeter) //20 10 200 80
+console.log(width, height, area, perimeter) //30 10 200 80
 ```
 
 Destructuring keys as a function parameters. Lets create a function which take a rectangle object and it return a perimeter of a rectangle.
