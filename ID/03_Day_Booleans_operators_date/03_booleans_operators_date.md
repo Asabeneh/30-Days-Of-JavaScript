@@ -55,9 +55,9 @@
 
 ## Booleans
 
-A boolean data type represents one of the two values:_true_ or _false_. Boolean value is either true or false. The use of these data types will be clear when you start the comparison operator. Any comparisons return a boolean value which is either true or false.
+Tipe data boolean mewakili salah satu dari dua nilai: _true_ atau _false_. Nilai Boolean bisa benar atau salah. Penggunaan tipe data ini akan menjadi jelas saat Anda memulai operator perbandingan. Setiap perbandingan mengembalikan nilai boolean yang benar atau salah.
 
-**Example: Boolean Values**
+**Contoh: Nilai Boolean**
 
 ```js
 let isLightOn = true
@@ -68,13 +68,13 @@ let truValue = 4 > 3    // true
 let falseValue = 4 < 3  // false
 ```
 
-We agreed that boolean values are either true or false.
+Kami setuju bahwa nilai boolean true atau false.
 
 ### Truthy values
 
-- All numbers(positive and negative) are truthy except zero
-- All strings are truthy
-- The boolean true
+- Semua angka (positif dan negatif) benar kecuali nol
+- Semua string benar
+- Boolean benar
 
 ### Falsy values
 
@@ -86,11 +86,11 @@ We agreed that boolean values are either true or false.
 - the boolean false
 - '', "", ``, empty string
 
-It is good to remember those truthy values and falsy values. In later section, we will use them with conditions to make decisions.
+Adalah baik untuk mengingat nilai-nilai kebenaran dan nilai-nilai yang salah itu. Di bagian selanjutnya, kami akan menggunakannya dengan kondisi untuk membuat keputusan.
 
 ## Undefined
 
-If we declare a variable and if we do not assign a value, the value will be undefined. In addition to this, if a function is not returning the value, it will be undefined.
+Jika kita mendeklarasikan variabel dan jika kita tidak memberikan nilai, nilainya tidak akan ditentukan. Selain itu, jika suatu fungsi tidak mengembalikan nilainya, itu akan menjadi tidak terdefinisi.
 
 ```js
 let firstName
@@ -108,7 +108,7 @@ console.log(empty) // -> null , means no value
 
 ### Assignment operators
 
-An equal sign in JavaScript is an assignment operator. It uses to assign a variable.
+Tanda sama dengan di JavaScript adalah operator penugasan. Digunakan untuk menetapkan variabel.
 
 ```js
 let firstName = 'Asabeneh'
@@ -121,7 +121,7 @@ Assignment Operators
 
 ### Arithmetic Operators
 
-Arithmetic operators are mathematical operators.
+Operator aritmatika adalah operator matematika.
 
 - Addition(+): a + b
 - Subtraction(-): a - b
@@ -177,7 +177,7 @@ console.log(
 
 ### Comparison Operators
 
-In programming we compare values, we use comparison operators to compare two values. We check if a value is greater or less or equal to other value.
+Dalam pemrograman kami membandingkan nilai, kami menggunakan operator pembanding untuk membandingkan dua nilai. Kami memeriksa apakah suatu nilai lebih besar atau kurang atau sama dengan nilai lain.
 
 ![Comparison Operators](../images/comparison_operators.png)
 **Example: Comparison Operators**
@@ -217,18 +217,18 @@ console.log('tomato'.length == 'potato'.length)  // true
 console.log('python'.length > 'dragon'.length)   // false
 ```
 
-Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
-JavaScript is some how a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
+Cobalah untuk memahami perbandingan di atas dengan beberapa logika. Mengingat tanpa logika apa pun mungkin sulit.
+JavaScript adalah sejenis bahasa pemrograman berkabel. Kode JavaScript berjalan dan memberi Anda hasil tetapi kecuali Anda ahli dalam hal itu mungkin bukan hasil yang diinginkan.
 
-As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
+Sebagai aturan praktis, jika suatu nilai tidak benar dengan == maka tidak akan sama dengan ===. Menggunakan === lebih aman daripada menggunakan ==. Pengikut [link](https://dorey.github.io/JavaScript-Equality-Table/) memiliki daftar lengkap perbandingan tipe data.
 
 ### Logical Operators
 
-The following symbols are the common logical operators:
+Simbol berikut adalah operator logika yang umum:
 &&(ampersand) , ||(pipe) and !(negation).
-The && operator gets true only if the two operands are true.
-The || operator gets true either of the operand is true.
-The ! operator negates true to false and false to true.
+Operator && menjadi true hanya jika kedua operand benar.
+The || operator benar, salah satu operan benar.
+The! operator meniadakan benar menjadi salah dan salah menjadi benar.
 
 ```js
 // && ampersand operator example
@@ -254,7 +254,7 @@ let isMarried = !false                // true
 
 ### Increment Operator
 
-In JavaScrip we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
+Dalam JavaScript kita menggunakan operator increment untuk meningkatkan nilai disimpan dalam variabel. increment bisa jadi increment sebelum atau sesudah. Mari kita lihat masing-masing:
 
 1. Pre-increment
 
@@ -272,11 +272,11 @@ console.log(count++)        // 0
 console.log(count)          // 1
 ```
 
-We use most of the time post-increment. At least you should remember how to use post-increment operator.
+Kami menggunakan sebagian besar waktu post-increment. Setidaknya Anda harus ingat bagaimana menggunakan operator post-increment.
 
 ### Decrement Operator
 
-In JavaScrip we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement. Let us see each of them:
+Di JavaScript kami menggunakan operator penurunan untuk menurunkan nilai yang disimpan dalam variabel. Penurunan tersebut dapat berupa penurunan sebelum atau sesudah. Mari kita lihat masing-masing:
 
 1. Pre-decrement
 
@@ -296,8 +296,8 @@ console.log(count)   // -1
 
 ### Ternary Operators
 
-Ternary operator allows to write a condition.
-Another way to write conditionals is using ternary operators. Look at the following examples:
+Operator terner memungkinkan untuk menulis kondisi.
+Cara lain untuk menulis kondisional menggunakan operator terner. Lihat contoh berikut:
 
 ```js
 let isRaining = true
@@ -335,13 +335,13 @@ number > 0
 
 ### Operator Precendence
 
-I would like to recommend you to read about operator precendence from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+Saya ingin merekomendasikan Anda untuk membaca tentang prioritas operator dari ini [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 
 ## Window Methods
 
 ### Window alert() method
 
-As you have seen at very beginning alert() method displays an alert box with a specified message and an OK button. It is a builtin method and it takes on argument.
+Seperti yang Anda lihat di awal metode alert () menampilkan kotak peringatan dengan pesan tertentu dan tombol OK. Ini adalah metode bawaan dan membutuhkan argumen.
 
 ```js
 alert(message)
@@ -351,11 +351,11 @@ alert(message)
 alert('Welcome to 30DaysOfJavaScript')
 ```
 
-Do not use too much alert because it is destructing and annoying, use it just to test.
+Jangan gunakan terlalu banyak peringatan karena itu merusak dan mengganggu, gunakan hanya untuk menguji.
 
 ### Window prompt() method
 
-The window prompt methods display a prompt box with an input on your browser to take input values and the input data can be stored in a variable. The prompt() method takes two arguments. The second argument is optional.
+Metode prompt jendela menampilkan kotak prompt dengan input pada browser Anda untuk mengambil nilai input dan data input dapat disimpan dalam variabel. Metode prompt () membutuhkan dua argumen. Argumen kedua adalah opsional.
 
 ```js
 prompt('required text', 'optional text')
@@ -368,38 +368,38 @@ console.log(number)
 
 ### Window confirm() method
 
-The confirm() method displays a dialog box with a specified message, along with an OK and a Cancel button.
-A confirm box is often used to ask permission from a user to execute something. Window confirm() takes a string as an argument.
-Clicking the OK yields true value, whereas clicking the Cancel button yields false value.
+Metode confirm () menampilkan kotak dialog dengan pesan tertentu, bersama dengan tombol OK dan Batal.
+Kotak konfirmasi sering digunakan untuk meminta izin dari pengguna untuk mengeksekusi sesuatu. Window confirm () mengambil string sebagai argumen.
+Mengklik OK menghasilkan nilai sebenarnya, sedangkan mengklik tombol Batal menghasilkan nilai salah.
 
 ```js
 const agree = confirm('Are you sure you like to delete? ')
 console.log(agree) // result will be true or false based on what you click on the dialog box
 ```
 
-These are not all the window methods we will have a separate section to go deep into window methods.
+Ini tidak semua metode jendela, kita akan memiliki bagian terpisah untuk masuk lebih jauh ke metode jendela.
 
 ## Date Object
 
-Time is an important thing. We like to know the time a certain activity or event. In JavaScript current time and date is created using JavaScript Date Object. The object we create using Date object provides many methods to work with date and time.The methods we use to get date and time information from a date object values are started with a word _get_ because it provide the information.
+Waktu adalah hal yang penting. Kami ingin mengetahui waktu suatu kegiatan atau acara tertentu. Dalam JavaScript waktu dan tanggal saat ini dibuat menggunakan Objek Tanggal JavaScript. Objek yang kami buat menggunakan objek Tanggal menyediakan banyak metode untuk bekerja dengan tanggal dan waktu. Metode yang kami gunakan untuk mendapatkan informasi tanggal dan waktu dari nilai objek tanggal dimulai dengan kata _get_ karena menyediakan informasi.
 _getFullYear(), getMonths(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
 
 ![Date time Object](../images/date_time_object.png)
 
 ### Creating a time object
 
-Once we create time object. The time object will provide information about time. Let us create a time object
+Begitu kita membuat objek waktu. Objek waktu akan memberikan informasi tentang waktu. Mari kita buat objek waktu
 
 ```js
 const now = new Date()
 console.log(now) // Sat Jan 04 2020 00:56:41 GMT+0200 (Eastern European Standard Time)
 ```
 
-We have created a time object and we can access any date time information from the object using the get methods we have mentioned on the table.
+Kami telah membuat objek waktu dan kami dapat mengakses informasi tanggal waktu apa pun dari objek menggunakan metode get yang telah kami sebutkan di tabel.
 
 ### Getting full year
 
-Let's extract or get the full year from a time object.
+Mari mengekstrak atau mendapatkan setahun penuh dari objek waktu.
 
 ```js
 const now = new Date()
@@ -408,7 +408,7 @@ console.log(now.getFullYear()) // 2020
 
 ### Getting month
 
-Let's extract or get the month from a time object.
+Mari ekstrak atau dapatkan bulan dari objek waktu.
 
 ```js
 const now = new Date()
@@ -417,7 +417,7 @@ console.log(now.getMonth()) // 0, because the month is January,  month(0-11)
 
 ### Getting date
 
-Let's extract or get the date of the month from a time object.
+Mari mengekstrak atau mendapatkan tanggal bulan dari objek waktu.
 
 ```js
 const now = new Date()
@@ -426,7 +426,7 @@ console.log(now.getDate()) // 4, because the day of the month is 4th,  day(1-31)
 
 ### Getting day
 
-Let's extract or get the day of the week from a time object.
+Mari kita mengekstrak atau mendapatkan hari dalam seminggu dari objek waktu.
 
 ```js
 const now = new Date()
@@ -437,7 +437,7 @@ console.log(now.getDay()) // 6, because the day is Saturday which is the 7th day
 
 ### Getting hours
 
-Let's extract or get the hours from a time object.
+Mari kita ekstrak atau dapatkan jam dari objek waktu.
 
 ```js
 const now = new Date()
@@ -446,7 +446,7 @@ console.log(now.getHours()) // 0, because the time is 00:56:41
 
 ### Getting minutes
 
-Let's extract or get the minutes from a time object.
+Mari kita mengekstrak atau mendapatkan menit dari objek waktu.
 
 ```js
 const now = new Date()
@@ -455,7 +455,7 @@ console.log(now.getMinutes()) // 56, because the time is 00:56:41
 
 ### Getting seconds
 
-Let's extract or get the seconds from a time object.
+Mari kita ekstrak atau dapatkan detik dari objek waktu.
 
 ```js
 const now = new Date()
@@ -464,7 +464,7 @@ console.log(now.getSeconds()) // 41, because the time is 00:56:41
 
 ### Getting time
 
-This method give time in milliseconds starting from January 1, 1970. It is also know as Unix time. We can get the unix time in two ways:
+Metode ini memberikan waktu dalam milidetik mulai dari 1 Januari 1970. Ini juga dikenal sebagai waktu Unix. Kita bisa mendapatkan waktu unix dengan dua cara:
 
 1. Using _getTime()_
 
@@ -483,8 +483,8 @@ const timeInSeconds = new Date().getTime()
 console.log(allSeconds == timeInSeconds) // true
 ```
 
-Let us format these values to a human readable time format.
-**Example:**
+Mari kita format nilai-nilai ini ke dalam format waktu yang dapat dibaca manusia.
+**Contoh:**
 
 ```js
 const now = new Date()
@@ -497,20 +497,20 @@ const minutes = now.getMinutes() // return number (0 -59)
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
 
-🌕  You have boundless energy. You have just completed day 3 challenges and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕  Anda memiliki energi tak terbatas. Anda baru saja menyelesaikan tantangan hari ke-3 dan Anda berada dalam tiga langkah untuk menuju kehebatan. Sekarang lakukan beberapa latihan untuk otak dan otot Anda.
 
 ## 💻 Day 3: Exercises
 
 ### Exercises: Level 1
 
-1. Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.
-2. Check if type of '10' is equal to 10
-3. Check if parseInt('9.8') is equal to 10
-4. Boolean value is either true or false.
-   1. Write three JavaScript statement which provide truthy value.
-   2. Write three JavaScript statement which provide falsy value.
+1. Deklarasikan firstName, lastName, negara, kota, umur, isMarried, variabel tahun dan tetapkan nilai padanya dan gunakan tipe operator untuk memeriksa tipe data yang berbeda.
+2. Periksa apakah tipe '10' sama dengan 10
+3. Periksa apakah parseInt ('9.8') sama dengan 10
+4. Nilai Boolean bisa benar atau salah.
+    1. Tuliskan tiga pernyataan JavaScript yang memberikan nilai kebenaran.
+    2. Tuliskan tiga pernyataan JavaScript yang memberikan nilai palsu.
 
-5. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+5. Gambarkan hasil ekspresi perbandingan berikut terlebih dahulu tanpa menggunakan console.log (). Setelah Anda memutuskan hasilnya, konfirmasikan menggunakan console.log ()
    1. 4 > 3
    2. 4 >= 3
    3. 4 < 3
@@ -524,7 +524,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    11. 4 === '4'
    12. Find the length of python and jargon and make a falsy comparison statement.
 
-6. Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
+6. Cari tahu hasil dari ekspresi berikut terlebih dahulu tanpa menggunakan console.log (). Setelah Anda memutuskan hasilnya, konfirmasikan dengan menggunakan console.log ()
    1. 4 > 3 && 10 < 12
    2. 4 > 3 && 10 > 12
    3. 4 > 3 || 10 < 12
@@ -537,7 +537,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    10. !(4 === '4')
    11. There is no 'on' in both dragon and python
 
-7. Use the Date object to do the following activities
+7. Gunakan objek Tanggal untuk melakukan aktivitas berikut
    1. What is the year today?
    2. What is the month today as a number?
    3. What is the date today?
@@ -548,7 +548,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 
 ### Exercises: Level 2
 
-1. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+1. Tulis skrip yang meminta pengguna untuk memasukkan alas dan tinggi segitiga dan menghitung luas segitiga (area = 0.5 x b x h).
 
    ```sh
    Enter base: 20
@@ -556,7 +556,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    The area of the triangle is 50
    ```
 
-1. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
+1. Menulis script yang meminta pengguna untuk memasukkan sisi a, sisi b, dan sisi c segitiga dan menghitung keliling segitiga (perimeter = a + b + c)
 
    ```sh
    Enter side a: 5
@@ -565,13 +565,13 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    The perimeter of the triangle is 12
    ```
 
-1. Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
-1. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
-1. Calculate the slope, x-intercept and y-intercept of y = 2x -2
-1. Slope is (m = y2-y1/x2-x1). Find the slope between point (2, 2) and point(6,10)
-1. Compare the slope of above two questions.
-1. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
-1. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+1. Dapatkan panjang dan lebar menggunakan prompt dan hitung luas persegi panjang (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
+1. Dapatkan radius menggunakan prompt dan hitung luas lingkaran (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+1. Hitung kemiringannya, x-intercept and y-intercept of y = 2x -2
+1. Slope is (m = y2-y1/x2-x1). Temukan kemiringan di antara titik (2, 2) and point(6,10)
+1. Bandingkan kemiringan dari dua pertanyaan di atas.
+1. Hitung nilai y (y = x^2 + 6x + 9). Coba gunakan nilai x yang berbeda dan cari tahu berapa nilai x y adalah 0.
+1.Tulis skrip yang meminta pengguna memasukkan jam dan tarif per jam. Hitung gaji orang tersebut? Tulis skrip yang meminta pengguna memasukkan jam dan tarif per jam. Hitung gaji orang tersebut?
 
     ```sh
     Enter hours: 40
@@ -579,8 +579,8 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
     Your weekly earning is 1120
     ```
 
-1. If the length of your name is greater than 7 say, your name is long else say your name is short.
-1. Compare your first name length and your family name length and you should get this output.
+1. Jika panjang nama Anda lebih dari 7 ucapkan, nama Anda panjang, atau nama Anda pendek.
+1. Bandingkan panjang nama depan Anda dan panjang nama keluarga Anda dan Anda akan mendapatkan keluaran ini.
 
     ```js
     let firstName = 'Asabeneh'
@@ -591,7 +591,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
     Your first name, Asabeneh is longer than your family name, Yetayeh
     ```
 
-1. Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
+1. Deklarasikan dua variabel _myAge_ dan _yourAge_ dan berikan nilai awal serta myAge dan yourAge.
 
    ```js
    let myAge = 250
@@ -602,7 +602,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    I am 225 years older than you.
    ```
 
-1. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+1. Menggunakan prompt, dapatkan tahun kelahiran pengguna dan jika pengguna berusia 18 tahun ke atas, izinkan pengguna mengemudi jika tidak, beri tahu pengguna untuk menunggu selama beberapa tahun.
 
     ```sh
 
@@ -613,21 +613,21 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
     You are 15. You will be allowed to drive after 3 years.
     ```
 
-1. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
+1. Tulis skrip yang meminta pengguna memasukkan jumlah tahun. Hitung berapa detik seseorang bisa hidup. Asumsikan seseorang hidup hanya seratus tahun
 
    ```sh
    Enter number of yours you live: 100
    You lived 3153600000 seconds.
    ```
 
-1. Create a human readable time format using the Date time object
+1. Buat format waktu yang dapat dibaca manusia menggunakan objek Tanggal waktu
    1. YYYY-MM-DD HH:mm
    2. DD-MM-YYYY HH:mm
    3. DD/MM/YYYY HH:mm
 
 ### Exercises: Level 3
 
-1. Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
+1. Buat format waktu yang dapat dibaca manusia menggunakan objek Tanggal waktu. Jam dan menit harus sepanjang waktu dua digit (7 jam harus 07 dan 5 menit harus 05)
    1. YYY-MM-DD HH:mm eg. 20120-01-02 07:05
 
 [<< Day 2](../02_Day_Data_types/02_day_data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
