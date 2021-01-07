@@ -52,7 +52,7 @@ Variables scopes can be:
 Variable can be declared globally or locally or window scope. We will see both global and local scope.
 Anything declared without let, var or const is scoped at window level.
 
-Let us image we have a scope.js file.
+Let us imagine we have a scope.js file.
 
 ### Window Scope
 
@@ -432,7 +432,7 @@ console.log(copyPerson.hasOwnProperty('score'))
 ### Exercises: Level 2
 
 1. Find the person who has many skills in the users object.
-1. Count logged in users,count users having greater than equal to 50 points from the following object.
+1. Count logged in users, count users having greater than equal to 50 points from the following object.
 
    ````js
    const users = {
