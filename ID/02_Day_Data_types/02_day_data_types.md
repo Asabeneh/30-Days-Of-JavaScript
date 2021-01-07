@@ -48,44 +48,44 @@
 
 ## Data Types
 
-In the previous section, we mentioned a little bit about data types. Data or values have data types. Data types describe the characteristics of data. Data types can be divided into two:
+Pada bagian sebelumnya, kami menyebutkan sedikit tentang tipe data. Data atau nilai memiliki tipe data. Tipe data menggambarkan karakteristik data. Tipe data dapat dibagi menjadi dua:
 
-1. Primitive data types
-2. Non-primitive data types(Object References)
+1. Tipe data Primitive
+2. Tipe data non-Primitive (Referensi Objek)
 
 ### Primitive Data Types
 
-Primitive data types in JavaScript include:
+Tipe data Primitive di JavaScript meliputi:
 
  1. Numbers - Integers, floats
- 2. Strings - Any data under single quote, double quote or backtick quote
+ 2. Strings - Semua data di bawah kutipan tunggal, kutipan ganda atau kutipan backtick
  3. Booleans - true or false value
- 4. Null - empty value or no value
- 5. Undefined - a declared variable without a value
+ 4. Null - nilai kosong atau tidak ada nilai
+ 5. Undefined - variabel yang dideklarasikan tanpa nilai
 
-Non-primitive data types in JavaScript includes:
+Tipe data non-Primitive di JavaScript meliputi:
 
 1. Objects
 2. Functions
 3. Arrays
 
-Now, let us see what exactly primitive and non-primitive data types mean.
-*Primitive* data types are immutable(non-modifiable) data types. Once a primitive data type is created we cannot modify it.
+Sekarang, mari kita lihat apa sebenarnya arti tipe data Primitive dan non-Primitive.
+*Primitive* tipe data tidak dapat diubah(non-modifiable) tipe data. Setelah tipe data Primitive dibuat, kami tidak dapat memodifikasinya.
 
-**Example:**
+**Contoh:**
 
 ```js
 let word = 'JavaScript'
 ```
 
-If we try to modify the string stored in variable *word*, JavaScript should raise an error. Any data type under a single quote, double quote, or backtick quote is a string data type.
+Jika kita mencoba memodifikasi string yang disimpan dalam variabel*word*, JavaScript seharusnya memunculkan kesalahan. Semua tipe data di bawah kutipan tunggal, kutipan ganda, atau kutipan backtick adalah tipe data string.
 
 ```js
 word[0] = 'Y'
 ```
 
-This expression does not change the string stored in the variable *word*. So, we can say that strings are not modifiable or in other words immutable.
-Primitive data types are compared by its values. Let us compare different data values. See the example below:
+Ekspresi ini tidak mengubah string yang disimpan dalam variabel*word*. Jadi, kita dapat mengatakan bahwa string tidak dapat dimodifikasi atau dengan kata lain tidak dapat diubah.
+Tipe data Primitive dibandingkan dengan nilainya. Mari kita bandingkan nilai data yang berbeda. Lihat contoh di bawah ini:
 
 ```js
 let numOne = 3
@@ -106,8 +106,8 @@ console.log(lightOn == lightOff) // false
 
 ### Non-Primitive Data Types
 
-*Non-primitive* data types are modifiable or mutable. We can modify the value of non-primitive data types after it gets created.
-Let us see by creating an array. An array is a list of data values in a square bracket. Arrays can contain the same or different data types. Array values are referenced by their index. In JavaScript array index starts at zero. I.e., the first element of an array is found at index zero, the second element at index one, and the third element at index two, etc.
+*Non-primitive* tipe data dapat dimodifikasi atau diubah. Kita dapat mengubah nilai tipe data non-primitif setelah dibuat.
+Mari kita lihat dengan membuat sebuah array. Array adalah daftar nilai data dalam tanda kurung siku. Array bisa berisi tipe data yang sama atau berbeda. Nilai array direferensikan oleh indeksnya. Dalam indeks array JavaScript dimulai dari nol. Yaitu, elemen pertama dari sebuah array ditemukan di indeks nol, elemen kedua di indeks satu, dan elemen ketiga di indeks dua, dll.
 
 ```js
 let nums = [1, 2, 3]
@@ -116,7 +116,7 @@ nums[0] = 10
 console.log(nums)  // [10, 2, 3]
 ```
 
-As you can see, an array, which is a non-primitive data type is mutable. Non-primitive data types cannot be compared by value. Even if two non-primitive data types have the same properties and values, they are not strictly equal.
+Seperti yang Anda lihat, array, yang merupakan tipe data non-primitive bisa berubah. Tipe data non-primitive tidak dapat dibandingkan dengan nilai. Meskipun dua tipe data non-primitive memiliki properti dan nilai yang sama, keduanya tidak sama persis.
 
 ```js
 let nums = [1, 2, 3]
@@ -139,8 +139,8 @@ country:'Finland'
 console.log(userOne == userTwo) // false
 ```
 
-Rule of thumb, we do not compare non-primitive data types. Do not compare arrays, functions, or objects.
-Non-primitive values are referred to as reference types, because they are being compared by reference instead of value. Two objects are only strictly equal if they refer to the same underlying object.
+Rule of thumb, kami tidak membandingkan tipe data non-primitif. Jangan membandingkan array, fungsi, atau objek.
+Nilai non-primitive  disebut sebagai tipe referensi, karena mereka dibandingkan dengan referensi, bukan nilai. Dua objek hanya benar-benar sama jika mengacu pada objek dasar yang sama.
 
 ```js
 let nums = [1, 2, 3]
@@ -159,12 +159,12 @@ let userTwo = userOne
 console.log(userOne == userTwo)  // true
 ```
 
-If you have a hard time understanding the difference between primitive data types and non-primitive data types, you are not the only one. Calm down and just go to the next section and try to come back after some time. Now let us start the data types by number type.
+Jika Anda kesulitan memahami perbedaan antara tipe data primitive dan tipe data non-primitive, Anda bukan satu-satunya. Tenang dan lanjutkan saja ke bagian berikutnya dan coba kembali setelah beberapa saat. Sekarang mari kita mulai tipe data berdasarkan tipe angka.
 
 ## Numbers
 
-Numbers are integers and decimal values which can do all the arithmetic operations.
-Let's see some examples of Numbers.
+Bilangan adalah bilangan bulat dan nilai desimal yang dapat melakukan semua operasi aritmatika.
+Mari kita lihat beberapa contoh Bilangan.
 
 ### Declaring Number Data Types
 
@@ -183,7 +183,7 @@ console.log(age, gravity, mass, PI, boilingPoint, bodyTemp)
 
 ### Math Object
 
-In JavaScript the Math Object provides a lots of methods to work with numbers.
+Dalam JavaScript, Objek Matematika menyediakan banyak metode untuk bekerja dengan angka.
 
 ```js
 const PI = Math.PI
@@ -241,13 +241,13 @@ Math.cos(60)
 
 #### Random Number Generator
 
-The JavaScript Math Object has a random() method number generator which generates number from 0 to 0.999999999...
+Objek Matematika JavaScript memiliki generator nomor method random () yang menghasilkan angka dari 0 hingga 0.999999999 ...
 
 ```js
 let randomNum = Math.random() // generates 0 to 0.999...
 ```
 
-Now, let us see how we can use random() method to generate a random number between 0 and 10:
+Sekarang, mari kita lihat bagaimana kita dapat menggunakan method random () untuk menghasilkan nomor acak antara 0 dan 10:
 
 ```js
 let randomNum = Math.random()         // generates 0 to 0.999
@@ -261,8 +261,8 @@ console.log(randomNumRoundToFloor)    // this gives between 0 and 10
 
 ## Strings
 
-Strings are texts, which are under **_single_**  , **_double_**, **_back-tick_** quote. To declare a string, we need a variable name, assignment operator, a value under a single quote, double quote, or backtick quote.
-Let's see some examples of strings:
+String adalah teks, yang berada di bawah **_single_**, **_double_**, **_back-tick_** kutipan. Untuk mendeklarasikan string, kita membutuhkan nama variabel, operator penugasan, nilai di bawah kutipan tunggal, kutipan ganda, atau kutipan backtick.
+Mari kita lihat beberapa contoh string:
 
 ```js
 let space = ' '           // an empty space string
@@ -278,8 +278,8 @@ let quotWithBackTick = `The saying,'Seeing is Believing' is not correct in 2020.
 
 ### String Concatenation
 
-Connecting two or more strings together is called concatenation.
-Using the strings declared in the previous String section:
+Menghubungkan dua atau lebih string bersama-sama disebut penggabungan.
+Menggunakan string yang dideklarasikan di bagian String sebelumnya:
 
 ```js
 let fullName = firstName + space + lastName; // concatenation, merging two string together.
@@ -290,11 +290,11 @@ console.log(fullName);
 Asabeneh Yetayeh
 ```
 
-We can concatenate strings in different ways.
+Kami dapat menggabungkan string dengan berbagai cara.
 
 #### Concatenating Using Addition Operator
 
-Concatenating using the addition operator is an old way. This way of concatenating is tedious and error-prone. It is good to know how to concatenate this way, but I strongly suggest to use the ES6 template strings (explained later on).
+Menggabungkan menggunakan operator penjumlahan adalah cara lama. Cara penggabungan ini membosankan dan rawan kesalahan. Mengetahui cara menggabungkan dengan cara ini adalah hal yang baik, tetapi saya sangat menyarankan untuk menggunakan string template ES6 (dijelaskan nanti).
 
 ```js
 // Declaring different variables of different data types
@@ -320,7 +320,7 @@ Asabeneh Yetayeh. I am 250. I live in Finland
 
 #### Long Literal Strings
 
-A string could be a single character or paragraph or a page. If the string length is too big it does not fit in one line. We can use the backslash character (\\) at the end of each line to indicate that the string will continue on the next line.
+String bisa berupa satu karakter atau paragraf atau halaman. Jika panjang tali terlalu besar maka tidak muat dalam satu baris. Kita dapat menggunakan karakter garis miring terbalik (\\) di akhir setiap baris untuk menunjukkan bahwa string akan berlanjut di baris berikutnya.
 **Example:**
 
 ```js
@@ -338,7 +338,7 @@ console.log(paragraph)
 
 #### Escape Sequences in Strings
 
-In JavaScript and other programming languages \ followed by some characters is an escape sequence. Let's see the most common escape characters:
+Dalam JavaScript dan bahasa pemrograman lain \ diikuti oleh beberapa karakter merupakan urutan escape. Mari kita lihat karakter paling umum escape:
 
 - \n: new line
 - \t: Tab, means 8 spaces
@@ -377,7 +377,7 @@ The saying 'Seeing is Believing' isn't correct in 2020
 
 #### Template Literals (Template Strings)
 
-To create a template strings, we use two back-ticks. We can inject data as expressions inside a template string. To inject data, we enclose the expression with a curly bracket({}) preceded by a $ sign. See the syntax below.
+Untuk membuat string template, kami menggunakan dua tanda centang. Kita bisa memasukkan data sebagai ekspresi di dalam string template. Untuk memasukkan data, kami mengapit ekspresi dengan kurung kurawal ({}) diawali dengan tanda $. Lihat sintaks di bawah ini.
 
 ```js
 //Syntax
@@ -385,7 +385,7 @@ To create a template strings, we use two back-ticks. We can inject data as expre
 `String literal text ${expression}`
 ```
 
-**Example: 1**
+**Contoh: 1**
 
 ```js
 console.log(`The sum of 2 and 3 is 5`)              // statically writing the data
@@ -394,7 +394,7 @@ let b = 3
 console.log(`The sum of ${a} and ${b} is ${a + b}`) // injecting the data dynamically
 ```
 
-**Example:2**
+**Contoh:2**
 
 ```js
 let firstName = 'Asabeneh'
@@ -417,7 +417,7 @@ I am Asabeneh Yetayeh. I am 250. I live in Finland.
 I am Asabeneh Yetayeh. I live in Helsinki, Finland. I am a teacher. I teach JavaScript.
 ```
 
-Using a string template or string interpolation method, we can add expressions, which could be a value, or some operations (comparison, arithmetic operations, ternary operation).
+Dengan menggunakan template string atau metode interpolasi string, kita dapat menambahkan ekspresi, yang bisa berupa nilai, atau beberapa operasi (comparison, arithmetic operations, ternary operation).
 
 ```js
 let a = 2
@@ -431,9 +431,9 @@ console.log(`${a} is greater than ${b}: ${a > b}`)
 
 ### String Methods
 
-Everything in JavaScript is an object. A string is a primitive data type that means we can not modify it once it is created. The string object has many string methods. There are different string methods that can help us to work with strings.
+Segala sesuatu di JavaScript adalah sebuah objek. Sebuah string adalah tipe data primitive yang berarti kita tidak dapat memodifikasinya setelah dibuat. Objek string memiliki banyak metode string. Ada berbagai metode string yang dapat membantu kita bekerja dengan string.
 
-1. *length*: The string *length* method returns the number of characters in a string included empty space.
+1. *length*: Metode string *length* mengembalikan jumlah karakter dalam string termasuk ruang kosong.
 
 **Example:**
 
@@ -444,11 +444,11 @@ let firstName = 'Asabeneh'
 console.log(firstName.length)  // 8
 ```
 
-2. *Accessing characters in a string*: We can access each character in a string using its index. In programming, counting starts from 0. The first index of the string is zero, and the last index is the length of the string minus one.
+2. *Mengakses karakter dalam string*: Kita dapat mengakses setiap karakter dalam string menggunakan indeksnya. Dalam pemrograman, penghitungan dimulai dari 0. Indeks pertama dari string adalah nol, dan indeks terakhir adalah panjang dari string minus satu.
 
   ![Accessing sting by index](../images/string_indexes.png)
   
-Let us access different characters in 'JavaScript' string.
+Mari kita akses karakter yang berbeda dalam string 'JavaScript'.
 
 ```js
 let string = 'JavaScript'
@@ -468,7 +468,7 @@ console.log(lastIndex)  // 9
 console.log(string[lastIndex])    // t
 ```
 
-3. *toUpperCase()*: this method changes the string to uppercase letters.
+3. *toUpperCase()*: metode ini mengubah string menjadi huruf besar.
 
 ```js
 let string = 'JavaScript'
@@ -484,7 +484,7 @@ let country = 'Finland'
 console.log(country.toUpperCase())    // FINLAND
 ```
 
-4. *toLowerCase()*: this method changes the string to lowercase letters.
+4. *toLowerCase()*: metode ini mengubah string menjadi huruf kecil.
 
 ```js
 let string = 'JavasCript'
@@ -500,7 +500,7 @@ let country = 'Finland'
 console.log(country.toLowerCase())   // finland
 ```
 
-5. *substr()*: It takes two arguments, the starting index and number of characters to slice.
+5. *substr()*: Dibutuhkan dua argumen, indeks awal dan jumlah karakter untuk diiris/slice.
 
 ```js
 let string = 'JavaScript'
@@ -510,7 +510,7 @@ let country = 'Finland'
 console.log(country.substr(3, 4))   // land
 ```
 
-6. *substring()*: It takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping index.
+6. *substring()*: Dibutuhkan dua argumen, indeks awal dan indeks berhenti tetapi tidak menyertakan karakter pada indeks berhenti.
 
 ```js
 let string = 'JavaScript'
@@ -526,7 +526,7 @@ console.log(country.substring(3, 7))   // land
 console.log(country.substring(3))      // land
 ```
 
-7. *split()*: The split method splits a string at a specified place.
+7. *split()*: Metode pemisahan membagi string di tempat yang ditentukan.
 
 ```js
 let string = '30 Days Of JavaScript'
@@ -545,7 +545,7 @@ console.log(countries.split(','))  // split to any array at comma -> ["Finland",
 console.log(countries.split(', ')) //  ["Finland", "Sweden", "Norway", "Denmark", "and Iceland"]
 ```
 
-8. *trim()*: Removes trailing space in the beginning or the end of a string.
+8. *trim()*: Menghapus spasi di awal atau akhir string.
 
 ```js
 let string = '   30 Days Of JavaScript   '
@@ -566,7 +566,7 @@ console.log(firstName.trim())  // still removes spaces at the beginning and the 
 Asabeneh
 ```
 
-9. *includes()*: It takes a substring argument and it checks if substring argument exists in the string. *includes()* returns a boolean. If a substring exist in a string, it returns true, otherwise it returns false.
+9. *includes()*: Dibutuhkan argumen substring dan memeriksa apakah argumen substring ada dalam string. *includes()* mengembalikan boolean. Jika substring ada dalam sebuah string, ia mengembalikan true, jika tidak ia mengembalikan false.
 
 ```js
 let string = '30 Days Of JavaScript'
@@ -586,7 +586,7 @@ console.log(country.includes('land'))    // true
 console.log(country.includes('Land'))    // false
 ```
 
-10. *replace()*: takes as a parameter the old substring and a new substring.
+10. *replace()*: mengambil parameter substring lama dan substring baru.
 
 ```js
 string.replace(oldsubstring, newsubstring)
@@ -600,7 +600,7 @@ let country = 'Finland'
 console.log(country.replace('Fin', 'Noman'))       // Nomanland
 ```
 
-11. *charAt()*: Takes index and it returns the value at that index
+11. *charAt()*: Mengambil indeks dan mengembalikan nilai pada indeks itu
 
 ```js
 string.charAt(index)
@@ -614,7 +614,7 @@ let lastIndex = string.length - 1
 console.log(string.charAt(lastIndex)) // t
 ```
 
-12. *charCodeAt()*: Takes index and it returns char code (ASCII number) of the value at that index
+12. *charCodeAt()*: Mengambil indeks dan mengembalikan kode karakter (ASCII number) dari nilai pada indeks itu
 
 ```js
 string.charCodeAt(index)
@@ -629,7 +629,7 @@ console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
 
 ```
 
-13.  *indexOf()*: Takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1
+13.  *indexOf()*: Mengambil substring dan jika substring ada dalam string, ia mengembalikan posisi pertama substring jika tidak ada ia mengembalikan -1
 
 ```js
 string.indexOf(substring)
@@ -647,7 +647,7 @@ console.log(string.indexOf('Script'))     //15
 console.log(string.indexOf('script'))     // -1
 ```
 
-14.  *lastIndexOf()*: Takes a substring and if the substring exists in a string it returns the last position of the substring if it does not exist it returns -1
+14.  *lastIndexOf()*: Mengambil substring dan jika substring ada dalam string, ia mengembalikan posisi terakhir substring jika tidak ada ia mengembalikan -1
 
 
 ```js
@@ -663,7 +663,7 @@ console.log(string.lastIndexOf('you'))        // 63
 console.log(string.lastIndexOf('JavaScript')) // 38
 ```
 
-15. *concat()*: it takes many substrings and joins them.
+15. *concat()*: dibutuhkan banyak substring dan menggabungkannya.
 
 ```js
 string.concat(substring, substring, substring)
@@ -677,7 +677,7 @@ let country = 'Fin'
 console.log(country.concat("land")) // Finland
 ```
 
-16. *startsWith*: it takes a substring as an argument and it checks if the string starts with that specified substring. It returns a boolean(true or false).
+16. *startsWith*: itu mengambil substring sebagai argumen dan memeriksa apakah string dimulai dengan substring yang ditentukan. Ia mengembalikan boolean (true atau false).
 
 ```js
 //syntax
@@ -698,7 +698,7 @@ console.log(country.startsWith('fin'))   // false
 console.log(country.startsWith('land'))  //  false
 ```
 
-17. *endsWith*: it takes a substring as an argument and it checks if the string ends with that specified substring. It returns a boolean(true or false).
+17. *endsWith*: itu mengambil substring sebagai argumen dan memeriksa apakah string diakhiri dengan substring yang ditentukan. Ia mengembalikan boolean (true atau false).
 
 ```js
 string.endsWith(substring)
@@ -718,7 +718,7 @@ console.log(country.endsWith('fin'))          // false
 console.log(country.endsWith('Fin'))          //  false
 ```
 
-18. *search*: it takes a substring as an argument and it returns the index of the first match. The search value can be a string or  a regular expression pattern.
+18. *search*: itu mengambil substring sebagai argumen dan mengembalikan indeks pertandingan pertama. Nilai pencarian dapat berupa string atau pola ekspresi reguler.
 
 ```js
 string.search(substring)
@@ -759,7 +759,7 @@ let pattern = /love/gi
 console.log(string.match(pattern))   // ["love", "love", "love"]
 ```
 
-Let us extract numbers from text using a regular expression. This is not the regular expression section, do not panic! We will cover regular expressions later on.
+Mari kita mengekstrak angka dari teks menggunakan ekspresi reguler. Ini bukan bagian ekspresi reguler, jangan panik! Kami akan membahas ekspresi reguler nanti.
 
 ```js
 let txt = 'In 2019, I ran 30 Days of Python. Now, in 2020 I am super exited to start this challenge'
@@ -773,7 +773,7 @@ console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", 
 console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
 
-20. *repeat()*: it takes a number as argument and it returns the repeated version of the string.
+20. *repeat()*: itu mengambil angka sebagai argumen dan mengembalikan versi berulang dari string.
 
 ```js
 string.repeat(n)
@@ -788,7 +788,7 @@ console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
 
 ### Checking Data Types
 
-To check the data type of a certain variable we use the _typeof_ method.
+Untuk memeriksa tipe data dari variabel tertentu kami menggunakan method _typeof_.
 
 **Example:**
 
@@ -817,13 +817,13 @@ console.log(typeof null)        // object
 
 ### Changing Data Type (Casting)
 
-- Casting: Converting one data type to another data type. We use _parseInt()_, _parseFloat()_, _Number()_, _+ sign_, _str()_
-  When we do arithmetic operations string numbers should be first converted to integer or float if not it returns an error.
+- Transmisi: Mengonversi satu jenis data ke jenis data lain. Kita gunakan _parseInt()_, _parseFloat()_, _Number()_, _+ sign_, _str()_
+  Ketika kita melakukan operasi aritmatika, nomor string harus diubah terlebih dahulu menjadi integer atau float jika tidak mengembalikan kesalahan.
 
 #### String to Int
 
-We can convert string number to a number. Any number inside a quote is a string number. An example of a string number: '10', '5', etc.
-We can convert string to number using the following methods:
+Kita dapat mengubah nomor string menjadi angka. Nomor apa pun di dalam kutipan adalah nomor string. Contoh nomor string: '10', '5', dll.
+Kita dapat mengonversi string menjadi angka menggunakan metode berikut:
 
 - parseInt()
 - Number()
@@ -851,8 +851,8 @@ console.log(numInt) // 10
 
 #### String to Float
 
-We can convert string float number to a float number. Any float number inside a quote is a string float number. An example of a string float number: '9.81', '3.14', '1.44', etc.
-We can convert string float to number using the following methods:
+Kita dapat mengubah nomor float string menjadi nomor float. Setiap nomor float di dalam kutipan adalah nomor float string. Contoh nomor float string: '9.81', '3.14', '1.44', dll.
+Kita dapat mengonversi string float menjadi number menggunakan metode berikut:
 
 - parseFloat()
 - Number()
@@ -881,8 +881,8 @@ console.log(numInt) // 9.81
 
 #### Float to Int
 
-We can convert float numbers to integers.
-We use the following method to convert float to int:
+Kita dapat mengonversi bilangan float menjadi bilangan bulat.
+Kami menggunakan metode berikut untuk mengubah float menjadi int:
 
 - parseInt()
   
@@ -893,61 +893,61 @@ let numInt = parseInt(num)
 console.log(numInt) // 9
 ```
 
-🌕  You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.  
+🌕  Kamu Menakjubkan. Anda baru saja menyelesaikan tantangan hari ke-2 dan Anda berada dua langkah di depan dalam perjalanan menuju kehebatan. Sekarang lakukan beberapa latihan untuk otak dan otot Anda.  
 
 ## 💻 Day 2: Exercises
 
 ### Exercise: Level 1
 
-1. Declare a variable named challenge and assign it to an initial value **'30 Days Of JavaScript'**.
-2. Print the string on the browser console using __console.log()__
-3. Print the __length__ of the string on the browser console using _console.log()_
-4. Change all the string characters to capital letters using __toUpperCase()__ method
-5. Change all the string characters to lowercase letters using __toLowerCase()__ method
-6. Cut (slice) out the first word of the string using __substr()__ or __substring()__ method
-7. Slice out the phrase *Days Of JavaScript* from *30 Days Of JavaScript*.
-8. Check if the string contains a word __Script__ using __includes()__ method
-9. Split the __string__ into an __array__ using __split()__ method
-10. Split the string 30 Days Of JavaScript at the space using __split()__ method
-11. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' __split__ the string at the comma and change it to an array.
-12. Change 30 Days Of JavaScript to 30 Days Of Python using __replace()__ method.
-13. What is character at index 15 in '30 Days Of JavaScript' string? Use __charAt()__ method.
-14. What is the character code of J in '30 Days Of JavaScript' string using __charCodeAt()__
-15. Use __indexOf__ to determine the position of the first occurrence of __a__ in 30 Days Of JavaScript
-16. Use __lastIndexOf__ to determine the position of the last occurrence of __a__ in 30 Days Of JavaScript.
-17. Use __indexOf__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
-18. Use __lastIndexOf__ to find the position of the last occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
-19. Use __search__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
-20. Use __trim()__ to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
-21. Use __startsWith()__ method with the string *30 Days Of JavaScript* and make the result true
-22. Use __endsWith()__ method with the string *30 Days Of JavaScript* and make the result true
-23. Use __match()__ method to find all the __a__’s in 30 Days Of JavaScript
-24. Use __concat()__ and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
-25. Use __repeat()__ method to print 30 Days Of JavaScript 2 times
+1. Deklarasikan variabel bernama challenge dan tetapkan ke nilai awal **'30 Days Of JavaScript'**.
+2. Cetak string di konsol browser menggunakan __console.log ()__
+3. Cetak __length__ string pada konsol browser menggunakan _console.log ()_
+4. Ubah semua karakter string menjadi huruf kapital menggunakan metode __toUpperCase ()__
+5. Ubah semua karakter string menjadi huruf kecil menggunakan metode __toLowerCase ()__
+6. Potong (potong) kata pertama dari string menggunakan metode __substr ()__ atau __substring ()__
+7. Singkirkan frasa *Days Of JavaScript * dari * 30 Days Of JavaScript*.
+8. Periksa apakah string berisi kata __Script__ menggunakan metode __includes ()__
+9. Pisahkan __string__ menjadi __array__ menggunakan metode __split ()__
+10. Pisahkan string 30 Days Of JavaScript pada ruang tersebut menggunakan metode __split ()__
+11. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' __split__ string di koma dan mengubahnya menjadi array.
+12. Ubah 30 Hari JavaScript menjadi 30 Hari Python menggunakan metode __replace ()__.
+13. Apa karakter pada indeks 15 dalam string '30 Days Of JavaScript '? Gunakan metode __charAt ()__.
+14. Apa kode karakter J dalam string '30 Days Of JavaScript 'menggunakan __charCodeAt ()__
+15. Gunakan __indexOf__ untuk menentukan posisi kemunculan pertama __a__ dalam 30 Hari JavaScript
+16. Gunakan __lastIndexOf__ untuk menentukan posisi kemunculan terakhir __a__ dalam 30 Hari JavaScript.
+17. Gunakan __indexOf__ untuk mencari posisi kemunculan pertama kata __because__ dalam kalimat berikut: __'Anda tidak dapat mengakhiri kalimat dengan karena karena merupakan konjungsi'__
+18. Gunakan __lastIndexOf__ untuk mencari posisi kemunculan terakhir kata __because__ dalam kalimat berikut: __'Anda tidak dapat mengakhiri kalimat dengan karena karena merupakan konjungsi'__
+19. Gunakan __search__ untuk menemukan posisi kemunculan pertama kata __because__ dalam kalimat berikut: __'Anda tidak dapat mengakhiri kalimat dengan karena karena merupakan konjungsi'__
+20. Gunakan __trim ()__ untuk menghapus spasi kosong di awal dan akhir string. Misalnya '30 Days Of JavaScript'.
+21. Gunakan metode __startsWith ()__ dengan string * 30 Days Of JavaScript * dan buat hasilnya benar
+22. Gunakan metode __endsWith ()__ dengan string * 30 Days Of JavaScript * dan buat hasilnya benar
+23. Gunakan metode __match ()__ untuk menemukan semua __a__ dalam 30 Hari JavaScript
+24. Gunakan __concat ()__ dan gabungkan '30 Days of 'dan' JavaScript 'ke satu string, '30 Days Of JavaScript'
+25. Gunakan metode __repeat ()__ untuk mencetak 30 Days Of JavaScript 2 kali
 
 ### Exercise: Level 2
 
-1. Using console.log() print out the following statement:
+1. Menggunakan console.log () mencetak pernyataan berikut:
 
     ```sh
     The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.
     ```
 
-2. Using console.log() print out the following quote by Mother Teresa:
+2. Menggunakan console.log () mencetak kutipan berikut oleh Bunda Teresa:
 
     ```sh
     "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
     ```
 
-3. Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
-4. Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
-5. Check if 'on' is found in both python and jargon
-6. _I hope this course is not full of jargon_. Check if _jargon_ is in the sentence.
-7. Generate a random number between 0 and 100 inclusively.
-8. Generate a random number between 50 and 100 inclusively.
-9. Generate a random number between 0 and 255 inclusively.
-10. Access the 'JavaScript' string characters using a random number.
-11. Use console.log() and escape characters to print the following pattern.
+3. Periksa apakah tipe '10' sama persis dengan 10. Jika tidak, buatlah sama persis.
+4. Periksa apakah parseFloat ('9.8') sama dengan 10 jika tidak membuatnya sama persis dengan 10.
+5. Periksa apakah 'on' ditemukan di python dan jargon
+6. _I hope this course is not full of jargon_. Periksa apakah _jargon_ ada di dalam kalimat.
+7. Hasilkan nomor acak antara 0 dan 100 secara inklusif.
+8. Hasilkan nomor acak antara 50 dan 100 secara inklusif.
+9. Hasilkan nomor acak antara 0 dan 255 secara inklusif.
+10. Akses karakter string 'JavaScript' menggunakan nomor acak.
+11. Gunakan console.log () dan karakter escape untuk mencetak pola berikut.
 
     ```js
     1 1 1 1 1
@@ -957,19 +957,19 @@ console.log(numInt) // 9
     5 1 5 25 125
     ```
 
-12.  Use __substr__ to slice out the phrase __because because because__ from the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
+12.  Menggunakan __substr__ untuk memotong frasa __because because because__ dari kalimat berikut:__'You cannot end a sentence with because because because is a conjunction'__
 
 ### Exercises: Level 3
 
-1. 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word __love__ in this sentence.
-2. Use __match()__ to count the number of all __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
-3. Clean the following text and find the most frequent word (hint, use replace and regular expressions).
+1. 'Cinta adalah hal terbaik di dunia ini. Beberapa menemukan cinta mereka dan beberapa masih mencari cinta mereka. ' Hitung jumlah kata __love__ in this sentence.
+2. Menggunakan __match()__ untuk menghitung jumlah semuanya __because__ dalam kalimat berikut:__'You cannot end a sentence with because because because is a conjunction'__
+3. Bersihkan teks berikut dan temukan kata yang paling sering (petunjuk, gunakan ganti dan ekspresi reguler).
 
     ```js
         const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
     ```
 
-4. Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+4. Hitung total pendapatan tahunan orang tersebut dengan mengekstrak angka-angka dari teks berikut. Dia mendapatkan 5.000 euro dari gaji per bulan, bonus tahunan 10.000 euro, kursus online 15.000 euro per bulan.'
 
 🎉 CONGRATULATIONS ! 🎉
 
