@@ -54,7 +54,7 @@
 🇬🇧 [English](./readMe.md)
 🇪🇸 [Spanish](./Spanish/readme.md)
 🇷🇺 [Russian](./RU/README.md)
-ID [Indonesia](./ID/readMe.md)
+🇮🇩 [Indonesia](./ID/readMe.md)
 
   </div>
 
