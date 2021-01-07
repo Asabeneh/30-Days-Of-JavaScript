@@ -72,20 +72,20 @@
 ![Thirty Days Of JavaScript](./images/day_1_1.png)
 
 - [30 Days Of JavaScript](#30-days-of-javascript)
-- [📔 Day 1](#-day-1)
-  - [Introduction](#introduction)
-  - [Requirements](#requirements)
+- [📔 Hari 1](#-hari-1)
+  - [Pengantar](#pengantar)
+  - [Persyaratan](#persyaratan)
   - [Setup](#setup)
     - [Install Node.js](#install-nodejs)
     - [Browser](#browser)
       - [Installing Google Chrome](#installing-google-chrome)
       - [Opening Google Chrome Console](#opening-google-chrome-console)
-      - [Writing Code on Browser Console](#writing-code-on-browser-console)
+      - [Menulis Kode di Konsol Browser](#menulis-kode-di-konsol-browser)
         - [Console.log](#consolelog)
         - [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
         - [Comments](#comments)
         - [Syntax](#syntax)
-      - [Arithmetics](#arithmetics)
+      - [Arithmetics/Aritmatika](#arithmeticsaritmatika)
     - [Code Editor](#code-editor)
       - [Installing Visual Studio Code](#installing-visual-studio-code)
       - [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
@@ -105,70 +105,70 @@
   - [Variables](#variables)
 - [💻 Day 1: Exercises](#-day-1-exercises)
 
-# 📔 Day 1
+# 📔 Hari 1
 
-## Introduction
+## Pengantar
 
-**Congratulations** on deciding to participate in 30 days of JavaScript programming challenge. In this challenge you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge completion certificate. In case you need help or if you would like to help others you may join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
+**Selamat** karena telah memutuskan untuk berpartisipasi dalam 30 hari tantangan pemrograman JavaScript. Dalam tantangan ini Anda akan mempelajari semua yang Anda butuhkan untuk menjadi pemrogram JavaScript, dan secara umum, seluruh konsep pemrograman. Di akhir tantangan, Anda akan mendapatkan sertifikat penyelesaian tantangan pemrograman 30DaysOfJavaScript. Jika Anda membutuhkan bantuan atau jika Anda ingin membantu orang lain,Anda dapat bergabung dengan [group telegram](https://t.me/ThirtyDaysOfJavaScript).
 
-**A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the web. I enjoy using and teaching JavaScript and I hope you will do so too.
+**Tantangan 30DaysOfJavaScript** adalah panduan untuk pemula dan pengembang JavaScript tingkat lanjut. Selamat datang di JavaScript. JavaScript adalah bahasa web. Saya menikmati menggunakan dan mengajar JavaScript dan saya harap Anda juga akan melakukannya.
 
-In this step by step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
-JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **_machine learning_** and **_AI_**.
-**_JavaScript (JS)_** has increased in popularity in recent years and has been the leading
-programming language for six consecutive years and is the most used programming language on
+Dalam tantangan JavaScript langkah demi langkah ini, Anda akan mempelajari JavaScript, bahasa pemrograman paling populer dalam sejarah umat manusia.
+JavaScript digunakan **_untuk menambahkan interaktivitas ke situs web, untuk mengembangkan aplikasi seluler, aplikasi desktop, game_** dan saat ini JavaScript dapat digunakan untuk **_pembelajaran mesin_** dan **_AI_**.
+**_JavaScript (JS)_** semakin populer dalam beberapa tahun terakhir dan menjadi yang terdepan
+bahasa pemrograman selama enam tahun berturut-turut dan merupakan bahasa pemrograman yang paling banyak digunakan di
 Github.
 
-## Requirements
+## Persyaratan
 
-No prior knowledge of programming is required to follow this challenge. You need only:
+Tidak diperlukan pengetahuan pemrograman sebelumnya untuk mengikuti tantangan ini. Anda hanya membutuhkan:
 
-1. Motivation
-2. A computer
+1. Motivasi
+2. Komputer
 3. Internet
-4. A browser
-5. A code editor
+4. Browser
+5. code editor
 
 ## Setup
 
-I believe you have the motivation and a strong desire to be a developer, a computer and Internet. If you have those, then you have everything to get started.
+Saya yakin Anda memiliki motivasi dan keinginan kuat untuk menjadi pengembang, komputer, dan Internet. Jika Anda memilikinya, maka Anda memiliki segalanya untuk memulai.
 
 ### Install Node.js
 
-You may not need node.js right now but you may need it for later. Install [node.js](https://nodejs.org/en/).
+Anda mungkin tidak membutuhkan node.js sekarang tetapi Anda mungkin membutuhkannya nanti. Install [node.js](https://nodejs.org/en/).
 
 ![Node download](images/download_node.png)
 
-After downloading double click and install
+Setelah mengunduh, klik dua kali dan instal
 
 ![Install node](images/install_node.png)
 
-We can check if node is installed on our local machine by opening our device terminal or command prompt.
+Kami dapat memeriksa apakah node diinstal pada mesin lokal Anda dengan membuka terminal perangkat atau command prompt kami.
 
 ```sh
 asabeneh $ node -v
 v12.14.0
 ```
 
-When making this tutorial I was using node version 12.14.0, but now the recommended version of node.js for download is 12.17.0.
+Saat membuat tutorial ini saya menggunakan node versi 12.14.0, namun sekarang versi node.js yang direkomendasikan untuk diunduh adalah 12.17.0.
 
 ### Browser
 
-There are many browsers out there. However, I strongly recommend Google Chrome.
+Ada banyak browser di luar sana. Namun, saya sangat merekomendasikan Google Chrome.
 
 #### Installing Google Chrome
 
-Install [google chrome](https://www.google.com/chrome/) if you do not have one yet. We can write small JavaScript code on the browser console, but we do not use the browser console to develop applications.
+Install [google chrome](https://www.google.com/chrome/) jika Anda belum memilikinya. Kami dapat menulis kode JavaScript kecil di konsol browser, tetapi kami tidak menggunakan konsol browser untuk mengembangkan aplikasi.
 
 ![Google Chrome](images/google_chrome.png)
 
 #### Opening Google Chrome Console
 
-You can open Google Chrome console either by clicking three dots at the top right corner of the browser, selecting _More tools -> Developer tools_ or using a keyboard shortcut. I prefer using shortcuts.
+Anda dapat membuka konsol Google Chrome dengan mengklik tiga titik di pojok kanan atas browser, memilih _More tools -> Developer tools_ atau menggunakan pintasan keyboard. Saya lebih suka menggunakan jalan pintas.
 
 ![Opening chrome](images/opening_developer_tool.png)
 
-To open the Chrome console using a keyboard shortcut.
+Untuk membuka konsol Chrome menggunakan pintasan keyboard.
 
 ```sh
 Mac
@@ -180,14 +180,14 @@ Ctl+Shift+J
 
 ![Opening console](images/opening_chrome_console_shortcut.png)
 
-After you open the Google Chrome console, try to explore the marked buttons. We will spend most of the time on the Console. The Console is the place where your JavaScript code goes. The Google Console V8 engine changes your JavaScript code to machine code.
-Let us write a JavaScript code on the Google Chrome console:
+Setelah Anda membuka konsol Google Chrome, coba jelajahi tombol yang ditandai. Kami akan menghabiskan sebagian besar waktu di Konsol. Konsol adalah tempat kode JavaScript Anda berada. Mesin Google Console V8 mengubah kode JavaScript Anda menjadi kode mesin.
+Mari kita tulis kode JavaScript di konsol Google Chrome:
 
 ![write code on console](./images/js_code_on_chrome_console.png)
 
-#### Writing Code on Browser Console
+#### Menulis Kode di Konsol Browser
 
-We can write any JavaScript code on the Google console or any browser console. However, for this challenge, we only focus on Google Chrome console. Open the console using:
+Kami dapat menulis kode JavaScript apa pun di konsol Google atau konsol browser apa pun. Namun untuk tantangan ini, kami hanya fokus pada konsol Google Chrome. Buka konsol menggunakan:
 
 ```sh
 Mac
@@ -199,7 +199,7 @@ Ctl+Shift+I
 
 ##### Console.log
 
-To write our first JavaScript code, we used a built-in function **console.log()**. We passed an argument as input data, and the function displays the output. We passed 'Hello, World' as input data or argument in the console.log() function.
+Untuk menulis kode JavaScript pertama Anda, kami menggunakan fungsi bawaan **console.log()**. Kami memberikan argumen sebagai data masukan, dan fungsi menampilkan keluaran. Kami lulus 'Hello, World' sebagai data masukan atau argumen dalam fungsi console.log ().
 
 ```js
 console.log('Hello, World!')
@@ -207,7 +207,7 @@ console.log('Hello, World!')
 
 ##### Console.log with Multiple Arguments
 
-The **conole.log()** function can take multiple parameters separated by comma. The syntax looks like as follows:**console.log(param1, param2, param3)**
+Di **conole.log ()** dapat mengambil beberapa parameter yang dipisahkan oleh koma. Sintaksnya terlihat seperti berikut: **console.log (param1, param2, param3)**
 
 ![console log multiple arguments](./images/console_log_multipl_arguments.png)
 
@@ -217,43 +217,43 @@ console.log('HAPPY', 'NEW', 'YEAR', 2020)
 console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
 ```
 
-As you can see from the snippet code above, _console.log()_ can take multiple arguments.
+Seperti yang Anda lihat dari kode cuplikan di atas, _console.log()_ dapat menerima banyak argumen.
 
-Congratulations! You wrote your first JavaScript code using _console.log()_.
+Selamat! Anda menulis kode JavaScript pertama Anda menggunakan _console.log()_.
 
 ##### Comments
 
-We add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code.In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this /\* \*/ is also a comment.
+Kami menambahkan komentar ke kode kami. Komentar sangat penting untuk membuat kode lebih mudah dibaca dan meninggalkan komentar di kode kita. JavaScript tidak mengeksekusi bagian komentar dari kode kita. Dalam JavaScript, baris teks apa pun yang dimulai dengan // dalam JavaScript adalah komentar, dan apa pun yang dilampirkan seperti ini / \*\* / juga merupakan komentar.
 
-**Example: Single Line Comment**
+**Contoh: Komentar Baris Tunggal**
 
-// This is the first comment  
- // This is the second comment  
- // I am a single line comment
+// Ini adalah komentar pertama
+// Ini adalah komentar kedua
+// Saya adalah komentar satu baris
 
-**Example: Multiline Comment**
+**Contoh: Komentar Multiline**
 
-/_
-This is a multiline comment  
- Multiline comments can take multiple lines  
- JavaScript is the language of the web  
- _/
+/ _
+Ini adalah komentar multiline
+Komentar multiline dapat mengambil beberapa baris
+JavaScript adalah bahasa web
+_ /
 
 ##### Syntax
 
-Programming languages are similar to human languages. English or many other language uses words, phrases, sentences,compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is _the structure of statements in a computer language._ Programing languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+Bahasa pemrograman mirip dengan bahasa manusia. Bahasa Inggris atau banyak bahasa lainnya menggunakan kata, frasa, kalimat, kalimat majemuk, dan lainnya untuk menyampaikan pesan yang bermakna. Arti bahasa Inggris dari syntax adalah _pengaturan kata dan frase untuk membuat kalimat yang tersusun dengan baik dalam suatu bahasa_. Definisi teknis dari sintaks adalah _struktur pernyataan dalam bahasa komputer._ Bahasa pemrograman memiliki sintaks. JavaScript adalah bahasa pemrograman dan seperti bahasa pemrograman lainnya, JavaScript memiliki sintaksnya sendiri. Jika kita tidak menulis sintaks yang dimengerti JavaScript, itu akan menimbulkan berbagai jenis kesalahan. Kami akan menjelajahi berbagai jenis kesalahan JavaScript nanti. Untuk saat ini, mari kita lihat kesalahan sintaks.
 
 ![Error](images/raising_syntax_error.png)
 
-I made a deliberate mistake. As a result, the console raises syntax errors. Actually, the syntax is very informative. It informs what type of mistake was made. By reading the error feedback guideline, we can correct the syntax and fix the problem. The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
+Saya membuat kesalahan yang disengaja. Akibatnya, konsol memunculkan kesalahan sintaksis. Sebenarnya, sintaksnya sangat informatif. Ini menginformasikan jenis kesalahan apa yang dibuat. Dengan membaca pedoman umpan balik kesalahan, kita dapat memperbaiki sintaks dan memperbaiki masalah. Proses mengidentifikasi dan menghapus kesalahan dari program disebut debugging. Biarkan kami memperbaiki kesalahan:
 
 ```js
 console.log('Hello, World!')
 console.log('Hello, World!')
 ```
 
-So far, we saw how to display text using the _console.log()_. If we are printing text or string using _console.log()_, the text has to be inside the single quotes, double quotes, or a backtick quotes.
-**Example:**
+Sejauh ini, kami melihat bagaimana menampilkan teks menggunakan _console.log()_. Jika kita mencetak teks atau string menggunakan _console.log()_, teks harus di dalam tanda kutip tunggal, tanda kutip ganda, atau tanda kutip backtick.
+**Contoh:**
 
 ```js
 console.log('Hello, World!')
@@ -261,11 +261,11 @@ console.log('Hello, World!')
 console.log(`Hello, World!`)
 ```
 
-#### Arithmetics
+#### Arithmetics/Aritmatika
 
-Now, let us practice more writing JavaScript codes using _console.log()_ on google chrome console for number data types.
-In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
-The console can directly take arguments without the **_console.log()_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
+Now, let us practice more writing JSekarang, mari kita lebih banyak berlatih menulis kode JavaScript menggunakanavaScript codes using _console.log()_ di konsol google chrome untuk tipe data nomor.
+Selain teks, kita juga bisa melakukan perhitungan matematis menggunakan JavaScript. Mari kita lakukan perhitungan sederhana berikut ini.
+Konsol dapat langsung menerima argumen tanpa ekstensi **_console.log()_** fungsi. Namun, itu termasuk dalam pendahuluan ini karena sebagian besar tantangan ini akan terjadi di editor teks di mana penggunaan fungsi tersebut wajib. Anda dapat bermain-main langsung dengan instruksi di konsol.
 
 ![Arithmetic](images/arithmetic.png)
 
@@ -280,19 +280,19 @@ console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 
 ### Code Editor
 
-We can write our codes on the browser console, but it won't do for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days JavaScript challenge, we will be using Visual Studio Code.
+Kami dapat menulis kode kami di konsol browser, tetapi itu tidak akan berhasil untuk proyek yang lebih besar. Di lingkungan kerja nyata, pengembang menggunakan editor kode yang berbeda untuk menulis kode mereka. Dalam tantangan JavaScript 30 hari ini, kami akan menggunakan Visual Studio Code.
 
 #### Installing Visual Studio Code
 
-Visual studio code is a very popular open-source text editor. I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
+Visual studio code adalah editor teks sumber terbuka yang sangat populer. Saya akan merekomendasikan kepada [download Visual Studio Code](https://code.visualstudio.com/), tetapi jika Anda mendukung editor lain, silakan ikuti apa yang Anda miliki.
 
 ![Vscode](images/vscode.png)
 
-If you installed Visual Studio Code, let us start using it.
+Jika Anda menginstal Visual Studio Code, mari kita mulai menggunakannya.
 
 #### How to Use Visual Studio Code
 
-Open the Visual Studio Code by double-clicking its icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
+Buka Visual Studio Kode dengan mengklik dua kali ikonnya. Saat Anda membukanya, Anda akan mendapatkan antarmuka semacam ini. Cobalah untuk berinteraksi dengan ikon berlabel.
 
 ![Vscode ui](./images/vscode_ui.png)
 
@@ -310,18 +310,18 @@ Open the Visual Studio Code by double-clicking its icon. When you open it, you w
 
 ## Adding JavaScript to a Web Page
 
-JavaScript can be added to a web page in three different ways:
+JavaScript dapat ditambahkan ke halaman web dengan tiga cara berbeda:
 
 - **_Inline script_**
 - **_Internal script_**
 - **_External script_**
 - **_Multiple External scripts_**
 
-The following sections show different ways of adding JavaScript code to your web page.
+Bagian berikut menunjukkan berbagai cara menambahkan kode JavaScript ke halaman web Anda.
 
 ### Inline Script
 
-Create a project folder on your desktop or in any location, name it 30DaysOfJS and create an **_index.html_** file in the project folder. Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
+Buat folder proyek di desktop Anda atau di lokasi mana pun, beri nama 30DaysOfJS dan buat file **_index.html_** file di folder proyek. Kemudian paste kode berikut dan buka di browser, misalnya [Chrome](https://www.google.com/chrome/).
 
 ```html
 <!DOCTYPE html>
@@ -335,12 +335,12 @@ Create a project folder on your desktop or in any location, name it 30DaysOfJS a
 </html>
 ```
 
-Now, you just wrote your first inline script. We can create a pop up alert message using the _alert()_ built-in function.
+Sekarang, Anda tinggal menulis skrip sebaris pertama Anda. Kita dapat membuat pesan peringatan pop up menggunakan _alert()_ fungsi bawaan.
 
 ### Internal Script
 
-The internal script can be written in the _head_ or the _body_, but it is preferred to put it on the body of the HTML document.
-First, let us write on the head part of the page.
+Skrip internal dapat ditulis di _head_ or the _body_, tetapi lebih disukai untuk meletakkannya di body dokumen HTML.
+Pertama, mari kita tulis di bagian kepala halaman.
 
 ```html
 <!DOCTYPE html>
@@ -355,7 +355,7 @@ First, let us write on the head part of the page.
 </html>
 ```
 
-This is how we write an internal script most of the time. Writing the JavaScript code in the body section is the most preferred option. Open the browser console to see the output from the console.log()
+Ini adalah cara kami menulis skrip internal sebagian besar waktu. Menulis kode JavaScript di bagian body adalah opsi yang paling disukai. Buka konsol browser untuk melihat output dari console.log ()
 
 ```html
 <!DOCTYPE html>
@@ -372,20 +372,20 @@ This is how we write an internal script most of the time. Writing the JavaScript
 </html>
 ```
 
-Open the browser console to see the output from the console.log()
+Buka konsol browser untuk melihat output dari console.log ()
 
 ![js code from vscode](./images/js_code_vscode.png)
 
 ### External Script
 
-Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension. All files ending with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
+Mirip dengan skrip internal, tautan skrip eksternal dapat berada di header atau body, tetapi lebih disukai untuk meletakkannya di body.
+Pertama, kita harus membuat file JavaScript eksternal dengan ekstensi .js. Semua file yang diakhiri dengan ekstensi .js. Semua file yang diakhiri dengan ekstensi .js adalah file JavaScript. Buat file bernama introduksi.js di dalam direktori proyek Anda dan tulis kode berikut dan tautkan file .js ini di bagian bawah badan.
 
 ```js
 console.log('Welcome to 30DaysOfJavaScript')
 ```
 
-External scripts in the _head_:
+Skrip eksternal di _head_:
 
 ```html
 <!DOCTYPE html>
@@ -398,7 +398,7 @@ External scripts in the _head_:
 </html>
 ```
 
-External scripts in the _body_:
+Skrip eksternal di _body_:
 
 ```html
 <!DOCTYPE html>
@@ -414,12 +414,12 @@ External scripts in the _body_:
 </html>
 ```
 
-Open the browser console to see the output of the console.log()
+Buka konsol browser untuk melihat output dari console.log ()
 
 ### Multiple External Scripts
 
-We can also link multiple external JavaScript files to a web page.
-Create a helloworld.js file inside the 30DaysOfJS folder and write the following code.
+Kami juga dapat menautkan beberapa file JavaScript eksternal ke halaman web.
+Buat file helloworld.js di dalam folder 30DaysOfJS dan tulis kode berikut.
 
 ```js
 console.log('Hello, World!')
@@ -438,27 +438,27 @@ console.log('Hello, World!')
 </html>
 ```
 
-_Your main.js file should be below all other scripts_. It is very important to remember this.
+_File main.js Anda harus berada di bawah semua skrip lainnya_. Sangat penting untuk mengingat ini.
 
 ![Multiple Script](./images/multiple_script.png)
 
 ## Introduction to Data types
 
-In JavaScript and also other programming languages, there are different kinds of data types. The following are JavaScript primitive data types:_String, Number, Boolean, undefined, Null_, and _Symbol_.
+Dalam JavaScript dan juga bahasa pemrograman lainnya, terdapat berbagai jenis tipe data. Berikut ini adalah tipe data primitive JavaScript:_String, Number, Boolean, undefined, Null_, and _Symbol_.
 
 ### Numbers
 
-- Integers: Integer (negative, zero and positive) numbers
-  Example:
+- Integers: Bilangan integer (negatif, nol dan positif)
+   Contoh:
   ... -3, -2, -1, 0, 1, 2, 3 ...
-- Float-point numbers: Decimal number
-  Example
+- Angka floating-point: Angka desimal
+   Contoh
   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
 ### Strings
 
-A collection of one or more characters between two single quotes, double quotes, or backticks.
-**Example:**
+Kumpulan satu atau lebih karakter antara dua tanda kutip tunggal, tanda kutip ganda, atau tanda kutip belakang.
+**Contoh:**
 
 ```js
 'Asabeneh'
@@ -471,11 +471,11 @@ A collection of one or more characters between two single quotes, double quotes,
 
 ### Booleans
 
-A boolean value is either True or False. Any comparisons return a boolean value, which is either true or false.
+Nilai boolean adalah True atau False. Setiap perbandingan mengembalikan nilai boolean, bisa true atau false.
 
-A boolean data type is either a true or false value.
+Tipe data boolean bisa berupa nilai true atau false.
 
-**Example:**
+**Contoh:**
 
 ```js
 true // if the light on ,the value is true
@@ -484,7 +484,7 @@ false // if the light off, the value is false
 
 ### Undefined
 
-In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
+Di JavaScript, jika kita tidak menetapkan nilai ke variabel, nilainya tidak ditentukan. Selain itu, jika suatu fungsi tidak mengembalikan apa pun, ia mengembalikan tidak undefined.
 
 ```js
 let firstName
@@ -493,7 +493,7 @@ console.log(firstName) //not defined, because it is not assigned to a value yet
 
 ### Null
 
-Null in JavaScript means an empty value.
+Null dalam JavaScript berarti nilai kosong.
 
 ```js
 let emptyValue = null
@@ -501,7 +501,7 @@ let emptyValue = null
 
 ## Checking Data Types
 
-To check the data type of a certain variable, we use the **typeof** operator. See the following example.
+Untuk memeriksa tipe data dari variabel tertentu, kami menggunakan **typeof** operator. Lihat contoh berikut.
 
 ```js
 console.log(typeof 'Asabeneh') // string
@@ -513,8 +513,8 @@ console.log(typeof undefined) // undefined
 
 ## Comments Again
 
-Remember that commenting in JavaScript is similar to other programming languages. Comments are important in making your code more readable.
-There are two ways of commenting:
+Ingatlah bahwa berkomentar dalam JavaScript mirip dengan bahasa pemrograman lainnya. Komentar penting untuk membuat kode Anda lebih mudah dibaca.
+Ada dua cara untuk berkomentar:
 
 - _Single line commenting_
 - _Multiline commenting_
@@ -525,7 +525,7 @@ There are two ways of commenting:
 // let lastName = 'Yetayeh'; single line comment
 ```
 
-Multiline commenting:
+Komentar multiline:
 
 ```js
 /*
@@ -538,18 +538,18 @@ Multiline commenting:
 
 ## Variables
 
-Variables are _containers_ of data. Variables are used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords.
+Variabel adalah _containers_ data. Variabel digunakan untuk _store_ data di lokasi memori. Saat variabel dideklarasikan, lokasi memori dicadangkan. Ketika sebuah variabel ditetapkan ke suatu nilai (data), ruang memori akan diisi dengan data tersebut. Untuk mendeklarasikan variabel, kami menggunakan _var_, _let_, or _const_ kata kunci.
 
-For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do no change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is error prone way of declaring variable it has lots of leak. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
+Untuk variabel yang berubah pada waktu yang berbeda, kami menggunakan _let_. Jika data tidak berubah sama sekali, kami gunakan _const_. Misalnya, PI, nama negara, gravitasi tidak berubah, dan kita dapat menggunakan _const_. Kami tidak akan menggunakan var dalam tantangan ini dan saya tidak menyarankan Anda untuk menggunakannya. Ini adalah cara yang rawan kesalahan untuk mendeklarasikan variabel yang memiliki banyak kebocoran. Kami akan berbicara lebih banyak tentang var, let, dan const secara rinci di bagian lain (scope). Untuk saat ini penjelasan di atas sudah cukup.
 
-A valid JavaScript variable name must follow the following rules:
+Nama variabel JavaScript yang valid harus mengikuti aturan berikut:
 
-- A JavaScript variable name should not begin with a number.
-- A JavaScript variable name does not allow special characters except dollar sign and underscore.
-- A JavaScript variable name follows a camelCase convention.
-- A JavaScript variable name should not have space between words.
+- Nama variabel JavaScript tidak boleh dimulai dengan angka.
+- Nama variabel JavaScript tidak mengizinkan karakter khusus kecuali tanda dolar dan garis bawah.
+- Nama variabel JavaScript mengikuti konvensi camelCase.
+- Nama variabel JavaScript tidak boleh memiliki spasi di antara kata.
 
-The following are examples of valid JavaScript variables.
+Berikut adalah contoh variabel JavaScript yang valid.
 
 ```js
 firstName
@@ -573,9 +573,9 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follows the camelCase convention of declaring in JavaScrip. In this material, we will use camelCase variables.
+Variabel pertama dan kedua pada daftar mengikuti konvensi camelCase untuk mendeklarasikan dalam JavaScript. Dalam materi ini, kami akan menggunakan variabel camelCase.
 
-Example of invalid variables:
+Contoh variabel yang tidak valid:
 
 ```sh
   first-name
@@ -583,14 +583,14 @@ Example of invalid variables:
   num_#_1
 ```
 
-Let us declare variables with different data types. To declare a variable, we need to use *let* or *const* keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value(assigned data).
+Mari kita deklarasikan variabel dengan tipe data yang berbeda. Untuk mendeklarasikan variabel, kita perlu menggunakan kata kunci *let* atau *const* sebelum nama variabel. Mengikuti nama variabel, kami menulis tanda sama dengan (assignment operator / operator penugasan), dan nilai (assigned data / data yang ditetapkan).
 
 ```js
 // Syntax
 let nameOfVariable = value
 ```
 
-**Examples of declared variables**
+**Contoh variabel yang dideklarasikan**
 
 ```js
 // Declaring different variables of different data types
@@ -634,26 +634,26 @@ console.log(name, job, live)
 Asabeneh teacher Finland
 ```
 
-When you run _index.html_ file in the 01-Day folder you should get this:
+Saat Anda menjalankan file _index.html_ di folder 01-Day, Anda akan mendapatkan ini:
 
 ![Day one](./images/day_1.png)
 
-🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and muscle.
+🌕 Kamu luar biasa! Anda baru saja menyelesaikan tantangan hari pertama dan Anda sedang dalam perjalanan menuju kehebatan. Sekarang lakukan beberapa latihan untuk otak dan otot Anda.
 
 # 💻 Day 1: Exercises
 
-1. Write a single line comment which says, _comments can make code readable_
-2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_
-3. Write a multiline comment which says, _comments can make code readable, easy to reuse_
-   _and informative_
+1. Tulis satu baris komentar yang berbunyi, _komentar dapat membuat kode dapat dibaca_
+2. Tulis satu lagi komentar yang mengatakan, _Selamat datang di 30DaysOfJavaScript_
+3. Tulis komentar multiline yang menyatakan, _comments dapat membuat kode dapat dibaca, mudah digunakan kembali_
+    _dan informatif_
 
-4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
-5. Create datatypes.js file and use the JavaScript **_typeof_** operator to check different data types. Check the data type of each variable
-6. Declare four variables without assigning values
-7. Declare four variables with assigned values
-8. Declare variables to store your first name, last name, marital status, country and age in multiple lines
-9. Declare variables to store your first name, last name, marital status, country and age in a single line
-10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to the browser console.
+4. Buat file variable.js dan deklarasikan variabel dan tetapkan tipe data string, boolean, undefined dan null
+5. Buat file datatypes.js dan gunakan operator JavaScript **_typeof_** untuk memeriksa tipe data yang berbeda. Periksa tipe data setiap variabel
+6. Deklarasikan empat variabel tanpa menetapkan nilai
+7. Deklarasikan empat variabel dengan nilai yang ditetapkan
+8. Deklarasikan variabel untuk menyimpan nama depan, nama belakang, status perkawinan, negara dan usia dalam beberapa baris
+9. Deklarasikan variabel untuk menyimpan nama depan, nama belakang, status pernikahan, negara, dan usia Anda dalam satu baris
+10. Deklarasikan dua variabel _myAge_ dan _yourAge_ dan tetapkan nilai awal dan log ke konsol browser.
 
 ```sh
 I am 25 years old.
