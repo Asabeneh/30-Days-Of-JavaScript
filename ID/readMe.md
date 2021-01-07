@@ -51,9 +51,9 @@
 
   <div>
 
-🇬🇧 [English](./readMe.md)
-🇪🇸 [Spanish](./Spanish/readme.md)
-🇷🇺 [Russian](./RU/README.md)
+🇬🇧 [English](../readMe.md)
+🇪🇸 [Spanish](../Spanish/readme.md)
+🇷🇺 [Russian](../RU/README.md)
 🇮🇩 [Indonesia](./ID/readMe.md)
 
   </div>
