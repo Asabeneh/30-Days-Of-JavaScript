@@ -21,7 +21,7 @@
   - [Conditionals](#conditionals)
     - [If](#if)
     - [If Else](#if-else)
-    - [If  Else if Else](#if-else-if-else)
+    - [If / Else if / Else](#if-else-if-else)
     - [Switch](#switch)
     - [Ternary Operators](#ternary-operators)
   - [💻 Exercises](#-exercises)
@@ -33,23 +33,23 @@
 
 ## Conditionals
 
-Conditional statements are used for  make decisions based on different conditions.
-By default , statements in JavaScript script executed sequentially from top to bottom. If the processing logic require so, the sequential flow of execution can be altered in two ways:
+Conditional statements are used for making decisions based on different conditions.
+By default, statements in JavaScript are executed sequentially from top to bottom. If the processing logic require so, the sequential flow of execution can be altered in two ways:
 
-- Conditional execution: a block of one or more statements will be executed if a certain expression is true
-- Repetitive execution: a block of one or more statements will be repetitively executed as long as a certain expression is true. In this section, we will cover _if_, _else_ , _else if_ statements. The comparison and logical operators we learned in the previous sections will be useful in here.
+- Conditional execution: a block of one or more statements will be executed if a certain expression is true.
+- Repetitive execution: a block of one or more statements will be repetitively executed as long as a certain expression is true. In this section, we will cover _if_, _else_, _else if_ statements. The comparison and logical operators we learned in the previous sections will be useful in here.
 
-Conditions can be implementing using the following ways:
+Conditions can be implemented using the following ways:
 
 - if
 - if else
-- if else if else
+- if / else if / else
 - switch
 - ternary operator
 
 ### If
 
-In JavaScript and other programming languages the key word _if_ is to used check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
+In JavaScript and other programming languages the key word _if_ is to used check if a condition is true and to execute the block of code. To create an if condition, we need the _if_ keyword, condition inside a parenthesis, and block of code inside a curly bracket({}).
 
 ```js
 // syntax
@@ -68,7 +68,7 @@ if (num > 0) {
 //  3 is a positive number
 ```
 
-As you can see in the  condition example above, 3 is greater than 0, so it is a positive number. The condition was true and the block of code was executed. However, if the condition is false, we won't  see any results.
+As you can see in the condition example above, 3 is greater than 0, so it is a positive number. The condition was true and the block of code was executed. However, if the condition is false, we won't see any results.
 
 ```js
 let isRaining = true
@@ -77,7 +77,7 @@ if (isRaining) {
 }
 ```
 
- The same goes for the second condition, if isRaining is false the if block will not be executed and we do not see any output. In order to see the result of a falsy condition, we should have another block, which is going to be _else_.
+ The same goes for the second condition, if isRaining is false the if block will not be executed and we will not see any output. In order to see the result of a falsy condition, we should have another block, which is going to be _else_.
 
 ### If Else
 
@@ -130,9 +130,9 @@ if (isRaining) {
 
 The last condition is false, therefore the else block was executed. What if we have more than two conditions? In that case,  we would use *else if* conditions.
 
-### If  Else if Else
+### If / Else if / Else
 
-On our daily life, we make decisions on daily basis. We make decisions not by checking  one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full of conditions. We use *else if* when we have multiple conditions.
+In our daily life, we make decisions on daily basis. We make decisions not by checking one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full of conditions. We use *else if* when we have multiple conditions.
 
 ```js
 // syntax
@@ -279,24 +279,24 @@ isRaining
 
 ### Exercises: Level 1
 
-1. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to  wait for the number of years he neds to turn 18.
+1. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to  wait for the number of years he needs to turn 18.
 
    ```sh
    Enter your age: 30
    You are old enough to drive.
 
-   Enter your age:15
+   Enter your age: 15
    You are left with 3 years to drive.
    ```
 
-1. Compare the values of myAge and yourAge using if … else. Based on the comparison and log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
+1. Compare the values of myAge and yourAge using if … else. Based on the comparison, log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
 
    ```sh
    Enter your age: 30
    You are 5 years older than me.
    ```
 
-1. If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in to ways
+1. If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in two ways:
 
     - using if else
     - ternary operator.
@@ -310,7 +310,7 @@ isRaining
       4 is greater than 3
     ```
 
-1. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
+1. Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using JavaScript?
 
     ```sh
     Enter a number: 2
@@ -322,9 +322,9 @@ isRaining
 
 ### Exercises: Level 2
 
-1. Write a code which  can give grades to students according to theirs scores:
+1. Write a code which  can give grades to students according to their scores:
    - 80-100, A
-   - 70-89, B
+   - 70-79, B
    - 60-69, C
    - 50-59, D
    - 0-49, F
