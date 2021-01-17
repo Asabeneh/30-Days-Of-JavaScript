@@ -465,21 +465,22 @@ A collection of one or more characters between two single quotes, double quotes,
 'Finland'
 'JavaScript is a beautiful programming language'
 'I love teaching'
-'I hope you are enjoying the first day'`We can also create a string using a backtick`
-;('A string could be just as small as one character as big as many pages')
+'I hope you are enjoying the first day'
+`We can also create a string using a backtick`
+('A string could be just as small as one character or as big as many pages')
 ```
 
 ### Booleans
 
-A boolean value is either True or False. Any comparisons return a boolean value, which is either true or false.
+A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
 
 A boolean data type is either a true or false value.
 
 **Example:**
 
 ```js
-true // if the light on ,the value is true
-false // if the light off, the value is false
+true // if the light is on, the value is true
+false // if the light is off, the value is false
 ```
 
 ### Undefined
@@ -488,7 +489,7 @@ In JavaScript, if we don't assign a value to a variable, the value is undefined.
 
 ```js
 let firstName
-console.log(firstName) //not defined, because it is not assigned to a value yet
+console.log(firstName) // undefined, because it is not assigned to a value yet
 ```
 
 ### Null
@@ -533,7 +534,7 @@ Multiline commenting:
     let age = 100;
     let isMarried = true;
     This is a Multiple line comment
-    */
+*/
 ```
 
 ## Variables
@@ -612,7 +613,7 @@ Asabeneh Yetayeh Finland Helsinki 100 True
 // Declaring variables with number values
 let age = 100 // age in years
 const gravity = 9.81 // earth gravity  in m/s2
-const boilingPoint = 100 // water boiling point, temperature in oC
+const boilingPoint = 100 // water boiling point, temperature in degree Celsius
 const PI = 3.14 // geometrical constant
 
 console.log(gravity, boilingPoint, PI)
