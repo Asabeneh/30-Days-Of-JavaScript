@@ -407,8 +407,8 @@ External scripts in the _body_:
     <title>30DaysOfJavaScript:External script</title>
   </head>
   <body>
-    //it could be in the header or in the body // Here is the recommended place
-    to put the external script
+    <!-- it could be in the header or in the body --> 
+    <!-- Here is the recommended place to put the external script -->
     <script src="introduction.js"></script>
   </body>
 </html>
