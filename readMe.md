@@ -233,11 +233,11 @@ We add comments to our code. Comments are very important to make code more reada
 
 **Example: Multiline Comment**
 
-/_
+/*
 This is a multiline comment  
  Multiline comments can take multiple lines  
  JavaScript is the language of the web  
- _/
+ */
 
 ##### Syntax
 
