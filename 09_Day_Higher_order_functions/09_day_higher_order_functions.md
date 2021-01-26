@@ -97,7 +97,7 @@ const sumArray = arr => {
   const callBack = function(element) {
     sum += element
   }
-  numbers.forEach(callback)
+  arr.forEach(callBack)
   return sum
 
 }
@@ -115,7 +115,7 @@ const numbers = [1, 2, 3, 4]
 ​
 const sumArray = arr => {
   let sum = 0
-  numbers.forEach(function(element) {
+  arr.forEach(function(element) {
     sum += element
   })
   return sum
@@ -196,7 +196,7 @@ arr.forEach((element, index, arr) => console.log(index, element, arr))
 ```js
 let sum = 0;
 const numbers = [1,2,3,4,5];
-numbers.forEach(num => console.log(num)))
+numbers.forEach(num => console.log(num))
 
 console.log(sum)
 ```
@@ -207,12 +207,13 @@ console.log(sum)
 3
 4
 5
+0
 ```
 
 ```js
 let sum = 0;
 const numbers = [1,2,3,4,5];
-numbers.forEach(num => sum += num))
+numbers.forEach(num => sum += num)
 
 console.log(sum)
 ```
@@ -355,8 +356,8 @@ const scores = [
   { name: 'John', score: 100 },
 ]
 
-const scoresGreaterEight = scores.filter((score) => score.score > 80)
-console.log(scoresGreaterEight)
+const scoresGreaterEighty = scores.filter((score) => score.score > 80)
+console.log(scoresGreaterEighty)
 ```
 
 ```sh

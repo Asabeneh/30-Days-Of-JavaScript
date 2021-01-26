@@ -239,7 +239,7 @@ function sumAllNums() {
   console.log(arguments)
 }
 
-sumAllNums(1, 2, 3, 4)) 
+sumAllNums(1, 2, 3, 4)
 // Arguments(4) [1, 2, 3, 4, callee: ƒ, Symbol(Symbol.iterator): ƒ]
 
 ```
@@ -269,11 +269,11 @@ console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
 ​
 const sumAllNums = (...args) => {
   // console.log(arguments), arguments object not found in arrow function
-  // instead we use an a parameter followed by spread operator
+  // instead we use an a parameter followed by spread operator (...)
   console.log(args)
 }
 
-sumAllNums(1, 2, 3, 4))
+sumAllNums(1, 2, 3, 4)
 // [1, 2, 3, 4]
 
 ```

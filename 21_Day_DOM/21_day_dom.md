@@ -74,7 +74,7 @@ We can access already created element or elements using JavaScript. To access or
 
 #### Getting elements by tag name
 
-**_getElementsByTagName()_**:takes a take name as a string parameter and this method returns an HTMLCollection object. An HTMLCollection is an array like object of HTML elements. The length property provides the size of the collection. Whenever we use this method we access the individual elements using index or after loop through each individual items. An HTMLCollection does not support all array methods therefore we should use regular for loop instead of forEach.
+**_getElementsByTagName()_**:takes a tag name as a string parameter and this method returns an HTMLCollection object. An HTMLCollection is an array like object of HTML elements. The length property provides the size of the collection. Whenever we use this method we access the individual elements using index or after loop through each individual items. An HTMLCollection does not support all array methods therefore we should use regular for loop instead of forEach.
 
 ```js
 // syntax
@@ -84,7 +84,7 @@ document.getElementsByTagName('tagname')
 ```js
 const allTitles = document.getElementsByTagName('h1')
 
-console.log(allTitles) //HTMCollections
+console.log(allTitles) //HTMLCollections
 console.log(allTitles.length) // 4
 
 for (let i = 0; i < allTitles.length; i++) {
@@ -104,7 +104,7 @@ document.getElementsByClassName('classname')
 ```js
 const allTitles = document.getElementsByClassName('title')
 
-console.log(allTitles) //HTMCollections
+console.log(allTitles) //HTMLCollections
 console.log(allTitles.length) // 4
 
 for (let i = 0; i < allTitles.length; i++) {
@@ -133,9 +133,9 @@ The _document.querySelector_ method can select an HTML or HTML elements by tag n
 **_querySelector_**: can be used to select HTML element by its tag name, id or class. If the tag name is used it selects only the first element.
 
 ```js
-let firstTitle = document.querySelector('h1') // select the first available h2 element
+let firstTitle = document.querySelector('h1') // select the first available h1 element
 let firstTitle = document.querySelector('#first-title') // select id with first-title
-let firstTitle = document.querySelector('.title') // select the first available h2 element with class title
+let firstTitle = document.querySelector('.title') // select the first available h1 element with class title
 ```
 
 **_querySelectorAll_**: can be used to select html element by its tag name or class. It return a nodeList which is an array like object which support array methods. We can use **_for loop_** or **_forEach_** to loop through each nodeList elements.
@@ -158,7 +158,7 @@ An attribute is added in the opening tag of HTML which gives additional informat
 
 ```js
 const titles = document.querySelectorAll('h1')
-titles[3].class = 'title'
+titles[3].className = 'title'
 titles[3].id = 'fourth-title'
 ```
 
@@ -214,7 +214,7 @@ const titles = document.querySelectorAll('h1')
 titles[3].textContent = 'Fourth Title'
 ```
 
-#### Adding Text Content using innHTML
+#### Adding Text Content using innerHTML
 
 Most people get confused between _textContent_ and _innerHTML_. _textContent_ is meant to add text to an HTML element, however innerHTML can add a text or HTML element or elements as a child.
 

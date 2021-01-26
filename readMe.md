@@ -255,7 +255,7 @@ So far, we saw how to display text using the _console.log()_. If we are printing
 
 ```js
 console.log('Hello, World!')
-console.log('Hello, World!')
+console.log("Hello, World!")
 console.log(`Hello, World!`)
 ```
 
@@ -463,8 +463,9 @@ A collection of one or more characters between two single quotes, double quotes,
 'Finland'
 'JavaScript is a beautiful programming language'
 'I love teaching'
-'I hope you are enjoying the first day'`We can also create a string using a backtick`
-;('A string could be just as small as one character as big as many pages')
+"I hope you are enjoying the first day"
+`We can also create a string using a backtick`
+('A string could be just as small as one character as big as many pages')
 ```
 
 ### Booleans

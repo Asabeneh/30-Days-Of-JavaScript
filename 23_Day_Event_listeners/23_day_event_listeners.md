@@ -174,7 +174,7 @@ By now you are familiar with addEventListen method and how to attach event liste
 List of events:
 
 - click - when the element clicked
-- dbclick - when the element double clicked
+- dblclick - when the element double clicked
 - mouseenter - when the mouse point enter to the element
 - mouseleave - when the mouse pointer leave the element
 - mousemove - when the mouse pointer move on the element

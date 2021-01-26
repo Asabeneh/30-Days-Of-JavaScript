@@ -231,12 +231,21 @@ console.log(Math.E)             // 2.718
 console.log(Math.log(2))        // 0.6931471805599453
 console.log(Math.log(10))       // 2.302585092994046
 
-// Trigonometry
-Math.sin(0)
-Math.sin(60)
+// Returns the natural logarithm of 2 and 10 respectively
+console.log(Math.LN2)           // 0.6931471805599453
+console.log(Math.LN10)          // 2.302585092994046
 
-Math.cos(0)
-Math.cos(60)
+// Returns the common logarithm with base 10 of x, Math.log10(x)
+console.log(Math.log10(2))        // 0.3010299956639812
+console.log(Math.log10(10))       // 1
+
+// Trigonometry
+// Returns the value in radians
+Math.sin(0)             // 0
+Math.sin(60)            // -0.3048106211
+
+Math.cos(0)             // 1
+Math.cos(60)            // -0.95241298041
 ```
 
 #### Random Number Generator

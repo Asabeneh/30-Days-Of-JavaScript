@@ -125,7 +125,6 @@ Now, you have an understanding of scope. A variable declared with *var* only sco
 function letsLearnScope() {
   var gravity = 9.81
   console.log(gravity)
-
 }
 // console.log(gravity), Uncaught ReferenceError: gravity is not defined
 
@@ -136,9 +135,9 @@ if (true){
 console.log(gravity)  // 9.81
 
 for(var i = 0; i < 3; i++){
-  console.log(i) // 1, 2, 3
+  console.log(i) // 0, 1, 2
 }
-console.log(i)
+console.log(i) // 3
 
 ```
 
@@ -150,7 +149,6 @@ function letsLearnScope() {
   // you can use let or const, but gravity is constant I prefer to use const
   const gravity = 9.81
   console.log(gravity)
-
 }
 // console.log(gravity), Uncaught ReferenceError: gravity is not defined
 
@@ -161,13 +159,13 @@ if (true){
 // console.log(gravity), Uncaught ReferenceError: gravity is not defined
 
 for(let i = 0; i < 3; i++){
-  console.log(i) // 1, 2, 3
+  console.log(i) // 0, 1, 2
 }
 // console.log(i), Uncaught ReferenceError: gravity is not defined
 
 ```
 
-The scope *let* and *const* is the same. The difference is only reassigning. We can not change or reassign the value of const variable. I would strongly suggest you to use *let* and *const*, by using *let* and *const* you will writ clean code and avoid hard to debug mistakes. As a rule of thumb, you can use *let* for any value which change, *const* for any constant value, and for array, object, arrow function and function expression.
+The scope *let* and *const* are the same. The difference is only reassigning. We can not change or reassign the value of the const variable. I would strongly suggest you to use *let* and *const*, by using *let* and *const* you will write clean code and avoid hard to debug mistakes. As a rule of thumb, you can use *let* for any value which change, *const* for any constant value, and for an array, object, arrow function and function expression.
 
 ## 📔 Object
 
@@ -250,14 +248,14 @@ const person = {
 console.log(person.firstName)
 console.log(person.lastName)
 console.log(person.age)
-console.log(person.location)
+console.log(person.location) // undefined value
 
 // value can be accessed using square bracket and key name
 console.log(person['firstName'])
 console.log(person['lastName'])
 console.log(person['age'])
-console.log(person['age'])
-console.log(person['location'])
+console.log(person['city'])
+console.log(person['location']) // undefined value
 
 // for instance to access the phone number we only use the square bracket method
 console.log(person['phone number'])
