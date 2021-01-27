@@ -196,7 +196,7 @@ const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 // iterating an array using regular for loop
 let len = names.length;
 for(let i = 0; i < len; i++){
-    console.log(names[i].toUpperCas())
+    console.log(names[i].toUpperCase())
 }
 
 
