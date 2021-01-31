@@ -148,7 +148,7 @@ asabeneh $ node -v
 v12.14.0
 ```
 
-When making this tutorial I was using node version 12.14.0, but now the recommended version of node.js for download is 12.17.0.
+When making this tutorial I was using node version 12.14.0, but now the recommended version of node.js for download is 14.15.4.
 
 ### Browser
 
