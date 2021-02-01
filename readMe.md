@@ -571,7 +571,7 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follows the camelCase convention of declaring in JavaScrip. In this material, we will use camelCase variables.
+The first and second variables on the list follows the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables.
 
 Example of invalid variables:
 
