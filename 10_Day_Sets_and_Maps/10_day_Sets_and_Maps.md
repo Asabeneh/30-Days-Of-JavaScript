@@ -246,7 +246,7 @@ Set(6) {1, 2, 3, 4, 5,6}
 
 ### Intersection of sets
 
-To find an intersection of two sets can be achieved using filter. Lets find the union of set A and set B (A ∩ B)
+To find an intersection of two sets can be achieved using filter. Lets find the Intersection of set A and set B (A ∩ B)
 
 ```js
 let a = [1, 2, 3, 4, 5]
@@ -391,8 +391,8 @@ Norway Oslo
 ### Exercises:Level 1
 
 ```js
-const a = {4, 5, 8, 9}
-const b = {3, 4, 5, 7}
+const a = [4, 5, 8, 9]
+const b = [3, 4, 5, 7]
 const countries = ['Finland', 'Sweden', 'Norway']
 ```
 
