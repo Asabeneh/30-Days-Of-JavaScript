@@ -225,7 +225,7 @@ Set(5) {5, 3, 2, 9, 4}
 
 ### Union of sets
 
-To find a union to two sets can be achieved using spread operator. Lets find the union of set A and set B (A U B)
+To find a union of two sets can be achieved using spread operator. Lets find the union of set A and set B (A U B)
 
 ```js
 let a = [1, 2, 3, 4, 5]
@@ -268,7 +268,7 @@ Set(3) {3, 4, 5}
 
 ### Difference of sets
 
-To find an the difference between two sets can be achieved using filter. Lets find the different of set A and set B (A \ B)
+To find an the difference between two sets can be achieved using filter. Lets find the different of set A and set B (A - B)
 
 ```js
 let a = [1, 2, 3, 4, 5]
@@ -391,12 +391,12 @@ Norway Oslo
 ### Exercises:Level 1
 
 ```js
-const a = {4, 5, 8, 9}
-const b = {3, 4, 5, 7}
+const a = [4, 5, 8, 9]
+const b = [3, 4, 5, 7]
 const countries = ['Finland', 'Sweden', 'Norway']
 ```
 
-1. create an empty set
+1. Create an empty set
 2. Create a set containing 0 to 10 using loop
 3. Remove an element from a set
 4. Clear a set
@@ -407,7 +407,7 @@ const countries = ['Finland', 'Sweden', 'Norway']
 
 1. Find a union b
 2. Find a intersection b
-3. Find a with b
+3. Find a - b
 
 ### Exercises:Level 3
 
