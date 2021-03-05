@@ -57,7 +57,7 @@ Destructuring is a way to unpack arrays, and objects and assigning to a distinct
 
 ```js
   const names = ['Asabeneh', 'Brook', 'David', 'John']
-  let [firstPerson, secondPerson, thirdPerson, fourth Person] = names
+  let [firstPerson, secondPerson, thirdPerson, fourthPerson] = names
 
   console.log(firstName, secondPerson,thirdPerson, fourthPerson)
 ```
