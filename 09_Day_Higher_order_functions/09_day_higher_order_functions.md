@@ -130,7 +130,7 @@ console.log(sumArray(numbers))
 
 ### setting time
 
-In JavaScript we can execute some activity on certain interval of time or we can schedule(wait) for sometime to execute some activities.
+In JavaScript we can execute some activity in a certain interval of time or we can schedule(wait) for some time to execute some activities.
 
 - setInterval
 - setTimeout
