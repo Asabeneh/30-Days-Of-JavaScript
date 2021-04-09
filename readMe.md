@@ -255,7 +255,7 @@ So far, we saw how to display text using the _console.log()_. If we are printing
 
 ```js
 console.log('Hello, World!')
-console.log('Hello, World!')
+console.log("Hello, World!")
 console.log(`Hello, World!`)
 ```
 
