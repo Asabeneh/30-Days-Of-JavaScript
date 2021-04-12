@@ -382,7 +382,7 @@ These are not all the window methods we will have a separate section to go deep 
 ## Date Object
 
 Time is an important thing. We like to know the time a certain activity or event. In JavaScript current time and date is created using JavaScript Date Object. The object we create using Date object provides many methods to work with date and time.The methods we use to get date and time information from a date object values are started with a word _get_ because it provide the information.
-_getFullYear(), getMonths(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
+_getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
 
 ![Date time Object](../images/date_time_object.png)
 
@@ -553,7 +553,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    ```sh
    Enter base: 20
    Enter height: 10
-   The area of the triangle is 50
+   The area of the triangle is 100
    ```
 
 1. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
