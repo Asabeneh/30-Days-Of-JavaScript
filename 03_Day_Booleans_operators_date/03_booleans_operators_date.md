@@ -73,7 +73,7 @@ We agreed that boolean values are either true or false.
 ### Truthy values
 
 - All numbers(positive and negative) are truthy except zero
-- All strings are truthy
+- All strings are truthy except an empty string ('')
 - The boolean true
 
 ### Falsy values
