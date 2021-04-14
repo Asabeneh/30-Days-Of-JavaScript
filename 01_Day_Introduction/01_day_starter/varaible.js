@@ -1,11 +1,13 @@
 // Declaring different variables of different data types
-
-let firstName = 'Asabeneh'    // first name of a person
-let lastName = 'Yetayeh'      // last name of a person
-let country = 'Finland'       // country
-let city = 'Helsinki'         // capital city
-let age = 100                 // age in years
-let isMarried = true
+const variablesList = () => {
+let firstName = 'Asabeneh'    // first name of a person string
+let lastName = 'Yetayeh'      // last name of a person string
+let country = 'Finland'       // country string
+let city = 'Helsinki'         // capital city string
+let age = 100                 // age in years number
+let isMarried = true          // boolean value
+let nullValue = null          // null value
+let notDefined                // returns not defined
 
 // Declaring variables with number values
 
@@ -18,3 +20,5 @@ const PI = 3.14              // geometrical constant
 let name = 'Asabeneh',     //name of a person
   job = 'teacher',
   live = 'Finland'
+}
+export { variablesList };
