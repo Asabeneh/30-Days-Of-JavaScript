@@ -178,7 +178,7 @@ for (const num of numbers) {
 // adding all the numbers in the array
 let sum = 0
 for (const num of numbers) {
-  sum += sum + num  // can be also shorten like this, sum += num
+  sum = sum + num  // can be also shorten like this, sum += num
 }
 console.log(sum) // 15
 
