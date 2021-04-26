@@ -112,7 +112,7 @@ for(let i = 0; i < numbers.length; i++){
 
 }
 
-console.log(newArr)  // [1, 4, 9, 16, 25]
+console.log(newArr)  // [0, 1, 4, 9, 16]
 ```
 
 ```js
