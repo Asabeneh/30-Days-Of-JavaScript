@@ -15,3 +15,4 @@ function logType(variable){console.log(typeof variable)}
 console.log(`${firstName} is ${myAge} years old`)
 console.log(`${yourName} is ${yourAge} years old, what an oldie!`)
 console.log("git test")
+console.log("git test three with conflict")
