@@ -8,27 +8,27 @@ console.log(challenge.substr(3, 4))
 console.log(challenge.substring(3))
 console.log(challenge.includes("script"))
 console.log(challenge.includes("Script"))
-console.log(challenge.split())
-console.log(challenge.split(" "))
+console.log(challenge.split()) // turns into array as it is
+console.log(challenge.split(" ")) // split can also be used to split where certain characters are
 let bigCorps = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
 console.log(bigCorps.split(","))
-console.log(challenge.replace("JavaScript", "Python"))
-console.log(challenge.charAt(15))
+console.log(challenge.replace("JavaScript", "Python")) // replaces first argument with second
+console.log(challenge.charAt(15)) // finds char at index
 console.log(challenge.charCodeAt("j"))
-console.log(challenge.charCodeAt("J"))
-console.log(challenge.indexOf("a"))
-console.log(challenge.lastIndexOf("a"))
+console.log(challenge.charCodeAt("J")) // charCodeAt is case insensitive
+console.log(challenge.indexOf("a")) // finds the first use of the argument
+console.log(challenge.lastIndexOf("a")) // finds the last use of the argument
 let sillySentence = "You cannot end a sentence with because because because is a conjunction"
 console.log(sillySentence.indexOf("because"))
-console.log(sillySentence.search("because"))
+console.log(sillySentence.search("because")) // can take a regex as argument
 console.log(sillySentence.lastIndexOf("because"))
-console.log(challenge.trim())
-console.log(challenge.startsWith("30"))
-console.log(challenge.endsWith("JavaScript"))
-console.log(challenge.match("a"))
+console.log(challenge.trim()) // still removes spaces at the beginning and the end of the string
+console.log(challenge.startsWith("30")) // returns boolean value
+console.log(challenge.endsWith("JavaScript")) // returns boolean value
+console.log(challenge.match("a")) //gives an array
 let thirty = "30"
-console.log(thirty.concat(' Days of', ' JavaScript'))
-console.log(challenge.repeat(2))
+console.log(thirty.concat(' Days of', ' JavaScript')) // used to join strings together
+console.log(challenge.repeat(2)) // used to repeat x amount of times
 // challenge two
 console.log("The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.")
 console.log("Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead.")
