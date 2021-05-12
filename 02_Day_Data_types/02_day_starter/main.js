@@ -57,5 +57,16 @@ console.log("JavaScript".charAt(parseInt(Math.random() * 11)))
 let escapeNums = "1 1 1 1 1 \n2 1 2 4 8 \n3 1 3 9 27 \n4 1 4 16 64 \n5 1 5 25 125"
 console.log(escapeNums)
 console.log(sillySentence.substr(31, 23))
-
-
+// challenge three
+let truthySentence = 'Love is the best thing in this world. Some found their love and some are still looking for their love.'
+let pattern = /love/gi // g-means to search in the whole text, i - case insensitive
+console.log(truthySentence.match(pattern).length)
+let patternTwo = /because/gi // g-means to search in the whole text, i - case insensitive
+console.log(sillySentence.match(patternTwo).length)
+const regexSentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
+console.log(regexSentence.match(/\w+/g))
+console.log(regexSentence.replace(/\W+/g, ""))
+let salarySentence = 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+let salaryArray = salarySentence.match(/\d+/g)
+let annualSalary = (Number(salaryArray[0]) + Number(salaryArray[2])) * 12 + parseInt(salaryArray[1])
+console.log(`big baller person gets €${annualSalary} annually!`)
