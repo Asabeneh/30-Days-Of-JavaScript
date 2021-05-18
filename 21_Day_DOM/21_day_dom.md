@@ -214,7 +214,7 @@ const titles = document.querySelectorAll('h1')
 titles[3].textContent = 'Fourth Title'
 ```
 
-#### Adding Text Content using innHTML
+#### Adding Text Content using innerHTML
 
 Most people get confused between _textContent_ and _innerHTML_. _textContent_ is meant to add text to an HTML element, however innerHTML can add a text or HTML element or elements as a child.
 
