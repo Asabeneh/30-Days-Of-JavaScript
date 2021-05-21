@@ -137,13 +137,13 @@ const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
 
 #### Functions
 
-By now you are very familiar function declaration, expression function, arrow function and anonymous function. In this challenge we tend to use arrow function instead of other functions. Arrow function is not a replacement for other functions. In addition, arrow functions and function declarations are not exactly the same. So you should know when to use and when not. I will cover the difference in detail in other sections. We will use explicit return instead of implicit return if the function is one liner
+By now you are very familiar function declaration, expression function, arrow function and anonymous function. In this challenge we tend to use arrow function instead of other functions. Arrow function is not a replacement for other functions. In addition, arrow functions and function declarations are not exactly the same. So you should know when to use and when not. I will cover the difference in detail in other sections. We will use implicit return instead of explicit return if the function is one liner
 
 ```js
-// function which prints full name of a person
-const printFullName = (firstName, lastName) => firstName + ' ' + lastName
+// function which returns full name of a person
+const printFullName = (firstName, lastName) => `${firstName} ${lastName}`
 
-// function which calculate a square of a number
+// function which calculates  square of a number
 const square = (n) => n * n
 
 // a function which generate random hexa colors
@@ -160,23 +160,8 @@ const hexaColor = () => {
 
 // a function which shows date and time
 const showDateTime = () => {
-  const now = new Date()
-  const year = now.getFullYear()
-  const month = now.getMonth() + 1
-  const date = now.getDate()
-  let hours = now.getHours()
-  let minutes = now.getMinutes()
-  if (hours < 10) {
-    hours = '0' + hours
-  }
-  if (minutes < 10) {
-    minutes = '0' + minutes
-  }
-
-  const dateMonthYear = date + '.' + month + '.' + year
-  const time = hours + ':' + minutes
-  const fullTime = dateMonthYear + ' ' + time
-  return fullTime
+  //or you can pass any locales you want instead of 'de'
+  return new Date().toLocaleString("de");
 }
 ```
 
@@ -329,7 +314,7 @@ isRaining
 
 #### Classes
 
-We declare class with CamelCase which starts with capital letter.
+We declare class with PascalCase which every word starts with a capital letter.
 
 ```js
 // syntax
