@@ -148,7 +148,7 @@ doPromise
 const doPromise = new Promise((resolve, reject) => {
   setTimeout(() => {
     const skills = ['HTML', 'CSS', 'JS']
-    if (skills.indexOf('Node') !== -1) {
+    if (skills.includes('Node')) {
       resolve('fullstack developer')
     } else {
       reject('Something wrong has happened')
@@ -178,12 +178,12 @@ fetch(url)
   .then(data => { // getting the data
     console.log(data)
   })
-  .catch(error => console.log(error)) // handling error if something wrong happens
+  .catch(error => console.error(error)) // handling error if something wrong happens
 ```
 
 ## Async and Await
 
-Async and await is an elegant way to handle promises. It is easy to understand and it clean to write.
+:dash: Async and await is an elegant way to handle promises. It is easy to understand and it clean to write.
 
 ```js
 const square = async function (n) {
@@ -225,7 +225,7 @@ fetch(url)
   .then(data => {
     console.log(data)
   })
-  .catch(error => console.log(error))
+  .catch(error => console.error(error))
 ```
 
 - async and await
@@ -237,7 +237,7 @@ const fetchData = async () => {
     const countries = await response.json()
     console.log(countries)
   } catch (err) {
-    console.log(err)
+    console.error(err)
   }
 }
 console.log('===== async and await')
