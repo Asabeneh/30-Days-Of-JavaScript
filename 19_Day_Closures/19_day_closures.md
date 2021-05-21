@@ -59,28 +59,28 @@ Let us more example of inner functions
 function outerFunction() {
     let count = 0;
     function plusOne() {
-        count++
-        return count
+        count++;
+        return count;
     }
     function minusOne() {
-        count--
-        return count
+        count--;
+        return count;
     }
 
     return {
-        plusOne:plusOne(),
-        minusOne:minusOne()
+        plusOne,
+        minusOne,
     }
 }
-const innerFuncs = outerFunction()
+const innerFuncs = outerFunction();
 
-console.log(innerFuncs.plusOne)
-console.log(innerFuncs.minusOne)
+console.log(innerFuncs.plusOne());
+console.log(innerFuncs.minusOne());
 ```
 
 ```sh
 1
-1
+0
 ```
 
 🌕 You are making progress. Maintain your momentum,  keep the good work.  Now do some exercises for your brain and for your muscle.
