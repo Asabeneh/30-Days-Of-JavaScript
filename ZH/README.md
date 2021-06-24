@@ -46,14 +46,14 @@
     - [内嵌式脚本](#内嵌式脚本)
     - [内部脚本](#内部脚本)
     - [外部脚本](#外部脚本)
-    - [Multiple External Scripts](#multiple-external-scripts)
-  - [Introduction to Data types](#introduction-to-data-types)
-    - [Numbers](#numbers)
-    - [Strings](#strings)
-    - [Booleans](#booleans)
+    - [多个外部脚本](#多个外部脚本)
+  - [数据类型介绍](#数据类型介绍)
+    - [数值](#数值)
+    - [字符串](#字符串)
+    - [布尔值](#布尔值)
     - [Undefined](#undefined)
     - [Null](#null)
-  - [Checking Data Types](#checking-data-types)
+  - [检测数据类型](#检测数据类型)
   - [Comments Again](#comments-again)
   - [Variables](#variables)
 - [💻 Day 1: Exercises](#-day-1-exercises)
@@ -372,10 +372,10 @@ console.log('Welcome to 30DaysOfJavaScript')
 
 打开浏览器控制台，查看 console.log() 的输出。
 
-### Multiple External Scripts
+### 多个外部脚本
 
-We can also link multiple external JavaScript files to a web page.
-Create a helloworld.js file inside the 30DaysOfJS folder and write the following code.
+我们还可以将多个外部 JavaScript 文件链接到一个网页上。
+在30DaysOfJS文件夹内创建一个helloworld.js文件，并编写以下代码。
 
 ```js
 console.log('Hello, World!')
@@ -394,27 +394,27 @@ console.log('Hello, World!')
 </html>
 ```
 
-_Your main.js file should be below all other scripts_. It is very important to remember this.
+_你的 main.js 文件应该在所有其他脚本的下面_。记住这一点是非常重要的。
 
 ![Multiple Script](./images/multiple_script.png)
 
-## Introduction to Data types
+## 数据类型介绍
 
-In JavaScript and also other programming languages, there are different kinds of data types. The following are JavaScript primitive data types:_String, Number, Boolean, undefined, Null_, and _Symbol_.
+在 JavaScript 和其他编程语言中，有不同种类的数据类型。以下是 JavaScript 的原始数据类型：_String, Number, Boolean, undefined, Null_, and _Symbol_。
 
-### Numbers
+### 数值
 
-- Integers: Integer (negative, zero and positive) numbers
-  Example:
+- Integers: 整数（负数、零数和正数）。
+  例如:
   ... -3, -2, -1, 0, 1, 2, 3 ...
-- Float-point numbers: Decimal number
-  Example
+- Float-point numbers: 小数点后的数字
+  例如:
   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
-### Strings
+### 字符串
 
-A collection of one or more characters between two single quotes, double quotes, or backticks.
-**Example:**
+两个单引号、双引号或反斜线之间的一个或多个字符的集合。
+**例如:**
 
 ```js
 'Asabeneh'
@@ -425,13 +425,13 @@ A collection of one or more characters between two single quotes, double quotes,
 ;('A string could be just as small as one character as big as many pages')
 ```
 
-### Booleans
+### 布尔值
 
-A boolean value is either True or False. Any comparisons return a boolean value, which is either true or false.
+一个布尔值要么是真，要么是假。任何比较都会返回一个布尔值，即真或假。
 
-A boolean data type is either a true or false value.
+布尔数据类型是一个真或假的值。
 
-**Example:**
+**例如:**
 
 ```js
 true // if the light on ,the value is true
@@ -440,7 +440,7 @@ false // if the light off, the value is false
 
 ### Undefined
 
-In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
+在 JavaScript中，如果我们不给一个变量赋值，这个值就是未定义的。除此之外，如果一个函数没有返回任何东西，它就会返回 undefined。
 
 ```js
 let firstName
@@ -449,15 +449,15 @@ console.log(firstName) //not defined, because it is not assigned to a value yet
 
 ### Null
 
-Null in JavaScript means an empty value.
+在 JavaScript 中，Null意味着一个空值。
 
 ```js
 let emptyValue = null
 ```
 
-## Checking Data Types
+## 检测数据类型
 
-To check the data type of a certain variable, we use the **typeof** operator. See the following example.
+为了检测某个变量的数据类型，我们使用**typeof**操作符。请看下面的例子。
 
 ```js
 console.log(typeof 'Asabeneh') // string
@@ -467,13 +467,13 @@ console.log(typeof null) // object type
 console.log(typeof undefined) // undefined
 ```
 
-## Comments Again
+## 再次强调注释
 
-Remember that commenting in JavaScript is similar to other programming languages. Comments are important in making your code more readable.
-There are two ways of commenting:
+记住，JavaScript 中的注释与其他编程语言类似。注释对于使你的代码更具有可读性非常重要。
+有两种注释的方式。
 
-- _Single line commenting_
-- _Multiline commenting_
+- _单行注释_
+- _多行注释_
 
 ```js
 // commenting the code itself with a single comment
@@ -481,7 +481,7 @@ There are two ways of commenting:
 // let lastName = 'Yetayeh'; single line comment
 ```
 
-Multiline commenting:
+多行注释:
 
 ```js
 /*
@@ -492,20 +492,20 @@ Multiline commenting:
     */
 ```
 
-## Variables
+## 变量
 
-Variables are _containers_ of data. Variables are used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords.
+变量是数据的 _容器_。变量是用来将数据 _存储_ 在内存位置的。当一个变量被声明时，一个内存位置被保留。当一个变量被分配到一个值（数据）时，内存空间将被该数据填满。为了声明一个变量，我们使用 _var_、_let_ 或 _const_ 等关键字。
 
-For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do no change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is error prone way of declaring variable it has lots of leak. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
+对于一个在不同时间变化的变量，我们使用 _let_。如果数据完全没有变化，我们使用 _const_。例如，PI、国家名称、重力都没有变化，我们可以使用 _const_。在这个挑战中，我们不会使用 var，我也不建议你使用它。它是一种容易出错的声明变量的方式，有很多漏洞。我们将在其他章节（范围）中详细讨论 var、let 和 const 的问题。现在，上面的解释已经足够了。
 
-A valid JavaScript variable name must follow the following rules:
+一个有效的JavaScript变量名必须遵循以下规则:
 
-- A JavaScript variable name should not begin with a number.
-- A JavaScript variable name does not allow special characters except dollar sign and underscore.
-- A JavaScript variable name follows a camelCase convention.
-- A JavaScript variable name should not have space between words.
+- 一个 JavaScript 变量名不应该以数字开头。
+- 除了美元符号和下划线之外，JavaScript 变量名称不允许使用特殊字符。
+- 一个 JavaScript 变量名遵循驼峰命名。
+- 一个 JavaScript 变量的名称不应该在单词之间有空格。
 
-The following are examples of valid JavaScript variables.
+以下是有效的 JavaScript 变量的例子。
 
 ```js
 firstName
