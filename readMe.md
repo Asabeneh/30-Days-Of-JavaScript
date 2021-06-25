@@ -59,6 +59,7 @@
 🇬🇧 [English](./readMe.md)
 🇪🇸 [Spanish](./Spanish/readme.md)
 🇷🇺 [Russian](./RU/README.md)
+ᴢʜ [Chinese](./ZH/README.md)
 
   </div>
 
