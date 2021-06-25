@@ -24,7 +24,7 @@
 
 ![Thirty Days Of JavaScript](./images/day_1_1.png)
 
-- [30天的JavaScript之旅](#30-days-of-javascript)
+- [30天的JavaScript之旅](#30天的JavaScript之旅)
 - [📔 第一天](#-day-1)
   - [简介](#简介)
   - [必要条件](#必要条件)
@@ -35,7 +35,7 @@
       - [打开chrome浏览器控制台](#打开chrome浏览器控制台)
       - [在浏览器控制台上写代码](#在浏览器控制台上写代码)
         - [Console.log](#consolelog)
-        - [带有多个参数的Console.log](带有多个参数的console.log)
+        - [带有多个参数的Console.log](#带有多个参数的consolelog)
         - [注释](#注释)
         - [语法](#语法)
       - [运算](#运算)
@@ -54,9 +54,9 @@
     - [Undefined](#undefined)
     - [Null](#null)
   - [检测数据类型](#检测数据类型)
-  - [Comments Again](#comments-again)
-  - [Variables](#variables)
-- [💻 Day 1: Exercises](#-day-1-exercises)
+  - [再次强调注释](#再次强调注释)
+  - [变量](#变量)
+- [💻 Day 1: 练习](#-day-1-练习)
 
 # 📔 第一天
 
@@ -160,7 +160,7 @@ Ctl+Shift+I
 console.log('Hello, World!')
 ```
 
-##### 带有多个参数的 Console.log
+##### 带有多个参数的Console.log
 
 **conole.log()**函数可以接受用逗号分隔的多个参数。其语法如下：**console.log(param1, param2, param3)**
 
@@ -207,7 +207,6 @@ console.log('Hello, World!')
 console.log('Hello, World!')
 ```
 
-So far, we saw how to display text using the _console.log()_. If we are printing text or string using _console.log()_, the text has to be inside the single quotes, double quotes, or a backtick quotes.
 到目前为止，我们看到了如何使用 _console.log()_ 来显示文本。如果我们使用 _console.log()_ 打印文本或字符串，文本必须在单引号、双引号或反斜线引号内。
 **示例:**
 
@@ -529,9 +528,9 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follows the camelCase convention of declaring in JavaScrip. In this material, we will use camelCase variables.
+列表中的第一个和第二个变量遵循在 JavaScrip 中变量声明采用 `小驼峰` 惯例。在本材料中，我们将使用 `小驼峰` 变量。
 
-Example of invalid variables:
+无效变量的例子:
 
 ```sh
   first-name
@@ -539,22 +538,23 @@ Example of invalid variables:
   num_#_1
 ```
 
-Let us declare variables with different data types. To declare a variable, we need to use _let_ or _const_ keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value(assigned data).
+
+让我们来声明不同数据类型的变量。要声明一个变量，我们需要在变量名称前使用 _let_  或 _const_ 关键字。在变量名称后面，我们写一个等号（赋值运算符），和一个值（分配的数据）。
 
 ```js
 // Syntax
 let nameOfVariable = value
 ```
 
-**Examples of declared variables**
+**声明变量的例子**
 
 ```js
-// Declaring different variables of different data types
-let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
-let country = 'Finland' // country
-let city = 'Helsinki' // capital city
-let age = 100 // age in years
+// 声明不同数据类型的不同变量
+let firstName = 'Asabeneh' // 人名
+let lastName = 'Yetayeh' // 姓氏
+let country = 'Finland' // 国家
+let city = 'Helsinki' // 首都
+let age = 100 // 年龄
 let isMarried = true
 
 console.log(firstName, lastName, country, city, age, isMarried)
@@ -565,11 +565,11 @@ Asabeneh Yetayeh Finland Helsinki 100 True
 ```
 
 ```js
-// Declaring variables with number values
-let age = 100 // age in years
-const gravity = 9.81 // earth gravity  in m/s2
-const boilingPoint = 100 // water boiling point, temperature in oC
-const PI = 3.14 // geometrical constant
+// 声明具有数值的变量
+let age = 100 // 年龄
+const gravity = 9.81 // 地心引力 m/s2
+const boilingPoint = 100 // 水的沸点，维度为 oC
+const PI = 3.14 // 几何常量
 
 console.log(gravity, boilingPoint, PI)
 ```
@@ -579,7 +579,7 @@ console.log(gravity, boilingPoint, PI)
 ```
 
 ```js
-// Variables can also be declaring in one line separated by comma
+// 变量也可以在一行中声明，用逗号隔开
 let name = 'Asabeneh', // name of a person
   job = 'teacher',
   live = 'Finland'
@@ -590,32 +590,31 @@ console.log(name, job, live)
 Asabeneh teacher Finland
 ```
 
-When you run _index.html_ file in the 01-Day folder you should get this:
+当你运行01-Day文件夹中的 _index.html_ 文件时，你应该得到这个结果:
 
 ![Day one](./images/day_1.png)
 
-🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and muscle.
+🌕 你真了不起! 你刚刚完成了第一天的挑战，你正在走向伟大的道路上。现在为你的大脑和肌肉做一些练习。
 
-# 💻 Day 1: Exercises
+# 💻 Day 1: 练习
 
-1. Write a single line comment which says, _comments can make code readable_
-2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_
-3. Write a multiline comment which says, _comments can make code readable, easy to reuse_
-   _and informative_
-
-4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
-5. Create datatypes.js file and use the JavaScript **_typeof_** operator to check different data types. Check the data type of each variable
-6. Declare four variables without assigning values
-7. Declare four variables with assigned values
-8. Declare variables to store your first name, last name, marital status, country and age in multiple lines
-9. Declare variables to store your first name, last name, marital status, country and age in a single line
-10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to the browser console.
+1. 写一个单行注释，上面写着：_注释可以使代码变得可读_
+2. 再写一条注释，内容是：_欢迎来到30DaysOfJavaScript_。
+3. 写一个多行注释，说：_注释可以使代码可读，易于重复使用_
+   _和信息量大_。
+4. 创建一个 variable.js 文件，声明变量并指定字符串、布尔值、undefined 和 null 的数据类型
+5. 重新创建 datatypes.js 文件，并使用 JavaScript **_typeof_** 操作符来检查不同的数据类型。检查每个变量的数据类型
+6. 声明四个变量而不赋值
+7. 声明四个变量，并分配数值
+8. 声明变量，在多行中存储你的名字、姓氏、婚姻状况、国家和年龄。
+9. 声明变量，在一行中存储你的名字、姓氏、婚姻状况、国家和年龄。
+10. 声明两个变量 _myAge_ 和 _yourAge_，给它们分配初始值并记录到浏览器控制台。
 
 ```sh
 I am 25 years old.
 You are 30 years old.
 ```
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 恭喜您 ! 🎉
 
 [Day 2 >>](./02_Day_Data_types/02_day_data_types.md)
