@@ -617,7 +617,7 @@ It ill be covered in other time
 
 ### Exercises: Level 3
 
-1. Modify question number n . Declare a function name _userIdGeneratedByUser_. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
+1. Modify question number 18 . Declare a function name _userIdGeneratedByUser_. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
 
     ```sh
     userIdGeneratedByUser()
