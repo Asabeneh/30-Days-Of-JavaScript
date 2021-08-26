@@ -372,9 +372,9 @@ for (const country of countriesMap) {
 (2) ["Norway", "Oslo"]
 ```
 
-```sh
+```js
 for (const [country, city] of countriesMap){
-console.log(country, city)
+  console.log(country, city)
 }
 ```
 
@@ -435,6 +435,7 @@ const countries = ['Finland', 'Sweden', 'Norway']
    console.log(mostSpokenLanguages(countries, 3))
    ```
 
+```sh
 [
 {'English':91},
 {'French':45},
@@ -448,4 +449,4 @@ const countries = ['Finland', 'Sweden', 'Norway']
 
 
 [<< Day 9](../09_Day_Higher_order_functions/09_day_higher_order_functions.md) | [Day 11>>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)
-```
+
