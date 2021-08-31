@@ -207,7 +207,7 @@ console.log('Hello, World!')
 
 ##### Console.log with Multiple Arguments
 
-The **conole.log()** function can take multiple parameters separated by comma. The syntax looks like as follows:**console.log(param1, param2, param3)**
+The **console.log()** function can take multiple parameters separated by comma. The syntax looks like as follows:**console.log(param1, param2, param3)**
 
 ![console log multiple arguments](./images/console_log_multipl_arguments.png)
 
