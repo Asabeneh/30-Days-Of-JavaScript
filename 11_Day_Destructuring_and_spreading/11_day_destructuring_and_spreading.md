@@ -57,7 +57,7 @@ Destructuring is a way to unpack arrays, and objects and assigning to a distinct
 
 ```js
   const names = ['Asabeneh', 'Brook', 'David', 'John']
-  let [firstPerson, secondPerson, thirdPerson, fourth Person] = names
+  let [firstPerson, secondPerson, thirdPerson, fourthPerson] = names
 
   console.log(firstName, secondPerson,thirdPerson, fourthPerson)
 ```
@@ -489,7 +489,7 @@ console.log(copiedUser)
 {name: "Asabeneh", title: "instructor", country: "Finland", city: "Helsinki"}
 ```
 
-#### Spread operator with arrow function
+#### Spread operator with array function
 
 Whenever we like to write an arrow function which takes unlimited number of arguments we use a spread operator. If we use a spread operator as a parameter, the argument passed when we invoke a function will change to an array.
 
