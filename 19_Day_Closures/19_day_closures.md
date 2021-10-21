@@ -80,7 +80,7 @@ console.log(innerFuncs.minusOne)
 
 ```sh
 1
-1
+0
 ```
 
 🌕 You are making progress. Maintain your momentum,  keep the good work.  Now do some exercises for your brain and for your muscle.
