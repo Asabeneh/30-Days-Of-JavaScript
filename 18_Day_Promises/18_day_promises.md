@@ -172,7 +172,7 @@ doPromise
 The Fetch API provides an interface for fetching resources (including across the network). It will seem familiar to anyone who has used XMLHttpRequest, but the new API provides a more powerful and flexible feature set. In this challenge we will use fetch to request url and APIS. In addition to that let us see demonstrate use case of promises in accessing network resources using the fetch API.
 
 ```js
-const url = 'https://restcountries.eu/rest/v2/all' // countries api
+const url = 'https://restcountries.com/v3.1/all' // countries api
 fetch(url)
   .then(response => response.json()) // accessing the API data as JSON
   .then(data => { // getting the data
@@ -219,7 +219,7 @@ Let us fetch API data using both promise method and async and await method.
 - promise
   
 ```js
-const url = 'https://restcountries.eu/rest/v2/all'
+const url = 'https://restcountries.com/v3.1/all'
 fetch(url)
   .then(response => response.json())
   .then(data => {
@@ -249,16 +249,16 @@ fetchData()
 ## Exercises
 
 ```js
-const countriesAPI = 'https://restcountries.eu/rest/v2/all'
+const countriesAPI = 'https://restcountries.com/v3.1/all'
 const catsAPI = 'https://api.thecatapi.com/v1/breeds'
 ```
 
 ### Exercises: Level 1
-
+Documentation for the api https://restcountries.com/
 1. Read the countries API using fetch and print the name of country, capital, languages, population and area.
 
 ### Exercises: Level 2
-
+Documentation for the api https://thecatapi.com/
 1. Print out all the cat names in to catNames variable.
 
 ### Exercises: Level 3
