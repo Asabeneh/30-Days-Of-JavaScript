@@ -54,6 +54,9 @@
 
 🌕 Your journey to greatness completed successfully. You reached high level of greatness. Now, you are much greater than ever before. I knew what it takes to reach to this level and you made to this point. You are a real hero. Now, it is time to celebrate your success with a friend or with a family. I am looking forward to seeing you in an other challenge.
 
+## Testimony
+Now it is time to express your thoughts about the Author and 30DaysOfJavaScript. You can leave your testimonial on this [link](https://testimonify.herokuapp.com/)
+
 ~![Congratulations](./../images/projects/congratulations.gif)
 
 [<< Day 29](../29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)  

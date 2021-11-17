@@ -33,7 +33,7 @@
 
 ## Promise
 
-We human give or receive a promise to do some activity at some point in time. If we keep the promise we make others happy but if we do not keep the promise,  it may lead discontentment. Promise in JavaScript has something in common with the above examples.
+We human give or receive a promise to do some activity at some point in time. If we keep the promise we make others happy but if we do not keep the promise, it may lead discontentment. Promise in JavaScript has something in common with the above examples.
 
 A Promise is a way to handle asynchronous operations in JavaScript. It allows handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
 
@@ -52,10 +52,10 @@ As the Promise.prototype.then() and Promise.prototype.catch() methods return pro
 To understand promise very well let us understand callback first. Let's see the following callbacks. From the following code blocks you will notice, the difference between callback and promises.
 
 - call back
-Let us see a callback function which can take two parameters. The first parameter is err and the second is result. If the err parameter is false, there will not be error other wise it will return an error.
+  Let us see a callback function which can take two parameters. The first parameter is err and the second is result. If the err parameter is false, there will not be error other wise it will return an error.
 
 In this case the err has a value and it will return the err block.
-  
+
 ```js
 //Callback
 const doSomething = callback => {
@@ -73,7 +73,6 @@ const callback = (err, result) => {
 }
 
 doSomething(callback)
-
 ```
 
 ```sh
@@ -81,7 +80,7 @@ doSomething(callback)
 It did not go well
 ```
 
-In this case the err is false  and it will return the else block which is the result.
+In this case the err is false and it will return the else block which is the result.
 
 ```js
 const doSomething = callback => {
@@ -106,7 +105,7 @@ doSomething((err, result) => {
 
 ### Promise constructor
 
-We can create a promise using the Promise constructor. We can create a new promise using the key word new followed by the word Promise and followed by a parenthesis. Inside the parenthesis it it takes a callback function. The promise callback function has two parameters which are the *resolve* and *reject* functions.
+We can create a promise using the Promise constructor. We can create a new promise using the key word new followed by the word Promise and followed by a parenthesis. Inside the parenthesis it it takes a callback function. The promise callback function has two parameters which are the _resolve_ and _reject_ functions.
 
 ```js
 // syntax
@@ -134,21 +133,21 @@ doPromise
     console.log(result)
   })
   .catch(error => console.log(error))
-  ```
+```
 
-  ```sh
-  ["HTML", "CSS", "JS"]
-  ```
+```sh
+["HTML", "CSS", "JS"]
+```
 
-  The above promise has been settled with resolve.
-  Let us another example when the promise is settled with reject.
+The above promise has been settled with resolve.
+Let us another example when the promise is settled with reject.
 
 ```js
 // Promise
 const doPromise = new Promise((resolve, reject) => {
   setTimeout(() => {
     const skills = ['HTML', 'CSS', 'JS']
-    if (skills.indexOf('Node') !== -1) {
+    if (skills.icludes('Node')) {
       resolve('fullstack developer')
     } else {
       reject('Something wrong has happened')
@@ -160,26 +159,26 @@ doPromise
   .then(result => {
     console.log(result)
   })
-  .catch(error => console.log(error))
-  ```
+  .catch(error => console.error(error))
+```
 
-  ```sh
- Something wrong has happened
-  ```
+```sh
+Something wrong has happened
+```
 
 ## Fetch API
 
 The Fetch API provides an interface for fetching resources (including across the network). It will seem familiar to anyone who has used XMLHttpRequest, but the new API provides a more powerful and flexible feature set. In this challenge we will use fetch to request url and APIS. In addition to that let us see demonstrate use case of promises in accessing network resources using the fetch API.
 
 ```js
-
 const url = 'https://restcountries.com/v2/all' // countries api
 fetch(url)
   .then(response => response.json()) // accessing the API data as JSON
-  .then(data => { // getting the data
+  .then(data => {
+    // getting the data
     console.log(data)
   })
-  .catch(error => console.log(error)) // handling error if something wrong happens
+  .catch(error => console.error(error)) // handling error if something wrong happens
 ```
 
 ## Async and Await
@@ -198,9 +197,9 @@ square(2)
 Promise {<resolved>: 4}
 ```
 
-The word *async* in front of a function means that function will return a promise. The above square function instead of a value it returned a promise.
+The word _async_ in front of a function means that function will return a promise. The above square function instead of a value it returned a promise.
 
-How do we access the value from the promise? To access the value from the promise, we will use the keyword *await*.
+How do we access the value from the promise? To access the value from the promise, we will use the keyword _await_.
 
 ```js
 const square = async function (n) {
@@ -218,7 +217,7 @@ Now, as you can see from the above example writing async in front of a function 
 Let us fetch API data using both promise method and async and await method.
 
 - promise
-  
+
 ```js
 const url = 'https://restcountries.com/v2/all'
 fetch(url)
@@ -226,7 +225,7 @@ fetch(url)
   .then(data => {
     console.log(data)
   })
-  .catch(error => console.log(error))
+  .catch(error => console.error(error))
 ```
 
 - async and await
@@ -238,7 +237,7 @@ const fetchData = async () => {
     const countries = await response.json()
     console.log(countries)
   } catch (err) {
-    console.log(err)
+    console.error(err)
   }
 }
 console.log('===== async and await')

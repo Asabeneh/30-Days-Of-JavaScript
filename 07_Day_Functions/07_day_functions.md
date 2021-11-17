@@ -502,9 +502,12 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
 
 ### Function declaration versus Arrow function
 
-It ill be covered in other time
+It Will be covered in other section.
 
 🌕 You are a rising star, now you knew function . Now, you are super charged with the power of functions. You have just completed day 7 challenges and you are 7 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+
+## Testimony
+Now it is time to express your thoughts about the Author and 30DaysOfJavaScript. You can leave your testimonial on this [link](https://testimonify.herokuapp.com/)
 
 ## 💻 Exercises
 
@@ -617,7 +620,7 @@ It ill be covered in other time
 
 ### Exercises: Level 3
 
-1. Modify question number n . Declare a function name _userIdGeneratedByUser_. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
+1. Modify the _userIdGenerator_ function. Declare a function name _userIdGeneratedByUser_. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
 
     ```sh
     userIdGeneratedByUser()

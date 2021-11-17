@@ -81,23 +81,22 @@ const higherOrder = n => {
     }
     return doWhatEver
   }
-​
   return doSomething
 }
 console.log(higherOrder(2)(3)(10))
 ```
 
-Let us see were we use call back functions.For instance the _forEach_ method uses call back.
+Let us see were we use call back functions. For instance the _forEach_ method uses call back.
 
 ```js
 const numbers = [1, 2, 3, 4]
 ​
 const sumArray = arr => {
   let sum = 0
-  const callBack = function(element) {
+  const callback = function(element) {
     sum += element
   }
-  numbers.forEach(callback)
+  arr.forEach(callback)
   return sum
 
 }
@@ -115,7 +114,7 @@ const numbers = [1, 2, 3, 4]
 ​
 const sumArray = arr => {
   let sum = 0
-  numbers.forEach(function(element) {
+  arr.forEach(function(element) {
     sum += element
   })
   return sum
@@ -128,20 +127,20 @@ console.log(sumArray(numbers))
 15
 ```
 
-### setting time
+### Setting time
 
-In JavaScript we can execute some activity on certain interval of time or we can schedule(wait) for sometime to execute some activities.
+In JavaScript we can execute some activities in a certain interval of time or we can schedule(wait) for some time to execute some activities.
 
 - setInterval
 - setTimeout
 
-#### setInterval
+#### Setting Interaval using a setInterval function
 
 In JavaScript, we use setInterval higher order function to do some activity continuously with in some interval of time. The setInterval global method take a callback function and a duration as a parameter. The duration is in milliseconds and the callback will be always called in that interval of time.
 
 ```js
 // syntax
-function callBack() {
+function callback() {
   // code goes here
 }
 setInterval(callback, duration)
@@ -151,10 +150,10 @@ setInterval(callback, duration)
 function sayHello() {
   console.log('Hello')
 }
-setInterval(sayHello, 2000) // it prints hello in every 2 seconds
+setInterval(sayHello, 1000) // it prints hello in every second, 1000ms is 1s
 ```
 
-#### setTimeout
+#### Setting a time using a setTimeout
 
 In JavaScript, we use setTimeout higher order function to execute some action at some time in the future. The setTimeout global method take a callback function and a duration as a parameter. The duration is in milliseconds and the callback wait for that amount of time.
 
@@ -195,9 +194,8 @@ arr.forEach((element, index, arr) => console.log(index, element, arr))
 
 ```js
 let sum = 0;
-const numbers = [1,2,3,4,5];
-numbers.forEach(num => console.log(num)))
-
+const numbers = [1, 2, 3, 4, 5];
+numbers.forEach(num => console.log(num))
 console.log(sum)
 ```
 
@@ -211,8 +209,8 @@ console.log(sum)
 
 ```js
 let sum = 0;
-const numbers = [1,2,3,4,5];
-numbers.forEach(num => sum += num))
+const numbers = [1, 2, 3, 4, 5];
+numbers.forEach(num => sum += num)
 
 console.log(sum)
 ```
@@ -349,6 +347,7 @@ console.log(countriesHaveFiveLetters)
 ```js
 const scores = [
   { name: 'Asabeneh', score: 95 },
+   { name: 'Lidiya', score: 98 },
   { name: 'Mathias', score: 80 },
   { name: 'Elias', score: 50 },
   { name: 'Martha', score: 85 },
@@ -360,7 +359,7 @@ console.log(scoresGreaterEight)
 ```
 
 ```sh
-[{name: 'Asabeneh', score: 95}, {name: 'Martha', score: 85},{name: 'John', score: 100}]
+[{name: 'Asabeneh', score: 95}, { name: 'Lidiya', score: 98 },{name: 'Martha', score: 85},{name: 'John', score: 100}]
 ```
 
 ### reduce
@@ -391,7 +390,7 @@ _every_: Check if all the elements are similar in one aspect. It returns boolean
 
 ```js
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
-const areAllStr = names.every((name) => typeof name === 'string')
+const areAllStr = names.every((name) => typeof name === 'string') // Are all strings?
 
 console.log(arrAllStr)
 ```
@@ -402,11 +401,9 @@ true
 
 ```js
 const bools = [true, true, true, true]
-const areAllTrue = bools.every((b) => {
-  return b === true
-})
+const areAllTrue = bools.every((b) => b === true) // Are all true? 
 
-console.log(areAllTrue) //true
+console.log(areAllTrue) // true
 ```
 
 ```sh
@@ -448,9 +445,7 @@ const scores = [
   { name: 'John', score: 100 },
 ]
 
-const score = scores.find((user) => {
-  return user.score > 80
-})
+const score = scores.find((user) => user.score > 80)
 console.log(score)
 ```
 
@@ -481,15 +476,13 @@ _some_: Check if some of the elements are similar in one aspect. It returns bool
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 const bools = [true, true, true, true]
 
-const areSomeTrue = bools.some((b) => {
-  return b === true
-})
+const areSomeTrue = bools.some((b) =>  b === true)
 
 console.log(areSomeTrue) //true
 ```
 
 ```js
-const areAllStr = names.some((name) => typeof name === 'number')
+const areAllStr = names.some((name) => typeof name === 'number') // Are all strings ?
 console.log(areAllStr) // false
 ```
 
@@ -556,7 +549,7 @@ users.sort((a, b) => {
   return 0
 })
 console.log(users) // sorted ascending
-//[{…}, {…}, {…}, {…}]
+// [{…}, {…}, {…}, {…}]
 ```
 
 🌕 You are doing great.Never give up because great things take time. You have just completed day 9 challenges and you are 9 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.

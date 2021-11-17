@@ -73,7 +73,7 @@ We agreed that boolean values are either true or false.
 ### Truthy values
 
 - All numbers(positive and negative) are truthy except zero
-- All strings are truthy
+- All strings are truthy except an empty string ('')
 - The boolean true
 
 ### Falsy values
@@ -616,7 +616,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
 
    ```sh
-   Enter number of yours you live: 100
+   Enter number of years you live: 100
    You lived 3153600000 seconds.
    ```
 

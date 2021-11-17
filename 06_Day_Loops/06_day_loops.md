@@ -108,7 +108,7 @@ const numbers = [1, 2, 3, 4, 5]
 const newArr = []
 let sum = 0
 for(let i = 0; i < numbers.length; i++){
-  newArr.push(i * i)
+  newArr.push( numbers[i] ** 2)
 
 }
 
@@ -406,6 +406,7 @@ for(let i = 0; i <= 5; i++){
       ['Germany', 'GER', 7],
       ['Hungary', 'HUN', 7],
       ['Ireland', 'IRE', 7],
+      ['Iceland', 'ICE', 7],
       ['Japan', 'JAP', 5],
       ['Kenya', 'KEN', 5]
     ]
@@ -414,7 +415,7 @@ for(let i = 0; i <= 5; i++){
 2. In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print 'All these countries are without land'.
 
     ```sh
-    ['Finland', 'Iceland']
+    ['Finland','Ireland', 'Iceland']
     ```
 
 3. In above countries array, check if there is  a country or countries end with a substring 'ia'. If there are countries end with, print it as array. If there is no country containing the word 'ai', print 'These are countries ends without ia'.

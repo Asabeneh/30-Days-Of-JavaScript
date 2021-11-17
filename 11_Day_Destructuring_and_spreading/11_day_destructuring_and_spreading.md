@@ -209,7 +209,7 @@ const rectangle = {
   height: 10,
   area: 200
 }
-let { width: w, heigh: h, area: a, perimeter: p } = rectangle
+let { width: w, height: h, area: a, perimeter: p } = rectangle
 
 console.log(w, h, a, p)
 ```
@@ -226,7 +226,7 @@ const rectangle = {
   height: 10,
   area: 200
 }
-let { width, heigh, area, perimeter = 60 } = rectangle
+let { width, height, area, perimeter = 60 } = rectangle
 
 console.log(width, height, area, perimeter) //20 10 200 60
 //Lets modify the object:width to 30 and perimeter to 80
@@ -239,8 +239,8 @@ const rectangle = {
   area: 200,
   perimeter: 80
 }
-let { width, heigh, area, perimeter = 60 } = rectangle
-console.log(width, height, area, perimeter) //20 10 200 80
+let { width, height, area, perimeter = 60 } = rectangle
+console.log(width, height, area, perimeter) //30 10 200 80
 ```
 
 Destructuring keys as a function parameters. Lets create a function which take a rectangle object and it return a perimeter of a rectangle.
@@ -695,4 +695,4 @@ const users = [
 ```
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 10](../10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md) | [Day 12>>](../12_Day_Regular_expressions/12_day_regular_expressions.md)
+[<< Day 10](../10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md) | [Day 12 >>](../12_Day_Regular_expressions/12_day_regular_expressions.md)

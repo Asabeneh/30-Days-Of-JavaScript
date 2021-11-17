@@ -52,7 +52,7 @@ Variables scopes can be:
 Variable can be declared globally or locally or window scope. We will see both global and local scope.
 Anything declared without let, var or const is scoped at window level.
 
-Let us image we have a scope.js file.
+Let us imagine that we have a scope.js file.
 
 ### Window Scope
 
@@ -102,23 +102,25 @@ let a = 'JavaScript' // is a global scope it will be found anywhere in this file
 let b = 10 // is a global scope it will be found anywhere in this file
 function letsLearnScope() {
   console.log(a, b) // JavaScript 10, accessible
-  let c = 30
+  let value = false
   if (true) {
     // we can access from the function and outside the function but 
     // variables declared inside the if will not be accessed outside the if block
     let a = 'Python'
     let b = 20
+    let c = 30
     let d = 40
+    value = !value
     console.log(a, b, c) // Python 20 30
   }
   // we can not access c because c's scope is only the if block
-  console.log(a, b) // JavaScript 10
+  console.log(a, b, value) // JavaScript 10 true
 }
 letsLearnScope()
 console.log(a, b) // JavaScript 10, accessible
 ```
 
-Now, you have an understanding of scope. A variable declared with *var* only scoped to function but variable declared with *let* or *const* is block scope(function block, if block, loop etc). Block in JavaScript is a code in between two curly brackets ({}).
+Now, you have an understanding of scope. A variable declared with *var* only scoped to function but variable declared with *let* or *const* is block scope(function block, if block, loop block, etc). Block in JavaScript is a code in between two curly brackets ({}).
 
 ```js
 //scope.js
@@ -163,7 +165,7 @@ if (true){
 for(let i = 0; i < 3; i++){
   console.log(i) // 1, 2, 3
 }
-// console.log(i), Uncaught ReferenceError: gravity is not defined
+// console.log(i), Uncaught ReferenceError: i is not defined
 
 ```
 
@@ -432,7 +434,7 @@ console.log(copyPerson.hasOwnProperty('score'))
 ### Exercises: Level 2
 
 1. Find the person who has many skills in the users object.
-1. Count logged in users,count users having greater than equal to 50 points from the following object.
+1. Count logged in users, count users having greater than equal to 50 points from the following object.
 
    ````js
    const users = {

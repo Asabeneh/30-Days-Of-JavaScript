@@ -133,7 +133,7 @@ I believe you have the motivation and a strong desire to be a developer, a compu
 
 ### Install Node.js
 
-You may not need node.js right now but you may need it for later. Install [node.js](https://nodejs.org/en/).
+You may not need Node.js right now but you may need it for later. Install [node.js](https://nodejs.org/en/).
 
 ![Node download](images/download_node.png)
 
@@ -148,7 +148,7 @@ asabeneh $ node -v
 v12.14.0
 ```
 
-When making this tutorial I was using node version 12.14.0, but now the recommended version of node.js for download is 12.17.0.
+When making this tutorial I was using Node version 12.14.0, but now the recommended version of Node.js for download is v14.17.6.
 
 ### Browser
 
@@ -156,7 +156,7 @@ There are many browsers out there. However, I strongly recommend Google Chrome.
 
 #### Installing Google Chrome
 
-Install [google chrome](https://www.google.com/chrome/) if you do not have one yet. We can write small JavaScript code on the browser console, but we do not use the browser console to develop applications.
+Install [Google Chrome](https://www.google.com/chrome/) if you do not have one yet. We can write small JavaScript code on the browser console, but we do not use the browser console to develop applications.
 
 ![Google Chrome](images/google_chrome.png)
 
@@ -205,7 +205,7 @@ console.log('Hello, World!')
 
 ##### Console.log with Multiple Arguments
 
-The **console.log()** function can take multiple parameters separated by comma. The syntax looks like as follows:**console.log(param1, param2, param3)**
+The **console.log()** function can take multiple parameters separated by commas. The syntax looks like as follows:**console.log(param1, param2, param3)**
 
 ![console log multiple arguments](./images/console_log_multipl_arguments.png)
 
@@ -239,7 +239,7 @@ This is a multiline comment
 
 ##### Syntax
 
-Programming languages are similar to human languages. English or many other language uses words, phrases, sentences,compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is _the structure of statements in a computer language._ Programing languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+Programming languages are similar to human languages. English or many other language uses words, phrases, sentences,compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language.Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
 
 ![Error](images/raising_syntax_error.png)
 
@@ -255,7 +255,7 @@ So far, we saw how to display text using the _console.log()_. If we are printing
 
 ```js
 console.log('Hello, World!')
-console.log('Hello, World!')
+console.log("Hello, World!")
 console.log(`Hello, World!`)
 ```
 
@@ -377,7 +377,7 @@ Open the browser console to see the output from the console.log()
 ### External Script
 
 Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension. All files ending with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
+First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
 
 ```js
 console.log('Welcome to 30DaysOfJavaScript')
@@ -405,8 +405,8 @@ External scripts in the _body_:
     <title>30DaysOfJavaScript:External script</title>
   </head>
   <body>
-    //it could be in the header or in the body // Here is the recommended place
-    to put the external script
+    <!-- it could be in the header or in the body --> 
+    <!-- Here is the recommended place to put the external script -->
     <script src="introduction.js"></script>
   </body>
 </html>
@@ -463,21 +463,22 @@ A collection of one or more characters between two single quotes, double quotes,
 'Finland'
 'JavaScript is a beautiful programming language'
 'I love teaching'
-'I hope you are enjoying the first day'`We can also create a string using a backtick`
-;('A string could be just as small as one character as big as many pages')
+'I hope you are enjoying the first day'
+`We can also create a string using a backtick`
+'A string could be just as small as one character as big as many pages'
 ```
 
 ### Booleans
 
-A boolean value is either True or False. Any comparisons return a boolean value, which is either true or false.
+A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
 
 A boolean data type is either a true or false value.
 
 **Example:**
 
 ```js
-true // if the light on ,the value is true
-false // if the light off, the value is false
+true // if the light is on, the value is true
+false // if the light is off, the value is false
 ```
 
 ### Undefined
@@ -486,7 +487,7 @@ In JavaScript, if we don't assign a value to a variable, the value is undefined.
 
 ```js
 let firstName
-console.log(firstName) //not defined, because it is not assigned to a value yet
+console.log(firstName) // undefined, because it is not assigned to a value yet
 ```
 
 ### Null
@@ -531,6 +532,7 @@ Multiline commenting:
   let age = 100;
   let isMarried = true;
   This is a Multiple line comment
+
 */
 ```
 
