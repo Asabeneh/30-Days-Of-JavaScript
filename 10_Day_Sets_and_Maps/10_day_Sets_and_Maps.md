@@ -241,7 +241,6 @@ console.log(C)
 
 ```sh
 Set(6) {1, 2, 3, 4, 5,6}
-
 ```
 
 ### Intersection of sets
@@ -263,7 +262,6 @@ console.log(C)
 
 ```sh
 Set(3) {3, 4, 5}
-
 ```
 
 ### Difference of sets
@@ -285,7 +283,6 @@ console.log(C)
 
 ```sh
 Set(2) {1, 2}
-
 ```
 
 ## Map
@@ -372,7 +369,7 @@ for (const country of countriesMap) {
 (2) ["Norway", "Oslo"]
 ```
 
-```sh
+```js
 for (const [country, city] of countriesMap){
 console.log(country, city)
 }
@@ -415,10 +412,11 @@ const countries = ['Finland', 'Sweden', 'Norway']
 
 1. \*\*\* Use the countries data to find the 10 most spoken languages:
 
-   ```js
+```js
    // Your output should look like this
-   console.log(mostSpokenLanguages(countries, 10))[
-     ({ English: 91 },
+   console.log(mostSpokenLanguages(countries, 10))
+   [
+     { English: 91 },
      { French: 45 },
      { Arabic: 25 },
      { Spanish: 24 },
@@ -428,24 +426,20 @@ const countries = ['Finland', 'Sweden', 'Norway']
      { German: 7 },
      { Chinese: 5 },
      { Swahili: 4 },
-     { Serbian: 4 })
+     { Serbian: 4 }
    ]
 
-   // Your output should look like this
-   console.log(mostSpokenLanguages(countries, 3))
-   ```
-
-[
-{'English':91},
-{'French':45},
-{'Arabic':25}
-]
-
+  // Your output should look like this
+  console.log(mostSpokenLanguages(countries, 3))
+  [
+  {'English':91},
+  {'French':45},
+  {'Arabic':25}
+  ]
 ```
 
 
 🎉 CONGRATULATIONS ! 🎉
 
 
-[<< Day 9](../09_Day_Higher_order_functions/09_day_higher_order_functions.md) | [Day 11>>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)
-```
+[<< Day 9](../09_Day_Higher_order_functions/09_day_higher_order_functions.md) | [Day 11 >>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)

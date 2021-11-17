@@ -205,7 +205,7 @@ console.log('Hello, World!')
 
 ##### Console.log with Multiple Arguments
 
-The **conole.log()** function can take multiple parameters separated by comma. The syntax looks like as follows:**console.log(param1, param2, param3)**
+The **console.log()** function can take multiple parameters separated by comma. The syntax looks like as follows:**console.log(param1, param2, param3)**
 
 ![console log multiple arguments](./images/console_log_multipl_arguments.png)
 
@@ -231,11 +231,11 @@ We add comments to our code. Comments are very important to make code more reada
 
 **Example: Multiline Comment**
 
-/_
+/*
 This is a multiline comment  
  Multiline comments can take multiple lines  
  JavaScript is the language of the web  
- _/
+ */
 
 ##### Syntax
 
@@ -527,18 +527,18 @@ Multiline commenting:
 
 ```js
 /*
-    let location = 'Helsinki';
-    let age = 100;
-    let isMarried = true;
-    This is a Multiple line comment
-    */
+  let location = 'Helsinki';
+  let age = 100;
+  let isMarried = true;
+  This is a Multiple line comment
+*/
 ```
 
 ## Variables
 
 Variables are _containers_ of data. Variables are used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords.
 
-For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do no change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is error prone way of declaring variable it has lots of leak. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
+For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do not change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is error prone way of declaring variable it has lots of leak. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
 
 A valid JavaScript variable name must follow the following rules:
 
@@ -571,7 +571,7 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follows the camelCase convention of declaring in JavaScrip. In this material, we will use camelCase variables.
+The first and second variables on the list follows the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables.
 
 Example of invalid variables:
 
@@ -603,16 +603,15 @@ console.log(firstName, lastName, country, city, age, isMarried)
 ```
 
 ```sh
-Asabeneh Yetayeh Finland Helsinki 100 True
+Asabeneh Yetayeh Finland Helsinki 100 true
 ```
 
 ```js
 // Declaring variables with number values
 let age = 100 // age in years
 const gravity = 9.81 // earth gravity  in m/s2
-const boilingPoint = 100 // water boiling point, temperature in oC
+const boilingPoint = 100 // water boiling point, temperature in °C
 const PI = 3.14 // geometrical constant
-
 console.log(gravity, boilingPoint, PI)
 ```
 
@@ -623,8 +622,8 @@ console.log(gravity, boilingPoint, PI)
 ```js
 // Variables can also be declaring in one line separated by comma
 let name = 'Asabeneh', // name of a person
-  job = 'teacher',
-  live = 'Finland'
+job = 'teacher',
+live = 'Finland'
 console.log(name, job, live)
 ```
 
