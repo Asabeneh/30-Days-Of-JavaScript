@@ -147,7 +147,7 @@ Let us another example when the promise is settled with reject.
 const doPromise = new Promise((resolve, reject) => {
   setTimeout(() => {
     const skills = ['HTML', 'CSS', 'JS']
-    if (skills.icludes('Node')) {
+    if (skills.includes('Node')) {
       resolve('fullstack developer')
     } else {
       reject('Something wrong has happened')

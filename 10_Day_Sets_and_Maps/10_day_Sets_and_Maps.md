@@ -71,8 +71,8 @@ const languages = [
   'French',
 ]
 
-const setOfLangauges = new Set(languages)
-console.log(setOfLangauges)
+const setOfLanguages = new Set(languages)
+console.log(setOfLanguages)
 ```
 
 ```sh
@@ -92,9 +92,9 @@ const languages = [
   'French',
 ]
 
-const setOfLangauges = new Set(languages)
+const setOfLanguages = new Set(languages)
 
-for (const language of setOfLangauges) {
+for (const language of setOfLanguages) {
   console.log(language)
 }
 ```

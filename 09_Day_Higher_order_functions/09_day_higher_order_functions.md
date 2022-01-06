@@ -134,7 +134,7 @@ In JavaScript we can execute some activities in a certain interval of time or we
 - setInterval
 - setTimeout
 
-#### Setting Interaval using a setInterval function
+#### Setting Interval using a setInterval function
 
 In JavaScript, we use setInterval higher order function to do some activity continuously with in some interval of time. The setInterval global method take a callback function and a duration as a parameter. The duration is in milliseconds and the callback will be always called in that interval of time.
 

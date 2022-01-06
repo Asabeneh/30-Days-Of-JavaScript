@@ -14,7 +14,7 @@ let pattern = /love/gi
 console.log(string.match(pattern)) // ["love", "love", "love"]
 // Let us extract numbers from text using regular expression. This is not regular expression section, no panic.
 
-let txt = 'In 2019, I run 30 Days of Pyhton. Now, in 2020 I super exited to start this challenge'
+let txt = 'In 2019, I run 30 Days of Python. Now, in 2020 I super exited to start this challenge'
 let regEx = /\d/g // d with escape character means d not a normal d instead acts a digit
 // + means one or more digit numbers, 
 // if there is g after that it means global, search everywhere.

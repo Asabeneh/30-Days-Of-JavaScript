@@ -39,7 +39,7 @@
 
 1. Create the following animation using (HTML, CSS, JS)
 
-![Countries daata](./../images/projects/dom_mini_project_countries_object_day_10.1.gif)
+![Countries data](./../images/projects/dom_mini_project_countries_object_day_10.1.gif)
 
 2. Validate the following form using regex.
 

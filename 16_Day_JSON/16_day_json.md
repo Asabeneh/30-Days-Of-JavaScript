@@ -440,7 +440,7 @@ const user = {
   country: 'Finland',
   city: 'Helsinki',
   email: 'alex@alex.com',
-  skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Pyhton'],
+  skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Python'],
   age: 250,
   isLoggedIn: false,
   points: 30

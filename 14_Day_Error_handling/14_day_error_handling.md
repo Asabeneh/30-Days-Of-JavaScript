@@ -113,7 +113,7 @@ throw new Error('Required') // generates an error object with the message of Req
 ```
 
 ```js
-const throwErroExampleFun = () => {
+const throwErrorExampleFun = () => {
   let message
   let x = prompt('Enter a number: ')
   try {
@@ -126,7 +126,7 @@ const throwErroExampleFun = () => {
     console.log(err)
   }
 }
-throwErroExampleFun()
+throwErrorExampleFun()
 ```
 
 ### Error Types

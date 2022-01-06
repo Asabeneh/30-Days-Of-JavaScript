@@ -31,7 +31,7 @@
     - [Increment Operator](#increment-operator)
     - [Decrement Operator](#decrement-operator)
     - [Ternary Operators](#ternary-operators)
-    - [Operator Precendence](#operator-precendence)
+    - [Operator Precedence](#operator-precendence)
   - [Window Methods](#window-methods)
     - [Window alert() method](#window-alert-method)
     - [Window prompt() method](#window-prompt-method)
@@ -333,9 +333,9 @@ number > 0
 -5 is a negative number
 ```
 
-### Operator Precendence
+### Operator Precedence
 
-I would like to recommend you to read about operator precendence from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+I would like to recommend you to read about operator precedence from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 
 ## Window Methods
 

@@ -202,7 +202,7 @@ for(let i = 0; i < len; i++){
 
 // iterating an array using for of
 for( const name of names) {
-    console.log(name.toUpperCasee())
+    console.log(name.toUpperCases())
 }
 
 // iterating array using forEach 
