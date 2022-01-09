@@ -1,4 +1,4 @@
-// endsWith: it takes a substring as an argument and it checks if the string starts with that specified substring. It returns a boolean(true or false).
+// endsWith: it takes a substring as an argument and it checks if the string ends with that specified substring. It returns a boolean(true or false).
 // string.endsWith(substring)
 let string = 'Love is the best to in this world'
 console.log(string.endsWith('world')) // true
