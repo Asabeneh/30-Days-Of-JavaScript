@@ -249,8 +249,9 @@ console.log('Hello, World!')
 console.log('Hello, World!')
 ```
 
-So far, we saw how to display text using the _console.log()_. If we are printing text or string using _console.log()_, the text has to be inside the single quotes, double quotes, or a backtick quotes.
-**Example:**
+İndiyə qədər biz _console.log()_ istifadə edərək mətnin necə göstərildiyini gördük. Əgər biz _console.log()_ istifadə edərək mətni və ya sətri çap ediriksə, mətn tək dırnaqlar, qoşa dırnaqlar və ya əks dırnaqlar (backtick) içərisində olmalıdır.
+
+**Nümunə:**
 
 ```js
 console.log('Hello, World!')
@@ -258,204 +259,206 @@ console.log("Hello, World!")
 console.log(`Hello, World!`)
 ```
 
-#### Arithmetics
+#### Riyazi əməliyyatlar
 
-Now, let us practice more writing JavaScript codes using _console.log()_ on google chrome console for number data types.
-In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
-The console can directly take arguments without the **_console.log()_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
+İndi gəlin ədəd tipli dəyişənlər üzərində Google Chrome konsolunda _console.log()_ istifadə edərək JavaScript kodlarının yazılmasına aid nümunələri məşq edək.
 
-![Arithmetic](../images/arithmetic.png)
+Mətnə əlavə olaraq JavaScript-dən istifadə edərək riyazi hesablamalar da edə bilərik. Aşağıdakı sadə hesablamaları aparaq.
+Konsol **_console.log()_** funksiyası olmadan birbaşa arqumentlər qəbul edə bilər. Bununla belə, o, dərslikdə daha əvvəldə daxil edilmişdir, çünki bu nümunələrin əksəriyyəti funksiyadan istifadənin məcburi olduğu mətn redaktorunda baş verəcəkdir. Konsoldakı təlimatlarlı birbaşa nəzərdən keçirə bilərsiniz.
+
+![Riyazi hesablamalar](../images/arithmetic.png)
 
 ```js
-console.log(2 + 3) // Addition
-console.log(3 - 2) // Subtraction
-console.log(2 * 3) // Multiplication
-console.log(3 / 2) // Division
-console.log(3 % 2) // Modulus - finding remainder
-console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
+console.log(2 + 3) // Toplama
+console.log(3 - 2) // Çıxma
+console.log(2 * 3) // Vurma
+console.log(3 / 2) // Bölmə
+console.log(3 % 2) // Qalığın tapılması
+console.log(3 ** 2) // Qüvvət üstü. Yəni, 3 ** 2 == 3 * 3
 ```
 
-### Code Editor
+### Mətn redaktoru
 
-We can write our codes on the browser console, but it won't do for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days JavaScript challenge, we will be using Visual Studio Code.
+Kodlarımızı brauzer konsoluna yaza bilərik, lakin bu, daha böyük layihələr üçün əlverişli deyil və ya bəzi hallarda mümkünsüzdür. Real iş mühitində proqramçılar kodlarını yazmaq üçün müxtəlif kod/mətn redaktorlarından istifadə edirlər. Bu 30 günlük JavaScript dərsliyində biz Visual Studio Code-dan istifadə edəcəyik.
 
-#### Installing Visual Studio Code
+#### Visual Studio Code-un yüklənməsi
 
-Visual studio code is a very popular open-source text editor. I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
+Visual Studio Code çox məşhur açıq mənbəli mətn redaktorudur. [Visual Studio Code-u yükləmə](https://code.visualstudio.com/) tövsiyə edərdim, lakin başqa redaktorların tərəfdarısınızsa, əlinizdə olanları istifadə etməkdən çəkinməyin.
 
 ![Vscode](../images/vscode.png)
 
-If you installed Visual Studio Code, let us start using it.
+Yüklədikdən sonra mətn redaktoru artıq istifadəyə hazırdır.
 
-#### How to Use Visual Studio Code
+#### Visual Studio Code-u necə istifadə etməli
 
-Open the Visual Studio Code by double-clicking its icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
+Yüklənmə uğurla başa çatdıqdan sonra Visual Studio Code ikonuna 2 ardıcıl klik edərək onu başlada bilərsiniz
 
-![Vscode ui](../images/vscode_ui.png)
+![Vscode istifadəçi interfeysi](../images/vscode_ui.png)
 
-![Vscode add project](../images/adding_project_to_vscode.png)
+![Vscode-da proyekt əlavə etmək](../images/adding_project_to_vscode.png)
 
-![Vscode open project](../images/opening_project_on_vscode.png)
+![Vscode-da mövcud proyekti açmaq](../images/opening_project_on_vscode.png)
 
-![script file](../images/scripts_on_vscode.png)
+![Skript faylı](../images/scripts_on_vscode.png)
 
-![Installing Live Server](../images/vsc_live_server.png)
+![Live Server əlavəsinin yüklənilməsi](../images/vsc_live_server.png)
 
-![running script](./images/running_script.png)
+![Skriptin icrası](./images/running_script.png)
 
-![coding running](../images/launched_on_new_tab.png)
+![Kodun icrası](../images/launched_on_new_tab.png)
 
-## Adding JavaScript to a Web Page
+## Veb səhifəyə JavaScript əlavə olunması 
 
-JavaScript can be added to a web page in three different ways:
+JavaScript kodu veb səhifəyə 3 üsulla əlavə edilə bilər:
 
-- **_Inline script_**
-- **_Internal script_**
-- **_External script_**
-- **_Multiple External scripts_**
+- **_Sətirdaxili skript_**
+- **_Daxili skript_**
+- **_Xarici fayl ilə skript_**
+- **_Birneçə xarici faylla skript_**
 
-The following sections show different ways of adding JavaScript code to your web page.
+Aşağıdakı bölmələr veb səhifənizə JavaScript kodu əlavə etməyin müxtəlif yollarını göstərir.
 
-### Inline Script
+### Sətirdaxili skript
 
-Create a project folder on your desktop or in any location, name it 30DaysOfJS and create an **_index.html_** file in the project folder. Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
+İş masanızda və ya istənilən yerdə layihə qovluğu yaradın, onu 30DaysOfJS adlandırın və layihə qovluğunda **_index.html_** faylı yaradın. Sonra aşağıdakı kodu fayla əlavə edib onu brauzerdə açın, məsələn [Chrome](https://www.google.com/chrome/) ilə.
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>30DaysOfScript:Inline Script</title>
+    <title>30DaysOfScript: Sətirdaxili skript</title>
   </head>
   <body>
-    <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
+    <button onclick="alert('30DaysOfJavaScript dərsliyinə xoş gəlmişsiniz')">Kliklə</button>
   </body>
 </html>
 ```
 
-Now, you just wrote your first inline script. We can create a pop up alert message using the _alert()_ built-in function.
+İndi siz ilk daxili skriptinizi yazdınız. Biz _alert()_ daxili funksiyasından istifadə edərək pop-up xəbərdarlıq mesajı yarada bilərik.
 
-### Internal Script
+### Daxili skript
 
-The internal script can be written in the _head_ or the _body_, but it is preferred to put it on the body of the HTML document.
-First, let us write on the head part of the page.
+Daxili skript _head_ və ya _body_ ilə yazıla bilər, lakin onu HTML sənədinin gövdəsinə yerləşdirməyə üstünlük verilir.
+Əvvəlcə səhifənin baş hissəsinə yazaq.
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>30DaysOfScript:Internal Script</title>
+    <title>30DaysOfScript: Daxili skript</title>
     <script>
-      console.log('Welcome to 30DaysOfJavaScript')
+      console.log('30DaysOfJavaScript-ə xoş gəlmişsiniz')
     </script>
   </head>
   <body></body>
 </html>
 ```
 
-This is how we write an internal script most of the time. Writing the JavaScript code in the body section is the most preferred option. Open the browser console to see the output from the console.log()
+Çox vaxt daxili skripti belə yazırıq. JavaScript kodunun faylın gövdəsinə (body) bölməsinə yazılması ən çox üstünlük verilən seçimdir. console.log() saytından çıxışı görmək üçün brauzer konsolunu açın
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>30DaysOfScript:Internal Script</title>
+    <title>30DaysOfScript: Daxili skript</title>
   </head>
   <body>
-    <button onclick="alert('Welcome to 30DaysOfJavaScript!');">Click Me</button>
+    <button onclick="alert('30DaysOfJavaScript-ə xoş gəlmişsiniz');">Kliklə</button>
     <script>
-      console.log('Welcome to 30DaysOfJavaScript')
+      console.log('30DaysOfJavaScript-ə xoş gəlmişsiniz')
     </script>
   </body>
 </html>
 ```
 
-Open the browser console to see the output from the console.log()
+console.log() saytından çıxışı görmək üçün brauzer konsolunu açın
 
-![js code from vscode](../images/js_code_vscode.png)
+![JS kodu redaktorda](../images/js_code_vscode.png)
 
-### External Script
+### Xarici kod skripti
 
-Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
+Daxili skriptə bənzər şəkildə, xarici skript bağlantısı başlıqda (head) və ya gövdədə (body) ola bilər, lakin onun gövdəyə yerləşdirilməsinə üstünlük verilir.
+Əvvəlcə .js uzantılı xarici JavaScript faylı yaratmalıyıq. .js uzantısı ilə bitən bütün fayllar JavaScript fayllarıdır. Layihə qovluğunda introduction.js adlı fayl yaradın və aşağıdakı kodu yazın və bu .js faylını gövdənin aşağı hissəsində əlaqələndirin.
 
 ```js
-console.log('Welcome to 30DaysOfJavaScript')
+console.log('30 Günlük JS dərsləri')
 ```
 
-External scripts in the _head_:
+_head_ hissəsində JavaScript faylına istinad:
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>30DaysOfJavaScript:External script</title>
+    <title>30DaysOfJavaScript: Xarici skript faylı</title>
     <script src="introduction.js"></script>
   </head>
   <body></body>
 </html>
 ```
 
-External scripts in the _body_:
+_body_ hissəsində JavaScript faylına istinad:
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>30DaysOfJavaScript:External script</title>
+    <title>30DaysOfJavaScript: Xarici skript faylı</title>
   </head>
   <body>
-    <!-- it could be in the header or in the body --> 
-    <!-- Here is the recommended place to put the external script -->
+    <!-- Əvvəldə vurğuladığımız kimi həm head həm body hissəsində ola bilər --> 
+    <!-- Lakin aşağıda göstərilən kimi (body hissəsində) olması arzuolunandır -->
     <script src="introduction.js"></script>
   </body>
 </html>
 ```
 
-Open the browser console to see the output of the console.log()
+console.log() nəticəsini görmək üçün brauzer konsolunu açın.
 
-### Multiple External Scripts
+### Birneçə xarici skript faylına istinad
 
-We can also link multiple external JavaScript files to a web page.
-Create a helloworld.js file inside the 30DaysOfJS folder and write the following code.
+Biz həmçinin bir neçə xarici JavaScript faylına veb səhifədə istinad edə bilərik.
+30DaysOfJS qovluğunda helloworld.js faylı yaradın və aşağıdakı kodu yazın.
 
 ```js
-console.log('Hello, World!')
+console.log('Salam, dünya!')
 ```
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Multiple External Scripts</title>
+    <title>Birneçə xarici skript faylına istinad</title>
   </head>
   <body>
-    <script src="./helloworld.js"></script>
-    <script src="./introduction.js"></script>
+    <script src="helloworld.js"></script>
+    <script src="introduction.js"></script>
   </body>
 </html>
 ```
 
-_Your main.js file should be below all other scripts_. It is very important to remember this.
+_Main.js_ faylınız bütün digər skriptlərdən sonra daxil edilməlidir. Bunu xatırlamaq çox vacibdir.
 
-![Multiple Script](../images/multiple_script.png)
+![Birneçə fayl](../images/multiple_script.png)
 
-## Introduction to Data types
+## Verilənlər tiplərinə giriş
 
-In JavaScript and also other programming languages, there are different kinds of data types. The following are JavaScript primitive data types:_String, Number, Boolean, undefined, Null_, and _Symbol_.
+JavaScript-də və digər proqramlaşdırma dillərində müxtəlif növ məlumat növləri mövcuddur. Aşağıdakılar JavaScript primitiv verilən tipləridir:_String, Number, Boolean, undefined, Null_ və _Symbol_.
 
-### Numbers
+### Ədədlər (Numbers)
 
-- Integers: Integer (negative, zero and positive) numbers
-  Example:
+- İnteger: Integer (mənfi, sıfır və müsbət) ədədlər
+  Nümunə:
   ... -3, -2, -1, 0, 1, 2, 3 ...
-- Float-point numbers: Decimal number
-  Example
+- Tam hissəli ədədlər: Onluq (Decimal) ədədlər
+  Nümunə:
   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
-### Strings
+### Sətir (String) tipli verilənlər
 
-A collection of one or more characters between two single quotes, double quotes, or backticks.
-**Example:**
+İki tək dırnaq, qoşa dırnaq və ya əks istiqamətli dırnaqlar arasında bir və ya daha çox simvol çoxluğudur.
+
+**Nümunə:**
 
 ```js
 'Asabeneh'
@@ -467,39 +470,37 @@ A collection of one or more characters between two single quotes, double quotes,
 'A string could be just as small as one character as big as many pages'
 ```
 
-### Booleans
+### Məntiqi ifadələr
 
-A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
+Məntiqi tiplər yalnız iki mümkün qiymətdən birini ala bilən ifadələrdir. İstənilən müqayisə əməliyyatı _true_ və ya _false_ qiymətlərinin birindən ibarət nəticə qaytarır.
 
-A boolean data type is either a true or false value.
-
-**Example:**
+**Nümunə:**
 
 ```js
-true // if the light is on, the value is true
-false // if the light is off, the value is false
+true 
+false 
 ```
 
 ### Undefined
 
-In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
+JavaScript-də dəyişənə ilkin qiymət təyin etməsək, _undefined_ tipi verilir. Bundan əlavə, funksiya heç nə qaytarmırsa, susmaya görə _undefined_ qaytarır.
 
 ```js
 let firstName
-console.log(firstName) // undefined, because it is not assigned to a value yet
+console.log(firstName) // undefined, çünki dəyişənə ilkin qiymət təyin edilməyib
 ```
 
 ### Null
 
-Null in JavaScript means an empty value.
+JavaScript-də null boş dəyər deməkdir.
 
 ```js
 let emptyValue = null
 ```
 
-## Checking Data Types
+## Verilənlər tiplərinin yoxlanılması
 
-To check the data type of a certain variable, we use the **typeof** operator. See the following example.
+Hər hansi müəyyən olunmuş dəyişənin tipini tapmaq üçün **typeof** operatoru istifadə oluna bilər. Nümunəyə nəzər yetirin.
 
 ```js
 console.log(typeof 'Asabeneh') // string
@@ -509,21 +510,20 @@ console.log(typeof null) // object type
 console.log(typeof undefined) // undefined
 ```
 
-## Comments Again
+## Şərhlər (daha artıq)
 
-Remember that commenting in JavaScript is similar to other programming languages. Comments are important in making your code more readable.
-There are two ways of commenting:
+Bildiyimiz kimi JavaScript-də şərh yazmaq digər proqramlaşdırma dillərinə olduğu kimidir. Kodunuzu daha oxunaqlı etmək üçün şərhlər vacibdir.
+Şərh əlavə etməyin iki yolu var:
 
-- _Single line commenting_
-- _Multiline commenting_
+- _Təksətirli şərhlər_
+- _Çoxsətirli şərhlər_
 
 ```js
-// commenting the code itself with a single comment
-// let firstName = 'Asabeneh'; single line comment
-// let lastName = 'Yetayeh'; single line comment
+// let firstName = 'Asabeneh'; tək sətirli şərh
+// let lastName = 'Yetayeh'; tək sətirli şərh
 ```
 
-Multiline commenting:
+Çoxsətirli şərhlər:
 
 ```js
 /*
@@ -535,20 +535,20 @@ Multiline commenting:
 */
 ```
 
-## Variables
+## Dəyişıənlər
 
-Variables are _containers_ of data. Variables are used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords.
+Dəyişənlər məlumatların yaddaşda saxlanması üçün istifadə olunur. Dəyişən elan edildikdə, yaddaş yeri rezerv olunur. Dəyişən təyin edildikdə, yaddaş sahəsində həmin verilənlər saxlanılır. Dəyişən elan etmək üçün biz _var_, _let_ və ya _const_ açar sözlərindən istifadə edirik.
 
-For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do not change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is error prone way of declaring variable it has lots of leak. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
+Qİyməti proqram daxilində dəyişən dəyişənlər üçün biz _let_ istifadə edirik. Məlumatlar ümumiyyətlə dəyişməzsə, yəni sabitlər üçün biz _const_ istifadə edirik. Məsələn, PI sabiti üçün biz _const_ istifadə edə bilərik. Bu dərslikdə _var_ istifadə etməyəcəyik və mən sizə ondan istifadə etməyi tövsiyə etmirəm. Bu, tövsiyə edilən yol deyil və təhlükəli məqamlara yol aça bilər. Var, let və const haqqında digər bölmələrdə ətraflı danışacağıq. Hələlik yuxarıdakı izahat kifayətdir.
 
-A valid JavaScript variable name must follow the following rules:
+Düzgün JavaScript dəyişən adı aşağıdakı qaydalara əməl etməlidir:
 
-- A JavaScript variable name should not begin with a number.
-- A JavaScript variable name does not allow special characters except dollar sign and underscore.
-- A JavaScript variable name follows a camelCase convention.
-- A JavaScript variable name should not have space between words.
+- Rəqəmlə başlaya bilməz.
+- $ və _ istisna olmaqla xüsusi simvolların istifadəsinə icazə verilmir.
+- Adətən camelCase konvensiyasına əsaslanaraq adlandırılır.
+- Sözlər və ya dəyişən adının hissələri arasında boşluq olmaz.
 
-The following are examples of valid JavaScript variables.
+Düzgün dəyişən adları nümunələri:
 
 ```js
 firstName
@@ -572,9 +572,9 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follows the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables.
+Siyahıdakı birinci və ikinci dəyişənlər JavaScript-də elan etmək üçün camelCase konvensiyasına uyğundur. Bu dərslikdə biz camelCase dəyişənlərindən istifadə edəcəyik.
 
-Example of invalid variables:
+Yalnış elan olunmuş dəyişənlər:
 
 ```sh
   first-name
@@ -582,22 +582,22 @@ Example of invalid variables:
   num_#_1
 ```
 
-Let us declare variables with different data types. To declare a variable, we need to use _let_ or _const_ keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value(assigned data).
+Müxtəlif verilən tipləri ilə dəyişənləri elan edək. Dəyişən elan etmək üçün dəyişən adından əvvəl _let_ və ya _const_ açar sözündən istifadə etməliyik. Dəyişən adından sonra bərabər işarəsi (təyinat operatoru) və dəyəri (təyin edilmiş verilənlər) yazırıq.
 
 ```js
-// Syntax
+// Sintaksis
 let nameOfVariable = value
 ```
 
-**Examples of declared variables**
+**Nümunələr**
 
 ```js
-// Declaring different variables of different data types
-let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
-let country = 'Finland' // country
-let city = 'Helsinki' // capital city
-let age = 100 // age in years
+// Müxtəlif verilənlər tipindən istifadə edərək dəyişənlərin yaradılmasə
+let firstName = 'Asabeneh'    // ad
+let lastName = 'Yetayeh'      // soyad
+let country = 'Finland'       // ölkə
+let city = 'Helsinki'         // paytaxt
+let age = 100                 // yaş
 let isMarried = true
 
 console.log(firstName, lastName, country, city, age, isMarried)
@@ -608,11 +608,11 @@ Asabeneh Yetayeh Finland Helsinki 100 true
 ```
 
 ```js
-// Declaring variables with number values
-let age = 100 // age in years
-const gravity = 9.81 // earth gravity  in m/s2
-const boilingPoint = 100 // water boiling point, temperature in °C
-const PI = 3.14 // geometrical constant
+// ədəd tipli dəyişənlərin sabit açar sözü ilə yaradılması
+let age = 100 // yaş
+const gravity = 9.81         // Fizikada istifadə olunan qravitasiya sabiti
+const boilingPoint = 100     // Normal atmosfer təzyiqində suyun qaynama tempraturu
+const PI = 3.14              // Geometrik sabit
 console.log(gravity, boilingPoint, PI)
 ```
 
@@ -621,10 +621,10 @@ console.log(gravity, boilingPoint, PI)
 ```
 
 ```js
-// Variables can also be declaring in one line separated by comma
-let name = 'Asabeneh', // name of a person
-job = 'teacher',
-live = 'Finland'
+// Yalnız bir açar sözü istifadə etməklə müxtəlif dəyişənlər vergüllə ayrılmış şəkildə yaradıla bilər
+let name = 'Asabeneh',     //ad
+  job = 'teacher',         // vəzifə
+  live = 'Finland'         // ölkə  
 console.log(name, job, live)
 ```
 
@@ -632,32 +632,31 @@ console.log(name, job, live)
 Asabeneh teacher Finland
 ```
 
-When you run _index.html_ file in the 01-Day folder you should get this:
+01_Giriş qovluqda _index.html_ faylını işə saldığınız zaman bunu əldə etməlisiniz:
 
-![Day one](../images/day_1.png)
+![Gün 1](../images/day_1.png)
 
-🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and muscle.
+🌕 Təbrik edirik! Siz 1-ci günü yenicə tamamladınız. İndi beyniniz və əzələniz üçün bəzi fiziki hərəkətlər edin.
 
-# 💻 Day 1: Exercises
+# 💻 Gün 1: Tapşırıqlar
 
-1. Write a single line comment which says, _comments can make code readable_
-2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_
-3. Write a multiline comment which says, _comments can make code readable, easy to reuse_
-   _and informative_
+1. _şərhlər kodu oxunaqlı edə bilər_ mətnini özündə ehtiva edən tək sətirli şərh yazın.
+2. _30DaysOfJavaScript-ə xoş gəlmisiniz_ deyən başqa bir şərh yazın.
+3. Şərhlərin kodu oxunaqlı, təkrar istifadəsi asan və məlumatlandırıcı edə biləcəyini deyən çoxsətirli şərh yazın
 
-4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
-5. Create datatypes.js file and use the JavaScript **_typeof_** operator to check different data types. Check the data type of each variable
-6. Declare four variables without assigning values
-7. Declare four variables with assigned values
-8. Declare variables to store your first name, last name, marital status, country and age in multiple lines
-9. Declare variables to store your first name, last name, marital status, country and age in a single line
-10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to the browser console.
+4. Variables.js faylı yaradın və dəyişənləri elan edin və sətir, boolean, undefined və null dəyişən tiplərini təyin edin
+5. datatypes.js faylı yaradın və müxtəlif dəyişən tiplərini yoxlamaq üçün JavaScript **_typeof_** operatorundan istifadə edin.
+6. İlkin qiymət təyin etmədən dörd dəyişəni elan edin
+7. Təyin edilmiş ilkin qiymət olan dörd dəyişəni elan edin
+8. Adınızı, soyadınızı, ailə vəziyyətinizi, ölkənizi və yaşınızı bir neçə sətirdə saxlamaq üçün dəyişənləri elan edin
+9. Adınızı, soyadınızı, ailə vəziyyətinizi, ölkənizi və yaşınızı bir sətirdə saxlamaq üçün dəyişənləri elan edin
+10. İki _myAge_ və _yourAge_ dəyişənini elan edin və onlara ilkin qiymətlər təyin edin və brauzer konsoluna daxil olun.
 
 ```sh
 I am 25 years old.
 You are 30 years old.
 ```
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 TƏBRİK EDİRİK ! 🎉
 
-[Day 2 >>](./02_Day_Data_types/02_day_data_types.md)
+[Gün 2 >>](./02_Day_Data_types/02_day_data_types.md)
