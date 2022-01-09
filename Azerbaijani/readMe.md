@@ -157,15 +157,15 @@ Hazırda bir çox brauzer mövcud olsa da müəllif Google Chrome istifadəsini 
 
 Google Chrome sizdə mövcud deyilsə bu [linkə](https://www.google.com/chrome/) istinad edin. Biz brauzer konsolunda kiçik JavaScript kodu yaza bilərik, lakin ciddi proqramların hazırlanması üçün brauzer konsolundan istifadə etmirik.
 
-![Google Chrome](images/google_chrome.png)
+![Google Chrome](../images/google_chrome.png)
 
-#### Opening Google Chrome Console
+#### Google Chrome konsola giriş
 
-You can open Google Chrome console either by clicking three dots at the top right corner of the browser, selecting _More tools -> Developer tools_ or using a keyboard shortcut. I prefer using shortcuts.
+Siz Google Chrome konsolunu brauzerin yuxarı sağ küncündə üç nöqtəyə klikləməklə, _Əlavə alətlər -> Tərtibatçı alətləri_ seçməklə və ya klaviatura qısa yolundan istifadə etməklə aça bilərsiniz. Mən qısayollardan istifadə etməyi üstün tuturam.
 
-![Opening chrome](images/opening_developer_tool.png)
+![Brauzerə giriş](../images/opening_developer_tool.png)
 
-To open the Chrome console using a keyboard shortcut.
+Klaviatura qısayolu ilə brauzer açmaq üçün
 
 ```sh
 Mac
@@ -175,16 +175,16 @@ Windows/Linux:
 Ctl+Shift+J
 ```
 
-![Opening console](images/opening_chrome_console_shortcut.png)
+![Konsolu açmaq](../images/opening_chrome_console_shortcut.png)
 
-After you open the Google Chrome console, try to explore the marked buttons. We will spend most of the time on the Console. The Console is the place where your JavaScript code goes. The Google Console V8 engine changes your JavaScript code to machine code.
-Let us write a JavaScript code on the Google Chrome console:
+Google Chrome konsolunu açdıqdan sonra işarələnmiş düymələri araşdırmağa çalışın. Biz vaxtımızın çox hissəsini Konsolda keçirəcəyik. Konsol JavaScript kodunuzun mövcud olduğu yerdir. Google Console V8 mühərriki JavaScript kodunuzu maşın koduna tərcümə edir.
+Gəlin Google Chrome konsolunda JavaScript kodu yazaq:
 
-![write code on console](./images/js_code_on_chrome_console.png)
+![Konsolda kodun yazılması](../images/js_code_on_chrome_console.png)
 
-#### Writing Code on Browser Console
+#### Brauzer konsolunda kodun yazılması
 
-We can write any JavaScript code on the Google console or any browser console. However, for this challenge, we only focus on Google Chrome console. Open the console using:
+Biz istənilən JavaScript kodunu Google konsolunda və ya istənilən brauzer konsolunda yaza bilərik. Bununla belə, bu problem üçün biz yalnız Google Chrome konsoluna diqqət yetiririk. Konsolu aşağıdakılardan istifadə edərək açın:
 
 ```sh
 Mac
@@ -196,17 +196,18 @@ Ctl+Shift+I
 
 ##### Console.log
 
-To write our first JavaScript code, we used a built-in function **console.log()**. We passed an argument as input data, and the function displays the output. We passed 'Hello, World' as input data or argument in the console.log() function.
+İlk JavaScript kodumuzu yazmaq üçün biz daxili funksiyadan istifadə etdik **console.log()**. Biz arqumenti giriş məlumatları kimi ötürdük və funksiya çıxışı göstərir. Biz console.log() funksiyasında giriş məlumatı və ya arqument kimi "Salam, Dünya"nı ötürdük.
 
 ```js
-console.log('Hello, World!')
+console.log('Salam, Dünya!')
 ```
 
-##### Console.log with Multiple Arguments
+##### Console.log - birneçə arqument ilə
 
-The **console.log()** function can take multiple parameters separated by commas. The syntax looks like as follows:**console.log(param1, param2, param3)**
+**console.log()** funksiyasi vergüllə ayrılmış istənilən sayda parametri qəbul edə bilər. 
+Sintaksis: **console.log(param1, param2, param3)**
 
-![console log multiple arguments](./images/console_log_multipl_arguments.png)
+![console log - birneçə arqument ilə](../images/console_log_multipl_arguments.png)
 
 ```js
 console.log('Hello', 'World', '!')
@@ -214,36 +215,35 @@ console.log('HAPPY', 'NEW', 'YEAR', 2020)
 console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
 ```
 
-As you can see from the snippet code above, _console.log()_ can take multiple arguments.
+Yuxarıdakı kod parçasından göründüyü kimi, _console.log()_ çoxlu arqument qəbul edə bilər.
 
-Congratulations! You wrote your first JavaScript code using _console.log()_.
+Təbrik edirik! Siz ilk JavaScript kodunuzu _console.log()_ istifadə edərək yazdınız.
 
-##### Comments
+##### Şərhlər
 
-We add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code.In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this /\* \*/ is also a comment.
+Kodumuza şərhlər əlavə edirik. Kodu daha oxunaqlı etmək və kodumuzda qeydlər daxil etmək üçün şərhlər çox vacibdir. JavaScript kodumuzun şərh hissəsini qeydə almır və maşın dilinə tərcümə etmir. JavaScript-də // ilə başlayan hər hansı mətn sətiri şərhdir və həmçinin buna /\* \*/ kimi əlavə edilən hər şey də şərhdir.
 
-**Example: Single Line Comment**
+**Nümunə: Tək sətirli şərhlər**
 
-// This is the first comment  
- // This is the second comment  
- // I am a single line comment
+// Bu bir şərhdir  
+ // Bu da bir şərhdir
+ // Bu da həmçinin
 
-**Example: Multiline Comment**
+**Nümunə: Çoxsətirli şərhlər**
 
 /*
-This is a multiline comment  
- Multiline comments can take multiple lines  
- JavaScript is the language of the web  
+Çoxsətirli şərhlər  
+ Çoxsətirli şərhlər bir neçə sətiri ehtiva edə bilir  
+ JavaScript web-in dilidir  
  */
 
-##### Syntax
+##### Sintaksis
 
-Programming languages are similar to human languages. English or many other language uses words, phrases, sentences,compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language.Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+Proqramlaşdırma dilləri insan dillərinə bənzəyir. İngilis və ya bir çox başqa dil mənalı mesajı çatdırmaq üçün sözlər, ifadələr, cümlələr, mürəkkəb cümlələr və sair istifadə edir. Sintaksisin ingiliscə mənası _dildə yaxşı formalaşmış cümlələr yaratmaq üçün söz və ifadələrin düzülüşüdür_. Sintaksisin texniki tərifi kompüter dilində ifadələrin strukturudur. Proqramlaşdırma dillərində sintaksis var. JavaScript proqramlaşdırma dilidir və digər proqramlaşdırma dilləri kimi onun da öz sintaksisi var. JavaScript-in başa düşdüyü sintaksisi yazmasaq, o, müxtəlif növ xətaları bizə qaytaracaq. Müxtəlif növ JavaScript xətalarını daha sonra araşdıracağıq. Hələlik gəlin sintaksis səhvlərinə baxaq.
 
-![Error](images/raising_syntax_error.png)
+![Errorlar](../images/raising_syntax_error.png)
 
-I made a deliberate mistake. As a result, the console raises syntax errors. Actually, the syntax is very informative. It informs what type of mistake was made. By reading the error feedback guideline, we can correct the syntax and fix the problem. The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
-
+Mən qəsdən səhv etdim. Nəticədə, konsol sintaksis səhvlərini qaytarır. Əslində, sintaksis çox informativdir. Hansı növ səhvə yol verildiyini bildirir. Səhv rəyi təlimatını oxumaqla biz sintaksisi düzəldə və problemi həll edə bilərik. Proqramdakı xətaların müəyyən edilməsi və aradan qaldırılması prosesi "debugging" adlanır. Gəlin səhvləri düzəldək:
 ```js
 console.log('Hello, World!')
 console.log('Hello, World!')
