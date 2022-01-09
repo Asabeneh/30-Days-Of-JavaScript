@@ -37,7 +37,7 @@
 
 <div>
 <small><strong>Müəllifi</strong> dəstəkləməklə daha çox təhsil materialı yaratmasına kömək ola bilərsiniz</small> <br />  
-<a href = "https://www.paypal.me/asabeneh"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
+<a href = "https://www.paypal.me/asabeneh"><img src='../images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
 </div>
 
 <div align="center">
@@ -68,7 +68,7 @@ Az [Azerbaijan](./Azerbaijani/readMe.md)
 
 [Gün 2 >>](./02_Day_Data_types/02_day_data_types.md)
 
-![30 Günlük JavaScript dərsləri](./images/day_1_1.png)
+![30 Günlük JavaScript dərsləri](../images/day_1_1.png)
 
 - [30 Günlük JavaScript dərsləri](#30-days-of-javascript)
 - [📔 Gün 1](#-day-1)
