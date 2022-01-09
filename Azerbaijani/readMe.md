@@ -134,11 +134,11 @@ Mənbə: Github.
 
 İndi olmasa belə daha sonrakı addımlar üçün Node-a ehtiyaciniz var. Yükləmək üçün [buraya](https://nodejs.org/en/) istinad edin.
 
-![Node Yüklənməsi](images/download_node.png)
+![Node Yüklənməsi](../images/download_node.png)
 
 Yükləndikdən sonra quraşdırılma üçün
 
-![Node quraşdırılması](images/install_node.png)
+![Node quraşdırılması](../images/install_node.png)
 
 Əməliyyat sistemi terminalımızı açaraq maşınımızda node quraşdırılıb-quraşdırılmadığını yoxlaya bilərik.
 
@@ -264,7 +264,7 @@ Now, let us practice more writing JavaScript codes using _console.log()_ on goog
 In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
 The console can directly take arguments without the **_console.log()_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
 
-![Arithmetic](images/arithmetic.png)
+![Arithmetic](../images/arithmetic.png)
 
 ```js
 console.log(2 + 3) // Addition
@@ -283,7 +283,7 @@ We can write our codes on the browser console, but it won't do for bigger projec
 
 Visual studio code is a very popular open-source text editor. I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
 
-![Vscode](images/vscode.png)
+![Vscode](../images/vscode.png)
 
 If you installed Visual Studio Code, let us start using it.
 
@@ -291,19 +291,19 @@ If you installed Visual Studio Code, let us start using it.
 
 Open the Visual Studio Code by double-clicking its icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
 
-![Vscode ui](./images/vscode_ui.png)
+![Vscode ui](../images/vscode_ui.png)
 
-![Vscode add project](./images/adding_project_to_vscode.png)
+![Vscode add project](../images/adding_project_to_vscode.png)
 
-![Vscode open project](./images/opening_project_on_vscode.png)
+![Vscode open project](../images/opening_project_on_vscode.png)
 
-![script file](images/scripts_on_vscode.png)
+![script file](../images/scripts_on_vscode.png)
 
-![Installing Live Server](images/vsc_live_server.png)
+![Installing Live Server](../images/vsc_live_server.png)
 
 ![running script](./images/running_script.png)
 
-![coding running](./images/launched_on_new_tab.png)
+![coding running](../images/launched_on_new_tab.png)
 
 ## Adding JavaScript to a Web Page
 
@@ -371,7 +371,7 @@ This is how we write an internal script most of the time. Writing the JavaScript
 
 Open the browser console to see the output from the console.log()
 
-![js code from vscode](./images/js_code_vscode.png)
+![js code from vscode](../images/js_code_vscode.png)
 
 ### External Script
 
@@ -437,7 +437,7 @@ console.log('Hello, World!')
 
 _Your main.js file should be below all other scripts_. It is very important to remember this.
 
-![Multiple Script](./images/multiple_script.png)
+![Multiple Script](../images/multiple_script.png)
 
 ## Introduction to Data types
 
@@ -634,7 +634,7 @@ Asabeneh teacher Finland
 
 When you run _index.html_ file in the 01-Day folder you should get this:
 
-![Day one](./images/day_1.png)
+![Day one](../images/day_1.png)
 
 🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and muscle.
 
