@@ -190,6 +190,7 @@ switch(caseValue){
    break
   case 3:
   // code
+   break
   default:
    // code
 }
