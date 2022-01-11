@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30DaysOfJavaScript: Data Types - Strings: Methods - split()</title>
+</head>
+<body>
+    <script>
+        /*
+           split() - splits a string at a specified place, and it changes
+           the string into an array of parts from the splitting based from
+           the passed argument
+        */
+        let title = '30 Days of JavaScript'
+        // Simply changes into an array
+        console.log(title.split())      // ["30 Days of JavaScript"]
+
+        // Changes into array of words as space or ' ' is the point of split
+        console.log(title.split(' '))   // ["30", "Days", "of", "JavaScript"]
+
+        let name = 'Dean'
+        // Changes into array of letters due to each next '' point
+        console.log(name.split('')) // ["D", "e", "a", "n"]
+
+        let drinks = 'Milo, Coca-Cola, and Delight'
+        // Removes the commas only, therefore retaining the spaces
+        console.log(drinks.split(','))   // ["Milo", " Coca-Cola", " and Delight"]
+        // Removes both commas and spaces, therefore leaving only the nouns
+        console.log(drinks.split(', '))  // ["Milo", "Coca-Cola", "and Delight"]
+    </script>
+</body>
+</html>

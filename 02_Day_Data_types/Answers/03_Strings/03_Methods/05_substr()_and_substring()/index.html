@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30DaysOfJavaScript: Data Types - Strings: Methods - substr() and substring()</title>
+</head>
+<body>
+    <script>
+        /*
+           substr() - has 2 arguments, the starting index and
+           the number of characters to slice
+        */
+        let js = 'JavaScript'
+        console.log(js.substr(0, 4))     // Java
+        console.log(js.substr(4, 6))     // Script
+
+        /*
+           substring() - has 2 arguments, the starting index and
+           the stopping index, and it does not include the stop-
+           ping index's character
+        */
+        console.log(js.substring(0, 4))  // Java
+        console.log(js.substring(4, 10)) // Script
+    </script>
+</body>
+</html>

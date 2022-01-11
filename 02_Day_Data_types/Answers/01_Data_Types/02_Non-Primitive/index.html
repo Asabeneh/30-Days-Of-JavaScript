@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30DaysOfJavaScript: Data Types - Non-Primitive</title>
+</head>
+<body>
+    <script>
+        /*
+           Includes:
+           Objects
+           Functions
+           Arrays
+        */
+        // Array is a list of data values contained in square brackets
+        let numbers = [1, 2, 3]
+        numbers[0] = "This is the first element"
+        numbers[1] = "This is the second element"
+        numbers[2] = "This is the last element"
+
+        /*
+           Value of each index in the array are reassigned;
+           the values are changed from int to string data types.
+        */
+        console.log(numbers[0])
+        console.log(numbers[1])
+        console.log(numbers[2])
+
+        /*
+           The example proves that an array, which is a non-primitive
+           data type is mutable (modifiable).
+           Non-primitive data types are not comparable by value.
+           Even if 2 non-primitive data types have the same properties
+           and values, they are not strictly equal.
+        */
+        let set1 = [1, 2, 3],
+            set2 = [1, 2, 3]
+        console.log(set1 == set2) // false
+
+        let object1 = {
+                character: {
+                    alias: 'Dragunov',
+                    age: 879,
+                    race: 'Dragonkin',
+                    job: 'Adventurer',
+                    title: 'Dragon Lord'
+                }
+            },
+            object2 = {
+                character: {
+                    alias: 'Dragunov',
+                    age: 879,
+                    race: 'Dragonkin',
+                    job: 'Adventurer',
+                    title: 'Dragon Lord'
+                }
+            }
+        console.log(object1 == object2) // false
+
+        /*
+           We do not compare non-primitive data types; do not compare
+           objects, functions, or arrays. Their values are referred to
+           as 'reference' types, because they are being compared by
+           reference instead of values.
+           Two objects are only strictly equal if they refer to the
+           same underlying object.
+
+           So instead of the following:
+           let numbers1 = [1, 2, 3],
+               numbers2 = [1, 2, 3]
+           console.log(numbers1 == numbers2) // false
+
+           let character1 = {
+                   alias: 'Dragunov',
+                   age: 879,
+                   race: 'Dragonkin',
+                   job: 'Adventurer',
+                   title: 'Dragon Lord'
+               },
+               character2 = {
+                   alias: 'Dragunov',
+                   age: 879,
+                   race: 'Dragonkin',
+                   job: 'Adventurer',
+                   title: 'Dragon Lord'
+               }
+           console.log(character1 == character2) // false
+        */
+        // We do:
+        let numbers1 = [1, 2, 3],
+            numbers2 = numbers1
+        console.log(numbers1 == numbers2) // true
+
+        let character1 = {
+                alias: 'Dragunov',
+                age: 879,
+                race: 'Dragonkin',
+                job: 'Adventurer',
+                title: 'Dragon Lord'
+            },
+            character2 = character1
+        console.log(character1 == character2) // true
+    </script>
+</body>
+</html>

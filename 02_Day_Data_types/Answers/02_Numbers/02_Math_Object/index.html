@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30DaysOfJavaScript: Data Types - Numbers: Math Object</title>
+</head>
+<body>
+    <script>
+        // Some real-world constants
+        const earthGravity = 9.81                             // in m/s^2
+              boilingPoint = 100,                             // of water in °C
+              bodyTemperature = 37                            // of humans in °C
+        
+        // The Math Object provides a lots of methods to work with numbers
+        const PI = Math.PI                                    // geometrical constant
+        console.log(PI)                                       // 3.141592653589793
+        
+        /*
+           Round off to the closest number; if above 0.5, round up, else if
+           below 0.5, round down.
+        */
+        console.log(Math.round(PI))                           // round off, 3
+        console.log(Math.round(earthGravity))                 // round off, 10
+        console.log(Math.floor(PI))                           // round down, 3
+        console.log(Math.ceil(PI))                            // round up, 4
+        console.log(Math.min(-0.4, 9, -20.45))                // lowest, -20.45
+        console.log(Math.max(-0.4, 9, -20.45))                // highest, 9
+
+        // Create random float from 0 to 0.999999
+        const random_float = Math.random()                    // random float
+        console.log(random_float)
+
+        // Create random integer from 0 to 10
+        const random_integer = Math.floor(Math.random() * 11) // random integer
+        console.log(random_integer)
+
+        // Absolute value
+        console.log(Math.abs(-99))                            // 99
+
+        // Square root
+        console.log(Math.sqrt(25))                            // 5
+        console.log(Math.sqrt(2))                             // 1.4142135623730951
+
+        // Power
+        console.log(Math.pow(2, 5))                           // 32
+        console.log(Math.E)                                   // 2.718281828459045
+
+        // Logarithm - returns the natural logarithm with base E of x, Math.log(x)
+        console.log(Math.log(2))                              // 0.6931471805599453
+        console.log(Math.log(10))                             // 2.302585092994046
+
+        // Trigonometry
+        console.log(Math.sin(0))                              // 0
+        console.log(Math.sin(90))                             // 0.8939966636005579
+        console.log(Math.cos(0))                              // 1
+        console.log(Math.cos(90))                             // -0.4480736161291702
+    </script>
+</body>
+</html>

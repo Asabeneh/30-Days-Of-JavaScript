@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30DaysOfJavaScript: Data Types - Primitive</title>
+</head>
+<body>
+    <script>
+        /*
+           Includes:
+           Numbers - integers and floats
+           Strings - any data under single, double, or backtick quotes
+           Booleans - true or false value
+           Undefined - a declared variable without an assigned value
+           Null - an empty/no assigned value
+        */
+        // Examples of primitive data types:
+        let negativeInteger = -10
+            zeroInteger = 0,
+            positiveInteger = 42,
+            negativeDecimal = -16.84,
+            zeroDecimal = 0.0,
+            positiveDecimal = 420.69,
+            singleQuote = 'A string between single quotes',
+            doubleQuote = "A string between double quotes",
+            backtick = `A string between backticks`,
+            trueBool = true,
+            falseBool = false,
+            undefinedVariable = undefined,
+            emptyVariable = null
+        
+        // Primitive data types are immutable (non-modifiable)
+        /*
+           Here, the first letter is accessed by getting the
+           first element under the string 'singleQuote', and
+           tries to replace the capital A with its lowercase.
+        */
+        singleQuote[0] = 'a' // This would throw an error
+
+        // Comparing values will return a boolean value
+        let num1 = 10, num2 = 10
+        console.log(num1 == num2)        // true
+
+        let js = 'JavaScript', py = 'Python'
+        console.log(js == py)            // false
+
+        let lightOn = true, lightOff = false
+        console.log(lightOn == lightOff) // false
+    </script>
+</body>
+</html>

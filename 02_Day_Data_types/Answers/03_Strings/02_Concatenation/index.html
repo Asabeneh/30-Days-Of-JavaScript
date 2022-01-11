@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30DaysOfJavaScript: Data Types - Strings: Concatenation</title>
+</head>
+<body>
+    <script>
+        /*
+           Concatenation - connecting 2 or more strings together
+           There are multiple ways to concatenate strings
+        */
+        // Using addition operators:
+        let space = ' ',
+            // Examples:
+            firstName = 'Dean Harold',
+            middleName = 'Potestades',
+            lastName = 'Abad',
+            maritalStatus = 'single',
+            country = 'Philippines',
+            age = 19
+
+            fullName = firstName + space + middleName + space + lastName,
+            fullInfo = 'Hi, I am ' + fullName + '. Currently I am ' + age + ' years old and ' + maritalStatus + '. I live in the ' + country + '.'
+        console.log(fullInfo)
+
+        /*
+           Long Literal Strings - backslash character (\) is
+           used at the end of each line to indicate that the
+           string will continue on the next line as the text
+           is too big to be written in a single line:
+        */
+        const paragraph = "Hi, I am Dean Harold Potestades Abad. Currently I am 19 years old and single. I live in the Philippines. \
+I like drawing and designing characters, animating things, and coding simple programs. \
+I spend most of my time on computer due to being a Computer Science student. \
+I have no school projects at the moment."
+        console.log(paragraph)
+
+        /*
+           Escape Sequences in Strings - the backslash (\)
+           character followed by other characters is an
+           escape sequence.
+
+           The most commonly used escape characters:
+           \n - new line
+           \t - Tab or 8 spaces
+           \\ - backslash
+           \' - single quote
+           \" - double quote
+        */
+        // Line break or new line
+        console.log('This is such a great learning material to learn JavaScript.\nI would recommend this resource in various platforms.')
+        
+        // Tab
+        console.log('Name of Resource\tType of Resource\tLanguage')
+        console.log('30DaysOfJavaScript\tLearning Resource\tJavaScript')
+        
+        // To be able to write backslash in a string
+        console.log('The \\ character is called backslash symbol.')
+
+        // To be able to write single quotes in a string
+        console.log("The \'single quotes\' in string are possible with the use of \\ character.")
+
+        // To be able to write double quotes in a string
+        console.log('The \"double quotes\" in string are possible with the use of \\ character.')
+        
+        // Mixture of \n, \', and \"'
+        console.log('I don\'t prefer using the \'shortcutted\' word \'don\'t\' in my examples,\nbut the 2 words \"do\" and \"not.\"')
+        
+        /*
+           Template Literals - 2 backticks are used in this
+           method. Data can be 'injected' as expressions in
+           this template string.
+           To inject data, we enclose the expression with a
+           curly bracket ({}), preceded by a $ sign.
+
+           Syntax:
+           `String literal text ${expression}`
+        */
+        let a = 1, b = 2
+        // The data is injected dynamically
+        console.log(`The value of a is ${a} and b is ${b}.\nTogether their sum is ${a + b}.`)
+
+        /*
+           Another example from the previously used variables
+           earlier i.e. the following:
+
+           let space = ' ',
+               firstName = 'Dean Harold',
+               middleName = 'Potestades',
+               lastName = 'Abad',
+               maritalStatus = 'single',
+               country = 'Philippines',
+               age = 19
+
+           fullName = firstName + space + middleName + space + lastName,
+           fullInfo = `Hi, I am ${fullName}. Currently I am ${age} years old and ${maritalStatus}. I live in the ${country}.`
+        */
+        fullInfo = `Hi, I am ${fullName}. Currently I am ${age} years old and ${maritalStatus}. I live in the ${country}.`
+        console.log(fullInfo)
+
+        /*
+           Using a string template or string interpolation
+           method, we can add expressions which could be a
+           value, or use make comparisons, arithmetic ope-
+           rations, and ternary operation.
+        */
+        console.log(`${a} is greater than ${b}: ${a > b}`) // 1 is greater than 2: false
+    </script>
+</body>
+</html>

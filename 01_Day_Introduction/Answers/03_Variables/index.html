@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30DaysOfJavaScript: Variables</title>
+</head>
+<body>
+    <script>
+        /*
+           The 'let' is used for changing values, while 'const' is for those
+           that are not. The let is used instead of 'var' due to leak issues.
+        */
+        // The 'camelCase' is JavaScript's variable naming convention
+        let firstName = 'Dean Harold'
+        let middleName = 'Potestades'
+        let lastName = 'Abad'
+        console.log(firstName, middleName, lastName)
+
+        const earthGravity = 9.81 // in m/s^2
+        const boilingPoint = 100  // of water in °C
+        const PI = 3.14159265359  // geometrical constant
+        console.log(earthGravity, boilingPoint, PI)
+
+        /*
+           Variables can also be declared in one line, and they are separated
+           by comma.
+        */
+        let alias = 'Dragunov',
+            age = 879,
+            race = 'Dragonkin',
+            job = 'Adventurer',
+            title = 'Dragon Lord'
+        console.log('Name:', alias)
+        console.log('Age:', age)
+        console.log('Race:', race)
+        console.log('Job:', job)
+        console.log('Title:', title)
+    </script>
+</body>
+</html>
