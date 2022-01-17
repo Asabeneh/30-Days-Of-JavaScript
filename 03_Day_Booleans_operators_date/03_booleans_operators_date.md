@@ -254,7 +254,7 @@ let isMarried = !false                // true
 
 ### Increment Operator
 
-In JavaScrip we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
+In JavaScript we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
 
 1. Pre-increment
 
