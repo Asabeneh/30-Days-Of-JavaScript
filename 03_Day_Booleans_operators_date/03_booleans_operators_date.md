@@ -568,7 +568,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
 1. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 1. Calculate the slope, x-intercept and y-intercept of y = 2x -2
-1. Slope is (m = y2-y1/x2-x1). Find the slope between point (2, 2) and point(6,10)
+1. Slope is (m = (y2-y1)/(x2-x1)). Find the slope between point (2, 2) and point(6,10)
 1. Compare the slope of above two questions.
 1. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
 1. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
