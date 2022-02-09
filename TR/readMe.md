@@ -19,19 +19,19 @@
 | 15    |                                                    [Sınıflar](./15_Day_Classes/15_day_classes.md)                                                   |
 | 16    |                                                        [JSON](./16_Day_JSON/16_day_json.md)                                                         |
 | 17    |                                            [Web Depoları](./17_Day_Web_storages/17_day_web_storages.md)                                             |
-| 18    |                                                  [Promise ler](./18_Day_Promises/18_day_promises.md)                                                |
-| 19    |                                                   [Closure](./19_Day_Closures/19_day_closures.md)                                                   |
-| 20    |                                  [Writing Clean Code](./20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)                                   |
+| 18    |                                                  [Promise (Söz)](./18_Day_Promises/18_day_promises.md)                                              |
+| 19    |                                                   [Closure (Kapak)](./19_Day_Closures/19_day_closures.md)                                           |
+| 20    |                                  [Temiz Kod Yazımı](./20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)                                     |
 | 21    |                                                          [DOM](./21_Day_DOM/21_day_dom.md)                                                          |
-| 22    |                            [Manipulating DOM Object](./22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md)                            |
-| 23    |                                        [Event Listeners](./23_Day_Event_listeners/23_day_event_listeners.md)                                        |
-| 24    |                             [Mini Project: Solar System](./24_Day_Project_solar_system/24_day_project_solar_system.md)                              |
-| 25    | [Mini Project: World Countries Data Visulalization 1](./25_Day_World_countries_data_visualization_1/25_day_world_countries_data_visualization_1.md) |
-| 26    | [Mini Project: World Countries Data Visulalization 2](./26_Day_World_countries_data_visualization_2/26_day_world_countries_data_visualization_2.md) |
+| 22    |                            [DOM Nesnesi Manipüle Etme](./22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md)                          |
+| 23    |                                        [Event Dinleyicileri](./23_Day_Event_listeners/23_day_event_listeners.md)                                    |
+| 24    |                             [Mini Proje: Güneş Sistemi](./24_Day_Project_solar_system/24_day_project_solar_system.md)                               |
+| 25    | [Mini Proje: Dünya Ülkeleri Verisi Görselleştirme 1](./25_Day_World_countries_data_visualization_1/25_day_world_countries_data_visualization_1.md)  |
+| 26    | [Mini Proje: Dünya Ülkeleri Verisi Görselleştirme 2](./26_Day_World_countries_data_visualization_2/26_day_world_countries_data_visualization_2.md)  |
 | 27    |                             [Mini Proje: Portfolyo](./27_Day_Mini_project_portfolio/27_day_mini_project_portfolio.md)                               |
 | 28    |                          [Mini Proje: Liderlik tablosu](./28_Day_Mini_project_leaderboard/28_day_mini_project_leaderboard.md)                       |
 | 29    |             [Mini Proje: Animasyon karakterleri](./29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)            |
-| 30    |                                     [Final Projeleri](./30_Day_Mini_project_final/30_day_mini_project_final.md)                                     |
+| 30    |                                     [Final Projesi](./30_Day_Mini_project_final/30_day_mini_project_final.md)                                       |
 
 🧡🧡🧡 MUTLU KODLAMALAR 🧡🧡🧡
 
