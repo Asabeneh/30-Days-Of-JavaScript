@@ -25,7 +25,7 @@
     - [Creating a pattern with RegExp Constructor](#creating-a-pattern-with-regexp-constructor)
     - [Creating a pattern without RegExp Constructor](#creating-a-pattern-without-regexp-constructor)
     - [RegExpp Object Methods](#regexpp-object-methods)
-      - [Testing for  a match](#testing-for-a-match)
+      - [Testing for a match](#testing-for-a-match)
       - [Array containing all of the match](#array-containing-all-of-the-match)
       - [Replacing a substring](#replacing-a-substring)
     - [Square Bracket](#square-bracket)
@@ -108,7 +108,7 @@ let regEx= new RegExp('love','gi')
 
 Let see some of RegExp methods
 
-#### Testing for  a match
+#### Testing for a match
 
 *test()*:Tests for a match in a string. It returns true or false.
 
@@ -517,7 +517,7 @@ distance = 12
     [{word:'I', count:3}, {word:'teaching', count:2}, {word:'teacher', count:2}]
     ```
 
-
+```
 🎉 CONGRATULATIONS ! 🎉
 
 
