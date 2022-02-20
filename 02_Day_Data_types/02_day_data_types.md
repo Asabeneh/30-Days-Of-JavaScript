@@ -876,7 +876,7 @@ console.log(numFloat) // 9.81
 let num = '9.81'
 let numFloat = +num
 
-console.log(numInt) // 9.81
+console.log(numFloat) // 9.81
 ```
 
 #### Float to Int
