@@ -81,7 +81,7 @@ let word = 'JavaScript'
 If we try to modify the string stored in variable *word*, JavaScript should raise an error. Any data type under a single quote, double quote, or backtick quote is a string data type.
 
 ```js
-word[0] = 'Y'
+word[0] = 'J'
 ```
 
 This expression does not change the string stored in the variable *word*. So, we can say that strings are not modifiable or in other words immutable.
