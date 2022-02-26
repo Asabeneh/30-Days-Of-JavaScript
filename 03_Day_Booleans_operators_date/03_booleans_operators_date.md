@@ -218,7 +218,7 @@ console.log('python'.length > 'dragon'.length)   // false
 ```
 
 Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
-JavaScript is some how a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
+JavaScript is somehow a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
 
 As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
 
@@ -254,7 +254,7 @@ let isMarried = !false                // true
 
 ### Increment Operator
 
-In JavaScrip we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
+In JavaScript we use the increment operator to increase a value stored in a variable. The increment could be pre- or post-increment. Let us see each of them:
 
 1. Pre-increment
 
@@ -276,7 +276,7 @@ We use most of the time post-increment. At least you should remember how to use 
 
 ### Decrement Operator
 
-In JavaScrip we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement. Let us see each of them:
+In JavaScript we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement. Let us see each of them:
 
 1. Pre-decrement
 
