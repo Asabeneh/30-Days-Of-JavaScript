@@ -254,7 +254,7 @@ let isMarried = !false                // true
 
 ### Increment Operator
 
-In JavaScrip we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
+In JavaScript we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
 
 1. Pre-increment
 
@@ -276,7 +276,7 @@ We use most of the time post-increment. At least you should remember how to use 
 
 ### Decrement Operator
 
-In JavaScrip we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement. Let us see each of them:
+In JavaScript we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement. Let us see each of them:
 
 1. Pre-decrement
 
