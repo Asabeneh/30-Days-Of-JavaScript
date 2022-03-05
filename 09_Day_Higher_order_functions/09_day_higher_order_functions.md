@@ -19,29 +19,29 @@
 ![Day 5](../images/banners/day_1_9.png)
 
 - [Day 9](#day-9)
-  - [Higher Order Function](#higher-order-function)
-    - [Callback](#callback)
-    - [Returning function](#returning-function)
-    - [setting time](#setting-time)
-      - [setInterval](#setinterval)
-      - [setTimeout](#settimeout)
-  - [Functional Programming](#functional-programming)
-    - [forEach](#foreach)
-    - [map](#map)
-    - [filter](#filter)
-    - [reduce](#reduce)
-    - [every](#every)
-    - [find](#find)
-    - [findIndex](#findindex)
-    - [some](#some)
-    - [sort](#sort)
-      - [Sorting string values](#sorting-string-values)
-      - [Sorting Numeric values](#sorting-numeric-values)
-      - [Sorting Object Arrays](#sorting-object-arrays)
-  - [💻 Exercises](#-exercises)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Higher Order Function](#higher-order-function)
+		- [Callback](#callback)
+		- [Returning function](#returning-function)
+		- [Setting time](#setting-time)
+			- [Setting Interaval using a setInterval function](#setting-interaval-using-a-setinterval-function)
+			- [Setting a time using a setTimeout](#setting-a-time-using-a-settimeout)
+	- [Functional Programming](#functional-programming)
+		- [forEach](#foreach)
+		- [map](#map)
+		- [filter](#filter)
+		- [reduce](#reduce)
+		- [every](#every)
+		- [find](#find)
+		- [findIndex](#findindex)
+		- [some](#some)
+		- [sort](#sort)
+			- [Sorting string values](#sorting-string-values)
+			- [Sorting Numeric values](#sorting-numeric-values)
+			- [Sorting Object Arrays](#sorting-object-arrays)
+	- [💻 Exercises](#-exercises)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # Day 9
 
@@ -54,12 +54,12 @@ Higher order functions are functions which take other function as a parameter or
 A callback is a function which can be passed as parameter to other function. See the example below.
 
 ```js
-// a callback function, the function could be any name
+// a callback function, the name of the function could be any name
 const callback = (n) => {
   return n ** 2
 }
 ​
-// function take other function as a callback
+// function that takes other function as a callback
 function cube(callback, n) {
   return callback(n) * n
 }
@@ -71,7 +71,6 @@ console.log(cube(callback, 3))
 
 Higher order functions return function as a value
 ​
-
 ```js
 // Higher order function returning an other function
 const higherOrder = n => {
@@ -90,7 +89,6 @@ Let us see were we use call back functions. For instance the _forEach_ method us
 
 ```js
 const numbers = [1, 2, 3, 4]
-​
 const sumArray = arr => {
   let sum = 0
   const callback = function(element) {
@@ -354,8 +352,8 @@ const scores = [
   { name: 'John', score: 100 },
 ]
 
-const scoresGreaterEight = scores.filter((score) => score.score > 80)
-console.log(scoresGreaterEight)
+const scoresGreaterEighty = scores.filter((score) => score.score > 80)
+console.log(scoresGreaterEighty)
 ```
 
 ```sh
