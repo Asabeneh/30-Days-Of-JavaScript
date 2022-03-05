@@ -18,26 +18,26 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_7.png)
 
 - [📔 Day 7](#-day-7)
-  - [Functions](#functions)
-    - [Function Declaration](#function-declaration)
-    - [Function without a parameter and return](#function-without-a-parameter-and-return)
-    - [Function returning value](#function-returning-value)
-    - [Function with a parameter](#function-with-a-parameter)
-    - [Function with two parameters](#function-with-two-parameters)
-    - [Function with many parameters](#function-with-many-parameters)
-    - [Function with unlimited number of parameters](#function-with-unlimited-number-of-parameters)
-      - [Unlimited number of parameters in regular function](#unlimited-number-of-parameters-in-regular-function)
-      - [Unlimited number of parameters in arrow function](#unlimited-number-of-parameters-in-arrow-function)
-    - [Anonymous Function](#anonymous-function)
-    - [Expression Function](#expression-function)
-    - [Self Invoking Functions](#self-invoking-functions)
-    - [Arrow Function](#arrow-function)
-    - [Function with default parameters](#function-with-default-parameters)
-    - [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
-  - [💻 Exercises](#-exercises)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Functions](#functions)
+		- [Function Declaration](#function-declaration)
+		- [Function without a parameter and return](#function-without-a-parameter-and-return)
+		- [Function returning value](#function-returning-value)
+		- [Function with a parameter](#function-with-a-parameter)
+		- [Function with two parameters](#function-with-two-parameters)
+		- [Function with many parameters](#function-with-many-parameters)
+		- [Function with unlimited number of parameters](#function-with-unlimited-number-of-parameters)
+			- [Unlimited number of parameters in regular function](#unlimited-number-of-parameters-in-regular-function)
+			- [Unlimited number of parameters in arrow function](#unlimited-number-of-parameters-in-arrow-function)
+		- [Anonymous Function](#anonymous-function)
+		- [Expression Function](#expression-function)
+		- [Self Invoking Functions](#self-invoking-functions)
+		- [Arrow Function](#arrow-function)
+		- [Function with default parameters](#function-with-default-parameters)
+		- [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
+	- [💻 Exercises](#-exercises)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 7
 
@@ -506,8 +506,7 @@ It Will be covered in other section.
 
 🌕 You are a rising star, now you knew function . Now, you are super charged with the power of functions. You have just completed day 7 challenges and you are 7 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
-## Testimony
-Now it is time to express your thoughts about the Author and 30DaysOfJavaScript. You can leave your testimonial on this [link](https://testimonify.herokuapp.com/)
+
 
 ## 💻 Exercises
 
