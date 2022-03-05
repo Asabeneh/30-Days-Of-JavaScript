@@ -19,31 +19,31 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_21.png)
 
 - [Day 21](#day-21)
-  - [Document Object Model (DOM) - Day 1](#document-object-model-dom---day-1)
-    - [Getting Element](#getting-element)
-      - [Getting elements by tag name](#getting-elements-by-tag-name)
-      - [Getting elements by class name](#getting-elements-by-class-name)
-      - [Getting an element by id](#getting-an-element-by-id)
-      - [Getting elements by using querySelector methods](#getting-elements-by-using-queryselector-methods)
-    - [Adding attribute](#adding-attribute)
-      - [Adding attribute using setAttribute](#adding-attribute-using-setattribute)
-      - [Adding attribute without setAttribute](#adding-attribute-without-setattribute)
-      - [Adding class using classList](#adding-class-using-classlist)
-      - [Removing class using remove](#removing-class-using-remove)
-    - [Adding Text to HTML element](#adding-text-to-html-element)
-      - [Adding Text content using textContent](#adding-text-content-using-textcontent)
-      - [Adding Text Content using innHTML](#adding-text-content-using-innhtml)
-        - [Text Content](#text-content)
-        - [Inner HTML](#inner-html)
-    - [Adding style](#adding-style)
-      - [Adding Style Color](#adding-style-color)
-      - [Adding Style Background Color](#adding-style-background-color)
-      - [Adding Style Font Size](#adding-style-font-size)
-  - [Exercises](#exercises)
-    - [Exercise: Level 1](#exercise-level-1)
-    - [Exercise: Level 2](#exercise-level-2)
-    - [Exercise: Level 3](#exercise-level-3)
-      - [DOM: Mini project 1](#dom-mini-project-1)
+	- [Document Object Model (DOM) - Day 1](#document-object-model-dom---day-1)
+		- [Getting Element](#getting-element)
+			- [Getting elements by tag name](#getting-elements-by-tag-name)
+			- [Getting elements by class name](#getting-elements-by-class-name)
+			- [Getting an element by id](#getting-an-element-by-id)
+			- [Getting elements by using querySelector methods](#getting-elements-by-using-queryselector-methods)
+		- [Adding attribute](#adding-attribute)
+			- [Adding attribute using setAttribute](#adding-attribute-using-setattribute)
+			- [Adding attribute without setAttribute](#adding-attribute-without-setattribute)
+			- [Adding class using classList](#adding-class-using-classlist)
+			- [Removing class using remove](#removing-class-using-remove)
+		- [Adding Text to HTML element](#adding-text-to-html-element)
+			- [Adding Text content using textContent](#adding-text-content-using-textcontent)
+			- [Adding Text Content using innerHTML](#adding-text-content-using-innerhtml)
+				- [Text Content](#text-content)
+				- [Inner HTML](#inner-html)
+		- [Adding style](#adding-style)
+			- [Adding Style Color](#adding-style-color)
+			- [Adding Style Background Color](#adding-style-background-color)
+			- [Adding Style Font Size](#adding-style-font-size)
+	- [Exercises](#exercises)
+		- [Exercise: Level 1](#exercise-level-1)
+		- [Exercise: Level 2](#exercise-level-2)
+		- [Exercise: Level 3](#exercise-level-3)
+			- [DOM: Mini project 1](#dom-mini-project-1)
 
 # Day 21
 
@@ -57,7 +57,7 @@ We can access already created element or elements using JavaScript. To access or
 
 ```html
 <!DOCTYPE html>
-  <html>
+  <html lang="en">
     <head>
       <title>Document Object Model</title>
     </head>
@@ -234,7 +234,7 @@ It value we assign is going to be a string of HTML elements.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>JavaScript for Everyone:DOM</title>
   </head>
@@ -264,7 +264,7 @@ The innerHTML property can allow us also to remove all the children of a parent 
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>JavaScript for Everyone:DOM</title>
   </head>
@@ -378,7 +378,7 @@ As you have notice, the properties of css when we use it in JavaScript is going 
 ```html
 <!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>JavaScript for Everyone:DOM</title>
   </head>

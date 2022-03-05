@@ -71,36 +71,36 @@
 
 - [30 Days Of JavaScript](#30-days-of-javascript)
 - [📔 Day 1](#-day-1)
-  - [Introduction](#introduction)
-  - [Requirements](#requirements)
-  - [Setup](#setup)
-    - [Install Node.js](#install-nodejs)
-    - [Browser](#browser)
-      - [Installing Google Chrome](#installing-google-chrome)
-      - [Opening Google Chrome Console](#opening-google-chrome-console)
-      - [Writing Code on Browser Console](#writing-code-on-browser-console)
-        - [Console.log](#consolelog)
-        - [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
-        - [Comments](#comments)
-        - [Syntax](#syntax)
-      - [Arithmetics](#arithmetics)
-    - [Code Editor](#code-editor)
-      - [Installing Visual Studio Code](#installing-visual-studio-code)
-      - [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
-  - [Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
-    - [Inline Script](#inline-script)
-    - [Internal Script](#internal-script)
-    - [External Script](#external-script)
-    - [Multiple External Scripts](#multiple-external-scripts)
-  - [Introduction to Data types](#introduction-to-data-types)
-    - [Numbers](#numbers)
-    - [Strings](#strings)
-    - [Booleans](#booleans)
-    - [Undefined](#undefined)
-    - [Null](#null)
-  - [Checking Data Types](#checking-data-types)
-  - [Comments Again](#comments-again)
-  - [Variables](#variables)
+	- [Introduction](#introduction)
+	- [Requirements](#requirements)
+	- [Setup](#setup)
+		- [Install Node.js](#install-nodejs)
+		- [Browser](#browser)
+			- [Installing Google Chrome](#installing-google-chrome)
+			- [Opening Google Chrome Console](#opening-google-chrome-console)
+			- [Writing Code on Browser Console](#writing-code-on-browser-console)
+				- [Console.log](#consolelog)
+				- [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
+				- [Comments](#comments)
+				- [Syntax](#syntax)
+			- [Arithmetics](#arithmetics)
+		- [Code Editor](#code-editor)
+			- [Installing Visual Studio Code](#installing-visual-studio-code)
+			- [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
+	- [Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
+		- [Inline Script](#inline-script)
+		- [Internal Script](#internal-script)
+		- [External Script](#external-script)
+		- [Multiple External Scripts](#multiple-external-scripts)
+	- [Introduction to Data types](#introduction-to-data-types)
+		- [Numbers](#numbers)
+		- [Strings](#strings)
+		- [Booleans](#booleans)
+		- [Undefined](#undefined)
+		- [Null](#null)
+	- [Checking Data Types](#checking-data-types)
+	- [Comments Again](#comments-again)
+	- [Variables](#variables)
 - [💻 Day 1: Exercises](#-day-1-exercises)
 
 # 📔 Day 1
@@ -323,7 +323,7 @@ Create a project folder on your desktop or in any location, name it 30DaysOfJS a
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfScript:Inline Script</title>
   </head>
@@ -342,7 +342,7 @@ First, let us write on the head part of the page.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfScript:Internal Script</title>
     <script>
@@ -357,7 +357,7 @@ This is how we write an internal script most of the time. Writing the JavaScript
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfScript:Internal Script</title>
   </head>
@@ -387,7 +387,7 @@ External scripts in the _head_:
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfJavaScript:External script</title>
     <script src="introduction.js"></script>
@@ -400,7 +400,7 @@ External scripts in the _body_:
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfJavaScript:External script</title>
   </head>
@@ -425,7 +425,7 @@ console.log('Hello, World!')
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Multiple External Scripts</title>
   </head>

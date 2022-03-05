@@ -17,7 +17,7 @@
 <div>
 
 <small>Support [**Asabeneh**](https://www.patreon.com/asabeneh?fan_landing=true) to create more educational materials</small>  
-[<img src = '../images/become_patreon.png' alt='become-asabeneh-patreon' title='click' />](https://www.patreon.com/asabeneh?fan_landing=true) 
+ 
  
 </div>
 
@@ -26,10 +26,11 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_30.png)
 
 - [Day 30](#day-30)
-  - [Exercises](#exercises)
-    - [Exercise: Level 1](#exercise-level-1)
-    - [Exercise: Level 2](#exercise-level-2)
-    - [Exercise: Level 3](#exercise-level-3)
+	- [Exercises](#exercises)
+		- [Exercise: Level 1](#exercise-level-1)
+		- [Exercise: Level 2](#exercise-level-2)
+		- [Exercise: Level 3](#exercise-level-3)
+	- [Testimony](#testimony)
 
 # Day 30
 
