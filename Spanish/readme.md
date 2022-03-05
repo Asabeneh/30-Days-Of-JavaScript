@@ -68,7 +68,7 @@
 
 **30 días de JavaScript** es una guía tanto para principiantes como para desarrolladores avanzados. Bienvenido a JavaScript. Disfruto de usarlo y enseñarlo y espero que tú también. JavaScript es el lenguaje del navegador.
 
-En este tutorial de paso a paso, aprenderás JavaScript, el leguaje de programación más popular de la historia de la humanidad. Se usa para **agregar interactividad a las páginas web, para desarrollar aplicaciones móbiles, aplicaciones de desktop, juegos** y ahora también puede ser usado para el **aprendizaje automático** (machine learning) e **inteligencia artificial** (AI). Su popularidad ha incrementado en años recientes, siendo el lenguaje predominante por cuatro años consecutivos y el más usado en GitHub.
+En este tutorial de paso a paso, aprenderás JavaScript, el lenguaje de programación más popular de la historia de la humanidad. Se usa para **agregar interactividad a las páginas web, para desarrollar aplicaciones móviles, aplicaciones de desktop, juegos** y ahora también puede ser usado para el **aprendizaje automático** (machine learning) e **inteligencia artificial** (AI). Su popularidad ha incrementado en años recientes, siendo el lenguaje predominante por cuatro años consecutivos y el más usado en GitHub.
 
 ## Requerimientos
 
@@ -99,7 +99,7 @@ Puedes comprobar si se ha instalado correctamente abriendo la terminal del orden
     asabeneh $ node -v
     v12.14.0
 
-Para el desafío estaremos utilizando la versión 12.14.0, la cual es la recomendada por node.
+Para el desafío estaremos utilizando la versión 12.14.0, la cual es la recomendada por Node.
 
 ### Navegador
 
@@ -163,7 +163,7 @@ Como pueden ver, en el código del fragmento de arriba, console.log() puede toma
 
 ##### Comentario
 
-Podemos añadir comentarios a nuestro código. Los comentarios son muy importantes para hacer el código más legible y para dejar recordatorios en nuestro código. JavaScript no ejecuta la parte de comentarios de nuestro código. Cualquier hay texto que empiece con // en JavaScript es un comentario o cualquier cosa que encierre como esta /\* \*/ es un comentario.
+Podemos añadir comentarios a nuestro código. Los comentarios son muy importantes para hacer el código más legible y para dejar recordatorios en nuestro código. JavaScript no ejecuta la parte de comentarios de nuestro código. Cualquier texto que empiece con // en JavaScript es un comentario o cualquier cosa que encierre como esta /\* \*/ es un comentario.
 
 **Ejemplo: Comentario en una sola línea**
 
@@ -371,8 +371,8 @@ En JavaScript y también en otros lenguajes de programación, hay diferentes tip
 
 Una colección de uno o más carácteres entre comillas. **Ejemplo:**
 
-    "Asabeneh
-    "Finlandia
+    "Asabeneh"
+    "Finlandia" 
     'JavaScript es un hermoso lenguaje de programación'.
     "Me encanta enseñar"
     "Espero que estés disfrutando del primer día"
