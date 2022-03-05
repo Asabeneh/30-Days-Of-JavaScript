@@ -18,38 +18,38 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_3.png)
 
 - [📔 Day 3](#-day-3)
-  - [Booleans](#booleans)
-    - [Truthy values](#truthy-values)
-    - [Falsy values](#falsy-values)
-  - [Undefined](#undefined)
-  - [Null](#null)
-  - [Operators](#operators)
-    - [Assignment operators](#assignment-operators)
-    - [Arithmetic Operators](#arithmetic-operators)
-    - [Comparison Operators](#comparison-operators)
-    - [Logical Operators](#logical-operators)
-    - [Increment Operator](#increment-operator)
-    - [Decrement Operator](#decrement-operator)
-    - [Ternary Operators](#ternary-operators)
-    - [Operator Precendence](#operator-precendence)
-  - [Window Methods](#window-methods)
-    - [Window alert() method](#window-alert-method)
-    - [Window prompt() method](#window-prompt-method)
-    - [Window confirm() method](#window-confirm-method)
-  - [Date Object](#date-object)
-    - [Creating a time object](#creating-a-time-object)
-    - [Getting full year](#getting-full-year)
-    - [Getting month](#getting-month)
-    - [Getting date](#getting-date)
-    - [Getting day](#getting-day)
-    - [Getting hours](#getting-hours)
-    - [Getting minutes](#getting-minutes)
-    - [Getting seconds](#getting-seconds)
-    - [Getting time](#getting-time)
-  - [💻 Day 3: Exercises](#-day-3-exercises)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Booleans](#booleans)
+		- [Truthy values](#truthy-values)
+		- [Falsy values](#falsy-values)
+	- [Undefined](#undefined)
+	- [Null](#null)
+	- [Operators](#operators)
+		- [Assignment operators](#assignment-operators)
+		- [Arithmetic Operators](#arithmetic-operators)
+		- [Comparison Operators](#comparison-operators)
+		- [Logical Operators](#logical-operators)
+		- [Increment Operator](#increment-operator)
+		- [Decrement Operator](#decrement-operator)
+		- [Ternary Operators](#ternary-operators)
+		- [Operator Precendence](#operator-precendence)
+	- [Window Methods](#window-methods)
+		- [Window alert() method](#window-alert-method)
+		- [Window prompt() method](#window-prompt-method)
+		- [Window confirm() method](#window-confirm-method)
+	- [Date Object](#date-object)
+		- [Creating a time object](#creating-a-time-object)
+		- [Getting full year](#getting-full-year)
+		- [Getting month](#getting-month)
+		- [Getting date](#getting-date)
+		- [Getting day](#getting-day)
+		- [Getting hours](#getting-hours)
+		- [Getting minutes](#getting-minutes)
+		- [Getting seconds](#getting-seconds)
+		- [Getting time](#getting-time)
+	- [💻 Day 3: Exercises](#-day-3-exercises)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 3
 
@@ -218,7 +218,7 @@ console.log('python'.length > 'dragon'.length)   // false
 ```
 
 Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
-JavaScript is some how a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
+JavaScript is somehow a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
 
 As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
 
@@ -254,7 +254,7 @@ let isMarried = !false                // true
 
 ### Increment Operator
 
-In JavaScrip we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
+In JavaScript we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
 
 1. Pre-increment
 
@@ -276,7 +276,7 @@ We use most of the time post-increment. At least you should remember how to use 
 
 ### Decrement Operator
 
-In JavaScrip we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement. Let us see each of them:
+In JavaScript we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement. Let us see each of them:
 
 1. Pre-decrement
 

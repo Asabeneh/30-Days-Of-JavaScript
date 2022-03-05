@@ -18,16 +18,16 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_4.png)
 
 - [📔 Day 4](#-day-4)
-  - [Conditionals](#conditionals)
-    - [If](#if)
-    - [If Else](#if-else)
-    - [If  Else if Else](#if-else-if-else)
-    - [Switch](#switch)
-    - [Ternary Operators](#ternary-operators)
-  - [💻 Exercises](#-exercises)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Conditionals](#conditionals)
+		- [If](#if)
+		- [If Else](#if-else)
+		- [If  Else if Else](#if--else-if-else)
+		- [Switch](#switch)
+		- [Ternary Operators](#ternary-operators)
+	- [💻 Exercises](#-exercises)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 4
 
@@ -189,7 +189,8 @@ switch(caseValue){
    // code
    break
   case 3:
-  // code
+   // code
+   break
   default:
    // code
 }

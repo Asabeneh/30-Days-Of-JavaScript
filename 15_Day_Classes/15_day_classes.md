@@ -19,22 +19,22 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_15.png)
 
 - [Day 15](#day-15)
-  - [Classes](#classes)
-    - [Defining a classes](#defining-a-classes)
-    - [Class Instantiation](#class-instantiation)
-    - [Class Constructor](#class-constructor)
-    - [Default values with constructor](#default-values-with-constructor)
-    - [Class methods](#class-methods)
-    - [Properties with initial value](#properties-with-initial-value)
-    - [getter](#getter)
-    - [setter](#setter)
-    - [Static method](#static-method)
-  - [Inheritance](#inheritance)
-    - [Overriding methods](#overriding-methods)
-  - [Exercises](#exercises)
-    - [Exercises Level 1](#exercises-level-1)
-    - [Exercises Level 2](#exercises-level-2)
-    - [Exercises Level 3](#exercises-level-3)
+	- [Classes](#classes)
+		- [Defining a classes](#defining-a-classes)
+		- [Class Instantiation](#class-instantiation)
+		- [Class Constructor](#class-constructor)
+		- [Default values with constructor](#default-values-with-constructor)
+		- [Class methods](#class-methods)
+		- [Properties with initial value](#properties-with-initial-value)
+		- [getter](#getter)
+		- [setter](#setter)
+		- [Static method](#static-method)
+	- [Inheritance](#inheritance)
+		- [Overriding methods](#overriding-methods)
+	- [Exercises](#exercises)
+		- [Exercises Level 1](#exercises-level-1)
+		- [Exercises Level 2](#exercises-level-2)
+		- [Exercises Level 3](#exercises-level-3)
 
 # Day 15
 
@@ -111,7 +111,7 @@ console.log(person)
 ```
 
 ```sh
-Person {firstName: undefined, lastName}
+Person {firstName: undefined, lastName:undefined}
 ```
 
 All the keys of the object are undefined. When ever we instantiate we should pass the value of the properties. Let us pass value at this time when we instantiate the class.

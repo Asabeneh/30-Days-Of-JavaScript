@@ -19,30 +19,30 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_2.png)
 
 - [📔 Day 2](#-day-2)
-  - [Data Types](#data-types)
-    - [Primitive Data Types](#primitive-data-types)
-    - [Non-Primitive Data Types](#non-primitive-data-types)
-  - [Numbers](#numbers)
-    - [Declaring Number Data Types](#declaring-number-data-types)
-    - [Math Object](#math-object)
-      - [Random Number Generator](#random-number-generator)
-  - [Strings](#strings)
-    - [String Concatenation](#string-concatenation)
-      - [Concatenating Using Addition Operator](#concatenating-using-addition-operator)
-      - [Long Literal Strings](#long-literal-strings)
-      - [Escape Sequences in Strings](#escape-sequences-in-strings)
-      - [Template Literals (Template Strings)](#template-literals-template-strings)
-    - [String Methods](#string-methods)
-  - [Checking Data Types and Casting](#checking-data-types-and-casting)
-    - [Checking Data Types](#checking-data-types)
-    - [Changing Data Type (Casting)](#changing-data-type-casting)
-      - [String to Int](#string-to-int)
-      - [String to Float](#string-to-float)
-      - [Float to Int](#float-to-int)
-  - [💻 Day 2: Exercises](#-day-2-exercises)
-    - [Exercise: Level 1](#exercise-level-1)
-    - [Exercise: Level 2](#exercise-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Data Types](#data-types)
+		- [Primitive Data Types](#primitive-data-types)
+		- [Non-Primitive Data Types](#non-primitive-data-types)
+	- [Numbers](#numbers)
+		- [Declaring Number Data Types](#declaring-number-data-types)
+		- [Math Object](#math-object)
+			- [Random Number Generator](#random-number-generator)
+	- [Strings](#strings)
+		- [String Concatenation](#string-concatenation)
+			- [Concatenating Using Addition Operator](#concatenating-using-addition-operator)
+			- [Long Literal Strings](#long-literal-strings)
+			- [Escape Sequences in Strings](#escape-sequences-in-strings)
+			- [Template Literals (Template Strings)](#template-literals-template-strings)
+		- [String Methods](#string-methods)
+	- [Checking Data Types and Casting](#checking-data-types-and-casting)
+		- [Checking Data Types](#checking-data-types)
+		- [Changing Data Type (Casting)](#changing-data-type-casting)
+			- [String to Int](#string-to-int)
+			- [String to Float](#string-to-float)
+			- [Float to Int](#float-to-int)
+	- [💻 Day 2: Exercises](#-day-2-exercises)
+		- [Exercise: Level 1](#exercise-level-1)
+		- [Exercise: Level 2](#exercise-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 2
 
@@ -876,7 +876,7 @@ console.log(numFloat) // 9.81
 let num = '9.81'
 let numFloat = +num
 
-console.log(numInt) // 9.81
+console.log(numFloat) // 9.81
 ```
 
 #### Float to Int

@@ -19,15 +19,15 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_18.png)
 
 - [Day 18](#day-18)
-  - [Promise](#promise)
-  - [Callbacks](#callbacks)
-    - [Promise constructor](#promise-constructor)
-  - [Fetch API](#fetch-api)
-  - [Async and Await](#async-and-await)
-  - [Exercises](#exercises)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Promise](#promise)
+	- [Callbacks](#callbacks)
+		- [Promise constructor](#promise-constructor)
+	- [Fetch API](#fetch-api)
+	- [Async and Await](#async-and-await)
+	- [Exercises](#exercises)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # Day 18
 
@@ -147,7 +147,7 @@ Let us another example when the promise is settled with reject.
 const doPromise = new Promise((resolve, reject) => {
   setTimeout(() => {
     const skills = ['HTML', 'CSS', 'JS']
-    if (skills.icludes('Node')) {
+    if (skills.includes('Node')) {
       resolve('fullstack developer')
     } else {
       reject('Something wrong has happened')
