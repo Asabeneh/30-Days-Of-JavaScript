@@ -18,17 +18,17 @@
 ![Day 5](../images/banners/day_1_6.png)
 
 - [📔 Day 6](#-day-6)
-  - [Loops](#loops)
-    - [for Loop](#for-loop)
-    - [while loop](#while-loop)
-    - [do while loop](#do-while-loop)
-    - [for of loop](#for-of-loop)
-    - [break](#break)
-    - [continue](#continue)
-  - [💻 Exercises:Day 6](#-exercisesday-6)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Loops](#loops)
+		- [for Loop](#for-loop)
+		- [while loop](#while-loop)
+		- [do while loop](#do-while-loop)
+		- [for of loop](#for-of-loop)
+		- [break](#break)
+		- [continue](#continue)
+	- [💻 Exercises:Day 6](#-exercisesday-6)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 6
 
@@ -178,7 +178,9 @@ for (const num of numbers) {
 // adding all the numbers in the array
 let sum = 0
 for (const num of numbers) {
-  sum = sum + num  // can be also shorten like this, sum += num
+  sum = sum + num  
+	// can be also shorten like this, sum += num
+  // after this we will use the shorter synthax(+=, -=, *=, /= etc)
 }
 console.log(sum) // 15
 

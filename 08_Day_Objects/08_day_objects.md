@@ -18,50 +18,49 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_8.png)
 
 - [📔 Day 8](#-day-8)
-  - [Scope](#scope)
-    - [Window Scope](#window-scope)
-    - [Global scope](#global-scope)
-    - [Local scope](#local-scope)
-  - [📔 Object](#-object)
-    - [Creating an empty object](#creating-an-empty-object)
-    - [Creating an objecting with values](#creating-an-objecting-with-values)
-    - [Getting values from an object](#getting-values-from-an-object)
-    - [Creating object methods](#creating-object-methods)
-    - [Setting new key for an object](#setting-new-key-for-an-object)
-    - [Object Methods](#object-methods)
-      - [Getting object keys using Object.keys()](#getting-object-keys-using-objectkeys)
-      - [Getting object values using Object.values()](#getting-object-values-using-objectvalues)
-      - [Getting object keys and values using Object.entries()](#getting-object-keys-and-values-using-objectentries)
-      - [Checking properties using hasOwnProperty()](#checking-properties-using-hasownproperty)
-  - [💻 Exercises](#-exercises)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Scope](#scope)
+		- [Window Global Object](#window-global-object)
+		- [Global scope](#global-scope)
+		- [Local scope](#local-scope)
+	- [📔 Object](#-object)
+		- [Creating an empty object](#creating-an-empty-object)
+		- [Creating an objecting with values](#creating-an-objecting-with-values)
+		- [Getting values from an object](#getting-values-from-an-object)
+		- [Creating object methods](#creating-object-methods)
+		- [Setting new key for an object](#setting-new-key-for-an-object)
+		- [Object Methods](#object-methods)
+			- [Getting object keys using Object.keys()](#getting-object-keys-using-objectkeys)
+			- [Getting object values using Object.values()](#getting-object-values-using-objectvalues)
+			- [Getting object keys and values using Object.entries()](#getting-object-keys-and-values-using-objectentries)
+			- [Checking properties using hasOwnProperty()](#checking-properties-using-hasownproperty)
+	- [💻 Exercises](#-exercises)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 8
 
 ## Scope
 
-Variable is the fundamental part in programming. We declare variable to store different data types. To declare a variable we use the key word _var_, _let_ and _const_. A variable can declared at different scope. In this section we will see the scope, scope of variables when we use var or let.
+Variable is the fundamental part in programming. We declare variable to store different data types. To declare a variable we use the key word _var_, _let_ and _const_. A variable can be declared at different scope. In this section, we will see the scope variables, scope of variables when we use var or let.
 Variables scopes can be:
 
-- Window
 - Global
 - Local
 
-Variable can be declared globally or locally or window scope. We will see both global and local scope.
-Anything declared without let, var or const is scoped at window level.
+Variable can be declared globally or locally  scope. We will see both global and local scope.
+Anything declared without let, var or const is scoped at global level.
 
 Let us imagine that we have a scope.js file.
 
-### Window Scope
+### Window Global Object
 
 Without using console.log() open your browser and check, you will see the value of a and b if you write a or b on the browser. That means a and b are already available in the window.
 
 ```js
 //scope.js
-a = 'JavaScript' // is a window scope this found anywhere
-b = 10 // this is a window scope variable
+a = 'JavaScript' // declaring a variable without let or const make it available in window object and this found anywhere
+b = 10 // this is a global scope variable and found in the window object
 function letsLearnScope() {
   console.log(a, b)
   if (true) {
@@ -96,13 +95,18 @@ console.log(a, b) // JavaScript 10, accessible
 
 A variable declared as local can be accessed only in certain block code.
 
+- Block Scope
+- Function Scope
+
 ```js
 //scope.js
 let a = 'JavaScript' // is a global scope it will be found anywhere in this file
 let b = 10 // is a global scope it will be found anywhere in this file
+// Function scope
 function letsLearnScope() {
   console.log(a, b) // JavaScript 10, accessible
   let value = false
+// block scope
   if (true) {
     // we can access from the function and outside the function but 
     // variables declared inside the if will not be accessed outside the if block
@@ -111,7 +115,7 @@ function letsLearnScope() {
     let c = 30
     let d = 40
     value = !value
-    console.log(a, b, c) // Python 20 30
+    console.log(a, b, c, value) // Python 20 30 true
   }
   // we can not access c because c's scope is only the if block
   console.log(a, b, value) // JavaScript 10 true
@@ -138,9 +142,9 @@ if (true){
 console.log(gravity)  // 9.81
 
 for(var i = 0; i < 3; i++){
-  console.log(i) // 1, 2, 3
+  console.log(i) // 0, 1, 2
 }
-console.log(i)
+console.log(i) // 3
 
 ```
 
@@ -163,13 +167,13 @@ if (true){
 // console.log(gravity), Uncaught ReferenceError: gravity is not defined
 
 for(let i = 0; i < 3; i++){
-  console.log(i) // 1, 2, 3
+  console.log(i) // 0, 1, 2
 }
 // console.log(i), Uncaught ReferenceError: i is not defined
 
 ```
 
-The scope *let* and *const* is the same. The difference is only reassigning. We can not change or reassign the value of const variable. I would strongly suggest you to use *let* and *const*, by using *let* and *const* you will writ clean code and avoid hard to debug mistakes. As a rule of thumb, you can use *let* for any value which change, *const* for any constant value, and for array, object, arrow function and function expression.
+The scope *let* and *const* are the same. The difference is only reassigning. We can not change or reassign the value of the `const` variable. I would strongly suggest you to use *let* and *const*, by using *let* and *const* you will write clean code and avoid hard to debug mistakes. As a rule of thumb, you can use *let* for any value which change, *const* for any constant value, and for an array, object, arrow function and function expression.
 
 ## 📔 Object
 
@@ -252,14 +256,14 @@ const person = {
 console.log(person.firstName)
 console.log(person.lastName)
 console.log(person.age)
-console.log(person.location)
+console.log(person.location) // undefined
 
 // value can be accessed using square bracket and key name
 console.log(person['firstName'])
 console.log(person['lastName'])
 console.log(person['age'])
 console.log(person['age'])
-console.log(person['location'])
+console.log(person['location']) // undefined
 
 // for instance to access the phone number we only use the square bracket method
 console.log(person['phone number'])

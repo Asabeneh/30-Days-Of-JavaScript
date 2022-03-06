@@ -18,35 +18,35 @@
 ![Day 5](../images/banners/day_1_5.png)
 
 - [📔 Day 5](#-day-5)
-  - [Arrays](#arrays)
-    - [How to create an empty array](#how-to-create-an-empty-array)
-    - [How to create an array with values](#how-to-create-an-array-with-values)
-    - [Creating an array using split](#creating-an-array-using-split)
-    - [Accessing array items using index](#accessing-array-items-using-index)
-    - [Modifying array element](#modifying-array-element)
-    - [Methods to manipulate array](#methods-to-manipulate-array)
-      - [Array Constructor](#array-constructor)
-      - [Creating static values with fill](#creating-static-values-with-fill)
-      - [Concatenating array using concat](#concatenating-array-using-concat)
-      - [Getting array length](#getting-array-length)
-      - [Getting index an element in arr array](#getting-index-an-element-in-arr-array)
-      - [Getting last index of an element in array](#getting-last-index-of-an-element-in-array)
-      - [Checking array](#checking-array)
-      - [Converting array to string](#converting-array-to-string)
-      - [Joining array elements](#joining-array-elements)
-      - [Slice array elements](#slice-array-elements)
-      - [Splice method in array](#splice-method-in-array)
-      - [Adding item to an array using push](#adding-item-to-an-array-using-push)
-      - [Removing the end element using pop](#removing-the-end-element-using-pop)
-      - [Removing an element from the beginning](#removing-an-element-from-the-beginning)
-      - [Add an element from the beginning](#add-an-element-from-the-beginning)
-      - [Reversing array order](#reversing-array-order)
-      - [Sorting elements in array](#sorting-elements-in-array)
-    - [Array of arrays](#array-of-arrays)
-  - [💻 Exercise](#-exercise)
-    - [Exercise: Level 1](#exercise-level-1)
-    - [Exercise: Level 2](#exercise-level-2)
-    - [Exercise: Level 3](#exercise-level-3)
+	- [Arrays](#arrays)
+		- [How to create an empty array](#how-to-create-an-empty-array)
+		- [How to create an array with values](#how-to-create-an-array-with-values)
+		- [Creating an array using split](#creating-an-array-using-split)
+		- [Accessing array items using index](#accessing-array-items-using-index)
+		- [Modifying array element](#modifying-array-element)
+		- [Methods to manipulate array](#methods-to-manipulate-array)
+			- [Array Constructor](#array-constructor)
+			- [Creating static values with fill](#creating-static-values-with-fill)
+			- [Concatenating array using concat](#concatenating-array-using-concat)
+			- [Getting array length](#getting-array-length)
+			- [Getting index an element in arr array](#getting-index-an-element-in-arr-array)
+			- [Getting last index of an element in array](#getting-last-index-of-an-element-in-array)
+			- [Checking array](#checking-array)
+			- [Converting array to string](#converting-array-to-string)
+			- [Joining array elements](#joining-array-elements)
+			- [Slice array elements](#slice-array-elements)
+			- [Splice method in array](#splice-method-in-array)
+			- [Adding item to an array using push](#adding-item-to-an-array-using-push)
+			- [Removing the end element using pop](#removing-the-end-element-using-pop)
+			- [Removing an element from the beginning](#removing-an-element-from-the-beginning)
+			- [Add an element from the beginning](#add-an-element-from-the-beginning)
+			- [Reversing array order](#reversing-array-order)
+			- [Sorting elements in array](#sorting-elements-in-array)
+		- [Array of arrays](#array-of-arrays)
+	- [💻 Exercise](#-exercise)
+		- [Exercise: Level 1](#exercise-level-1)
+		- [Exercise: Level 2](#exercise-level-2)
+		- [Exercise: Level 3](#exercise-level-3)
 
 # 📔 Day 5
 
@@ -390,22 +390,22 @@ Check an element if it exist in an array.
 const fruits = ['banana', 'orange', 'mango', 'lemon']
 let index = fruits.indexOf('banana')  // 0
 
-if(index != -1){
-   console.log('This fruit does exist in the array')  
+if(index === -1){
+   console.log('This fruit does not exist in the array')  
 } else {
-    console.log('This fruit does not exist in the array')
+    console.log('This fruit does exist in the array')
 }
 // This fruit does exist in the array
 
 // we can use also ternary here
-index != -1 ? console.log('This fruit does exist in the array'): console.log('This fruit does not exist in the array')
+index === -1 ? console.log('This fruit does not exist in the array'): console.log('This fruit does exist in the array')
 
 // let us check if a avocado exist in the array
 let indexOfAvocado = fruits.indexOf('avocado')  // -1, if the element not found index is -1
-if(indexOfAvocado!= -1){
-   console.log('This fruit does exist in the array')  
+if(indexOfAvocado === -1){
+   console.log('This fruit does not exist in the array')  
 } else {
-    console.log('This fruit does not exist in the array')
+    console.log('This fruit does exist in the array')
 }
 // This fruit does not exist in the array
 ```

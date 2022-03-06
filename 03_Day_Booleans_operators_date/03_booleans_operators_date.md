@@ -31,7 +31,7 @@
 		- [Increment Operator](#increment-operator)
 		- [Decrement Operator](#decrement-operator)
 		- [Ternary Operators](#ternary-operators)
-		- [Operator Precendence](#operator-precendence)
+		- [Operator Precedence](#operator-precedence)
 	- [Window Methods](#window-methods)
 		- [Window alert() method](#window-alert-method)
 		- [Window prompt() method](#window-prompt-method)
@@ -333,9 +333,9 @@ number > 0
 -5 is a negative number
 ```
 
-### Operator Precendence
+### Operator Precedence
 
-I would like to recommend you to read about operator precendence from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+I would like to recommend you to read about operator precedence from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 
 ## Window Methods
 
@@ -568,9 +568,9 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
 1. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 1. Calculate the slope, x-intercept and y-intercept of y = 2x -2
-1. Slope is (m = y2-y1/x2-x1). Find the slope between point (2, 2) and point(6,10)
+1. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between point (2, 2) and point(6,10)
 1. Compare the slope of above two questions.
-1. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
+1. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
 1. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
 
     ```sh

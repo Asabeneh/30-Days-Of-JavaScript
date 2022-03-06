@@ -231,6 +231,10 @@ console.log(Math.E)             // 2.718
 console.log(Math.log(2))        // 0.6931471805599453
 console.log(Math.log(10))       // 2.302585092994046
 
+// Returns the natural logarithm of 2 and 10 respectively
+console.log(Math.LN2)           // 0.6931471805599453
+console.log(Math.LN10)          // 2.302585092994046
+
 // Trigonometry
 Math.sin(0)
 Math.sin(60)

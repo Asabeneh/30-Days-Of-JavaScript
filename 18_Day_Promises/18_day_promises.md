@@ -105,7 +105,7 @@ doSomething((err, result) => {
 
 ### Promise constructor
 
-We can create a promise using the Promise constructor. We can create a new promise using the key word new followed by the word Promise and followed by a parenthesis. Inside the parenthesis it it takes a callback function. The promise callback function has two parameters which are the _resolve_ and _reject_ functions.
+We can create a promise using the Promise constructor. We can create a new promise using the key word `new` followed by the word `Promise` and followed by a parenthesis. Inside the parenthesis, it takes a `callback` function. The promise callback function has two parameters which are the _`resolve`_ and _`reject`_ functions.
 
 ```js
 // syntax
@@ -244,7 +244,7 @@ console.log('===== async and await')
 fetchData()
 ```
 
-🌕 You are real and you kept your promise and your reached to day 18. Keep your promise and settle the challenge with resolve. You are 18 steps a head to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You are real and you kept your promise and you reached to day 18. Keep your promise and settle the challenge with resolve. You are 18 steps ahead to your way to greatness. Now do some exercises for your brain and  muscles.
 
 ## Exercises
 

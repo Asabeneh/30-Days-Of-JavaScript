@@ -23,7 +23,7 @@
 		- [Callback](#callback)
 		- [Returning function](#returning-function)
 		- [Setting time](#setting-time)
-			- [Setting Interaval using a setInterval function](#setting-interaval-using-a-setinterval-function)
+			- [Setting Interval using a setInterval function](#setting-interval-using-a-setinterval-function)
 			- [Setting a time using a setTimeout](#setting-a-time-using-a-settimeout)
 	- [Functional Programming](#functional-programming)
 		- [forEach](#foreach)
@@ -132,7 +132,7 @@ In JavaScript we can execute some activities in a certain interval of time or we
 - setInterval
 - setTimeout
 
-#### Setting Interaval using a setInterval function
+#### Setting Interval using a setInterval function
 
 In JavaScript, we use setInterval higher order function to do some activity continuously with in some interval of time. The setInterval global method take a callback function and a duration as a parameter. The duration is in milliseconds and the callback will be always called in that interval of time.
 
@@ -571,7 +571,7 @@ const products = [
 ```
 
 1. Explain the difference between **_forEach, map, filter, and reduce_**.
-2. Define a call function before you them in forEach, map, filter or reduce.
+2. Define a callback function before you use it in forEach, map, filter or reduce.
 3. Use **_forEach_** to console.log each country in the countries array.
 4. Use **_forEach_** to console.log each name in the names array.
 5. Use **_forEach_** to console.log each number in the numbers array.

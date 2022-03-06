@@ -1,5 +1,5 @@
 // split(): The split method splits a string at a specified place.
-let string = '30 Days Of JavaScipt'
+let string = '30 Days Of JavaScript'
 console.log(string.split())     // ["30 Days Of JavaScript"]
 console.log(string.split(' '))  // ["30", "Days", "Of", "JavaScript"]
 let firstName = 'Asabeneh'
