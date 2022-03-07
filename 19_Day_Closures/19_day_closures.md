@@ -14,15 +14,15 @@
 
 </div>
 
-[<< Day 18](../18_Day_Promises/18_day_promise.md) | [Day 20 >>](../20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)
+[<< Day 18](../18_Day_Promises/18_day_promises.md) | [Day 20 >>](../20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_19.png)
 - [Day 19](#day-19)
-  - [Closure](#closure)
-  - [Exercises](#exercises)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Closure](#closure)
+	- [Exercises](#exercises)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # Day 19
 
@@ -80,7 +80,7 @@ console.log(innerFuncs.minusOne)
 
 ```sh
 1
-1
+0
 ```
 
 🌕 You are making progress. Maintain your momentum,  keep the good work.  Now do some exercises for your brain and for your muscle.
@@ -101,4 +101,4 @@ console.log(innerFuncs.minusOne)
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 18](../18_Day_Promises/18_day_promise.md) | [Day 20 >>](../20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)
+[<< Day 18](../18_Day_Promises/18_day_promises.md) | [Day 20 >>](../20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)

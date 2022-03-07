@@ -18,38 +18,38 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_3.png)
 
 - [📔 Day 3](#-day-3)
-  - [Booleans](#booleans)
-    - [Truthy values](#truthy-values)
-    - [Falsy values](#falsy-values)
-  - [Undefined](#undefined)
-  - [Null](#null)
-  - [Operators](#operators)
-    - [Assignment operators](#assignment-operators)
-    - [Arithmetic Operators](#arithmetic-operators)
-    - [Comparison Operators](#comparison-operators)
-    - [Logical Operators](#logical-operators)
-    - [Increment Operator](#increment-operator)
-    - [Decrement Operator](#decrement-operator)
-    - [Ternary Operators](#ternary-operators)
-    - [Operator Precendence](#operator-precendence)
-  - [Window Methods](#window-methods)
-    - [Window alert() method](#window-alert-method)
-    - [Window prompt() method](#window-prompt-method)
-    - [Window confirm() method](#window-confirm-method)
-  - [Date Object](#date-object)
-    - [Creating a time object](#creating-a-time-object)
-    - [Getting full year](#getting-full-year)
-    - [Getting month](#getting-month)
-    - [Getting date](#getting-date)
-    - [Getting day](#getting-day)
-    - [Getting hours](#getting-hours)
-    - [Getting minutes](#getting-minutes)
-    - [Getting seconds](#getting-seconds)
-    - [Getting time](#getting-time)
-  - [💻 Day 3: Exercises](#-day-3-exercises)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Booleans](#booleans)
+		- [Truthy values](#truthy-values)
+		- [Falsy values](#falsy-values)
+	- [Undefined](#undefined)
+	- [Null](#null)
+	- [Operators](#operators)
+		- [Assignment operators](#assignment-operators)
+		- [Arithmetic Operators](#arithmetic-operators)
+		- [Comparison Operators](#comparison-operators)
+		- [Logical Operators](#logical-operators)
+		- [Increment Operator](#increment-operator)
+		- [Decrement Operator](#decrement-operator)
+		- [Ternary Operators](#ternary-operators)
+		- [Operator Precedence](#operator-precedence)
+	- [Window Methods](#window-methods)
+		- [Window alert() method](#window-alert-method)
+		- [Window prompt() method](#window-prompt-method)
+		- [Window confirm() method](#window-confirm-method)
+	- [Date Object](#date-object)
+		- [Creating a time object](#creating-a-time-object)
+		- [Getting full year](#getting-full-year)
+		- [Getting month](#getting-month)
+		- [Getting date](#getting-date)
+		- [Getting day](#getting-day)
+		- [Getting hours](#getting-hours)
+		- [Getting minutes](#getting-minutes)
+		- [Getting seconds](#getting-seconds)
+		- [Getting time](#getting-time)
+	- [💻 Day 3: Exercises](#-day-3-exercises)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 3
 
@@ -73,7 +73,7 @@ We agreed that boolean values are either true or false.
 ### Truthy values
 
 - All numbers(positive and negative) are truthy except zero
-- All strings are truthy
+- All strings are truthy except an empty string ('')
 - The boolean true
 
 ### Falsy values
@@ -218,7 +218,7 @@ console.log('python'.length > 'dragon'.length)   // false
 ```
 
 Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
-JavaScript is some how a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
+JavaScript is somehow a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
 
 As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
 
@@ -254,7 +254,7 @@ let isMarried = !false                // true
 
 ### Increment Operator
 
-In JavaScrip we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
+In JavaScript we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
 
 1. Pre-increment
 
@@ -276,7 +276,7 @@ We use most of the time post-increment. At least you should remember how to use 
 
 ### Decrement Operator
 
-In JavaScrip we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement. Let us see each of them:
+In JavaScript we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement. Let us see each of them:
 
 1. Pre-decrement
 
@@ -333,9 +333,9 @@ number > 0
 -5 is a negative number
 ```
 
-### Operator Precendence
+### Operator Precedence
 
-I would like to recommend you to read about operator precendence from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+I would like to recommend you to read about operator precedence from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 
 ## Window Methods
 
@@ -382,7 +382,7 @@ These are not all the window methods we will have a separate section to go deep 
 ## Date Object
 
 Time is an important thing. We like to know the time a certain activity or event. In JavaScript current time and date is created using JavaScript Date Object. The object we create using Date object provides many methods to work with date and time.The methods we use to get date and time information from a date object values are started with a word _get_ because it provide the information.
-_getFullYear(), getMonths(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
+_getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
 
 ![Date time Object](../images/date_time_object.png)
 
@@ -553,7 +553,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    ```sh
    Enter base: 20
    Enter height: 10
-   The area of the triangle is 50
+   The area of the triangle is 100
    ```
 
 1. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
@@ -568,9 +568,9 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
 1. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 1. Calculate the slope, x-intercept and y-intercept of y = 2x -2
-1. Slope is (m = y2-y1/x2-x1). Find the slope between point (2, 2) and point(6,10)
+1. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between point (2, 2) and point(6,10)
 1. Compare the slope of above two questions.
-1. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
+1. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
 1. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
 
     ```sh
@@ -616,7 +616,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
 
    ```sh
-   Enter number of yours you live: 100
+   Enter number of years you live: 100
    You lived 3153600000 seconds.
    ```
 

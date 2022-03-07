@@ -19,18 +19,18 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_23.png)
 
 - [Day 22](#day-22)
-  - [DOM(Document Object Model)-Day 3](#domdocument-object-model-day-3)
-    - [Event Listeners](#event-listeners)
-      - [Click](#click)
-      - [Double Click](#double-click)
-      - [Mouse enter](#mouse-enter)
-    - [Getting value from an input element](#getting-value-from-an-input-element)
-    - [input value](#input-value)
-      - [input event and change](#input-event-and-change)
-      - [blur event](#blur-event)
-      - [keypress, keydow and keyup](#keypress-keydow-and-keyup)
-  - [Exercises](#exercises)
-    - [Exercise: Level 1](#exercise-level-1)
+	- [DOM(Document Object Model)-Day 3](#domdocument-object-model-day-3)
+		- [Event Listeners](#event-listeners)
+			- [Click](#click)
+			- [Double Click](#double-click)
+			- [Mouse enter](#mouse-enter)
+		- [Getting value from an input element](#getting-value-from-an-input-element)
+		- [input value](#input-value)
+			- [input event and change](#input-event-and-change)
+			- [blur event](#blur-event)
+			- [keypress, keydow and keyup](#keypress-keydow-and-keyup)
+	- [Exercises](#exercises)
+		- [Exercise: Level 1](#exercise-level-1)
 
 # Day 22
 
@@ -174,7 +174,7 @@ By now you are familiar with addEventListen method and how to attach event liste
 List of events:
 
 - click - when the element clicked
-- dbclick - when the element double clicked
+- dblclick - when the element double clicked
 - mouseenter - when the mouse point enter to the element
 - mouseleave - when the mouse pointer leave the element
 - mousemove - when the mouse pointer move on the element

@@ -19,18 +19,18 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_17.png)
 
 - [Day 17](#day-17)
-  - [HTML5 Web Storage](#html5-web-storage)
-    - [sessionStorage](#sessionstorage)
-    - [localStorage](#localstorage)
-    - [Use case of Web Storages](#use-case-of-web-storages)
-  - [HTML5 Web Storage Objects](#html5-web-storage-objects)
-    - [Setting item to the localStorage](#setting-item-to-the-localstorage)
-    - [Getting item from localStorage](#getting-item-from-localstorage)
-    - [Clearing the localStorage](#clearing-the-localstorage)
-  - [Exercises](#exercises)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [HTML5 Web Storage](#html5-web-storage)
+		- [sessionStorage](#sessionstorage)
+		- [localStorage](#localstorage)
+		- [Use case of Web Storages](#use-case-of-web-storages)
+	- [HTML5 Web Storage Objects](#html5-web-storage-objects)
+		- [Setting item to the localStorage](#setting-item-to-the-localstorage)
+		- [Getting item from localStorage](#getting-item-from-localstorage)
+		- [Clearing the localStorage](#clearing-the-localstorage)
+	- [Exercises](#exercises)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # Day 17
 
@@ -38,7 +38,7 @@
 
 Web Storage(sessionStorage and localStorage) is a new HTML5 API offering important benefits over traditional cookies. Before HTML5, application data had to be stored in cookies, included in every server request. Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance. The data storage limit of cookies in many web browsers is about 4 KB per cookie. We Storages can store far larger data (at least 5MB) and never transferred to the server. All sites from the same or one origin can store and access the same data.
 
-The data being stored can be accessed using JavaScript, which gives you the ability to leverage client-side scripting to do many things that have traditionally involved server-side programming and relational databases. The are are two Web Storage objects:
+The data being stored can be accessed using JavaScript, which gives you the ability to leverage client-side scripting to do many things that have traditionally involved server-side programming and relational databases. There are two Web Storage objects:
 
 - sessionStorage
 - localStorage
@@ -77,7 +77,7 @@ For the examples mentioned above, it makes sense to use localStorage. You may be
 
 In cases, we want to to get rid of the data as soon as the window is closed. Or, perhaps, if we do not want the application to interfere with the same application that’s open in another window. These scenarios are served best with sessionStorage.
 
-Now, let use how use make use of these Web Storage APIs.
+Now, let us see how make use of these Web Storage APIs.
 
 ## HTML5 Web Storage Objects
 
@@ -90,7 +90,7 @@ Web Storage objects:
 
 - _localStorage_ - to display the localStorage object
 - _localStorage.clear()_ - to remove everything in the local storage
-- _localStorage.setItem()_ - to storage data in the localStorage. It takes a key and a value parameters.
+- _localStorage.setItem()_ - to store data in the localStorage. It takes a key and a value parameters.
 - _localStorage.getItem()_ - to display data stored in the localStorage. It takes a key as a parameter.
 - _localStorage.removeItem()_ - to remove stored item form a localStorage. It takes key as a parameter.
 - _localStorage.key()_ - to display a data stored in a localStorage. It takes index as a parameter.
