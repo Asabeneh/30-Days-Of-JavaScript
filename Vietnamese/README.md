@@ -50,6 +50,7 @@
     <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
         <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
     </a>
+    <br>
     <sub>Tác giả:
         <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
         <small> Tháng 1, 2020</small>
@@ -134,11 +135,11 @@ Tôi tin rằng bạn có động lực và muốn trở thành một lập trì
 
 Bạn có thể không cần phải cài Node.js ngay bây giờ nhưng sau này thì có thể cần đến. Cài [Node.js](https://nodejs.org/en/).
 
-![Tải node](images/download_node.png)
+![Tải node](../images/download_node.png)
 
 Sau khi tải xong, nhấn đúp để cài đặt
 
-![Cài node](images/install_node.png)
+![Cài node](../images/install_node.png)
 
 Chúng ta có thể kiểm tra xem Node đã cài hay chưa bằng cách mở terminal hoặc cmd trên máy tính.
 
@@ -157,14 +158,14 @@ Hiện tại có rất nhiều trình duyệt web, tuy nhiên tôi đề xuất 
 
 Cài [Google Chrome](https://www.google.com/chrome/) nếu bạn chưa cài nó. Chúng ta có thể viết code JavaScript trên console trình duyệt, nhưng chúng ta không sử dụng console trình duyệt để lập trình.
 
-![Google Chrome](images/google_chrome.png)
+![Google Chrome](../images/google_chrome.png)
 
 #### Mở Console Google Chrome
 
 
 Bạn có thể mở console Google Chrome bằng cách nhấp vào ba dấu chấm ở trên cùng bên phải trình duyệt, chọn _More tools -> Developer tools_ hoặc sử dụng phím tắt.
 
-![Mở chrome](images/opening_developer_tool.png)
+![Mở chrome](../images/opening_developer_tool.png)
 
 Để mở Console Google Chrome bằng phím tắt:
 
@@ -176,12 +177,12 @@ Windows/Linux:
 Ctl+Shift+J (hoặc F12)
 ```
 
-![Mở console](images/opening_chrome_console_shortcut.png)
+![Mở console](../images/opening_chrome_console_shortcut.png)
 
 Sau khi bạn mở console Google Chrome, hãy thử khám phá các nút được đánh dấu bên dưới. Chúng ta sẽ dành phần lớn thời gian trên Console. Console là nơi bạn viết code JavaScript. Công cụ Google Console V8 sẽ chuyển code của bạn thành mã máy.
 Bây giờ chúng ta sẽ viết mã JavaScript trên console của Google Chrome:
 
-![viết code trên console](./images/js_code_on_chrome_console.png)
+![viết code trên console](../images/js_code_on_chrome_console.png)
 
 #### Viết code trên Console của trình duyệt
 
@@ -207,7 +208,7 @@ console.log('Hello, World!')
 
 Hàm **`console.log()`** có thể nhận nhiều tham số được phân cách bằng dấu phẩy. Cú pháp sẽ giống như này:**`console.log(param1, param2, param3)`**
 
-![console log có nhiều tham số](./images/console_log_multipl_arguments.png)
+![console log có nhiều tham số](../images/console_log_multipl_arguments.png)
 
 ```js
 console.log('Hello', 'World', '!')
@@ -245,7 +246,7 @@ Chúng ta có thể thêm comment vào code. Comment rất quan trọng để l�
 
 Ngôn ngữ lập trình tương tự như ngôn ngữ của con người. Tiếng Việt hoặc nhiều ngôn ngữ khác sử dụng các từ, cụm từ, câu, câu ghép và nhiều ngôn ngữ khác để truyền tải một thông điệp có ý nghĩa. Ý nghĩa cú pháp trong tiếng Việt là _sự sắp xếp các từ và cụm từ để tạo ra các câu có cấu trúc trong một ngôn ngữ_. Định nghĩa kỹ thuật của cú pháp là cấu trúc của các câu lệnh trong một ngôn ngữ máy tính. Ngôn ngữ lập trình cũng có cú pháp. JavaScript là một ngôn ngữ lập trình và giống như các ngôn ngữ lập trình khác, nó có cú pháp riêng. Nếu chúng ta không viết một cú pháp mà JavaScript hiểu, nó sẽ phát sinh các loại lỗi khác nhau. Chúng ta sẽ khám phá các loại lỗi trong JavaScript khác nhau ở phần sau. Bây giờ, hãy xem 1 cú pháp bị lỗi bên dưới.
 
-![Lỗi](images/raising_syntax_error.png)
+![Lỗi](../images/raising_syntax_error.png)
 
 Tôi đã phạm một sai lầm có chủ ý. Kết quả là console làm tăng lỗi cú pháp. Trên thực tế, cú pháp rất nhiều thông tin. Nó thông báo loại sai lầm đã được thực hiện. Bằng cách đọc hướng dẫn phản hồi lỗi, chúng ta có thể sửa cú pháp và khắc phục sự cố. Quá trình xác định và loại bỏ lỗi khỏi chương trình được gọi là gỡ lỗi (debug). Bây giờ chúng ta sẽ gỡ lỗi:
 
@@ -268,7 +269,7 @@ console.log(`Hello, World!`)
 
 Bây giờ, chúng ta sẽ viết code JavaScript nhiều hơn bằng cách sử dụng _`console.log()`_ trên console của Google Chrome cho các kiểu dữ liệu số. Ngoài văn bản, chúng ta cũng có thể thực hiện các phép tính toán bằng JavaScript. Chúng ta sẽ thực hiện các phép tính đơn giản sau. Có thể viết code JavaScript trên console Google Chrome trực tiếp mà không cần hàm **_`console.log()`_**. Tuy nhiên, nó được đưa vào phần này vì hầu hết thử thách này sẽ diễn ra trong code editor, nơi việc sử dụng hàm là bắt buộc.
 
-![Toán tử](images/arithmetic.png)
+![Toán tử](../images/arithmetic.png)
 
 ```js
 console.log(2 + 3) // Cộng
@@ -287,7 +288,7 @@ Chúng ta có thể viết code trên console của trình duyệt, nhưng nó s
 
 Visual Studio Code là một trình soạn thảo văn bản nguồn mở rất phổ biến. Tôi muốn giới thiệu bạn [tải Visual Studio Code](https://code.visualstudio.com/), nhưng nếu bạn muốn sử dụng các editor, hãy thoải mái làm theo những gì bạn có.
 
-![Vscode](images/vscode.png)
+![Vscode](../images/vscode.png)
 
 Nếu bạn đã cài đặt Visual Studio Code, bây giờ chúng ta sẽ sử dụng nó.
 
@@ -295,19 +296,19 @@ Nếu bạn đã cài đặt Visual Studio Code, bây giờ chúng ta sẽ sử 
 
 Mở Visual Studio Code bằng cách nhấp đúp vào biểu tượng. Khi đã mở, bạn sẽ thấy giao diện như này. Hãy làm quen với các phần mà được đánh dấu.
 
-![Vscode ui](./images/vscode_ui.png)
+![Vscode ui](../images/vscode_ui.png)
 
-![Vscode thêm mới dự án](./images/adding_project_to_vscode.png)
+![Vscode thêm mới dự án](../images/adding_project_to_vscode.png)
 
-![Vscode mở dự án](./images/opening_project_on_vscode.png)
+![Vscode mở dự án](../images/opening_project_on_vscode.png)
 
-![file script](images/scripts_on_vscode.png)
+![file script](../images/scripts_on_vscode.png)
 
-![Cài Live Server](images/vsc_live_server.png)
+![Cài Live Server](../images/vsc_live_server.png)
 
-![chạy script](./images/running_script.png)
+![chạy script](../images/running_script.png)
 
-![chạy code](./images/launched_on_new_tab.png)
+![chạy code](../images/launched_on_new_tab.png)
 
 ## Thêm JavaScript vào trang web
 
