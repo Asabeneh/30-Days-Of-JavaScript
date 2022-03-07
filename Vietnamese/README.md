@@ -37,7 +37,9 @@
 
 <div>
     <small>Ủng hộ <strong>tác giả</strong> để bổ sung thêm nhiều kiến thức bổ ích</small> <br />  
-    <a href="https://www.paypal.me/asabeneh"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
+    <a href="https://www.paypal.me/asabeneh">
+      <img src='../images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/>
+    </a>
 </div>
 
 <div align="center">
@@ -48,7 +50,6 @@
     <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
         <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
     </a>
-
     <sub>Tác giả:
         <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
         <small> Tháng 1, 2020</small>
