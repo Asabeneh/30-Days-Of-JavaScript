@@ -323,75 +323,75 @@ Các phần sau đây sẽ hướng dẫn các cách khác nhau để thêm code
 
 ### Inline Script
 
-Create a project folder on your desktop or in any location, name it 30DaysOfJS and create an **_`index.html`_** file in the project folder. Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
+Tạo thư mục trên màn hình hoặc ở bất kỳ vị trí nào, đặt tên là 30DaysOfJS và tạo tệp có tên **_`index.html`_**. Sau đó, dán mã sau và mở nó trong trình duyệt, ví dụ [Chrome](https://www.google.com/chrome/).
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <title>30DaysOfScript:Inline Script</title>
   </head>
   <body>
-    <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
+    <button onclick="alert('Chào bạn đến với 30DaysOfJavaScript!')">Nhấp vàod đây</button>
   </body>
 </html>
 ```
 
-Now, you just wrote your first inline script. We can create a pop up alert message using the _`alert()`_ built-in function.
+Bây giờ, bạn vừa viết inline script (nhúng trực tiếp) đầu tiên của mình. Chúng tôi có thể tạo một popup cảnh báo bằng cách sử dụng hàm có sẵn _`alert()`_ .
 
 ### Internal Script
 
-The internal script can be written in the _`head`_ or the _`body`_, but it is preferred to put it on the body of the HTML document.
-First, let us write on the head part of the page.
+Internal Script có thể được viết trong thẻ _`head`_ hoặc _`body`_, nhưng nó sẽ được ưu tiên chạy trước khi viết trong phần body của tệp HTML.
+Trước tiên, chúng ta hãy viết trên phần head của trang.
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <title>30DaysOfScript:Internal Script</title>
     <script>
-      console.log('Welcome to 30DaysOfJavaScript')
+      console.log('Chào bạn đến với 30DaysOfJavaScript')
     </script>
   </head>
   <body></body>
 </html>
 ```
 
-This is how we write an internal script most of the time. Writing the JavaScript code in the body section is the most preferred option. Open the browser console to see the output from the `console.log()`.
+Đây là cách chúng ta sẽ viết Inernal Script trong thử thách này. Viết code JavaScript trong phần body là tùy chọn ưu tiên nhất. Mở console của trình duyệt để xem kết quả từ `console.log()`.
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <title>30DaysOfScript:Internal Script</title>
   </head>
   <body>
-    <button onclick="alert('Welcome to 30DaysOfJavaScript!');">Click Me</button>
+    <button onclick="alert('Chào bạn đến với 30DaysOfJavaScript!');">Click Me</button>
     <script>
-      console.log('Welcome to 30DaysOfJavaScript')
+      console.log('Chào bạn đến với 30DaysOfJavaScript')
     </script>
   </body>
 </html>
 ```
 
-Open the browser console to see the output from the `console.log()`.
+Mở console của trình duyệt để xem kết quả từ `console.log()`.
 
-![js code from vscode](../images/js_code_vscode.png)
+![js code từ vscode](../images/js_code_vscode.png)
 
 ### External Script
 
-Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
+Tương tự như Internal Script, External Script có thể nằm trên header hoặc body, nhưng tốt hơn là đặt nó trong phần body.
+Đầu tiên, chúng ta sẽ tạo một tệp JavaScript có đuôi là `.js`. Tất cả tệp JavaScript đều có đuôi là `.js`. Tạo một tệp có tên là `Introduction.js` bên trong thư mục vừa nảy bạn đã tạo và viết code sau và nhúng tệp .js này vào cuối phần body.
 
 ```js
-console.log('Welcome to 30DaysOfJavaScript')
+console.log('Chào bạn đến với 30DaysOfJavaScript')
 ```
 
-External scripts in the _head_:
+Nhúng External scripts trong thẻ _head_:
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <title>30DaysOfJavaScript:External script</title>
     <script src="introduction.js"></script>
@@ -400,7 +400,7 @@ External scripts in the _head_:
 </html>
 ```
 
-External scripts in the _body_:
+Nhúng External scripts trong thẻ _body_:
 
 ```html
 <!DOCTYPE html>
@@ -409,19 +409,19 @@ External scripts in the _body_:
     <title>30DaysOfJavaScript:External script</title>
   </head>
   <body>
-    <!-- JavaScript external link could be in the header or in the body --> 
-    <!-- Before the closing tag of the body is the recommended place to put the external JavaScript script -->
+    <!-- Liên kết bên ngoài JavaScript có thể nằm trong header hoặc trong body --> 
+    <!-- Trước thẻ đóng của phần body là nơi được khuyến nghị để nhúng các tệp JavaScript bên ngoài -->
     <script src="introduction.js"></script>
   </body>
 </html>
 ```
 
-Open the browser console to see the output of the `console.log()`.
+Mở console trình duyệt để xem kết quả của `console.log()`.
 
-### Multiple External Scripts
+### Nhúng nhiều External Scripts
 
-We can also link multiple external JavaScript files to a web page.
-Create a `helloworld.js` file inside the 30DaysOfJS folder and write the following code.
+Chúng ta cũng có thể nhúng nhiều tệp JavaScript bên ngoài trong một trang web.
+Tạo tệp `helloworld.js` trong thư mục 30DaysOfJS và viết theo code bên dưới.
 
 ```js
 console.log('Hello, World!')
@@ -429,7 +429,7 @@ console.log('Hello, World!')
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <title>Multiple External Scripts</title>
   </head>
@@ -440,26 +440,26 @@ console.log('Hello, World!')
 </html>
 ```
 
-_Your main.js file should be below all other scripts_. It is very important to remember this.
+_Tệp main.js của bạn phải nằm bên dưới tất cả các script khác_. Điều rất quan trọng là phải nhớ điều này.
 
-![Multiple Script](../images/multiple_script.png)
+![Nhiều Script](../images/multiple_script.png)
 
-## Introduction to Data types
+## Giới thiệu các kiểu các dữ liệu
 
-In JavaScript and also other programming languages, there are different types of data types. The following are JavaScript primitive data types: _String, Number, Boolean, undefined, Null_, and _Symbol_.
+Trong JavaScript và các ngôn ngữ lập trình khác, có nhiều kiểu dữ liệu khác nhau. Sau đây là các kiểu dữ liệu nguyên thủy của JavaScript: _String, Number, Boolean, undefined, Null_, và _Symbol_.
 
-### Numbers
+### Numbers (số)
 
-- Integers: Integer (negative, zero and positive) numbers
+- Số nguyên: Số nguyên (âm, 0 và dương)
   Ví dụ:
   ... -3, -2, -1, 0, 1, 2, 3 ...
-- Float-point numbers: Decimal number
-  Example
+- Số thập phân
+  Ví dụ
   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
-### Strings
+### Strings (Chuỗi)
 
-A collection of one or more characters between two single quotes, double quotes, or backticks.
+Tập hợp một hoặc nhiều ký tự nằm giữa hai nháy đơn, dấu nháy kép hoặc gạch chéo.
 
 **Ví dụ:**
 
@@ -467,48 +467,48 @@ A collection of one or more characters between two single quotes, double quotes,
 'a'
 'Asabeneh'
 "Asabeneh"
-'Finland'
-'JavaScript is a beautiful programming language'
-'I love teaching'
-'I hope you are enjoying the first day'
-`We can also create a string using a backtick`
-'A string could be just as small as one character or as big as many pages'
-'Any data type under a single quote, double quote or backtick is a string'
+'Việt Nam'
+'JavaScript là ngôn ngữ lập trình tuyệt nhất'
+'Tôi thích chia sẻ'
+'Tôi hy vọng bạn đang tận hưởng ngày đầu tiên'
+`Chúng ta cũng có thể tạo một chuỗi bằng cách sử dụng một gạch chéo`
+'Một chuỗi có thể chỉ nhỏ bằng một ký tự hoặc lớn bằng nhiều trang'
+'Bất kỳ loại dữ liệu nào dưới dấu nháy đơn, dấu nháy kép hoặc gạch chéo đều là một chuỗi'
 ```
 
 ### Booleans
 
-A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
+Giá trị boolean là `True` hoặc `False`. Mọi phép so sánh đều trả về giá trị boolean, đúng hoặc sai.
 
-A boolean data type is either a true or false value.
+Kiểu dữ liệu boolean là giá trị `true` hoặc `false`.
 
 **Ví dụ:**
 
 ```js
-true // if the light is on, the value is true
-false // if the light is off, the value is false
+true // nếu đèn sáng, giá trị là true
+false // nếu đèn tắt, giá trị là false
 ```
 
 ### Undefined
 
-In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
+Trong JavaScript, nếu chúng ta không gán giá trị cho một biến thì giá trị đó không được xác định. Ngoài ra, nếu một hàm không trả về bất cứ thứ gì, nó sẽ trả về không xác định.
 
 ```js
 let firstName
-console.log(firstName) // undefined, because it is not assigned to a value yet
+console.log(firstName) // undefined, bởi vì nó chưa được gán cho một giá trị nào
 ```
 
 ### Null
 
-Null in JavaScript means an empty value.
+Null trong JavaScript có nghĩa là một biến rỗng.
 
 ```js
 let emptyValue = null
 ```
 
-## Checking Data Types
+## Xác định kiểu dữ liệu
 
-To check the data type of a certain variable, we use the **typeof** operator. See the following example.
+Để kiểm tra kiểu dữ liệu của một biến, chúng ta sử dụng **typeof**. Xem ví dụ bên dưới.
 
 ```js
 console.log(typeof 'Asabeneh') // string
@@ -518,45 +518,45 @@ console.log(typeof null) // object type
 console.log(typeof undefined) // undefined
 ```
 
-## Comments Again
+## Comments lần nữa
 
-Remember that commenting in JavaScript is similar to other programming languages. Comments are important in making your code more readable.
-There are two ways of commenting:
+Hãy nhớ rằng comment trong JavaScript cũng tương tự như các ngôn ngữ lập trình khác. Comment rất quan trọng trong việc làm cho code của bạn dễ đọc hơn.
+Có hai cách comment:
 
-- _Single line commenting_
-- _Multiline commenting_
+- _Comment 1 dòng_
+- _Comment nhiều dòng_
 
 ```js
-// commenting the code itself with a single comment
-// let firstName = 'Asabeneh'; single line comment
-// let lastName = 'Yetayeh'; single line comment
+// comment chính nó là một comment 1 dòng
+// let firstName = 'Asabeneh'; comment 1 dòng
+// let lastName = 'Yetayeh'; comment 1 dòng
 ```
 
-Multiline commenting:
+Comment nhiều dòng:
 
 ```js
 /*
   let location = 'Helsinki';
   let age = 100;
   let isMarried = true;
-  This is a Multiple line comment
+  Đây là comment nhiều dòng
 */
 ```
 
-## Variables
+## Biến
 
-Variables are _containers_ of data. Variables are used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords.
+Biến là _vùng chứa_ của dữ liệu. Các biến được sử dụng để _lưu trữ_ dữ liệu trong vị trí bộ nhớ. Khi một biến được khai báo, một vị trí bộ nhớ được dành riêng. Khi gán giá trị (dữ liệu) cho một biến, không gian bộ nhớ sẽ được lấp đầy bởi dữ liệu đó. Để khai báo một biến, chúng ta sử dụng các từ khóa _var_, _let_, hoặc _const_.
 
-For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do not change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is error prone way of declaring variable it has lots of leak. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
+Đối với một biến chúng ta cần thay đổi dữ liệu sau này, chúng ta sử dụng _let_. Nếu dữ liệu của biến đó không cần thay đổi thì chúng ta sử dụng _const_. Ví dụ, PI, tên quốc gia, trọng lực, các đối tượng này không thay đổi dữ liệu thì dùng _const_. Chúng ta sẽ không sử dụng `var` trong thử thách này và tôi không khuyên bạn nên sử dụng nó. Đây là cách dễ bị lỗi khi khai báo biến, nó có rất nhiều lỗ hổng. Chúng ta sẽ nói chi tiết hơn về `var`, `let` và `const` trong các phần khác. Còn bây giờ, lời giải thích trên là đủ.
 
-A valid JavaScript variable name must follow the following rules:
+Tên biến JavaScript hợp lệ phải tuân theo các quy tắc sau:
 
-- A JavaScript variable name should not begin with a number.
-- A JavaScript variable name does not allow special characters except dollar sign and underscore.
-- A JavaScript variable name follows a camelCase convention.
-- A JavaScript variable name should not have space between words.
+- Tên biến JavaScript không được bắt đầu bằng một số.
+- Tên biến JavaScript không được có ký tự đặc biệt ngoại trừ ký tự $ và dấu gạch dưới _.
+- Tên biến JavaScript tuân theo quy ước camelCase.
+- Tên biến JavaScript không được có khoảng trắng giữa các từ.
 
-The following are examples of valid JavaScript variables.
+Sau đây là các ví dụ về các biến JavaScript hợp lệ.
 
 ```js
 firstName
@@ -580,9 +580,9 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follows the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables(camelWithOneHump). We use CamelCase(CamelWithTwoHump) to declare classes, we will discuss about classes and objects in other section.
+Hai biến đầu tiên bên trên tuân theo quy ước camelCase về khai báo trong JavaScript. Trong tài liệu này, chúng tôi sẽ sử dụng các biến camelCase (camelWithOneHump). Chúng ta sử dụng CamelCase (CamelWithTwoHump) để khai báo các lớp, chúng ta sẽ thảo luận về các lớp và đối tượng trong phần khác.
 
-Example of invalid variables:
+Ví dụ về các biến không hợp lệ:
 
 ```js
   first-name
@@ -590,39 +590,39 @@ Example of invalid variables:
   num_#_1
 ```
 
-Let us declare variables with different data types. To declare a variable, we need to use _let_ or _const_ keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value(assigned data).
+Chúng ta hãy khai báo các biến với các kiểu dữ liệu khác nhau. Để khai báo 1 biến, sử dụng từ khoá _let_ hoặc _const_ trước tên biến. Theo sau tên biến, chúng ta viết một dấu bằng (toán tử gán) và một giá trị (dữ liệu được gán).
 
 ```js
-// Syntax
-let nameOfVariable = value
+// Cú pháp
+let tenBien = giatri
 ```
 
-The nameOfVriable is the name that stores different data of value. See below for detail examples.
+Tên biến là tên lưu trữ các dữ liệu có giá trị khác nhau. Xem bên dưới để biết các ví dụ chi tiết.
 
-**Examples of declared variables**
+**Ví dụ về khai báo biến**
 
 ```js
-// Declaring different variables of different data types
-let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
-let country = 'Finland' // country
-let city = 'Helsinki' // capital city
-let age = 100 // age in years
-let isMarried = true
+// Khai báo biến với các kiểu dữ liệu các nhau
+let firstName = 'Đạt' // tên của 1 người
+let lastName = 'Ngô Quốc' // họ của 1 người
+let country = 'Việt Nam' // quốc gia
+let city = 'Hà Nội' // thủ đô
+let age = 19 // tuổi
+let isMarried = false // đã cưới hay chưa
 
 console.log(firstName, lastName, country, city, age, isMarried)
 ```
 
 ```sh
-Asabeneh Yetayeh Finland Helsinki 100 true
+Đạt Ngô Quốc Việt Nam Hà Nội 19 false
 ```
 
 ```js
-// Declaring variables with number values
-let age = 100 // age in years
-const gravity = 9.81 // earth gravity  in m/s2
-const boilingPoint = 100 // water boiling point, temperature in °C
-const PI = 3.14 // geometrical constant
+// Khai báo biến với kiểu dữ liệu số
+let age = 100 // tuổi
+const gravity = 9.81 // trọng lực trái đất m/s2
+const boilingPoint = 100 // độ sôi của nước, nhiệt độ tính bằng °C
+const PI = 3.14 // số PI
 console.log(gravity, boilingPoint, PI)
 ```
 
@@ -631,41 +631,39 @@ console.log(gravity, boilingPoint, PI)
 ```
 
 ```js
-// Variables can also be declaring in one line separated by comma, however I recommend to use a seperate line to make code more readble
-let name = 'Asabeneh', job = 'teacher', live = 'Finland'
+// Bạn cũngc có thể khai báo biến trên 1 dòng phân cách bằng dấu phẩy, tuy nhiên, tôi khuyên bạn nên sử dụng một dòng riêng biệt để làm cho code dễ đọc hơn
+let name = 'Ngô Quốc Đạt', job = 'developer', live = 'Việt Nam'
 console.log(name, job, live)
 ```
 
 ```sh
-Asabeneh teacher Finland
+Ngô Quốc Đạt developer Việt Nam
 ```
 
-When you run _index.html_ file in the 01-Day folder you should get this:
+Khi bạn chạy tệp _index.html_ trong thư mục 01-Day bạn sẽ thấy như này:
 
-![Ngày one](../images/day_1.png)
+![Ngày 1](../images/day_1.png)
 
-🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and muscle.
+🌕 Bạn thật tuyệt! Bạn vừa hoàn thành thử thách ngày 1 và bạn đang trên đường vươn tới sự vĩ đại. Bây giờ hãy thực hiện một số bài tập cho não và cơ bắp của bạn.
 
-# 💻 Ngày 1: Exercises
+# 💻 Ngày 1: Bài tập
 
-1. Write a single line comment which says, _comments can make code readable_
-2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_
-3. Write a multiline comment which says, _comments can make code readable, easy to reuse_
-   _and informative_
-
-4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
-5. Create datatypes.js file and use the JavaScript **_typeof_** operator to check different data types. Check the data type of each variable
-6. Declare four variables without assigning values
-7. Declare four variables with assigned values
-8. Declare variables to store your first name, last name, marital status, country and age in multiple lines
-9. Declare variables to store your first name, last name, marital status, country and age in a single line
-10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to the browser console.
+1. Viết 1 dòng comment nói là, _comment làm code dễ đọc hơn_
+2. Viết 1 dòng comment khác nói là, _Chào mừng bạn đến với 30DaysOfJavaScript_
+3. Viết comment nhiều dòng nói là, _comment làm code dễ đọc hơn, dễ sử dụng lại_ _và chi tiết_
+4. Tạo tệp `variable.js` và khai báo các biến và gán các kiểu dữ liệu `string`, `boolean`, `undefined` và `null`.
+5. Tạo tệp `datatypes.js` và sử dụng **_typeof_** để kiểm tra các kiểu dữ liệu khác nhau. Kiểm tra kiểu dữ liệu của từng biến.
+6. Khai báo 4 biến không gán giá trị
+7. Khai báo 4 biến có gán giá trị
+8. Khai báo các biến để lưu trữ họ, tên, tình trạng hôn nhân, quốc gia và tuổi của bạn trong nhiều dòng
+9. Khai báo các biến để lưu trữ họ, tên, tình trạng hôn nhân, quốc gia và tuổi của bạn trong một dòng duy nhất
+10. Khai báo 2 biến _myAge_ và _yourAge_ và gán giá trị cho nó, và xuất nó ra trên console của trình duyệt.
 
 ```sh
 I am 25 years old.
 You are 30 years old.
 ```
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 CHÚC MỪNG ! 🎉
 
 [Ngày 2 >>](./02_Day_Data_types/02_day_data_types.md)
