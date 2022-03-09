@@ -54,13 +54,16 @@
 <small> January, 2020</small>
 </sub>
 
-  <div>
+<div>
 
 🇬🇧 [English](./readMe.md)
 🇪🇸 [Spanish](./Spanish/readme.md)
 🇷🇺 [Russian](./RU/README.md)
+🇦🇿 [Azerbaijan](./Azerbaijani/readMe.md)
+KR [Korean](./Korea/README.md)
+🇻🇳 [Vietnamese](./Vietnamese/README.md)
 
-  </div>
+</div>
 
 </div>
 </div>
@@ -71,36 +74,36 @@
 
 - [30 Days Of JavaScript](#30-days-of-javascript)
 - [📔 Day 1](#-day-1)
-  - [Introduction](#introduction)
-  - [Requirements](#requirements)
-  - [Setup](#setup)
-    - [Install Node.js](#install-nodejs)
-    - [Browser](#browser)
-      - [Installing Google Chrome](#installing-google-chrome)
-      - [Opening Google Chrome Console](#opening-google-chrome-console)
-      - [Writing Code on Browser Console](#writing-code-on-browser-console)
-        - [Console.log](#consolelog)
-        - [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
-        - [Comments](#comments)
-        - [Syntax](#syntax)
-      - [Arithmetics](#arithmetics)
-    - [Code Editor](#code-editor)
-      - [Installing Visual Studio Code](#installing-visual-studio-code)
-      - [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
-  - [Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
-    - [Inline Script](#inline-script)
-    - [Internal Script](#internal-script)
-    - [External Script](#external-script)
-    - [Multiple External Scripts](#multiple-external-scripts)
-  - [Introduction to Data types](#introduction-to-data-types)
-    - [Numbers](#numbers)
-    - [Strings](#strings)
-    - [Booleans](#booleans)
-    - [Undefined](#undefined)
-    - [Null](#null)
-  - [Checking Data Types](#checking-data-types)
-  - [Comments Again](#comments-again)
-  - [Variables](#variables)
+	- [Introduction](#introduction)
+	- [Requirements](#requirements)
+	- [Setup](#setup)
+		- [Install Node.js](#install-nodejs)
+		- [Browser](#browser)
+			- [Installing Google Chrome](#installing-google-chrome)
+			- [Opening Google Chrome Console](#opening-google-chrome-console)
+			- [Writing Code on Browser Console](#writing-code-on-browser-console)
+				- [Console.log](#consolelog)
+				- [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
+				- [Comments](#comments)
+				- [Syntax](#syntax)
+			- [Arithmetics](#arithmetics)
+		- [Code Editor](#code-editor)
+			- [Installing Visual Studio Code](#installing-visual-studio-code)
+			- [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
+	- [Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
+		- [Inline Script](#inline-script)
+		- [Internal Script](#internal-script)
+		- [External Script](#external-script)
+		- [Multiple External Scripts](#multiple-external-scripts)
+	- [Introduction to Data types](#introduction-to-data-types)
+		- [Numbers](#numbers)
+		- [Strings](#strings)
+		- [Booleans](#booleans)
+		- [Undefined](#undefined)
+		- [Null](#null)
+	- [Checking Data Types](#checking-data-types)
+	- [Comments Again](#comments-again)
+	- [Variables](#variables)
 - [💻 Day 1: Exercises](#-day-1-exercises)
 
 # 📔 Day 1
@@ -148,7 +151,7 @@ asabeneh $ node -v
 v12.14.0
 ```
 
-When making this tutorial I was using Node version 12.14.0, but now the recommended version of Node.js for download is v14.17.6.
+When making this tutorial I was using Node version 12.14.0, but now the recommended version of Node.js for download is v14.17.6, by the time you use this material you may have a higher Node.js version.
 
 ### Browser
 
@@ -197,7 +200,7 @@ Ctl+Shift+I
 
 ##### Console.log
 
-To write our first JavaScript code, we used a built-in function **console.log()**. We passed an argument as input data, and the function displays the output. We passed 'Hello, World' as input data or argument in the console.log() function.
+To write our first JavaScript code, we used a built-in function **console.log()**. We passed an argument as input data, and the function displays the output. We passed `'Hello, World'` as input data or argument in the console.log() function.
 
 ```js
 console.log('Hello, World!')
@@ -205,7 +208,7 @@ console.log('Hello, World!')
 
 ##### Console.log with Multiple Arguments
 
-The **console.log()** function can take multiple parameters separated by commas. The syntax looks like as follows:**console.log(param1, param2, param3)**
+The **`console.log()`** function can take multiple parameters separated by commas. The syntax looks like as follows:**`console.log(param1, param2, param3)`**
 
 ![console log multiple arguments](./images/console_log_multipl_arguments.png)
 
@@ -215,31 +218,35 @@ console.log('HAPPY', 'NEW', 'YEAR', 2020)
 console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
 ```
 
-As you can see from the snippet code above, _console.log()_ can take multiple arguments.
+As you can see from the snippet code above, _`console.log()`_ can take multiple arguments.
 
-Congratulations! You wrote your first JavaScript code using _console.log()_.
+Congratulations! You wrote your first JavaScript code using _`console.log()`_.
 
 ##### Comments
 
-We add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code.In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this /\* \*/ is also a comment.
+We can add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this `//` is also a comment.
 
 **Example: Single Line Comment**
 
+```js
 // This is the first comment  
- // This is the second comment  
- // I am a single line comment
+// This is the second comment  
+// I am a single line comment
+```
 
 **Example: Multiline Comment**
 
+```js
 /*
 This is a multiline comment  
  Multiline comments can take multiple lines  
  JavaScript is the language of the web  
  */
+```
 
 ##### Syntax
 
-Programming languages are similar to human languages. English or many other language uses words, phrases, sentences,compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language.Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+Programming languages are similar to human languages. English or many other language uses words, phrases, sentences, compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language. Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
 
 ![Error](images/raising_syntax_error.png)
 
@@ -250,7 +257,7 @@ console.log('Hello, World!')
 console.log('Hello, World!')
 ```
 
-So far, we saw how to display text using the _console.log()_. If we are printing text or string using _console.log()_, the text has to be inside the single quotes, double quotes, or a backtick quotes.
+So far, we saw how to display text using the _`console.log()`_. If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or a backtick.
 **Example:**
 
 ```js
@@ -261,9 +268,9 @@ console.log(`Hello, World!`)
 
 #### Arithmetics
 
-Now, let us practice more writing JavaScript codes using _console.log()_ on google chrome console for number data types.
+Now, let us practice more writing JavaScript codes using _`console.log()`_ on Google Chrome console for number data types.
 In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
-The console can directly take arguments without the **_console.log()_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
+It is possible to write JavaScript code on Google Chrome console can directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
 
 ![Arithmetic](images/arithmetic.png)
 
@@ -278,11 +285,11 @@ console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 
 ### Code Editor
 
-We can write our codes on the browser console, but it won't do for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days JavaScript challenge, we will be using Visual Studio Code.
+We can write our codes on the browser console, but it won't be for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days of JavaScript challenge, we will be using Visual Studio Code.
 
 #### Installing Visual Studio Code
 
-Visual studio code is a very popular open-source text editor. I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
+Visual Studio Code is a very popular open-source text editor. I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
 
 ![Vscode](images/vscode.png)
 
@@ -319,11 +326,11 @@ The following sections show different ways of adding JavaScript code to your web
 
 ### Inline Script
 
-Create a project folder on your desktop or in any location, name it 30DaysOfJS and create an **_index.html_** file in the project folder. Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
+Create a project folder on your desktop or in any location, name it 30DaysOfJS and create an **_`index.html`_** file in the project folder. Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfScript:Inline Script</title>
   </head>
@@ -333,16 +340,16 @@ Create a project folder on your desktop or in any location, name it 30DaysOfJS a
 </html>
 ```
 
-Now, you just wrote your first inline script. We can create a pop up alert message using the _alert()_ built-in function.
+Now, you just wrote your first inline script. We can create a pop up alert message using the _`alert()`_ built-in function.
 
 ### Internal Script
 
-The internal script can be written in the _head_ or the _body_, but it is preferred to put it on the body of the HTML document.
+The internal script can be written in the _`head`_ or the _`body`_, but it is preferred to put it on the body of the HTML document.
 First, let us write on the head part of the page.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfScript:Internal Script</title>
     <script>
@@ -353,11 +360,11 @@ First, let us write on the head part of the page.
 </html>
 ```
 
-This is how we write an internal script most of the time. Writing the JavaScript code in the body section is the most preferred option. Open the browser console to see the output from the console.log()
+This is how we write an internal script most of the time. Writing the JavaScript code in the body section is the most preferred option. Open the browser console to see the output from the `console.log()`.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfScript:Internal Script</title>
   </head>
@@ -370,7 +377,7 @@ This is how we write an internal script most of the time. Writing the JavaScript
 </html>
 ```
 
-Open the browser console to see the output from the console.log()
+Open the browser console to see the output from the `console.log()`.
 
 ![js code from vscode](./images/js_code_vscode.png)
 
@@ -387,7 +394,7 @@ External scripts in the _head_:
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfJavaScript:External script</title>
     <script src="introduction.js"></script>
@@ -400,24 +407,24 @@ External scripts in the _body_:
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfJavaScript:External script</title>
   </head>
   <body>
-    <!-- it could be in the header or in the body --> 
-    <!-- Here is the recommended place to put the external script -->
+    <!-- JavaScript external link could be in the header or in the body --> 
+    <!-- Before the closing tag of the body is the recommended place to put the external JavaScript script -->
     <script src="introduction.js"></script>
   </body>
 </html>
 ```
 
-Open the browser console to see the output of the console.log()
+Open the browser console to see the output of the `console.log()`.
 
 ### Multiple External Scripts
 
 We can also link multiple external JavaScript files to a web page.
-Create a helloworld.js file inside the 30DaysOfJS folder and write the following code.
+Create a `helloworld.js` file inside the 30DaysOfJS folder and write the following code.
 
 ```js
 console.log('Hello, World!')
@@ -425,7 +432,7 @@ console.log('Hello, World!')
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Multiple External Scripts</title>
   </head>
@@ -442,7 +449,7 @@ _Your main.js file should be below all other scripts_. It is very important to r
 
 ## Introduction to Data types
 
-In JavaScript and also other programming languages, there are different kinds of data types. The following are JavaScript primitive data types:_String, Number, Boolean, undefined, Null_, and _Symbol_.
+In JavaScript and also other programming languages, there are different types of data types. The following are JavaScript primitive data types: _String, Number, Boolean, undefined, Null_, and _Symbol_.
 
 ### Numbers
 
@@ -456,16 +463,20 @@ In JavaScript and also other programming languages, there are different kinds of
 ### Strings
 
 A collection of one or more characters between two single quotes, double quotes, or backticks.
+
 **Example:**
 
 ```js
+'a'
 'Asabeneh'
+"Asabeneh"
 'Finland'
 'JavaScript is a beautiful programming language'
 'I love teaching'
 'I hope you are enjoying the first day'
 `We can also create a string using a backtick`
-'A string could be just as small as one character as big as many pages'
+'A string could be just as small as one character or as big as many pages'
+'Any data type under a single quote, double quote or backtick is a string'
 ```
 
 ### Booleans
@@ -532,7 +543,6 @@ Multiline commenting:
   let age = 100;
   let isMarried = true;
   This is a Multiple line comment
-
 */
 ```
 
@@ -573,11 +583,11 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follows the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables.
+The first and second variables on the list follows the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables(camelWithOneHump). We use CamelCase(CamelWithTwoHump) to declare classes, we will discuss about classes and objects in other section.
 
 Example of invalid variables:
 
-```sh
+```js
   first-name
   1_num
   num_#_1
@@ -589,6 +599,8 @@ Let us declare variables with different data types. To declare a variable, we ne
 // Syntax
 let nameOfVariable = value
 ```
+
+The nameOfVriable is the name that stores different data of value. See below for detail examples.
 
 **Examples of declared variables**
 
@@ -622,10 +634,8 @@ console.log(gravity, boilingPoint, PI)
 ```
 
 ```js
-// Variables can also be declaring in one line separated by comma
-let name = 'Asabeneh', // name of a person
-job = 'teacher',
-live = 'Finland'
+// Variables can also be declaring in one line separated by comma, however I recommend to use a seperate line to make code more readble
+let name = 'Asabeneh', job = 'teacher', live = 'Finland'
 console.log(name, job, live)
 ```
 

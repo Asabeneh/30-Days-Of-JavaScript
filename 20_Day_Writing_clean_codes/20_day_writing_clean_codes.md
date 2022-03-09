@@ -18,21 +18,21 @@
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_20.png)
 - [Day 20](#day-20)
-  - [Writing clean code](#writing-clean-code)
-    - [JavaScript Style Guide](#javascript-style-guide)
-    - [Why we need style guide](#why-we-need-style-guide)
-      - [Airbnb JavaScript Style Guide](#airbnb-javascript-style-guide)
-      - [Standard JavaScript Style Guide](#standard-javascript-style-guide)
-      - [Google JavaScript Style Guide](#google-javascript-style-guide)
-    - [JavaScript Coding Conventions](#javascript-coding-conventions)
-      - [Conventions use in 30DaysOfJavaScript](#conventions-use-in-30daysofjavascript)
-      - [Variables](#variables)
-      - [Arrays](#arrays)
-      - [Functions](#functions)
-      - [Loops](#loops)
-      - [Objects](#objects)
-      - [Conditional](#conditional)
-      - [Classes](#classes)
+	- [Writing clean code](#writing-clean-code)
+		- [JavaScript Style Guide](#javascript-style-guide)
+		- [Why we need style guide](#why-we-need-style-guide)
+			- [Airbnb JavaScript Style Guide](#airbnb-javascript-style-guide)
+			- [Standard JavaScript Style Guide](#standard-javascript-style-guide)
+			- [Google JavaScript Style Guide](#google-javascript-style-guide)
+		- [JavaScript Coding Conventions](#javascript-coding-conventions)
+			- [Conventions use in 30DaysOfJavaScript](#conventions-use-in-30daysofjavascript)
+			- [Variables](#variables)
+			- [Arrays](#arrays)
+			- [Functions](#functions)
+			- [Loops](#loops)
+			- [Objects](#objects)
+			- [Conditional](#conditional)
+			- [Classes](#classes)
 
 # Day 20
 
@@ -140,10 +140,10 @@ const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
 By now you are very familiar function declaration, expression function, arrow function and anonymous function. In this challenge we tend to use arrow function instead of other functions. Arrow function is not a replacement for other functions. In addition, arrow functions and function declarations are not exactly the same. So you should know when to use and when not. I will cover the difference in detail in other sections. We will use explicit return instead of implicit return if the function is one liner
 
 ```js
-// function which prints full name of a person
+// function which return full name of a person
 const printFullName = (firstName, lastName) => firstName + ' ' + lastName
 
-// function which calculate a square of a number
+// function which calculates a square of a number
 const square = (n) => n * n
 
 // a function which generate random hexa colors
@@ -180,6 +180,8 @@ const showDateTime = () => {
 }
 ```
 
+The `new Dat().toLocaleString()` can also be used to display current date time. The `toLocaleString()` methods takes different arguments. You may learn more about date and time from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString).
+
 #### Loops
 
 We coverer many types of loops in this challenges. The regular for loop, while loop, do while loop, for of loop, forEach loop and for in loop.
@@ -202,7 +204,7 @@ for(let i = 0; i < len; i++){
 
 // iterating an array using for of
 for( const name of names) {
-    console.log(name.toUpperCasee())
+    console.log(name.toUpperCase())
 }
 
 // iterating array using forEach 
@@ -218,7 +220,7 @@ const person = {
   skills: ['HTML','CSS','JavaScript','React','Node','MongoDB','Python','D3.js'],
   isMarried: true
 }
-for(const key in user) {
+for(const key in person) {
     console.log(key)
 }
 
@@ -236,14 +238,13 @@ const person = {
   age: 250,
   country: 'Finland',
   city: 'Helsinki',
-  skills: ['HTML','CSS','JavaScript','React','Node','MongoDB','Python','D3.js'],
+  skills: ['HTML','CSS','JavaScript','TypeScript', 'React','Node','MongoDB','Python','D3.js'],
   isMarried: true
 }
 // iterating through object keys
 for(const key in person) {
     console.log(key, person[key])
 }
-
 
 ```
 

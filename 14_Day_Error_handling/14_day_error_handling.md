@@ -19,12 +19,12 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_14.png)
 
 - [Day 14](#day-14)
-  - [Error Handling](#error-handling)
-    - [Error Types](#error-types)
-  - [Exercises](#exercises)
-    - [Exercises:Level 1](#exerciseslevel-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises:Level](#exerciseslevel)
+	- [Error Handling](#error-handling)
+		- [Error Types](#error-types)
+	- [Exercises](#exercises)
+		- [Exercises:Level 1](#exerciseslevel-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises:Level](#exerciseslevel)
 
 # Day 14
 
@@ -113,7 +113,7 @@ throw new Error('Required') // generates an error object with the message of Req
 ```
 
 ```js
-const throwErroExampleFun = () => {
+const throwErrorExampleFun = () => {
   let message
   let x = prompt('Enter a number: ')
   try {
@@ -126,7 +126,7 @@ const throwErroExampleFun = () => {
     console.log(err)
   }
 }
-throwErroExampleFun()
+throwErrorExampleFun()
 ```
 
 ### Error Types

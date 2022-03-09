@@ -19,16 +19,16 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_16.png)
 
 - [Day 16](#day-16)
-  - [JSON](#json)
-    - [Converting JSON to JavaScript Object](#converting-json-to-javascript-object)
-      - [JSON.parse()](#jsonparse)
-    - [Using a reviver function with JSON.parse()](#using-a-reviver-function-with-jsonparse)
-    - [Converting Object to JSON](#converting-object-to-json)
-    - [Using a Filter Array with JSON.stringify](#using-a-filter-array-with-jsonstringify)
-  - [Exercises](#exercises)
-    - [Exercises Level 1](#exercises-level-1)
-    - [Exercises Level 2](#exercises-level-2)
-    - [Exercises Level 3](#exercises-level-3)
+	- [JSON](#json)
+		- [Converting JSON to JavaScript Object](#converting-json-to-javascript-object)
+			- [JSON.parse()](#jsonparse)
+		- [Using a reviver function with JSON.parse()](#using-a-reviver-function-with-jsonparse)
+		- [Converting Object to JSON](#converting-object-to-json)
+		- [Using a Filter Array with JSON.stringify](#using-a-filter-array-with-jsonstringify)
+	- [Exercises](#exercises)
+		- [Exercises Level 1](#exercises-level-1)
+		- [Exercises Level 2](#exercises-level-2)
+		- [Exercises Level 3](#exercises-level-3)
 
 # Day 16
 
@@ -63,7 +63,7 @@ JSON stands for JavaScript Object Notation. The JSON syntax is derived from Java
 }
 ```
 
-The above JSON example is not much different for a normal object. Then, what is the difference ? The difference is the key of a JSON object should be with double quotes or it should be a string. JavaScript Object and JSON are very similar that we can change JSON to Object and Object to JSON.
+The above JSON example is not much different from a normal object. Then, what is the difference ? The difference is the key of a JSON object should be with double quotes or it should be a string. JavaScript Object and JSON are very similar that we can change JSON to Object and Object to JSON.
 
 Let us see the above example in more detail, it starts with a curly bracket. Inside the curly bracket, there is "users" key which has a value array. Inside the array we have different objects and each objects has keys, each keys has to have double quotes. For instance, we use "firstNaMe" instead of just firstName, however in object we use keys without double quotes. This is the major difference between an object and a JSON. Let's see more examples about JSON.
 
@@ -177,6 +177,10 @@ Mostly we fetch JSON data from HTTP response or from a file, but we can store th
 JSON.parse(json[, reviver])
 // json or text , the data
 // reviver is an optional callback function
+/* JSON.parse(json, (key, value) => {
+
+})
+*/
 ```
 
 ```js
@@ -440,7 +444,7 @@ const user = {
   country: 'Finland',
   city: 'Helsinki',
   email: 'alex@alex.com',
-  skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Pyhton'],
+  skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Python'],
   age: 250,
   isLoggedIn: false,
   points: 30
@@ -576,11 +580,8 @@ const txt = `{
 ### Exercises Level 1
 
 1. Change skills array to JSON using JSON.stringify()
-
 1. Stringify the age variable
-
 1. Stringify the isMarried variable
-   
 1. Stringify the student object
 
 ### Exercises Level 2
@@ -590,7 +591,7 @@ const txt = `{
 ### Exercises Level 3
 
 1. Parse the *txt* JSON to object.
-2. Find the the user who has many skills from the variable stored in *txt*.
+2. Find the user who has many skills from the variable stored in *txt*.
 
 🎉 CONGRATULATIONS ! 🎉
 

@@ -70,6 +70,7 @@
 
 En este tutorial de paso a paso, aprenderás JavaScript, el leguaje de programación más popular de la historia de la humanidad. Se usa para **_agregar interactividad a las páginas web, para desarrollar aplicaciones móviles, aplicaciones de desktop, juegos_** y ahora también puede ser usado para el **_aprendizaje automático_** (machine learning) e **_inteligencia artificial_** (AI). Su popularidad ha incrementado en años recientes, siendo el lenguaje predominante por cuatro años consecutivos y el más usado en GitHub.
 
+
 ## Requerimientos
 
 Ningún conocimiento previo es requerido para el siguiente desafío. Solo necesitarás:
@@ -101,7 +102,7 @@ Puedes comprobar si se ha instalado correctamente abriendo la terminal del orden
     v12.14.0
 ```
 
-Para el desafío estaremos utilizando la versión 12.14.0, la cual es la recomendada por node.
+Para el desafío estaremos utilizando la versión 12.14.0, la cual es la recomendada por Node.
 
 ### Navegador
 
@@ -389,8 +390,8 @@ Recuerda que los números decimales se deben separar por un punto, no vale usar 
 
 Una colección de uno o más carácteres entre comillas. **Ejemplo:**
 
-    "Asabeneh
-    "Finlandia
+    "Asabeneh"
+    "Finlandia" 
     'JavaScript es un hermoso lenguaje de programación'.
     "Me encanta enseñar"
     "Espero que estés disfrutando del primer día"
