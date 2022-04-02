@@ -102,7 +102,7 @@ console.log(sumArray(numbers))
 ```
 
 ```sh
-15
+10
 ```
 
 The above example can be simplified as follows:
@@ -122,7 +122,7 @@ console.log(sumArray(numbers))
 ```
 
 ```sh
-15
+10
 ```
 
 ### Setting time
@@ -203,6 +203,7 @@ console.log(sum)
 3
 4
 5
+0
 ```
 
 ```js
@@ -518,7 +519,7 @@ console.log(numbers) //[100, 37, 9.81, 3.14]
 
 #### Sorting Object Arrays
 
-When ever we sort objects in an array. We use the object key to compare. Lets see the example below.
+Whenever we sort objects in an array, we use the object key to compare. Let's see the example below.
 
 ```js
 objArr.sort(function (a, b) {
