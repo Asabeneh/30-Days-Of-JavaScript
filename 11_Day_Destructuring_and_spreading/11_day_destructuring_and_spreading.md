@@ -108,7 +108,7 @@ If we like to skip on of the values in the array we use additional comma. The co
 
 ```js
   const names = ['Asabeneh', 'Brook', 'David', 'John']
-  let [, secondPerson, , fourthPerson] = name // first and third person is omitted
+  let [, secondPerson, , fourthPerson] = names // first and third person is omitted
 
   console.log(secondPerson, fourthPerson)
 ```
@@ -218,7 +218,7 @@ console.log(w, h, a, p)
 20 10 200 undefined
 ```
 
-If the key is not found in the object the variable will be assigned to undefined. In case, the key is not in the object we can give a default value during declaration. See the example.
+If the key is not found in the object the variable will be assigned to undefined. In the case that the key is not in the object, we can give a default value during declaration. See the example.
 
 ```js
 const rectangle = {
@@ -229,7 +229,7 @@ const rectangle = {
 let { width, height, area, perimeter = 60 } = rectangle
 
 console.log(width, height, area, perimeter) //20 10 200 60
-//Lets modify the object:width to 30 and perimeter to 80
+//Let's modify the object:width to 30 and perimeter to 80
 ```
 
 ```js
@@ -243,7 +243,7 @@ let { width, height, area, perimeter = 60 } = rectangle
 console.log(width, height, area, perimeter) //30 10 200 80
 ```
 
-Destructuring keys as a function parameters. Lets create a function which take a rectangle object and it return a perimeter of a rectangle.
+Destructuring keys as a function parameters. Let's create a function which takes a rectangle object and returns a perimeter of a rectangle.
 
 ### Object parameter without destructuring
 
@@ -282,7 +282,7 @@ const person = {
   ],
   languages: ['Amharic', 'English', 'Suomi(Finnish)']
 }
-// Lets create a function which give information about the person object without destructuring
+// Let's create a function which give information about the person object without destructuring
 
 const getPersonInfo = obj => {
   const skills = obj.skills
@@ -300,6 +300,9 @@ const getPersonInfo = obj => {
 }
 
 console.log(getPersonInfo(person))
+/*
+Asabeneh Yetayeh lives in Finland. He is  250 years old. He is an Instructor and Developer. He teaches HTML, CSS, JavaScript, React, Redux, Node, MongoDB, Python and D3.js. He speaks Amharic, English and a little bit of Suomi(Finnish).
+*/
 ```
 
 ### Object parameter with destructuring
@@ -335,7 +338,7 @@ const getPersonInfo = ({
 }
 console.log(getPersonInfo(person))
 /*
-Asabeneh Yetayeh lives in Finland. He is  200 years old. He is an Instructor and Developer. He teaches HTML, CSS, JavaScript, React, Redux, Node, MongoDB, Python and D3.js. He speaks Amharic, English and a little bit of Suomi(Finnish)
+Asabeneh Yetayeh lives in Finland. He is 250 years old. He is an Instructor and Developer. He teaches HTML, CSS, JavaScript, React, Redux, Node, MongoDB, Python and D3.js. He speaks Amharic, English and a little bit of Suomi(Finnish).
 */
 ```
 
@@ -373,7 +376,7 @@ Assess Test Result 4/1/2020 1:00 false
 
 ### Spread or Rest Operator
 
-When we destructure an array we use the spread operator(...) to get the rest elements as array. In addition to that we use spread operator to spread arr elements to another array.
+When we destructure an array we use the spread operator(...) to get the rest elements as array. In addition to that we use spread operator to spread array elements to another array.
 
 ### Spread operator to get the rest of array elements
 
@@ -499,7 +502,7 @@ const sumAllNums = (...args) => {
   console.log(args)
 }
 
-sumAllNums(1, 2, 3,4,5)
+sumAllNums(1, 2, 3, 4, 5)
 
 ```
 
@@ -519,7 +522,7 @@ const sumAllNums = (...args) => {
   
 }
 
-console.log(sumAllNums(1, 2, 3,4,5))
+console.log(sumAllNums(1, 2, 3, 4, 5))
 ```
 
 ```sh
