@@ -44,8 +44,8 @@
 
 ## Set
 
-Set is  a collection of elements. Set can only contains unique elements.
-Lets see how to create a set
+Set is a collection of elements. Set can only contain unique elements.
+Let's see how to create a set
 
 ### Creating an empty set
 
@@ -55,7 +55,7 @@ console.log(companies)
 ```
 
 ```sh
-{}
+Set(0) {}
 ```
 
 ### Creating set from array
@@ -170,7 +170,7 @@ console.log(companies)
 ```
 
 ```sh
-{}
+Set(0) {}
 
 ```
 
@@ -202,7 +202,7 @@ console.log(counts)
 ```
 
 ```js
-;[
+[
   { lang: 'English', count: 3 },
   { lang: 'Finnish', count: 1 },
   { lang: 'French', count: 2 },
@@ -345,7 +345,7 @@ Helsinki
 
 ### Checking key in Map
 
-Check if a key exist in a map using _has_ method. It returns _true_ or _false_.
+Check if a key exists in a map using _has_ method. It returns _true_ or _false_.
 
 ```js
 console.log(countriesMap.has('Finland'))
@@ -364,14 +364,14 @@ for (const country of countriesMap) {
 ```
 
 ```sh
-(2) ["Finland", "Helsinki"]
-(2) ["Sweden", "Stockholm"]
-(2) ["Norway", "Oslo"]
+["Finland", "Helsinki"]
+["Sweden", "Stockholm"]
+["Norway", "Oslo"]
 ```
 
 ```js
 for (const [country, city] of countriesMap){
-console.log(country, city)
+  console.log(country, city)
 }
 ```
 
