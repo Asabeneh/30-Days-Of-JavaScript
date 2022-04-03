@@ -60,9 +60,9 @@ A pattern could be a text or any form of pattern which some sort of similarity. 
 
 #### Flags
 
-Flags are optional parameters in a regular expression which determine the type of searching. Let see some of the flags:
+Flags are optional parameters in a regular expression which determine the type of searching. Let's see some of the flags:
 
-- g:is a global flag which means looking for a pattern in whole text
+- g: a global flag which means looking for a pattern in whole text
 - i: case insensitive flag(it searches for both lowercase and uppercase)
 - m: multiline
 
@@ -106,7 +106,7 @@ let regEx= new RegExp('love','gi')
 
 ### RegExpp Object Methods
 
-Let see some of RegExp methods
+Let's see some of RegExp methods.
 
 #### Testing for  a match
 
@@ -227,7 +227,7 @@ I am teacher and  I love teaching.There is nothing as more rewarding as educatin
   * [0-9] means any number 0 to 9
   * [A-Za-z0-9] any character which is a to z, A to Z, 0 to 9
 * \\:  uses to escape special characters
-  * \d mean:match where the string contains digits (numbers from 0-9)
+  * \d mean: match where the string contains digits (numbers from 0-9)
   * \D mean: match where the string does not contain digits
 * . : any character except new line character(\n)
 * ^: starts with
@@ -236,13 +236,13 @@ I am teacher and  I love teaching.There is nothing as more rewarding as educatin
 * $: ends with
   * r'substring$' eg r'love$', sentence ends with a word love
 * *: zero or more times
-  * r'[a]*' means a optional or it can be occur many times.
+  * r'[a]*' means a optional or it can occur many times.
 * +: one or more times
-  * r'[a]+' mean at least once or more times
+  * r'[a]+' means at least once or more times
 * ?: zero or one times
-  *  r'[a]?' mean zero times or once
+  *  r'[a]?' means zero times or once
 * {3}: Exactly 3 characters
-* {3,}: At least 3 character
+* {3,}: At least 3 characters
 * {3,8}: 3 to 8 characters
 * |: Either or
   * r'apple|banana' mean either of an apple or a banana
@@ -257,7 +257,7 @@ Let's use example to clarify the above meta characters
 Let's use square bracket to include lower and upper case
 
 ```js
-const pattern = '[Aa]pple' // this square bracket mean either A or a
+const pattern = '[Aa]pple' // this square bracket means either A or a
 const txt = 'Apple and banana are fruits. An old cliche says an apple a day a doctor way has been replaced by a banana a day keeps the doctor far far away. '
 const matches = txt.match(pattern)
 
@@ -265,12 +265,12 @@ console.log(matches)
 ```
 
 ```sh
-["Apple", index: 0, input: "Apple and banana are fruits. An old cliche says an…by a banana a day keeps the doctor far far away. ", groups: undefined]
+["Apple", index: 0, input: "Apple and banana are fruits. An old cliche says an apple a day a doctor way has been replaced by a banana a day keeps the doctor far far away. ", groups: undefined]
 
 ```
 
 ```js
-const pattern = /[Aa]pple/g // this square bracket mean either A or a
+const pattern = /[Aa]pple/g // this square bracket means either A or a
 const txt = 'Apple and banana are fruits. An old cliche says an apple a day a doctor way has been replaced by a banana a day keeps the doctor far far away. '
 const matches = txt.match(pattern)
 
@@ -284,7 +284,7 @@ console.log(matches)
 If we want to look for the banana, we write the pattern as follows:
 
 ```js
-const pattern = /[Aa]pple|[Bb]anana/g // this square bracket mean either A or a
+const pattern = /[Aa]pple|[Bb]anana/g // this square bracket means either A or a
 const txt = 'Apple and banana are fruits. An old cliche says an apple a day a doctor way has been replaced by a banana a day keeps the doctor far far away. Banana is easy to eat too.'
 const matches = txt.match(pattern)
 
@@ -305,14 +305,6 @@ const txt = 'This regular expression example was made in January 12,  2020.'
 const matches = txt. match(pattern)
 
 console.log(matches)  // ["1", "2", "2", "0", "2", "0"], this is not what we want
-```
-
-```js
-const pattern = /\d+/g  // d is a special character which means digits
-const txt = 'This regular expression example was made in January 12,  2020.'
-const matches = txt. match(pattern)
-
-console.log(matches)  // ["12", "2020"], this is not what we want
 ```
 
 ### One or more times(+)
@@ -344,7 +336,7 @@ console.log(matches)  // ['and banana are fruits']
 
 ### Zero or more times(*)
 
-Zero or many times. The pattern could may not occur or it can occur many times.
+Zero or many times. The pattern may not occur or it can occur many times.
 
 ```js
 
@@ -358,7 +350,7 @@ console.log(matches)  // ['and banana are fruits']
 
 ### Zero or one times(?)
 
-Zero or one times. The pattern could may not occur or it may occur once.
+Zero or one times. The pattern may not occur or it may occur once.
 
 ```js
 const txt = 'I am not sure if there is a convention how to write the word e-mail.\
@@ -372,7 +364,7 @@ console.log(matches)  // ["e-mail", "email", "Email", "E-mail"]
 
 ### Quantifier in RegExp
 
-We can specify the length of the substring we look for in a text, using a curly bracket. Lets imagine, we are interested in substring that their length are 4 characters
+We can specify the length of the substring we look for in a text, using a curly bracket. Let's imagine, we are interested in substring that their length are 4 characters
 
 ```js
 const txt = 'This regular expression example was made in December 6,  2019.'
@@ -403,7 +395,7 @@ console.log(matches)  // ['This']
 
 ```js
 const txt = 'This regular expression example was made in December 6,  2019.'
-const pattern = /[^A-Za-z,. ]+/g  // ^ in set character means negation, not A to Z, not a to z, no space, no coma no period
+const pattern = /[^A-Za-z,. ]+/g  // ^ in set character means negation, not A to Z, not a to z, no space, no comma, no period
 const matches = txt.match(pattern)
 console.log(matches)  // ["6", "2019"]
 ```
