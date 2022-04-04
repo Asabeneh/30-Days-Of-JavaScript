@@ -135,10 +135,10 @@ The _document.querySelector_ method can select an HTML or HTML elements by tag n
 ```js
 let firstTitle = document.querySelector('h1') // select the first available h1 element
 let firstTitle = document.querySelector('#first-title') // select id with first-title
-let firstTitle = document.querySelector('.title') // select the first available h1 element with class title
+let firstTitle = document.querySelector('.title') // select the first available element with class title
 ```
 
-**_querySelectorAll_**: can be used to select html element by its tag name or class. It return a nodeList which is an array like object which support array methods. We can use **_for loop_** or **_forEach_** to loop through each nodeList elements.
+**_querySelectorAll_**: can be used to select html element by its tag name or class. It returns a nodeList which is an array like object which supports array methods. We can use **_for loop_** or **_forEach_** to loop through each nodeList elements.
 
 ```js
 const allTitles = document.querySelectorAll('h1')
