@@ -108,7 +108,7 @@ If we like to skip on of the values in the array we use additional comma. The co
 
 ```js
   const names = ['Asabeneh', 'Brook', 'David', 'John']
-  let [, secondPerson, , fourthPerson] = name // first and third person is omitted
+  let [, secondPerson, , fourthPerson] = names // first and third person is omitted
 
   console.log(secondPerson, fourthPerson)
 ```
