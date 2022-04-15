@@ -103,7 +103,6 @@ let phrase = 'python, jargon'
 let foundWord = /on/g
 console.log(phrase.match(foundWord))
 
-console.log(phrase.match(foundWord))
 //6. I hope this course is not full of jargon. Check if jargon is in the sentence.
 let jargonSentence = 'I hope this course is not full of jargon'
 console.log(jargonSentence.match('jargon'))
