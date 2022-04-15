@@ -204,13 +204,13 @@ let day_ = `${(now_.getDate())}`.padStart(2,'0');
  const date_ = now_.getDate();
  let minutes = now_.getMinutes()
  const hours_ = now_.getHours()
-console.log(`${year_}/${month_}/${day_}/${hours_}:${minutes}`)
+console.log(`${year_}/${month_}/${day_}/${hours_}:${minutes}`);
 
 //ii.  YYYY-MM-DD HH:mm
-console.log(`${year_}/${month_}/${day_}/${hours_}:${minutes}`)
+console.log(`${year_}/${month_}/${day_}/${hours_}:${minutes}`);
 
 //iii. DD/MM/YYYY HH:mm*/
-console.log(`${day_}/${month_}/${year_}/${hours_}:${minutes}`)
+console.log(`${day_}/${month_}/${year_}/${hours_}:${minutes}`);
 
   //Exercises: Level 3
 
