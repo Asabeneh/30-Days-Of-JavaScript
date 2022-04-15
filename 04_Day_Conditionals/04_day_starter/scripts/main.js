@@ -89,7 +89,7 @@ let daysOfWeek = ['monday', 'tuesday', 'wedsnesday','thursday',  'friday', 'satu
 
 let input = prompt('Enter day').toLowerCase();
  input === daysOfWeek[5] || input === daysOfWeek[6]? console.log(`${input[0].toUpperCase() + input.slice(1)} is a weekend`):
-input === daysOfWeek[0] || input === daysOfWeek[1] || input === daysOfWeek[2] || input === input[3] || input === daysOfWeek[4]? console.log(`${input[0].toUpperCase() + input.slice(1)} is a day working`):console.log(`${input} no es un dia de la semana`)
+input === daysOfWeek[0] || input === daysOfWeek[1] || input === daysOfWeek[2] || input === input[3] || input === daysOfWeek[4]? console.log(`${input[0].toUpperCase() + input.slice(1)} is a day working`):console.log(`${input} no es un dia de la semana`);
 
 //Exercises: Level 3
 
@@ -98,7 +98,7 @@ input === daysOfWeek[0] || input === daysOfWeek[1] || input === daysOfWeek[2] ||
 const months = {"january": 1, "february": 2, "march":3, "april": 4, "may": 5, "june": 6, "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12 };
 
 let daysInMonth = new Date(2022, months[prompt('Enter Month').toLowerCase], 0).getDate();
-console.log(daysInMonth)
+console.log(daysInMonth);
 
 
 
