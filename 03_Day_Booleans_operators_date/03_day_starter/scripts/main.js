@@ -11,7 +11,7 @@ typeof age
 'boolean'
 
 //2.Check if type of '10' is equal to 10
-  const type = '10'===10
+  const type = '10'=== 10
 //3.Check if parseInt('9.8') is equal to 10
   const parse = parseInt('9.8') 
   parse===10
