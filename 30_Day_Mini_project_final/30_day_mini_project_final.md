@@ -16,12 +16,14 @@
 
 <div>
 
-<small>Support [**Asabeneh**](https://www.patreon.com/asabeneh?fan_landing=true) to create more educational materials</small>  
- 
- 
 </div>
 
-[<< Day 29](../29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md) 
+<div>
+<small>Support the <strong>author</strong> to create more educational materials</small> <br />  
+<a href = "https://www.paypal.me/asabeneh"><img src='./../images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
+</div>
+
+[<< Day 29](../29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_30.png)
 
@@ -31,6 +33,7 @@
 		- [Exercise: Level 2](#exercise-level-2)
 		- [Exercise: Level 3](#exercise-level-3)
 	- [Testimony](#testimony)
+	- [Support](#support)
 
 # Day 30
 
@@ -45,9 +48,8 @@
 2. Validate the following form using regex.
 
    ![form validation](./../images/projects/dom_mini_project_form_validation_day_10.2.1.png)
-   
-   ![form validation](./../images/projects/dom_mini_project_form_validation_day_10.2.png)
 
+   ![form validation](./../images/projects/dom_mini_project_form_validation_day_10.2.png)
 
 ### Exercise: Level 2
 
@@ -57,8 +59,14 @@
 
 ## Testimony
 
-Now it is time to express your thoughts about the Author and 30DaysOfJavaScript. You can leave your testimonial on this [link](https://testimonify.herokuapp.com/)
+Now it is time support the author and  express your thoughts about the Author and 30DaysOfJavaScript. You can leave your testimonial on this [link](https://testimonify.herokuapp.com/)
 
-~![Congratulations](./../images/projects/congratulations.gif)
+## Support
+
+You can support the autor to produce more educational materials
+
+[![paypal](../images/paypal_lg.png)](https://www.paypal.me/asabeneh)
+
+![Congratulations](./../images/projects/congratulations.gif)
 
 [<< Day 29](../29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)  
