@@ -63,7 +63,7 @@ Now it is time support the author and  express your thoughts about the Author an
 
 ## Support
 
-You can support the autor to produce more educational materials
+You can support the author to produce more educational materials
 
 [![paypal](../images/paypal_lg.png)](https://www.paypal.me/asabeneh)
 
