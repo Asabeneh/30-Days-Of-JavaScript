@@ -45,7 +45,7 @@
 ## Set
 
 Set is  a collection of elements. Set can only contains unique elements.
-Lets see how to create a set
+Let us see how to create a set in the section below.
 
 ### Creating an empty set
 
@@ -55,7 +55,7 @@ console.log(companies)
 ```
 
 ```sh
-{}
+Set(0) {}
 ```
 
 ### Creating set from array
@@ -117,7 +117,6 @@ companies.add('Facebook')
 companies.add('Amazon')
 companies.add('Oracle')
 companies.add('Microsoft')
-
 console.log(companies.size) // 5 elements in the set
 console.log(companies)
 ```
@@ -165,13 +164,11 @@ It removes all the elements from a set.
 
 ```js
 companies.clear()
-
 console.log(companies)
 ```
 
 ```sh
-{}
-
+Set(0) {}
 ```
 
 See the example below to learn how to use set.
@@ -202,7 +199,7 @@ console.log(counts)
 ```
 
 ```js
-;[
+[
   { lang: 'English', count: 3 },
   { lang: 'Finnish', count: 1 },
   { lang: 'French', count: 2 },
@@ -345,7 +342,7 @@ Helsinki
 
 ### Checking key in Map
 
-Check if a key exist in a map using _has_ method. It returns _true_ or _false_.
+Check if a key exists in a map using _has_ method. It returns _true_ or _false_.
 
 ```js
 console.log(countriesMap.has('Finland'))
@@ -371,7 +368,7 @@ for (const country of countriesMap) {
 
 ```js
 for (const [country, city] of countriesMap){
-console.log(country, city)
+ console.log(country, city)
 }
 ```
 
@@ -438,8 +435,6 @@ const countries = ['Finland', 'Sweden', 'Norway']
   ]
 ```
 
-
 🎉 CONGRATULATIONS ! 🎉
-
 
 [<< Day 9](../09_Day_Higher_order_functions/09_day_higher_order_functions.md) | [Day 11 >>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)
