@@ -596,14 +596,14 @@ Example of invalid variables:
   num_#_1
 ```
 
-Let us declare variables with different data types. To declare a variable, we need to use _let_ or _const_ keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value(assigned data).
+Let us declare variables with different data types. To declare a variable, we need to use _let_ or _const_ keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value (assigned data).
 
 ```js
 // Syntax
 let nameOfVariable = value
 ```
 
-The nameOfVriable is the name that stores different data of value. See below for detail examples.
+The nameOfVariable is the name that stores different data of value. See the examples below for details.
 
 **Examples of declared variables**
 
@@ -637,7 +637,7 @@ console.log(gravity, boilingPoint, PI)
 ```
 
 ```js
-// Variables can also be declaring in one line separated by comma, however I recommend to use a seperate line to make code more readble
+// Variables can also be declared in one line separated by comma, however I recommend to use a seperate line to make code more readble
 let name = 'Asabeneh', job = 'teacher', live = 'Finland'
 console.log(name, job, live)
 ```
@@ -654,12 +654,12 @@ When you run _index.html_ file in the 01-Day folder you should get this:
 
 # 💻 Day 1: Exercises
 
-1. Write a single line comment which says, _comments can make code readable_
+1. Write a single comment which says, _comments can make code readable_
 2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_
 3. Write a multiline comment which says, _comments can make code readable, easy to reuse_
    _and informative_
 
-4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
+4. Create variable.js file and declare variables and assign string, boolean, undefined and null data types
 5. Create datatypes.js file and use the JavaScript **_typeof_** operator to check different data types. Check the data type of each variable
 6. Declare four variables without assigning values
 7. Declare four variables with assigned values
