@@ -532,6 +532,11 @@ There are two ways of commenting:
 - _Single line commenting_
 - _Multiline commenting_
 
+
+
+Single line commenting:
+
+
 ```js
 // commenting the code itself with a single comment
 // let firstName = 'Asabeneh'; single line comment
