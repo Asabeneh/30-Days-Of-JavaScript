@@ -102,7 +102,7 @@ console.log(sumArray(numbers))
 ```
 
 ```sh
-15
+10
 ```
 
 The above example can be simplified as follows:
@@ -122,7 +122,7 @@ console.log(sumArray(numbers))
 ```
 
 ```sh
-15
+10
 ```
 
 ### Setting time
@@ -191,10 +191,8 @@ arr.forEach((element, index, arr) => console.log(index, element, arr))
 ```
 
 ```js
-let sum = 0;
 const numbers = [1, 2, 3, 4, 5];
 numbers.forEach(num => console.log(num))
-console.log(sum)
 ```
 
 ```sh
