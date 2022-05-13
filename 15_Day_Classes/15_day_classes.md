@@ -243,7 +243,7 @@ console.log(person2.getFullName())
 
 ```sh
 Asabeneh Yetayeh
-test.js:19 Lidiya Tekle
+Lidiya Tekle
 ```
 
 ### Properties with initial value
