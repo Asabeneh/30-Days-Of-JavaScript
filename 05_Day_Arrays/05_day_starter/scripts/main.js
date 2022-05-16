@@ -114,9 +114,9 @@ let text =
 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
 console.log(text)
 let replace = text.replace(/[^\w ]/g, '');
-console.log(replace)
+console.log(replace);
 const words = text.split(' ')
-console.log(words)
+console.log(words);
 console.log(words.length)
 
 //3. In the following shopping cart add, remove, edit items
@@ -183,7 +183,7 @@ const average = Math.round(ages.reduce((a,b) => a+b) / ages.length)
 console.log(`The average from ages is ${average}`) 
 
 //°Find the range of the ages(max minus min)
-let range = console.log(max - min)
+let range = console.log(max - min);
 
 //°Compare the value of (min - average) and (max - average), use abs() 
 console.log(Math.abs(min-average))
