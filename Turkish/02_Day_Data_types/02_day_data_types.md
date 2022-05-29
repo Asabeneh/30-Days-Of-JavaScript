@@ -16,7 +16,7 @@
 
 [<< Gün 1](../readMe.md) | [Gün 3 >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)
 
-![JavaScript'in 30 Günü](../images/banners/day_1_2.png)
+![JavaScript'in 30 Günü](../../images/banners/day_1_2.png)
 
 - [📔 Gün 2](#-gun-2)
 	- [Veri Türleri](#veri-turleri)
@@ -462,7 +462,7 @@ console.log(firstName.length)  // 8
 
 2. *String'deki karakterlere erişim*: String içerisinde bulunan her karaktere indeks numarasıyla erişebiliriz. Programlamada sayma 0 dan başlar. String'in ilk dizini 0, son dizini ise toplam uzunluğun -1'dir. ( Kısaca 10 karakter varsa sıralama 0-9 arasında yapılıyor. Resme bakın daha iyi anlayacaksınız.)
 
-  ![Dizine göre dizine erişme](../images/string_indexes.png)
+  ![Dizine göre dizine erişme](../../images/string_indexes.png)
   
 'JavaScript' string'indeki  farklı karakterlere erişelim.
 
