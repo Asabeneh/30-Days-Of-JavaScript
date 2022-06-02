@@ -17,7 +17,7 @@
 
 ![30 Günde JavaScript](../../images/banners/day_1_3.png)
 
-- [📔 Gün 3](#-day-3)
+- [📔 Gün 3](#-gün-3)
 	- [Boolean Değerleri](#boolean-degerleri)
 		- [Doğru Değerleri](#doğru-değerleri)
 		- [Yanlış Değerleri](#yanlış-değerleri)
@@ -51,7 +51,7 @@
 		- [Egzersiz: Seviye 2](#egzersiz-seviye-2)
 		- [Egzersiz: Seviye 3](#egzersiz-seviye-3)
 
-# 📔 Day 3
+# 📔 Gün 3
 
 ## Boolean Değerleri
 
