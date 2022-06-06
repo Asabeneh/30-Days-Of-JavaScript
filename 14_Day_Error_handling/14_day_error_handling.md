@@ -103,7 +103,7 @@ Error message firstName is not defined
 In any case I will be executed
 ```
 
-throw: the throw statement allows us to create a custom error. We can through a string, number, boolean or an object. Use the throw statement to throw an exception. When you throw an exception, expression specifies the value of the exception. Each of the following throws an exception:
+throw: the throw statement allows us to create a custom error. We can throw a string, number, boolean or an object. Use the throw statement to throw an exception. When you throw an exception, expression specifies the value of the exception. Each of the following throws an exception:
 
 ```js
 throw 'Error2' // generates an exception with a string value
