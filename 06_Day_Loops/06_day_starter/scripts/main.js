@@ -104,7 +104,7 @@ for(let i = 0; i <= 10; i++){
 //7. Use for loop to iterate from 0 to 100 and print only even numbers
  let evenNums = []
 for(let i = 0; i <= 100; i++){
-  let s =2
+ 
   if(i % 2 === 0){
     evenNums.push(i)
   }
@@ -379,7 +379,7 @@ for (i = 0; i < countries.length; i++) {
 }
 
 //10. Using the above countries array, find the country containing only 5 characters.
-fiveLength = (element)=> element.length === 5
+fiveLength = (element) => element.length === 5
 console.log(countries.filter(fiveLength))
 
 //11. Find the longest word in the webTechs array
@@ -492,7 +492,7 @@ console.log(land_)
 const logestWord_ = arr => {
   word = arr[0]
   for(let i=0;i<arr.length;i++){
-    if(word.length<arr[i].length){
+    if(word.length < arr[i].length){
        word = arr[i]
     }
   }

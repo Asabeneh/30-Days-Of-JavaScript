@@ -15,8 +15,7 @@ let nums= [1, 120, 23, 45, 102]
 
      function createGodzilla(color, weight = 200, sound, powers){
 
-     }
-
+    }
     // desestructuracion
 
      createGodzilla('blue', undefined, ['lighting'])
@@ -43,6 +42,7 @@ let nums= [1, 120, 23, 45, 102]
 
         const loki = lokiDisfraces[adversario] || lokiDefaultDisfraz
         console.log(loki)
+    
 
 
         let numeros = [1,2,3,4,]
