@@ -21,10 +21,10 @@
 - [Day 9](#day-9)
 	- [Higher Order Function](#higher-order-function)
 		- [Callback](#callback)
-		- [Returning function](#returning-function)
-		- [Setting time](#setting-time)
-			- [Setting Interval using a setInterval function](#setting-interval-using-a-setinterval-function)
-			- [Setting a time using a setTimeout](#setting-a-time-using-a-settimeout)
+		- [restituire una funzione](#returning-function)
+		- [Impostare il tempo](#setting-time)
+			- [Impostare un intervallo con la funzione setInterval](#setting-interval-using-a-setinterval-function)
+			- [Impostare il tempo di esecuzione di una callback con setTimeout](#setting-a-time-using-a-settimeout)
 	- [Functional Programming](#functional-programming)
 		- [forEach](#foreach)
 		- [map](#map)
@@ -35,9 +35,9 @@
 		- [findIndex](#findindex)
 		- [some](#some)
 		- [sort](#sort)
-			- [Sorting string values](#sorting-string-values)
-			- [Sorting Numeric values](#sorting-numeric-values)
-			- [Sorting Object Arrays](#sorting-object-arrays)
+			- [Ordinare i valori string](#sorting-string-values)
+			- [Ordinare i valori numbers](#sorting-numeric-values)
+			- [Ordinare i valori Object](#sorting-object-arrays)
 	- [💻 Esercizi](#-exercises)
 		- [Esercizi: Livello 1](#exercises-level-1)
 		- [Esercizi: Livello 2](#exercises-level-2)
@@ -47,11 +47,11 @@
 
 ## Higher Order Function
 
-Higher order functions are functions which take other function as a parameter or return a function as a value. The function passed as a parameter is called callback.
+Le funzioni di ordine superiore sono funzioni che accettano un'altra funzione come parametro o restituiscono una funzione come valore. La funzione passata come parametro è chiamata callback.
 
 ### Callback
 
-A callback is a function which can be passed as parameter to other function. See the example below.
+Un callback è una funzione che può essere passata come parametro ad altre funzioni. Si veda l'esempio seguente.
 
 ```js
 // a callback function, the name of the function could be any name
@@ -67,9 +67,9 @@ function cube(callback, n) {
 console.log(cube(callback, 3))
 ```
 
-### Returning function
+### restituire una funzione
 
-Higher order functions return function as a value
+Le funzioni di ordine superiore restituiscono la funzione come valore
 ​
 ```js
 // Higher order function returning an other function
@@ -85,7 +85,7 @@ const higherOrder = n => {
 console.log(higherOrder(2)(3)(10))
 ```
 
-Let us see were we use call back functions. For instance the _forEach_ method uses call back.
+Vediamo come utilizzare le funzioni di richiamo. Ad esempio, il metodo _forEach_ utilizza il richiamo.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -105,7 +105,7 @@ console.log(sumArray(numbers))
 15
 ```
 
-The above example can be simplified as follows:
+L'esempio precedente può essere semplificato come segue:
 
 ```js
 const numbers = [1, 2, 3, 4]
@@ -125,16 +125,16 @@ console.log(sumArray(numbers))
 15
 ```
 
-### Setting time
+### Impostare il tempo
 
-In JavaScript we can execute some activities in a certain interval of time or we can schedule(wait) for some time to execute some activities.
+In JavaScript possiamo eseguire alcune attività in un certo intervallo di tempo oppure possiamo programmare (attendere) l'esecuzione di alcune attività.
 
 - setInterval
 - setTimeout
 
-#### Setting Interval using a setInterval function
+#### Impostare un intervallo con la funzione setInterval
 
-In JavaScript, we use setInterval higher order function to do some activity continuously with in some interval of time. The setInterval global method take a callback function and a duration as a parameter. The duration is in milliseconds and the callback will be always called in that interval of time.
+In JavaScript, si usa la funzione di ordine superiore setInterval per eseguire un'attività in modo continuo in un certo intervallo di tempo. Il metodo globale setInterval accetta una funzione di callback e una durata come parametro. La durata è espressa in millisecondi e il callback sarà sempre richiamato in quell'intervallo di tempo.
 
 ```js
 // syntax
@@ -151,9 +151,9 @@ function sayHello() {
 setInterval(sayHello, 1000) // it prints hello in every second, 1000ms is 1s
 ```
 
-#### Setting a time using a setTimeout
+#### Impostare il tempo di esecuzione di una callback con setTimeout
 
-In JavaScript, we use setTimeout higher order function to execute some action at some time in the future. The setTimeout global method take a callback function and a duration as a parameter. The duration is in milliseconds and the callback wait for that amount of time.
+In JavaScript, si usa la funzione di ordine superiore setTimeout per eseguire un'azione in un momento futuro. Il metodo globale setTimeout accetta una funzione di callback e una durata come parametro. La durata è espressa in millisecondi e il callback attende per questo lasso di tempo.
 
 ```js
 // syntax
@@ -172,11 +172,11 @@ setTimeout(sayHello, 2000) // it prints hello after it waits for 2 seconds.
 
 ## Functional Programming
 
-Instead of writing regular loop, latest version of JavaScript introduced lots of built in methods which can help us to solve complicated problems. All builtin methods take callback function. In this section, we will see _forEach_, _map_, _filter_, _reduce_, _find_, _every_, _some_, and _sort_.
+Invece di scrivere cicli regolari, l'ultima versione di JavaScript ha introdotto molti metodi integrati che possono aiutarci a risolvere problemi complicati. Tutti i metodi incorporati richiedono una funzione di callback. In questa sezione vedremo _forEach_, _map_, _filter_, _reduce_, _find_, _every_, _some_ e _sort_.
 
 ### forEach
 
-_forEach_: Iterate an array elements. We use _forEach_ only with arrays. It takes a callback function with elements, index parameter and array itself. The index and the array optional.
+_forEach_: Itera gli elementi di un array. Si usa _forEach_ solo con gli array. Richiede una funzione di callback con elementi, un parametro indice e l'array stesso. L'indice e l'array sono facoltativi.
 
 ```js
 arr.forEach(function (element, index, arr) {
@@ -232,7 +232,7 @@ ICELAND
 
 ### map
 
-_map_: Iterate an array elements and modify the array elements. It takes a callback function with elements,  index , array parameter and return a new array.
+_map_: Itera gli elementi di un array e modifica gli elementi dell'array. Prende una funzione di callback con elementi, indice, parametro dell'array e restituisce un nuovo array.
 
 ```js
 const modifiedArray = arr.map(function (element, index, arr) {
@@ -308,7 +308,7 @@ const countriesFirstThreeLetters = countries.map((country) =>
 
 ### filter
 
-_Filter_: Filter out items which full fill filtering conditions and return a new array.
+_Filter_: Filtra gli elementi che soddisfano le condizioni di filtraggio e restituisce un nuovo array.
 
 ```js
 //Filter countries containing land
@@ -362,7 +362,7 @@ console.log(scoresGreaterEighty)
 
 ### reduce
 
-_reduce_: Reduce takes a callback function. The call back function takes accumulator,  current, and optional initial value as a parameter and returns a single value. It is a good practice to define an initial value for the accumulator value. If we do not specify this parameter, by default accumulator will get array `first value`. If our array is an _empty array_, then `Javascript` will throw an error.
+_reduce_: Reduce accetta una funzione di richiamo. La funzione di richiamo prende come parametro l'accumulatore, il valore corrente e il valore iniziale opzionale e restituisce un singolo valore. È buona norma definire un valore iniziale per il valore dell'accumulatore. Se non si specifica questo parametro, per impostazione predefinita l'accumulatore otterrà il "primo valore" dell'array. Se la nostra matrice è una matrice _vuota_, allora `Javascript` lancerà un errore.
 
 ```js
 arr.reduce((acc, cur) => {
@@ -384,7 +384,7 @@ console.log(sum)
 
 ### every
 
-_every_: Check if all the elements are similar in one aspect. It returns boolean
+_every_: Controlla se tutti gli elementi sono simili in un aspetto. Restituisce un booleano
 
 ```js
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
@@ -411,7 +411,7 @@ true
 
 ### find
 
-_find_: Return the first element which satisfies the condition
+_find_: Restituisce il primo elemento che soddisfa la condizione
 
 ```js
 const ages = [24, 22, 25, 32, 35, 18]
@@ -453,7 +453,7 @@ console.log(score)
 
 ### findIndex
 
-_findIndex_: Return the position of the first element which satisfies the condition
+_findIndex_: Restituisce la posizione del primo elemento che soddisfa la condizione
 
 ```js
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
@@ -468,7 +468,7 @@ console.log(age) // 5
 
 ### some
 
-_some_: Check if some of the elements are similar in one aspect. It returns boolean
+_some_: Controlla se alcuni elementi sono simili in un aspetto. Restituisce un booleano
 
 ```js
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
@@ -486,9 +486,9 @@ console.log(areAllStr) // false
 
 ### sort
 
-_sort_: The sort methods arranges the array elements either ascending or descending order. By default, the **_sort()_** method sorts values as strings.This works well for string array items but not for numbers. If number values are sorted as strings and it give us wrong result. Sort method modify the original array. It is recommended to copy the original data before you start using _sort_ method.
+_sort_: I metodi di ordinamento dispongono gli elementi dell'array in ordine crescente o decrescente. Per impostazione predefinita, il metodo **_sort()_** ordina i valori come stringhe, il che funziona bene per gli elementi dell'array di stringhe, ma non per i numeri. Se i valori numerici vengono ordinati come stringhe, il risultato è sbagliato. Il metodo Sort modifica l'array originale. Si consiglia di copiare i dati originali prima di iniziare a usare il metodo _sort_.
 
-#### Sorting string values
+#### Ordinare i valori string
 
 ```js
 const products = ['Milk', 'Coffee', 'Sugar', 'Honey', 'Apple', 'Carrot']
@@ -496,9 +496,9 @@ console.log(products.sort()) // ['Apple', 'Carrot', 'Coffee', 'Honey', 'Milk', '
 //Now the original products array  is also sorted
 ```
 
-#### Sorting Numeric values
+#### Ordinare i valori numbers
 
-As you can see in the example below, 100 came first after sorted in ascending order. Sort converts items to string , since '100' and other numbers compared, 1 which the beginning of the string '100' became the smallest. To avoid this, we use a compare call back function inside the sort method, which return a negative, zero or positive.
+Come si può vedere nell'esempio seguente, 100 è arrivato per primo dopo l'ordinamento in ordine crescente. L'ordinamento converte gli elementi in stringhe, poiché '100' e altri numeri sono stati confrontati, 1 che all'inizio della stringa '100' è diventato il più piccolo. Per evitare ciò, utilizziamo una funzione di richiamo di confronto all'interno del metodo sort, che restituisce un valore negativo, zero o positivo.
 
 ```js
 const numbers = [9.81, 3.14, 100, 37]
@@ -516,9 +516,9 @@ numbers.sort(function (a, b) {
 console.log(numbers) //[100, 37, 9.81, 3.14]
 ```
 
-#### Sorting Object Arrays
+#### Ordinare i valori Object
 
-Whenever we sort objects in an array, we use the object key to compare. Let us see the example below.
+Quando si ordinano gli oggetti in una matrice, si utilizza la chiave dell'oggetto da confrontare. Vediamo l'esempio seguente.
 
 ```js
 objArr.sort(function (a, b) {
@@ -550,7 +550,7 @@ console.log(users) // sorted ascending
 // [{…}, {…}, {…}, {…}]
 ```
 
-🌕 You are doing great.Never give up because great things take time. You have just completed day 9 challenges and you are 9 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕Stai andando alla grande. Non arrenderti mai perché le grandi cose richiedono tempo. Hai appena completato le sfide del nono giorno e sei a 9 passi dalla tua strada verso la grandezza. Ora fai qualche esercizio per il cervello e per i muscoli.
 
 ## 💻 Esercizi
 
@@ -570,47 +570,47 @@ const products = [
 ]
 ```
 
-1. Explain the difference between **_forEach, map, filter, and reduce_**.
-2. Define a callback function before you use it in forEach, map, filter or reduce.
-3. Use **_forEach_** to console.log each country in the countries array.
-4. Use **_forEach_** to console.log each name in the names array.
-5. Use **_forEach_** to console.log each number in the numbers array.
-6. Use **_map_** to create a new array by changing each country to uppercase in the countries array.
-7. Use **_map_** to create an array of countries length from countries array.
-8. Use **_map_** to create a new array by changing each number to square in the numbers array
-9. Use **_map_** to change to each name to uppercase in the names array
-10. Use **_map_** to map the products array to its corresponding prices.
-11. Use **_filter_** to filter out countries containing **_land_**.
-12. Use **_filter_** to filter out countries having six character.
-13. Use **_filter_** to filter out countries containing six letters and more in the country array.
-14. Use **_filter_** to filter out country start with 'E';
-15. Use **_filter_** to filter out only prices with values.
-16. Declare a function called getStringLists which takes an array as a parameter and then returns an array only with string items.
-17. Use **_reduce_** to sum all the numbers in the numbers array.
-18. Use **_reduce_** to concatenate all the countries and to produce this sentence: **_Estonia, Finland, Sweden, Denmark, Norway, and IceLand are north European countries_**
-19. Explain the difference between **_some_** and **_every_**
-20. Use **_some_** to check if some names' length greater than seven in names array
-21. Use **_every_** to check if all the countries contain the word land
-22. Explain the difference between **_find_** and **_findIndex_**.
-23. Use **_find_** to find the first country containing only six letters in the countries array
-24. Use **_findIndex_** to find the position of the first country containing only six letters in the countries array
-25. Use **_findIndex_** to find the position of **_Norway_** if it doesn't exist in the array you will get -1.
-26. Use **_findIndex_** to find the position of **_Russia_** if it doesn't exist in the array you will get -1.
+1. Spiegare la differenza tra **_forEach, map, filter e reduce_**.
+2. Definire una funzione di callback prima di utilizzarla in forEach, map, filter o reduce.
+3. Usate **_forEach_** per registrare in console.log ogni paese nell'array dei paesi.
+4. Usare **_forEach_** per registrare in console.log ogni nome nell'array dei nomi.
+5. Usare **_forEach_** per registrare in console.log ogni numero nell'array numbers.
+6. Usare **_map_** per creare un nuovo array cambiando ogni paese in maiuscolo nell'array paesi.
+7. Usare **_map_** per creare un array di paesi di lunghezza pari a quella dell'array paesi.
+8. Usare **_map_** per creare un nuovo array cambiando ogni numero in quadrato nell'array dei numeri.
+9. Usare **_map_** per cambiare ogni nome in maiuscolo nell'array dei nomi.
+10. Usare **_map_** per mappare l'array dei prodotti ai prezzi corrispondenti.
+11. Utilizzare **_filtro_** per filtrare i paesi contenenti **_terra_**.
+12. Usare **_filtro_** per filtrare i paesi con sei caratteri.
+13. Usare **_filtro_** per filtrare i paesi contenenti sei lettere o più nell'array dei paesi.
+14. Usare **_filter_** per filtrare i paesi che iniziano con 'E';
+15. Usare **_filter_** per filtrare solo i prezzi con valori.
+16. Dichiarare una funzione chiamata getStringLists che accetta un array come parametro e restituisce un array contenente solo elementi stringa.
+17. Usare **_reduce_** per sommare tutti i numeri nell'array numbers.
+18. Usare **_reduce_** per concatenare tutti i paesi e produrre questa frase: **_Estonia, Finlandia, Svezia, Danimarca, Norvegia e IceLand sono paesi del Nord Europa_**.
+19. Spiegate la differenza tra **alcuni_** e **tutti_**.
+20. Usate **_qualche_** per verificare se la lunghezza di alcuni nomi è maggiore di sette nell'array dei nomi.
+21. Usare **_every_** per verificare se tutti i paesi contengono la parola land (terra).
+22. Spiegate la differenza tra **_find_** e **_findIndex_**.
+23. Usate **_find_** per trovare il primo paese che contiene solo sei lettere nell'array dei paesi.
+24. Usare **_findIndex_** per trovare la posizione del primo paese contenente solo sei lettere nell'array dei paesi.
+25. Usare **_findIndex_** per trovare la posizione di **_Norvegia_** se non esiste nell'array si otterrà -1.
+26. Usare **_findIndex_** per trovare la posizione di **_Russia_** se non esiste nell'array si otterrà -1.
 
 ### Esercizi: Livello 2
 
-1. Find the total price of products by chaining two or more array iterators(eg. arr.map(callback).filter(callback).reduce(callback))
-1. Find the sum of price of products using only reduce reduce(callback))
-1. Declare a function called **_categorizeCountries_** which returns an array of countries which have some common pattern(you find the countries array in this repository as countries.js(eg 'land', 'ia', 'island','stan')).
-1. Create a function which return an array of objects, which is the letter and the number of times the letter use to start with a name of a country.
-1. Declare a **_getFirstTenCountries_** function and return an array of ten countries. Use different functional programming to work on the countries.js array
-1. Declare a **_getLastTenCountries_** function which which returns the last ten countries in the countries array.
-1. Find out which _letter_ is used many _times_ as initial for a country name from the countries array (eg. Finland, Fiji, France etc)
+1. Trovare il prezzo totale dei prodotti concatenando due o più iteratori di array (es. arr.map(callback).filter(callback).reduce(callback))
+1. Trovare la somma dei prezzi dei prodotti usando solo reduce(callback))
+1. Dichiarare una funzione chiamata **_categorizeCountries_** che restituisce un array di Paesi che hanno un modello comune (l'array dei Paesi si trova in questo repository come countries.js (ad esempio 'land', 'ia', 'island', 'stan')).
+1. Creare una funzione che restituisca un array di oggetti, ovvero la lettera e il numero di volte in cui la lettera inizia con il nome di un paese.
+1. Dichiarare una funzione **_getFirstTenCountries_** e restituire un array di dieci paesi. Utilizzare una programmazione funzionale diversa per lavorare sull'array countries.js
+1. Dichiarare una funzione **_getLastTenCountries_** che restituisca gli ultimi dieci paesi dell'array countries.
+1. Scoprite quale _lettera_ viene usata molte _volte_ come iniziale del nome di un paese dall'array dei paesi (es. Finlandia, Figi, Francia ecc.).
 
 ### Esercizi: Livello 3
 
-1. Use the countries information, in the data folder. Sort countries by name, by capital, by population
-1. \*\*\* Find the 10 most spoken languages:
+1. Utilizzate le informazioni sui Paesi, contenute nella cartella dei dati. Ordinare i Paesi per nome, per capitale, per popolazione
+1. \*\*\* Trovare le 10 lingue più parlate:
 
    ````js
    // Your output should look like this
@@ -638,7 +638,7 @@ const products = [
 
    ````
 
-2. \*\*\* Use countries_data.js file create a function which create the ten most populated countries
+2. \*\*\* Usare il file countries_data.js per creare una funzione che crei i dieci paesi più popolosi.
 
    ````js
    console.log(mostPopulatedCountries(countries, 10))
@@ -666,7 +666,7 @@ const products = [
 
    ````
 
-3. \*\*\* Try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create an object called statistics and create all the functions which do statistical calculations as method for the statistics object. Check the output below.
+3. \*\*\* Cercate di sviluppare un programma che calcoli la misura della tendenza centrale di un campione (media, mediana, modalità) e la misura della variabilità (intervallo, varianza, deviazione standard). Oltre a queste misure, trovate il minimo, il massimo, il numero, il percentile e la distribuzione di frequenza del campione. È possibile creare un oggetto chiamato statistiche e creare tutte le funzioni che eseguono calcoli statistici come metodi per l'oggetto statistiche. Verificate l'output qui sotto.
 
    ```js
    const ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]

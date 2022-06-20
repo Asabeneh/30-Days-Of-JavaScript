@@ -18,19 +18,19 @@
 ![Day 11](../../images/banners/day_1_11.png)
 
 - [Day 11](#day-11)
-	- [Destructuring and Spread](#destructuring-and-spread)
+	- [Destructuring e Spread](#destructuring-and-spread)
 		- [Destructing Arrays](#destructing-arrays)
-		- [Destructuring during iteration](#destructuring-during-iteration)
-		- [Destructuring Object](#destructuring-object)
-		- [Renaming during structuring](#renaming-during-structuring)
-		- [Object parameter without destructuring](#object-parameter-without-destructuring)
-		- [Object parameter with destructuring](#object-parameter-with-destructuring)
-		- [Destructuring object during iteration](#destructuring-object-during-iteration)
-		- [Spread or Rest Operator](#spread-or-rest-operator)
-		- [Spread operator to get the rest of array elements](#spread-operator-to-get-the-rest-of-array-elements)
-		- [Spread operator to copy array](#spread-operator-to-copy-array)
-		- [Spread operator to copy object](#spread-operator-to-copy-object)
-			- [Spread operator with arrow function](#spread-operator-with-arrow-function)
+		- [Destructuring durante iterazione](#destructuring-during-iteration)
+		- [Object Destructuring](#destructuring-object)
+		- [Rinominare durante structuring](#renaming-during-structuring)
+		- [Object parameter senza destructuring](#object-parameter-without-destructuring)
+		- [Object parameter con destructuring](#object-parameter-with-destructuring)
+		- [Object Destructuring durante l'iterazione](#destructuring-object-during-iteration)
+		- [Spread o Rest Operator](#spread-or-rest-operator)
+		- [Operatore Spread per ottenere il resto degli elementi di un array](#spread-operator-to-get-the-rest-of-array-elements)
+		- [Operatore Spread per copiare un array](#spread-operator-to-copy-array)
+		- [Operatore Spread per copiare oggetti](#spread-operator-to-copy-object)
+			- [Operatore Spread con arrow function](#spread-operator-with-arrow-function)
 	- [Esercizi](#exercises)
 		- [Esercizi: Livello 1](#exercises-level-1)
 		- [Esercizi: Livello 2](#exercises-level-2)
@@ -38,9 +38,9 @@
 
 # Day 11
 
-## Destructuring and Spread
+## Destructuring e Spread
 
-Destructuring is a way to unpack arrays, and objects and assigning to a distinct variable.
+La destrutturazione è un modo per disimballare array e oggetti e assegnarli a una variabile distinta.
 
 ### Destructing Arrays
 
@@ -93,7 +93,7 @@ console.log(backEnd)
 ["Node", "Express", "MongoDB"]
 ```
 
-If we like to skip on of the values in the array we use additional comma. The comma helps to omit the value at that specific index
+Se vogliamo saltare uno dei valori dell'array, usiamo una virgola aggiuntiva. La virgola aiuta a omettere il valore in quello specifico indice
 
 ```js
   const numbers = [1, 2, 3]
@@ -117,7 +117,7 @@ If we like to skip on of the values in the array we use additional comma. The co
 Brook John
 ```
 
-We can use default value in case the value of array for that index is undefined:
+È possibile utilizzare il valore predefinito nel caso in cui il valore dell'array per quell'indice sia indefinito:
 
 ```js
 const names = [undefined, 'Brook', 'David']
@@ -135,7 +135,7 @@ console.log(firstPerson, secondPerson, thirdPerson, fourthPerson)
 Asabeneh Brook David John
 ```
 
-We can not assign variable to all the elements in the array. We can destructure few of the first and we can get the remaining as array using spread operator(...).
+Non possiamo assegnare una variabile a tutti gli elementi dell'array. Possiamo destrutturare alcuni dei primi e ottenere i rimanenti come array utilizzando l'operatore spread(...).
 
 ```js
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -150,7 +150,7 @@ console.log(rest)
 [4, 5, 6, 7, 8, 9, 10]
 ```
 
-### Destructuring during iteration
+### Destructuring durante iterazione
 
 ```js
 const countries = [['Finland', 'Helsinki'], ['Sweden', 'Stockholm'], ['Norway', 'Oslo']]
@@ -182,9 +182,9 @@ HTML CSS JS
 Node Express MongoDB
 ```
 
-### Destructuring Object
+### Object Destructuring
 
-When we destructure the name of the variable we use to destructure should be exactly the same as the key or property of the object. See the example below.
+Quando si destruttura, il nome della variabile che si usa per destrutturare deve essere esattamente lo stesso della chiave o della proprietà dell'oggetto. Si veda l'esempio seguente.
 
 ```js
 const rectangle = {
@@ -201,7 +201,7 @@ console.log(width, height, area, perimeter)
 20 10 200 undefined
 ```
 
-### Renaming during structuring
+### Rinominare durante structuring
 
 ```js
 const rectangle = {
@@ -218,7 +218,7 @@ console.log(w, h, a, p)
 20 10 200 undefined
 ```
 
-If the key is not found in the object the variable will be assigned to undefined. Sometimes the key might not be in the object, in that case we can give a default value during declaration. See the example.
+Se la chiave non viene trovata nell'oggetto, la variabile verrà assegnata a undefined. A volte la chiave potrebbe non essere presente nell'oggetto, in questo caso possiamo dare un valore predefinito durante la dichiarazione. Si veda l'esempio.
 
 ```js
 const rectangle = {
@@ -243,9 +243,9 @@ let { width, height, area, perimeter = 60 } = rectangle
 console.log(width, height, area, perimeter) //30 10 200 80
 ```
 
-Destructuring keys as a function parameters. Let us create a function which takes a rectangle object and it returns a perimeter of a rectangle.
+Destrutturazione delle chiavi come parametri di una funzione. Creiamo una funzione che prende un oggetto rettangolo e restituisce il perimetro di un rettangolo.
 
-### Object parameter without destructuring
+### Object parameter senza destructuring
 
 ```js
 // Without destructuring
@@ -302,7 +302,7 @@ const getPersonInfo = obj => {
 console.log(getPersonInfo(person))
 ```
 
-### Object parameter with destructuring
+### Object parameter con destructuring
 
 ```js
 
@@ -339,7 +339,7 @@ Asabeneh Yetayeh lives in Finland. He is  250 years old. He is an Instructor and
 */
 ```
 
-### Destructuring object during iteration
+### Object Destructuring durante l'iterazione
 
 ```js
 const todoList = [
@@ -371,11 +371,11 @@ Give JS Test 4/1/2020 10:00 false
 Assess Test Result 4/1/2020 1:00 false
 ```
 
-### Spread or Rest Operator
+### Spread o Rest Operator
 
-When we destructure an array we use the spread operator(...) to get the rest elements as array. In addition to that we use spread operator to spread array elements to another array.
+Quando destrutturiamo un array, utilizziamo l'operatore spread(...) per ottenere gli elementi rimanenti come array. Inoltre, utilizziamo l'operatore spread per distribuire gli elementi dell'array in un altro array.
 
-### Spread operator to get the rest of array elements
+### Operatore Spread per ottenere il resto degli elementi di un array
 
 ```js
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -415,7 +415,7 @@ France
 ["Finland", "Sweden", "Norway", "Denmark", "Iceland"]
 ```
 
-### Spread operator to copy array
+### Operatore Spread per copiare un array
 
 ```js
 const evens = [0, 2, 4, 6, 8, 10]
@@ -451,9 +451,9 @@ console.log(fullStack)
 ["HTML", "CSS", "JS", "React", "Node", "Express", "MongoDB"]
 ```
 
-### Spread operator to copy object
+### Operatore Spread per copiare oggetti
 
-We can copy an object using a spread operator
+Possiamo copiare un oggetto usando un operatore di diffusione
 
 ```js
 const user = {
@@ -471,7 +471,7 @@ console.log(copiedUser)
 {name: "Asabeneh", title: "Programmer", country: "Finland", city: "Helsinki"}
 ```
 
-Modifying or changing the object while copying
+Modificare o cambiare l'oggetto durante la copia
 
 ```js
 const user = {
@@ -489,9 +489,9 @@ console.log(copiedUser)
 {name: "Asabeneh", title: "instructor", country: "Finland", city: "Helsinki"}
 ```
 
-#### Spread operator with arrow function
+#### Operatore Spread con arrow function
 
-Whenever we like to write an arrow function which takes unlimited number of arguments we use a spread operator. If we use a spread operator as a parameter, the argument passed when we invoke a function will change to an array.
+Ogni volta che vogliamo scrivere una funzione che accetta un numero illimitato di argomenti, utilizziamo l'operatore spread. Se utilizziamo un operatore di diffusione come parametro, l'argomento passato quando invochiamo una funzione si trasformerà in un array.
 
 ```js
 
@@ -527,7 +527,7 @@ console.log(sumAllNums(1, 2, 3, 4, 5))
 
 ```
 
-🌕 You achieved quite a lot so far. Now, your Livello of JavaScript is upper intermediate. Keep going! You have just completed day 11 challenges and you are 11 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 Finora hai ottenuto molti risultati. Ora il tuo livello di JavaScript è intermedio. Continua così! Sei appena completato le sfide dell'undicesimo giorno e sei a 11 passi dalla tua strada verso la grandezza. Ora fai qualche esercizio per il cervello e per i muscoli.
 
 ## Esercizi
 
@@ -588,19 +588,20 @@ const users = [
 ]
 ```
 
-1. Destructure and assign the elements of constants array to e, pi, gravity, humanBodyTemp, waterBoilingTemp.
-2. Destructure and assign the elements of countries array to fin, est, sw, den, nor
-3. Destructure the rectangle object by its properties or keys.
+1. Destrutturare e assegnare gli elementi dell'array di costanti a e, pi greco, gravità, humanBodyTemp, waterBoilingTemp.
+2. Destrutturare e assegnare gli elementi dell'array countries a fin, est, sw, den, nor.
+3. Destrutturare l'oggetto rettangolo in base alle sue proprietà o chiavi.
 
 ### Esercizi: Livello 2
 
-1. Iterate through the users array and get all the keys of the object using destructuring
-2. Find the persons who have less than two skills
+1. Iterare l'array degli utenti e ottenere tutte le chiavi dell'oggetto utilizzando la destrutturazione.
+2. Trovare le persone che hanno meno di due competenze
 
 ### Esercizi: Livello 3
 
-1. Destructure the countries object print name, capital, population and languages of all countries
-2. A junior developer structure student name, skills and score in array of arrays which may not easy to read. Destructure the following array name to name, skills array to skills, scores array to scores, JavaScript score to jsScore and React score to reactScore variable in one line.
+1. Destrutturare l'oggetto Paesi stampare nome, capitale, popolazione e lingua di tutti i Paesi.
+2. Uno sviluppatore junior struttura il nome dello studente, le competenze e il punteggio in array di array che potrebbero non essere facili da leggere. Destrutturare il seguente array nome in nome, l'array delle competenze in competenze, l'array dei punteggi in punteggi, il punteggio JavaScript in jsScore e il punteggio React in reactScore in una riga.
+
 
   ```js
     const student = ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]]
@@ -611,7 +612,7 @@ const users = [
   David (4) ["HTM", "CSS", "JS", "React"] 90 95
   ```
 
-3. Write a function called *convertArrayToObject* which can convert the array to a structure object.
+3. Scrivete una funzione chiamata *convertArrayToObject* in grado di convertire l'array in un oggetto struttura.
 
   ```js
       const students = [
@@ -634,12 +635,12 @@ const users = [
       ]
   ```
 
-4. Copy the student object to newStudent without mutating the original object. In the new object add the following ?
+4. Copiare l'oggetto studente in newStudent senza mutare l'oggetto originale. Nel nuovo oggetto aggiungere il seguente ?
 
-- Add Bootstrap with Livello 8 to the front end skill sets
-- Add Express with Livello 9 to the back end skill sets
-- Add SQL with Livello 8 to the data base skill sets
-- Add SQL without Livello to the data science skill sets
+- Aggiungere Bootstrap con Livello 8 ai set di competenze del front end.
+- Aggiungere Express con Livello 9 ai set di competenze del back end.
+- Aggiungere SQL con Livello 8 ai set di competenze della base dati.
+- Aggiungere SQL senza Livello ai set di competenze di scienza dei dati.
 
 ```js
     const student = {
@@ -664,7 +665,7 @@ const users = [
     }
   ```
 
- The copied object output should look like this:
+ L'output dell'oggetto copiato dovrebbe essere simile a questo:
 
 ```js
     {
