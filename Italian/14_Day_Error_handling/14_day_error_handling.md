@@ -19,8 +19,8 @@
 ![Thirty Days Of JavaScript](../../images/banners/day_1_14.png)
 
 - [Day 14](#day-14)
-	- [Error Handling](#error-handling)
-		- [Error Types](#error-types)
+	- [Gestione Errori](#error-handling)
+		- [Tipi di Errore](#error-types)
 	- [Esercizi](#exercises)
 		- [Esercizi:Level 1](#exerciseslevel-1)
 		- [Esercizi: Livello 2](#exercises-level-2)
@@ -28,11 +28,11 @@
 
 # Day 14
 
-## Error Handling
+## Gestione Errori
 
-JavaScript is a loosely-typed language. Some times you will get a runtime error when you try to access an undefined variable or call undefined function etc.
+JavaScript è un linguaggio a tipizzazione libera. A volte si ottiene un errore di runtime quando si tenta di accedere a una variabile non definita o di chiamare una funzione non definita, ecc.
 
-JavaScript similar to python or Java provides an error-handling mechanism to catch runtime errors using try-catch-finally block.
+JavaScript, simile a Python o Java, fornisce un meccanismo di gestione degli errori per catturare gli errori di runtime utilizzando il blocco try-catch-finally.
 
 ```js
 try {
@@ -44,11 +44,11 @@ try {
 }
 ```
 
-**try**: wrap suspicious code that may throw an error in try block.The try statement allows us to define a block of code to be tested for errors while it is being executed.
+L'istruzione *try* ci permette di definire un blocco di codice che deve essere testato per verificare la presenza di errori durante l'esecuzione.
 
-**catch**: write code to do something in catch block when an error occurs. The catch block can have parameters that will give you error information. Catch block is used to log an error or display specific messages to the user.
+**catch**: scrivere il codice per fare qualcosa nel blocco catch quando si verifica un errore. Il blocco catch può avere dei parametri che forniscono informazioni sull'errore. Il blocco catch viene utilizzato per registrare un errore o per visualizzare messaggi specifici all'utente.
 
-**finally**: finally block will always be executed regardless of the occurrence of an error. The finally block can be used to complete the remaining task or reset variables that might have changed before error occurred in try block.
+**finally**: il blocco finally viene sempre eseguito, indipendentemente dal verificarsi di un errore. Il blocco finally può essere usato per completare il compito rimanente o per resettare le variabili che potrebbero essere cambiate prima del verificarsi dell'errore nel blocco try.
 
 **Esempio:**
 
@@ -83,7 +83,7 @@ ReferenceError: fistName is not defined
 In any case it  will be executed
 ```
 
-The catch block take a parameter. It is common to pass e, err or error as a parameter to the catch block. This parameter is an object and it has name and message keys. Lets use the name and message.
+Il blocco catch accetta un parametro. È comune passare e, err o error come parametro al blocco catch. Questo parametro è un oggetto e ha le chiavi name e message. Utilizziamo il nome e il messaggio.
 
 ```js
 try {
@@ -103,7 +103,7 @@ Error message fistName is not defined
 In any case I will be executed
 ```
 
-throw: the throw statement allows us to create a custom error. We can through a string, number, boolean or an object. Use the throw statement to throw an exception. When you throw an exception, expression specifies the value of the exception. Each of the following throws an exception:
+throw: l'istruzione throw consente di creare un errore personalizzato. Possiamo utilizzare una stringa, un numero, un booleano o un oggetto. Utilizzare l'istruzione throw per lanciare un'eccezione. Quando si lancia un'eccezione, l'espressione specifica il valore dell'eccezione. Ognuno dei seguenti comandi lancia un'eccezione:
 
 ```js
 throw 'Error2' // generates an exception with a string value
@@ -129,9 +129,9 @@ const throwErrorExampleFun = () => {
 throwErrorExampleFun()
 ```
 
-### Error Types
+### Tipi di Errore
 
-- ReferenceError: An illegal reference has occurred. A ReferenceError is thrown if we use a variable that has not been declared.
+- ReferenceError: Si è verificato un riferimento illegale. Un ReferenceError viene lanciato se si utilizza una variabile che non è stata dichiarata.
 
 ```js
 let firstName = 'Asabeneh'
@@ -145,7 +145,7 @@ Uncaught ReferenceError: lastName is not defined
     at <anonymous>:2:35
 ```
 
-- SyntaxError: A syntax error has occurred
+- SyntaxError: Si è verificato un errore di sintassi
 
 ```js
 let square = 2 x 2
@@ -158,7 +158,7 @@ console.log('Hello, world")
 Uncaught SyntaxError: Unexpected identifier
 ```
 
-- TypeError: A type error has occurred
+- TypeError: Si è verificato un errore di tipo
 
 ```js
 let num = 10
@@ -170,23 +170,23 @@ Uncaught TypeError: num.toLowerCase is not a function
     at <anonymous>:2:17
 ```
 
-These are some of the common error you may face when you write a code. Understanding errors can help you to know what mistakes you made and it will help you to debug your code fast.
+Questi sono alcuni degli errori più comuni che si possono incontrare quando si scrive un codice. Capire gli errori può aiutarvi a capire quali sono gli errori commessi e vi aiuterà a eseguire il debug del codice in modo rapido.
 
-🌕 You are flawless. Now, you knew how to handle errors and you can write robust application which handle unexpected user inputs. You have just completed day 14 challenges and you are 14 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 Sei impeccabile. Ora sai come gestire gli errori e sei in grado di scrivere applicazioni robuste che gestiscono gli input inaspettati dell'utente. Hai appena completato le sfide del giorno 14 e sei a 14 passi dalla tua strada verso la grandezza. Ora fai qualche esercizio per il cervello e per i muscoli.
 
 ## Esercizi
 
 ### Esercizi:Level 1
 
-Practice
+Fai pratica
 
 ### Esercizi: Livello 2
 
-Practice
+Fai pratica
 
 ### Esercizi:Level
 
-Practice
+Fai pratica
 
 🎉 CONGRATULAZIONI ! 🎉
 

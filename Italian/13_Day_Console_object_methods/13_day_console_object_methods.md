@@ -19,7 +19,7 @@
 ![Thirty Days Of JavaScript](../../images/banners/day_1_13.png)
 
 - [Day 13](#day-13)
-	- [Console Object Methods](#console-object-methods)
+	- [Metodi Oggetto Console](#console-object-methods)
 		- [console.log()](#consolelog)
 		- [console.warn()](#consolewarn)
 		- [console.error()](#consoleerror)
@@ -37,19 +37,19 @@
 
 # Day 13
 
-## Console Object Methods
+## Metodi Oggetto Console
 
-In this section, we will cover about console and console object methods. Absolute beginners usually do not know which to use: console.log(), document.write() or document.getElementById.
+In questa sezione tratteremo i metodi della console e dell'oggetto console. I principianti assoluti di solito non sanno quale usare: console.log(), document.write() o document.getElementById.
 
-We use console object methods to show output on the browser console and we use document.write to show output on the browser document(view port). Both methods used only for testing and debugging purposes. The console method is the most popular testing and debugging tool on the browser. We use document.getElementById() when we like to interact with DOM try using JavaScript. We will cover DOM in another section.
+Utilizziamo i metodi degli oggetti console per mostrare l'output sulla console del browser e document.write per mostrare l'output sul documento del browser (porta di visualizzazione). Entrambi i metodi sono utilizzati solo per scopi di test e debug. Il metodo console è lo strumento di test e debug più diffuso nel browser. Utilizziamo document.getElementById() quando vogliamo interagire con il DOM utilizzando JavaScript. Tratteremo il DOM in un'altra sezione.
 
-In addition to the famous, console.log() method, the console provides other more methods.
+Oltre al famoso metodo console.log(), la console fornisce altri metodi.
 
 ### console.log()
 
-We use console.log() to show output on the browser console. We can substitute values and also we can style the logging out put using %c.
+Usiamo console.log() per mostrare l'output sulla console del browser. Possiamo sostituire i valori e anche stilizzare il log con %c.
 
-- Showing output on browser console
+- Mostrare l'output sulla console del browser
 
 ```js
 console.log('30 Days of JavaScript')
@@ -71,7 +71,7 @@ console.log('%d %s of JavaScript', 30, 'Days')
 
 - CSS
 
-We can style logging message using css. Copy the following code and paste it on browser console to see the result.
+Possiamo stilizzare il messaggio di registrazione usando i css. Copiare il codice seguente e incollarlo nella console del browser per vedere il risultato.
 
 ```js
 console.log('%c30 Days Of JavaScript', 'color:green') // log output is green
@@ -87,7 +87,7 @@ console.log(
 
 ### console.warn()
 
-We use console.warn() to give warning on browser. For instance to inform or warn deprecation of version of a package or bad practices. Copy the following code and paste it on browser console to see warning messages.
+Utilizziamo console.warn() per fornire avvisi al browser. Per esempio, per informare o avvisare della deprecazione di una versione di un pacchetto o di cattive pratiche. Copiate il codice seguente e incollatelo nella console del browser per visualizzare i messaggi di avviso.
 
 ```js
 console.warn('This is a warning')
@@ -99,7 +99,7 @@ console.warn('Warning is different from error')
 
 ### console.error()
 
-The console.error() method shows an error messages.
+Il metodo console.error() mostra un messaggio di errore.
 
 ```js
 console.error('This is an error message')
@@ -108,16 +108,16 @@ console.error('We all make mistakes')
 
 ### console.table()
 
-The console.table() method display data as a table on the console. Displays tabular data as a table. The console.table() takes one required argument data, which must be an array or an object, and one additional optional parameter columns.
+Il metodo console.table() visualizza i dati come tabella sulla console. Visualizza i dati in forma di tabella. Il metodo console.table() accetta un parametro obbligatorio, data, che deve essere un array o un oggetto, e un parametro opzionale aggiuntivo columns.
 
-Let us first start with a simple array. The code below displays a table with two columns. An index column to display the index and value column to display the names
+Cominciamo con un semplice array. Il codice seguente visualizza una tabella con due colonne. Una colonna indice per visualizzare l'indice e una colonna valore per visualizzare i nomi.
 
 ```js
 const names = ['Asabeneh', 'Brook', 'David', 'John']
 console.table(names)
 ```
 
-Let us also check the result of an object. This creates table with two columns:an index column containing the keys and a value column contain the values of the object.
+Controlliamo anche il risultato di un oggetto. Si crea una tabella con due colonne: una colonna indice contenente le chiavi e una colonna valore contenente i valori dell'oggetto.
 
 ```js
 const user = {
@@ -130,7 +130,7 @@ const user = {
 console.table(user)
 ```
 
-Check the rest of the examples by copying and paste on the browser console.
+Verificate il resto degli esempi copiando e incollando sulla console del browser.
 
 ```js
 const countries = [
@@ -177,7 +177,7 @@ console.table(users)
 
 ### console.time()
 
-Starts a timer you can use to track how long an operation takes. You give each timer a unique name, and may have up to 10,000 timers running on a given page. When you call console.timeEnd() with the same name, the browser will output the time, in milliseconds, that elapsed since the timer was started.
+Avvia un timer che può essere utilizzato per tenere traccia del tempo necessario per un'operazione. A ogni timer viene assegnato un nome univoco e si possono avere fino a 10.000 timer in esecuzione su una data pagina. Quando si chiama console.timeEnd() con lo stesso nome, il browser visualizza il tempo, in millisecondi, trascorso dall'avvio del timer.
 
 ```js
 const countries = [
@@ -220,11 +220,11 @@ Norway Oslo
 forEach loop: 0.358154296875ms
 ```
 
-According the above output the regular for loop is slower than for of or forEach loop.
+Secondo l'output sopra riportato, il ciclo for regolare è più lento del ciclo for of o forEach.
 
 ### console.info()
 
-It displays information message on browser console.
+Visualizza un messaggio informativo sulla console del browser.
 
 ```js
 console.info('30 Days Of JavaScript challenge is trending on Github')
@@ -234,7 +234,7 @@ console.info('30 Days Of HTML and CSS challenge might be released')
 
 ### console.assert()
 
-The console.assert() methods writes an error message to the console if the assertion is false. If the assertion is true, nothing happens. The first parameter is an assertion expression. If this expression is false, an Assertion failed error message will be displayed.
+Il metodo console.assert() scrive un messaggio di errore nella console se l'asserzione è falsa. Se l'asserzione è vera, non succede nulla. Il primo parametro è un'espressione di asserzione. Se questa espressione è falsa, viene visualizzato un messaggio di errore Asserzione fallita.
 
 ```js
 console.assert(4 > 3, '4 is greater than 3') // no result
@@ -249,7 +249,7 @@ for (let i = 0; i <= 10; i += 1) {
 
 ### console.group()
 
-The console.group() can help to group different log groups. Copy the following code and paste it on browser console to the groups.
+Console.group() può aiutare a raggruppare diversi gruppi di log. Copiare il codice seguente e incollarlo nella console del browser per i gruppi.
 
 ```js
 const names = ['Asabeneh', 'Brook', 'David', 'John']
@@ -312,7 +312,7 @@ console.groupEnd()
 
 ### console.count()
 
-It prints the number of times the console.count() is called. It takes a string label parameter. It is very helpful to count the number of times a function is called. In the following example, the console.count() method will run three times
+Stampa il numero di volte in cui viene richiamato console.count(). Richiede un parametro stringa label. È molto utile per contare il numero di volte che una funzione viene chiamata. Nell'esempio seguente, il metodo console.count() verrà eseguito tre volte
 
 ```js
 const func = () => {
@@ -331,27 +331,27 @@ Function has been called: 3
 
 ### console.clear()
 
-The console.clear() cleans the browser console.
+Console.clear() pulisce la console del browser.
 
-🌕 Keep up the good work. Keep pushing, the sky is the limit! You have just completed day 13 challenges and you are 13 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 Continua a lavorare bene. Continua a spingere, il cielo è il limite! Hai appena completato le sfide del 13° giorno e sei a 13 passi dalla tua strada verso la grandezza. Ora fai qualche esercizio per il cervello e per i muscoli.
 
 ## Esercizi
 
 ### Esercizi:Level 1
 
-1.  Display the countries array as a table
-2.  Display the countries object as a table
-3.  Use console.group() to group logs
+1.  Visualizzare l'array di paesi come tabella
+2.  Visualizzare l'oggetto Paesi come tabella
+3.  Usare console.group() per raggruppare i log.
 
-### Esercizi:Level 2
+### Esercizi:Livello 2
 
-1. 10 > 2 \* 10 use console.assert()
-2. Write a warning message using console.warn()
-3. Write an error message using console.error()
+1. 10 > 2 \* 10 usare console.assert()
+2. Scrivere un messaggio di avviso usando console.warn()
+3. Scrivere un messaggio di errore usando console.error()
 
 ### Esercizi:Level 3
 
-1. Check the speed difference among the following loops: while, for, for of, forEach
+1. Verificare la differenza di velocità tra i seguenti cicli: while, for, for of, forEach
 
 🎉 CONGRATULAZIONI ! 🎉
 

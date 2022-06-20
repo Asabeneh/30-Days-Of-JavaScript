@@ -1,9 +1,8 @@
 
 # 30 Days Of JavaScript
 
-| # Giorni | Topics |
-
-| ----- | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
+| # Giorni |                                                                       Topics                                                                        |
+| ---- | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 | 01 | [Introduzione](./readMe.md) |
 
@@ -129,71 +128,39 @@
 
 ![Thirty Days Of JavaScript](../images/day_1_1.png)
 
--  [30 Days Of JavaScript](#30-days-of-javascript)
-
--  [📔 Giorno 1](#-day-1)
-
--  [Introduzione](#introduction)
-
--  [Requisiti](#requirements)
-
--  [Setup](#setup)
-
--  [Installazione Node.js](#install-nodejs)
-
--  [Browser](#browser)
-
--  [Installazione di Google Chrome](#installing-google-chrome)
-
--  [Apertura Console di Google Chrome](#opening-google-chrome-console)
-
--  [Scrivere codice sulla Console del Browser](#writing-code-on-browser-console)
-
--  [Console.log](#consolelog)
-
--  [Console.log con Argomenti Multipli](#consolelog-with-multiple-arguments)
-
--  [commenti](#comments)
-
--  [Sintassi](#syntax)
-
--  [Aritmetica](#arithmetics)
-
--  [Editor Codice](#code-editor)
-
--  [Installazione Visual Studio Code](#installing-visual-studio-code)
-
--  [Come usare Visual Studio Code](#how-to-use-visual-studio-code)
-
--  [Aggiungere JavaScript ad una Pagina Web](#adding-javascript-to-a-web-page)
-
--  [Inline Script](#inline-script)
-
--  [Internal Script](#internal-script)
-
--  [External Script](#external-script)
-
--  [Multipli External Scripts](#multiple-external-scripts)
-
--  [Introduzione ai Tipi di Dato](#introduction-to-data-types)
-
--  [Numbers](#numbers)
-
--  [Strings](#strings)
-
--  [Booleans](#booleans)
-
--  [Undefined](#undefined)
-
--  [Null](#null)
-
--  [Verificare il Tipo dei Dati](#checking-data-types)
-
--  [Ancora Commenti](#comments-again)
-
--  [Variabili](#variables)
-
--  [💻 Giorno 1: Esercizi](#-day-1-exercises)
+- [30 Days Of JavaScript](#30-days-of-javascript)
+- [📔 Giorno 1](#-day-1)
+  - [Introduzione](#introduction)
+  - [Requisiti](#requirements)
+  - [Setup](#setup)
+    - [Installazione Node.js](#install-nodejs)
+    - [Browser](#browser)
+      - [Installazione di Google Chrome](#installing-google-chrome)
+      - [Apertura Console di Google Chrome](#opening-google-chrome-console)
+      - [Scrivere codice sulla Console del Browser](#writing-code-on-browser-console)
+        - [Console.log](#consolelog)
+        - [Console.log con Argomenti Multipli](#consolelog-with-multiple-arguments)
+        - [commenti](#comments)
+        - [Sintassi](#syntax)
+      - [Aritmetica](#arithmetics)
+    - [Editor Codice](#code-editor)
+      - [Installazione Visual Studio Code](#installing-visual-studio-code)
+      - [Come usare Visual Studio Code](#how-to-use-visual-studio-code)
+  - [Aggiungere JavaScript ad una Pagina Web](#adding-javascript-to-a-web-page)
+    - [Inline Script](#inline-script)
+    - [Internal Script](#internal-script)
+    - [External Script](#external-script)
+    - [Multipli External Scripts](#multiple-external-scripts)
+  - [Introduzione ai Tipi di Dato](#introduction-to-data-types)
+    - [Numbers](#numbers)
+    - [Strings](#strings)
+    - [Booleans](#booleans)
+    - [Undefined](#undefined)
+    - [Null](#null)
+  - [Verificare il Tipo dei Dati](#checking-data-types)
+  - [Ancora Commenti](#comments-again)
+  - [Variabili](#variables)
+- [💻 Giorno 1: Esercizi](#-day-1-exercises)
 
 # 📔 Giorno 1
 

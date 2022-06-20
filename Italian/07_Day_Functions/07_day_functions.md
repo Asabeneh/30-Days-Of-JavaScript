@@ -594,23 +594,23 @@ Verrà trattato in un'altra sezione.
     The number of evens are 51.
     ```
 
-14. Write a function which takes any number of arguments and return the sum of the arguments
+14. Scrivere una funzione che accetta un numero qualsiasi di argomenti e restituisce la somma degli argomenti.
 
     ```js
     sum(1, 2, 3) // -> 6
     sum(1, 2, 3, 4) // -> 10
     ```
 
-15. Writ a function which generates a _randomUserIp_.
-16. Write a function which generates a _randomMacAddress_
-17. Declare a function name _randomHexaNumberGenerator_. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
+15. Scrivere una funzione che generi un _randomUserIp_.
+16. Scrivere una funzione che generi un _randomMacAddress_.
+17. Dichiarare il nome di una funzione _randomHexaNumberGenerator_. Quando questa funzione viene chiamata, genera un numero esadecimale casuale. La funzione restituisce il numero esadecimale.
 
     ```sh
     console.log(randomHexaNumberGenerator());
     '#ee33df'
     ```
 
-18. Declare a function name _userIdGenerator_. When this function is called it generates seven character id. The function return the id.
+18. Dichiarare il nome della funzione _userIdGenerator_. Quando questa funzione viene chiamata, genera un id di sette caratteri. La funzione restituisce l'id.
 
     ```sh
     console.log(userIdGenerator());
@@ -619,7 +619,7 @@ Verrà trattato in un'altra sezione.
 
 ### Esercizi: Livello 3
 
-1. Modify the _userIdGenerator_ function. Declare a function name _userIdGeneratedByUser_. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
+1. Modificare la funzione _userIdGenerator_. Dichiarare il nome della funzione _userIdGeneratedByUser_. Non accetta alcun parametro, ma prende due input tramite prompt(). Uno di questi è il numero di caratteri e il secondo è il numero di ID che devono essere generati.
 
     ```sh
     userIdGeneratedByUser()
@@ -638,18 +638,18 @@ Verrà trattato in un'altra sezione.
     '
     ```
 
-2. Write a function name _rgbColorGenerator_ and it generates rgb colors.
+2. Scrivete una funzione chiamata _rgbColorGenerator_ che genera i colori rgb.
 
     ```sh
     rgbColorGenerator()
     rgb(125,244,255)
     ```
 
-3. Write a function **_arrayOfHexaColors_** which return any number of hexadecimal colors in an array.
-4. Write a function **_arrayOfRgbColors_** which return any number of RGB colors in an array.
-5. Write a function **_convertHexaToRgb_** which converts hexa color to rgb and it returns an rgb color.
-6. Write a function **_convertRgbToHexa_** which converts rgb to hexa color and it returns an hexa color.
-7. Write a function **_generateColors_** which can generate any number of hexa or rgb colors.
+3. Scrivere una funzione **_arrayOfHexaColors_** che restituisca un numero qualsiasi di colori esadecimali in un array.
+4. Scrivete una funzione **_arrayOfRgbColors_** che restituisca un numero qualsiasi di colori RGB in una matrice.
+5. Scrivere una funzione **_convertHexaToRgb_** che converta il colore hexa in rgb e restituisca un colore rgb.
+6. Scrivere una funzione **_convertRgbToHexa_** che converta il colore rgb in hexa e restituisca un colore hexa.
+7. Scrivere una funzione **_generateColors_** che possa generare un numero qualsiasi di colori hexa o rgb.
 
     ```js
     console.log(generateColors('hexa', 3)) // ['#a3e12f', '#03ed55', '#eb3d2b']
@@ -658,13 +658,13 @@ Verrà trattato in un'altra sezione.
     console.log(generateColors('rgb', 1)) // 'rgb(33,79, 176)'
     ```
 
-8. Call your function _shuffleArray_, it takes an array as a parameter and it returns a shuffled array
-9. Call your function _factorial_, it takes a whole number as a parameter and it return a factorial of the number
-10. Call your function _isEmpty_, it takes a parameter and it checks if it is empty or not
-11. Call your function _sum_, it takes any number of arguments and it returns the sum.
-12. Write a function called _sumOfArrayItems_, it takes an array parameter and return the sum of all the items. Check if all the array items are number types. If not give return reasonable feedback.
-13. Write a function called _average_, it takes an array parameter and returns the average of the items. Check if all the array items are number types. If not give return reasonable feedback.
-14. Write a function called _modifyArray_ takes array as parameter and modifies the fifth item of the array and return the array. If the array length is less than five it return 'item not found'.
+8. Chiamare la funzione _shuffleArray_, che prende un array come parametro e restituisce un array mescolato.
+9. Chiamate la vostra funzione _factorial_, che prende un numero intero come parametro e restituisce un fattoriale del numero
+10. Chiamate la funzione _isEmpty_, che prende un parametro e controlla se è vuoto o meno.
+11. Chiamate la funzione _sum_, che accetta un numero qualsiasi di argomenti e restituisce la somma.
+12. Scrivete una funzione chiamata _sumOfArrayItems_, che accetta un parametro dell'array e restituisce la somma di tutti gli elementi. Verificare se tutti gli elementi dell'array sono di tipo numero. In caso contrario, restituire un feedback ragionevole.
+13. Scrivete una funzione chiamata _media_, che accetta un parametro di array e restituisce la media degli elementi. Verificate se tutti gli elementi dell'array sono di tipo numero. In caso contrario, restituire un feedback ragionevole.
+14. Scrivere una funzione chiamata _modifyArray_ che prenda come parametro un array e modifichi il quinto elemento dell'array e restituisca l'array. Se la lunghezza dell'array è inferiore a cinque, restituisce "elemento non trovato".
 
     ```js
     console.log(modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot']);
@@ -690,18 +690,18 @@ Verrà trattato in un'altra sezione.
       'Not Found'
     ```
 
-15. Write a function called _isPrime_, which checks if a number is prime number.
-16. Write a functions which checks if all items are unique in the array.
-17. Write a function which checks if all the items of the array are the same data type.
-18. JavaScript variable name does not support special characters or symbols except \$ or \_. Write a function **isValidVariable** which check if a variable is valid or invalid variable.
-19. Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
+15. Scrivere una funzione chiamata _isPrime_, che verifichi se un numero è un numero primo.
+16. Scrivete una funzione che verifichi se tutti gli elementi sono unici nell'array.
+17. Scrivete una funzione che verifichi se tutti gli elementi dell'array sono dello stesso tipo di dati.
+18. Il nome della variabile JavaScript non supporta caratteri speciali o simboli, tranne \$ o \_. Scrivete una funzione **isValidVariable** che controlli se una variabile è valida o non valida.
+19. Scrivete una funzione che restituisca un array di sette numeri casuali in un intervallo compreso tra 0 e 9. Tutti i numeri devono essere unici. Tutti i numeri devono essere unici.
 
     ```js
     sevenRandomNumbers()
     [(1, 4, 5, 7, 9, 8, 0)]
     ```
 
-20. Write a function called reverseCountries, it takes countries array and first it copy the array and returns the reverse of the original array
+20. Scrivere una funzione chiamata reverseCountries, che prenda un array di paesi e prima copi l'array e restituisca l'inverso dell'array originale.
 
 🎉 CONGRATULAZIONI ! 🎉
 

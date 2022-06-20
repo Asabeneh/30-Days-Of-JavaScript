@@ -18,25 +18,25 @@
 ![Thirty Days Of JavaScript](../../images/banners/day_1_12.png)
 
 - [📘 Day 12](#-day-12)
-	- [Regular Expressions](#regular-expressions)
-		- [RegExp parameters](#regexp-parameters)
+	- [Espressioni Regolari](#regular-expressions)
+		- [Parameteri RegExp](#regexp-parameters)
 			- [Pattern](#pattern)
 			- [Flags](#flags)
-		- [Creating a pattern with RegExp Constructor](#creating-a-pattern-with-regexp-constructor)
-		- [Creating a pattern without RegExp Constructor](#creating-a-pattern-without-regexp-constructor)
-		- [RegExpp Object Methods](#regexpp-object-methods)
-			- [Testing for  a match](#testing-for--a-match)
-			- [Array containing all of the match](#array-containing-all-of-the-match)
-			- [Replacing a substring](#replacing-a-substring)
-		- [Square Bracket](#square-bracket)
+		- [Creare un pattern con il costruttore RegExp](#creating-a-pattern-with-regexp-constructor)
+		- [Creare un pattern senza il costruttore RegExp](#creating-a-pattern-without-regexp-constructor)
+		- [Metodi dell'oggetto RegExp](#regexpp-object-methods)
+			- [Testing per un match](#testing-for--a-match)
+			- [Array contenente tutto il match](#array-containing-all-of-the-match)
+			- [Sostituire una substring](#replacing-a-substring)
+		- [Square Bracket (parentesi quadra)](#square-bracket)
 		- [Escape character(\\) in RegExp](#escape-character-in-regexp)
-		- [One or more times(+)](#one-or-more-times)
+		- [Uno o più volte(+)](#one-or-more-times)
 		- [Period(.)](#period)
-		- [Zero or more times(*)](#zero-or-more-times)
-		- [Zero or one times(?)](#zero-or-one-times)
+		- [Zero o più volte(*)](#zero-or-more-times)
+		- [Zero oppure una volta(?)](#zero-or-one-times)
 		- [Quantifier in RegExp](#quantifier-in-regexp)
 		- [Cart ^](#cart-)
-		- [Exact match](#exact-match)
+		- [Match esatto](#exact-match)
 	- [💻 Esercizi](#-exercises)
 		- [Esercizi: Livello 1](#exercises-level-1)
 		- [Esercizi: Livello 2](#exercises-level-2)
@@ -44,31 +44,31 @@
 
 # 📘 Day 12
 
-## Regular Expressions
+## Espressioni Regolari
 
-A regular expression or RegExp is a small programming language that helps to find pattern in data. A RegExp can be used to check if some pattern exists in a different data types. To use RegExp in JavaScript either we use RegExp constructor or we can declare a RegExp pattern using two forward slashes followed by a flag. We can create a pattern in two ways.
+Un'espressione regolare o RegExp è un piccolo linguaggio di programmazione che aiuta a trovare modelli nei dati. Una RegExp può essere usata per verificare se un certo modello esiste in diversi tipi di dati. Per usare le RegExp in JavaScript si può usare il costruttore RegExp oppure si può dichiarare un modello RegExp usando due barre in avanti seguite da un flag. Possiamo creare un modello in due modi.
 
-To declare a string we use a single quote, double quote a backtick to declare a regular expression we use two forward slashes and an optional flag. The flag could be g, i, m, s, u or y.
+Per dichiarare una stringa si usano una virgoletta singola, una doppia virgoletta e un backtick, mentre per dichiarare un'espressione regolare si usano due barre in avanti e un flag opzionale. Il flag può essere g, i, m, s, u o y.
 
-### RegExp parameters
+### Parameteri RegExp
 
-A regular expression takes two parameters. One required search pattern and an optional flag.
+Un'espressione regolare richiede due parametri. Un modello di ricerca richiesto e un parametron optional flag.
 
 #### Pattern
 
-A pattern could be a text or any form of pattern which some sort of similarity. For instance the word spam in an email could be a pattern we are interested to look for in an email or a phone number format number might be our interest to look for.
+Un modello può essere un testo o una qualsiasi forma di modello che presenta una qualche somiglianza. Per esempio, la parola spam in un'e-mail potrebbe essere un modello che ci interessa cercare in un'e-mail o un numero di telefono in formato numero potrebbe essere il nostro interesse da cercare.
 
 #### Flags
 
-Flags are optional parameters in a regular expression which determine the type of searching. Let us see some of the flags:
+I flag sono parametri opzionali di un'espressione regolare che determinano il tipo di ricerca. Vediamo alcuni dei flag:
 
-- g: a global flag which means looking for a pattern in whole text
-- i: case insensitive flag(it searches for both lowercase and uppercase)
-- m: multiline
+- g: un flag globale che significa cercare un modello in tutto il testo
+- i: flag di insensibilità alle maiuscole (cerca sia le minuscole che le maiuscole)
+- m: multilinea
 
-### Creating a pattern with RegExp Constructor
+### Creare un pattern con il costruttore RegExp
 
-Declaring regular expression without global flag and case insensitive flag.
+Dichiarare un'espressione regolare senza flag globale e senza flag case insensitive.
 
 ```js
 // without flag
@@ -76,7 +76,7 @@ let pattern = 'love'
 let regEx = new RegExp(pattern)
 ```
 
-Declaring regular expression with global flag and case insensitive flag.
+Dichiarazione di un'espressione regolare con flag globale e flag case insensitive.
 
 ```js
 let pattern = 'love'
@@ -84,33 +84,33 @@ let flag = 'gi'
 let regEx = new RegExp(pattern, flag)
 ```
 
-Declaring a regex pattern using RegExp object. Writing the pattern and the flag inside the RegExp constructor
+Dichiarare un modello regex usando l'oggetto RegExp. Scrittura del pattern e del flag all'interno del costruttore RegExp
 
 ```js
 let regEx = new RegExp('love','gi')
 ```
 
-### Creating a pattern without RegExp Constructor
+### Creare un pattern senza il costruttore RegExp
 
-Declaring regular expression with global flag and case insensitive flag.
+Dichiarazione di un'espressione regolare con flag globale e flag case insensitive.
 
 ```js
 let regEx= /love/gi
 ```
 
-The above regular expression is the same as the one which we created with RegExp constructor
+L'espressione regolare di cui sopra è uguale a quella creata con il costruttore RegExp
 
 ```js
 let regEx= new RegExp('love','gi')
 ```
 
-### RegExpp Object Methods
+### Metodi dell'oggetto RegExp
 
-Let us see some of RegExp methods
+Vediamo alcuni metodi di RegExp
 
-#### Testing for  a match
+#### Testing per un match
 
-*test()*:Tests for a match in a string. It returns true or false.
+*test()*: Verifica la presenza di una corrispondenza in una stringa. Restituisce vero o falso.
 
 ```js
 const str = 'I love JavaScript'
@@ -123,10 +123,10 @@ console.log(result)
 true
 ```
 
-#### Array containing all of the match
+#### Array contenente tutto il match
 
-*match()*:Returns an array containing all of the matches, including capturing groups, or null if no match is found.
-If we do not use a global flag, match() returns an array containing the pattern, index, input and group.
+*match()*: Restituisce un array contenente tutte le corrispondenze, compresi i gruppi di cattura, oppure null se non viene trovata alcuna corrispondenza.
+Se non si utilizza un flag globale, match() restituisce un array contenente il pattern, l'indice, l'input e il gruppo.
 
 ```js
 const str = 'I love JavaScript'
@@ -150,7 +150,7 @@ console.log(result)
 ["love"]
 ```
 
-*search()*: Tests for a match in a string. It returns the index of the match, or -1 if the search fails.
+*search()*: Cerca una corrispondenza in una stringa. Restituisce l'indice della corrispondenza o -1 se la ricerca fallisce.
 
 ```js
 const str = 'I love JavaScript'
@@ -163,9 +163,9 @@ console.log(result)
 2
 ```
 
-#### Replacing a substring
+#### Sostituire una substring
 
-*replace()*: Executes a search for a match in a string, and replaces the matched substring with a replacement substring.
+*replace()*: Esegue la ricerca di una corrispondenza in una stringa e sostituisce la sottostringa corrispondente con una sostitutiva.
 
 ```js
 const txt = 'Python is the most beautiful language that a human begin has ever created.\
@@ -219,43 +219,43 @@ console.log(matches)
 I am teacher and  I love teaching.There is nothing as more rewarding as educating and empowering people.I found teaching more interesting than any other jobs.Does this motivate you to be a teacher.
 ```
 
-* []:  A set of characters
-  * [a-c] means, a or b or c
-  * [a-z] means, any letter a to z
-  * [A-Z] means, any character A to Z
-  * [0-3] means, 0 or 1 or 2 or 3
-  * [0-9] means any number 0 to 9
-  * [A-Za-z0-9] any character which is a to z, A to Z, 0 to 9
-* \\:  uses to escape special characters
-  * \d mean: match where the string contains digits (numbers from 0-9)
-  * \D mean: match where the string does not contain digits
-* . : any character except new line character(\n)
-* ^: starts with
-  * r'^substring' eg r'^love', a sentence which starts with a word love
-  * r'[^abc] mean not a, not b, not c.
-* $: ends with
-  * r'substring$' eg r'love$', sentence ends with a word love
-* *: zero or more times
-  * r'[a]*' means a optional or it can occur many times.
-* +: one or more times
-  * r'[a]+' means at least once or more times
-* ?: zero or one times
-  *  r'[a]?' means zero times or once
-* \b: word bounder, matches with the beginning or ending of a word
-* {3}: Exactly 3 characters
-* {3,}: At least 3 characters
-* {3,8}: 3 to 8 characters
-* |: Either or
-  * r'apple|banana' mean either of an apple or a banana
-* (): Capture and group
+* []:  Un insieme di caratteri
+  * [a-c] significa, a o b o c
+  * [a-z] significa, qualsiasi lettera da a a z
+  * [A-Z] significa qualsiasi carattere dalla A alla Z
+  * [0-3] significa, 0 o 1 o 2 o 3
+  * [0-9] significa qualsiasi numero da 0 a 9
+  * [A-Za-z0-9] qualsiasi carattere dalla a alla z, dalla A alla Z, da 0 a 9
+* \\:  utilizza per sfuggire a caratteri speciali
+  * \d significa: corrisponde se la stringa contiene cifre (numeri da 0-9)
+  * \D significa: corrispondere a una stringa che non contiene cifre
+* . : qualsiasi carattere tranne il carattere di nuova riga (\n)
+* ^: inizia con
+  * r'^substring' eg r'^love', una frase che inizia con la parola amore
+  * r'[^abc] significa non a, non b, non c.
+* $: finisce con
+  * r'substring$' eg r'love$', la frase termina con una parola amore
+* *: zero o più volte
+  * r'[a]*' significa un optional o può verificarsi più volte.
+* +: una o più volte
+  * r'[a]+' significa almeno una o più volte
+* ?: zero o più volte
+  *  r'[a]?' significa zero o una volta
+* \b: delimitatore di parole, corrisponde all'inizio o alla fine di una parola
+* {3}: Esattamente 3 caratteri
+* {3,}: Almeno 3 caratteri
+* {3,8}: Da 3 a 8 caratteri
+* |: operatore or
+  * r'apple|banana' significa sia di una mela che di una banana
+* (): Cattura e raggruppa
 
-![Regular Expression cheat sheet](../images/regex.png)
+![Regular Expression cheat sheet](../../images/regex.png)
 
-Let's use example to clarify the above meta characters
+Utilizziamo un esempio per chiarire i meta-caratteri di cui sopra
 
-### Square Bracket
+### Square Bracket (parentesi quadra)
 
-Let's use square bracket to include lower and upper case
+Utilizziamo la parentesi quadra per includere le lettere minuscole e maiuscole
 
 ```js
 const pattern = '[Aa]pple' // this square bracket means either A or a
@@ -282,7 +282,7 @@ console.log(matches)
 ["Apple", "apple"]
 ```
 
-If we want to look for the banana, we write the pattern as follows:
+Se vogliamo cercare la banana, scriviamo lo schema come segue:
 
 ```js
 const pattern = /[Aa]pple|[Bb]anana/g // this square bracket mean either A or a
@@ -296,7 +296,7 @@ console.log(matches)
 ["Apple", "banana", "apple", "banana", "Banana"]
 ```
 
-Using the square bracket and or operator , we manage to extract Apple, apple, Banana and banana.
+Utilizzando la parentesi quadra e l'operatore o , riusciamo a estrarre Apple, apple, Banana e banana.
 
 ### Escape character(\\) in RegExp
 
@@ -316,7 +316,7 @@ const matches = txt. match(pattern)
 console.log(matches)  // ["12", "2020"], this is not what we want
 ```
 
-### One or more times(+)
+### Uno o più volte(+)
 
 ```js
 const pattern = /\d+/g  // d is a special character which means digits
@@ -343,9 +343,9 @@ const matches = txt.match(pattern)
 console.log(matches)  // ['and banana are fruits']
 ```
 
-### Zero or more times(*)
+### Zero o più volte(*)
 
-Zero or many times. The pattern may not occur or it can occur many times.
+Zero o molte volte. Il modello può non verificarsi o verificarsi più volte.
 
 ```js
 
@@ -357,9 +357,9 @@ console.log(matches)  // ['and banana are fruits']
 
 ```
 
-### Zero or one times(?)
+### Zero oppure una volta(?)
 
-Zero or one times. The pattern may not occur or it may occur once.
+Zero o una volta. Il modello può non verificarsi o verificarsi una volta.
 
 ```js
 const txt = 'I am not sure if there is a convention how to write the word e-mail.\
@@ -373,7 +373,7 @@ console.log(matches)  // ["e-mail", "email", "Email", "E-mail"]
 
 ### Quantifier in RegExp
 
-We can specify the length of the substring we look for in a text, using a curly bracket. Let us see, how ot use RegExp quantifiers. Imagine, we are interested in substring that their length are 4 characters
+Possiamo specificare la lunghezza della sottostringa che cerchiamo in un testo, utilizzando una parentesi graffa. Vediamo come utilizzare i quantificatori RegExp. Immaginiamo di essere interessati a una sottostringa la cui lunghezza sia di 4 caratteri
 
 ```js
 const txt = 'This regular expression example was made in December 6,  2019.'
@@ -423,7 +423,7 @@ const matches = txt.match(pattern)
 console.log(matches)  // ["6", "2019"]
 ```
 
-### Exact match
+### Match esatto
 
 It should have ^ starting and $ which is an end.
 
@@ -435,14 +435,14 @@ let result = pattern.test(name)
 console.log(result) // true
 ```
 
-🌕 You are going far. Keep going! Now, you are super charged with the power of regular expression. You have the power to extract and clean any kind of text and you can make meaning out of unstructured data. You have just completed day 12 challenges and you are 12 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 Stai andando lontano. Continuate così! Ora sei super caricato con il potere delle espressioni regolari. Hai il potere di estrarre e pulire qualsiasi tipo di testo e puoi ricavare un significato dai dati non strutturati. Hai appena completato le sfide del 12° giorno e sei a 12 passi dalla tua strada verso la grandezza. Ora fai qualche esercizio per il cervello e per i muscoli.
 
 ## 💻 Esercizi
 
 ### Esercizi: Livello 1
 
-1. Calculate the total annual income of the person from the following text. ‘He earns 4000 euro from salary per month, 10000 euro annual bonus, 5500 euro online courses per month.’
-1. The position of some particles on the horizontal x-axis -12, -4, -3 and  -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers and find the distance between the two furthest particles.
+1. Calcolate il reddito totale annuo della persona che si trova nel testo seguente. 'Guadagna 4000 euro di stipendio al mese, 10000 euro di bonus annuale, 5500 euro di corsi online al mese.'
+1. La posizione di alcune particelle sull'asse orizzontale x -12, -4, -3 e -1 in direzione negativa, 0 nell'origine, 4 e 8 in direzione positiva. Estraete questi numeri e trovate la distanza tra le due particelle più lontane.
 
 ```js
 points = ['-1', '2', '-4', '-3', '-1', '0', '4', '8']
@@ -450,7 +450,7 @@ sortedPoints =  [-4, -3, -1, -1, 0, 2, 4, 8]
 distance = 12
 ```
 
-1. Write a pattern which identify if a string is a valid JavaScript variable
+1. Scrivere un modello che identifichi se una stringa è una variabile JavaScript valida.
 
     ```sh
     is_valid_variable('first_name') # True
@@ -461,7 +461,7 @@ distance = 12
 
 ### Esercizi: Livello 2
 
-1. Write a function called *tenMostFrequentWords* which get the ten most frequent word from a string?
+1. Scrivere una funzione chiamata *tenMostFrequentWords* che ottenga le dieci parole più frequenti da una stringa?
 
     ```js
         paragraph = `I love teaching. If you do not love teaching what else can you love. I love Python if you do not love something which can give you all the capabilities to develop an application what else can you love.`
@@ -514,7 +514,7 @@ distance = 12
 
 ### Esercizi: Livello 3
 
-1. Writ a function which cleans text. Clean the following text. After cleaning, count three most frequent words in the string.
+1. Scrivere una funzione che pulisca il testo. Pulire il testo seguente. Dopo la pulizia, contare le tre parole più frequenti nella stringa.
   
   ```js
     sentence = `%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?`
@@ -524,7 +524,7 @@ distance = 12
    ```sh
     I am a teacher and I love teaching There is nothing as more rewarding as educating and empowering people I found teaching more interesting than any other jobs Does this motivate you to be a teacher
     ```
-2. Write a function which find the most frequent words. After cleaning, count three most frequent words in the string.
+2. Scrivere una funzione che trovi le parole più frequenti. Dopo la pulizia, contare le tre parole più frequenti nella stringa.
 
   ```js
     console.log(mostFrequentWords(cleanedText))

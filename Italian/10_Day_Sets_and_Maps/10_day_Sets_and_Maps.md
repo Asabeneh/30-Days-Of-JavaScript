@@ -20,34 +20,34 @@
 
 - [Day 10](#day-10)
 	- [Set](#set)
-		- [Creating an empty set](#creating-an-empty-set)
-		- [Creating set from array](#creating-set-from-array)
-		- [Adding an element to a set](#adding-an-element-to-a-set)
-		- [Deleting an element a set](#deleting-an-element-a-set)
-		- [Checking an element in the set](#checking-an-element-in-the-set)
-		- [Clearing the set](#clearing-the-set)
-		- [Union of sets](#union-of-sets)
-		- [Intersection of sets](#intersection-of-sets)
-		- [Difference of sets](#difference-of-sets)
+		- [Creare un set vuoto](#creating-an-empty-set)
+		- [Creare un set da un array](#creating-set-from-array)
+		- [Aggiungere un elemento ad un set](#adding-an-element-to-a-set)
+		- [Eliminare un elemento dal set](#deleting-an-element-a-set)
+		- [Verificare la presenza di un elemento nel set](#checking-an-element-in-the-set)
+		- [Svuotare il set](#clearing-the-set)
+		- [Unione di set](#union-of-sets)
+		- [Intersezione di set](#intersection-of-sets)
+		- [Differenza tra set](#difference-of-sets)
 	- [Map](#map)
-		- [Creating an empty Map](#creating-an-empty-map)
-		- [Creating an Map from array](#creating-an-map-from-array)
-		- [Adding values to the Map](#adding-values-to-the-map)
-		- [Getting a value from Map](#getting-a-value-from-map)
-		- [Checking key in Map](#checking-key-in-map)
+		- [Creare un map vuoto](#creating-an-empty-map)
+		- [Creare un map da un array](#creating-an-map-from-array)
+		- [Aggiungere valori ad un map](#adding-values-to-the-map)
+		- [Ottenere un valore dal map](#getting-a-value-from-map)
+		- [Controllare le key del map](#checking-key-in-map)
 	- [Esercizi](#exercises)
-		- [Esercizi:Level 1](#exerciseslevel-1)
-		- [Esercizi:Level 2](#exerciseslevel-2)
-		- [Esercizi:Level 3](#exerciseslevel-3)
+		- [Esercizi: Livello 1](#exerciseslevel-1)
+		- [Esercizi: Livello 2](#exerciseslevel-2)
+		- [Esercizi: Livello 3](#exerciseslevel-3)
 
 # Day 10
 
 ## Set
 
-Set is  a collection of elements. Set can only contains unique elements.
-Let us see how to create a set in the section below.
+L'insieme è una collezione di elementi. L'insieme può contenere solo elementi unici.
+Vediamo come creare un insieme nella sezione seguente.
 
-### Creating an empty set
+### Creare un set vuoto
 
 ```js
 const companies = new Set()
@@ -58,7 +58,7 @@ console.log(companies)
 Set(0) {}
 ```
 
-### Creating set from array
+### Creare un set da un array
 
 ```js
 const languages = [
@@ -79,7 +79,7 @@ console.log(setOfLanguages)
 Set(4) {"English", "Finnish", "French", "Spanish"}
 ```
 
-Set is an iterable object and we can iterate through each elements.
+Set è un oggetto iterabile e possiamo iterare attraverso ogni elemento.
 
 ```js
 const languages = [
@@ -106,7 +106,7 @@ for (const language of setOfLanguages) {
   Spanish
 ```
 
-### Adding an element to a set
+### Aggiungere un elemento ad un set
 
 ```js
 const companies = new Set() // creating an empty set
@@ -125,7 +125,7 @@ console.log(companies)
 Set(5) {"Google", "Facebook", "Amazon", "Oracle", "Microsoft"}
 ```
 
-We can also use loop to add element to a set.
+Possiamo anche usare il ciclo per aggiungere elementi a un insieme.
 
 ```js
 const companies = ['Google', 'Facebook', 'Amazon', 'Oracle', 'Microsoft']
@@ -140,27 +140,27 @@ Set(5) {"Google", "Facebook", "Amazon", "Oracle", "Microsoft"}
 
 ```
 
-### Deleting an element a set
+### Eliminare un elemento dal set
 
-We can delete an element from a set using a delete method.
+Possiamo eliminare un elemento da un insieme utilizzando un metodo di cancellazione.
 
 ```js
 console.log(companies.delete('Google'))
 console.log(companies.size) // 4 elements left in the set
 ```
 
-### Checking an element in the set
+### Verificare la presenza di un elemento nel set
 
-The has method can help to know if a certain element exists in a set.
+Il metodo has può aiutare a sapere se un certo elemento esiste in un insieme.
 
 ```js
 console.log(companies.has('Apple')) // false
 console.log(companies.has('Facebook')) // true
 ```
 
-### Clearing the set
+### Svuotare il set
 
-It removes all the elements from a set.
+Rimuove tutti gli elementi da un insieme.
 
 ```js
 companies.clear()
@@ -171,7 +171,7 @@ console.log(companies)
 Set(0) {}
 ```
 
-See the example below to learn how to use set.
+Vedere l'esempio seguente per imparare a usare set.
 
 ```js
 const languages = [
@@ -207,7 +207,7 @@ console.log(counts)
 ]
 ```
 
-Other use case of set. For instance to count unique item in an array.
+Altri casi d'uso di set. Ad esempio, per contare gli elementi unici di un array.
 
 ```js
 const numbers = [5, 3, 2, 5, 5, 9, 4, 5]
@@ -220,9 +220,9 @@ console.log(setOfNumbers)
 Set(5) {5, 3, 2, 9, 4}
 ```
 
-### Union of sets
+### Unione di set
 
-To find a union to two sets can be achieved using spread operator. Lets find the union of set A and set B (A U B)
+Per trovare l'unione di due insiemi si può utilizzare l'operatore di divisione. Troviamo l'unione dell'insieme A e dell'insieme B (A U B)
 
 ```js
 let a = [1, 2, 3, 4, 5]
@@ -240,9 +240,9 @@ console.log(C)
 Set(6) {1, 2, 3, 4, 5,6}
 ```
 
-### Intersection of sets
+### Intersezione di set
 
-To find an intersection of two sets can be achieved using filter. Lets find the intersection of set A and set B (A ∩ B)
+Per trovare l'intersezione di due insiemi si può utilizzare un filtro. Troviamo l'intersezione dell'insieme A e dell'insieme B (A ∩ B)
 
 ```js
 let a = [1, 2, 3, 4, 5]
@@ -261,9 +261,9 @@ console.log(C)
 Set(3) {3, 4, 5}
 ```
 
-### Difference of sets
+### Differenza tra set
 
-To find an the difference between two sets can be achieved using filter. Lets find the different of set A and set B (A \ B)
+Per trovare la differenza tra due insiemi si può utilizzare un filtro. Troviamo la differenza tra l'insieme A e l'insieme B (A \ B)
 
 ```js
 let a = [1, 2, 3, 4, 5]
@@ -284,7 +284,7 @@ Set(2) {1, 2}
 
 ## Map
 
-### Creating an empty Map
+### Creare un map vuoto
 
 ```js
 const map = new Map()
@@ -295,7 +295,7 @@ console.log(map)
 Map(0) {}
 ```
 
-### Creating an Map from array
+### Creare un map da un array
 
 ```js
 countries = [
@@ -313,7 +313,7 @@ Map(3) {"Finland" => "Helsinki", "Sweden" => "Stockholm", "Norway" => "Oslo"}
 3
 ```
 
-### Adding values to the Map
+### Aggiungere valori ad un map
 
 ```js
 const countriesMap = new Map()
@@ -330,7 +330,7 @@ Map(3) {"Finland" => "Helsinki", "Sweden" => "Stockholm", "Norway" => "Oslo"}
 3
 ```
 
-### Getting a value from Map
+### Ottenere un valore dal map
 
 ```js
 console.log(countriesMap.get('Finland'))
@@ -340,9 +340,9 @@ console.log(countriesMap.get('Finland'))
 Helsinki
 ```
 
-### Checking key in Map
+### Controllare le key del map
 
-Check if a key exists in a map using _has_ method. It returns _true_ or _false_.
+Controlla se una chiave esiste in una mappa usando il metodo _has_. Restituisce _true_ o _false_.
 
 ```js
 console.log(countriesMap.has('Finland'))
@@ -352,7 +352,7 @@ console.log(countriesMap.has('Finland'))
 true
 ```
 
-Getting all values from map using loop
+Ottenere tutti i valori dalla mappa utilizzando il ciclo
 
 ```js
 for (const country of countriesMap) {
@@ -378,11 +378,11 @@ Sweden Stockholm
 Norway Oslo
 ```
 
-🌕 You established a big milestone, you are unstoppable. Keep going! You have just completed day 10 challenges and you are 10 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 Hai raggiunto un grande traguardo, sei inarrestabile. Continua così! Hai appena completato le sfide del 10° giorno e sei a 10 passi dalla tua strada verso la grandezza. Ora fai qualche esercizio per il cervello e per i muscoli.
 
 ## Esercizi
 
-### Esercizi:Level 1
+### Esercizi: Livello 1
 
 ```js
 const a = [4, 5, 8, 9]
@@ -390,24 +390,24 @@ const b = [3, 4, 5, 7]
 const countries = ['Finland', 'Sweden', 'Norway']
 ```
 
-1. create an empty set
-2. Create a set containing 0 to 10 using loop
-3. Remove an element from a set
-4. Clear a set
-5. Create a set of 5 string elements from array
-6. Create a map of countries and number of characters of a country
+1. creare un insieme vuoto
+2. Creare un insieme contenente da 0 a 10 utilizzando il ciclo
+3. Rimuovere un elemento da un insieme
+4. Cancellare un insieme
+5. Creare un insieme di 5 elementi stringa da un array
+6. Creare una mappa di paesi e il numero di caratteri di un paese
 
-### Esercizi:Level 2
+### Esercizi: Livello 2
 
-1. Find a union b
-2. Find a intersection b
-3. Find a with b
+1. Trovare un'unione b
+2. Trovare un'intersezione b
+3. Trovare a con b
 
-### Esercizi:Level 3
+### Esercizi: Livello 3
 
-1. How many languages are there in the countries object file.
+1. Quante lingue sono presenti nel file oggetto Paesi.
 
-1. \*\*\* Use the countries data to find the 10 most spoken languages:
+1. \*\*\* Utilizzate i dati dei Paesi per trovare le 10 lingue più parlate:
 
 ```js
    // Your output should look like this

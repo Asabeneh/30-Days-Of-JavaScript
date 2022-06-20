@@ -23,16 +23,16 @@
 		- [Global scope](#global-scope)
 		- [Local scope](#local-scope)
 	- [📔 Object](#-object)
-		- [Creating an empty object](#creating-an-empty-object)
-		- [Creating an objecting with values](#creating-an-objecting-with-values)
-		- [Getting values from an object](#getting-values-from-an-object)
-		- [Creating object methods](#creating-object-methods)
-		- [Setting new key for an object](#setting-new-key-for-an-object)
-		- [Object Methods](#object-methods)
-			- [Getting object keys using Object.keys()](#getting-object-keys-using-objectkeys)
-			- [Getting object values using Object.values()](#getting-object-values-using-objectvalues)
-			- [Getting object keys and values using Object.entries()](#getting-object-keys-and-values-using-objectentries)
-			- [Checking properties using hasOwnProperty()](#checking-properties-using-hasownproperty)
+		- [Creare un oggetto vuoto](#creating-an-empty-object)
+		- [Creare un oggetto con valori](#creating-an-objecting-with-values)
+		- [Ottenere i valori dall'oggetto](#getting-values-from-an-object)
+		- [Creare i metodi di un oggetto](#creating-object-methods)
+		- [Impostare nuove chiavi per un oggetto](#setting-new-key-for-an-object)
+		- [Metodi della classe Object](#object-methods)
+			- [Ottenere le chiavi con Object.keys()](#getting-object-keys-using-objectkeys)
+			- [Ottenere i valori con Object.values()](#getting-object-values-using-objectvalues)
+			- [Ottenere chiavi e valori con Object.entries()](#getting-object-keys-and-values-using-objectentries)
+			- [Controllare le proprietà usando hasOwnProperty()](#checking-properties-using-hasownproperty)
 	- [💻 Esercizi](#-exercises)
 		- [Esercizi: Livello 1](#exercises-level-1)
 		- [Esercizi: Livello 2](#exercises-level-2)
@@ -42,20 +42,20 @@
 
 ## Scope
 
-Variable is the fundamental part in programming. We declare variable to store different data types. To declare a variable we use the key word _var_, _let_ and _const_. A variable can be declared at different scope. In this section, we will see the scope variables, scope of variables when we use var or let.
-Variables scopes can be:
+La variabile è un elemento fondamentale della programmazione. Dichiariamo una variabile per memorizzare diversi tipi di dati. Per dichiarare una variabile si usano le parole chiave _var_, _let_ e _const_. Una variabile può essere dichiarata in diversi ambiti. In questa sezione vedremo l'ambito delle variabili, l'ambito delle variabili quando usiamo var o let.
+Gli ambiti delle variabili possono essere:
 
 - Global
 - Local
 
-Variable can be declared globally or locally  scope. We will see both global and local scope.
-Anything declared without let, var or const is scoped at global level.
+Le variabili possono essere dichiarate a livello globale o locale. Vedremo sia l'ambito globale che quello locale.
+Qualsiasi cosa dichiarata senza let, var o const ha uno scope globale.
 
-Let us imagine that we have a scope.js file.
+Immaginiamo di avere un file scope.js.
 
 ### Window Global Object
 
-Without using console.log() open your browser and check, you will see the value of a and b if you write a or b on the browser. That means a and b are already available in the window.
+Senza usare console.log(), aprite il browser e verificate: vedrete il valore di a e b se scrivete a o b nel browser. Ciò significa che a e b sono già disponibili nella finestra.
 
 ```js
 //scope.js
@@ -72,7 +72,7 @@ console.log(a, b) // accessible
 
 ### Global scope
 
-A globally declared variable can be accessed every where in the same file. But the term global is relative. It can be global to the file or it can be global relative to some block of codes.
+Una variabile dichiarata globalmente può essere accessibile in qualsiasi punto dello stesso file. Ma il termine globale è relativo. Può essere globale al file o globale rispetto a qualche blocco di codice.
 
 ```js
 //scope.js
@@ -93,7 +93,7 @@ console.log(a, b) // JavaScript 10, accessible
 
 ### Local scope
 
-A variable declared as local can be accessed only in certain block code.
+Una variabile dichiarata come locale può essere accessibile solo in determinati blocchi di codice.
 
 - Block Scope
 - Function Scope
@@ -124,7 +124,7 @@ letsLearnScope()
 console.log(a, b) // JavaScript 10, accessible
 ```
 
-Now, you have an understanding of scope. A variable declared with *var* only scoped to function but variable declared with *let* or *const* is block scope(function block, if block, loop block, etc). Block in JavaScript is a code in between two curly brackets ({}).
+Ora avete compreso l'ambito. Una variabile dichiarata con *var* ha un ambito solo per la funzione, mentre una variabile dichiarata con *let* o *const* ha un ambito di blocco (blocco funzione, blocco if, blocco loop, ecc.). Il blocco in JavaScript è un codice compreso tra due parentesi graffe ({}).
 
 ```js
 //scope.js
@@ -148,7 +148,7 @@ console.log(i) // 3
 
 ```
 
-In ES6 and above there is *let* and *const*, so you will not suffer from the sneakiness of *var*. When we use *let* our variable is block scoped and it will not infect other parts of our code.
+In ES6 e versioni successive esistono *let* e *const*, per cui non si soffrirà della subdola presenza di *var*. Quando usiamo *let*, la nostra variabile ha uno scope di blocco e non infetterà altre parti del nostro codice.
 
 ```js
 //scope.js
@@ -173,14 +173,14 @@ for(let i = 0; i < 3; i++){
 
 ```
 
-The scope *let* and *const* are the same. The difference is only reassigning. We can not change or reassign the value of the `const` variable. I would strongly suggest you to use *let* and *const*, by using *let* and *const* you will write clean code and avoid hard to debug mistakes. As a rule of thumb, you can use *let* for any value which change, *const* for any constant value, and for an array, object, arrow function and function expression.
+Gli ambiti *let* e *const* sono gli stessi. La differenza è solo la riassegnazione. Non possiamo cambiare o riassegnare il valore della variabile `const`. Vi consiglio vivamente di usare *let* e *const*; usando *let* e *const* scriverete codice pulito ed eviterete errori difficili da debuggare. Come regola generale, si può usare *let* per qualsiasi valore che cambia, *const* per qualsiasi valore costante e per un array, un oggetto, una funzione freccia e un'espressione di funzione.
 
 ## 📔 Object
 
-Everything can be an object and objects do have properties and properties have values, so an object is a key value pair. The order of the key is not reserved, or there is no order.
-To create an object literal, we use two curly brackets.
+Tutto può essere un oggetto e gli oggetti hanno proprietà e le proprietà hanno valori, quindi un oggetto è una coppia chiave-valore. L'ordine delle chiavi non è riservato, oppure non c'è un ordine.
+Per creare un letterale di oggetto, si usano due parentesi graffe.
 
-### Creating an empty object
+### Creare un oggetto vuoto
 
 An empty object
 
@@ -188,11 +188,11 @@ An empty object
 const person = {}
 ```
 
-### Creating an objecting with values
+### Creare un oggetto con valori
 
-Now, the person object has firstName, lastName, age, location, skills and isMarried properties. The value of properties or keys could be a string, number, boolean, an object, null, undefined or a function.
+Ora, l'oggetto persona ha le proprietà firstName, lastName, age, location, skills e isMarried. Il valore delle proprietà o delle chiavi può essere una stringa, un numero, un booleano, un oggetto, null, undefined o una funzione.
 
-Let us see some examples of object. Each key has a value in the object.
+Vediamo alcuni esempi di oggetti. Ogni chiave ha un valore nell'oggetto.
 
 ```js
 const rectangle = {
@@ -222,12 +222,12 @@ const person = {
 console.log(person)
 ```
 
-### Getting values from an object
+### Ottenere i valori dall'oggetto
 
-We can access values of object using two methods:
+Possiamo accedere ai valori degli oggetti utilizzando due metodi:
 
-- using . followed by key name if the key-name is a one word
-- using square bracket and a quote
+- usando . seguito dal nome della chiave, se il nome della chiave è una sola parola
+- usando le parentesi quadre e le virgolette
 
 ```js
 const person = {
@@ -269,9 +269,9 @@ console.log(person['location']) // undefined
 console.log(person['phone number'])
 ```
 
-### Creating object methods
+### Creare i metodi di un oggetto
 
-Now, the person object has getFullName properties. The getFullName is function inside the person object and we call it an object method. The _this_ key word refers to the object itself. We can use the word _this_ to access the values of different properties of the object. We can not use an arrow function as object method because the word this refers to the window inside an arrow function instead of the object itself. Example of object:
+Ora, l'oggetto persona ha le proprietà getFullName. Il metodo getFullName è una funzione all'interno dell'oggetto persona e lo chiamiamo metodo dell'oggetto. La parola chiave _this_ si riferisce all'oggetto stesso. Possiamo usare la parola _this_ per accedere ai valori di diverse proprietà dell'oggetto. Non possiamo usare una funzione freccia come metodo oggetto, perché la parola this si riferisce alla finestra all'interno di una funzione freccia invece che all'oggetto stesso. Esempio di oggetto:
 
 ```js
 const person = {
@@ -299,11 +299,11 @@ console.log(person.getFullName())
 // Asabeneh Yetayeh
 ```
 
-### Setting new key for an object
+### Impostare nuove chiavi per un oggetto
 
-An object is a mutable data structure and we can modify the content of an object after it gets created.
+Un oggetto è una struttura dati mutabile e si può modificare il contenuto di un oggetto dopo la sua creazione.
 
-Setting a new keys in an object
+Impostazione di nuove chiavi in un oggetto
 
 ```js
 const person = {
@@ -354,11 +354,11 @@ He lives in Finland.
 He teaches HTML, CSS, JavaScript, React, Node, MongoDB, Python, D3.js, Meteor, and SasS.
 ```
 
-### Object Methods
+### Metodi della classe Object
 
-There are different methods to manipulate an object. Let us see some of the available methods.
+Esistono diversi metodi per manipolare un oggetto. Vediamo alcuni dei metodi disponibili.
 
-_Object.assign_: To copy an object without modifying the original object
+_Object.assign_: Per copiare un oggetto senza modificare l'oggetto originale.
 
 ```js
 const person = {
@@ -385,9 +385,9 @@ const copyPerson = Object.assign({}, person)
 console.log(copyPerson)
 ```
 
-#### Getting object keys using Object.keys()
+#### Ottenere le chiavi con Object.keys()
 
-_Object.keys_: To get the keys or properties of an object as an array
+_Object.keys_: Per ottenere le chiavi o le proprietà di un oggetto come array
 
 ```js
 const keys = Object.keys(copyPerson)
@@ -396,49 +396,49 @@ const address = Object.keys(copyPerson.address)
 console.log(address) //['street', 'pobox', 'city']
 ```
 
-#### Getting object values using Object.values()
+#### Ottenere i valori con Object.values()
 
-_Object.values_:To get values of an object as an array
+_Object.values_:Per ottenere i valori di un oggetto come array
 
 ```js
 const values = Object.values(copyPerson)
 console.log(values)
 ```
 
-#### Getting object keys and values using Object.entries()
+#### Ottenere chiavi e valori con Object.entries()
 
-_Object.entries_:To get the keys and values in an array
+_Object.entries_: Per ottenere le chiavi e i valori di un array
 
 ```js
 const entries = Object.entries(copyPerson)
 console.log(entries)
 ```
 
-#### Checking properties using hasOwnProperty()
+#### Controllare le proprietà usando hasOwnProperty()
 
-_hasOwnProperty_: To check if a specific key or property exist in an object
+_hasOwnProperty_: Per verificare se una chiave o una proprietà specifica esiste in un oggetto
 
 ```js
 console.log(copyPerson.hasOwnProperty('name'))
 console.log(copyPerson.hasOwnProperty('score'))
 ```
 
-🌕 You are astonishing. Now, you are super charged with the power of objects. You have just completed day 8 challenges and you are 8 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 Sei sorprendente. Ora sei super caricato con il potere degli oggetti. Hai appena completato le sfide dell'ottavo giorno e sei a 8 passi dalla tua strada verso la grandezza. Ora fai qualche esercizio per il cervello e per i muscoli.
 
 ## 💻 Esercizi
 
 ### Esercizi: Livello 1
 
-1. Create an empty object called dog
-1. Print the the dog object on the console
-1. Add name, legs, color, age and bark properties for the dog object. The bark property is a method which return _woof woof_
-1. Get name, legs, color, age and bark value from the dog object
-1. Set new properties the dog object: breed, getDogInfo
+1. Creare un oggetto vuoto chiamato cane
+1. Stampare l'oggetto cane sulla console
+1. Aggiungere all'oggetto cane le proprietà nome, zampe, colore, età e abbaio. La proprietà abbaia è un metodo che restituisce _woof woof_.
+1. Ottenere il valore di nome, zampe, colore, età e abbaio dall'oggetto cane
+1. Impostare nuove proprietà per l'oggetto cane: breed, getDogInfo
 
 ### Esercizi: Livello 2
 
-1. Find the person who has many skills in the users object.
-1. Count logged in users, count users having greater than equal to 50 points from the following object.
+1. Individuare la persona che ha molte competenze nell'oggetto utente.
+1. Contare gli utenti connessi, contare gli utenti che hanno più di 50 punti dal seguente oggetto.
 
    ````js
    const users = {
@@ -493,16 +493,16 @@ console.log(copyPerson.hasOwnProperty('score'))
      }
    }```
 
-1. Find people who are MERN stack developer from the users object
-1. Set your name in the users object without modifying the original users object
-1. Get all keys or properties of users object
-1. Get all the values of users object
-1. Use the countries object to print a country name, capital, populations and languages.
+1. Trovare persone che sono sviluppatori di stack MERN dall'oggetto degli utenti
+1. Impostare il proprio nome nell'oggetto utenti senza modificare l'oggetto utenti originale.
+1. Ottenere tutte le chiavi o le proprietà dell'oggetto users
+1. Ottenere tutti i valori dell'oggetto users
+1. Utilizzare l'oggetto countries per stampare il nome di un paese, la capitale, la popolazione e le lingue.
 
 ### Esercizi: Livello 3
 
-1. Create an object literal called _personAccount_. It has _firstName, lastName, incomes, expenses_ properties and it has _totalIncome, totalExpense, accountInfo,addIncome, addExpense_ and _accountBalance_ methods. Incomes is a set of incomes and its description and expenses is a set of incomes and its description.
-2. **** Questions:2, 3 and 4 are based on the following two arrays:users and products ()
+1. Creare un oggetto letterale chiamato _contopersona_. Ha le proprietà _nome, cognome, entrate, spese_ e i metodi _entrate totali, uscite totali, informazioni sul conto, aggiungi entrate, aggiungi spese_ e _bilancio del conto_. Entrate è un insieme di entrate e relativa descrizione e spese è un insieme di entrate e relativa descrizione.
+2. **** Le domande:2, 3 e 4 si basano sui seguenti due array: utenti e prodotti ()
 
   ```js
       const users = [
@@ -579,15 +579,15 @@ console.log(copyPerson.hasOwnProperty('score'))
   ]
   ```
 
-  Imagine you are getting the above users collection from a MongoDB database.
-    a. Create a function called signUp which allows user to add to the collection. If user exists, inform the user that he has already an account.  
-    b. Create a function called signIn which allows user to sign in to the application  
+  Si immagini di ottenere la raccolta di utenti di cui sopra da un database MongoDB.
+    a. Creare una funzione chiamata signUp che consenta all'utente di aggiungersi all'insieme. Se l'utente esiste, informarlo che ha già un account.  
+    b. Creare una funzione chiamata signIn che consenta all'utente di accedere all'applicazione.  
 
-3. The products array has three elements and each of them has six properties.
-    a. Create a function called rateProduct which rates the product
-    b. Create a function called averageRating which calculate the average rating of a product  
+3. L'array prodotti ha tre elementi e ognuno di essi ha sei proprietà.
+    a. Creare una funzione chiamata rateProduct che valuta il prodotto.
+    b. Creare una funzione chiamata mediaValutazione che calcola la media delle valutazioni di un prodotto.  
 
-4. Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove like if it was liked.
+4. Creare una funzione chiamata likeProduct. Questa funzione aiuta a dare un like al prodotto se non è piaciuto e a rimuovere il like se è piaciuto.
 
 
 🎉 CONGRATULAZIONI ! 🎉
