@@ -18,14 +18,14 @@
 
 ![Thirty Days Of JavaScript](../../images/banners/day_1_20.png)
 - [Day 20](#day-20)
-	- [Writing clean code](#writing-clean-code)
-		- [JavaScript Style Guide](#javascript-style-guide)
-		- [Why we need style guide](#why-we-need-style-guide)
-			- [Airbnb JavaScript Style Guide](#airbnb-javascript-style-guide)
-			- [Standard JavaScript Style Guide](#standard-javascript-style-guide)
-			- [Google JavaScript Style Guide](#google-javascript-style-guide)
-		- [JavaScript Coding Conventions](#javascript-coding-conventions)
-			- [Conventions use in 30DaysOfJavaScript](#conventions-use-in-30daysofjavascript)
+	- [Scrivere codice pulito](#writing-clean-code)
+		- [Guida allo stile in JavaScript](#javascript-style-guide)
+		- [Perché abbiamo bisogno di uno stile](#why-we-need-style-guide)
+			- [Guida allo stile Airbnb](#airbnb-javascript-style-guide)
+			- [Guida allo stile Standard JavaScript](#standard-javascript-style-guide)
+			- [Guida allo stile Google](#google-javascript-style-guide)
+		- [Convenzioni del codice JavaScript](#javascript-coding-conventions)
+			- [Convenzioni usate in 30DaysOfJavaScript](#conventions-use-in-30daysofjavascript)
 			- [Variables](#variables)
 			- [Arrays](#arrays)
 			- [Functions](#functions)
@@ -36,68 +36,68 @@
 
 # Day 20
 
-## Writing clean code
+## Scrivere codice pulito
 
-### JavaScript Style Guide
+### Guida allo stile in JavaScript
 
-A JavaScript style guide is a set of standards that tells how JavaScript code should be written and organized. In this section, we will talk about JavaScript guides and how to write a clean code.
+Una guida di stile JavaScript è un insieme di standard che indica come il codice JavaScript dovrebbe essere scritto e organizzato. In questa sezione parleremo delle guide JavaScript e di come scrivere un codice pulito.
 
-JavaScript is a programming language and like human language it has syntax. The syntax of JavaScript has to be written following a certain style guideline for sake of convince and simplicity.
+JavaScript è un linguaggio di programmazione e, come i linguaggi umani, ha una sintassi. La sintassi di JavaScript deve essere scritta seguendo una certa linea guida di stile, per motivi di convinzione e semplicità.
 
-### Why we need style guide
+### Perché abbiamo bisogno di uno stile
 
-You have been coding alone for so long but now it seems to work in a team. It does not matter in anyway you write you code as long as it running, however when you work in team of 10 or 20 or more developer on one project and on the same code base, the code will be messy and hard to manage if there is no any guidelines to follow.
+Avete codificato da soli per tanto tempo, ma ora sembra che dobbiate lavorare in team. Non importa in che modo scriviate il codice, purché funzioni, ma quando lavorate in un team di 10 o 20 o più sviluppatori su un progetto e sullo stesso codice base, il codice sarà disordinato e difficile da gestire se non ci sono linee guida da seguire.
 
-You can develop your own guidelines and conventions or you can also adapt well developed guidelines. Let us the most common know guidelines.
-Most common JavaScript Style Guides
+È possibile sviluppare linee guida e convenzioni proprie o adattare linee guida ben sviluppate. Vediamo le linee guida più comuni.
+Guida allo stile più comune in JavaScript
 
-- Airbnb JavaScript Style Guide
-- JavaScript Standard Style Guide
-- Google JavaScript Style Guide
+- Guida allo stile Airbnb
+- Guida allo stile standard di JavaScript
+- Guida allo stile Google
 
-#### Airbnb JavaScript Style Guide
+#### Guida allo stile Airbnb
 
-Airbnb has one of the most popular JavaScript style guides on the internet. It covers nearly every aspect of JavaScript as well  and it is adopted by many developer and companies. You may checkout the [Airbnb style guide](https://github.com/airbnb/javascript). I would also recommend to try it. Their style is very easy to use and simple to understand.
+Airbnb ha una delle guide di stile JavaScript più popolari su Internet. Copre quasi tutti gli aspetti di JavaScript ed è adottata da molti sviluppatori e aziende. Potete consultare la [Guida allo stile di Airbnb](https://github.com/airbnb/javascript). Vi consiglio di provarla. Il loro stile è molto facile da usare e semplice da capire.
 
-#### Standard JavaScript Style Guide
+#### Guida allo stile Standard JavaScript
 
-This is guideline is not as popular as Airbnb but it worth to look at it. They removed the semicolon in their [style guide](https://standardjs.com/).
+Questa linea guida non è così popolare come Airbnb, ma vale la pena guardarla. Hanno rimosso il punto e virgola nel loro [style guide](https://standardjs.com/).
 
-#### Google JavaScript Style Guide
+#### Guida allo stile Google
 
-I do not say much about Googles guideline and I did not use rather I would suggest you to have a look from this [link](https://google.github.io/styleguide/jsguide.html).
+Non parlo molto delle linee guida di Google e non le ho usate, piuttosto vi suggerisco di dare un'occhiata a questo sito. [link](https://google.github.io/styleguide/jsguide.html).
 
-### JavaScript Coding Conventions
+### Convenzioni del codice JavaScript
 
-In this challenge also we used the general JavaScript coding writing conventions and guides. Coding conventions are style guidelines for programming which are developed by an individual, a team or a company.
+Anche in questa sfida abbiamo utilizzato le convenzioni e le guide generali di scrittura di JavaScript. Le convenzioni di codifica sono linee guida di stile per la programmazione sviluppate da un individuo, un team o un'azienda.
 
-Coding conventions helps:
+Le convenzioni di codifica aiutano a
 
-- to write clean code
-- to improve code readability
-- to improve code re-useability and maintainability
+- scrivere codice pulito
+- migliorare la leggibilità del codice
+- migliorare la riutilizzabilità e la manutenibilità del codice
 
-Coding conventions includes
+Le convenzioni di codifica comprendono
 
-- Naming and declaration rules for variables
-- Naming and declaration rules for functions
-- Rules for the use of white space, indentation, and comments
-- Programming practices and principles
+- Regole di denominazione e dichiarazione per le variabili
+- Regole di denominazione e dichiarazione per le funzioni
+- Regole per l'uso degli spazi bianchi, dell'indentazione e dei commenti.
+- Pratiche e principi di programmazione
 
-#### Conventions use in 30DaysOfJavaScript
+#### Convenzioni usate in 30DaysOfJavaScript
 
-In this challenge we follow the regular JavaScript convention but I added also my preference of writing. 
+In questa sfida abbiamo seguito le normali convenzioni di JavaScript, ma ho aggiunto anche le mie preferenze di scrittura. 
 
-- We used camelCase for variables and functions.
-- All variable names start with a letter.
-- We chose to use *const* for constants, arrays, objects and functions. In stead of double quote, we chose to use single quote or backtick. Single quote is becoming trendy.
-- We also removed semicolons from our code but it is a matter of personal preference.
-- Space around arithmetic operators, assignment operators and after comma
-- Arrow function instead of function declaration
-- Explicit return instead of implicit return if the function is one liner
-- No trailing comma in the last value of an object
-- We prefer this +=, -=, *= /=, **= instead of the longer version
-- When we use console.log() it is good to print with a tag string to identify from where the console is coming
+- Abbiamo usato il camelCase per le variabili e le funzioni.
+- Tutti i nomi delle variabili iniziano con una lettera.
+- Abbiamo scelto di usare *const* per costanti, array, oggetti e funzioni. Al posto delle doppie virgolette, abbiamo scelto di usare le virgolette singole o il backtick. Le virgolette singole stanno diventando di moda.
+- Abbiamo anche eliminato i punti e virgola dal nostro codice, ma è una questione di preferenze personali.
+- Spazio intorno agli operatori aritmetici, agli operatori di assegnazione e dopo la virgola.
+- Freccia di funzione invece di dichiarazione di funzione
+- Ritorno esplicito invece di ritorno implicito se la funzione è one liner
+- Nessuna virgola nell'ultimo valore di un oggetto.
+- Preferiamo questi +=, -=, *= /=, **= invece della versione più lunga
+- Quando si usa console.log() è bene stampare con una stringa di tag per identificare da dove proviene la console
 
 #### Variables
 
@@ -114,7 +114,7 @@ const gravity = 9.81
 
 #### Arrays
 
-We chose to make array names plural
+Abbiamo scelto di rendere i nomi degli array plurali
 
 - names
 - numbers
@@ -137,7 +137,7 @@ const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
 
 #### Functions
 
-By now you are very familiar function declaration, expression function, arrow function and anonymous function. In this challenge we tend to use arrow function instead of other functions. Arrow function is not a replacement for other functions. In addition, arrow functions and function declarations are not exactly the same. So you should know when to use and when not. I will cover the difference in detail in other sections. We will use explicit return instead of implicit return if the function is one liner
+Ormai conoscete bene la dichiarazione di funzione, la funzione espressione, la funzione freccia e la funzione anonima. In questa sfida tendiamo a usare la funzione freccia invece di altre funzioni. La funzione freccia non sostituisce le altre funzioni. Inoltre, le funzioni freccia e le dichiarazioni di funzione non sono esattamente la stessa cosa. È quindi necessario sapere quando usarle e quando no. Tratterò la differenza in dettaglio in altre sezioni. Utilizzeremo il ritorno esplicito al posto di quello implicito se la funzione è una sola riga.
 
 ```js
 // function which return full name of a person
@@ -180,12 +180,12 @@ const showDateTime = () => {
 }
 ```
 
-The `new Dat().toLocaleString()` can also be used to display current date time. The `toLocaleString()` methods takes different arguments. You may learn more about date and time from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString).
+Il metodo `new Dat().toLocaleString()` può essere utilizzato anche per visualizzare l'ora della data corrente. I metodi `toLocaleString()` accettano diversi argomenti. Per saperne di più sulla data e sull'ora, consultare questo documento [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString).
 
 #### Loops
 
-We coverer many types of loops in this challenges. The regular for loop, while loop, do while loop, for of loop, forEach loop and for in loop.
-Lets see how we use them:
+In questa sfida copriamo molti tipi di loop. I normali cicli for, while, do while, for of, forEach e for in.
+Vediamo come utilizzarli:
 
 ```js
 for (let i = 0; i < n; i++){
@@ -228,7 +228,7 @@ for(const key in person) {
 
 #### Objects
 
-We declare object literal with *const*.
+Dichiariamo gli oggetti letterali con *const*.
 
 ```js
 // declaring object literal
@@ -250,7 +250,7 @@ for(const key in person) {
 
 #### Conditional
 
- We say if, if else, if else if else, switch and ternary operators in previous challenges.
+ Nelle sfide precedenti abbiamo parlato di operatori if, if else, if else, switch e ternari.
 
  ```js
  // syntax
@@ -330,7 +330,7 @@ isRaining
 
 #### Classes
 
-We declare class with CamelCase which starts with capital letter.
+Dichiariamo la classe con CamelCase, che inizia con la lettera maiuscola.
 
 ```js
 // syntax
@@ -351,9 +351,9 @@ class Person {
 
 ```
 
-Whatever style guide you follow be consistent. Follow some programming paradigms and design patterns. Remember, if you do not write you code in certain order or fashion it will be hard to read your code. So, do a favor for yourself or for someone who is going to read your code by writing readable code.
+Qualunque sia la guida di stile che seguite, siate coerenti. Seguite alcuni paradigmi di programmazione e modelli di progettazione. Ricordate che se non scrivete il codice in un certo ordine o modo, sarà difficile leggerlo. Quindi, fate un favore a voi stessi o a chi leggerà il vostro codice scrivendo codice leggibile.
 
-🌕 You are tidy. Now, you knew how to write clean code, so anyone who know the English language can understand your code.  You are always progressing and you are a head of 20 steps to your way to greatness.
+🌕 Sei ordinato. Ora, sapete come scrivere codice pulito, quindi chiunque conosca la lingua inglese può capire il tuo codice.  Sei sempre in progresso e sei a 20 passi verso la grandezza.
 
 🎉 CONGRATULAZIONI ! 🎉
 

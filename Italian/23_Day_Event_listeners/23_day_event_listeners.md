@@ -24,13 +24,13 @@
 			- [Click](#click)
 			- [Double Click](#double-click)
 			- [Mouse enter](#mouse-enter)
-		- [Getting value from an input element](#getting-value-from-an-input-element)
-		- [input value](#input-value)
-			- [input event and change](#input-event-and-change)
-			- [blur event](#blur-event)
+		- [Ottenere un valore da un elemento di input](#getting-value-from-an-input-element)
+		- [Valore di input](#input-value)
+			- [Valore di input ed azioni in risposta](#input-event-and-change)
+			- [Evento di blur](#blur-event)
 			- [keypress, keydow and keyup](#keypress-keydow-and-keyup)
 	- [Esercizi](#exercises)
-		- [Exercise: Livello 1](#exercise-level-1)
+		- [Esercizio: Livello 1](#exercise-level-1)
 
 # Day 22
 
@@ -38,8 +38,8 @@
 
 ### Event Listeners
 
-Common HTML events:onclick, onchange, onmouseover, onmouseout, onkeydown, onkeyup, onload.
-We can add event listener method to any DOM object. We use **_addEventListener()_** method to listen different event types on HTML elements. The _addEventListener()_ method takes two arguments, an event listener and a callback function.
+Eventi HTML comuni: onclick, onchange, onmouseover, onmouseout, onkeydown, onkeyup, onload.
+Possiamo aggiungere un metodo di ascolto degli eventi a qualsiasi oggetto DOM. Utilizziamo il metodo **_addEventListener()_** per ascoltare diversi tipi di eventi sugli elementi HTML. Il metodo _addEventListener()_ accetta due argomenti, un ascoltatore di eventi e una funzione di callback.
 
 ```js
 selectedElement.addEventListener('eventlistner', function(e) {
@@ -54,9 +54,9 @@ selectedElement.addEventListener('eventlistner', e => {
 
 #### Click
 
-To attach an event listener to an element, first we select the element then we attach the addEventListener method. The event listener takes event type and callback functions as argument.
+Per collegare un ascoltatore di eventi a un elemento, prima si seleziona l'elemento e poi si applica il metodo addEventListener. L'ascoltatore di eventi prende come argomento il tipo di evento e le funzioni di callback.
 
-The following is an example of click type event.
+Di seguito è riportato un esempio di evento di tipo click.
 
 **Esempio: click**
 
@@ -85,7 +85,7 @@ The following is an example of click type event.
 </html>
 ```
 
-An event can be also attached directly to the HTML element as inline script.
+Un evento può anche essere allegato direttamente all'elemento HTML come script inline.
 
 **Esempio: onclick**
 
@@ -109,9 +109,10 @@ An event can be also attached directly to the HTML element as inline script.
 
 #### Double Click
 
-To attach an event listener to an element, first we select the element then we attach the addEventListener method. The event listener takes event type and callback functions as argument.
+Per collegare un ascoltatore di eventi a un elemento, prima si seleziona l'elemento e poi si applica il metodo addEventListener. L'ascoltatore di eventi prende come argomento il tipo di evento e le funzioni di callback.
 
-The following is an example of click type event.
+Di seguito è riportato un esempio di evento di tipo click.
+
 **Esempio: dblclick**
 
 ```html
@@ -140,9 +141,9 @@ The following is an example of click type event.
 
 #### Mouse enter
 
-To attach an event listener to an element, first we select the element then we attach the addEventListener method. The event listener takes event type and callback functions as argument.
+Per collegare un ascoltatore di eventi a un elemento, prima si seleziona l'elemento e poi si applica il metodo addEventListener. L'ascoltatore di eventi prende come argomento il tipo di evento e le funzioni di callback.
 
-The following is an example of click type event.
+Di seguito è riportato un esempio di evento di tipo click.
 
 **Esempio: mouseenter**
 
@@ -170,31 +171,31 @@ The following is an example of click type event.
 </html>
 ```
 
-By now you are familiar with addEventListen method and how to attach event listener. There are many types of event listeners. But in this challenge we will focus the most common important events.
-List of events:
+Ormai si conosce il metodo addEventListen e come collegare un ascoltatore di eventi. Esistono molti tipi di ascoltatori di eventi. Ma in questa sfida ci concentreremo sugli eventi più comuni e importanti.
+Elenco degli eventi:
 
-- click - when the element clicked
-- dblclick - when the element double clicked
-- mouseenter - when the mouse point enter to the element
-- mouseleave - when the mouse pointer leave the element
-- mousemove - when the mouse pointer move on the element
-- mouseover - when the mouse pointer move on the element
-- mouseout -when the mouse pointer out from the element
-- input -when value enter to input field
-- change -when value change on input field
-- blur -when the element is not focused
-- keydown - when a key is down
-- keyup - when a key is up
-- keypress - when we press any key
-- onload - when the browser has finished loading a page
+- click - quando l'elemento viene cliccato
+- dblclick - quando l'elemento fa doppio clic
+- mouseenter - quando il punto del mouse entra nell'elemento
+- mouseleave - quando il puntatore del mouse lascia l'elemento
+- mousemove - quando il puntatore del mouse si sposta sull'elemento
+- mouseover - quando il puntatore del mouse si sposta sull'elemento
+- mouseout - quando il puntatore del mouse esce dall'elemento
+- input - quando il valore viene inserito nel campo di input
+- change - quando il valore viene modificato nel campo di input
+- blur - quando l'elemento non è focalizzato
+- keydown - quando un tasto è abbassato
+- keyup - quando un tasto viene alzato
+- keypress - quando si preme un tasto qualsiasi
+- onload - quando il browser ha terminato il caricamento di una pagina
 
-Test the above event types by replacing event type in the above snippet code.
+Verificate i tipi di evento di cui sopra sostituendo il tipo di evento nel codice dello snippet precedente.
 
-### Getting value from an input element
+### Ottenere un valore da un elemento di input
 
-We usually fill forms and forms accept data. Form fields are created using input HTML element. Let us build a small application which allow us to calculate body mas index of a person using two input fields, one button and one p tag.
+Di solito compiliamo moduli e i moduli accettano dati. I campi dei moduli vengono creati utilizzando l'elemento HTML input. Costruiamo una piccola applicazione che ci consenta di calcolare l'indice di massa corporea di una persona utilizzando due campi di input, un pulsante e un tag p.
 
-### input value
+### Valore di input
 
 ```html
 <!DOCTYPE html>
@@ -226,9 +227,9 @@ We usually fill forms and forms accept data. Form fields are created using input
 </html>
 ```
 
-#### input event and change
+#### Valore di input ed azioni in risposta
 
-In the above example, we managed to get input values from two input fields by clicking button. How about if we want to get value without click the button. We can use the _change_ or _input_ event type to get data right away from the input field when the field is on focus. Let us see how we will handle that.
+Nell'esempio precedente, siamo riusciti a ottenere il valore di input da due campi di input facendo clic sul pulsante. E se volessimo ottenere il valore senza fare clic sul pulsante? Possiamo usare il tipo di evento _change_ o _input_ per ottenere subito i dati dal campo di input quando il campo è a fuoco. Vediamo come gestirlo.
 
 ```html
 <!DOCTYPE html>
@@ -255,9 +256,9 @@ In the above example, we managed to get input values from two input fields by cl
 </html>
 ```
 
-#### blur event
+#### Evento di blur
 
-In contrast to _input_ or _change_, the _blur_ event occur when the input field is not on focus.
+A differenza di _input_ o _change_, l'evento _blur_ si verifica quando il campo di input non è a fuoco.
 
 ```js
 <!DOCTYPE html>
@@ -268,7 +269,7 @@ In contrast to _input_ or _change_, the _blur_ event occur when the input field 
 </head>
 
 <body>
-    <h1>Giving feedback using blur event</h1>
+    <h1>Giving feedback using Evento di blur</h1>
 
     <input type="text" id="mass" placeholder="say something" />
     <p></p>
@@ -290,7 +291,7 @@ In contrast to _input_ or _change_, the _blur_ event occur when the input field 
 
 #### keypress, keydow and keyup
 
-We can access all the key numbers of the keyboard using different event listener types. Let us use keypress and get the keyCode of each keyboard keys.
+Possiamo accedere a tutti i numeri dei tasti della tastiera utilizzando diversi tipi di ascoltatori di eventi. Utilizziamo keypress e otteniamo il keyCode di ogni tasto della tastiera.
 
 ```html
 <!DOCTYPE html>
@@ -313,19 +314,19 @@ We can access all the key numbers of the keyboard using different event listener
 
 ---
 
-🌕 You are so special, you are progressing everyday. Now, you knew how handle any kind of DOM events. . You are left with only seven days to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 Sei così speciale, progredisci ogni giorno. Ora, sai come gestire qualsiasi tipo di evento DOM. . Ti restano solo sette giorni per raggiungere la grandezza. Ora fai qualche esercizio per il cervello e per i muscoli.
 
 ## Esercizi
 
 ### Exercise: Livello 1
 
-1. Generating numbers and marking evens, odds and prime numbers with three different colors. See the image below.
+1. Generazione di numeri e marcatura di pari, dispari e numeri primi con tre colori diversi. Vedere l'immagine qui sotto.
 
-![Number Generator](./../images/projects/dom_min_project_number_generator_day_3.1.gif)
+![Number Generator](../../images/projects/dom_min_project_number_generator_day_3.1.gif)
 
-1. Generating the keyboard code code using even listener. The image below.
+1. Generazione del codice della tastiera utilizzando l'ascoltatore Even. L'immagine seguente.
 
-![Keyboard key](./../images/projects/dom_min_project_keycode_day_3.2.gif)
+![Keyboard key](../../images/projects/dom_min_project_keycode_day_3.2.gif)
 
 🎉 CONGRATULAZIONI ! 🎉
 

@@ -117,7 +117,7 @@ let country = 'Finland'
 
 Operatori di Assegnamento
 
-![Operatori di Assegnamento](../images/assignment_operators.png)
+![Operatori di Assegnamento](../../images/assignment_operators.png)
 
 ### Operatori Aritmetici
 
@@ -179,7 +179,7 @@ console.log(
 
 Nella programmazione si confrontano i valori, utilizzando gli operatori di confronto per confrontare due valori. Controlliamo se un valore è maggiore o minore o uguale a un altro valore.
 
-![Operatori di Confronto](../images/comparison_operators.png)
+![Operatori di Confronto](../../images/comparison_operators.png)
 **Esempio: Operatori di Confronto**
 
 ```js
@@ -385,7 +385,7 @@ Questi non sono tutti i metodi delle finestre, ma avremo una sezione separata pe
 Il tempo è una cosa importante. Vogliamo conoscere l'ora di una certa attività o evento. In JavaScript l'ora e la data corrente vengono create utilizzando l'oggetto Date di JavaScript. L'oggetto Date fornisce molti metodi per lavorare con la data e l'ora. I metodi che utilizziamo per ottenere informazioni sulla data e sull'ora dai valori di un oggetto Date iniziano con la parola _get_ perché forniscono le informazioni.
 getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
 
-![Date time Object](../images/date_time_object.png)
+![Date time Object](../../images/date_time_object.png)
 
 ### Creare un oggetto data (time)
 

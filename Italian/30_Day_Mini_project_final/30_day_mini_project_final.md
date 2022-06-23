@@ -29,9 +29,9 @@
 
 - [Day 30](#day-30)
 	- [Esercizi](#exercises)
-		- [Exercise: Livello 1](#exercise-level-1)
-		- [Exercise: Livello 2](#exercise-level-2)
-		- [Exercise: Livello 3](#exercise-level-3)
+		- [Esercizio: Livello 1](#exercise-level-1)
+		- [Esercizio: Livello 2](#exercise-level-2)
+		- [Esercizio: Livello 3](#exercise-level-3)
 	- [Testimony](#testimony)
 	- [Support](#support)
 
@@ -41,32 +41,32 @@
 
 ### Exercise: Livello 1
 
-1. Create the following animation using (HTML, CSS, JS)
+1. Creare la seguente animazione utilizzando (HTML, CSS, JS)
 
-![Countries data](./../images/projects/dom_mini_project_countries_object_day_10.1.gif)
+![Countries data](../../images/projects/dom_mini_project_countries_object_day_10.1.gif)
 
-2. Validate the following form using regex.
+2. Convalidare il seguente modulo utilizzando una regex.
 
-   ![form validation](./../images/projects/dom_mini_project_form_validation_day_10.2.1.png)
+   ![form validation](../../images/projects/dom_mini_project_form_validation_day_10.2.1.png)
 
-   ![form validation](./../images/projects/dom_mini_project_form_validation_day_10.2.png)
+   ![form validation](../../images/projects/dom_mini_project_form_validation_day_10.2.png)
 
 ### Exercise: Livello 2
 
 ### Exercise: Livello 3
 
-🌕 Your journey to greatness completed successfully. You reached high Livello of greatness. Now, you are much greater than ever before. I knew what it takes to reach to this Livello and you made to this point. You are a real hero. Now, it is time to celebrate your success with a friend or with a family. I am looking forward to seeing you in an other challenge.
+🌕Il tuo viaggio verso la grandezza si è concluso con successo. Hai raggiunto un alto livello di grandezza. Ora sei molto più grande di prima. Sapevo cosa ci voleva per raggiungere questo Livello e tu sei arrivato a questo punto. Sei un vero eroe. Ora è il momento di festeggiare il tuo successo con un amico o con la tua famiglia. Non vedo l'ora di vederti in un'altra sfida.
 
 ## Testimony
 
-Now it is time support the author and  express your thoughts about the Author and 30DaysOfJavaScript. You can leave your testimonial on this [link](https://testimonify.herokuapp.com/)
+Ora è il momento di sostenere l'autore e di esprimere il tuo pensiero sull'autore e su 30DaysOfJavaScript. Potete lasciare la vostra testimonianza su questo [link](https://testimonify.herokuapp.com/)
 
 ## Support
 
-You can support the author to produce more educational materials
+Potete sostenere l'autore nella produzione di ulteriori materiali didattici.
 
-[![paypal](../images/paypal_lg.png)](https://www.paypal.me/asabeneh)
+[![paypal](../../images/paypal_lg.png)](https://www.paypal.me/asabeneh)
 
-![Congratulations](./../images/projects/congratulations.gif)
+![Congratulations](../../images/projects/congratulations.gif)
 
 [<< Day 29](../29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)  

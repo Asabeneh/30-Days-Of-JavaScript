@@ -19,18 +19,18 @@
 ![Thirty Days Of JavaScript](../../images/banners/day_1_15.png)
 
 - [Day 15](#day-15)
-	- [Classes](#classes)
-		- [Defining a classes](#defining-a-classes)
-		- [Class Instantiation](#class-instantiation)
-		- [Class Constructor](#class-constructor)
-		- [Default values with constructor](#default-values-with-constructor)
-		- [Class methods](#class-methods)
-		- [Properties with initial value](#properties-with-initial-value)
+	- [Classi](#classes)
+		- [Definire una classe](#defining-a-classes)
+		- [Instanzionare una Classe](#class-instantiation)
+		- [Costruttore della Classe](#class-constructor)
+		- [Valori di Default nel costruttore](#default-values-with-constructor)
+		- [Metodi di Classe](#class-methods)
+		- [Proprietà con valori iniziali](#properties-with-initial-value)
 		- [getter](#getter)
 		- [setter](#setter)
-		- [Static method](#static-method)
-	- [Inheritance](#inheritance)
-		- [Overriding methods](#overriding-methods)
+		- [Metodo Statico](#static-method)
+	- [Inheritance (Ereditarietà)](#inheritance)
+		- [Override dei metodi](#overriding-methods)
 	- [Esercizi](#exercises)
 		- [Esercizi Livello 1](#exercises-level-1)
 		- [Esercizi Livello 2](#exercises-level-2)
@@ -38,17 +38,17 @@
 
 # Day 15
 
-## Classes
+## Classi
 
-JavaScript is an object oriented programming language. Everything in JavScript is an object, with its properties and methods. We create class to create an object. A Class is like an object constructor, or a "blueprint" for creating objects. We instantiate a class to create an object. The class defines attributes and the behavior of the object, while the object, on the other hand, represents the class.
+JavaScript è un linguaggio di programmazione orientato agli oggetti. Tutto in JavaScript è un oggetto, con le sue proprietà e i suoi metodi. Per creare un oggetto, creiamo una classe. Una classe è come un costruttore di oggetti, o un "progetto" per la creazione di oggetti. Istanziamo una classe per creare un oggetto. La classe definisce gli attributi e il comportamento dell'oggetto, mentre l'oggetto, d'altra parte, rappresenta la classe.
 
-Once we create a class we can create object from it whenever we want. Creating an object from a class is called class instantiation.
+Una volta creata una classe, possiamo creare oggetti da essa ogni volta che vogliamo. La creazione di un oggetto da una classe si chiama istanziazione della classe.
 
-In the object section, we saw how to create an object literal. Object literal is a singleton. If we want to get a similar object , we have to write it. However, class allows to create many objects. This helps to reduce amount of code and repetition of code.
+Nella sezione dedicata agli oggetti, abbiamo visto come creare un letterale di oggetto. L'oggetto letterale è un singleton. Se vogliamo ottenere un oggetto simile, dobbiamo scriverlo. Tuttavia, le classi consentono di creare molti oggetti. Questo aiuta a ridurre la quantità di codice e la sua ripetizione.
 
-### Defining a classes
+### Definire una classe
 
-To define a class in JavaScript we need the keyword _class_ , the name of a class in **CamelCase** and block code(two curly brackets). Let us create a class name Person.
+Per definire una classe in JavaScript è necessaria la parola chiave _class_, il nome della classe in **CamelCase** e il codice di blocco (due parentesi graffe). Creiamo una classe di nome Persona.
 
 ```sh
 // syntax
@@ -66,13 +66,13 @@ class Person {
 }
 ```
 
-We have created an Person class but it does not have any thing inside.
+Abbiamo creato una classe Person, ma non ha nulla al suo interno.
 
-### Class Instantiation
+### Instanzionare una Classe
 
-Instantiation class means creating an object from a class. We need the keyword _new_ and we call the name of the class after the word new.
+Istanziare una classe significa creare un oggetto da una classe. Abbiamo bisogno della parola chiave _new_ e chiamiamo il nome della classe dopo la parola new.
 
-Let us create a dog object from our Person class.
+Creiamo un oggetto cane dalla nostra classe Persona.
 
 ```js
 class Person {
@@ -86,15 +86,15 @@ console.log(person)
 Person {}
 ```
 
-As you can see, we have created a person object. Since the class did not have any properties yet the object is also empty.
+Come si può vedere, abbiamo creato un oggetto persona. Poiché la classe non ha ancora alcuna proprietà, anche l'oggetto è vuoto.
 
-Let use the class constructor to pass different properties for the class.
+Utilizziamo il costruttore della classe per passare diverse proprietà alla classe.
 
-### Class Constructor
+### Costruttore della Classe
 
-The constructor is a builtin function which allows as to create a blueprint for our object. The constructor function starts with a keyword constructor followed by a parenthesis. Inside the parenthesis we pass the properties of the object as parameter. We use the _this_ keyword to attach the constructor parameters with the class.
+Il costruttore è una funzione integrata che consente di creare un blueprint per il nostro oggetto. La funzione costruttore inizia con la parola chiave constructor seguita da una parentesi. All'interno della parentesi si passano le proprietà dell'oggetto come parametro. Utilizziamo la parola chiave _this_ per associare i parametri del costruttore alla classe.
 
-The following Person class constructor has firstName and lastName property. These properties are attached to the Person class using _this_ keyword. _This_ refers to the class itself.
+Il seguente costruttore della classe Person ha le proprietà firstName e lastName. Queste proprietà sono allegate alla classe Person utilizzando la parola chiave _this_. _This_ si riferisce alla classe stessa.
 
 ```js
 class Person {
@@ -114,7 +114,7 @@ console.log(person)
 Person {firstName: undefined, lastName:undefined}
 ```
 
-All the keys of the object are undefined. When ever we instantiate we should pass the value of the properties. Let us pass value at this time when we instantiate the class.
+Tutte le chiavi dell'oggetto sono indefinite. Quando si istanzia l'oggetto, si deve passare il valore delle proprietà. Passiamo il valore in questo momento, quando istanziamo la classe.
 
 ```js
 class Person {
@@ -133,7 +133,7 @@ console.log(person1)
 Person {firstName: "Asabeneh", lastName: "Yetayeh"}
 ```
 
-As we have stated at the very beginning that once we create a class we can create many object using the class. Now, let us create many person objects using the Person class.
+Come abbiamo detto all'inizio, una volta creata una classe, possiamo creare molti oggetti utilizzando la classe. Ora, creiamo molti oggetti persona usando la classe Person.
 
 ```js
 class Person {
@@ -159,7 +159,7 @@ Person {firstName: "Lidiya", lastName: "Tekle"}
 Person {firstName: "Abraham", lastName: "Yetayeh"}
 ```
 
-Using the class Person we created three persons object. As you can see our class did not many properties let us add more properties to the class.
+Utilizzando la classe Persona abbiamo creato tre oggetti persona. Come si può vedere, la nostra classe non ha molte proprietà, ma possiamo aggiungere altre proprietà alla classe.
 
 ```js
 class Person {
@@ -182,9 +182,9 @@ console.log(person1)
 Person {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki"}
 ```
 
-### Default values with constructor
+### Valori di Default nel costruttore
 
-The constructor function properties may have a default value like other regular functions.
+Le proprietà della funzione costruttore possono avere un valore predefinito come le altre funzioni regolari.
 
 ```js
 class Person {
@@ -215,9 +215,9 @@ Person {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland
 Person {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Espoo"}
 ```
 
-### Class methods
+### Metodi di Classe
 
-The constructor inside a class is a builtin function which allow us to create a blueprint for the object. In a class we can create class methods. Methods are JavaScript functions inside the class. Let us create some class methods.
+Il costruttore all'interno di una classe è una funzione incorporata che ci permette di creare un progetto per l'oggetto. In una classe possiamo creare metodi di classe. I metodi sono funzioni JavaScript all'interno della classe. Creiamo alcuni metodi della classe.
 
 ```js
 class Person {
@@ -246,9 +246,9 @@ Asabeneh Yetayeh
 test.js:19 Lidiya Tekle
 ```
 
-### Properties with initial value
+### Proprietà con valori iniziali
 
-When we create a class for some properties we may have an initial value. For instance if you are playing a game, you starting score will be zero. So, we may have a starting score or score which is zero. In other way, we may have an initial skill and we will acquire some skill after some time.
+Quando creiamo una classe per alcune proprietà possiamo avere un valore iniziale. Per esempio, se si sta giocando, il punteggio iniziale sarà zero. Quindi, possiamo avere un punteggio iniziale o un punteggio che è zero. In altri termini, potremmo avere un'abilità iniziale e acquisirla dopo qualche tempo.
 
 ```js
 class Person {
@@ -284,11 +284,11 @@ console.log(person2.skills)
 []
 ```
 
-A method could be regular method or a getter or a setter. Let us see, getter and setter.
+Un metodo può essere un metodo normale, un getter o un setter. Vediamo i metodi getter e setter.
 
 ### getter
 
-The get method allow us to access value from the object. We write a get method using keyword _get_ followed by a function. Instead of accessing properties directly from the object we use getter to get the value. See the example bellow
+Il metodo get ci consente di accedere al valore dell'oggetto. Scriviamo un metodo get usando la parola chiave _get_ seguita da una funzione. Invece di accedere alle proprietà direttamente dall'oggetto, usiamo getter per ottenere il valore. Vedere l'esempio seguente
 
 ```js
 class Person {
@@ -332,7 +332,7 @@ console.log(person2.getSkills)
 
 ### setter
 
-The setter method allow us to modify the value of certain properties. We write a setter method using keyword _set_ followed by a function. See the example bellow.
+Il metodo setter ci consente di modificare il valore di alcune proprietà. Scriviamo un metodo setter usando la parola chiave _set_ seguita da una funzione. Si veda l'esempio qui sotto.
 
 ```js
 class Person {
@@ -390,7 +390,7 @@ console.log(person2.skills)
 ["Planning", "Managing", "Organizing"]
 ```
 
-Do not be puzzled by the difference between regular method and a getter. If you know how to make a regular method you are good. Let us add regular method called getPersonInfo in the Person class.
+Non lasciatevi ingannare dalla differenza tra un metodo regolare e un getter. Se sapete come creare un metodo regolare, siete a posto. Aggiungiamo un metodo regolare chiamato getPersonInfo nella classe Person.
 
 ```js
 class Person {
@@ -469,9 +469,9 @@ Lidiya Tekle is 28. He lives Espoo, Finland. He knows Planning, Managing and Org
 John Doe is 50. He lives Mars city, Mars.
 ```
 
-### Static method
+### Metodo Statico
 
-The static keyword defines a static method for a class. Static methods are not called on instances of the class. Instead, they are called on the class itself. These are often utility functions, such as functions to create or clone objects. An example of static method is _Date.now()_. The _now_ method is called directly from the class.
+La parola chiave static definisce un metodo statico per una classe. I metodi statici non vengono richiamati sulle istanze della classe. Vengono invece richiamati sulla classe stessa. Si tratta spesso di funzioni di utilità, come quelle per creare o clonare oggetti. Un esempio di metodo statico è _Date.now()_. Il metodo _now_ viene richiamato direttamente dalla classe.
 
 ```js
 class Person {
@@ -549,9 +549,9 @@ Node
 
 The static methods are methods which can be used as utility functions.
 
-## Inheritance
+## Inheritance (Ereditarietà)
 
-Using inheritance we can access all the properties and the methods of the parent class. This reduces repetition of code. If you remember, we have a Person parent class and we will create children from it. Our children class could be student, teach etc.
+Utilizzando l'ereditarietà, possiamo accedere a tutte le proprietà e ai metodi della classe madre. Questo riduce la ripetizione del codice. Se ricordate, abbiamo una classe genitore Persona e da questa creeremo dei figli. I nostri figli potrebbero essere studenti, insegnanti, ecc.
 
 ```js
 // syntax
@@ -560,7 +560,7 @@ class ChildClassName extends {
 }
 ```
 
-Let us create a Student child class from Person parent class.
+Creiamo una classe figlio Student dalla classe genitore Person.
 
 ```js
 class Student extends Person {
@@ -584,9 +584,9 @@ Student {firstName: "Asabeneh", lastName: "Yetayeh", age: "Finland", country: 2
 Asabeneh Yetayeh is Finland. He lives Helsinki, 250.
 ```
 
-### Overriding methods
+### Override dei metodi
 
-As you can see, we manage to access all the methods in the Person Class and we used it in the Student child class. We can customize the parent methods, we can add additional properties to a child class. If we want to customize, the methods and if we want to add extra properties, we need to use the constructor function the child class too. Inside the constructor function we call the super() function to access all the properties from the parent class. The Person class didn't have gender but now let us give gender property for the child class, Student. If the same method name used in the child class, the parent method will be overridden.
+Come si può vedere, riusciamo ad accedere a tutti i metodi della classe Person e li utilizziamo nella classe figlio Student. Possiamo personalizzare i metodi dei genitori e aggiungere proprietà aggiuntive a una classe figlio. Se vogliamo personalizzare i metodi e aggiungere proprietà aggiuntive, dobbiamo utilizzare la funzione costruttore anche per la classe figlio. All'interno della funzione costruttore chiamiamo la funzione super() per accedere a tutte le proprietà della classe genitore. La classe Person non aveva il genere, ma ora diamo la proprietà gender alla classe figlio, Student. Se lo stesso nome del metodo viene utilizzato nella classe figlio, il metodo genitore verrà sovrascritto.
 
 ```js
 class Student extends Person {
@@ -656,24 +656,24 @@ Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", c
 Lidiya Tekle is 28. She lives in Helsinki, Finland. He knows Planning, Managing and Organizing
 ```
 
-Now, the getPersonInfo method has been overridden and it identifies if the person is male or female.
+Ora, il metodo getPersonInfo è stato sovrascritto e identifica se la persona è maschio o femmina.
 
-🌕 You are excelling. Now, you knew class and you have the power to turn everything to an object. You made it to half way to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 Stai eccellendo. Ora conosci la classe e hai il potere di trasformare tutto in un oggetto. Hai raggiunto la metà della tua strada verso la grandezza. Ora fai qualche esercizio per il cervello e per i muscoli.
 
 ## Esercizi
 
 ### Esercizi Livello 1
 
-1. Create an Animal class. The class will have name, age, color, legs properties and create different methods
-2. Create a Dog and Cat child class from the Animal Class.
+1. Creare una classe Animale. La classe avrà le proprietà nome, età, colore, zampe e creerà diversi metodi.
+2. Creare una classe figlio Cane e Gatto dalla classe Animale.
 
 ### Esercizi Livello 2
 
-1. Override the method you create in Animal class
+1. Sovrascrivere il metodo creato nella classe Animale
 
 ### Esercizi Livello 3
 
-1. Let's try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create a class called Statistics and create all the functions which do statistical calculations as method for the Statistics class. Check the output below.
+1. Proviamo a sviluppare un programma che calcoli la misura della tendenza centrale di un campione (media, mediana, modalità) e la misura della variabilità (intervallo, varianza, deviazione standard). Oltre a queste misure, trova il minimo, il massimo, il numero, il percentile e la distribuzione di frequenza del campione. È possibile creare una classe chiamata Statistica e creare tutte le funzioni che eseguono calcoli statistici come metodi per la classe Statistica. Verificate l'output qui sotto.
 
 ```JS
 ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
@@ -708,7 +708,7 @@ Standard Deviation:  4.2
 Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
 ```
 
-1. Create a class called PersonAccount. It has firstname, lastname, incomes, expenses properties and it has totalIncome, totalExpense, accountInfo,addIncome, addExpense and accountBalance methods. Incomes is a set of incomes and its description and expenses is also a set of expenses and its description.
+1. Creare una classe chiamata PersonAccount. Ha le proprietà nome, cognome, reddito, spese e i metodi totalIncome, totalExpense, accountInfo, addIncome, addExpense e accountBalance. Le entrate sono un insieme di entrate e la loro descrizione e le spese sono anch'esse un insieme di spese e la loro descrizione.
 
 🎉 CONGRATULAZIONI ! 🎉
 

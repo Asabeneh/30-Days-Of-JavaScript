@@ -21,7 +21,7 @@
 - [Day 18](#day-18)
 	- [Promise](#promise)
 	- [Callbacks](#callbacks)
-		- [Promise constructor](#promise-constructor)
+		- [Costruttore Promise](#promise-constructor)
 	- [Fetch API](#fetch-api)
 	- [Async and Await](#async-and-await)
 	- [Esercizi](#exercises)
@@ -33,28 +33,28 @@
 
 ## Promise
 
-We human give or receive a promise to do some activity at some point in time. If we keep the promise we make others happy but if we do not keep the promise, it may lead discontentment. Promise in JavaScript has something in common with the above examples.
+Noi esseri umani facciamo o riceviamo la promessa di svolgere un'attività in un determinato momento. Se manteniamo la promessa, rendiamo felici gli altri, ma se non la manteniamo, possiamo essere scontenti. La promessa in JavaScript ha qualcosa in comune con gli esempi precedenti.
 
-A Promise is a way to handle asynchronous operations in JavaScript. It allows handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
+Una promessa è un modo per gestire operazioni asincrone in JavaScript. Permette ai gestori di avere un valore di successo o un motivo di fallimento di un'azione asincrona. Ciò consente ai metodi asincroni di restituire valori come i metodi sincroni: invece di restituire immediatamente il valore finale, il metodo asincrono restituisce una promessa di fornire il valore in un momento futuro.
 
-A Promise is in one of these states:
+Una promessa si trova in uno di questi stati:
 
-- pending: initial state, neither fulfilled nor rejected.
-- fulfilled: meaning that the operation completed successfully.
-- rejected: meaning that the operation failed.
+- pending: stato iniziale, né soddisfatto né rifiutato.
+- soddisfatta: significa che l'operazione è stata completata con successo.
+- rifiutata: significa che l'operazione è fallita.
 
-A pending promise can either be fulfilled with a value, or rejected with a reason (error). When either of these options happens, the associated handlers queued up by a promise's then method are called. (If the promise has already been fulfilled or rejected when a corresponding handler is attached, the handler will be called, so there is no race condition between an asynchronous operation completing and its handlers being attached.)
+Una promessa in sospeso può essere soddisfatta con un valore o rifiutata con un motivo (errore). Quando si verifica una di queste opzioni, vengono richiamati i gestori associati messi in coda dal metodo then di una promessa. (Se la promessa è già stata soddisfatta o rifiutata quando viene collegato un gestore corrispondente, il gestore verrà chiamato, in modo che non ci sia una condizione di gara tra il completamento di un'operazione asincrona e il collegamento dei suoi gestori).
 
-As the Promise.prototype.then() and Promise.prototype.catch() methods return promises, they can be chained.
+Poiché i metodi Promise.prototype.then() e Promise.prototype.catch() restituiscono promesse, possono essere concatenati.
 
 ## Callbacks
 
-To understand promise very well let us understand callback first. Let's see the following callbacks. From the following code blocks you will notice, the difference between callback and promises.
+Per comprendere bene la promise, dobbiamo prima capire le callback. Vediamo le seguenti callback. Dai seguenti blocchi di codice si noterà la differenza tra callback e promise.
 
-- call back
-  Let us see a callback function which can take two parameters. The first parameter is err and the second is result. If the err parameter is false, there will not be error other wise it will return an error.
+- callback
+  Vediamo una funzione di callback che può accettare due parametri. Il primo parametro è err e il secondo è result. Se il parametro err è false, non ci sarà alcun errore, altrimenti restituirà un errore.
 
-In this case the err has a value and it will return the err block.
+In questo caso err ha un valore e restituirà il blocco err.
 
 ```js
 //Callback
@@ -80,7 +80,7 @@ doSomething(callback)
 It did not go well
 ```
 
-In this case the err is false and it will return the else block which is the result.
+In questo caso l'errore è falso e restituirà il blocco else che è il risultato.
 
 ```js
 const doSomething = callback => {
@@ -103,9 +103,9 @@ doSomething((err, result) => {
 ["HTML", "CSS", "JS"]
 ```
 
-### Promise constructor
+### Costruttore Promise
 
-We can create a promise using the Promise constructor. We can create a new promise using the key word `new` followed by the word `Promise` and followed by a parenthesis. Inside the parenthesis, it takes a `callback` function. The promise callback function has two parameters which are the _`resolve`_ and _`reject`_ functions.
+Possiamo creare una promessa utilizzando il costruttore Promise. Possiamo creare una nuova promessa usando la parola chiave `new` seguita dalla parola `Promise` e seguita da una parentesi. All'interno della parentesi, prende una funzione `callback`. La funzione di callback della promessa ha due parametri, che sono le funzioni _`resolve`_ e _`reject`_.
 
 ```js
 // syntax
@@ -139,8 +139,8 @@ doPromise
 ["HTML", "CSS", "JS"]
 ```
 
-The above promise has been settled with resolve.
-Let us another example when the promise is settled with reject.
+La promessa di cui sopra è stata risolta con resolve.
+Facciamo un altro esempio quando la promessa viene risolta con un rifiuto.
 
 ```js
 // Promise
@@ -168,7 +168,7 @@ Something wrong has happened
 
 ## Fetch API
 
-The Fetch API provides an interface for fetching resources (including across the network). It will seem familiar to anyone who has used XMLHttpRequest, but the new API provides a more powerful and flexible feature set. In this challenge we will use fetch to request url and APIS. In addition to that let us see demonstrate use case of promises in accessing network resources using the fetch API.
+L'API Fetch fornisce un'interfaccia per il recupero di risorse (anche attraverso la rete). Sembrerà familiare a chiunque abbia usato XMLHttpRequest, ma la nuova API fornisce un insieme di funzionalità più potenti e flessibili. In questa sfida useremo fetch per richiedere url e APIS. Inoltre, vedremo un caso d'uso dimostrativo delle promesse per accedere alle risorse di rete utilizzando l'API fetch.
 
 ```js
 const url = 'https://restcountries.com/v2/all' // countries api
@@ -183,7 +183,7 @@ fetch(url)
 
 ## Async and Await
 
-Async and await is an elegant way to handle promises. It is easy to understand and it clean to write.
+Async e await sono un modo elegante di gestire le promesse. È facile da capire e pulito da scrivere.
 
 ```js
 const square = async function (n) {
@@ -197,9 +197,9 @@ square(2)
 Promise {<resolved>: 4}
 ```
 
-The word _async_ in front of a function means that function will return a promise. The above square function instead of a value it returns a promise.
+La parola _async_ davanti a una funzione significa che la funzione restituirà una promessa. La funzione quadrata di cui sopra, invece di un valore, restituisce una promessa.
 
-How do we access the value from the promise? To access the value from the promise, we will use the keyword _await_.
+Come si accede al valore della promessa? Per accedere al valore della promessa, utilizzeremo la parola chiave _await_.
 
 ```js
 const square = async function (n) {
@@ -213,9 +213,9 @@ console.log(value)
 4
 ```
 
-Now, as you can see from the above example writing async in front of a function create a promise and to get the value from a promise we use await. Async and await go together, one can not exist without the other.
+Ora, come si può vedere dall'esempio precedente, scrivendo async davanti a una funzione si crea una promessa e per ottenere il valore da una promessa si usa await. Async e await vanno insieme, uno non può esistere senza l'altro.
 
-Let us fetch API data using both promise method and async and await method.
+Cerchiamo di recuperare i dati dell'API utilizzando sia il metodo promise che i metodi async e await.
 
 - promise
 
@@ -245,7 +245,7 @@ console.log('===== async and await')
 fetchData()
 ```
 
-🌕 You are real and you kept your promise and you reached to day 18. Keep your promise and settle the challenge with resolve. You are 18 steps ahead to your way to greatness. Now do some exercises for your brain and  muscles.
+🌕 Sei reale, hai mantenuto la tua promessa e sei arrivato al 18° giorno. Mantieni la tua promessa e affronta la sfida con determinazione. Sei 18 passi avanti verso la tua strada verso la grandezza. Ora fai qualche esercizio per il cervello e i muscoli.
 
 ## Esercizi
 
@@ -256,17 +256,17 @@ const catsAPI = 'https://api.thecatapi.com/v1/breeds'
 
 ### Esercizi: Livello 1
 
-1. Read the countries API using fetch and print the name of country, capital, languages, population and area.
+1. Leggere le API dei paesi utilizzando fetch e stampare il nome del paese, la capitale, le lingue, la popolazione e l'area.
 
 ### Esercizi: Livello 2
 
-1. Print out all the cat names in to catNames variable.
+1. Stampare tutti i nomi dei gatti nella variabile catNames.
 
 ### Esercizi: Livello 3
 
-1. Read the cats api and find the average weight of cat in metric unit.
-2. Read the countries api and find out the 10 largest countries
-3. Read the countries api and count total number of languages in the world used as officials.
+1. Leggere l'api gatti e trovare il peso medio dei gatti in unità metriche.
+2. Leggete l'api dei Paesi e trovate i 10 Paesi più grandi.
+3. Leggete l'api dei Paesi e contate il numero totale di lingue del mondo usate come ufficiali.
 
 🎉 CONGRATULAZIONI ! 🎉
 
