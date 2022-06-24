@@ -72,7 +72,7 @@ We have created an Person class but it does not have any thing inside.
 
 Instantiation class means creating an object from a class. We need the keyword _new_ and we call the name of the class after the word new.
 
-Let us create a dog object from our Person class.
+Let us create a person object from our Person class.
 
 ```js
 class Person {
@@ -92,7 +92,7 @@ Let use the class constructor to pass different properties for the class.
 
 ### Class Constructor
 
-The constructor is a builtin function which allows as to create a blueprint for our object. The constructor function starts with a keyword constructor followed by a parenthesis. Inside the parenthesis we pass the properties of the object as parameter. We use the _this_ keyword to attach the constructor parameters with the class.
+The constructor is a builtin function which allows us to create a blueprint for our object. The constructor function starts with a keyword constructor followed by a parenthesis. Inside the parenthesis we pass the properties of the object as parameter. We use the _this_ keyword to attach the constructor parameters with the class.
 
 The following Person class constructor has firstName and lastName property. These properties are attached to the Person class using _this_ keyword. _This_ refers to the class itself.
 
