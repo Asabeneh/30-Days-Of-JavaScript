@@ -20,7 +20,7 @@
 
 - [Day 26](#day-26)
   - [Esercizi](#exercises)
-    - [Exercise: Livello 1](#exercise-level-1)
+    - [Esercizio: Livello 1](#exercise-level-1)
 
 # Day 26
 
@@ -28,9 +28,9 @@
 
 ### Exercise: Livello 1
 
-1. Visualize the countries array as follows
+1. Visualizzare l'array dei Paesi come segue
 
-![Motivation](./../images/projects/dom_mini_project_countries_day_6.1.gif)
+![Motivation](../../images/projects/dom_mini_project_countries_day_6.1.gif)
 
 🎉 CONGRATULAZIONI ! 🎉
 

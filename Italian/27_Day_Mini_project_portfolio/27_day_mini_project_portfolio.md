@@ -20,7 +20,7 @@
 
 - [Day 27](#day-27)
   - [Esercizi](#exercises)
-    - [Exercise: Livello 1](#exercise-level-1)
+    - [Esercizio: Livello 1](#exercise-level-1)
 
 # Day 27
 
@@ -28,9 +28,9 @@
 
 ### Exercise: Livello 1
 
-1. Create the following using HTML, CSS, and JavaScript
+1. Creare quanto segue utilizzando HTML, CSS e JavaScript
 
-![Slider](./../images/projects/dom_mini_project_slider_day_7.1.gif)
+![Slider](../../images/projects/dom_mini_project_slider_day_7.1.gif)
 
 🎉 CONGRATULAZIONI ! 🎉
 

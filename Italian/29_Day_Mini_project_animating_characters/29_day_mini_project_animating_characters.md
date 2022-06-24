@@ -20,9 +20,9 @@
 
 - [Day 29](#day-29)
 	- [Esercizi](#exercises)
-		- [Exercise: Livello 1](#exercise-level-1)
-		- [Exercise: Livello 2](#exercise-level-2)
-		- [Exercise: Livello 3](#exercise-level-3)
+		- [Esercizio: Livello 1](#exercise-level-1)
+		- [Esercizio: Livello 2](#exercise-level-2)
+		- [Esercizio: Livello 3](#exercise-level-3)
 
 # Day 29
 
@@ -30,9 +30,9 @@
 
 ### Exercise: Livello 1
 
-1. Create the following animation using (HTML, CSS, JS)
+1. Creare la seguente animazione utilizzando (HTML, CSS, JS)
 
-![Slider](./../images/projects/dom_min_project_30DaysOfJavaScript_color_changing_day_9.1.gif)
+![Slider](../../images/projects/dom_min_project_30DaysOfJavaScript_color_changing_day_9.1.gif)
 
 
 ### Exercise: Livello 2

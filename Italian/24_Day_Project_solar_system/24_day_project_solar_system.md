@@ -20,7 +20,7 @@
 
 - [Day 24](#day-24)
   - [Esercizi](#exercises)
-    - [Exercise: Livello 1](#exercise-level-1)
+    - [Esercizio: Livello 1](#exercise-level-1)
 
 # Day 24
 
@@ -28,9 +28,9 @@
 
 ### Exercise: Livello 1
 
-1. Develop a small application which calculate a weight of an object in a certain planet. The gif image is not complete check the video in the starter file.
+1. Sviluppare una piccola applicazione che calcoli il peso di un oggetto in un determinato pianeta. L'immagine gif non è completa, controllate il video nel file di partenza.
 
-![Solar System](./../images/projects/dom_min_project_solar_system_day_4.1.gif)
+![Solar System](../../images/projects/dom_min_project_solar_system_day_4.1.gif)
 
 🎉 CONGRATULAZIONI ! 🎉
 

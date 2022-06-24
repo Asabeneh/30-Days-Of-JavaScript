@@ -20,40 +20,40 @@
 
 - [Day 21](#day-21)
 	- [Document Object Model (DOM) - Day 1](#document-object-model-dom---day-1)
-		- [Getting Element](#getting-element)
-			- [Getting elements by tag name](#getting-elements-by-tag-name)
-			- [Getting elements by class name](#getting-elements-by-class-name)
-			- [Getting an element by id](#getting-an-element-by-id)
-			- [Getting elements by using querySelector methods](#getting-elements-by-using-queryselector-methods)
-		- [Adding attribute](#adding-attribute)
-			- [Adding attribute using setAttribute](#adding-attribute-using-setattribute)
-			- [Adding attribute without setAttribute](#adding-attribute-without-setattribute)
-			- [Adding class using classList](#adding-class-using-classlist)
-			- [Removing class using remove](#removing-class-using-remove)
-		- [Adding Text to HTML element](#adding-text-to-html-element)
-			- [Adding Text content using textContent](#adding-text-content-using-textcontent)
-			- [Adding Text Content using innerHTML](#adding-text-content-using-innerhtml)
+		- [Ottenere un Elemento](#getting-element)
+			- [Ottenere un Elemento tramite nome tag](#getting-elements-by-tag-name)
+			- [Ottenere un Elemento tramite nome classe](#getting-elements-by-class-name)
+			- [Ottenere un Elemento tramite nome id](#getting-an-element-by-id)
+			- [Ottenere un Elemento tramite i metodi querySelector](#getting-elements-by-using-queryselector-methods)
+		- [Aggiungere attributi](#adding-attribute)
+			- [Aggiungere attributi usando setAttribute](#adding-attribute-using-setattribute)
+			- [Aggiungere attributi senza usare setAttribute](#adding-attribute-without-setattribute)
+			- [Aggiungere attributi usando classList](#adding-class-using-classlist)
+			- [Rimuovere una classe usando remove](#removing-class-using-remove)
+		- [Aggiungere Testo ad un elemento HTML](#adding-text-to-html-element)
+			- [Aggiungere Testo usando textContent](#adding-text-content-using-textcontent)
+			- [Aggiungere test usando innerHTML](#adding-text-content-using-innerhtml)
 				- [Text Content](#text-content)
 				- [Inner HTML](#inner-html)
-		- [Adding style](#adding-style)
-			- [Adding Style Color](#adding-style-color)
-			- [Adding Style Background Color](#adding-style-background-color)
-			- [Adding Style Font Size](#adding-style-font-size)
+		- [Aggiungere uno stile](#adding-style)
+			- [Aggiungere un colore](#adding-style-color)
+			- [Aggiungere un colore di background](#adding-style-background-color)
+			- [Definire una dimensione del testo](#adding-style-font-size)
 	- [Esercizi](#exercises)
-		- [Exercise: Livello 1](#exercise-level-1)
-		- [Exercise: Livello 2](#exercise-level-2)
-		- [Exercise: Livello 3](#exercise-level-3)
+		- [EsercizioLivello 1](#exercise-level-1)
+		- [EsercizioLivello 2](#exercise-level-2)
+		- [EsercizioLivello 3](#exercise-level-3)
 			- [DOM: Mini project 1](#dom-mini-project-1)
 
 # Day 21
 
 ## Document Object Model (DOM) - Day 1
 
-HTML document is structured as a JavaScript Object. Every HTML element has a different properties which can help to manipulate it. It is possible to get, create, append or remove HTML elements using JavaScript. Check the examples below. Selecting HTML element using JavaScript is similar to selecting using CSS. To select an HTML element, we use tag name, id, class name or other attributes.
+Il documento HTML è strutturato come un oggetto JavaScript. Ogni elemento HTML ha diverse proprietà che possono aiutare a manipolarlo. È possibile ottenere, creare, aggiungere o rimuovere elementi HTML utilizzando JavaScript. Verificate gli esempi riportati di seguito. La selezione di un elemento HTML tramite JavaScript è simile alla selezione tramite CSS. Per selezionare un elemento HTML, si utilizza il nome del tag, l'id, il nome della classe o altri attributi.
 
-### Getting Element
+### Ottenere un Elemento
 
-We can access already created element or elements using JavaScript. To access or get elements we use different methods. The code below has four _h1_ elements. Let us see the different methods to access the _h1_ elements.
+Possiamo accedere a elementi o elementi già creati utilizzando JavaScript. Per accedere agli elementi o ottenerli utilizziamo diversi metodi. Il codice sottostante ha quattro elementi _h1_. Vediamo i diversi metodi per accedere agli elementi _h1_.
 
 ```html
 <!DOCTYPE html>
@@ -72,9 +72,9 @@ We can access already created element or elements using JavaScript. To access or
   </html>
 ```
 
-#### Getting elements by tag name
+#### Ottenere un Elemento tramite nome tag
 
-**_getElementsByTagName()_**:takes a tag name as a string parameter and this method returns an HTMLCollection object. An HTMLCollection is an array like object of HTML elements. The length property provides the size of the collection. Whenever we use this method we access the individual elements using index or after loop through each individual items. An HTMLCollection does not support all array methods therefore we should use regular for loop instead of forEach.
+**_getElementsByTagName()_**:prende un nome di tag come parametro stringa e questo metodo restituisce un oggetto HTMLCollection. Una HTMLCollection è un oggetto simile a un array di elementi HTML. La proprietà length fornisce la dimensione dell'insieme. Ogni volta che si utilizza questo metodo, si accede ai singoli elementi utilizzando l'indice o dopo aver eseguito un ciclo su ogni singolo elemento. Un HTMLCollection non supporta tutti i metodi degli array, quindi dovremmo usare il normale ciclo for invece di forEach.
 
 ```js
 // syntax
@@ -92,9 +92,9 @@ for (let i = 0; i < allTitles.length; i++) {
 }
 ```
 
-#### Getting elements by class name
+#### Ottenere un Elemento tramite nome classe
 
-**_getElementsByClassName()_** method returns an HTMLCollection object. An HTMLCollection is an array like list of HTML elements. The length property provides the size of the collection. It is possible to loop through all the HTMLCollection elements. See the example below
+Il metodo **_getElementsByClassName()_** restituisce un oggetto HTMLCollection. Una HTMLCollection è un elenco di elementi HTML simile a un array. La proprietà length fornisce la dimensione dell'insieme. È possibile scorrere tutti gli elementi di HTMLCollection. Vedere l'esempio seguente
 
 ```js
 //syntax
@@ -112,9 +112,9 @@ for (let i = 0; i < allTitles.length; i++) {
 }
 ```
 
-#### Getting an element by id
+#### Ottenere un Elemento tramite nome id
 
-**_getElementsById()_** targets a single HTML element. We pass the id without # as an argument.
+**_getElementsById()_** si rivolge a un singolo elemento HTML. Si passa l'id senza # come argomento.
 
 ```js
 //syntax
@@ -126,11 +126,11 @@ let firstTitle = document.getElementById('first-title')
 console.log(firstTitle) // <h1>First Title</h1>
 ```
 
-#### Getting elements by using querySelector methods
+#### Ottenere un Elemento tramite i metodi querySelector
 
-The _document.querySelector_ method can select an HTML or HTML elements by tag name, by id or by class name.
+Il metodo _document.querySelector_ può selezionare un elemento HTML o elementi HTML per nome di tag, id o classe.
 
-**_querySelector_**: can be used to select HTML element by its tag name, id or class. If the tag name is used it selects only the first element.
+**_querySelector_**: può essere usato per selezionare un elemento HTML in base al suo nome di tag, id o classe. Se viene utilizzato il nome del tag, viene selezionato solo il primo elemento.
 
 ```js
 let firstTitle = document.querySelector('h1') // select the first available h1 element
@@ -138,7 +138,7 @@ let firstTitle = document.querySelector('#first-title') // select id with first-
 let firstTitle = document.querySelector('.title') // select the first available element with class title
 ```
 
-**_querySelectorAll_**: can be used to select html elements by its tag name or class. It returns a nodeList which is an array like object which supports array methods. We can use **_for loop_** or **_forEach_** to loop through each nodeList elements.
+**_querySelectorAll_**: può essere usato per selezionare elementi html in base al nome del tag o della classe. Restituisce un nodeList, che è un oggetto simile a un array che supporta i metodi degli array. Si può usare **_for loop_** o **_forEach_** per scorrere ogni elemento dell'elenco di nodi.
 
 ```js
 const allTitles = document.querySelectorAll('h1') # selects all the available h1 elements in the page
@@ -152,9 +152,9 @@ allTitles.forEach(title => console.log(title))
 const allTitles = document.querySelectorAll('.title') // the same goes for selecting using class
 ```
 
-### Adding attribute
+### Aggiungere attributi
 
-An attribute is added in the opening tag of HTML which gives additional information about the element. Common HTML attributes: id, class, src, style, href,disabled, title, alt. Lets add id and class for the fourth title.
+Nel tag di apertura dell'HTML viene aggiunto un attributo che fornisce informazioni aggiuntive sull'elemento. Attributi HTML comuni: id, class, src, style, href, disabled, title, alt. Aggiungiamo id e class per il quarto titolo.
 
 ```js
 const titles = document.querySelectorAll('h1')
@@ -162,10 +162,10 @@ titles[3].className = 'title'
 titles[3].id = 'fourth-title'
 ```
 
-#### Adding attribute using setAttribute
+#### Aggiungere attributi usando setAttribute
 
-The **_setAttribute()_** method set any html attribute. It takes two parameters the type of the attribute and the name of the attribute.
-Let's add class and id attribute for the fourth title.
+Il metodo **_setAttribute()_** imposta qualsiasi attributo html. Richiede due parametri: il tipo di attributo e il nome dell'attributo.
+Aggiungiamo gli attributi class e id per il quarto titolo.
 
 ```js
 const titles = document.querySelectorAll('h1')
@@ -173,9 +173,9 @@ titles[3].setAttribute('class', 'title')
 titles[3].setAttribute('id', 'fourth-title')
 ```
 
-#### Adding attribute without setAttribute
+#### Aggiungere attributi senza usare setAttribute
 
-We can use normal object setting method to set an attribute but this can not work for all elements. Some attributes are DOM object property and they can be set directly. For instance id and class
+Possiamo usare il normale metodo di impostazione degli oggetti per impostare un attributo, ma questo non può funzionare per tutti gli elementi. Alcuni attributi sono proprietà degli oggetti DOM e possono essere impostati direttamente. Ad esempio, id e class
 
 ```js
 //another way to setting an attribute
@@ -183,44 +183,44 @@ titles[3].className = 'title'
 titles[3].id = 'fourth-title'
 ```
 
-#### Adding class using classList
+#### Aggiungere attributi usando classList
 
-The class list method is a good method to append additional class. It does not override the original class if a class exists rather it adds additional class for the element.
+Il metodo dell'elenco di classi è un buon metodo per aggiungere classi supplementari. Non sovrascrive la classe originale, se esiste, ma aggiunge una classe aggiuntiva per l'elemento.
 
 ```js
 //another way to setting an attribute: append the class, doesn't over ride
 titles[3].classList.add('title', 'header-title')
 ```
 
-#### Removing class using remove
+#### Rimuovere una classe usando remove
 
-Similar to adding we can also remove class from an element. We can remove a specific class from an element.
+Analogamente all'aggiunta, possiamo anche rimuovere una classe da un elemento. Possiamo rimuovere una classe specifica da un elemento.
 
 ```js
 //another way to setting an attribute: append the class, doesn't over ride
 titles[3].classList.remove('title', 'header-title')
 ```
 
-### Adding Text to HTML element
+### Aggiungere Testo ad un elemento HTML
 
-An HTML is a build block of an opening tag, a closing tag and a text content. We can add a text content using the property _textContent_ or \*innerHTML.
+Un HTML è un blocco composto da un tag di apertura, un tag di chiusura e un contenuto testuale. Possiamo aggiungere un contenuto testuale utilizzando la proprietà _textContent_ o \*innerHTML.
 
-#### Adding Text content using textContent
+#### Aggiungere Testo usando textContent
 
-The _textContent_ property is used to add text to an HTML element.
+La proprietà _textContent_ viene utilizzata per aggiungere testo a un elemento HTML.
 
 ```js
 const titles = document.querySelectorAll('h1')
 titles[3].textContent = 'Fourth Title'
 ```
 
-#### Adding Text Content using innerHTML
+#### Aggiungere test usando innerHTML
 
-Most people get confused between _textContent_ and _innerHTML_. _textContent_ is meant to add text to an HTML element, however innerHTML can add a text or HTML element or elements as a child.
+Molte persone si confondono tra _textContent_ e _innerHTML_. _textContent_ ha lo scopo di aggiungere testo a un elemento HTML, mentre innerHTML può aggiungere uno o più elementi di testo o HTML come figli.
 
 ##### Text Content
 
-We assign *textContent* HTML object property to a text
+Assegniamo la proprietà dell'oggetto HTML *textContent* a un testo
 
 ```js
 const titles = document.querySelectorAll('h1')
@@ -229,8 +229,8 @@ titles[3].textContent = 'Fourth Title'
 
 ##### Inner HTML
 
-We use innerHTML property when we like to replace or a completely new children content to a parent element.
-It value we assign is going to be a string of HTML elements.
+Utilizziamo la proprietà innerHTML quando vogliamo sostituire o aggiungere un contenuto completamente nuovo a un elemento genitore.
+Il valore assegnato sarà una stringa di elementi HTML.
 
 ```html
 <!DOCTYPE html>
@@ -260,7 +260,7 @@ It value we assign is going to be a string of HTML elements.
 </html>
 ```
 
-The innerHTML property can allow us also to remove all the children of a parent element. Instead of using removeChild() I would recommend the following method.
+La proprietà innerHTML può consentire anche di rimuovere tutti i figli di un elemento genitore. Invece di usare removeChild(), raccomanderei il metodo seguente.
 
 ```html
 <!DOCTYPE html>
@@ -290,11 +290,11 @@ The innerHTML property can allow us also to remove all the children of a parent 
 </html>
 ```
 
-### Adding style
+### Aggiungere uno stile
 
-#### Adding Style Color
+#### Aggiungere un colore
 
-Let us add some style to our titles. If the element has even index we give it green color else red.
+Aggiungiamo un po' di stile ai nostri titoli. Se l'elemento ha un indice pari, gli diamo il colore verde, altrimenti il rosso.
 
 ```js
 const titles = document.querySelectorAll('h1')
@@ -308,9 +308,9 @@ titles.forEach((title, i) => {
 })
 ```
 
-#### Adding Style Background Color
+#### Aggiungere un colore di background
 
-Let us add some style to our titles. If the element has even index we give it green color else red.
+Aggiungiamo un po' di stile ai nostri titoli. Se l'elemento ha un indice pari, gli diamo il colore verde, altrimenti il rosso.
 
 ```js
 const titles = document.querySelectorAll('h1')
@@ -324,9 +324,9 @@ titles.forEach((title, i) => {
 })
 ```
 
-#### Adding Style Font Size
+#### Definire una dimensione del testo
 
-Let us add some style to our titles. If the element has even index we give it 20px else 30px
+Aggiungiamo un po' di stile ai nostri titoli. Se l'elemento ha un indice pari, gli diamo 20px, altrimenti 30px.
 
 ```js
 const titles = document.querySelectorAll('h1')
@@ -340,40 +340,40 @@ titles.forEach((title, i) => {
 })
 ```
 
-As you have notice, the properties of css when we use it in JavaScript is going to be a camelCase. The  following CSS properties change from background-color to backgroundColor, font-size to fontSize, font-family to fontFamily, margin-bottom to marginBottom.
+Come si è notato, le proprietà dei css quando vengono utilizzate in JavaScript saranno in camelCase. Le seguenti proprietà CSS cambiano da background-color a backgroundColor, da font-size a fontSize, da font-family a fontFamily, da margin-bottom a marginBottom.
 
 ---
 
-🌕 Now,  you are fully charged with a super power, you have completed the most important and challenging part of the challenge and in general JavaScript. You learned DOM and now you have the capability to build and develop applications. Now do some exercises for your brain and for your muscle.
+🌕 Ora sei carico di un superpotere, hai completato la parte più importante e impegnativa della sfida e in generale di JavaScript. Hai imparato il DOM e ora hai la capacità di costruire e sviluppare applicazioni. Ora fai qualche esercizio per il cervello e per i muscoli.
 
 ## Esercizi
 
-### Exercise: Livello 1
+### EsercizioLivello 1
 
-1. Create an index.html file and put four p elements as above: Get the first paragraph by using **_document.querySelector(tagname)_** and tag name
-2. Get each of the the paragraph using **_document.querySelector('#id')_** and by their id
-3. Get all the p as nodeList using **_document.querySelectorAll(tagname)_** and by their tag name
-4. Loop through the nodeList and get the text content of each paragraph
-5. Set a text content to paragraph the fourth paragraph,**_Fourth Paragraph_**
-6. Set id and class attribute for all the paragraphs using different attribute setting methods
+1. Creare un file index.html e inserire quattro elementi p come sopra: Ottenere il primo paragrafo utilizzando **_document.querySelector(tagname)_** e il nome del tag
+2. Ottenere ciascuno dei paragrafi utilizzando **_document.querySelector('#id')_** e il loro id.
+3. Ottenere tutti i p come nodeList usando **_document.querySelectorAll(tagname)_** e in base al loro nome di tag
+4. Eseguire un loop attraverso l'elenco dei nodi e ottenere il contenuto del testo di ciascun paragrafo.
+5. Impostare un contenuto di testo per il quarto paragrafo,**_Quarto paragrafo_**
+6. Impostare gli attributi id e class per tutti i paragrafi, utilizzando diversi metodi di impostazione degli attributi.
 
-### Exercise: Livello 2
+### EsercizioLivello 2
 
-1. Change stye of each paragraph using JavaScript(eg. color, background, border, font-size, font-family)
-1. Select all paragraphs and loop through each elements and give the first and third paragraph a color of green, and the second and the fourth paragraph a red color
-1. Set text content, id and class to each paragraph
+1. Modificare lo stile di ogni paragrafo utilizzando JavaScript (ad esempio, colore, sfondo, bordo, dimensione del carattere, tipo di carattere).
+1. Selezionate tutti i paragrafi e passate in rassegna tutti gli elementi, dando al primo e al terzo paragrafo un colore verde e al secondo e al quarto un colore rosso.
+1. Impostare il contenuto del testo, l'id e la classe di ogni paragrafo
 
-### Exercise: Livello 3
+### EsercizioLivello 3
 
 #### DOM: Mini project 1
 
-1. Develop the following application, use the following HTML elements to get started with. You will get the same code on starter folder.  Apply all the styles and functionality using JavaScript only.
+1. Sviluppare la seguente applicazione, utilizzando i seguenti elementi HTML per iniziare. Otterrete lo stesso codice nella cartella di partenza.  Applicare tutti gli stili e le funzionalità utilizzando solo JavaScript.
 
-   - The year color is changing every 1 second
-   - The date and time background color is changing every on seconds
-   - Completed challenge has background green
-   - Ongoing challenge has background yellow
-   - Coming challenges have background red
+   - Il colore dell'anno cambia ogni 1 secondo
+   - Il colore di sfondo della data e dell'ora cambia ogni secondo.
+   - La sfida completata ha lo sfondo verde
+   - La sfida in corso ha lo sfondo giallo
+   - Le sfide in arrivo hanno lo sfondo rosso
 
 ```html
 <!-- index.html -->
@@ -400,9 +400,9 @@ As you have notice, the properties of css when we use it in JavaScript is going 
 </html>
 ```
 
-![Project 1](../images/projects/dom_min_project_challenge_info_day_1.1.gif)
+![Project 1](../../images/projects/dom_min_project_challenge_info_day_1.1.gif)
 
-![Project 2](../images/projects/dom_min_project_challenge_info_day_1.1.png)
+![Project 2](../../images/projects/dom_min_project_challenge_info_day_1.1.png)
 
 🎉 CONGRATULAZIONI ! 🎉
 

@@ -28,7 +28,7 @@
 
 ## Closure
 
-JavaScript allows writing function inside an outer function. We can write as many inner functions as we want. If inner function access the variables of outer function then it is called closure.
+JavaScript consente di scrivere una funzione all'interno di una funzione esterna. Possiamo scrivere tutte le funzioni interne che vogliamo. Se la funzione interna accede alle variabili della funzione esterna, si parla di chiusura.
 
 ```js
 function outerFunction() {
@@ -53,7 +53,7 @@ console.log(innerFunc())
 3
 ```
 
-Let us more example of inner functions
+Vediamo altri esempi di funzioni interne
 
 ```js
 function outerFunction() {
@@ -83,21 +83,21 @@ console.log(innerFuncs.minusOne)
 0
 ```
 
-🌕 You are making progress. Maintain your momentum,  keep the good work.  Now do some exercises for your brain and for your muscle.
+🌕 State facendo progressi. Mantenete lo slancio, continuate a lavorare bene.  Ora fate qualche esercizio per il cervello e per i muscoli.
 
 ## Esercizi
 
 ### Esercizi: Livello 1
 
-1. Create a closure which has one inner function
+1. Creare una chiusura che abbia una funzione interna
 
 ### Esercizi: Livello 2
 
-1. Create a closure which has three inner functions
+1. Creare una chiusura con tre funzioni interne
 
 ### Esercizi: Livello 3
 
-1. Create a personAccount out function. It has firstname, lastname, incomes, expenses  inner variables. It has totalIncome, totalExpense, accountInfo,addIncome, addExpense and accountBalance inner functions. Incomes is a set of incomes and its description and expenses is also a set of expenses and its description.
+1. Creare una funzione esterna PersonAccount. Ha le variabili interne nome, cognome, reddito e spese. Ha le funzioni interne totalIncome, totalExpense, accountInfo, addIncome, addExpense e accountBalance. Entrate è un insieme di entrate e relativa descrizione e spese è un insieme di spese e relativa descrizione.
 
 🎉 CONGRATULAZIONI ! 🎉
 

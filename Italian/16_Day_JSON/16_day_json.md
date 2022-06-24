@@ -20,11 +20,11 @@
 
 - [Day 16](#day-16)
 	- [JSON](#json)
-		- [Converting JSON to JavaScript Object](#converting-json-to-javascript-object)
+		- [Convertire un JSON in Oggetto JavaScript ](#converting-json-to-javascript-object)
 			- [JSON.parse()](#jsonparse)
-		- [Using a reviver function with JSON.parse()](#using-a-reviver-function-with-jsonparse)
-		- [Converting Object to JSON](#converting-object-to-json)
-		- [Using a Filter Array with JSON.stringify](#using-a-filter-array-with-jsonstringify)
+		- [Usare una funzione reviver con JSON.parse()](#using-a-reviver-function-with-jsonparse)
+		- [Convertire un Oggetto in JSON](#converting-object-to-json)
+		- [Usare un Filter Array con JSON.stringify](#using-a-filter-array-with-jsonstringify)
 	- [Esercizi](#exercises)
 		- [Esercizi Livello 1](#exercises-level-1)
 		- [Esercizi Livello 2](#exercises-level-2)
@@ -34,7 +34,7 @@
 
 ## JSON
 
-JSON stands for JavaScript Object Notation. The JSON syntax is derived from JavaScript object notation syntax, but the JSON format is text or string only. JSON is a light weight data format for storing and transporting. JSON is mostly used when data is sent from a server to a client. JSON is an easier-to-use alternative to XML.
+JSON è l'acronimo di JavaScript Object Notation. La sintassi JSON deriva dalla sintassi della notazione degli oggetti JavaScript, ma il formato JSON è solo testo o stringa. JSON è un formato di dati leggero per la memorizzazione e il trasporto. JSON viene utilizzato soprattutto quando i dati vengono inviati da un server a un client. JSON è un'alternativa più facile da usare rispetto a XML.
 
 **Esempio:**
 
@@ -63,9 +63,9 @@ JSON stands for JavaScript Object Notation. The JSON syntax is derived from Java
 }
 ```
 
-The above JSON example is not much different from a normal object. Then, what is the difference ? The difference is the key of a JSON object should be with double quotes or it should be a string. JavaScript Object and JSON are very similar that we can change JSON to Object and Object to JSON.
+L'esempio JSON di cui sopra non è molto diverso da un normale oggetto. Allora, qual è la differenza? La differenza sta nel fatto che la chiave di un oggetto JSON deve essere con doppi apici o deve essere una stringa. Gli oggetti JavaScript e JSON sono molto simili, tanto che possiamo cambiare JSON in oggetto e oggetto in JSON.
 
-Let us see the above example in more detail, it starts with a curly bracket. Inside the curly bracket, there is "users" key which has a value array. Inside the array we have different objects and each objects has keys, each keys has to have double quotes. For instance, we use "firstNaMe" instead of just firstName, however in object we use keys without double quotes. This is the major difference between an object and a JSON. Let's see more examples about JSON.
+Vediamo in dettaglio l'esempio precedente, che inizia con una parentesi graffa. All'interno della parentesi graffa, c'è la chiave "utenti" che ha un array di valori. All'interno dell'array abbiamo diversi oggetti e ogni oggetto ha delle chiavi, ogni chiave deve avere i doppi apici. Per esempio, usiamo "firstNaMe" invece del semplice firstName, ma negli oggetti usiamo chiavi senza doppi apici. Questa è la differenza principale tra un oggetto e un JSON. Vediamo altri esempi di JSON.
 
 **Esempio:**
 
@@ -167,9 +167,9 @@ Let us see the above example in more detail, it starts with a curly bracket. Ins
 }
 ```
 
-### Converting JSON to JavaScript Object
+### Convertire un JSON in Oggetto JavaScript 
 
-Mostly we fetch JSON data from HTTP response or from a file, but we can store the JSON as a string and we can change to Object for sake of demonstration. In JavaScript the keyword _JSON_ has _parse()_ and _stringify()_ methods. When we want to change the JSON to an object we parse the JSON using _JSON.parse()_. When we want to change the object to JSON we use _JSON.stringify()_.
+In genere si recuperano dati JSON dalla risposta HTTP o da un file, ma è possibile memorizzare il JSON come stringa e, a scopo dimostrativo, trasformarlo in oggetto. In JavaScript la parola chiave _JSON_ ha i metodi _parse()_ e _stringify()_. Quando vogliamo cambiare il JSON in un oggetto, lo analizziamo usando _JSON.parse()_. Quando vogliamo cambiare l'oggetto in JSON, usiamo _JSON.stringify()_.
 
 #### JSON.parse()
 
@@ -211,9 +211,9 @@ const usersObj = JSON.parse(usersText, undefined, 4)
 console.log(usersObj)
 ```
 
-### Using a reviver function with JSON.parse()
+### Usare una funzione reviver con JSON.parse()
 
-To use the reviver function as a formatter, we put the keys we want to format first name and last name value. Let us say, we are interested to format the firstName and lastName of the JSON data .
+Per utilizzare la funzione reviver come formattatore, si inseriscono le chiavi con cui si vuole formattare i valori di nome e cognome. Supponiamo di essere interessati a formattare il nome e il cognome dei dati JSON.
 
 ```js
 const usersText = `{
@@ -247,11 +247,11 @@ const usersObj = JSON.parse(usersText, (key, value) => {
 console.log(usersObj)
 ```
 
-The _JSON.parse()_ is very handy to use. You do not have to pass optional parameter, you can just use it with the required parameter and you will achieve quite a lot.
+Il metodo _JSON.parse()_ è molto comodo da usare. Non è necessario passare un parametro opzionale, basta usarlo con il parametro richiesto e si otterrà molto.
 
-### Converting Object to JSON
+### Convertire un Oggetto in JSON
 
-When we want to change the object to JSON we use _JSON.stringify()_. The stringify method takes one required parameter and two optional parameters. The replacer is used as filter and the space is an indentations. If we do not want to filter out any of the keys from the object we can just pass undefined.
+Quando vogliamo cambiare l'oggetto in JSON, usiamo _JSON.stringify()_. Il metodo stringify accetta un parametro obbligatorio e due parametri opzionali. Il sostituente è usato come filtro e lo spazio è una rientranza. Se non si vuole filtrare nessuna delle chiavi dell'oggetto, si può passare semplicemente undefined.
 
 ```js
 JSON.stringify(obj, replacer, space)
@@ -259,7 +259,7 @@ JSON.stringify(obj, replacer, space)
 // reviver is an optional callback function
 ```
 
-Let us convert the following object to a string. First let use keep all the keys and also let us have 4 space indentation.
+Convertiamo il seguente oggetto in una stringa. Per prima cosa manteniamo tutte le chiavi e manteniamo un'indentazione di 4 spazi.
 
 ```js
 const users = {
@@ -433,9 +433,9 @@ console.log(txt) // text means JSON- because json is a string form of an object.
 }
 ```
 
-### Using a Filter Array with JSON.stringify
+### Usare un Filter Array con JSON.stringify
 
-Now, lets use the replacer as a filter. The user object has long list of keys but we are interested only in few of them. We put the keys we want to keep in array as show in the example and use it the place of the replacer.
+Ora, usiamo il replacer come filtro. L'oggetto utente ha un lungo elenco di chiavi, ma a noi interessano solo alcune di esse. Mettiamo le chiavi che vogliamo conservare in un array, come mostrato nell'esempio, e lo usiamo al posto del replacer.
 
 ```js
 const user = {
@@ -464,7 +464,7 @@ console.log(txt)
 }
 ```
 
-🌕 You are extraordinary.  Now, you knew a light-weight data format which you may use to store data or to send it an HTTP server. You are 16 steps a head to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 Sei straordinario.  Ora conosci un formato di dati leggero che puoi usare per memorizzare i dati o per inviarli a un server HTTP. Sei a 16 passi dalla tua strada verso la grandezza. Ora fai qualche esercizio per il cervello e per i muscoli.
 
 ## Esercizi
 
@@ -579,19 +579,19 @@ const txt = `{
 
 ### Esercizi Livello 1
 
-1. Change skills array to JSON using JSON.stringify()
-1. Stringify the age variable
-1. Stringify the isMarried variable
-1. Stringify the student object
+1. Cambiare l'array di competenze in JSON usando JSON.stringify()
+1. Stringere la variabile età
+1. Stringere la variabile isMarried
+1. Stringere l'oggetto studente
 
 ### Esercizi Livello 2
 
-1. Stringify the students object with only firstName, lastName and skills properties
+1. Stringificare l'oggetto studenti con le sole proprietà firstName, lastName e skills
 
 ### Esercizi Livello 3
 
-1. Parse the *txt* JSON to object.
-2. Find the user who has many skills from the variable stored in *txt*.
+1. Analizzare il JSON *txt* in un oggetto.
+2. Trovare l'utente che ha molte competenze dalla variabile memorizzata in *txt*.
 
 🎉 CONGRATULAZIONI ! 🎉
 

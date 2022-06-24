@@ -168,7 +168,7 @@ console.log(words)
 
 Si accede a ciascun elemento di un array utilizzando il suo indice. L'indice di un array parte da 0. L'immagine seguente mostra chiaramente l'indice di ciascun elemento dell'array.
 
-![arr index](../images/array_index.png)
+![arr index](../../images/array_index.png)
 
 ```js
 const fruits = ['banana', 'orange', 'mango', 'lemon']

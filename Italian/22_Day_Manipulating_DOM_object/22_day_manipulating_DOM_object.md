@@ -19,10 +19,10 @@
 ![Thirty Days Of JavaScript](../../images/banners/day_1_22.png)
 - [Day 22](#day-22)
   - [DOM(Document Object Model)-Day 2](#domdocument-object-model-day-2)
-    - [Creating an Element](#creating-an-element)
-    - [Creating elements](#creating-elements)
-    - [Appending child to a parent element](#appending-child-to-a-parent-element)
-    - [Removing a child element from a parent node](#removing-a-child-element-from-a-parent-node)
+    - [Creare un elemento](#creating-an-element)
+    - [Creare più elementi](#creating-elements)
+    - [collegare un elemento child ad un elemento parent](#appending-child-to-a-parent-element)
+    - [Rimuovere un elemento child da un elemento parent](#removing-a-child-element-from-a-parent-node)
   - [Esercizi](#exercises)
     - [Esercizi: Livello 1](#exercises-level-1)
     - [Esercizi: Livello 2](#exercises-level-2)
@@ -32,9 +32,9 @@
 
 ## DOM(Document Object Model)-Day 2
 
-### Creating an Element
+### Creare un elemento
 
-To create an HTML element we use tag name. Creating an HTML element using JavaScript is very simple and straight forward. We use the method _document.createElement()_. The method takes an HTML element tag name as a string parameter.
+Per creare un elemento HTML si usa il nome del tag. Creare un elemento HTML con JavaScript è molto semplice e immediato. Si utilizza il metodo _document.createElement()_. Il metodo prende il nome di un tag dell'elemento HTML come parametro stringa.
 
 ```js
 // syntax
@@ -64,10 +64,10 @@ document.createElement('tagname')
 </html>
 ```
 
-### Creating elements
+### Creare più elementi
 
-To create multiple elements we should use loop. Using loop we can create as many HTML elements as we want.
-After we create the element we can assign value to the different properties of the HTML object.
+Per creare più elementi dobbiamo usare il loop. Utilizzando il ciclo, possiamo creare tutti gli elementi HTML che vogliamo.
+Dopo aver creato l'elemento, possiamo assegnare il valore alle diverse proprietà dell'oggetto HTML.
 
 ```html
 <!DOCTYPE html>
@@ -94,9 +94,9 @@ After we create the element we can assign value to the different properties of t
 </html>
 ```
 
-### Appending child to a parent element
+### collegare un elemento child ad un elemento parent
 
-To see a created element on the HTML document we should append it to the parent as a child element. We can access the HTML document body using *document.body*. The *document.body* support the *appendChild()* method. See the example below.
+Per vedere un elemento creato nel documento HTML, dobbiamo aggiungerlo al genitore come elemento figlio. Possiamo accedere al corpo del documento HTML usando *document.body*. Il file *document.body* supporta il metodo *appendChild()*. Si veda l'esempio seguente.
 
 ```html
 <!DOCTYPE html>
@@ -123,9 +123,9 @@ To see a created element on the HTML document we should append it to the parent 
 </html>
 ```
 
-### Removing a child element from a parent node
+### Rimuovere un elemento child da un elemento parent
 
-After creating an HTML, we may want to remove element or elements and we can use the *removeChild()* method.
+Dopo aver creato un HTML, potremmo voler rimuovere uno o più elementi e possiamo usare il metodo *removeChild()*.
 
 **Esempio:**
 
@@ -163,7 +163,7 @@ After creating an HTML, we may want to remove element or elements and we can use
 </html>
 ```
 
-As we have see in the previous section there is a better way to eliminate all the inner HTML elements or the children of a parent element using the method *innerHTML* properties.
+Come abbiamo visto nella sezione precedente, esiste un modo migliore per eliminare tutti gli elementi HTML interni o i figli di un elemento genitore, utilizzando le proprietà del metodo *innerHTML*.
 
 ```html
 <!DOCTYPE html>
@@ -195,36 +195,36 @@ As we have see in the previous section there is a better way to eliminate all th
 </html>
 ```
 
-The above snippet of code cleared all the child elements.
+Il frammento di codice precedente cancella tutti gli elementi figli.
 
 ---
 
-🌕 You are so special, you are progressing everyday. Now, you knew how to destroy a created DOM element when it is needed. You learned DOM and now you have the capability to build and develop applications. You are left with only eight days to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕Sei così speciale, fai progressi ogni giorno. Ora sai come distruggere un elemento DOM creato quando è necessario. Hai imparato il DOM e ora hai la capacità di costruire e sviluppare applicazioni. Ti restano solo otto giorni per raggiungere la grandezza. Ora fai qualche esercizio per il cervello e per i muscoli.
 
 ## Esercizi
 
 ### Esercizi: Livello 1
 
-1. Create a div container on HTML document and create 100 to 100 numbers dynamically and append to the container div. 
-   - Even numbers background is green
-   - Odd numbers background is yellow
-   - Prime numbers background is red
+1. Creare un div contenitore nel documento HTML e creare 100-100 numeri dinamicamente e aggiungerli al div contenitore. 
+   - Lo sfondo dei numeri pari è verde
+   - Lo sfondo dei numeri dispari è giallo
+   - Lo sfondo dei numeri primi è rosso
 
-![Number Generator](./../images/projects/dom_min_project_day_number_generators_2.1.png)
+![Number Generator](../../images/projects/dom_min_project_day_number_generators_2.1.png)
 
 ### Esercizi: Livello 2
 
-1. Use the countries array to display all the countries.See the design
+1. Utilizzare l'array Paesi per visualizzare tutti i Paesi.Vedere il disegno
 
-![World Countries List](./../images/projects/dom_min_project_countries_aray_day_2.2.png)
+![World Countries List](../../images/projects/dom_min_project_countries_aray_day_2.2.png)
 
 ### Esercizi: Livello 3
 
-Check the requirement of this project from both images(jpg and gif). All the data and CSS has been implemented using JavaScript only. The data is found on starter folder project_3. The drop down button has been created using [*details*](https://www.w3schools.com/tags/tag_details.asp) HTML element.
+Controllare i requisiti di questo progetto da entrambe le immagini (jpg e gif). Tutti i dati e i CSS sono stati implementati utilizzando solo JavaScript. I dati si trovano nella cartella starter project_3. Il pulsante a discesa è stato creato utilizzando l'elemento HTML [*details*](https://www.w3schools.com/tags/tag_details.asp).
 
-![Challenge Information](./../images/projects/dom_mini_project_challenge_info_day_2.3.gif)
+![Challenge Information](../../images/projects/dom_mini_project_challenge_info_day_2.3.gif)
 
-![Challenge Information](./../images/projects/dom_mini_project_challenge_info_day_2.3.png)
+![Challenge Information](../../images/projects/dom_mini_project_challenge_info_day_2.3.png)
 
 🎉 CONGRATULAZIONI ! 🎉
 
