@@ -23,11 +23,11 @@
 		- [Функции без параметров и возвращаемого значения](#функции-без-параметров-и-возвращаемого-значения)
 		- [Функции возвращающие значение](#функции-возвращающие-значение)
 		- [Функции с параметрами](#функции-с-параметрами)
-		- [Функции с двумя параметрами](#function-with-two-parameters)
-		- [Функции с множеством параметров](#function-with-many-parameters)
-		- [Функции с неограниченным числом параметров](#function-with-unlimited-number-of-parameters)
-			- [Неограниченное число параметров в обычных функциях](#unlimited-number-of-parameters-in-regular-function)
-			- [Неограниченное число параметров в стрелочных функциях](#unlimited-number-of-parameters-in-arrow-function)
+		- [Функции с двумя параметрами](#функции-с-двумя-параметрами)
+		- [Функции с множеством параметров](#функции-с-множеством-параметров)
+		- [Функции с неограниченным числом параметров](#функции-с-неограниченным-числом-параметров)
+			- [Неограниченное число параметров в обычных функциях](#неограниченное-число-параметров-в-обычных-функциях)
+			- [Неограниченное число параметров в стрелочных функциях](#неограниченное-число-параметров-в-стрелочных-функциях)
 		- [Анонимные функции](#anonymous-function)
 		- [Функциональные выражения](#expression-function)
 		- [Самовызываемая функции](#self-invoking-functions)
@@ -165,22 +165,23 @@ function square(number) {
 console.log(square(10))
 ```
 
-### Function with two parameters
+### Функции с двумя параметрами
 
 ```js
-// function with two parameters
+// Функция с двумя параметрами
 function functionName(parm1, parm2) {
-  //code goes her
+  // Здесь будет код функции
 }
 
-functionName(parm1, parm2) // during calling or invoking two arguments needed
-// Function without parameter doesn't take input, so lets make a function with parameters
+functionName(parm1, parm2) // Во время вызова потребуется два аргумента
+// Функция без параметров не принимает входные данные, поэтому давайте сделаем функцию с параметрами
 function sumTwoNumbers(numOne, numTwo) {
   let sum = numOne + numTwo
   console.log(sum)
 }
-sumTwoNumbers(10, 20) // calling functions
-// If a function doesn't return it doesn't store data, so it should return
+
+sumTwoNumbers(10, 20) // Вызов функции
+// Если функция не возвращает данные, они не сохранятся, поэтому она должна возвращать данные
 
 function sumTwoNumbers(numOne, numTwo) {
   let sum = numOne + numTwo
@@ -191,20 +192,20 @@ console.log(sumTwoNumbers(10, 20))
 function printFullName(firstName, lastName) {
   return `${firstName} ${lastName}`
 }
+
 console.log(printFullName('Asabeneh', 'Yetayeh'))
 ```
 
-### Function with many parameters
+### Функции с множеством параметров
 
 ```js
-// function with multiple parameters
+// Функция с множеством параметров
 function functionName(parm1, parm2, parm3,...){
-  //code goes here
+  // Здесь будет код функции
 }
-functionName(parm1,parm2,parm3,...) // during calling or invoking three arguments needed
+functionName(parm1,parm2,parm3,...) // Во время вызова, потребуется три аргумента
 
-
-// this function takes array as a parameter and sum up the numbers in the array
+// Функция принимает массив как параметр, и суммирует числа в массиве
 function sumArrayValues(arr) {
   let sum = 0;
   for (let i = 0; i < arr.length; i++) {
@@ -212,29 +213,30 @@ function sumArrayValues(arr) {
   }
   return sum;
 }
+
 const numbers = [1, 2, 3, 4, 5];
-    //calling a function
+
+// Вызов функции
 console.log(sumArrayValues(numbers));
 
+const areaOfCircle = (radius) => {
+  let area = Math.PI * radius * radius;
+  return area;
+}
 
-    const areaOfCircle = (radius) => {
-      let area = Math.PI * radius * radius;
-      return area;
-    }
 console.log(areaOfCircle(10))
-
 ```
 
-### Function with unlimited number of parameters
+### Функции с неограниченным числом параметров
 
-Sometimes we do not know how many arguments the user going to pass. Therefore, we should know how to write a function which can take unlimited number of arguments. The way we do it has a significant difference between a function declaration(regular function) and arrow function. Let us see examples both in function declaration and arrow function.
+Иногда мы не знаем, как много аргументов собирается ввести пользователь. Следовательно, мы должны знать как писать функции, которые могут принимать неограниченное число аргументов. То, как мы это делаем, имеет существенную разницу между обычной функцией и стрелочной функцией. Давайте посмотрим примеры с обычной функцией, так и со стрелочной функцией.
 
-#### Unlimited number of parameters in regular function
+#### Неограниченное число параметров в обычных функциях
 
- A function declaration provides a function scoped arguments array like object. Any thing we passed as argument in the function can be accessed from arguments object inside the functions. Let us see an example
+Объявление функции предоставляет массив аргументов в области действия функции, такой как объект. К любой вещи, которую мы передали в качестве аргумента функции, можно получить доступ из объекта `arguments` внутри функции. Давайте посмотрим пример
 
  ```js
-// Let us access the arguments object
+// Давайте получим доступ к объекту arguments
 ​
 function sumAllNums() {
   console.log(arguments)
@@ -242,11 +244,10 @@ function sumAllNums() {
 
 sumAllNums(1, 2, 3, 4)
 // Arguments(4) [1, 2, 3, 4, callee: ƒ, Symbol(Symbol.iterator): ƒ]
-
 ```
 
 ```js
-// function declaration
+// Объявление функции
 ​
 function sumAllNums() {
   let sum = 0
@@ -261,22 +262,21 @@ console.log(sumAllNums(10, 20, 13, 40, 10))  // 93
 console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
 ```
 
-#### Unlimited number of parameters in arrow function
+#### Неограниченное число параметров в стрелочных функциях
 
- Arrow function does not have the function scoped arguments object. To implement a function which takes unlimited number of arguments in an arrow function we use spread operator followed by any parameter name.  Any thing we passed as argument in the function can be accessed as array in the arrow function. Let us see an example
+Стрелочная функция не имеет объекта аргументов области действия функции. Чтобы реализовать функцию, которая принимает неограниченное количество аргументов в стрелочной функции, мы используем оператор `spread`, за которым следует любое имя параметра. Любая вещь, которую мы передали в качестве аргумента функции, может быть доступна как массив в стрелочной. Давайте посмотрим пример
 
- ```js
-// Let us access the arguments object
+```js
+// Давайте получим доступ к объекту с аргументами
 ​
 const sumAllNums = (...args) => {
-  // console.log(arguments), arguments object not found in arrow function
-  // instead we use a parameter followed by spread operator (...)
+  // console.log(arguments), Объект arguments не найден в стрелочной функции
+  // Вместо этого, мы используем параметр, который следует после оператора spread (...)
   console.log(args)
 }
 
 sumAllNums(1, 2, 3, 4)
 // [1, 2, 3, 4]
-
 ```
 
 ```js
