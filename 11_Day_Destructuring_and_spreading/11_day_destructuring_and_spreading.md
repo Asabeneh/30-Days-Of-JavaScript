@@ -18,23 +18,23 @@
 ![Day 11](../images/banners/day_1_11.png)
 
 - [Day 11](#day-11)
-  - [Destructuring and Spread](#destructuring-and-spread)
-    - [Destructing Arrays](#destructing-arrays)
-    - [Destructuring during iteration](#destructuring-during-iteration)
-    - [Destructuring Object](#destructuring-object)
-    - [Renaming during structuring](#renaming-during-structuring)
-    - [Object parameter without destructuring](#object-parameter-without-destructuring)
-    - [Object parameter with destructuring](#object-parameter-with-destructuring)
-    - [Destructuring object during iteration](#destructuring-object-during-iteration)
-    - [Spread or Rest Operator](#spread-or-rest-operator)
-    - [Spread operator to get the rest of array elements](#spread-operator-to-get-the-rest-of-array-elements)
-    - [Spread operator to copy array](#spread-operator-to-copy-array)
-    - [Spread operator to copy object](#spread-operator-to-copy-object)
-      - [Spread operator with arrow function](#spread-operator-with-arrow-function)
-  - [Exercises](#exercises)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Destructuring and Spread](#destructuring-and-spread)
+		- [Destructing Arrays](#destructing-arrays)
+		- [Destructuring during iteration](#destructuring-during-iteration)
+		- [Destructuring Object](#destructuring-object)
+		- [Renaming during structuring](#renaming-during-structuring)
+		- [Object parameter without destructuring](#object-parameter-without-destructuring)
+		- [Object parameter with destructuring](#object-parameter-with-destructuring)
+		- [Destructuring object during iteration](#destructuring-object-during-iteration)
+		- [Spread or Rest Operator](#spread-or-rest-operator)
+		- [Spread operator to get the rest of array elements](#spread-operator-to-get-the-rest-of-array-elements)
+		- [Spread operator to copy array](#spread-operator-to-copy-array)
+		- [Spread operator to copy object](#spread-operator-to-copy-object)
+			- [Spread operator with arrow function](#spread-operator-with-arrow-function)
+	- [Exercises](#exercises)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # Day 11
 
@@ -108,7 +108,7 @@ If we like to skip on of the values in the array we use additional comma. The co
 
 ```js
   const names = ['Asabeneh', 'Brook', 'David', 'John']
-  let [, secondPerson, , fourthPerson] = name // first and third person is omitted
+  let [, secondPerson, , fourthPerson] = names // first and third person is omitted
 
   console.log(secondPerson, fourthPerson)
 ```
@@ -218,7 +218,7 @@ console.log(w, h, a, p)
 20 10 200 undefined
 ```
 
-If the key is not found in the object the variable will be assigned to undefined. In case, the key is not in the object we can give a default value during declaration. See the example.
+If the key is not found in the object the variable will be assigned to undefined. Sometimes the key might not be in the object, in that case we can give a default value during declaration. See the example.
 
 ```js
 const rectangle = {
@@ -229,7 +229,7 @@ const rectangle = {
 let { width, height, area, perimeter = 60 } = rectangle
 
 console.log(width, height, area, perimeter) //20 10 200 60
-//Lets modify the object:width to 30 and perimeter to 80
+//Let us modify the object:width to 30 and perimeter to 80
 ```
 
 ```js
@@ -243,7 +243,7 @@ let { width, height, area, perimeter = 60 } = rectangle
 console.log(width, height, area, perimeter) //30 10 200 80
 ```
 
-Destructuring keys as a function parameters. Lets create a function which take a rectangle object and it return a perimeter of a rectangle.
+Destructuring keys as a function parameters. Let us create a function which takes a rectangle object and it returns a perimeter of a rectangle.
 
 ### Object parameter without destructuring
 
@@ -282,7 +282,7 @@ const person = {
   ],
   languages: ['Amharic', 'English', 'Suomi(Finnish)']
 }
-// Lets create a function which give information about the person object without destructuring
+// Let us create a function which give information about the person object without destructuring
 
 const getPersonInfo = obj => {
   const skills = obj.skills
@@ -314,7 +314,7 @@ console.log(calculatePerimeter(rect)) // 60
 ```
 
 ```js
-// Lets create a function which give information about the person object with destructuring
+// Let us create a function which give information about the person object with destructuring
 const getPersonInfo = ({
   firstName,
   lastName,
@@ -335,7 +335,7 @@ const getPersonInfo = ({
 }
 console.log(getPersonInfo(person))
 /*
-Asabeneh Yetayeh lives in Finland. He is  200 years old. He is an Instructor and Developer. He teaches HTML, CSS, JavaScript, React, Redux, Node, MongoDB, Python and D3.js. He speaks Amharic, English and a little bit of Suomi(Finnish)
+Asabeneh Yetayeh lives in Finland. He is  250 years old. He is an Instructor and Developer. He teaches HTML, CSS, JavaScript, React, Redux, Node, MongoDB, Python and D3.js. He speaks Amharic, English and a little bit of Suomi(Finnish)
 */
 ```
 
@@ -373,7 +373,7 @@ Assess Test Result 4/1/2020 1:00 false
 
 ### Spread or Rest Operator
 
-When we destructure an array we use the spread operator(...) to get the rest elements as array. In addition to that we use spread operator to spread arr elements to another array.
+When we destructure an array we use the spread operator(...) to get the rest elements as array. In addition to that we use spread operator to spread array elements to another array.
 
 ### Spread operator to get the rest of array elements
 
@@ -499,7 +499,7 @@ const sumAllNums = (...args) => {
   console.log(args)
 }
 
-sumAllNums(1, 2, 3,4,5)
+sumAllNums(1, 2, 3, 4, 5)
 
 ```
 
@@ -519,7 +519,7 @@ const sumAllNums = (...args) => {
   
 }
 
-console.log(sumAllNums(1, 2, 3,4,5))
+console.log(sumAllNums(1, 2, 3, 4, 5))
 ```
 
 ```sh
@@ -597,7 +597,6 @@ const users = [
 1. Iterate through the users array and get all the keys of the object using destructuring
 2. Find the persons who have less than two skills
 
-
 ### Exercises: Level 3
 
 1. Destructure the countries object print name, capital, population and languages of all countries
@@ -613,7 +612,7 @@ const users = [
   ```
 
 3. Write a function called *convertArrayToObject* which can convert the array to a structure object.
-   
+
   ```js
       const students = [
           ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]],
@@ -693,6 +692,7 @@ const users = [
   }
 
 ```
+
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 10](../10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md) | [Day 12 >>](../12_Day_Regular_expressions/12_day_regular_expressions.md)
