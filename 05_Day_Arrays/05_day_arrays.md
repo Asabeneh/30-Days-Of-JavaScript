@@ -59,7 +59,7 @@ An array is a collection of different data types which are ordered and changeabl
 ### How to create an empty array
 
 In JavaScript, we can create an array in different ways. Let us see different ways to create an array.
-It is very common to use *const* instead of *let* to declare an array variable. If you ar using const it means you do not use that variable name again.
+It is very common to use _const_ instead of _let_ to declare an array variable. If you ar using const it means you do not use that variable name again.
 
 - Using Array constructor
 
@@ -400,7 +400,7 @@ if(index === -1){
 // we can use also ternary here
 index === -1 ? console.log('This fruit does not exist in the array'): console.log('This fruit does exist in the array')
 
-// let us check if a avocado exist in the array
+// let us check if an avocado exist in the array
 let indexOfAvocado = fruits.indexOf('avocado')  // -1, if the element not found index is -1
 if(indexOfAvocado === -1){
    console.log('This fruit does not exist in the array')  
@@ -521,18 +521,20 @@ Splice: It takes three parameters:Starting position, number of times to be remov
 
 ```js
   const numbers = [1, 2, 3, 4, 5]
-
-  console.log(numbers.splice())                // -> remove all items
+  numbers.splice()
+  console.log(numbers)                // -> remove all items
 
 ```
 
 ```js
   const numbers = [1, 2, 3, 4, 5]
-  console.log(numbers.splice(0,1))            // remove the first item
+	numbers.splice(0,1)
+  console.log(numbers)            // remove the first item
 ```
 
 ```js
-  const numbers = [1, 2, 3, 4, 5, 6];
+  const numbers = [1, 2, 3, 4, 5, 6]
+	numbers.splice(3, 3, 7, 8, 9)
   console.log(numbers.splice(3, 3, 7, 8, 9))  // -> [1, 2, 3, 7, 8, 9] //it removes three item and replace three items
 ```
 
@@ -544,7 +546,6 @@ Push: adding item in the end. To add item to the end of an existing array we use
 // syntax
 const arr  = ['item1', 'item2','item3']
 arr.push('new item')
-
 console.log(arr)
 // ['item1', 'item2','item3','new item']
 ```
@@ -552,7 +553,6 @@ console.log(arr)
 ```js
 const numbers = [1, 2, 3, 4, 5]
 numbers.push(6)
-
 console.log(numbers) // -> [1,2,3,4,5,6]
 
 numbers.pop() // -> remove one item from the end
@@ -562,7 +562,6 @@ console.log(numbers) // -> [1,2,3,4,5]
 ```js
 let fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.push('apple')
-
 console.log(fruits)    // ['banana', 'orange', 'mango', 'lemon', 'apple']
 
 fruits.push('lime')
@@ -576,7 +575,6 @@ pop: Removing item in the end.
 ```js
 const numbers = [1, 2, 3, 4, 5]
 numbers.pop() // -> remove one item from the end
-
 console.log(numbers) // -> [1,2,3,4]
 ```
 
@@ -587,7 +585,6 @@ shift: Removing one array element in the beginning of the array.
 ```js
 const numbers = [1, 2, 3, 4, 5]
 numbers.shift() // -> remove one item from the beginning
-
 console.log(numbers) // -> [2,3,4,5]
 ```
 
@@ -598,7 +595,6 @@ unshift: Adding array element in the beginning of the array.
 ```js
 const numbers = [1, 2, 3, 4, 5]
 numbers.unshift(0) // -> add one item from the beginning
-
 console.log(numbers) // -> [0,1,2,3,4,5]
 ```
 
@@ -609,7 +605,6 @@ reverse: reverse the order of an array.
 ```js
 const numbers = [1, 2, 3, 4, 5]
 numbers.reverse() // -> reverse array order
-
 console.log(numbers) // [5, 4, 3, 2, 1]
 
 numbers.reverse()
@@ -769,7 +764,7 @@ const webTechs = [
     - Find the median age(one middle item or two middle items divided by two)
     - Find the average age(all items divided by number of items)
     - Find the range of the ages(max minus min)
-    - Compare the value of (min - average) and (max - average), use *abs()* method
+    - Compare the value of (min - average) and (max - average), use _abs()_ method
 1.Slice the first ten countries from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
 1. Find the middle country(ies) in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
 2. Divide the countries array into two equal arrays if it is even.  If countries array is not even , one more country for the first half.

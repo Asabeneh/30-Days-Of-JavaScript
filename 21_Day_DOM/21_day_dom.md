@@ -135,13 +135,13 @@ The _document.querySelector_ method can select an HTML or HTML elements by tag n
 ```js
 let firstTitle = document.querySelector('h1') // select the first available h1 element
 let firstTitle = document.querySelector('#first-title') // select id with first-title
-let firstTitle = document.querySelector('.title') // select the first available h1 element with class title
+let firstTitle = document.querySelector('.title') // select the first available element with class title
 ```
 
-**_querySelectorAll_**: can be used to select html element by its tag name or class. It return a nodeList which is an array like object which support array methods. We can use **_for loop_** or **_forEach_** to loop through each nodeList elements.
+**_querySelectorAll_**: can be used to select html elements by its tag name or class. It returns a nodeList which is an array like object which supports array methods. We can use **_for loop_** or **_forEach_** to loop through each nodeList elements.
 
 ```js
-const allTitles = document.querySelectorAll('h1')
+const allTitles = document.querySelectorAll('h1') # selects all the available h1 elements in the page
 
 console.log(allTitles.length) // 4
 for (let i = 0; i < allTitles.length; i++) {
@@ -351,7 +351,7 @@ As you have notice, the properties of css when we use it in JavaScript is going 
 ### Exercise: Level 1
 
 1. Create an index.html file and put four p elements as above: Get the first paragraph by using **_document.querySelector(tagname)_** and tag name
-2. Get get each of the the paragraph using **_document.querySelector('#id')_** and by their id
+2. Get each of the the paragraph using **_document.querySelector('#id')_** and by their id
 3. Get all the p as nodeList using **_document.querySelectorAll(tagname)_** and by their tag name
 4. Loop through the nodeList and get the text content of each paragraph
 5. Set a text content to paragraph the fourth paragraph,**_Fourth Paragraph_**

@@ -391,7 +391,7 @@ _Object.keys_: To get the keys or properties of an object as an array
 
 ```js
 const keys = Object.keys(copyPerson)
-console.log(keys) //['name', 'age', 'country', 'skills', 'address', 'getPersonInfo']
+console.log(keys) //['firstName', 'age', 'country','city', 'skills','title', 'address', 'getPersonInfo']
 const address = Object.keys(copyPerson.address)
 console.log(address) //['street', 'pobox', 'city']
 ```

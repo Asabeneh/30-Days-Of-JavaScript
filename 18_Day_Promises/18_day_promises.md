@@ -197,7 +197,7 @@ square(2)
 Promise {<resolved>: 4}
 ```
 
-The word _async_ in front of a function means that function will return a promise. The above square function instead of a value it returned a promise.
+The word _async_ in front of a function means that function will return a promise. The above square function instead of a value it returns a promise.
 
 How do we access the value from the promise? To access the value from the promise, we will use the keyword _await_.
 
@@ -206,6 +206,7 @@ const square = async function (n) {
   return n * n
 }
 const value = await square(2)
+console.log(value)
 ```
 
 ```sh
