@@ -196,11 +196,21 @@ function mostUsedInitial(arr) {
 }
 console.log(mostUsedInitial(concatenateCountries));
 
-// Exercises: Level
+// Exercises: Level 3
 
+//1. Use the countries information, in the data folder. Sort countries by name, by capital, by population
+const sortedCountries = [];
+const criteria = ['name', 'capital', 'population']
+criteria.forEach(el => {
+  const obj ={}
+  obj[el] = countries.map( country => country[el])
+ sortedCountries.push(obj)
+})
+console.log(sortedCountries)
 
-
-//2. console.log(mostSpokenLanguages(countries, 10))
+//2. Find the 10 most spoken languages:
+//Your output should look like this
+/*console.log(mostSpokenLanguages(countries, 10))
 [
   {country: 'English',count:91},
   {country: 'French',count:45},
@@ -219,4 +229,212 @@ console.log(mostUsedInitial(concatenateCountries));
   {country: 'English',count: 91},
   {country: 'French',count: 45},
   {country: 'Arabic',count: 25},
-  ]
+  ]*/
+
+  function mostSpokenLanguages(number) {
+    //make a language index
+    const allLangs = countries.map((element) =>
+      element.languages 
+    );
+    const mixedLangs = allLangs.toString().split(',');
+    const langIndex = [...new Set(mixedLangs)]
+  
+    //get the count of each language
+    function getLangSum(language) {
+      let sum = 0;
+      allLangs.forEach((element) => {
+        const langNum = element.filter((lang) => 
+          lang == language).length;
+        sum += langNum;
+      })
+      return sum;
+    }
+  
+    //make objects containing language and count
+    const spokenLangs = [];
+    langIndex.forEach((element) => {
+      const object = {};
+      object.language = `${element}`;
+      object.count = getLangSum(`${element}`);
+      spokenLangs.push(object); 
+    })
+  
+    //sort the objects by the counts in descending order
+    const mostSpokenLangs = spokenLangs.sort((a, b) => 
+      b.count - a.count
+    );
+  
+    //print out the specified number of objects
+    const printOut = mostSpokenLangs.filter((element) => 
+      mostSpokenLangs.indexOf(element) < number)
+    return printOut;
+  }
+  
+  console.log(mostSpokenLanguages(5));
+
+  //3. Use countries_data.js file create a function which create the ten most populated countries
+ /*console.log(mostPopulatedCountries(countries, 10))
+
+[
+{country: 'China', population: 1377422166},
+{country: 'India', population: 1295210000},
+{country: 'United States of America', population: 323947000},
+{country: 'Indonesia', population: 258705000},
+{country: 'Brazil', population: 206135893},
+{country: 'Pakistan', population: 194125062},
+{country: 'Nigeria', population: 186988000},
+{country: 'Bangladesh', population: 161006790},
+{country: 'Russian Federation', population: 146599183},
+{country: 'Japan', population: 126960000}
+]*/
+
+function mostPopulatedCountries(number) {
+  //make a new array containing objects with country and population
+  const countriesAndPopulation = [];
+  countries.forEach((element) => {
+    const object = {};
+    object.country = element.name;
+    object.population = element.population;
+    countriesAndPopulation.push(object);
+  })
+
+  //sort the objects by its population
+  const mostPopulated = countriesAndPopulation.sort((a, b) => 
+    b.population - a.population
+  );
+
+  //print out the specified number of objects
+  const printOut = mostPopulated.filter((element) => 
+    mostPopulated.indexOf(element) < number)
+  return printOut;
+}
+console.log(mostPopulatedCountries(3));
+
+//4.  Try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create an object called statistics and create all the functions which do statistical calculations as method for the statistics object. Check the output below.
+/*const ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
+
+console.log('Count:', statistics.count()) // 25
+console.log('Sum: ', statistics.sum()) // 744
+console.log('Min: ', statistics.min()) // 24
+console.log('Max: ', statistics.max()) // 38
+console.log('Range: ', statistics.range() // 14
+console.log('Mean: ', statistics.mean()) // 30
+console.log('Median: ',statistics.median()) // 29
+console.log('Mode: ', statistics.mode()) // {'mode': 26, 'count': 5}
+console.log('Variance: ',statistics.var()) // 17.5
+console.log('Standard Deviation: ', statistics.std()) // 4.2
+console.log('Variance: ',statistics.var()) // 17.5
+console.log('Frequency Distribution: ',statistics.freqDist()) # [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)] */
+
+const ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
+
+//1 count, sum, min, max, range
+const statistics = {};
+
+statistics.count = (arr) => arr.length;
+statistics.sum = (arr) => arr.reduce((a, b) => a + b);
+statistics.min = (arr) => Math.min(...arr);
+statistics.max = (arr) => Math.max(...arr);
+statistics.range = (arr) => Math.max(...arr) - Math.min(...arr);
+
+//2 mean : an average of a data setPermalink
+
+statistics.mean = (arr) => {
+  const sum = arr.reduce((a, b) => a + b);
+  const count = arr.length;
+  // need to return explicitly
+  return Math.round(sum / count);
+}
+console.log('Mean: ', statistics.mean(ages));
+
+//3. median : the middle value when a data set is sorted
+statistics.median = (arr) => {
+  let median;
+  const sortedArr = arr.sort((a, b) => a - b);
+  if (arr.length % 2 != 0) {
+    median = sortedArr[(arr.length - 1) / 2];
+  } else {
+    median = (sortedArr[(arr.length / 2) - 1] + sortedArr[arr.length / 2]) / 2;
+  }
+  return median;
+}
+console.log('Median: ',statistics.median(ages));
+
+//4. mode : the most common number in a set
+statistics.mode = (arr) => {
+  const num = [...new Set(arr)];
+  const count = num.map((element) =>
+    arr.filter((number) => number === element).length)
+  let max = Math.max(...count);
+  let object = {};
+  object.mode = num[count.indexOf(max)];
+  object.count = max;
+  return object;
+}
+console.log('Mode: ', statistics.mode(ages));
+
+//5. variance 
+//1) Find a mean.
+
+//2) Find each score’s deviation from the mean.
+
+//3) Square each deviation from the mean.
+
+//4) Find the sum of squares.
+
+//5) Divide the sum of squares by n-1(sample) or N(population).
+
+//+) A population is the entire group that you want to draw conclusions about. A sample is the specific group that you will collect data from. The size of the sample is always less than the total size of the population.
+statistics.var = (arr) => {
+  const sum = arr.reduce((a, b) => a + b);
+  const count = arr.length;
+  const mean = sum / count;
+
+  const deviation = arr.map((element) => element - mean);
+  const square = deviation.map((num) => num * num);
+  const sumOfSquares = square.reduce((a, b) => a + b);
+  return +(sumOfSquares / count).toFixed(1);
+}
+console.log('Variance: ',statistics.var(ages));
+
+//6. standard deviation
+//Basically it’s a square-rooted variance.
+
+//1) Find a mean. 2) For each data point, find the square of its distance to the mean. 3) Sum the values from Step 2. 4) Divide by the number of data points. 5) Take the square root.
+statistics.std = (arr) => {
+  const sum = arr.reduce((a, b) => a + b);
+  const count = arr.length;
+  const mean = sum / count;
+
+  const deviation = arr.map((element) => element - mean);
+  const square = deviation.map((num) => num * num);
+  const sumOfSquares = square.reduce((a, b) => a + b);
+  const variance = sumOfSquares / count;
+
+  return +(Math.sqrt(variance).toFixed(1));
+}
+
+console.log('Standard Deviation: ', statistics.std(ages)); // 4.2
+
+//7. frequency distribution
+//1) Calculate the range of the data set.
+
+//2) Divide the range by the number of groups you want and then round up.
+
+//3) Use the class width to create your groups.
+
+//4) Find the frequency for each group.
+statistics.frecDistibution = function (arr) {
+const num = [...new Set(arr)];
+  const freqDist = [];
+  num.forEach((unique) => {
+    let frequency;
+    let times = arr.filter((element) =>
+      element === unique).length;
+    frequency = `(${(times / arr.length) * 100}, ${unique})`;
+    freqDist.push(frequency);
+  })
+  return statistics['frequency distribution'] = [freqDist.join(', ')];
+} 
+console.log(statistics.frecDistibution(ages))
+console.log(statistics.std(ages))
