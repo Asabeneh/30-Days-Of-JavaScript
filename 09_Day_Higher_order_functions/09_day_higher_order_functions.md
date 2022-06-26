@@ -88,7 +88,7 @@ console.log(higherOrder(2)(3)(10))
 Let us see were we use call back functions. For instance the _forEach_ method uses call back.
 
 ```js
-const numbers = [1, 2, 3, 4, 5]
+const numbers = [1, 2, 3, 4]
 const sumArray = arr => {
   let sum = 0
   const callback = function(element) {
@@ -518,7 +518,7 @@ console.log(numbers) //[100, 37, 9.81, 3.14]
 
 #### Sorting Object Arrays
 
-Whenever we sort objects in an array, we use the object key to compare. Let us see the example below.
+When ever we sort objects in an array. We use the object key to compare. Lets see the example below.
 
 ```js
 objArr.sort(function (a, b) {
@@ -538,7 +538,7 @@ objArr.sort(function (a, b) {
 const users = [
   { name: 'Asabeneh', age: 150 },
   { name: 'Brook', age: 50 },
-  { name: 'Eyob', age: 100 },
+  { name: 'Eyo', age: 100 },
   { name: 'Elias', age: 22 },
 ]
 users.sort((a, b) => {
