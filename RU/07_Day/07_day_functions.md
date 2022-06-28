@@ -280,7 +280,7 @@ sumAllNums(1, 2, 3, 4)
 ```
 
 ```js
-// function declaration
+// Объявление функции
 ​
 const sumAllNums = (...args) => {
   let sum = 0
@@ -297,23 +297,23 @@ console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
 
 ### Anonymous Function
 
-Anonymous function or without name
+Безымянные или анонимные функции
 
 ```js
 const anonymousFun = function() {
   console.log(
-    'I am an anonymous function and my value is stored in anonymousFun'
+    'Я анонимная функция, и мое значение хранится в anonymousFun'
   )
 }
 ```
 
 ### Expression Function
 
-Expression functions are anonymous functions. After we create a function without a name and we assign it to a variable. To return a value from the function we should call the variable. Look at the example below.
+Функциональные выражения являются анонимными функциями. Затем мы создаем функцию без имени и присваиваем ее переменной. Для того чтобы вернуть значение из функции, мы должны вызвать переменную. Посмотрите на пример ниже.
 
 ```js
 
-// Function expression
+// Функциональное выражение
 const square = function(n) {
   return n * n
 }
@@ -323,12 +323,12 @@ console.log(square(2)) // -> 4
 
 ### Self Invoking Functions
 
-Self invoking functions are anonymous functions which do not need to be called to return a value.
+Самовызывающиеся функции - это анонимные функции, которые не нужно вызывать для возвращения значения
 
 ```js
 (function(n) {
   console.log(n * n)
-})(2) // 4, but instead of just printing if we want to return and store the data, we do as shown below
+})(2) // 4, но вместо того, чтобы просто выводить в консоль, если мы хотим вернуть и сохранить данные, мы делаем, как показано ниже
 
 let squaredNum = (function(n) {
   return n * n
@@ -339,13 +339,13 @@ console.log(squaredNum)
 
 ### Arrow Function
 
-Arrow function is an alternative to write a function, however function declaration and arrow function have some minor differences.
+Стрелочные функции - это альтернатива в написании функции, однако объявление функции и стрелочные функции имеют некоторые незнчительные отличия.
 
-Arrow function uses arrow instead of the keyword *function* to declare a function. Let us see both function declaration and arrow function.
+Стрелочная функция использует стрелку, за место ключевого слова `function`. Давайте посмотрим на оба варианта, объявление функции и стрелочную функцию
 
 ```js
-// This is how we write normal or declaration function
-// Let us change this declaration function to an arrow function
+// Это то как мы объявляем обычную функцию
+// Давайте поменяем эту функцию на срелочную
 function square(n) {
   return n * n
 }
@@ -358,7 +358,7 @@ const square = n => {
 
 console.log(square(2))  // -> 4
 
-// if we have only one line in the code block, it can be written as follows, explicit return
+// Если у нас только одна строка в блоке кода, это можно записать следующим образом, где явное возвращение
 const square = n => n * n  // -> 4
 ```
 
@@ -371,10 +371,10 @@ const changeToUpperCase = arr => {
   return newArr
 }
 
-const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
+const countries = ['Финляндия', 'Швеция', 'Норвегия', 'Дания', 'Исландия']
 console.log(changeToUpperCase(countries))
 
-// ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
+// ["ФИНЛЯНДИЯ", "ШВЕЦИЯ", "НОРВЕГИЯ", "ДАНИЯ", "ИСЛАНДИЯ"]
 ```
 
 ```js
@@ -385,7 +385,7 @@ const printFullName = (firstName, lastName) => {
 console.log(printFullName('Asabeneh', 'Yetayeh'))
 ```
 
-The above function has only the return statement, therefore, we can explicitly return it as follows.
+Функция выше, имеет только оператор `return`, поэтому мы можем явно вернуть его следующим образом.
 
 ```js
 const printFullName = (firstName, lastName) => `${firstName} ${lastName}`
@@ -395,25 +395,25 @@ console.log(printFullName('Asabeneh', 'Yetayeh'))
 
 ### Function with default parameters
 
-Sometimes we pass default values to parameters, when we invoke the function if we do not pass an argument the default value will be used. Both function declaration and arrow function can have a default value or values.
+Иногда мы передаем значения по умолчанию параметрам, когда мы вызываем функцию, если мы не передаем аргумент, будет использоваться значение по умолчанию. И объявление функции, и стрелочная функция могут иметь значения по умолчанию.
 
 ```js
-// syntax
-// Declaring a function
+// Синтаксис
+// Объявление функции
 function functionName(param = value) {
-  //codes
+  // Код функции
 }
 
-// Calling function
+// Вызов функции
 functionName()
 functionName(arg)
 ```
 
-**Example:**
+**Пример:**
 
 ```js
-function greetings(name = 'Peter') {
-  let message = `${name}, welcome to 30 Days Of JavaScript!`
+function greetings(name = 'Пётр') {
+  let message = `${name}, добро пожаловать в 30 Days Of JavaScript!`
   return message
 }
 
@@ -429,7 +429,7 @@ function generateFullName(firstName = 'Asabeneh', lastName = 'Yetayeh') {
 }
 
 console.log(generateFullName())
-console.log(generateFullName('David', 'Smith'))
+console.log(generateFullName('Дэвид', 'Смит'))
 ```
 
 ```js
@@ -438,38 +438,38 @@ function calculateAge(birthYear, currentYear = 2019) {
   return age
 }
 
-console.log('Age: ', calculateAge(1819))
+console.log('Возраст: ', calculateAge(1819))
 ```
 
 ```js
 function weightOfObject(mass, gravity = 9.81) {
-  let weight = mass * gravity + ' N' // the value has to be changed to string first
+  let weight = mass * gravity + ' N' // значение должно быть сначало изменено на строку 
   return weight
 }
 
-console.log('Weight of an object in Newton: ', weightOfObject(100)) // 9.81 gravity at the surface of Earth
-console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gravity at surface of Moon
+console.log('Weight of an object in Newton: ', weightOfObject(100)) // 9.81 гравитация на поверхности Земли
+console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // гравитация на поверхности Луны
 ```
 
-Let us see how we write the above functions with arrow functions
+Давайте посмотрим как мы напишем функцию выше, как стрелочную функцию
 
 ```js
-// syntax
-// Declaring a function
+// Синтаксис
+// Объявление функции
 const functionName = (param = value) => {
-  //codes
+  // Код функции
 }
 
-// Calling function
+// Вызов функции
 functionName()
 functionName(arg)
 ```
 
-**Example:**
+**Пример:**
 
 ```js
-const greetings = (name = 'Peter') => {
-  let message = name + ', welcome to 30 Days Of JavaScript!'
+const greetings = (name = 'Пётр') => {
+  let message = name + ', добро пожаловать в 30 Days Of JavaScript!'
   return message
 }
 
@@ -485,7 +485,7 @@ const generateFullName = (firstName = 'Asabeneh', lastName = 'Yetayeh') => {
 }
 
 console.log(generateFullName())
-console.log(generateFullName('David', 'Smith'))
+console.log(generateFullName('Дэвид', 'Смит'))
 ```
 
 ```js
@@ -497,31 +497,30 @@ console.log('Age: ', calculateAge(1819))
 ```js
 const weightOfObject = (mass, gravity = 9.81) => mass * gravity + ' N'
   
-console.log('Weight of an object in Newton: ', weightOfObject(100)) // 9.81 gravity at the surface of Earth
-console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gravity at surface of Moon
+console.log('Weight of an object in Newton: ', weightOfObject(100)) // 9.81 гравитация на поверхности Земли
+console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // гравитация на поверхности Луны
 ```
 
 ### Function declaration versus Arrow function
 
-It Will be covered in other section.
+Это будет рассмотрено в другом разделе.
 
-🌕 You are a rising star, now you knew function . Now, you are super charged with the power of functions. You have just completed day 7 challenges and you are 7 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
-
-
+🌕 Ты восходящая звезда, теперь ты знаешь функции. Теперь вы супер заряжены мощью функций. Вы только что выполнили задания седьмого дня и сделали 7 шагов на пути к величию. Теперь сделайте несколько упражнений для мозга и мышц.
 
 ## 💻 Exercises
 
 ### Exercises: Level 1
 
-1. Declare a function _fullName_ and it print out your full name.
-2. Declare a function _fullName_ and now it takes firstName, lastName as a parameter and it returns your full - name.
-3. Declare a function _addNumbers_ and it takes two two parameters and it returns sum.
-4. An area of a rectangle is calculated as follows: _area = length x width_. Write a function which calculates _areaOfRectangle_.
-5. A perimeter of a rectangle is calculated as follows: _perimeter= 2x(length + width)_. Write a function which calculates _perimeterOfRectangle_.
-6. A volume of a rectangular prism is calculated as follows: _volume = length x width x height_. Write a function which calculates _volumeOfRectPrism_.
-7. Area of a circle is calculated as follows: _area = π x r x r_. Write a function which calculates _areaOfCircle_
-8. Circumference of a circle is calculated as follows: _circumference = 2πr_. Write a function which calculates _circumOfCircle_
-9. Density of a substance is calculated as follows:_density= mass/volume_. Write a function which calculates _density_.
+1. Объявите функцию _fullName_ и выведите в консоль свое имя.
+2. Объявите функцию _fullName_ которая принимает имя и фамилию как параметры и возвращает ваши имя и фамилию.
+3. Объявите функцию _addNumbers_ которая принимает два параметра и возвращает их сумму.
+4. Площадь прямоугольника расчитывается следующим образом: _площадь = длина x ширина_. Напишите функцию, которая сделает вычисления _areaOfRectangle_.
+5. Периметр прямоугольника расчитывается следующим образом: _периметр = 2 x (длина + ширина)_. Напишите функцию, которая сделает вычисления _perimeterOfRectangle_.
+6. Объем прямоугольной призмы расчитывается следующим образом: _объем = длина x ширина x высота_. Напишите функцию, которая сделает вычисления _volumeOfRectPrism_.
+7. Площадь круга расчитывается следующим образом: _площадь = π x r x r_. Напишите функцию, которая сделает вычисления _areaOfCircle_
+8. Длина окружности расчитывается следующим образом: _длина окружности = 2πr_. Напишите функцию, которая сделает вычисления _circumOfCircle_
+9. Плотность вещества расчитывается следующим образом: _плотность = масса/объем_. Напишите функцию, которая сделает вычисления _density_.
+
 10. Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates a speed of a moving object, _speed_.
 11. Weight of a substance is calculated as follows: _weight = mass x gravity_. Write a function which calculates _weight_.
 12. Temperature in oC can be converted to oF using this formula: _oF = (oC x 9/5) + 32_. Write a function which convert oC to oF _convertCelsiusToFahrenheit_.
@@ -557,22 +556,22 @@ It Will be covered in other section.
     console.log(solveQuadratic(1, -1, 0)) //{1, 0}
     ```
 
-1. Declare a function name _printArray_. It takes array as a parameter and it prints out each value of the array.
-1. Write a function name _showDateTime_ which shows time in this format: 08/01/2020 04:08 using the Date object.
+1. Объявите функцию с именем _printArray_. Которая принимает массив как параметр и выводит в консоль каждое значение из массива.
+1. Напишите функцию с именем _showDateTime_ которая показывает время в таком формате: 08/01/2020 04:08 используя объект Date.
 
     ```sh
     showDateTime()
     08/01/2020 04:08
     ```
 
-1. Declare a function name _swapValues_. This function swaps value of x to y.
+1. Объявите функцию с именем _swapValues_. Эта функция меняет значение x на y.
 
     ```js
     swapValues(3, 4) // x => 4, y=>3
     swapValues(4, 5) // x = 5, y = 4
     ```
 
-1. Declare a function name _reverseArray_. It takes array as a parameter and it returns the reverse of the array (don't use method).
+1. Объявите функцию с именем _reverseArray_. Которая принимает массив как параметр, и возвращает перевернутый массив, не используя метод `reverse`
 
     ```js
     console.log(reverseArray([1, 2, 3, 4, 5]))
@@ -639,18 +638,18 @@ It Will be covered in other section.
     '
     ```
 
-1. Write a function name _rgbColorGenerator_ and it generates rgb colors.
+1. Напишите функцию с именем _rgbColorGenerator_ которая генерирует RGB цвета.
 
     ```sh
     rgbColorGenerator()
     rgb(125,244,255)
     ```
 
-1. Write a function **_arrayOfHexaColors_** which return any number of hexadecimal colors in an array.
-1. Write a function **_arrayOfRgbColors_** which return any number of RGB colors in an array.
-1. Write a function **_convertHexaToRgb_** which converts hexa color to rgb and it returns an rgb color.
-1. Write a function **_convertRgbToHexa_** which converts rgb to hexa color and it returns an hexa color.
-1. Write a function **_generateColors_** which can generate any number of hexa or rgb colors.
+1. Напишите функцию **_arrayOfHexaColors_** которая возвращает любое число шестнадцатеричных цветов в массиве
+1. Напишите функцию **_arrayOfRgbColors_** которая возвращает любое число цветов RGB в массиве
+1. Напишите функцию **_convertHexaToRgb_** которая преобразует шестнадцатеричный цвет в RGB, и возвращает цвет RGB.
+1. Напишите функцию **_convertRgbToHexa_** которая преобразует RGB в шестнадцатеричный цвет и возвращает его.
+1. Напишите функцию **_generateColors_** которая может сгенерировать любое значение цвета в шестнадцатеричном или RGB значении.
 
     ```js
     console.log(generateColors('hexa', 3)) // ['#a3e12f', '#03ed55', '#eb3d2b']
@@ -704,6 +703,6 @@ It Will be covered in other section.
 
 1. Write a function called reverseCountries, it takes countries array and first it copy the array and returns the reverse of the original array
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 ПОЗДРАВЛЯЕМ ! 🎉
 
-[<< Day 6](../06_Day_Loops/06_day_loops.md) | [Day 8 >>](../08_Day_Objects/08_day_objects.md)
+[<< День 6](../06_Day/06_day_loops.md) | [День 8 >>](../08_Day_Objects/08_day_objects.md)
