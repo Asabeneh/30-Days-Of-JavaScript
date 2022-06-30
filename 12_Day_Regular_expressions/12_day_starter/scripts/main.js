@@ -117,7 +117,8 @@ function cleanText(str) {
     const wordIndex = [...new Set(cleanedText.split(' '))];
     const wordsAndCounts = [];
     for (i = 0; i < wordIndex.length; i++) {
-      let word = new RegExp(wordIndex[i] + ' ', 'g');
+      let word = new RegExp(wordIndex[i],'g');
+      console.log(word)
       wordsAndCounts[i] = { word: wordIndex[i], count: cleanedText.match(word).length };
     }
     const sortedWordCounts = wordsAndCounts.sort((a, b) =>
