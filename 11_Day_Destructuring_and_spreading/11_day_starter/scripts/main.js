@@ -73,7 +73,8 @@ let [fin, est, sw, den, nor] = countries_
   
   //1. Iterate through the users array and get all the keys of the object using destructuring
   for (const {name, scores, skills, age} of users) {
-    console.log(Object.keys({name, scores, skills, age}));
+    //console.log(Object.keys({name, scores, skills, age}));
+    console.log(skills, skills.length)
   }
 
  // get the keys without destructuring
@@ -107,7 +108,7 @@ const students = [
   
   const convertArrayToObject = (arr) => {
     for (const [name, skills, scores] of arr) {
-      console.log({name: name, skills: skills, scores: scores});
+     return {name: name, skills: skills, scores: scores};
     }
   }
   console.log(convertArrayToObject(students));
@@ -118,10 +119,12 @@ const students = [
 //Add SQL with level 8 to the data base skill sets
 //Add SQL without level to the data science skill sets
 
-const newStudent = {...student}
+/*const newStudent = {...student}
 const {name, age, skills} = newStudent;
 let {frontEnd, backEnd, dataBase, dataScience} = skills;
 frontEnd.push(skills, {skill: 'Bootstrap', level: 8});
 backEnd.push({skill: 'Express', level: 9});
 dataBase.push({skill: 'SQL', level: 8});
-dataScience.push('SQL');
+dataScience.push('SQL');*/
+
+
