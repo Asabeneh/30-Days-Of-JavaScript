@@ -184,7 +184,7 @@ class Statistics {
 let statistics = new Statistics()
 console.log(statistics.mean(ages), statistics.median(ages), statistics.mode(ages))
 //2.Create a class called PersonAccount. It has firstname, lastname, incomes, expenses properties and it has totalIncome, totalExpense, accountInfo,addIncome, addExpense and accountBalance methods. Incomes is a set of incomes and its description and expenses is also a set of expenses and its description.
-ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
+
 
 class PersonAccount {
   constructor(firstName, lastName, incomes, expenses) {
