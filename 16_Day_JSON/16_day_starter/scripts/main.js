@@ -154,6 +154,6 @@ for (const element of skillsNum) {
     let name = txtNames[skillsNum.indexOf(element)]
     console.log(`${name} ${max}`)
   }
-}  // Asab
+}  // Asab 8
 
 
