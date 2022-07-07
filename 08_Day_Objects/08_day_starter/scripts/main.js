@@ -89,7 +89,6 @@ const usersIds = Object.keys(users)
 const userSkills = [];
 for(user in usersIds ){
   userSkills[user] = users[usersIds[user]].skills.length
-  
 }
 console.log(users[usersIds[user]].skills.length)
 

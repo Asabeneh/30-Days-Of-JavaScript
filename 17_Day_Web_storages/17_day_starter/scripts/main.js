@@ -54,3 +54,19 @@ const personAccount = {
   }; 
   txtPersonAccount = JSON.stringify(personAccount, null, 2)
   localStorage.setItem('PersonAccount', txtPersonAccount)
+  let getItem = localStorage.getItem('firstName')
+  console.log(getItem)
+
+
+  const user = {
+    firstName: 'Asabeneh',
+    age: 250,
+    skills: ['HTML', 'CSS', 'JS', 'React']
+  }
+  
+  const userText = JSON.stringify(user, undefined, 4)
+  localStorage.setItem('user', userText)
+
+  let skills = localStorage.getItem('user')
+  
+  console.log(skills)
