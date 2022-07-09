@@ -42,63 +42,63 @@
 
 - [📔 Gün 5](#-day-5)
 
-- [Diziler ( Array )](#arrays)
+	- [Diziler ( Array )](#arrays)
 
-- [Boş bir dizi nasıl oluşturulur](#boş-bir-dizi-nasıl-oluşturulur)
+		- [Boş bir dizi nasıl oluşturulur](#boş-bir-dizi-nasıl-oluşturulur)
 
-- [Değerlere sahip bir dizi nasıl oluşturulur](#değerlere-sahip-bir-dizi-nasıl-oluşturulur)
+		- [Değerlere sahip bir dizi nasıl oluşturulur](#değerlere-sahip-bir-dizi-nasıl-oluşturulur)
 
-- [split kullanarak dizi oluşturmak](#split-kullanarak-dizi-oluşturmak)
+		- [split kullanarak dizi oluşturmak](#split-kullanarak-dizi-oluşturmak)
 
-- [index kullanarak dizi elemanlarına ulaşmak](#index-kullanarak-dizi-elemanlarına-ulaşmak)
+		- [index kullanarak dizi elemanlarına ulaşmak](#index-kullanarak-dizi-elemanlarına-ulaşmak)
 
-- [Dizi elemanlarını düzenlemek](#dizi-elemanlarını-düzenlemek)
+		- [Dizi elemanlarını düzenlemek](#dizi-elemanlarını-düzenlemek)
 
-- [Dizileri manüple edebilecek metotlar](#dizileri-manüple-edebilecek-metotlar)
+		- [Dizileri manüple edebilecek metotlar](#dizileri-manüple-edebilecek-metotlar)
 
-- [Dizi Constructor'ı ( yapıcı metot )](#dizi-constructor)
+			- [Dizi Constructor'ı ( yapıcı metot )](#dizi-constructor)
 
-- [fill ile statik değerler yaratmak](#fill-ile-statik-değerler-yaratmak)
+			- [fill ile statik değerler yaratmak](#fill-ile-statik-değerler-yaratmak)
 
-- [concat kullanarak dizileri birleştirmek](#concat-kullanarak-dizileri-birleştirmek)
+			- [concat kullanarak dizileri birleştirmek](#concat-kullanarak-dizileri-birleştirmek)
 
-- [Dizi uzunluğuna ulaşmak ( length )](#dizi-uzunluğuna-ulaşmak)
+			- [Dizi uzunluğuna ulaşmak ( length )](#dizi-uzunluğuna-ulaşmak)
 
-- [arr dizisinin içindeki index'e ulaşmak](#arr-dizisinin-içindeki-indexe-ulaşmak)
+			- [arr dizisinin içindeki index'e ulaşmak](#arr-dizisinin-içindeki-indexe-ulaşmak)
 
-- [Dizinin içindeki son index'e ulaşmak](#dizinin-içindeki-son-indexe-ulaşmak)
+			- [Dizinin içindeki son index'e ulaşmak](#dizinin-içindeki-son-indexe-ulaşmak)
 
-- [Diziyi kontrol etmek](#diziyi-kontrol-etmek)
+			- [Diziyi kontrol etmek](#diziyi-kontrol-etmek)
 
-- [Diziyi string'e çevirmek](#diziyi-stringe-çevirmek)
+			- [Diziyi string'e çevirmek](#diziyi-stringe-çevirmek)
 
-- [Dizi elemanlarını Joinlemek](#dizi-elemanlarını-joinlemek)
+			- [Dizi elemanlarını Joinlemek](#dizi-elemanlarını-joinlemek)
 
-- [Dizi elemanlarını Slice etmek ( kesmek )](#dizi-elemanlarını-slice-etmek)
+			- [Dizi elemanlarını Slice etmek ( kesmek )](#dizi-elemanlarını-slice-etmek)
 
-- [Dizlerde Splice metodu](#dizilerde-splice-metodu)
+			- [Dizlerde Splice metodu](#dizilerde-splice-metodu)
 
-- [push kullanarak diziye eleman eklemek](#push-kullanarak-diziye-eleman-eklemek)
+			- [push kullanarak diziye eleman eklemek](#push-kullanarak-diziye-eleman-eklemek)
 
-- [pop kıllanarak diziden eleman çıkarmak](#pop-kullanarak-diziden-eleman-çıkarmak)
+			- [pop kıllanarak diziden eleman çıkarmak](#pop-kullanarak-diziden-eleman-çıkarmak)
 
-- [Dizinin en başından eleman kaldırmak](#dizinin-en-başından-eleman-kaldırmak)
+			- [Dizinin en başından eleman kaldırmak](#dizinin-en-başından-eleman-kaldırmak)
 
-- [Dizinin en başına eleman ekleme](#dizinin-en-başına-eleman-eklemek)
+			- [Dizinin en başına eleman ekleme](#dizinin-en-başına-eleman-eklemek)
 
-- [Dizi sırasını ters'e çevirmek](#dizi-sırasını-terse-çevirmek)
+			- [Dizi sırasını ters'e çevirmek](#dizi-sırasını-terse-çevirmek)
 
-- [Dizi elemanlarını sıralamak](#dizi-elemanlarını-sıralamak)
+			- [Dizi elemanlarını sıralamak](#dizi-elemanlarını-sıralamak)
 
-- [Dizi içinde Diziler](#dizi-içinde-diziler)
+			- [Dizi içinde Diziler](#dizi-içinde-diziler)
 
-- [💻 Egzersizler](#-Egzersizler)
+	- [💻 Egzersizler](#-Egzersizler)
 
-- [Egzersiz: Seviye 1](#egzersiz-seviye-1)
+		- [Egzersiz: Seviye 1](#egzersiz-seviye-1)
 
-- [Egzersiz: Seviye 2](#egzersiz-seviye-2)
+		- [Egzersiz: Seviye 2](#egzersiz-seviye-2)
 
-- [Egzersiz: Seviye 3](#egzersiz-seviye-3)
+		- [Egzersiz: Seviye 3](#egzersiz-seviye-3)
 
   
 
@@ -110,11 +110,11 @@
 
   
 
-Değişkenlerin aksine, diziler _Çoklu değerleri_ depolayabilirler. Dizi'deki her bir değer  _index_'e sahiptir, ve her index _bellek adresindeki bir referans_'ı işaret eder. Bu _index'ler_  kullanılarak her bir değere ulaşım sağlanabilir. Bir dizinin index'i  _sıfır_'dan başlar ve dizinin son elemanının index'i, dizinin uzunluğunda bir eksiktir.
+Değişkenlerin aksine, diziler _Çoklu değerleri_ depolayabilirler. Dizi'deki her bir değer  _index_'e sahiptir, ve her index _bellek adresindeki bir referans_'ı işaret eder. Bu _index'ler_  kullanılarak her bir değere ulaşım sağlanabilir. Bir dizinin index'i  _sıfır_'dan başlar ve dizinin son elemanının index'i, dizinin uzunluğundan bir eksiktir.
 
   
 
-Bir dizi, sıralı ve değiştirilebilir (güncellenebilir) farklı veri türlerinin bir koleksiyonudur. Bir dizi, tekrar edilen elemanların ve farklı veri türlerinin depolanmasına izin verir.  Bir dizi boş olabilir veya farklı veri türü değerlerine sahip olabilir.
+Bir dizi, sıralı ve değiştirilebilirdir. Farklı veri türlerinin bir koleksiyonudur. Bir dizi, tekrar edilen elemanların ve farklı veri türlerinin depolanmasına izin verir.  Bir dizi boş olabilir veya farklı veri türü değerlerine sahip olabilir.
 
   
 
@@ -262,7 +262,7 @@ Number of countries: 5
 
   
 
-- Dizinin farklı veri tiplerinde elemanları olabilir
+- Dizinin farklı veri tiplerinde elemanları olabilir.
 
   
 
@@ -770,7 +770,7 @@ Bir dizide mevcut olup olmadığını kontrol edin.
 
   
 
-- Listedeki elemanları kontrol edin
+- Listedeki elemanları kontrol edin.
 
 ```js
 
@@ -828,7 +828,7 @@ console.log('This fruit does exist in the array')
 
   
 
-lastIndexOf: Dizideki son elemanın pozisyonunu verir. Eğer mevcutsa o elemanın index numarasını döner, mevcut değilse -1 döner
+lastIndexOf: Dizideki son elemanın pozisyonunu verir. Eğer mevcutsa o elemanın index numarasını döner, mevcut değilse -1 döner.
 
   
 
@@ -1010,8 +1010,7 @@ console.log(webTechs.join(' # ')) // "HTML # CSS # JavaScript # React # Redux # 
 
   
 
-Slice: Bir aralıktaki çoklu elemanları dilimler İki parametre alır. Bu parametreler, başlangıç ve bitiş konumlarıdır. Bitiş konumunu dahil etmez
-
+Slice: Bir aralıktaki çoklu elemanları dilimler İki parametre alır. Bu parametreler, başlangıç ve bitiş konumlarıdır. Bitiş konumunu dahil etmez.
   
 
 ```js
@@ -1082,7 +1081,7 @@ console.log(numbers.splice(3, 3, 7, 8, 9)) // -> [1, 2, 3, 7, 8, 9] //2 eleman k
 
   
 
-Push: Dizinin sonuna eleman ekler.Varolan bir diziye eleman eklemek için push metodunu kullanırız
+Push: Dizinin sonuna eleman ekler.Varolan bir diziye eleman eklemek için push metodunu kullanırız.
   
 
 ```js
@@ -1141,7 +1140,7 @@ console.log(fruits) // ['banana', 'orange', 'mango', 'lemon', 'apple', 'lime']
 
   
 
-pop: Dizinin sonundaki elemanı siler
+pop: Dizinin sonundaki elemanı siler.
 
   
 
@@ -1181,7 +1180,7 @@ console.log(numbers) // -> [2,3,4,5]
 
   
 
-unshift: Dizinin başına dizi elemanı ekler
+unshift: Dizinin başına dizi elemanı ekler.
 
   
 
@@ -1270,7 +1269,7 @@ console.log(webTechs) // ["Redux", "React", "Node", "MongoDB", "JavaScript", "HT
 
   
 
-Diziler farklı veri tiplerinde elemanları ve yeni bir dizi de depolayabilirler Şimdi dizi içinde bir dizi tanımlayalım
+Diziler farklı veri tiplerinde elemanları ve yeni bir dizi de depolayabilirler Şimdi dizi içinde bir dizi tanımlayalım.
   
 
 ```js
@@ -1371,23 +1370,23 @@ const  webTechs = [
 
 1. _boş_ bir dizi yaratın;
 
-2. Eleman sayısı 5'ten fazla olan bir dizi yaratın
+2. Eleman sayısı 5'ten fazla olan bir dizi yaratın.
 
-3. Yarattığınız dizinin uzunluğunu bulun ( length )
+3. Yarattığınız dizinin uzunluğunu bulun ( length ).
 
-4. Dizinizdeki ilk elemanı, ortadaki elemanı ve sondaki elemanı bulun
+4. Dizinizdeki ilk elemanı, ortadaki elemanı ve sondaki elemanı bulun.
 
 5.  _mixedDataTypes_ adında bir dizi yaratın,dizinin içine farklı veri tiplerinde elemanlar koyun ve bu dizinin uzunluğunu bulun. Dizinin uzunluğu 5'ten büyük olmalıdır.
 
-6. ItCompanies adlı bir dizi değişkeni oluşturun ve Facebook, Google, Microsoft, Apple, IBM, Oracle ve Amazon'a başlangıç değerleri atayın
+6. ItCompanies adlı bir dizi değişkeni oluşturun ve Facebook, Google, Microsoft, Apple, IBM, Oracle ve Amazon'a başlangıç değerleri atayın.
 
-7. _console.log()_ kullanarak dizinizi yazdırın
+7. _console.log()_ kullanarak dizinizi yazdırın.
 
-8. Dizinin içindeki şirketlerin sayısın yazdırın
+8. Dizinin içindeki şirketlerin sayısın yazdırın.
 
-9. Dizinin içindeki ilk, ortadaki ve son elemanı yazdırın
+9. Dizinin içindeki ilk, ortadaki ve son elemanı yazdırın.
 
-10. Dizideki her şirketi yazdırın
+10. Dizideki her şirketi yazdırın.
 
 11. Her bir şirketin adını tek tek büyük harfleri ile değişterin ( ör: facebook -> FACEBOOK) ve her birini yazdırın.
 
@@ -1395,25 +1394,25 @@ const  webTechs = [
 
 13. itCompanies dizisinde belirli bir şirketin olup olmadığını kontrol edin.  Varsa şirketi geri döndürün, aksi takdirde _not found_ geri döndürün.
 
-14. Birden fazla 'o' harfi içeren şirketleri filter metodunu kullanmadan filtreleyin
+14. Birden fazla 'o' harfi içeren şirketleri filter metodunu kullanmadan filtreleyin.
 
-15.  _sort()_ metodunu kullanarak diziyi sıralayın
+15.  _sort()_ metodunu kullanarak diziyi sıralayın.
 
-16.  _reverse()_ metodunu kullanarak diziyi tersine çevirin
+16.  _reverse()_ metodunu kullanarak diziyi tersine çevirin.
 
-17. Diziden ilk 3 şirketi dilimleyin ( Slice edin )
+17. Diziden ilk 3 şirketi dilimleyin ( Slice edin ).
 
-18. Diziden son 3 şirketi dilimleyin ( Slice edin )
+18. Diziden son 3 şirketi dilimleyin ( Slice edin ).
 
-19. Ortadaki IT şirketini ya da şirketlerini diziden dilimleyin ( Slice edin )
+19. Ortadaki IT şirketini ya da şirketlerini diziden dilimleyin ( Slice edin ).
 
-20. İlk IT şirketini diziden kaldırın
+20. İlk IT şirketini diziden kaldırın.
 
-21. Ortadaki IT şirketini ya da şirketlerini diziden kaldırın
+21. Ortadaki IT şirketini ya da şirketlerini diziden kaldırın.
 
-22. Sondaki IT şirketini diziden kaldırın
+22. Sondaki IT şirketini diziden kaldırın.
 
-23. Bütün IT şirketlerini kaldırın
+23. Bütün IT şirketlerini kaldırın.
 
   
 
@@ -1423,7 +1422,7 @@ const  webTechs = [
 
 1.Ayrı bir country.js dosyası oluşturun ve country dizisini bu dosyaya kaydedin, ayrı bir web_techs.js dosyası oluşturun ve webTechs dizisini bu dosyaya kaydedin. Daha sonra Main.js dosyasından her iki dosyaya da erişim sağlayın.
 
-1. Önce bütün noktalama işaretlerini kaldırın ve ve string ifadeyi dizi olarak değiştirin ve dizideki kelime sayısını sayın
+1. Önce bütün noktalama işaretlerini kaldırın ve ve string ifadeyi dizi olarak değiştirin ve dizideki kelime sayısını sayın.
   
 
 ```js
@@ -1466,9 +1465,9 @@ const  shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
 
 - Eğer alışveriş sepetine zaten 'Sugar' eklenmemişse en sona ekleyin.  
 
-- Eğer bala alerjiniz varsa 'Honey' elemanını diziden silin
+- Eğer bala alerjiniz varsa 'Honey' elemanını diziden silin.
 
-- 'Tea' elemanını 'Green Tea' olarak güncelleyin
+- 'Tea' elemanını 'Green Tea' olarak güncelleyin.
 
 1. countries dizisinde 'Ethiopia' olup olmadığını kontrol edin. Eğer varsa  'ETHIOPIA' yazdırın. eğer yoksa bunu countries dizisine ekleyin.
 
@@ -1522,7 +1521,7 @@ const  ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
 - Yaş aralığını bulun (maks - min)
 
-- _abs()_ metodunu kullanarak (min - ortalama) ve (maks - ortalama) değerlerini karşılaştırın.
+- _abs()_ metodunu kullanarak (min - ortalama) ve (maks - ortalama) değerlerini karşılaştırın, 
 
 1. [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) dizisinden ilk 10 ülkeyi dilimleyin ( Slice edin )
 
