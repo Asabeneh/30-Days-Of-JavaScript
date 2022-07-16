@@ -53,7 +53,7 @@ console.log(innerFunc())
 3
 ```
 
-Let us more example of inner functions
+Let us see one more example of inner functions
 
 ```js
 function outerFunction() {
