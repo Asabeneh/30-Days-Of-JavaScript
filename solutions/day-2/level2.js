@@ -27,6 +27,19 @@ console.log(Math.floor(Math.random() * 225));
 // 10.question
 
 // 11.question
+for (let i = 0; i < 5; i++) {
+     for (let j = 0; j < 5; j++) {
+          if (j == 1) {
+               console.log(1);          
+          }
+          else if (j == 0 || j == 2) {
+               console.log(i+1);
+          } else {
+               console.log(Math.pow(i+1,j-1));
+          }
+     }     
+     console.log(' ');
+}
 console.log(
      `1 1 1 1 1 
 2 1 2 4 8
@@ -40,3 +53,5 @@ let i = sent.indexOf('because');
 let j = sent.lastIndexOf('because');
 let len = 'because'.length;
 console.log(sent.slice(i, j+len));
+
+
