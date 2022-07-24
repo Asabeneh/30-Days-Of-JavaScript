@@ -15,7 +15,7 @@
 
 [<< Gün 5](../05_Day_Arrays/05_day_arrays.md) | [Gün 7 >>](../07_Day_Functions/07_day_functions.md)
 
-![Gün 5](../images/banners/day_1_6.png)
+![Gün 5](../../images/banners/day_1_6.png)
 
 - [📔 Gün 6](#-day-6)
 	- [Döngüler](#donguler)
@@ -23,7 +23,7 @@
 		- [while Döngüsü](#while-dongusu)
 		- [do while Döngüsü](#do-while-dongusu)
 		- [for of Döngüsü](#for-of-dongusu)
-		- [break](#break)x
+		- [break](#break)
 		- [continue](#continue)
 	- [💻 Egzersiz:Gün 6](#-egzersiz-gun-6)
 		- [Egzersiz: Seviye 1](#egzersiz-seviye-1)
