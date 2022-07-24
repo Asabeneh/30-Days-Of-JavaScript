@@ -18,17 +18,17 @@
 ![Gün 5](../images/banners/day_1_6.png)
 
 - [📔 Gün 6](#-day-6)
-	- [Döngüler](#loops)
-		- [for Döngüsü](#for-loop)
-		- [while Döngüsü](#while-loop)
-		- [do while Döngüsü](#do-while-loop)
-		- [for of Döngüsü](#for-of-loop)
-		- [break](#break)
+	- [Döngüler](#donguler)
+		- [for Döngüsü](#for-dongusu)
+		- [while Döngüsü](#while-dongusu)
+		- [do while Döngüsü](#do-while-dongusu)
+		- [for of Döngüsü](#for-of-dongusu)
+		- [break](#break)x
 		- [continue](#continue)
-	- [💻 Egzersiz:Gün 6](#-exercisesday-6)
-		- [Egzersiz: Seviye 1](#exercises-level-1)
-		- [Egzersiz: Seviye 2](#exercises-level-2)
-		- [Egzersiz: Seviye 3](#exercises-level-3)
+	- [💻 Egzersiz:Gün 6](#-egzersiz-gun-6)
+		- [Egzersiz: Seviye 1](#egzersiz-seviye-1)
+		- [Egzersiz: Seviye 2](#egzersiz-seviye-2)
+		- [Egzersiz: Seviye 3](#egzersiz-seviye-3)
 
 # 📔 Gün 6
 
