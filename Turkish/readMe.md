@@ -7,7 +7,7 @@
 | 03    |                           [Boolean, Operatörler, Tarih](./03_Day_Booleans_operators_date/03_booleans_operators_date.md)                            |
 | 04    |                                              [Koşullar](./04_Day_Conditionals/04_day_conditionals.md)                                              |
 | 05    |                                                    [Diziler](./05_Day_Arrays/05_day_arrays.md)                                                     |
-| 06    |                                                     [Döngüler](./06_Day_Loops/06_day_loops.md)                                                     |
+| 06    |                                                     [Döngüler](./06_Day_Loops_Donguler/06_day_loops.md)                                                     |
 | 07    |                                               [Fonksiyonlar](./07_Day_Functions/07_day_functions.md)                                               |
 | 08    |                                                   [Nesneler](./08_Day_Objects/08_day_objects.md)                                                   |
 | 09    |                          [Yüksek Dereceli Fonksiyonlar](./09_Day_Higher_order_functions/09_day_higher_order_functions.md)                          |
