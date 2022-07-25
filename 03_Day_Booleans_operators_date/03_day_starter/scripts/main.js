@@ -80,24 +80,24 @@ console.log(date.getMinutes());
 console.log(date.getMinutes());
 
 
-// level 2
+level 2
 
-// number 1
-// let base = window.prompt('Enter base:');
-// let height = window.prompt('Enter height:');
-// let result = (base * height) / 2;
-// window.alert(`The area of the triangle is ${result}`);
+number 1
+let base = window.prompt('Enter base:');
+let height = window.prompt('Enter height:');
+let result = (base * height) / 2;
+window.alert(`The area of the triangle is ${result}`);
 
-// number 2
+number 2
 
-// let side_a = window.prompt('Enter side a:');
-// let side_b = window.prompt('Enter side b:');
-// let side_c = window.prompt('Enter side c:');
+let side_a = window.prompt('Enter side a:');
+let side_b = window.prompt('Enter side b:');
+let side_c = window.prompt('Enter side c:');
  
-// let parameter = side_a  + side_b  + side_c;
-// window.alert(`The perimeter of the triangle is ${parameter}`);
+let parameter = side_a  + side_b  + side_c;
+window.alert(`The perimeter of the triangle is ${parameter}`);
 
-// number 3
+number 3
 
 
 
