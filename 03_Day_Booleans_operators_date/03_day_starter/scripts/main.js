@@ -83,21 +83,33 @@ console.log(date.getMinutes());
 // level 2
 
 // number 1
-let base = window.prompt('Enter base:');
-let height = window.prompt('Enter height:');
-let result = (base * height) / 2;
-window.alert(`The area of the triangle is ${result}`);
+// let base = window.prompt('Enter base:');
+// let height = window.prompt('Enter height:');
+// let result = (base * height) / 2;
+// window.alert(`The area of the triangle is ${result}`);
 
 // number 2
 
-let side_a = window.prompt('Enter side a:');
-let side_b = window.prompt('Enter side b:');
-let side_c = window.prompt('Enter side c:');
+// let side_a = window.prompt('Enter side a:');
+// let side_b = window.prompt('Enter side b:');
+// let side_c = window.prompt('Enter side c:');
  
-let parameter = side_a  + side_b  + side_c;
-window.alert(`The perimeter of the triangle is ${parameter}`);
+// let parameter = side_a  + side_b  + side_c;
+// window.alert(`The perimeter of the triangle is ${parameter}`);
 
 // number 3
+// let length = window.prompt('Enter length:');
+// let width = window.prompt('Enter width:');
+// let area = (length + width);
+// let perimeter = 2 * (length + width);
+// window.alert(`the area of the rectangle is ${area} and the perimeter of the rectangle is ${perimeter}` );
+
+// number 4 =
+let PI = 3.14;
+let radius = window.prompt('enter radius:');
+let area = PI * (radius * radius);
+let circumfrence = 2 * (PI * radius);
+window.alert(`The area of the circle is ${area} and the circumfrence of a circle is ${circumfrence}`);
 
 
 
