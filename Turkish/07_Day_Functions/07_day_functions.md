@@ -15,7 +15,7 @@
   </sub>
 </div>
 
-[<< Day 6](../06_Day_Loops_Donguler/06_day_loops.md) | [Day 8 >>](../08_Day_Objects/08_day_objects.md)
+[<< 6. Gün](../06_Day_Loops_Donguler/06_day_loops.md) | [8. Gün >>](../08_Day_Objects/08_day_objects.md)
 
 ![Thirty Days Of JavaScript](/images/banners/day_1_7.png)
 
