@@ -46,18 +46,19 @@
 ## Functions - Fonksiyonlar
 
 
-Şimdiye kadar birçok JavaScript fonksiyonu yazdık. Bu bölümde, custom fonksiyonlara odaklanacağız. Fonksiyon nedir? Fonksiyon üretmeye başlamadan önce, fonksiyonun ne olduğunu ve neden fonksiyona ihtiyacımız olduğunu anlayayım.
+Şimdiye kadar birçok JavaScript fonksiyonu yazdık. Bu bölümde, custom fonksiyonlara odaklanacağız. Fonksiyon yazmaya başlamadan önce, fonksiyonun ne olduğunu ve neden fonksiyona ihtiyacımız olduğunu bakalım.
 
-Bir fonksiyon, belirli bir görevi gerçekleştirmek üzere tasarlanmış yeniden kullanılabilir bir kod bloğu veya programlama tanımıdır.
+Bir fonksiyon, belirli bir görevi gerçekleştirmek üzere tasarlanmış ve yeniden kullanılabilir bir kod bloğu veya programlama tanımıdır.
 
-Bir fonksiyon, bir `function` anahtar kelimesi ve ardından fonksiyon adı ve ardından parantez () ile belirtilir. Parantez bir parametre alabilir. Bir fonksiyon bir parametre alırsa buna bağımsız değişken denir. Bir fonksiyon varsayılan bir parametre de alabilir. Bir fonksiyonda veri saklamak için, bir fonksiyonun belirli veri türlerini döndürmesi gerekir. Bir fonksiyonu aradığımız veya devreye aldığımız değeri elde etmek için.
-Fonksiyon kod oluşturur:
+Bir fonksiyon,  `function` anahtar kelimesi ardından gelen o fonksiyona ait fonksiyon ismi ve parantezler ile tanımlanır. Bu paranteler fonksiyona parametre atayabilmemizi sağlar. Şayet fonksiyon parametre alırsa bu parametre fonksiyon scope'u içerisinde geçerli olan bir değişkendir. Farklı bir kullanım olarak da bu parametreye default değerler atayabiliriz. Eğer bir fonksiyon yardımı ile veri taşımak istiyorsak söz konusu fonksiyonun belirli bir veri türünü geriye değişken olarak döndürmesi gerekir. Daha sonra dönen bu değişkeni bir başka değişkene atayarak kullanabilir.
+
+Fonksiyon kullanmanın avantajları: 
 
 - temiz ve okunması kolay
 - yeniden kullanılabilir
 - kolay test edilir
 
-Bir fonksiyon birkaç şekilde tanımlanabilir veya oluşturulabilir:
+Bir fonksiyon birkaç şekilde tanımlanabilir:
 
 - _Klasik Declaration function_
 - _Expression function_
@@ -89,9 +90,8 @@ const anonymousFun = function() {
 
 ### Expression Function
 
-Expression functions are anonymous functions. After we create a function without a name and we assign it to a variable. To return a value from the function we should call the variable. Look at the example below.
 
-Expression functions isimsiz fonksiyonlardır. İsimsiz bir fonksiyon oluşturduktan sonra bir değişkene atarız. Fonksiyondan bir değer geri getirmek için değişkeni çağırmalıyız. Aşağıdaki örneğe bakın.
+Expression function, isimsiz fonksiyonlardır. İsimsiz bir fonksiyon oluşturduktan sonra bir değişkene atayarak kullanırız. Fonksiyondan bir değer geri döndürmek için değişkeni çağırmalıyız. Örnek vemrek gerekirse.
 
 ```js
 
@@ -117,7 +117,7 @@ function square() {
 
 square() // 4
 
-// parametresiz fonksiyon örenek 2:
+// parametresiz fonksiyon örnek 2:
 function addTwoNumbers() {
   let numOne = 10
   let numTwo = 20
@@ -209,7 +209,7 @@ function sumTwoNumbers(numOne, numTwo) {
   console.log(sum)
 }
 sumTwoNumbers(10, 20) // fonksiyon çağırımı
-// Bir işlev geri dönmezse veri depolamaz, bu nedenle geri dönmelidir
+// Bir fonksiyon değer döndürmezse veri depolayamaz, bu nedenle değer döndürmelidir. 
 
 function sumTwoNumbers(numOne, numTwo) {
   let sum = numOne + numTwo
@@ -256,7 +256,7 @@ console.log(areaOfCircle(10))
 
 ### Sınırsız sayıda parametreyle çalışan fonksiyon
 
-Fonksiyonlarla çalışırken kaç tane parametre gerekebileceğini bilemeyebiliriz. Javascript'te bize sınırsız sayıda parametre alan fonksiyon yazabilme imkanı tanır. Bu şekilde bir fonksiyon tanımlamanın iki yolu vardır.
+Fonksiyonlarla çalışırken kaç tane parametre gerekebileceğini bilemeyebiliriz. Javascript'te bu durumda bize sınırsız sayıda parametre alan fonksiyon yazabilme imkanı tanır. Bu şekilde bir fonksiyon tanımlamanın iki yolu vardır.
 
 #### Klasik fonksiyonda sınırsız sayıda parametre
 
@@ -317,7 +317,7 @@ Yukarıdaki fonksiyon, tanımlandıktan hemen sonra çağrılır. Kendi kendini 
 
 Klasik fonksiyona alternatif olarak kullanılan arrow function sözdiziminde ufak bir farklılık vardır. `function` anahtar kelimesi yerine `=>` işareti kullanılır. 
 
-Sırasıyla aynı fonksiyonu klasik ve arrow function halini yazalım
+Sırasıyla aynı fonksiyonun klasik ve arrow function halini yazalım
 
 ```js
 function square(n) {
@@ -368,7 +368,7 @@ console.log(printFullName('Asabeneh', 'Yetayeh'))
 
 #### Arrow function'da sınırsız sayıda parametre
 
- Arrow function, klasik fonksiyon gibi arguments nesnesine sahip değildir. Arrow function'da sınırsız sayıda parametre kullanmak istersek spread operatör ve hemen ardından parametre adı kullanılır. Fonksiyonda bağımsız değişken olarak geçdiğimiz her şeye arrow functionda dizi olarak erişilebilir. Bir örnek görelim
+ Arrow function, klasik fonksiyon gibi arguments nesnesine sahip değildir. Arrow function'da sınırsız sayıda parametre kullanmak istersek spread operatör (...) ve hemen ardından parametre adı kullanılır. Fonksiyonda bağımsız değişken olarak geçtiğimiz her şeye arrow functionda dizi olarak erişilebilir. Bir örnek görelim
 
  ```js
 // arguments nesnesine erişmemize bir örnek
@@ -402,7 +402,8 @@ console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
 
 ### Default parametre ile fonksiyon kullanımı
 
-Bazen varsayılan değerleri parametrelere geçiririz, bir bağımsız değişkeni geçmezsek fonksiyonu çağırdığımızda varsayılan değer kullanılır. Hem klasik fonksiyon hem de arrow function varsayılan bir değere veya değerlere sahip olabilir.
+
+Bazen parametrelere default değerler geçmek isteyebiliriz. Bu durumda fonksiyon çağırımı sırasında söz konusu parametreyi vermek zorunda olmadan kullanabiliriz. Eğer bu parametreyi vermezsek fonksiyon işlevinin parametrenin default değerini kullanarak tamamlayacaktır.
 
 ```js
 // syntax - söz dizimi
