@@ -18,16 +18,16 @@
 
 ![Thirty Days Of JavaScript](../../images/banners/day_1_18.png)
 
-- [Gün 18](#day-18)
+- [Gün 18](#gün-18)
 	- [Promise](#promise)
 	- [Callbacks](#callbacks)
 		- [Promise yapıcısı](#promise-constructor)
 	- [Fetch API](#fetch-api)
 	- [Async ve Await](#async-and-await)
-	- [Egzersizler](#exercises)
-		- [Egzersiz: Seviye 1](#exercises-level-1)
-		- [Egzersiz: Seviye 2](#exercises-level-2)
-		- [Egzersiz: Seviye 3](#exercises-level-3)
+	- [Egzersizler](#egzersizler)
+		- [Egzersiz: Seviye 1](#egzersiz-level-1)
+		- [Egzersiz: Seviye 2](#egzersiz-level-2)
+		- [Egzersiz: Seviye 3](#egzersiz-level-3)
 
 # Gün 18
 
