@@ -49,7 +49,7 @@ Conditions can be implementing using the following ways:
 
 ### If
 
-In JavaScript and other programming languages the key word _if_ is to used check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
+In JavaScript and other programming languages the key word _if_ is to used check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis() and block of code inside a curly bracket{}.
 
 ```js
 // syntax
