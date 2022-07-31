@@ -15,7 +15,7 @@
   </sub>
 </div>
 
-[<< 5. Gün](../05_Day_Arrays/05_day_arrays.md) | [8. Gün >>](../07_Day_Functions/07_day_functions.md)
+[<< 5. Gün](../05_Day_Arrays/05_day_arrays.md) | [7. Gün >>](../07_Day_Functions/07_day_functions.md)
 
 ![Day 6](/images/banners/day_1_6.png)
 
