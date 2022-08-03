@@ -114,7 +114,7 @@ printFullName() // calling a function
 
 ### Function returning value
 
-Function can also return values, if a function does not return values the value of the function is undefined. Let us write the above functions with return. From now on, we return value to a function instead of printing it.
+Function can also return values, if a function does not return values the value of the function is undefined. Let us write the above functions with return. From now on, we return value from a function instead of printing it.
 
 ```js
 function printFullName (){
