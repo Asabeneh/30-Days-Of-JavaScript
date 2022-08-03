@@ -450,7 +450,7 @@ console.log(firstName.length)  // 8
 
 2. *Accessing characters in a string*: We can access each character in a string using its index. In programming, counting starts from 0. The first index of the string is zero, and the last index is the length of the string minus one.
 
-  ![Accessing sting by index](../images/string_indexes.png)
+  ![Accessing string by index](../images/string_indexes.png)
   
 Let us access different characters in 'JavaScript' string.
 
