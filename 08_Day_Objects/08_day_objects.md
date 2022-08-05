@@ -173,7 +173,7 @@ for(let i = 0; i < 3; i++){
 
 ```
 
-The scope *let* and *const* are the same. The difference is only reassigning. We can not change or reassign the value of the `const` variable. I would strongly suggest you to use *let* and *const*, by using *let* and *const* you will write clean code and avoid hard to debug mistakes. As a rule of thumb, you can use *let* for any value which change, *const* for any constant value, and for an array, object, arrow function and function expression.
+The scope *let* and *const* are the same. The difference is only reassigning. We can not change or reassign the value of the `const` variable. I would strongly suggest you to use *let* and *const* for local variables and *var* for global variables, by using *let* and *const* for local variables and *var* for global variables you will write clean code and avoid hard to debug mistakes. As a rule of thumb, you can use *let* and *var* for any value which can change, *const* for any constant value, and for an array, object, arrow function and function expression.
 
 ## 📔 Object
 
