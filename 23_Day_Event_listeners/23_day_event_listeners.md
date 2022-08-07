@@ -304,7 +304,7 @@ We can access all the key numbers of the keyboard using different event listener
 
     <script>
       document.body.addEventListener('keypress', e => {
-        alert(e.keyCode)
+        alert(e.key)
       })
     </script>
   </body>
