@@ -180,7 +180,7 @@ Mac
 Command+Option+J
 
 Windows/Linux:
-Ctl+Shift+J
+Ctrl+Shift+J
 ```
 
 ![Opening console](images/opening_chrome_console_shortcut.png)
@@ -199,7 +199,7 @@ Mac
 Command+Option+I
 
 Windows:
-Ctl+Shift+I
+Ctrl+Shift+I
 ```
 
 ##### Console.log
