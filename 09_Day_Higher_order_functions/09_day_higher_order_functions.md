@@ -85,7 +85,7 @@ const higherOrder = n => {
 console.log(higherOrder(2)(3)(10))
 ```
 
-Let us see were we use call back functions. For instance the _forEach_ method uses call back.
+Let us see where we use call back functions. For instance the _forEach_ method uses call back.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
