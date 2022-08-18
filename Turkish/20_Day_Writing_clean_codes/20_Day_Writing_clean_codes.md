@@ -102,12 +102,10 @@ Bu meydan okumada normal JavaScript kuralını takip ediyoruz, ancak yazma terci
 #### Değişkenler
 
 ```js
-
 let firstName = 'Asabeneh'
 let lastName = 'Yetayeh'
 let country = 'Finland'
 let city = 'Helsinki'
-
 const PI = Math.PI
 const gravity = 9.81
 ```
@@ -142,10 +140,8 @@ const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
 ```js
 // bir kişinin tam adını döndüren fonksiyon
 const printFullName = (firstName, lastName) => firstName + ' ' + lastName
-
 // bir sayının karesini döndüren fonksiyon
 const square = (n) => n * n
-
 // rastgele hexa renkleri oluşturan fonksiyon
 const hexaColor = () => {
   const str = '0123456789abcdef'
@@ -157,7 +153,6 @@ const hexaColor = () => {
   }
   return hexa
 }
-
 // tarih ve saati gösteren bir fonskiyon
 const showDateTime = () => {
   const now = new Date()
@@ -172,7 +167,6 @@ const showDateTime = () => {
   if (minutes < 10) {
     minutes = '0' + minutes
   }
-
   const dateMonthYear = date + '.' + month + '.' + year
   const time = hours + ':' + minutes
   const fullTime = dateMonthYear + ' ' + time
@@ -191,26 +185,19 @@ Bunları nasıl kullandığımızı görelim:
 for (let i = 0; i < n; i++){
     console.log()
 }
-
 // dizi değişkenlerini tanımlıyoruz
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
-
 // normal for döngüsü kullanarak bir diziyi yineleme
 let len = names.length;
 for(let i = 0; i < len; i++){
     console.log(names[i].toUpperCase())
 }
-
-
 // for of kullanarak bir diziyi yinelemek
 for( const name of names) {
     console.log(name.toUpperCase())
 }
-
 // forEach kullanarak bir diziyi yineleme 
 names.forEach((name) => name.toUpperCase())
-
-
 const person = {
   firstName: 'Asabeneh',
   lastName: 'Yetayeh',
@@ -223,7 +210,6 @@ const person = {
 for(const key in person) {
     console.log(key)
 }
-
 ```
 
 #### Nesneler
@@ -245,7 +231,6 @@ const person = {
 for(const key in person) {
     console.log(key, person[key])
 }
-
 ```
 
 #### Koşullar
@@ -274,7 +259,6 @@ if (num > 0) {
 
  ```js
  // if else if else if else
-
 let a = 0
 if (a > 0) {
   console.log(`${a} is a positive number`)
@@ -291,7 +275,6 @@ if (a > 0) {
  // Daha fazla switch kullanımı
 let dayUserInput = prompt('What day is today ?')
 let day = dayUserInput.toLowerCase()
-
 switch (day) {
   case 'monday':
     console.log('Today is Monday')
@@ -321,7 +304,6 @@ switch (day) {
 
  ```js
  // ternary (Üçlü)
-
  let isRaining = true
 isRaining
   ? console.log('You need a rain coat.')
@@ -348,7 +330,6 @@ class Person {
     this.lastName = lastName
   }
 }
-
 ```
 
 Takip ettiğiniz stil kılavuzu ne olursa olsun tutarlı olun. Bazı programlama paradigmalarını ve tasarım modellerini takip edin. Unutmayın, kodunuzu belirli bir düzende veya şekilde yazmazsanız, kodunuzu okumak zor olacaktır. Bu nedenle, okunabilir kod yazarak kendiniz veya kodunuzu okuyacak biri için bir iyilik yapın.
