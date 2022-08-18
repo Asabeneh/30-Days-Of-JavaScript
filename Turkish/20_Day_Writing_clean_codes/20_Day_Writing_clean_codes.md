@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Gün 19](../19_Day_Closuers/19_day_closures.md) | [Gün 21 >>](../21_Day_DOM/21_day_dom.md)
+[<< Gün 19](../19_Day_Closures/19_day_closures.md) | [Gün 21 >>](../21_Day_DOM/21_day_dom.md)
 
 ![Thirty Days Of JavaScript](../../images/banners/day_1_20.png)
 - [Gün 20](#gun-20)
