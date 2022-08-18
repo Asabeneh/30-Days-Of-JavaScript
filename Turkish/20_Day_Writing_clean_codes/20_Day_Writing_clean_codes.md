@@ -357,4 +357,4 @@ Takip ettiğiniz stil kılavuzu ne olursa olsun tutarlı olun. Bazı programlama
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 19](../19_Day_Closuers/19_day_closures.md) | [Gün 21 >>](../21_Day_DOM/21_day_dom.md)
+[<< Gün 19](../19_Day_Closures/19_day_closures.md) | [Gün 21 >>](../21_Day_DOM/21_day_dom.md)
