@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Gün 18](../18_Day_Promises/18_day_promises.md) | [Gün 20 >>](../20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)
+[<< Gün 18](../18_Day_Promises/18_day_promises.md) | [Gün 20 >>](../20_Day_Writing_clean_codes/20_Day_writing_clean_codes.md)
 
 ![Thirty Days Of JavaScript](../../images/banners/day_1_19.png)
 - [Gün 19](#gün-19)
@@ -101,4 +101,4 @@ console.log(innerFuncs.minusOne)
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 18](../18_Day_Promises/18_day_promises.md) | [Gün 20 >>](../20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)
+[<< Gün 18](../18_Day_Promises/18_day_promises.md) | [Gün 20 >>](../20_Day_Writing_clean_codes/20_Day_writing_clean_codes.md)
