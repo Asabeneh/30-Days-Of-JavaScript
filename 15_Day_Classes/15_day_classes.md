@@ -551,7 +551,7 @@ The static methods are methods which can be used as utility functions.
 
 ## Inheritance
 
-Using inheritance we can access all the properties and the methods of the parent class. This reduces repetition of code. If you remember, we have a Person parent class and we will create children from it. Our children class could be student, teach etc.
+Using inheritance we can access all the properties and the methods of the parent class. This reduces repetition of code. If you remember, we have a Person parent class and we will create children from it. Our children class could be student, teacher etc.
 
 ```js
 // syntax
