@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let [firstName, lastName, country, city, age, isMarried, year] = ["hoang", "tran", "viet nam", 22, true, 2022]
+        console.log(firstName, lastName, country, city, age, isMarried, year)
+        console.log(typeof(firstName), typeof(lastName), typeof(country), typeof(city), typeof(age), typeof(isMarried), typeof(year))
+
+        console.log("Check if type of '10' is equal to 10", '10' === "10")
+
+        console.log("Check if parseInt('9.8') is equal to 10:", parseInt('9.8') == 10)
+
+        console.log("Boolean value is either true or false:", typeof(true), typeof(false))
+
+        if(1){
+            if("1"){
+                if(true){
+                    console.log("truthy")
+                }
+            }
+        }
+
+        if(!0){
+            if(!NaN){
+                if(!undefined){
+                    if(!false){
+                        if(!""){
+                            if(!0n){
+                                console.log("falsy")
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+// 4 > 3 true
+// 4 >= 3 true
+// 4 < 3 false
+// 4 <= 3 false
+// 4 == 4 true
+// 4 === 4 true
+// 4 != 4 false 
+// 4 !== 4 false 
+// 4 != '4' true
+// 4 == '4' true
+// 4 === '4' false
+
+        console.log(`Find the length of python ${"python".length} and jargon ${"jargon".length} and make a falsy comparison statement: `, "python".length > "jargon".length)
+
+// 4 > 3 && 10 < 12 f
+// 4 > 3 && 10 > 12 f
+// 4 > 3 || 10 < 12 t
+// 4 > 3 || 10 > 12 t
+// !(4 > 3) f
+// !(4 < 3) t
+// !(false) t
+// !(4 > 3 && 10 < 12) t
+// !(4 > 3 && 10 > 12) t
+// !(4 === '4') t
+// There is no 'on' in both dragon and python
+        let now = new Date();
+
+        console.log("What is the year today?", now.getFullYear())
+        console.log("What is the month today as a number?", now.getMonth() + 1)
+        console.log("What is the date today?", now.getDate())
+        console.log("What is the day today as a number?", now.getDay())
+        console.log("What is the hours now?", now.getHours())
+        console.log("What is the minutes now?", now.getMinutes())
+        console.log("Find out the numbers of seconds elapsed from January 1, 1970 to now.", now.getTime())
+// 
+    </script>
+</body>
+</html>
