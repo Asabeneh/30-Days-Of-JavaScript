@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 3](../dia_03_Booleanos_Operadores_Date/dia_03_Boleanos_Operadores_Date.md) | [Día 5 >>](../05_Day_Arrays/05_day_arrays.md)
+[<< Día 3](../dia_03_Booleanos_Operadores_Date/dia_03_Boleanos_Operadores_Date.md) | [Día 5 >>](../dia_05_Arreglos/dia_05_arreglos.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_4.png)
 
@@ -373,4 +373,4 @@ isRaining
 
 🎉 FELICITACIONES ! 🎉
 
-[<< Día 3](../dia_03_Booleanos_Operadores_Date/dia_03_Boleanos_Operadores_Date.md) | [Day 5 >>](../05_Day_Arrays/05_day_arrays.md)
+[<< Día 3](../dia_03_Booleanos_Operadores_Date/dia_03_Boleanos_Operadores_Date.md) | [Día 5 >>](../dia_05_Arreglos/dia_05_arreglos.md)

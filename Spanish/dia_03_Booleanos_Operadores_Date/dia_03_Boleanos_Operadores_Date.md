@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 2](../dia_02_tipos_de_datos.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
+[<< Day 2](../dia_02_tipos_de_datos.md) | [Day 4 >>](../dia_04_Condicionales/dia_04_Condicionales.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_3.png)
 
@@ -629,4 +629,4 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`); // 4/1/2020 0:56
 1. Cree un formato de hora legible por humanos usando el objeto Date. La hora y el minuto deben ser siempre dos dígitos (7 horas deben ser 07 y 5 minutos deben ser 05)
    1. YYY-MM-DD HH:mm eg. 20120-01-02 07:05
 
-[<< Day 2](../dia_02_tipos_de_datos.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
+[<< Day 2](../dia_02_tipos_de_datos.md) | [Day 4 >>](../dia_04_Condicionales/dia_04_Condicionales.md)
