@@ -184,7 +184,7 @@ The `new Dat().toLocaleString()` can also be used to display current date time. 
 
 #### Loops
 
-We coverer many types of loops in this challenges. The regular for loop, while loop, do while loop, for of loop, forEach loop and for in loop.
+We covered many types of loops in this challenges. The regular for loop, while loop, do while loop, for of loop, forEach loop and for in loop.
 Lets see how we use them:
 
 ```js
