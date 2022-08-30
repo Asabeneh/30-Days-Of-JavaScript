@@ -1,4 +1,3 @@
-
 <div align="center">
   <h1> 30 Días de JavaScript</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
@@ -8,25 +7,24 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Autor:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> Enero de 2020</small>
-  </sub>
+<sub>Autor:
+<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<small> Enero de 2020</small>
+</sub>
 
   <div>
 
-  🇬🇧 [English](../readMe.md)
-  🇪🇸 [Spanish](./readme.md)
-  🇷🇺 [Russian](../RU/README.md)
+🇬🇧 [English](../readMe.md)
+🇪🇸 [Spanish](./readme.md)
+🇷🇺 [Russian](../RU/README.md)
 
   </div>
 </div>
 
-
 ![Thirty Days Of JavaScript](./images/day_1_1.png)
 
-
 [📔Día 1](#día-1)
+
 - [📔Día 1](#día-1)
   - [Introducción](#introducción)
   - [Requerimientos](#requerimientos)
@@ -92,7 +90,7 @@ Tal vez no lo necesites ahora pero si más adelante. Asi que instala [node.js](h
 
 Luego de que se descargue, haz doble click e instálalo
 
- ![Install node](./images/install_node.png)
+![Install node](./images/install_node.png)
 
 Puedes comprobar si se ha instalado correctamente abriendo la terminal del ordenador
 
@@ -249,7 +247,7 @@ JavaScript puede ser añadido a una página web de tres maneras diferentes:
 
 Las siguientes secciones muestran diferentes formas de añadir código JavaScript a nuestra página web.
 
-### Script en línea 
+### Script en línea
 
 Crea una carpeta en tu escritorio y llámala 30DíasDeJS o en cualquier lugar y crea un archivo **_index.html_** en la carpeta del proyecto. Luego pega el siguiente código y ábrelo en un navegador, ya sea en [Chrome](https://www.google.com/chrome/).
 
@@ -372,7 +370,7 @@ En JavaScript y también en otros lenguajes de programación, hay diferentes tip
 Una colección de uno o más carácteres entre comillas. **Ejemplo:**
 
     "Asabeneh"
-    "Finlandia" 
+    "Finlandia"
     'JavaScript es un hermoso lenguaje de programación'.
     "Me encanta enseñar"
     "Espero que estés disfrutando del primer día"
@@ -548,3 +546,5 @@ Cuando ejecutas los archivos en la carpeta Día_1 deberías obtener esto:
             Tú tienes 30 años.
 
     🎉 ¡FELICIDADES! 🎉
+
+[Day 2 >>](./dia_02_tipos_de_datos.md)
