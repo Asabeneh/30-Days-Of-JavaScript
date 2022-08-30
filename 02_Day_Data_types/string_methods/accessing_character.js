@@ -7,6 +7,8 @@ let secondLetter = string[1] // a
 let thirdLetter = string[2]
 let lastLetter = string[9]
 console.log(lastLetter) // t
-let lastIndex = string.length - 1
+let lastIndex = string.length -1
 console.log(lastIndex) // 9
 console.log(string[lastIndex]) // t
+
+//Remember always in JS Index starts with 0 & Length you can count from 1.
