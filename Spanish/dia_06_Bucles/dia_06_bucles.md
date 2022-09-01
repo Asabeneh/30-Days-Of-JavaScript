@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 5](../dia_05_Arreglos/dia_05_arreglos.md) | [ Día 7 >>](../07_Day_Functions/07_day_functions.md)
+[<< Día 5](../dia_05_Arreglos/dia_05_arreglos.md) | [ Día 7 >>](../dia_07_Funciones/dia_07_funciones.md)
 
 ![Day 6](../images/banners/day_1_6.png)
 
@@ -478,4 +478,4 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
 
 🎉 ¡FELICITACIONES! 🎉
 
-[<< Día 5](../dia_05_Arreglos/dia_05_arreglos.md) | [Día 7 >>](../07_Day_Functions/07_day_functions.md)
+[<< Día 5](../dia_05_Arreglos/dia_05_arreglos.md) | [Día 7 >>](../dia_07_Funciones/dia_07_funciones.md)
