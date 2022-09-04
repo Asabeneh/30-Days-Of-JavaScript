@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 6](../dia_06_Bucles/dia_06_bucles.md) | [Día 8 >>](../08_Day_Objects/08_day_objects.md)
+[<< Day 6](../dia_06_Bucles/dia_06_bucles.md) | [Día 8 >>](../dia_08_Objetos/dia_08_objetos.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_7.png)
 
@@ -699,4 +699,4 @@ Será cubierto en otra sección.
 1. Escriba una función llamada reverseCountries, toma el array de países y primero copia el array y retorna el array original invertido
    🎉 ¡FELICITACIONES! 🎉
 
-[<< Day 6](../dia_06_Bucles/dia_06_bucles.md) | [Day 8 >>](../08_Day_Objects/08_day_objects.md)
+[<< Day 6](../dia_06_Bucles/dia_06_bucles.md) | [Day 8 >>](../dia_08_Objetos/dia_08_objetos.md)
