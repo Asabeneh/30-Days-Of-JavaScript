@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 7](../dia_07_Funciones/dia_07_funciones.md) | [Día 9 >>](../09_Day_Higher_order_functions/09_day_higher_order_functions.md)
+[<< Día 7](../dia_07_Funciones/dia_07_funciones.md) | [Día 9 >>](../dia_09_Funciones_De_Orden_Superior/dia_09_funciones_de_orden_superior.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_8.png)
 
@@ -589,4 +589,4 @@ a. Crear una función llamada signUp que permita al usuario añadirse a la colec
 
 🎉 ¡FELICITACIONES! 🎉
 
-[<< Día 7](../dia_07_Funciones/dia_07_funciones.md) | [Día 9 >>](../09_Day_Higher_order_functions/09_day_higher_order_functions.md)
+[<< Día 7](../dia_07_Funciones/dia_07_funciones.md) | [Día 9 >>](../dia_09_Funciones_De_Orden_Superior/dia_09_funciones_de_orden_superior.md)
