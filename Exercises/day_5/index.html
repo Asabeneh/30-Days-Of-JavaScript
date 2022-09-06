@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const countries = [
+        'Albania',
+        'Bolivia',
+        'Canada',
+        'Denmark',
+        'Ethiopia',
+        'Finland',
+        'Germany',
+        'Hungary',
+        'Ireland',
+        'Japan',
+        'Kenya'
+        ]
+
+        const webTechs = [
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'React',
+        'Redux',
+        'Node',
+        'MongoDB'
+        ]
+
+        // Declare an empty array;
+        let emptyArr = new Array()
+
+        // Declare an array with more than 5 number of elements
+        let arrayOf5Elements = Array(1, 2, 3, 4, 5)
+
+        // Find the length of your array
+        console.log(arrayOf5Elements.length)
+        
+        // Get the first item, the middle item and the last item of the array
+        console.log(arrayOf5Elements[0], arrayOf5Elements[parseInt(arrayOf5Elements.length/2)], arrayOf5Elements[arrayOf5Elements.length - 1])
+
+        // Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
+        let mixedDataTypes = [1, "hello", true, Array(), NaN]
+        console.log(mixedDataTypes.length)
+
+        // Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
+        let itCompanies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+
+        // Print the array using console.log()
+        console.log(itCompanies)
+
+        // Print the number of companies in the array
+        console.log(itCompanies.length)
+
+        // Print out each company
+        console.log(itCompanies.join(' '))
+        console.log(itCompanies.toString())
+
+        // Change each company name to uppercase one by one and print them out
+        console.log(itCompanies.map(e => e.toUpperCase()).toString())
+
+        // Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+        console.log(itCompanies.join(", "))
+
+        // Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
+        let cpn = "Facebook"
+        if(itCompanies.includes(cpn)){
+            console.log(`${cpn} exists`)
+        }else{
+            console.log(`${cpn} not exists`)
+        }
+
+        // Filter out companies which have more than one 'o' without the filter method
+        console.log(itCompanies.filter(e => e.includes("o")).toString())
+
+        // Sort the array using sort() method
+        console.log(itCompanies.sort().toString())
+
+        // Reverse the array using reverse() method
+        console.log(itCompanies.sort().reverse().toString())
+        
+        // Slice out the first 3 companies from the array
+        console.log(itCompanies.slice(0, 3))
+
+        // Slice out the last 3 companies from the array
+        console.log(itCompanies.slice(-3))
+
+        // Slice out the middle IT company or companies from the array
+        console.log(itCompanies.slice(parseInt(itCompanies.length/2), parseInt(itCompanies.length/2) +1 ))
+
+        // Remove the first IT company from the array
+        console.log(itCompanies.splice(0, 1))
+
+        // Remove the middle IT company or companies from the array
+        console.log(itCompanies.splice(parseInt(itCompanies.length/2), 1))
+
+        // Remove the last IT company from the array
+        console.log(itCompanies.splice(-1))
+
+        // Remove all IT companies
+        console.log(itCompanies.splice())
+
+        // In the following shopping cart add, remove, edit items
+        const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+        console.log(shoppingCart.filter(e => e != 'Milk'))
+        console.log(shoppingCart.shift())
+        shoppingCart.unshift('Orange')
+        console.log(shoppingCart)
+
+        console.log(shoppingCart.filter(e => e != 'Honey'))
+
+        // modify Tea to 'Green Tea'
+        console.log(shoppingCart.map((e) => {
+            return e == 'Tea' ? 'Green Tea' : e
+        }))
+
+        // In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
+        countries.includes('ETHIOPIA') ? countries : countries.push('ETHIOPIA')
+        console.log(countries)
+
+        const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+        const backEnd = ['Node','Express', 'MongoDB']
+        console.log(fullStack = frontEnd.concat(backEnd))
+
+        const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+        // Sort the array and find the min and max age
+
+        console.log(ages.sort().slice(0, 1))
+        console.log(ages.sort().slice(-1))
+
+        // Find the median age(one middle item or two middle items divided by two)
+        console.log(ages.sort().slice(parseInt(ages.length / 2), parseInt(ages.length / 2) +1 ) / 2)
+
+        // Find the average age(all items divided by number of items)
+        console.log(parseInt(ages.reduce((previousValue, currentValue) => previousValue +  currentValue , 0) / ages.length))
+
+        // Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
+        countries.pop()
+        if (countries.length % 2 == 0){
+            console.log(countries.slice(0, countries.length / 2), countries.slice(countries.length / 2, countries.length))
+        }else{
+            console.log(countries.slice(0, (countries.length / 2) +1), countries.slice((countries.length / 2) + 1, countries.length))
+        }
+    </script>
+</body>
+</html>
