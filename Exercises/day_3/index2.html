@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="tri-area">Calculate triangle area</button>
+    <button id="time-now">Display time</button>
+    <script>
+        let triArea = document.getElementById("tri-area")
+        triArea.onclick = function(){calTriangleArea()}
+        function calTriangleArea(){
+            let base = parseFloat(prompt("enter base of triangle"))
+            let height = parseFloat(prompt("enter height of triangle"))
+            let area = base*height*0.5
+            alert(`area of a triangle ${area}`)
+            console.log("calTriangleArea executed")
+            return area
+        }
+
+        let timeNow = document.getElementById("time-now")
+
+        function convertMiutesMiliseconds(time){
+            time < 10 ? time = `0${time}` : time
+            return time
+        }
+
+        timeNow.onclick = function(){displayTimeNow()}
+        function displayTimeNow(){
+            let now = new Date()
+            let readableTime = `This is ${now.getHours()}:${convertMiutesMiliseconds(now.getMinutes())}:${convertMiutesMiliseconds(now.getSeconds())}`
+            confirm(readableTime) 
+        }
+    </script>
+</body>
+</html>
