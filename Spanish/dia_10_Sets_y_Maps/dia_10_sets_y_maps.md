@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 9](../dia_09_Funciones_De_Orden_Superior/dia_09_funciones_de_orden_superior.md) | [Día 11>>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)
+[<< Día 9](../dia_09_Funciones_De_Orden_Superior/dia_09_funciones_de_orden_superior.md) | [Día 11>>](../dia_11_Desestructuracion_y_Spreading/dia_11_desestructuracion_y_spreading.md)
 
 ![Day 10](../images/banners/day_1_10.png)
 
@@ -433,4 +433,4 @@ console.log(mostSpokenLanguages(countries, 3))[
 
 🎉 ¡Felicitaciones! 🎉
 
-[<< Día 9](../dia_09_Funciones_De_Orden_Superior/dia_09_funciones_de_orden_superior.md) | [Día 11 >>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)
+[<< Día 9](../dia_09_Funciones_De_Orden_Superior/dia_09_funciones_de_orden_superior.md) | [Día 11 >>](../dia_11_Desestructuracion_y_Spreading/dia_11_desestructuracion_y_spreading.md)
