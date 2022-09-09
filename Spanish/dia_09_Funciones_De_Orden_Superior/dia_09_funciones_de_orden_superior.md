@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 8](../dia_08_Objetos/dia_08_objetos.md) | [Día 10 >>](../10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md)
+[<< Día 8](../dia_08_Objetos/dia_08_objetos.md) | [Día 10 >>](../dia_10_Sets_y_Maps/dia_10_sets_y_maps.md)
 
 ![Day 5](../images/banners/day_1_9.png)
 
@@ -704,4 +704,4 @@ const products = [
 
 🎉 ¡FELICITACIONES! 🎉
 
-[<< Día 8](../dia_08_Objetos/dia_08_objetos.md) | [Day 10 >>](../10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md)
+[<< Día 8](../dia_08_Objetos/dia_08_objetos.md) | [Day 10 >>](../dia_10_Sets_y_Maps/dia_10_sets_y_maps.md)
