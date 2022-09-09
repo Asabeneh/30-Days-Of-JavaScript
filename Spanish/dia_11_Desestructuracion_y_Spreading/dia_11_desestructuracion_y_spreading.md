@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 10](../dia_10_Sets_y_Maps/dia_10_sets_y_maps.md) | [Día 12>>](../)
+[<< Día 10](../dia_10_Sets_y_Maps/dia_10_sets_y_maps.md) | [Día 12>>](../dia_12_Expresiones_Regulares/dia_12_expresiones_regulares.md)
 
 ![Day 11](../images/banners/day_1_11.png)
 
@@ -692,4 +692,4 @@ La salida del objeto copiado debería tener este aspecto:
 
 🎉 ¡FELICITACIONES! 🎉
 
-[<< Day 10](../dia_10_Sets_y_Maps/dia_10_sets_y_maps.md) | [Day 12 >>](../)
+[<< Day 10](../dia_10_Sets_y_Maps/dia_10_sets_y_maps.md) | [Day 12 >>](../dia_12_Expresiones_Regulares/dia_12_expresiones_regulares.md)
