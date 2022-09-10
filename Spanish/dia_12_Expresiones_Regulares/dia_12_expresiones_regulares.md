@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 11](../dia_11_Desestructuracion_y_Spreading/dia_11_desestructuracion_y_spreading.md) | [Day 13>>](..)
+[<< Día 11](../dia_11_Desestructuracion_y_Spreading/dia_11_desestructuracion_y_spreading.md) | [Día 13>>](../dia_13_Metodos_del_Objeto_Console/dia_13_metodos_del_objeto_console.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_12.png)
 
@@ -537,4 +537,4 @@ console.log(cleanText(sentence));
 
 🎉 ¡FELICITACIONES! 🎉
 
-[<< Day 11](../dia_11_Desestructuracion_y_Spreading/dia_11_desestructuracion_y_spreading.md) | [Day 13 >>](..)
+[<< Día 11](../dia_11_Desestructuracion_y_Spreading/dia_11_desestructuracion_y_spreading.md) | [Día 13 >>](../dia_13_Metodos_del_Objeto_Console/dia_13_metodos_del_objeto_console.md)
