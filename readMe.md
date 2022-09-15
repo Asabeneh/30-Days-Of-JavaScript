@@ -1,8 +1,8 @@
 # 30 Days Of JavaScript
 
-| # Day |                                                                       Topics                                                                        |
+| # יום |                                                                       נושאים                                                                        |
 | ----- | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 01    |                                                             [Introduction](./readMe.md)                                                             |
+| 01    |                                                             [מבוא](./readMe.md)                                                             |
 | 02    |                                               [Data Types](./02_Day_Data_types/02_day_data_types.md)                                                |
 | 03    |                             [Booleans, Operators, Date](./03_Day_Booleans_operators_date/03_booleans_operators_date.md)                             |
 | 04    |                                            [Conditionals](./04_Day_Conditionals/04_day_conditionals.md)                                             |
@@ -124,56 +124,56 @@ JavaScript is used **_to add interactivity to websites, to develop mobile apps, 
 programming language for six consecutive years and is the most used programming language on
 Github.
 
-## Requirements
+## דרישות
 
-No prior knowledge of programming is required to follow this challenge. You need only:
+אין צורך בידע מוקדם בתכנות כדי לעמוד באתגר הזה. אתה צריך רק:
 
-1. Motivation
-2. A computer
-3. Internet
-4. A browser
-5. A code editor
+1. מוטיבציה
+2. מחשב
+3. אינטרנט
+4. דפדפן
+5. עורך קוד
 
-## Setup
+## להכין
 
-I believe you have the motivation and a strong desire to be a developer, a computer and Internet. If you have those, then you have everything to get started.
+אני מאמין שיש לך מוטיבציה ורצון עז להיות מפתח, מחשב ואינטרנט. אם יש לך את זה, אז יש לך הכל כדי להתחיל.
 
-### Install Node.js
+### התקנת Node.js
 
-You may not need Node.js right now but you may need it for later. Install [node.js](https://nodejs.org/en/).
+ייתכן שלא תזדקק ל-Node.js ממש כעת, אך ייתכן שתזדקק לו למועד מאוחר יותר. להתקין [node.js](https://nodejs.org/en/).
 
 ![Node download](images/download_node.png)
 
-After downloading double click and install
+לאחר ההורדה לחץ פעמיים והתקן
 
 ![Install node](images/install_node.png)
 
-We can check if node is installed on our local machine by opening our device terminal or command prompt.
+אנו יכולים לבדוק אם הצומת מותקן במחשב המקומי שלנו על ידי פתיחת המסוף או שורת הפקודה.
 
 ```sh
 asabeneh $ node -v
 v12.14.0
 ```
 
-When making this tutorial I was using Node version 12.14.0, but now the recommended version of Node.js for download is v14.17.6, by the time you use this material you may have a higher Node.js version.
+בעת הכנת המדריך הזה השתמשתי ב-Node גרסה 12.14.0, אבל כעת הגרסה המומלצת של Node.js להורדה היא v14.17.6, עד שתשתמש בחומר זה ייתכן שיהיה לך גרסה גבוהה יותר של Node.js.
 
-### Browser
+### דפדפן
 
-There are many browsers out there. However, I strongly recommend Google Chrome.
+יש הרבה דפדפנים בחוץ. עם זאת, אני ממליץ בחום על Google Chrome.
 
-#### Installing Google Chrome
+#### התקנת g Google Chrome
 
-Install [Google Chrome](https://www.google.com/chrome/) if you do not have one yet. We can write small JavaScript code on the browser console, but we do not use the browser console to develop applications.
+התקן את [Google Chrome](https://www.google.com/chrome/) אם עדיין אין לך. אנחנו יכולים לכתוב קוד JavaScript קטן בקונסולת הדפדפן, אבל אנחנו לא משתמשים בקונסולת הדפדפן כדי לפתח אפליקציות.
 
 ![Google Chrome](images/google_chrome.png)
 
-#### Opening Google Chrome Console
+#### פתיחת קונסול של Google Chrome 
 
-You can open Google Chrome console either by clicking three dots at the top right corner of the browser, selecting _More tools -> Developer tools_ or using a keyboard shortcut. I prefer using shortcuts.
+אתה יכול לפתוח את קונסולת Google Chrome על ידי לחיצה על שלוש נקודות בפינה השמאלית העליונה של הדפדפן, בחירת _כלים נוספים -> כלי מפתחים_ או שימוש בקיצור מקלדת. אני מעדיף להשתמש בקיצורי דרך.
 
 ![Opening chrome](images/opening_developer_tool.png)
 
-To open the Chrome console using a keyboard shortcut.
+כדי לפתוח את קונסולת Chrome באמצעות קיצור מקשים.
 
 ```sh
 Mac
@@ -185,14 +185,14 @@ Ctl+Shift+J
 
 ![Opening console](images/opening_chrome_console_shortcut.png)
 
-After you open the Google Chrome console, try to explore the marked buttons. We will spend most of the time on the Console. The Console is the place where your JavaScript code goes. The Google Console V8 engine changes your JavaScript code to machine code.
-Let us write a JavaScript code on the Google Chrome console:
+לאחר פתיחת מסוף Google Chrome, נסה לחקור את הכפתורים המסומנים. נבלה את רוב הזמן בקונסולה. הקונסולה היא המקום שאליו מגיע קוד ה-JavaScript שלך. מנוע Google Console V8 משנה את קוד ה-JavaScript שלך לקוד מכונה.
+תן לנו לכתוב קוד JavaScript בקונסולת Google Chrome:
 
 ![write code on console](./images/js_code_on_chrome_console.png)
 
-#### Writing Code on Browser Console
+#### כתיבת קוד בקונסולת הדפדפן
 
-We can write any JavaScript code on the Google console or any browser console. However, for this challenge, we only focus on Google Chrome console. Open the console using:
+אנחנו יכולים לכתוב כל קוד JavaScript בקונסולת גוגל או כל קונסולת דפדפן. עם זאת, עבור אתגר זה, אנו מתמקדים רק בקונסולת Google Chrome. פתח את המסוף באמצעות:
 
 ```sh
 Mac
@@ -204,13 +204,13 @@ Ctl+Shift+I
 
 ##### Console.log
 
-To write our first JavaScript code, we used a built-in function **console.log()**. We passed an argument as input data, and the function displays the output. We passed `'Hello, World'` as input data or argument in the console.log() function.
+כדי לכתוב את קוד ה-JavaScript הראשון שלנו, השתמשנו בפונקציה מובנית **console.log()**. העברנו ארגומנט כנתוני קלט, והפונקציה מציגה את הפלט. העברנו את `'Hello, World'` כנתוני קלט או ארגומנט בפונקציה console.log() .
 
 ```js
 console.log('Hello, World!')
 ```
 
-##### Console.log with Multiple Arguments
+##### Console.log עם ארגומנטים מרובים
 
 The **`console.log()`** function can take multiple parameters separated by commas. The syntax looks like as follows:**`console.log(param1, param2, param3)`**
 
