@@ -110,19 +110,17 @@
 	- [Variables](#variables)
 - [💻 Day 1: Exercises](#-day-1-exercises)
 
-# 📔 Day 1
+# 📔 יום 1
 
-## Introduction
+## מבוא
 
-**Congratulations** on deciding to participate in 30 days of JavaScript programming challenge. In this challenge you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge completion certificate. In case you need help or if you would like to help others you may join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
+**מזל טוב** על ההחלטה להשתתף ב-30 יום של אתגר תכנות JavaScript. באתגר הזה תלמדו את כל מה שצריך כדי להיות מתכנת JavaScript, ובכלל, את כל הקונספט של תכנות. בסוף האתגר תקבלו תעודת סיום אתגר תכנות 30DaysOfJavaScript. במקרה שאתה צריך עזרה או אם תרצה לעזור לאחרים, אתה יכול להצטרף ל[קבוצת הטלגרם](https://t.me/ThirtyDaysOfJavaScript).
 
-**A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the web. I enjoy using and teaching JavaScript and I hope you will do so too.
+**אתגר 30DaysOfJavaScript** הוא מדריך למפתחי JavaScript למתחילים ומתקדמים כאחד. ברוכים הבאים ל-JavaScript. JavaScript היא שפת האינטרנט. אני נהנה להשתמש וללמד JavaScript ואני מקווה שגם אתם תעשו זאת.
 
-In this step by step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
-JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **_machine learning_** and **_AI_**.
-**_JavaScript (JS)_** has increased in popularity in recent years and has been the leading
-programming language for six consecutive years and is the most used programming language on
-Github.
+באתגר JavaScript שלב אחר שלב זה תלמד JavaScript, שפת התכנות הפופולרית ביותר בהיסטוריה של האנושות.
+JavaScript משמש **_כדי להוסיף אינטראקטיביות לאתרי אינטרנט, לפיתוח אפליקציות מובייל, יישומי שולחן עבודה, משחקים_** וכיום ניתן להשתמש ב-JavaScript עבור **_למד מכונה_** ו **_בינה מלאכותית_**.
+**_JavaScript (JS)_** גדל בפופולריות בשנים האחרונות והיה שפת תכנות המובילה במשך שש שנים רצופות והיא שפת התכנות הנפוצה ביותר בGithub.
 
 ## דרישות
 
@@ -161,7 +159,7 @@ v12.14.0
 
 יש הרבה דפדפנים בחוץ. עם זאת, אני ממליץ בחום על Google Chrome.
 
-#### התקנת g Google Chrome
+#### התקנת Google Chrome
 
 התקן את [Google Chrome](https://www.google.com/chrome/) אם עדיין אין לך. אנחנו יכולים לכתוב קוד JavaScript קטן בקונסולת הדפדפן, אבל אנחנו לא משתמשים בקונסולת הדפדפן כדי לפתח אפליקציות.
 
@@ -204,7 +202,7 @@ Ctl+Shift+I
 
 ##### Console.log
 
-כדי לכתוב את קוד ה-JavaScript הראשון שלנו, השתמשנו בפונקציה מובנית **console.log()**. העברנו ארגומנט כנתוני קלט, והפונקציה מציגה את הפלט. העברנו את `'Hello, World'` כנתוני קלט או ארגומנט בפונקציה console.log() .
+כדי לכתוב את קוד ה-JavaScript הראשון שלנו, השתמשנו בפונקציה מובנית **()console.log**. העברנו ארגומנט כנתוני קלט, והפונקציה מציגה את הפלט. העברנו את `'Hello, World'` כנתוני קלט או ארגומנט בפונקציה ()console.log.
 
 ```js
 console.log('Hello, World!')
@@ -212,7 +210,7 @@ console.log('Hello, World!')
 
 ##### Console.log עם ארגומנטים מרובים
 
-The **`console.log()`** function can take multiple parameters separated by commas. The syntax looks like as follows:**`console.log(param1, param2, param3)`**
+הפונקציה **`()console.log`** יכולה לקחת פרמטרים מרובים המופרדים בפסיקים. התחביר נראה כך:**`(ערך3, ערך2, ערך1)console.log`**
 
 ![console log multiple arguments](./images/console_log_multipl_arguments.png)
 
@@ -222,23 +220,22 @@ console.log('HAPPY', 'NEW', 'YEAR', 2020)
 console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
 ```
 
-As you can see from the snippet code above, _`console.log()`_ can take multiple arguments.
+כפי שניתן לראות מקוד הקטע שלמעלה, _`()console.log`_ יכול לקחת ארגומנטים מרובים.
 
-Congratulations! You wrote your first JavaScript code using _`console.log()`_.
+מזל טוב! כתבת את קוד ה-JavaScript הראשון שלך באמצעות _`()console.log`_.
 
-##### Comments
+##### הערות
 
-We can add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this `//` is also a comment.
-
-**Example: Single Line Comment**
+אנחנו יכולים להוסיף הערות לקוד שלנו. הערות חשובות מאוד כדי להפוך את הקוד לקריאה יותר וכדי להשאיר הערות בקוד שלנו. JavaScript אינו מבצע את חלק ההערות בקוד שלנו. ב-JavaScript, כל שורת טקסט שמתחילה ב-// ב-JavaScript היא הערה, וכל מה שמצורף כך `//` הוא גם הערה.
+**דוגמה: הערה בשורה אחת**
 
 ```js
-// This is the first comment  
-// This is the second comment  
-// I am a single line comment
+// זה ההערה הראשונה שלי  
+// זה ההערה השנייה שלי  
+// אני הערה בשורה אחת
 ```
 
-**Example: Multiline Comment**
+**דוגמה: הערה מרובת שורות**
 
 ```js
 /*
@@ -248,21 +245,21 @@ This is a multiline comment
  */
 ```
 
-##### Syntax
+##### תחביר
 
-Programming languages are similar to human languages. English or many other language uses words, phrases, sentences, compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language. Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+שפות תכנות דומות לשפות אנושיות. עברית או שפות רבות אחרות משתמשות במילים, ביטויים, משפטים, משפטים מורכבים ועוד כדי להעביר מסר משמעותי. המשמעות העברית של תחביר היא _הסדר של מילים וביטויים ליצירת משפטים מעוצבים היטב בשפה_. ההגדרה הטכנית של תחביר היא מבנה ההצהרות בשפת מחשב. לשפות תכנות יש תחביר. JavaScript היא שפת תכנות וכמו שפות תכנות אחרות יש לה תחביר משלה. אם לא נכתוב תחביר ש-JavaScript מבין, זה יעלה סוגים שונים של שגיאות. אנו נחקור סוגים שונים של שגיאות JavaScript מאוחר יותר. לעת עתה, הבה נראה שגיאות תחביר.
 
 ![Error](images/raising_syntax_error.png)
 
-I made a deliberate mistake. As a result, the console raises syntax errors. Actually, the syntax is very informative. It informs what type of mistake was made. By reading the error feedback guideline, we can correct the syntax and fix the problem. The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
+עשיתי טעות מכוונת. כתוצאה מכך, הקונסולה מעלה שגיאות תחביר. למעשה, התחביר הוא מאוד אינפורמטיבי. זה מודיע איזה סוג של טעות נעשתה. על ידי קריאת הנחיות המשוב על השגיאות, נוכל לתקן את התחביר ולתקן את הבעיה. תהליך הזיהוי וההסרה של שגיאות מתוכנה נקרא איתור באגים. תן לנו לתקן את השגיאות:
 
 ```js
 console.log('Hello, World!')
 console.log('Hello, World!')
 ```
 
-So far, we saw how to display text using the _`console.log()`_. If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or a backtick.
-**Example:**
+עד כה, ראינו כיצד להציג טקסט באמצעות _`()console.log`_. אם אנו מדפיסים טקסט או מחרוזת באמצעות _`()console.log`_, הטקסט חייב להיות בתוך המירכאות הבודדות, המירכאות הכפולות או סמל אחורי.
+**דוגמה:**
 
 ```js
 console.log('Hello, World!')
@@ -272,36 +269,36 @@ console.log(`Hello, World!`)
 
 #### Arithmetics
 
-Now, let us practice more writing JavaScript codes using _`console.log()`_ on Google Chrome console for number data types.
-In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
-It is possible to write JavaScript code on Google Chrome console can directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
+כעת, הבה נתרגל יותר כתיבת קודי JavaScript באמצעות _`console.log()`_ במסוף Google Chrome עבור סוגי נתוני מספרים.
+בנוסף לטקסט, נוכל גם לבצע חישובים מתמטיים באמצעות JavaScript. הבה נעשה את החישובים הפשוטים הבאים.
+אפשר לכתוב קוד JavaScript במסוף Google Chrome ישירות ללא הפונקציה **_`()console.log`_**. עם זאת, הוא נכלל בהקדמה זו מכיוון שרוב האתגר הזה יתקיים בעורך טקסט שבו השימוש בפונקציה יהיה חובה. אתה יכול לשחק ישירות עם הוראות בקונסולה.
 
 ![Arithmetic](images/arithmetic.png)
 
 ```js
-console.log(2 + 3) // Addition
-console.log(3 - 2) // Subtraction
-console.log(2 * 3) // Multiplication
-console.log(3 / 2) // Division
-console.log(3 % 2) // Modulus - finding remainder
+console.log(2 + 3) // חיבור
+console.log(3 - 2) // חסור
+console.log(2 * 3) // כפל
+console.log(3 / 2) // חילוק
+console.log(3 % 2) // מודולוס - מציאת שארית
 console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 ```
 
-### Code Editor
+### עורך קוד
 
-We can write our codes on the browser console, but it won't be for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days of JavaScript challenge, we will be using Visual Studio Code.
+אנחנו יכולים לכתוב את הקודים שלנו בקונסולת הדפדפן, אבל זה לא יהיה עבור פרויקטים גדולים יותר. בסביבת עבודה אמיתית, מפתחים משתמשים בעורכי קוד שונים כדי לכתוב את הקודים שלהם. ב-30 הימים האלה של אתגר JavaScript, נשתמש ב-Visual Studio Code.
 
-#### Installing Visual Studio Code
+#### התקנת Visual Studio Code
 
-Visual Studio Code is a very popular open-source text editor. I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
+Visual Studio Code הוא עורך טקסט בקוד פתוח פופולרי מאוד. הייתי ממליץ [להוריד את Visual Studio Code](https://code.visualstudio.com/), אבל אם אתה בעד עורכים אחרים, אתה מוזמן לעקוב אחרי מה שיש לך.
 
 ![Vscode](images/vscode.png)
 
-If you installed Visual Studio Code, let us start using it.
+אם התקנת Visual Studio Code, תן לנו להתחיל להשתמש בו.
 
-#### How to Use Visual Studio Code
+#### כיצד להשתמש ב Visual Studio code
 
-Open the Visual Studio Code by double-clicking its icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
+פתח את קוד Visual Studio code על ידי לחיצה כפולה על הסמל שלו. כשתפתח אותו, תקבל ממשק מסוג זה. נסה ליצור אינטראקציה עם הסמלים המסומנים.
 
 ![Vscode ui](./images/vscode_ui.png)
 
@@ -317,20 +314,19 @@ Open the Visual Studio Code by double-clicking its icon. When you open it, you w
 
 ![coding running](./images/launched_on_new_tab.png)
 
-## Adding JavaScript to a Web Page
+## הוספת JavaScript לדף אינטרנט
 
-JavaScript can be added to a web page in three different ways:
+ניתן להוסיף JavaScript לדף אינטרנט בשלוש דרכים שונות:
+- **_סקריפט מוטבע_**
+- **_סקריפט פנימי_**
+- **_סקריפט חיצוני_**
+- **_סקריפטים חיצוניים מרובים_**
 
-- **_Inline script_**
-- **_Internal script_**
-- **_External script_**
-- **_Multiple External scripts_**
+הסעיפים הבאים מציגים דרכים שונות להוספת קוד JavaScript לדף האינטרנט שלך.
 
-The following sections show different ways of adding JavaScript code to your web page.
+### סקריפט מוטבע
 
-### Inline Script
-
-Create a project folder on your desktop or in any location, name it 30DaysOfJS and create an **_`index.html`_** file in the project folder. Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
+צור תיקיית פרויקט בשולחן העבודה שלך או בכל מקום, תקרא לה 30DaysOfJS וצור קובץ **_`index.html`_** בתיקיית הפרויקט. לאחר מכן הדבק את הקוד הבא ופתח אותו בדפדפן, לדוגמה [Chrome](https://www.google.com/chrome/).
 
 ```html
 <!DOCTYPE html>
@@ -344,12 +340,12 @@ Create a project folder on your desktop or in any location, name it 30DaysOfJS a
 </html>
 ```
 
-Now, you just wrote your first inline script. We can create a pop up alert message using the _`alert()`_ built-in function.
+עכשיו, בדיוק כתבת את התסריט המוטבע הראשון שלך. אנו יכולים ליצור הודעת התראה קופצת באמצעות הפונקציה המובנית _`()alert`_.
 
-### Internal Script
+### סקריפט פנימי
 
-The internal script can be written in the _`head`_ or the _`body`_, but it is preferred to put it on the body of the HTML document.
-First, let us write on the head part of the page.
+את הסקריפט הפנימי ניתן לכתוב ב-_`head`_ או ב-_`body`_, אך עדיף לשים אותו בגוף מסמך ה-HTML.
+ראשית, הבה נכתוב על החלק הhead של הדף.
 
 ```html
 <!DOCTYPE html>
@@ -364,7 +360,7 @@ First, let us write on the head part of the page.
 </html>
 ```
 
-This is how we write an internal script most of the time. Writing the JavaScript code in the body section is the most preferred option. Open the browser console to see the output from the `console.log()`.
+כך אנו כותבים תסריט פנימי רוב הזמן. כתיבת קוד ה-JavaScript בקטע הbody היא האפשרות המועדפת ביותר. פתח את מסוף הדפדפן כדי לראות את הפלט מה-'()console.log'.
 
 ```html
 <!DOCTYPE html>
@@ -381,20 +377,19 @@ This is how we write an internal script most of the time. Writing the JavaScript
 </html>
 ```
 
-Open the browser console to see the output from the `console.log()`.
+פתח את מסוף הדפדפן כדי לראות את הפלט מה-'()console.log'.
 
 ![js code from vscode](./images/js_code_vscode.png)
 
-### External Script
+### תסריט חיצוני
 
-Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
-
+בדומה לסקריפט הפנימי, קישור הסקריפט החיצוני יכול להיות בכותרת או הbody, אך עדיף לשים אותו בbody.
+ראשית, עלינו ליצור קובץ JavaScript חיצוני עם סיומת .js. כל הקבצים המסתיימים בסיומת js הם קובצי JavaScript. צור קובץ בשם introduction.js בתוך ספריית הפרויקט שלך וכתוב את הקוד הבא וקשר את קובץ ה-.js הזה בתחתית הbody.
 ```js
 console.log('Welcome to 30DaysOfJavaScript')
 ```
 
-External scripts in the _head_:
+סקריפטים חיצוניים ב-_head_:
 
 ```html
 <!DOCTYPE html>
@@ -407,7 +402,7 @@ External scripts in the _head_:
 </html>
 ```
 
-External scripts in the _body_:
+סקריפטים חיצוניים ב-_body_:
 
 ```html
 <!DOCTYPE html>
@@ -423,12 +418,12 @@ External scripts in the _body_:
 </html>
 ```
 
-Open the browser console to see the output of the `console.log()`.
+פתח את מסוף הדפדפן כדי לראות את הפלט של ה-`console.log()`.
 
-### Multiple External Scripts
+### מספר סקריפטים חיצוניים
 
-We can also link multiple external JavaScript files to a web page.
-Create a `helloworld.js` file inside the 30DaysOfJS folder and write the following code.
+אנו יכולים גם לקשר מספר קובצי JavaScript חיצוניים לדף אינטרנט.
+צור קובץ `helloworld.js` בתוך התיקיה 30DaysOfJS וכתוב את הקוד הבא.
 
 ```js
 console.log('Hello, World!')
@@ -447,28 +442,29 @@ console.log('Hello, World!')
 </html>
 ```
 
-_Your main.js file should be below all other scripts_. It is very important to remember this.
+_קובץ main.js שלך צריך להיות מתחת לכל שאר הסקריפטים_. חשוב מאוד לזכור זאת.
 
 ![Multiple Script](./images/multiple_script.png)
 
-## Introduction to Data types
+## מבוא לסוגי נתונים
 
-In JavaScript and also other programming languages, there are different types of data types. The following are JavaScript primitive data types: _String, Number, Boolean, undefined, Null_, and _Symbol_.
+ב-JavaScript וגם בשפות תכנות אחרות, ישנם סוגים שונים של סוגי נתונים. להלן סוגי נתונים פרימיטיביים של JavaScript:  
+_String (מחרוזת), Number (מספר), Boolean (בוליאן), undefined, Null_, ו _Symbol_.
 
-### Numbers
 
-- Integers: Integer (negative, zero and positive) numbers
-  Example:
+### מספרים
+
+- מספרים שלמים: מספרים שלמים (שלילי, אפס וחיובי).
+  דוגמא:
   ... -3, -2, -1, 0, 1, 2, 3 ...
-- Float-point numbers: Decimal number
-  Example
+- מספרי נקודה צפה: מספר עשרוני
+  דוגמא
   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
+### מחרוזות
 
-### Strings
+אוסף של תו אחד או יותר בין שתי מרכאות בודדות, מרכאות כפולות או גרשיים אחוריים (``).
 
-A collection of one or more characters between two single quotes, double quotes, or backticks.
-
-**Example:**
+**דוגמה:**
 
 ```js
 'a'
@@ -483,39 +479,39 @@ A collection of one or more characters between two single quotes, double quotes,
 'Any data type under a single quote, double quote or backtick is a string'
 ```
 
-### Booleans
+### בוליאן
 
-A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
+ערך בוליאני הוא נכון או לא נכון. כל השוואה מחזירה ערך בוליאני, שהוא נכון או שקר.
 
-A boolean data type is either a true or false value.
+סוג נתונים בוליאני הוא ערך אמיתי או לא נכון.
 
-**Example:**
+**דוגמה:**
 
 ```js
-true // if the light is on, the value is true
-false // if the light is off, the value is false
+true // אם האור דולק, הערך נכון
+false // אם האור כבוי, הערך הוא false
 ```
 
-### Undefined
+### Undefined (לא מוגדר)
 
-In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
+ב-JavaScript, אם לא נקצה ערך למשתנה, הערך הוא undefined (לא מוגדר). בנוסף לכך, אם פונקציה לא מחזירה כלום, היא מחזירה undefined.
 
 ```js
 let firstName
-console.log(firstName) // undefined, because it is not assigned to a value yet
+console.log(firstName) // undefined, כי הוא עדיין לא מוקצה לערך
 ```
 
-### Null
+### Null (ריק)
 
-Null in JavaScript means an empty value.
+Null ב-JavaScript פירושו ערך ריק.
 
 ```js
 let emptyValue = null
 ```
 
-## Checking Data Types
+## בדיקת סוגי נתונים
 
-To check the data type of a certain variable, we use the **typeof** operator. See the following example.
+כדי לבדוק את סוג הנתונים של משתנה מסוים, אנו משתמשים באופרטור **typeof**. ראה את הדוגמה הבאה.
 
 ```js
 console.log(typeof 'Asabeneh') // string
@@ -525,13 +521,13 @@ console.log(typeof null) // object type
 console.log(typeof undefined) // undefined
 ```
 
-## Comments Again
+## הערות שוב
 
-Remember that commenting in JavaScript is similar to other programming languages. Comments are important in making your code more readable.
-There are two ways of commenting:
+זכור שהערה ב-JavaScript דומה לשפות תכנות אחרות. הערות חשובות להפיכת הקוד שלך לקריאה יותר.
+ישנן שתי דרכים להגיב:
 
-- _Single line commenting_
-- _Multiline commenting_
+- _הערה בשורה אחת_
+- _הערות מרובות שורות_
 
 ```js
 // commenting the code itself with a single comment
@@ -539,7 +535,7 @@ There are two ways of commenting:
 // let lastName = 'Yetayeh'; single line comment
 ```
 
-Multiline commenting:
+הערות מרובות שורות:
 
 ```js
 /*
@@ -550,20 +546,19 @@ Multiline commenting:
 */
 ```
 
-## Variables
+## משתנים
 
-Variables are _containers_ of data. Variables are used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords.
+משתנים הם _מכלים_ לאכסן נתונים. משתנים משמשים ל_אחסון_ נתונים במיקום זיכרון. כאשר משתנה מוצהר, מיקום זיכרון שמור. כאשר משתנה מוקצה לערכים מסויימים, שטח הזיכרון יתמלא בנתונים אלו. כדי להצהיר על משתנה, אנו משתמשים במילות מפתח _var_, _let_ או _const_.
+עבור משתנה שמשתנה בזמן אחר, אנו משתמשים ב-_let_. אם הנתונים אינם משתנים כלל, אנו משתמשים ב-_const_. לדוגמה, פאי, שם מדינה, כוח משיכה לא משתנים, ונוכל להשתמש ב-_const_. לא נשתמש ב-var באתגר הזה ואני לא ממליץ לך להשתמש בו. זוהי דרך מועדת לשגיאה להכריז על משתנה שיש לו הרבה דליפה ולא נשאר בתוך ההיקף שלו. נדבר יותר על var, let ו-const בפירוט בסעיפים אחרים (היקף). לעת עתה די בהסבר לעיל.
 
-For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do not change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is error prone way of declaring variable it has lots of leak. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
+שם משתנה JavaScript חוקי חייב לעמוד בכללים הבאים:
 
-A valid JavaScript variable name must follow the following rules:
+- שם משתנה JavaScript לא אמור להתחיל במספר.
+- שם משתנה JavaScript אינו מאפשר תווים מיוחדים למעט סימן דולר וקו תחתון.
+- שם משתנה JavaScript עוקב אחר מוסכמה של camelCase (אות גדולה בתחילת המילה).
+- שם משתנה JavaScript לא צריך לכלול רווח בין מילים.
 
-- A JavaScript variable name should not begin with a number.
-- A JavaScript variable name does not allow special characters except dollar sign and underscore.
-- A JavaScript variable name follows a camelCase convention.
-- A JavaScript variable name should not have space between words.
-
-The following are examples of valid JavaScript variables.
+להלן דוגמאות למשתני JavaScript חוקיים.
 
 ```js
 firstName
@@ -587,9 +582,8 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follows the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables(camelWithOneHump). We use CamelCase(CamelWithTwoHump) to declare classes, we will discuss about classes and objects in other section.
-
-Example of invalid variables:
+המשתנה הראשון והשני ברשימה עוקבים אחר מוסכמות camelCase של הכרזה ב-JavaScript. בחומר זה, נשתמש במשתני camelCase(אות גדולה בתחילת מילה החל מהמילה השנייה). אנו משתמשים ב-CamelCase(אות גדולה גם במילה הראשונה) כדי להכריז על מחלקות, נדון על מחלקות ואובייקטים בחלק אחר.
+דוגמה למשתנים לא חוקיים:
 
 ```js
   first-name
@@ -597,24 +591,24 @@ Example of invalid variables:
   num_#_1
 ```
 
-Let us declare variables with different data types. To declare a variable, we need to use _let_ or _const_ keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value(assigned data).
+הבה נכריז על משתנים עם סוגי נתונים שונים. כדי להצהיר על משתנה, עלינו להשתמש במילת המפתח _let_ או _const_ לפני שם המשתנה. לאחר שם המשתנה, אנו כותבים סימן שווה (אופרטור הקצאה), וערך (נתונים שהוקצו).
 
 ```js
-// Syntax
+// תחביר
 let nameOfVariable = value
 ```
 
-The nameOfVriable is the name that stores different data of value. See below for detail examples.
+nameOfVriable הוא השם המאחסן נתונים בעלי ערך שונים. ראה להלן דוגמאות מפורטות.
 
-**Examples of declared variables**
+**דוגמאות למשתנים מוצהרים**
 
 ```js
-// Declaring different variables of different data types
-let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
-let country = 'Finland' // country
-let city = 'Helsinki' // capital city
-let age = 100 // age in years
+// הצהרת משתנים שונים מסוגי נתונים שונים
+let firstName = 'Asabeneh' // שם פרטי של אדם
+let lastName = 'Yetayeh' // שם משפחה של אדם
+let country = 'Finland' // מדינה
+let city = 'Helsinki' // עיר
+let age = 100 // גיל
 let isMarried = true
 
 console.log(firstName, lastName, country, city, age, isMarried)
@@ -625,11 +619,11 @@ Asabeneh Yetayeh Finland Helsinki 100 true
 ```
 
 ```js
-// Declaring variables with number values
-let age = 100 // age in years
-const gravity = 9.81 // earth gravity  in m/s2
-const boilingPoint = 100 // water boiling point, temperature in °C
-const PI = 3.14 // geometrical constant
+// הצהרת משתנים עם ערכי מספר
+let age = 100 // גיל השנים
+const gravity = 9.81 // כוח הכבידה של כדור הארץ ב-m/s2
+const boilingPoint = 100 // נקודת רתיחה של מים, טמפרטורה ב-°C
+const PI = 3.14 // קבוע גיאומטרי
 console.log(gravity, boilingPoint, PI)
 ```
 
@@ -638,7 +632,7 @@ console.log(gravity, boilingPoint, PI)
 ```
 
 ```js
-// Variables can also be declaring in one line separated by comma, however I recommend to use a seperate line to make code more readble
+// משתנים יכולים גם להכריז בשורה אחת מופרדות בפסיק, אולם אני ממליץ להשתמש בשורה נפרדת כדי להפוך את הקוד לקריאה יותר
 let name = 'Asabeneh', job = 'teacher', live = 'Finland'
 console.log(name, job, live)
 ```
@@ -647,32 +641,32 @@ console.log(name, job, live)
 Asabeneh teacher Finland
 ```
 
-When you run _index.html_ file in the 01-Day folder you should get this:
+כאשר אתה מפעיל את קובץ _index.html_ בתיקייה 01-Day, אתה אמור לקבל את זה:
 
 ![Day one](./images/day_1.png)
 
-🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and muscle.
+🌕 אתה מדהים! זה עתה סיימת את אתגר היום הראשון ואתה בדרך לגדולה. עכשיו תעשה כמה תרגילים למוח ולשרירים שלך. 
 
-# 💻 Day 1: Exercises
+# 💻 יום 1: תרגילים
 
-1. Write a single line comment which says, _comments can make code readable_
-2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_
-3. Write a multiline comment which says, _comments can make code readable, easy to reuse_
-   _and informative_
+1. כתוב הערה בשורה אחת שאומרת, _הערות יכולות להפוך את הקוד לקריא_
+2. כתוב עוד תגובה בודדת שאומרת, _ברוכים הבאים ל-30DaysOfJavaScript_
+3. כתוב הערה מרובת שורות האומרת, _הערות יכולות להפוך את הקוד לקריא, קל לשימוש חוזר_
+   _ואינפורמטיבי_
 
-4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
-5. Create datatypes.js file and use the JavaScript **_typeof_** operator to check different data types. Check the data type of each variable
-6. Declare four variables without assigning values
-7. Declare four variables with assigned values
-8. Declare variables to store your first name, last name, marital status, country and age in multiple lines
-9. Declare variables to store your first name, last name, marital status, country and age in a single line
-10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to the browser console.
+4. צור קובץ variable.js והכרז על משתנים והקצה סוגי נתונים מחרוזת, בוליאנית, undefined ו-null
+5. צור קובץ datatypes.js והשתמש באופרטור JavaScript **_typeof_** כדי לבדוק סוגי נתונים שונים. בדוק את סוג הנתונים של כל משתנה
+6. הכרז על ארבעה משתנים מבלי להקצות ערכים
+7. הכרז על ארבעה משתנים עם ערכים מוקצים
+8. הצהר על משתנים לאחסון שמך הפרטי, שם המשפחה, המצב המשפחתי, המדינה והגיל שלך במספר שורות
+9. הצהר על משתנים לאחסון שמך הפרטי, שם המשפחה, מצבך המשפחתי, המדינה והגיל בשורה אחת
+10. הכריז על שני משתנים _myAge_ ו-_yourAge_ והקצה להם ערכים ראשוניים ויומן למסוף הדפדפן.
 
 ```sh
 I am 25 years old.
 You are 30 years old.
 ```
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 מזל טוב ! 🎉
 
-[Day 2 >>](./02_Day_Data_types/02_day_data_types.md)
+[יום 2 >>](./02_Day_Data_types/02_day_data_types.md)
