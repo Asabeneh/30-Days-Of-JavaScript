@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 15](../dia_15_Clases/dia_15_clases.md) | [Día 17 >>](..)
+[<< Día 15](../dia_15_Clases/dia_15_clases.md) | [Día 17 >>](../dia_17_Web_storages/dia_17_web_storages.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_16.png)
 
@@ -599,4 +599,4 @@ const txt = `{
 
 🎉 ¡FELICITACIONES! 🎉
 
-[<< Día 15](../dia_15_Clases/dia_15_clases.md) | [Día 17 >>](..)
+[<< Día 15](../dia_15_Clases/dia_15_clases.md) | [Día 17 >>](../dia_17_Web_storages/dia_17_web_storages.md)
