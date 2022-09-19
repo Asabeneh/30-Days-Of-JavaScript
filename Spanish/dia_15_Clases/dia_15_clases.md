@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 14](../dia_14_Manejo_de_Errores/dia_14_manejo_de_errores.md) | [Día 16>>](..)
+[<< Día 14](../dia_14_Manejo_de_Errores/dia_14_manejo_de_errores.md) | [Día 16>>](../dia_16_JSON/dia_16_json.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_15.png)
 
@@ -712,4 +712,4 @@ Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34
 
 🎉 ¡FELICITACIONES! 🎉
 
-[<< Día 14](../dia_14_Manejo_de_Errores/dia_14_manejo_de_errores.md) | [Día 16>>](..)
+[<< Día 14](../dia_14_Manejo_de_Errores/dia_14_manejo_de_errores.md) | [Día 16>>](../dia_16_JSON/dia_16_json.md)
