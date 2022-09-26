@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 18](../dia_18_Promesas/dia_18_Promesas.md) | [Día 20 >>](..)
+[<< Día 18](../dia_18_Promesas/dia_18_Promesas.md) | [Día 20 >>](../dia_20_Escribiendo_Codigos_Limpios/dia_20_escribiendo_codigos_limpios.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_19.png)
 
@@ -102,4 +102,4 @@ console.log(innerFuncs.minusOne);
 
 🎉 ¡FELICITACIONES! 🎉
 
-[<< Día 18](../dia_18_Promesas/dia_18_Promesas.md) | [Día 20 >>](..)
+[<< Día 18](../dia_18_Promesas/dia_18_Promesas.md) | [Día 20 >>](../dia_20_Escribiendo_Codigos_Limpios/dia_20_escribiendo_codigos_limpios.md)
