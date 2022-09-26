@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 16](../dia_16_JSON/dia_16_json.md) | [Día 18 >>](..)
+[<< Día 16](../dia_16_JSON/dia_16_json.md) | [Día 18 >>](../dia_18_Promesas/dia_18_Promesas.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_17.png)
 
@@ -230,4 +230,4 @@ localStorage.clear();
 
 🎉 ¡FELICITACIONES! 🎉
 
-[<< Día 16](../dia_16_JSON/dia_16_json.md) | [Día 18 >>](..)
+[<< Día 16](../dia_16_JSON/dia_16_json.md) | [Día 18 >>](../dia_18_Promesas/dia_18_Promesas.md)
