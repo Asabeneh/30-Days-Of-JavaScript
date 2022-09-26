@@ -16,7 +16,7 @@
 
 [<< Gün 14](../14_Day_Error_handling/14_day_error_handling.md) | [Gün 16>>](../16_Day_JSON/16_day_json.md)
 
-![Thirty Days Of JavaScript](../images/banners/day_1_15.png)
+![Thirty Days Of JavaScript](../../images/banners/day_1_15.png)
 
 - [Gün 15](#gün-15)
 	- [Sınıflar](#sınıflar)
