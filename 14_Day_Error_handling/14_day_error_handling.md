@@ -55,21 +55,21 @@ try {
 ```js
 try {
   let lastName = 'Yetayeh'
-  let fullName = fistName + ' ' + lastName
+  let fullName = firstName + ' ' + lastName
 } catch (err) {
   console.log(err)
 }
 ```
 
 ```sh
-ReferenceError: fistName is not defined
+ReferenceError: firstName is not defined
     at <anonymous>:4:20
 ```
 
 ```js
 try {
   let lastName = 'Yetayeh'
-  let fullName = fistName + ' ' + lastName
+  let fullName = firstName + ' ' + lastName
 } catch (err) {
   console.error(err) // we can use console.log() or console.error()
 } finally {
@@ -78,7 +78,7 @@ try {
 ```
 
 ```sh
-ReferenceError: fistName is not defined
+ReferenceError: firstName is not defined
     at <anonymous>:4:20
 In any case it  will be executed
 ```
@@ -88,7 +88,7 @@ The catch block take a parameter. It is common to pass e, err or error as a para
 ```js
 try {
   let lastName = 'Yetayeh'
-  let fullName = fistName + ' ' + lastName
+  let fullName = firstName + ' ' + lastName
 } catch (err) {
   console.log('Name of the error', err.name)
   console.log('Error message', err.message)
@@ -99,11 +99,11 @@ try {
 
 ```sh
 Name of the error ReferenceError
-Error message fistName is not defined
+Error message firstName is not defined
 In any case I will be executed
 ```
 
-throw: the throw statement allows us to create a custom error. We can through a string, number, boolean or an object. Use the throw statement to throw an exception. When you throw an exception, expression specifies the value of the exception. Each of the following throws an exception:
+throw: the throw statement allows us to create a custom error. We can throw a string, number, boolean or an object. Use the throw statement to throw an exception. When you throw an exception, expression specifies the value of the exception. Each of the following throws an exception:
 
 ```js
 throw 'Error2' // generates an exception with a string value
