@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>
+            30DaysOfJavaScript:DOM Day 2
+        </title>
+    </head>
+    <body>
+        <div>
+            <h1 style="font-size: 45px"> Number Generator </h1>
+        </div>
+
+        <div>
+            <h2 style="font-size: 20px"> <u>30DaysOfJavaScript:DOM Day 2 </u></h2>
+        </div>
+
+        <div>
+            <h3 style="font-size: 15px"> <u>Author: Suvrat Jain </u></h3>
+        </div>
+
+        <div id="swag" style="padding: 10px; max-width: 100%;max-height: 100%;">          
+        
+    </div>
+
+        <Script>
+            const isPrime = (number)=>{
+                let isPrime = true;
+                
+                // check if number is greater than 1
+                 if (number > 1) {
+
+                    // looping through 2 to number-1
+                    for (let i = 2; i < number; i++) {
+                        if (number % i == 0) {
+                            return false;
+                            break;
+                        }
+                    }
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
+                
+            const h1 = document.querySelector('h1')
+            h1.style.display = 'flex'
+            h1.style.justifyContent = 'center'
+
+            const h2 = document.querySelector('h2')
+            h2.style.display = 'flex'
+            h2.style.justifyContent = 'center'
+            h2.style.margin = '-40px'
+
+            const h3 = document.querySelector('h3')
+            h3.style.display = 'flex'
+            h3.style.justifyContent = 'center'
+            h3.style.margin = '40px'
+            const inswag = document. createElement('div')
+            const swag = document.getElementById('swag')
+            inswag.style.color = 'red'
+            for(let i = 0 ;i<=101;i++) {
+              
+               
+                const newdiv = document.createElement('div')
+                newdiv.innerHTML = inswag.innerHTML
+                swag.appendChild(newdiv)
+                // newdiv.innerHTML = a
+                newdiv.style.padding = '10px'
+                // swag.append(newdiv)
+                
+                newdiv.textContent = Math.round(Math.random() * 10)
+                newdiv.style.margin = '1.5px'
+                newdiv.style.padding = 'px'
+          
+                newdiv.style.width = '115px'
+                newdiv.style.height = '57.5px'
+                swag.style.display = 'flex'
+                swag.style.flexDirection = 'row'
+                swag.style.flexWrap = 'wrap'
+                swag.style.justifyContent = 'center'
+                // newdiv.style.alignContent = 'center'
+                newdiv.style.alignItems = 'center'
+                newdiv.style.color = 'white'
+                
+                newdiv.style.fontSize = '50px'
+                newdiv.style.display = 'flex'
+                newdiv.style.justifyContent = 'center'
+                
+                
+                if (i %2 === 0) {
+                    newdiv.style.backgroundColor = 'green'
+                    newdiv.style.fontFamily = 'castellar'
+                }
+                if (i %2 ===1){
+                    newdiv.style.backgroundColor = 'gold'
+                    newdiv.style.fontFamily = 'agency fb'
+                }
+
+                if(isPrime(i)){
+                    newdiv.style.backgroundColor = 'red'
+                    newdiv.style.fontFamily = 'jokerman'
+                }
+                
+            }
+        </Script>
+    </body>
+</html>
