@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript for Everyone:DOM</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <h1>Asabeneh Yetayeh challenges in 2020</h1>
+        <h2>30DaysOfJavaScript Challenge</h2>
+        <ul>
+            <li>30DaysOfPython Challenge Done</li>
+            <li>30DaysOfJavaScript Challenge Ongoing</li>
+            <li>30DaysOfReact Challenge Coming</li>
+            <li>30DaysOfFullStack Challenge Coming</li>
+            <li>30DaysOfDataAnalysis Challenge Coming</li>
+            <li>30DaysOfReactNative Challenge Coming</li>
+            <li>30DaysOfMachineLearning Challenge Coming</li>
+        </ul>
+    </div>
+    <script>
+      
+      // const h = document.querySelector('h1')
+      // let q = h.textContent.substring(0,30)
+      // let year = h.textContent.substring(30,35)
+      // let h1 = document.createElement('span')
+      // h1.textContent = q
+      // let newyear = document.createElement('qwerty')
+      // newyear.textContent = year
+      // newyear.style.fontSize = '105px'
+      // let newh1 = document.createElement('asd')
+      // newh1.appendChild(h1)
+      // newh1.appendChild(newyear)
+
+      // document.querySelector('h1').replaceWith(newh1)
+      const month= ["January","February","March","April","May","June","July",
+            "August","September","October","November","December"];
+      function randomColor() {
+      var randomColor = Math.floor(Math.random()*16777215).toString(16);
+      h1new.style.color = "#"+randomColor     
+      }
+      function color() {
+        var randomColor = Math.floor(Math.random()*16777215).toString(16)
+        div2.style.padding = '5px'
+        div2.style.backgroundColor = '#'+randomColor 
+
+      }
+      
+      const h = document.querySelector('h1')
+      
+      let check =  h.textContent.substring(0,30)
+      let year = h.textContent.substring(30,35)
+      let hah = h.textContent;
+      h.innerText =  check 
+      let h1new = document.createElement('qwerty')
+      h1new.textContent = year
+      h1new.style.fontSize = '106px'
+      h.appendChild(h1new)
+     setInterval(randomColor, 1000)
+     h.style.textAlign = 'center'
+           
+     const li = document.querySelectorAll('li')
+     const ul = document.querySelector('ul')
+     ul.style.listStyleType = 'none'
+     ul.remove()
+     let date = document.createElement('date')
+     const d = new Date()
+     date.textContent = `${month[d.getMonth()]} 0${d.getDay()}, ${d.getFullYear()} ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`
+     const newfkdiv = document.createElement('div')
+     newfkdiv.style.display = 'flex'
+     newfkdiv.style.justifyContent = 'center'
+     const div2 = document.createElement('div')
+     div2.innerHTML = date.outerHTML
+     newfkdiv.appendChild(div2)
+     console.log(newfkdiv)
+     setInterval(color, 1000)
+     document.body.appendChild(newfkdiv)
+     
+     const h2 = document.querySelector('h2')
+     h2.style.textAlign = 'center'
+     h2.style.textDecoration = 'underline'
+     ul.style.display = 'flex'
+     ul.style.flexDirection = 'column'
+     ul.style.justifyContent = 'center'
+     document.body.appendChild(ul)
+     for (let i = 0 ; i<li.length;i++) {
+      li[i].style.padding = '15px'
+      li[i].style.textAlign = 'left'
+      li[i].style.margin = '1px'
+      if (li[i].textContent.includes('Done')) {
+        li[i].style.backgroundColor = 'green'
+      }
+      else if (li[i].textContent.includes('Ongoing')) {
+        li[i].style.backgroundColor = 'yellow'
+      }
+      else {
+        li[i].style.backgroundColor = 'red'
+      }
+     }
+
+     
+      
+    </script>
+  </body>
