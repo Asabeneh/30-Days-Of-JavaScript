@@ -14,11 +14,11 @@
 
 </div>
 
-[<< Day 13](../13_Day_Console_object_methods/13_day_console_object_methods.md) | [Day 15>>](../15_Day_Classes/15_day_classes.md)
+[<< Gün 13](../13_Day_Console_object_methods/13_day_console_object_methods.md) | [Gün 15>>](../15_Day_Classes/15_day_classes.md)
 
-![Thirty Days Of JavaScript](../images/banners/day_1_14.png)
+![Thirty Days Of JavaScript](../../images/banners/day_1_14.png)
 
-- [Day 14](#day-14)
+- [Gün 14](#day-14)
 	- [Error Handling](#error-handling)
 		- [Error Types](#error-types)
 	- [Exercises](#exercises)
@@ -26,31 +26,31 @@
 		- [Exercises: Level 2](#exercises-level-2)
 		- [Exercises:Level](#exerciseslevel)
 
-# Day 14
+# Gün 14
 
 ## Error Handling
 
-JavaScript is a loosely-typed language. Some times you will get a runtime error when you try to access an undefined variable or call undefined function etc.
+JavaScript geniş yazılmış bir dildir. Bazı zamanlar, tanımsız bir değişkene erişmeye veya tanımsız bir işlevi çağırmaya çalıştığınızda bir çalışma zamanı hatası alırsınız.
 
-JavaScript similar to python or Java provides an error-handling mechanism to catch runtime errors using try-catch-finally block.
+JavaScript, Python veya Java'ya benzer, try-catch-finally bloğunu kullanarak çalışma zamanı hatalarını yakalamak için bir hata işleme mekanizması sağlar.
 
 ```js
 try {
-  // code that may throw an error
+  // hata verilebilicek kod
 } catch (err) {
-  // code to be executed if an error occurs
+  // bir hata oluşursa çalıştırılacak kod
 } finally {
-  // code to be executed regardless of an error occurs or not
+  // bir hatanın oluşup oluşmadığına bakılmaksızın yürütülecek kod
 }
 ```
 
-**try**: wrap suspicious code that may throw an error in try block.The try statement allows us to define a block of code to be tested for errors while it is being executed.
+**try**: try bloğunda hata oluşturabilecek kodu yazın. try ifadesi, yürütülürken hatalar için test edilecek bir kod bloğu tanımlamamızı sağlar.
 
-**catch**: write code to do something in catch block when an error occurs. The catch block can have parameters that will give you error information. Catch block is used to log an error or display specific messages to the user.
+**catch**: Bir hata oluştuğunda catch bloğunda bir şeyler yapmak için kod yazın. Catch bloğu, size hata bilgisi verecek parametrelere sahip olabilir. Yakalama bloğu, bir hatayı günlüğe kaydetmek veya kullanıcıya belirli mesajları görüntülemek için kullanılır.
 
-**finally**: finally block will always be executed regardless of the occurrence of an error. The finally block can be used to complete the remaining task or reset variables that might have changed before error occurred in try block.
+**finally**: finally bloğu, bir hata oluşmasından bağımsız olarak her zaman yürütülür. finally bloğu, kalan görevi tamamlamak veya try bloğunda hata oluşmadan önce değişmiş olabilecek değişkenleri sıfırlamak için kullanılabilir.
 
-**Example:**
+**Örnek:**
 
 ```js
 try {
@@ -83,7 +83,7 @@ ReferenceError: fistName is not defined
 In any case it  will be executed
 ```
 
-The catch block take a parameter. It is common to pass e, err or error as a parameter to the catch block. This parameter is an object and it has name and message keys. Lets use the name and message.
+Catch bloğu bir parametre alır. Catch bloğuna parametre olarak e, err veya error iletmek yaygındır. Bu parametre bir nesnedir ve isim ve mesaj anahtarlarına sahiptir. Adı ve mesajı kullanalım.
 
 ```js
 try {
@@ -103,7 +103,7 @@ Error message fistName is not defined
 In any case I will be executed
 ```
 
-throw: the throw statement allows us to create a custom error. We can through a string, number, boolean or an object. Use the throw statement to throw an exception. When you throw an exception, expression specifies the value of the exception. Each of the following throws an exception:
+throw: throw ifadesi özel bir hata oluşturmamıza izin verir. Bir dize, sayı, boolean veya bir nesne aracılığıyla yapabiliriz. Bir istisna atmak için throw ifadesini kullanın. Bir throw exception yazdığınızda, expression specifies değerini belirtir. Aşağıdakilerin her biri throw exception atar:
 
 ```js
 throw 'Error2' // generates an exception with a string value
@@ -131,7 +131,7 @@ throwErrorExampleFun()
 
 ### Error Types
 
-- ReferenceError: An illegal reference has occurred. A ReferenceError is thrown if we use a variable that has not been declared.
+- ReferenceError: Geçersiz bir referans oluşturur. Tanımlanmamış bir değişken kullanırsak bir ReferenceError atılır.
 
 ```js
 let firstName = 'Asabeneh'
@@ -145,7 +145,7 @@ Uncaught ReferenceError: lastName is not defined
     at <anonymous>:2:35
 ```
 
-- SyntaxError: A syntax error has occurred
+- SyntaxError: Bir syntax(sözdizim) hatası oluşturur.
 
 ```js
 let square = 2 x 2
@@ -158,7 +158,7 @@ console.log('Hello, world")
 Uncaught SyntaxError: Unexpected identifier
 ```
 
-- TypeError: A type error has occurred
+- TypeError: Bir type hatası oluşturur
 
 ```js
 let num = 10
@@ -170,24 +170,24 @@ Uncaught TypeError: num.toLowerCase is not a function
     at <anonymous>:2:17
 ```
 
-These are some of the common error you may face when you write a code. Understanding errors can help you to know what mistakes you made and it will help you to debug your code fast.
+Bunlar, kod yazarken karşılaşabileceğiniz yaygın hatalardan bazılarıdır. Hataları anlamak, hangi hataları yaptığınızı bilmenize yardımcı olabilir ve kodunuzda hızlı bir şekilde hata ayıklamanıza yardımcı olur.
 
-🌕 You are flawless. Now, you knew how to handle errors and you can write robust application which handle unexpected user inputs. You have just completed day 14 challenges and you are 14 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 Kusursuzsun. Artık hataların nasıl ele alınacağını biliyorsunuz ve beklenmeyen kullanıcı girdilerini işleyen sağlam bir uygulama yazabilirsiniz. 14. gün zorluklarını yeni tamamladınız ve mükemmelliğe giden yolda 14 adım öndesiniz. Şimdi beyniniz ve kasınız için bazı egzersizler yapın.
 
-## Exercises
+## Egzersizler
 
-### Exercises:Level 1
+### Egzersiz:Seviye 1
 
-Practice
+Pratik
 
-### Exercises: Level 2
+### Egzersiz: Seviye 2
 
-Practice
+Pratik
 
-### Exercises:Level
+### Egzersiz: Seviye 3
 
-Practice
+Pratik
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 TEBRİKLER ! 🎉
 
-[<< Day 13](../13_Day_Console_object_methods/13_day_console_object_methods.md) | [Day 15>>](../15_Day_Classes/15_day_classes.md)
+[<< Gün 13](../13_Day_Console_object_methods/13_day_console_object_methods.md) | [Gün 15>>](../15_Day_Classes/15_day_classes.md)
