@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>
+            30DaysOfJavaScript:DOM Day 2
+        </title>
+    </head>
+    <body>
+        <div>
+            <h1 style="font-size: 45px"> W O R L D   C O U N T R I E S   L I S T </h1>
+        </div>
+
+        <div>
+            <h3 style="font-size: 20px"> Total Number of countries: 193</h3>
+        </div>
+
+        <div>
+            <h2  style="font-size: 15px"> 30DaysOfJavaScript:DOM-Day-2 </h2>
+        </div>
+
+        <div>
+            <h2 style="font-size: 15px"> Author: Suvrat Jain </h2>
+        </div>
+
+        <div id="wrapper" style="padding: 10px; max-width: 100%;max-height: 100%" >
+
+        </div>
+       <script src="./countries.js"> </script>
+        <script>
+                const h1 = document.querySelector('h1')
+                h1.style.display = 'flex'
+                h1.style.justifyContent = 'center'
+
+                const h3 = document.querySelector('h3')
+                h3.style.display = 'flex'
+                h3.style.justifyContent = 'center'
+                h3.style.margin = '-35px'
+
+                const h2 = document.querySelectorAll('h2')
+                h2[0].style.display = 'flex'
+                h2[0].style.justifyContent = 'center'
+                h2[1].style.display = 'flex'
+                h2[1].style.justifyContent = 'center'
+                h2[0].style.margin = '35px'
+                h2[1].style.margin = '-35px'
+                
+                
+          
+                const div = document.getElementById('wrapper')
+                for(let i = 0; i<countries.length;i++) {
+                const newdiv = document.createElement('div')
+                newdiv.textContent = countries[i]
+                
+                newdiv.style.boxShadow = '0px 0px 6px #D3D3D3'
+                newdiv.style.borderRadius = '2px'
+                newdiv.style.padding = '30px'
+                newdiv.style.margin = '7px'
+                div.style.margin = '40px'
+                newdiv.style.fontWeight = 'bold'
+                newdiv.style.fontFamily = 'jokerman'
+                newdiv.style.width = '70px'
+                newdiv.style.height = '80px'
+                div.style.display = 'flex'
+                newdiv.style.alignItems = 'center'
+                div.style.justifyContent = 'center'
+                newdiv.style.display = 'flex'
+                newdiv.style.justifyContent = 'center'
+                // newdiv.style.flexDirection = 'row'
+                // newdiv.style.flexWrap = 'wrap'
+                div.style.flexDirection = 'row'
+                div.style.flexWrap = 'wrap'
+                div.appendChild(newdiv)
+                }
+                //console.log(div)
+
+           
+        </script>
+    </body>
+</html>
