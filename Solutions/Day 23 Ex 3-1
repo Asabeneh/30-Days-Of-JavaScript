@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            30DaysOfJavaScript: DOM Day 3
+        </title>
+    </head>
+    <body>
+        <div>
+        <h1 style="color:green; text-align: center; font-family: 'Courier New', Courier, monospace;">Number Generator</h1>
+    </div>
+    <div>
+        <h2 style="color:black; text-align:center; font-family:'Courier New', Courier, monospace; margin: -20px; font-size: 18px;"> 30DaysOfJavaScript: DOM Day 3</h2>
+    </div>
+    <div>
+        <h3 style="color:black; text-align:center; font-family:'Courier New', Courier, monospace; font-size:16px; margin: 20px;">Author: Suvrat Jain</h3>
+    </div>
+    <div style="text-align: center;">
+        <p style="font-size: 10px; margin-right:330px;"></p>
+        <h5 style="font-size: 10px; margin-right:300px"></h5>
+        <input type="text" placeholder="Generate more numbers" style="width: 500px; height: 25px; border-color: green; border-style: solid; display: flex; justify-content: center;" id="kartik"/>
+        <button style="margin-left:10px; padding: 8px; background-color: green; color: white;">Generate Number</button>
+        
+    </div>
+    
+    <script>
+        const h5 = document.querySelector('h5')
+        const input = document.getElementById('kartik')
+        const button = document.querySelector('button')
+        const isPrime = (number)=>{
+                let isPrime = true;
+                
+                // check if number is greater than 1
+                 if (number > 1) {
+
+                    // looping through 2 to number-1
+                    for (let i = 2; i < number; i++) {
+                        if (number % i == 0) {
+                            return false;
+                            break;
+                        }
+                    }
+                    return true;
+                }
+                else{
+                    return false;
+                }
+                }
+                const p = document.querySelector('p')     
+               
+               function blur(m) {
+                console.log(true)
+                input.addEventListener('blur', () => {            
+                    if(m === "") {     
+                  p.textContent = 'Enter number on the input field. Could not generate numbers. Please try again.'
+                  p.style.color = 'red'
+                    }
+                    else {
+                        p.textContent = 'plz work'
+                    }
+                })
+               }
+            button.addEventListener('click', () => {   
+            let m = input.value   
+            console.log( typeof m)
+
+            if(input.value === "") {
+               blur(m)
+            }
+            button.addEventListener('keypress', (m) => {
+
+                for(let i = 0; i < m.toString().length; i++) {
+                    let j = String(m)[i]
+                    // console.log(j)
+                    if(j.keyCode >= 65 && j.keyCode <=122) {
+                        continue
+                    }
+                else {
+                    input.addEventListener('blur', () => {
+                    p.textContent = 'bish its wrong'
+                    p.style.color = 'red'
+                })}
+                }
+            })
+            const mainDiv = document.createElement('div')
+            for (let i = 0 ; i<input.value; i++) {
+            const subDiv = document.createElement('div')
+                const subDiv1 = document.createElement('div')
+                subDiv1.textContent = i
+                subDiv.appendChild(subDiv1)
+                subDiv.style.display = 'flex'
+                subDiv.style.justifyContent = 'center'
+                subDiv1.style.padding = '10px'
+                subDiv.style.backgroundColor = 'green'
+                subDiv.style.margin = '2px'
+                subDiv.style.width = '115px'
+                subDiv.style.textAlign = 'center'
+                mainDiv.style.display = 'flex'
+                mainDiv.style.justifyContent = 'center'
+                mainDiv.style.marginLeft = '300px'
+                mainDiv.style.marginRight = '300px'
+                // mainDiv.style.width = '100px'
+                mainDiv.style.flexDirection = 'row'
+                mainDiv.style.flexWrap = 'wrap'
+                mainDiv.appendChild(subDiv)
+                document.body.appendChild(mainDiv)
+                if (i %2 === 0) {
+                    subDiv.style.backgroundColor = 'green'
+                    subDiv.style.fontFamily = 'castellar'
+                }
+                if (i %2 ===1){
+                    subDiv.style.backgroundColor = 'gold'
+                    subDiv.style.fontFamily = 'agency fb'
+                }
+
+                if(isPrime(i)){
+                    subDiv.style.backgroundColor = 'red'
+                    subDiv.style.fontFamily = 'jokerman'
+                }
+            }
+        
+        }) 
+    
+        
+    </script>
+    </body>
+</html>
