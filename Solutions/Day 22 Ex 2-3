@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 30DaysOfJavaScript DOM Day 2-3</title>
+    </head>
+    <body>
+
+        <script src="./info.js"></script>
+        <script>
+            function randomColor() {
+                var randomColor = Math.floor(Math.random()*16777215).toString(16);
+                h2.style.color = "#"+randomColor     
+            }
+            function color() {
+                var randomColor = Math.floor(Math.random()*16777223).toString(16)
+                h4.style.padding = '5px'
+                
+                h4.style.backgroundColor = '#'+randomColor 
+            }
+
+            const month= ["January","February","March","April","May","June","July",
+            "August","September","October","November","December"];
+
+            const divTop = document.createElement('div')
+            const h1 = document.createElement('div')
+            h1.textContent = 'Asabeneh Yetayeh Challenges in'
+            h1.style.fontSize = '45px'
+            h1.style.display = 'flex'
+            divTop.style.flexDirection = 'row'
+            setInterval(randomColor, 1000)
+
+            const h2 = document.createElement('div')
+            h2.textContent = '2020'
+            h2.style.fontSize = '100px'
+           
+            h2.style.display = 'flex'
+            divTop.style.columnGap = '55px'
+            h2.style.margin = '-50px'
+            divTop.style.marginTop = '50px'
+            divTop.style.display = 'flex'
+            divTop.style.justifyContent = 'center'
+            
+            h2.style.fontWeight = 'bold'
+            divTop.appendChild(h1)
+            divTop.appendChild(h2)
+            h1.style.margin = '20px'
+            document.body.appendChild(divTop)
+
+            
+            const h3 = document.createElement('div')
+            h3.textContent = '30DaysOfJavaScript Challenge'
+            h3.style.display = 'flex'
+            h3.style.justifyContent = 'center'
+            h3.style.fontSize = '30px'
+            h3.style.textDecoration = 'underline'
+            
+            document.body.appendChild(h3)
+
+            const newdiv = document.createElement('div')
+            const h4 = document.createElement('div')
+            const date = new Date()
+            h4.textContent = `${month[date.getMonth()]} 0${date.getDay()}, ${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
+            
+            h4.style.fontSize = '20px'
+            setInterval(color, 1000)
+            h4.style.display = 'flex'
+            h4.style.justifyContent = 'center'
+            h4.style.width = '250px'
+            newdiv.appendChild(h4)
+            newdiv.style.display = 'flex'
+            newdiv.style.justifyContent = 'center'
+            newdiv.style.margin = '20px'
+            document.body.appendChild(newdiv)
+
+            const newSub = document.createElement('div') // Main div to contain the child columns
+
+            // 30 Days of Python div
+            const subh9 = document.createElement('div')
+            const drop = document.createElement('details')
+            const sum = document.createElement('summary')
+            for (let i = 0 ;i<asabenehChallenges2020.challenges[0].topics.length;i++) {
+                let subP = document.createElement('p')
+                subP.textContent = asabenehChallenges2020.challenges[0].topics[i]
+                subP.style.margin = '2px'
+                subP.style.textIndent = '12px'
+                drop.appendChild(subP)         
+            }
+            subh9.appendChild(drop)
+            const newsubh1 = document.createElement('div')
+            const subh1 = document.createElement('div')
+            const done = document.createElement('div')
+            subh1.textContent = '30 Days Of Python'
+            newsubh1.style.backgroundColor = 'green'
+            subh1.style.padding = '15px'
+            done.textContent = 'Done'
+            newsubh1.style.display = 'flex'
+            newsubh1.style.justifyContent = 'space-between'
+            done.style.padding = '15px'
+            newsubh1.style.width = '830px'
+            newsubh1.style.margin = '2px'
+            newSub.style.alignItems = 'center'
+            subh9.style.display = 'flex'
+            subh9.style.justifyContent = 'center'
+            subh9.style.padding = '15px'
+            subh9.style.cursor = 'pointer'
+            sum.textContent = 'Python'
+            drop.appendChild(sum)
+            newsubh1.appendChild(subh1)
+            newsubh1.appendChild(subh9)
+            newsubh1.appendChild(done)
+            newSub.appendChild(newsubh1)
+
+            // 30 Days of JavaScript
+            const subh10 = document.createElement('div')
+            const drop1 = document.createElement('details')
+            const sum1 = document.createElement('summary')
+            for (let i = 0 ;i<asabenehChallenges2020.challenges[1].topics.length;i++) {
+                let subP = document.createElement('p')
+                subP.textContent = asabenehChallenges2020.challenges[1].topics[i]
+                subP.style.margin = '2px'
+                subP.style.textIndent = '12px'
+                drop1.appendChild(subP)         
+            }
+            subh10.appendChild(drop1)
+            const newsubh2 = document.createElement('div')
+            const subh2 = document.createElement('div')
+            const done1 = document.createElement('div')
+            subh2.textContent = '30 Days Of JavaScript'
+            newsubh2.style.backgroundColor = 'gold'
+            subh2.style.padding = '15px'
+            done1.textContent = 'Done'
+            newsubh2.style.display = 'flex'
+            newsubh2.style.justifyContent = 'space-between'
+            done1.style.padding = '15px'
+            newsubh2.style.width = '830px'
+            newsubh2.style.margin = '2px'
+            newSub.style.display = 'flex'
+            newSub.style.flexDirection = 'column'
+            subh10.style.display = 'flex'
+            subh10.style.justifyContent = 'center'
+            subh10.style.padding = '15px'
+            subh10.style.cursor = 'pointer'
+            sum1.textContent = 'JavaScript'
+            drop1.appendChild(sum1)
+            newsubh2.appendChild(subh2)
+            newsubh2.appendChild(subh10)
+            newsubh2.appendChild(done1)
+            newSub.appendChild(newsubh2)
+            
+            // 30 Days of HTML & CSS
+            const subh11 = document.createElement('div')
+            const drop2 = document.createElement('details')
+            const sum2 = document.createElement('summary')
+            for (let i = 0 ;i<asabenehChallenges2020.challenges[2].topics.length;i++) {
+                let subP = document.createElement('p')
+                subP.textContent = asabenehChallenges2020.challenges[2].topics[i]
+                subP.style.margin = '2px'
+                subP.style.textIndent = '12px'
+                drop2.appendChild(subP)         
+            }
+            subh11.appendChild(drop2)
+            const newsubh3 = document.createElement('div')
+            const subh3 = document.createElement('div')
+            const done2 = document.createElement('div')
+            subh3.textContent = '30 Days of HTML & CSS'
+            newsubh3.style.backgroundColor = 'tomato'
+            subh3.style.padding = '15px'
+            done2.textContent = 'Coming'
+            newsubh3.style.display = 'flex'
+            newsubh3.style.justifyContent = 'space-between'
+            done2.style.padding = '15px'
+            newsubh3.style.width = '830px'
+            newsubh3.style.margin = '2px'
+            subh11.style.display = 'flex'
+            subh11.style.justifyContent = 'center'
+            subh11.style.padding = '15px'
+            subh11.style.cursor = 'pointer'
+            sum2.textContent = 'HTML & CSS'
+            drop2.appendChild(sum2)
+            newsubh3.appendChild(subh3)
+            newsubh3.appendChild(subh11)
+            newsubh3.appendChild(done2)
+            newSub.appendChild(newsubh3)
+
+            // 30 Days of React
+            const subh12 = document.createElement('div')
+            const drop3 = document.createElement('details')
+            const sum3 = document.createElement('summary')
+            for (let i = 0 ;i<asabenehChallenges2020.challenges[3].topics.length;i++) {
+                let subP = document.createElement('p')
+                subP.textContent = asabenehChallenges2020.challenges[3].topics[i]
+                subP.style.margin = '2px'
+                subP.style.textIndent = '12px'
+                drop3.appendChild(subP)         
+            }
+            subh12.appendChild(drop3)
+            const newsubh4 = document.createElement('div')
+            const subh4 = document.createElement('div')
+            const done3 = document.createElement('div')
+            subh4.textContent = '30 Days of React'
+            newsubh4.style.backgroundColor = 'tomato'
+            subh4.style.padding = '15px'
+            done3.textContent = 'Coming'
+            newsubh4.style.display = 'flex'
+            newsubh4.style.justifyContent = 'space-between'
+            done3.style.padding = '15px'
+            newsubh4.style.width = '830px'
+            newsubh4.style.margin = '2px'
+            subh12.style.display = 'flex'
+            subh12.style.justifyContent = 'center'
+            subh12.style.padding = '15px'
+            subh12.style.cursor = 'pointer'
+            sum3.textContent = 'React'
+            drop3.appendChild(sum3)
+            newsubh4.appendChild(subh4)
+            newsubh4.appendChild(subh12)
+            newsubh4.appendChild(done3)
+            newSub.appendChild(newsubh4)
+
+            // 30 Days of ReactNative
+            const subh13 = document.createElement('div')
+            const drop4 = document.createElement('details')
+            const sum4 = document.createElement('summary')
+            for (let i = 0 ;i<asabenehChallenges2020.challenges[4].topics.length;i++) {
+                let subP = document.createElement('p')
+                subP.textContent = asabenehChallenges2020.challenges[4].topics[i]
+                subP.style.margin = '2px'
+                subP.style.textIndent = '12px'
+                drop4.appendChild(subP)         
+            }
+            subh13.appendChild(drop4)
+            const newsubh5 = document.createElement('div')
+            const subh5 = document.createElement('div')
+            const done4 = document.createElement('div')
+            subh5.textContent = '30 Days of ReactNative'
+            newsubh5.style.backgroundColor = 'tomato'
+            subh5.style.padding = '15px'
+            done4.textContent = 'Coming'
+            newsubh5.style.display = 'flex'
+            newsubh5.style.justifyContent = 'space-between'
+            done4.style.padding = '15px'
+            newsubh5.style.width = '830px'
+            newsubh5.style.margin = '2px'
+            subh13.style.display = 'flex'
+            subh13.style.justifyContent = 'center'
+            subh13.style.padding = '15px'
+            subh13.style.cursor = 'pointer'
+            sum4.textContent = 'ReactNative'
+            drop4.appendChild(sum4)
+            newsubh5.appendChild(subh5)
+            newsubh5.appendChild(subh13)
+            newsubh5.appendChild(done4)
+            newSub.appendChild(newsubh5)
+            
+            // 30 Days of Fullstack
+            const subh14 = document.createElement('div')
+            const drop5 = document.createElement('details')
+            const sum5 = document.createElement('summary')
+            for (let i = 0 ;i<asabenehChallenges2020.challenges[5].topics.length;i++) {
+                let subP = document.createElement('p')
+                subP.textContent = asabenehChallenges2020.challenges[5].topics[i]
+                subP.style.margin = '2px'
+                subP.style.textIndent = '12px'
+                drop5.appendChild(subP)         
+            }
+            subh14.appendChild(drop5)
+            const newsubh6 = document.createElement('div')
+            const subh6 = document.createElement('div')
+            const done5 = document.createElement('div')
+            subh6.textContent = '30 Days of Fullstack'
+            newsubh6.style.backgroundColor = 'tomato'
+            subh6.style.padding = '15px'
+            done5.textContent = 'Coming'
+            newsubh6.style.display = 'flex'
+            newsubh6.style.justifyContent = 'space-between'
+            done5.style.padding = '15px'
+            newsubh6.style.width = '830px'
+            newsubh6.style.margin = '2px'
+            subh14.style.display = 'flex'
+            subh14.style.justifyContent = 'center'
+            subh14.style.padding = '15px'
+            subh14.style.cursor = 'pointer'
+            sum5.textContent = 'Fullstack'
+            drop5.appendChild(sum5)
+            newsubh6.appendChild(subh6)
+            newsubh6.appendChild(subh14)
+            newsubh6.appendChild(done5)
+            newSub.appendChild(newsubh6)
+
+            // 30 Days of Data Analysis
+            const subh15 = document.createElement('div')
+            const drop6 = document.createElement('details')
+            const sum6 = document.createElement('summary')
+            for (let i = 0 ;i<asabenehChallenges2020.challenges[6].topics.length;i++) {
+                let subP = document.createElement('p')
+                subP.textContent = asabenehChallenges2020.challenges[6].topics[i]
+                subP.style.margin = '2px'
+                subP.style.textIndent = '12px'
+                drop6.appendChild(subP)         
+            }
+            subh15.appendChild(drop6)
+            const newsubh7 = document.createElement('div')
+            const subh7 = document.createElement('div')
+            const done7 = document.createElement('div')
+            subh7.textContent = '30 Days of Data Analysis'
+            newsubh7.style.backgroundColor = 'tomato'
+            subh7.style.padding = '15px'
+            done7.textContent = 'Coming'
+            newsubh7.style.display = 'flex'
+            newsubh7.style.justifyContent = 'space-between'
+            done7.style.padding = '15px'
+            newsubh7.style.width = '830px'
+            newsubh7.style.margin = '2px'
+            subh15.style.display = 'flex'
+            subh15.style.justifyContent = 'center'
+            subh15.style.padding = '15px'
+            subh15.style.cursor = 'pointer'
+            sum6.textContent = 'Data Analysis'
+            drop6.appendChild(sum6)
+            newsubh7.appendChild(subh7)
+            newsubh7.appendChild(subh15)
+            newsubh7.appendChild(done7)
+            newSub.appendChild(newsubh7)
+
+            // 30 Days of Machine Learning
+            const subh16 = document.createElement('div')
+            const drop7 = document.createElement('details')
+            const sum7 = document.createElement('summary')
+            for (let i = 0 ;i<asabenehChallenges2020.challenges[7].topics.length;i++) {
+                let subP = document.createElement('p')
+                subP.textContent = asabenehChallenges2020.challenges[7].topics[i]
+                subP.style.margin = '2px'
+                subP.style.textIndent = '12px'
+                drop7.appendChild(subP)         
+            }
+            subh16.appendChild(drop7)
+            const newsubh8 = document.createElement('div')
+            const subh8 = document.createElement('div')
+            const done8 = document.createElement('div')
+            subh8.textContent = '30 Days of Machine Learning'
+            newsubh8.style.backgroundColor = 'tomato'
+            subh8.style.padding = '15px'
+            done8.textContent = 'Coming'
+            newsubh8.style.display = 'flex'
+            newsubh8.style.justifyContent = 'space-between'
+            done8.style.padding = '15px'
+            newsubh8.style.width = '830px'
+            newsubh8.style.margin = '2px'   
+            subh16.style.display = 'flex'
+            subh16.style.justifyContent = 'center'
+            subh16.style.padding = '15px'
+            subh16.style.cursor = 'pointer'
+            sum7.textContent = 'Machine Learning'
+            drop7.appendChild(sum7)
+            newsubh8.appendChild(subh8)
+            newsubh8.appendChild(subh16)
+            newsubh8.appendChild(done8)
+            newSub.appendChild(newsubh8)
+            document.body.appendChild(newSub)
+
+            // Creating a lower section of the page
+            // Displaying a name for no reason
+            const text = document.createElement('div')
+            text.textContent = 'Asabeneh Yetayeh'
+            text.style.display = 'flex'
+            text.style.justifyContent = 'center'
+            text.style.fontSize = '45px'
+            text.style.margin = '10px'
+            document.body.appendChild(text)
+
+            // Displaying logos
+            // LinkedIn Image
+            const mainImage = document.createElement('div')
+            const img1 = document.createElement('div')
+            const LinkedIn = document.createElement('IMG')
+            LinkedIn.src = 'https://www.edigitalagency.com.au/wp-content/uploads/new-linkedin-logo-white-black-png-800x800.png'
+            LinkedIn.style.height = '30px'
+            mainImage.style.display = 'flex'
+            mainImage.style.justifyContent = 'center'
+            mainImage.style.flexDirection = 'row'
+            LinkedIn.onclick = ing => {
+                window.open( 'https://www.linkedin.com/in/suvrat-jain-a47056102/')
+            }
+             LinkedIn.style.cursor = 'pointer'
+            
+            // LinkedIn.href = 'https://www.linkedin.com/in/suvrat-jain-a47056102/'
+            img1.appendChild(LinkedIn)
+            mainImage.appendChild(img1)
+
+            // Twitter Image
+            const img = document.createElement('div')
+            const twitter = document.createElement('IMG')
+            twitter.src = 'https://cdn-icons-png.flaticon.com/512/60/60580.png'
+            twitter.style.height = '30px'
+            img.style.marginLeft = '3px'
+            twitter.onclick = a => {
+                window.open('https://twitter.com/SuvratJ16746676')
+            }
+            twitter.style.cursor = 'pointer'
+            img.appendChild(twitter)
+            mainImage.appendChild(img)
+
+            // GitHub Image
+            const img2 = document.createElement('div')
+            const GitHub = document.createElement('IMG')
+            GitHub.src = 'https://www.logo.wine/a/logo/GitHub/GitHub-Icon-White-Dark-Background-Logo.wine.svg'
+            GitHub.style.height = '30px'
+            mainImage.style.display = 'flex'
+            mainImage.style.justifyContent = 'center'
+            mainImage.style.flexDirection = 'row'
+            img2.style.marginLeft = '3px'
+            GitHub.onclick = img => {
+                window.open('https://github.com/beautify-web/js-beautify')
+            }
+            GitHub.style.cursor = 'pointer'
+            img2.appendChild(GitHub)
+            mainImage.appendChild(img2)
+            document.body.appendChild(mainImage)
+
+            // A boring paragraph
+            const mainPDiv = document.createElement('div')
+            const pDiv = document.createElement('div')
+            const p = document.createElement('p')
+            p.textContent = asabenehChallenges2020.author.bio
+            mainPDiv.style.display = 'flex'
+            mainPDiv.style.justifyContent = 'center'
+            pDiv.style.margin = '30px'
+            p.style.textAlign = 'center'
+            pDiv.style.width = '645px'
+            pDiv.appendChild(p)
+            mainPDiv.appendChild(pDiv)
+            document.body.appendChild(mainPDiv)
+            
+            // Putting title
+          
+          
+           
+          
+            
+
+        </script>
+    </body>
+</html>
