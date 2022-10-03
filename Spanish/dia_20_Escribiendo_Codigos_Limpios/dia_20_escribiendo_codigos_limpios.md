@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 19](../dia_19_Closures/dia_19_closures.md) | [Día 21 >>](..)
+[<< Día 19](../dia_19_Closures/dia_19_closures.md) | [Día 21 >>](../dia_21_DOM/dia_21_dom.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_20.png)
 
@@ -373,4 +373,4 @@ Sea cual sea la guía de estilo que sigas, sé coherente. Sigue algunos paradigm
 
 🎉 ¡FELICITACIONES! 🎉
 
-[<< Día 19](../dia_19_Closures/dia_19_closures.md) | [Día 21 >>](..)
+[<< Día 19](../dia_19_Closures/dia_19_closures.md) | [Día 21 >>](../dia_21_DOM/dia_21_dom.md)
