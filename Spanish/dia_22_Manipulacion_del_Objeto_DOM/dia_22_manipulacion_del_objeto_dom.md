@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 21](../dia_21_DOM/dia_21_dom.md) | [Día 23 >>](..)
+[<< Día 21](../dia_21_DOM/dia_21_dom.md) | [Día 23 >>](../dia_23_Event_Listeners/dia_23_event_listeners.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_22.png)
 
@@ -221,4 +221,4 @@ Compruebe los requisitos de este proyecto a partir de ambas imágenes (jpg y gif
 
 🎉 ¡FELICITACIONES! 🎉
 
-[<< Día 21](../dia_21_DOM/dia_21_dom.md) | [Día 23 >>](..)
+[<< Día 21](../dia_21_DOM/dia_21_dom.md) | [Día 23 >>](../dia_23_Event_Listeners/dia_23_event_listeners.md)
