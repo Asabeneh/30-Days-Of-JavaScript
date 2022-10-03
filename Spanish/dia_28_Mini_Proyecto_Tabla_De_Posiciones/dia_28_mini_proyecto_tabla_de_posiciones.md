@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript: Tabla de Posiciones</h1>
+  <h1> 30 Días de JavaScript: Tabla de Posiciones</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 27](../dia_27_Mini_Proyecto_Portafolio/27_Day_Mini_project_portfolio.md) | [Día 29>>](..)
+[<< Día 27](../dia_27_Mini_Proyecto_Portafolio/27_Day_Mini_project_portfolio.md) | [Día 29>>](../dia_29_Mini_Proyecto_Animacion_De_Caracteres/dia_29_mini_proyecto_animacion_de_caracteres.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_28.png)
 
@@ -34,4 +34,4 @@
 
 🎉 ¡FELICITACIONES! 🎉
 
-[<< Día 27](../dia_27_Mini_Proyecto_Portafolio/27_Day_Mini_project_portfolio.md) | [Día 29>>](..)
+[<< Día 27](../dia_27_Mini_Proyecto_Portafolio/27_Day_Mini_project_portfolio.md) | [Día 29>>](../dia_29_Mini_Proyecto_Animacion_De_Caracteres/dia_29_mini_proyecto_animacion_de_caracteres.md)
