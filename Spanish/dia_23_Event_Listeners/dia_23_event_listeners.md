@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 22](../dia_22_Manipulacion_del_Objeto_DOM/dia_22_manipulacion_del_objeto_dom.md) | [Día 24 >>](..)
+[<< Día 22](../dia_22_Manipulacion_del_Objeto_DOM/dia_22_manipulacion_del_objeto_dom.md) | [Día 24 >>](../dia_24_Proyecto_Sistema_Solar/dia_24_proyecto_sistema_solar.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_23.png)
 
@@ -331,4 +331,4 @@ Podemos acceder a todos los números de teclas del teclado utilizando diferentes
 
 🎉 ¡FELICITACIONES! 🎉
 
-[<< Día 22](../dia_22_Manipulacion_del_Objeto_DOM/dia_22_manipulacion_del_objeto_dom.md) | [Día 24 >>](..)
+[<< Día 22](../dia_22_Manipulacion_del_Objeto_DOM/dia_22_manipulacion_del_objeto_dom.md) | [Día 24 >>](../dia_24_Proyecto_Sistema_Solar/dia_24_proyecto_sistema_solar.md)
