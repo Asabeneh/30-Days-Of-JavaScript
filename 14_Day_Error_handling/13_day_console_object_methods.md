@@ -82,9 +82,7 @@ ReferenceError: fistName is not defined
     at <anonymous>:4:20
 In any case it  will be executed
 ```
-
 The catch block take a parameter. It is common to pass e, err or error as a parameter to the catch block. This parameter is an object and it has name and message keys. Lets use the name and message.
-
 ```js
 try {
   let lastName = 'Yetayeh'
@@ -96,22 +94,18 @@ try {
   console.log('In any case I will be executed')
 }
 ```
-
 ```sh
 Name of the error ReferenceError
 Error message fistName is not defined
 In any case I will be executed
 ```
-
 throw: the throw statement allows us to create a custom error. We can through a string, number, boolean or an object. Use the throw statement to throw an exception. When you throw an exception, expression specifies the value of the exception. Each of the following throws an exception:
-
 ```js
 throw 'Error2' // generates an exception with a string value
 throw 42 // generates an exception with the value 42
 throw true // generates an exception with the value true
 throw new Error('Required') // generates an error object with the message of Required
 ```
-
 ```js
 const throwErrorExampleFun = () => {
   let message
@@ -128,66 +122,43 @@ const throwErrorExampleFun = () => {
 }
 throwErrorExampleFun()
 ```
-
 ### Error Types
-
 - ReferenceError: An illegal reference has occurred. A ReferenceError is thrown if we use a variable that has not been declared.
-
 ```js
 let firstName = 'Asabeneh'
 let fullName = firstName + ' ' + lastName
-
 console.log(fullName)
 ```
-
 ```sh
 Uncaught ReferenceError: lastName is not defined
     at <anonymous>:2:35
 ```
-
 - SyntaxError: A syntax error has occurred
-
 ```js
 let square = 2 x 2
 console.log(square)
-
 console.log('Hello, world")
 ```
-
 ```sh
 Uncaught SyntaxError: Unexpected identifier
 ```
-
 - TypeError: A type error has occurred
-
 ```js
 let num = 10
 console.log(num.toLowerCase())
 ```
-
 ```sh
 Uncaught TypeError: num.toLowerCase is not a function
     at <anonymous>:2:17
 ```
-
 These are some of the common error you may face when you write a code. Understanding errors can help you to know what mistakes you made and it will help you to debug your code fast.
-
 🌕 You are flawless. Now, you knew how to handle errors and you can write robust application which handle unexpected user inputs. You have just completed day 14 challenges and you are 14 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
-
 ## Exercises
-
 ### Exercises:Level 1
-
 Practice
-
 ### Exercises: Level 2
-
 Practice
-
 ### Exercises:Level
-
 Practice
-
 🎉 CONGRATULATIONS ! 🎉
-
 [<< Day 13](../13_Day_Console_object_methods/13_day_console_object_methods.md) | [Day 15>>](../15_Day_Classes/15_day_classes.md)
