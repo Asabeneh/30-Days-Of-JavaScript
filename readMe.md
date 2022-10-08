@@ -1,37 +1,37 @@
 # 30 Days Of JavaScript
 
-| # Day |                                                                       Topics                                                                        |
-| ----- | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 01    |                                                             [Introduction](./readMe.md)                                                             |
-| 02    |                                               [Data Types](./02_Day_Data_types/02_day_data_types.md)                                                |
-| 03    |                             [Booleans, Operators, Date](./03_Day_Booleans_operators_date/03_booleans_operators_date.md)                             |
-| 04    |                                            [Conditionals](./04_Day_Conditionals/04_day_conditionals.md)                                             |
-| 05    |                                                     [Arrays](./05_Day_Arrays/05_day_arrays.md)                                                      |
-| 06    |                                                       [Loops](./06_Day_Loops/06_day_loops.md)                                                       |
-| 07    |                                                 [Functions](./07_Day_Functions/07_day_functions.md)                                                 |
-| 08    |                                                    [Objects](./08_Day_Objects/08_day_objects.md)                                                    |
-| 09    |                             [Higher Order Functions](./09_Day_Higher_order_functions/09_day_higher_order_functions.md)                              |
-| 10    |                                           [Sets and Maps](./10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md)                                           |
-| 11    |                      [Destructuring and Spreading](./11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)                      |
-| 12    |                                  [Regular Expressions](./12_Day_Regular_expressions/12_day_regular_expressions.md)                                  |
-| 13    |                             [Console Object Methods](./13_Day_Console_object_methods/13_day_console_object_methods.md)                              |
-| 14    |                                         [Error Handling](./14_Day_Error_handling/14_day_error_handling.md)                                          |
-| 15    |                                                    [Classes](./15_Day_Classes/15_day_classes.md)                                                    |
-| 16    |                                                        [JSON](./16_Day_JSON/16_day_json.md)                                                         |
-| 17    |                                            [Web Storages](./17_Day_Web_storages/17_day_web_storages.md)                                             |
-| 18    |                                                  [Promises](./18_Day_Promises/18_day_promises.md)                                                   |
-| 19    |                                                   [Closure](./19_Day_Closures/19_day_closures.md)                                                   |
-| 20    |                                  [Writing Clean Code](./20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)                                   |
-| 21    |                                                          [DOM](./21_Day_DOM/21_day_dom.md)                                                          |
-| 22    |                            [Manipulating DOM Object](./22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md)                            |
-| 23    |                                        [Event Listeners](./23_Day_Event_listeners/23_day_event_listeners.md)                                        |
-| 24    |                             [Mini Project: Solar System](./24_Day_Project_solar_system/24_day_project_solar_system.md)                              |
+| # Day |                                                                       Topics                                                                       |
+| ----- | :------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 01    |                                                            [Introduction](./readMe.md)                                                             |
+| 02    |                                               [Data Types](./02_Day_Data_types/02_day_data_types.md)                                               |
+| 03    |                            [Booleans, Operators, Date](./03_Day_Booleans_operators_date/03_booleans_operators_date.md)                             |
+| 04    |                                            [Conditionals](./04_Day_Conditionals/04_day_conditionals.md)                                            |
+| 05    |                                                     [Arrays](./05_Day_Arrays/05_day_arrays.md)                                                     |
+| 06    |                                                      [Loops](./06_Day_Loops/06_day_loops.md)                                                       |
+| 07    |                                                [Functions](./07_Day_Functions/07_day_functions.md)                                                 |
+| 08    |                                                   [Objects](./08_Day_Objects/08_day_objects.md)                                                    |
+| 09    |                             [Higher Order Functions](./09_Day_Higher_order_functions/09_day_higher_order_functions.md)                             |
+| 10    |                                          [Sets and Maps](./10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md)                                           |
+| 11    |                     [Destructuring and Spreading](./11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)                      |
+| 12    |                                 [Regular Expressions](./12_Day_Regular_expressions/12_day_regular_expressions.md)                                  |
+| 13    |                             [Console Object Methods](./13_Day_Console_object_methods/13_day_console_object_methods.md)                             |
+| 14    |                                         [Error Handling](./14_Day_Error_handling/14_day_error_handling.md)                                         |
+| 15    |                                                   [Classes](./15_Day_Classes/15_day_classes.md)                                                    |
+| 16    |                                                        [JSON](./16_Day_JSON/16_day_json.md)                                                        |
+| 17    |                                            [Web Storages](./17_Day_Web_storages/17_day_web_storages.md)                                            |
+| 18    |                                                  [Promises](./18_Day_Promises/18_day_promises.md)                                                  |
+| 19    |                                                  [Closure](./19_Day_Closures/19_day_closures.md)                                                   |
+| 20    |                                  [Writing Clean Code](./20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)                                  |
+| 21    |                                                         [DOM](./21_Day_DOM/21_day_dom.md)                                                          |
+| 22    |                           [Manipulating DOM Object](./22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md)                            |
+| 23    |                                       [Event Listeners](./23_Day_Event_listeners/23_day_event_listeners.md)                                        |
+| 24    |                             [Mini Project: Solar System](./24_Day_Project_solar_system/24_day_project_solar_system.md)                             |
 | 25    | [Mini Project: World Countries Data Visualization 1](./25_Day_World_countries_data_visualization_1/25_day_world_countries_data_visualization_1.md) |
 | 26    | [Mini Project: World Countries Data Visualization 2](./26_Day_World_countries_data_visualization_2/26_day_world_countries_data_visualization_2.md) |
-| 27    |                             [Mini Project: Portfolio](./27_Day_Mini_project_portfolio/27_day_mini_project_portfolio.md)                             |
-| 28    |                          [Mini Project: Leaderboard](./28_Day_Mini_project_leaderboard/28_day_mini_project_leaderboard.md)                          |
-| 29    |             [Mini Project: Animating characters](./29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)             |
-| 30    |                                     [Final Projects](./30_Day_Mini_project_final/30_day_mini_project_final.md)                                      |
+| 27    |                            [Mini Project: Portfolio](./27_Day_Mini_project_portfolio/27_day_mini_project_portfolio.md)                             |
+| 28    |                         [Mini Project: Leaderboard](./28_Day_Mini_project_leaderboard/28_day_mini_project_leaderboard.md)                          |
+| 29    |            [Mini Project: Animating characters](./29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)            |
+| 30    |                                     [Final Projects](./30_Day_Mini_project_final/30_day_mini_project_final.md)                                     |
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 
@@ -66,7 +66,6 @@
 🇻🇳 [Vietnamese](./Vietnamese/README.md)
 🇵🇱 [Polish](./Polish/readMe.md)
 
-
 </div>
 
 </div>
@@ -78,36 +77,36 @@
 
 - [30 Days Of JavaScript](#30-days-of-javascript)
 - [📔 Day 1](#-day-1)
-	- [Introduction](#introduction)
-	- [Requirements](#requirements)
-	- [Setup](#setup)
-		- [Install Node.js](#install-nodejs)
-		- [Browser](#browser)
-			- [Installing Google Chrome](#installing-google-chrome)
-			- [Opening Google Chrome Console](#opening-google-chrome-console)
-			- [Writing Code on Browser Console](#writing-code-on-browser-console)
-				- [Console.log](#consolelog)
-				- [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
-				- [Comments](#comments)
-				- [Syntax](#syntax)
-			- [Arithmetics](#arithmetics)
-		- [Code Editor](#code-editor)
-			- [Installing Visual Studio Code](#installing-visual-studio-code)
-			- [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
-	- [Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
-		- [Inline Script](#inline-script)
-		- [Internal Script](#internal-script)
-		- [External Script](#external-script)
-		- [Multiple External Scripts](#multiple-external-scripts)
-	- [Introduction to Data types](#introduction-to-data-types)
-		- [Numbers](#numbers)
-		- [Strings](#strings)
-		- [Booleans](#booleans)
-		- [Undefined](#undefined)
-		- [Null](#null)
-	- [Checking Data Types](#checking-data-types)
-	- [Comments Again](#comments-again)
-	- [Variables](#variables)
+  - [Introduction](#introduction)
+  - [Requirements](#requirements)
+  - [Setup](#setup)
+    - [Install Node.js](#install-nodejs)
+    - [Browser](#browser)
+      - [Installing Google Chrome](#installing-google-chrome)
+      - [Opening Google Chrome Console](#opening-google-chrome-console)
+      - [Writing Code on Browser Console](#writing-code-on-browser-console)
+        - [Console.log](#consolelog)
+        - [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
+        - [Comments](#comments)
+        - [Syntax](#syntax)
+      - [Arithmetics](#arithmetics)
+    - [Code Editor](#code-editor)
+      - [Installing Visual Studio Code](#installing-visual-studio-code)
+      - [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
+  - [Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
+    - [Inline Script](#inline-script)
+    - [Internal Script](#internal-script)
+    - [External Script](#external-script)
+    - [Multiple External Scripts](#multiple-external-scripts)
+  - [Introduction to Data types](#introduction-to-data-types)
+    - [Numbers](#numbers)
+    - [Strings](#strings)
+    - [Booleans](#booleans)
+    - [Undefined](#undefined)
+    - [Null](#null)
+  - [Checking Data Types](#checking-data-types)
+  - [Comments Again](#comments-again)
+  - [Variables](#variables)
 - [💻 Day 1: Exercises](#-day-1-exercises)
 
 # 📔 Day 1
@@ -207,7 +206,7 @@ Ctl+Shift+I
 To write our first JavaScript code, we used a built-in function **console.log()**. We passed an argument as input data, and the function displays the output. We passed `'Hello, World'` as input data or argument in the console.log() function.
 
 ```js
-console.log('Hello, World!')
+console.log("Hello, World!");
 ```
 
 ##### Console.log with Multiple Arguments
@@ -217,9 +216,9 @@ The **`console.log()`** function can take multiple parameters separated by comma
 ![console log multiple arguments](./images/console_log_multipl_arguments.png)
 
 ```js
-console.log('Hello', 'World', '!')
-console.log('HAPPY', 'NEW', 'YEAR', 2020)
-console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
+console.log("Hello", "World", "!");
+console.log("HAPPY", "NEW", "YEAR", 2020);
+console.log("Welcome", "to", 30, "Days", "Of", "JavaScript");
 ```
 
 As you can see from the snippet code above, _`console.log()`_ can take multiple arguments.
@@ -233,8 +232,8 @@ We can add comments to our code. Comments are very important to make code more r
 **Example: Single Line Comment**
 
 ```js
-// This is the first comment  
-// This is the second comment  
+// This is the first comment
+// This is the second comment
 // I am a single line comment
 ```
 
@@ -257,17 +256,17 @@ Programming languages are similar to human languages. English or many other lang
 I made a deliberate mistake. As a result, the console raises syntax errors. Actually, the syntax is very informative. It informs what type of mistake was made. By reading the error feedback guideline, we can correct the syntax and fix the problem. The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
 
 ```js
-console.log('Hello, World!')
-console.log('Hello, World!')
+console.log("Hello, World!");
+console.log("Hello, World!");
 ```
 
 So far, we saw how to display text using the _`console.log()`_. If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or a backtick.
 **Example:**
 
 ```js
-console.log('Hello, World!')
-console.log("Hello, World!")
-console.log(`Hello, World!`)
+console.log("Hello, World!");
+console.log("Hello, World!");
+console.log(`Hello, World!`);
 ```
 
 #### Arithmetics
@@ -279,12 +278,12 @@ It is possible to write JavaScript code on Google Chrome console can directly wi
 ![Arithmetic](images/arithmetic.png)
 
 ```js
-console.log(2 + 3) // Addition
-console.log(3 - 2) // Subtraction
-console.log(2 * 3) // Multiplication
-console.log(3 / 2) // Division
-console.log(3 % 2) // Modulus - finding remainder
-console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
+console.log(2 + 3); // Addition
+console.log(3 - 2); // Subtraction
+console.log(2 * 3); // Multiplication
+console.log(3 / 2); // Division
+console.log(3 % 2); // Modulus - finding remainder
+console.log(3 ** 2); // Exponentiation 3 ** 2 == 3 * 3
 ```
 
 ### Code Editor
@@ -357,7 +356,7 @@ First, let us write on the head part of the page.
   <head>
     <title>30DaysOfScript:Internal Script</title>
     <script>
-      console.log('Welcome to 30DaysOfJavaScript')
+      console.log("Welcome to 30DaysOfJavaScript");
     </script>
   </head>
   <body></body>
@@ -375,7 +374,7 @@ This is how we write an internal script most of the time. Writing the JavaScript
   <body>
     <button onclick="alert('Welcome to 30DaysOfJavaScript!');">Click Me</button>
     <script>
-      console.log('Welcome to 30DaysOfJavaScript')
+      console.log("Welcome to 30DaysOfJavaScript");
     </script>
   </body>
 </html>
@@ -391,7 +390,7 @@ Similar to the internal script, the external script link can be on the header or
 First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
 
 ```js
-console.log('Welcome to 30DaysOfJavaScript')
+console.log("Welcome to 30DaysOfJavaScript");
 ```
 
 External scripts in the _head_:
@@ -416,7 +415,7 @@ External scripts in the _body_:
     <title>30DaysOfJavaScript:External script</title>
   </head>
   <body>
-    <!-- JavaScript external link could be in the header or in the body --> 
+    <!-- JavaScript external link could be in the header or in the body -->
     <!-- Before the closing tag of the body is the recommended place to put the external JavaScript script -->
     <script src="introduction.js"></script>
   </body>
@@ -431,7 +430,7 @@ We can also link multiple external JavaScript files to a web page.
 Create a `helloworld.js` file inside the 30DaysOfJS folder and write the following code.
 
 ```js
-console.log('Hello, World!')
+console.log("Hello, World!");
 ```
 
 ```html
@@ -471,16 +470,15 @@ A collection of one or more characters between two single quotes, double quotes,
 **Example:**
 
 ```js
-'a'
-'Asabeneh'
-"Asabeneh"
-'Finland'
-'JavaScript is a beautiful programming language'
-'I love teaching'
-'I hope you are enjoying the first day'
-`We can also create a string using a backtick`
-'A string could be just as small as one character or as big as many pages'
-'Any data type under a single quote, double quote or backtick is a string'
+"a";
+"Asabeneh";
+"Asabeneh";
+"Finland";
+"JavaScript is a beautiful programming language";
+"I love teaching";
+"I hope you are enjoying the first day"`We can also create a string using a backtick`;
+("A string could be just as small as one character or as big as many pages");
+("Any data type under a single quote, double quote or backtick is a string");
 ```
 
 ### Booleans
@@ -492,8 +490,8 @@ A boolean data type is either a true or false value.
 **Example:**
 
 ```js
-true // if the light is on, the value is true
-false // if the light is off, the value is false
+true; // if the light is on, the value is true
+false; // if the light is off, the value is false
 ```
 
 ### Undefined
@@ -501,8 +499,8 @@ false // if the light is off, the value is false
 In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
 
 ```js
-let firstName
-console.log(firstName) // undefined, because it is not assigned to a value yet
+let firstName;
+console.log(firstName); // undefined, because it is not assigned to a value yet
 ```
 
 ### Null
@@ -510,7 +508,7 @@ console.log(firstName) // undefined, because it is not assigned to a value yet
 Null in JavaScript means an empty value.
 
 ```js
-let emptyValue = null
+let emptyValue = null;
 ```
 
 ## Checking Data Types
@@ -518,11 +516,11 @@ let emptyValue = null
 To check the data type of a certain variable, we use the **typeof** operator. See the following example.
 
 ```js
-console.log(typeof 'Asabeneh') // string
-console.log(typeof 5) // number
-console.log(typeof true) // boolean
-console.log(typeof null) // object type
-console.log(typeof undefined) // undefined
+console.log(typeof "Asabeneh"); // string
+console.log(typeof 5); // number
+console.log(typeof true); // boolean
+console.log(typeof null); // object type
+console.log(typeof undefined); // undefined
 ```
 
 ## Comments Again
@@ -566,25 +564,25 @@ A valid JavaScript variable name must follow the following rules:
 The following are examples of valid JavaScript variables.
 
 ```js
-firstName
-lastName
-country
-city
-capitalCity
-age
-isMarried
+firstName;
+lastName;
+country;
+city;
+capitalCity;
+age;
+isMarried;
 
-first_name
-last_name
-is_married
-capital_city
+first_name;
+last_name;
+is_married;
+capital_city;
 
-num1
-num_1
-_num_1
-$num1
-year2020
-year_2020
+num1;
+num_1;
+_num_1;
+$num1;
+year2020;
+year_2020;
 ```
 
 The first and second variables on the list follows the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables(camelWithOneHump). We use CamelCase(CamelWithTwoHump) to declare classes, we will discuss about classes and objects in other section.
@@ -601,23 +599,23 @@ Let us declare variables with different data types. To declare a variable, we ne
 
 ```js
 // Syntax
-let nameOfVariable = value
+let nameOfVariable = value;
 ```
 
-The nameOfVriable is the name that stores different data of value. See below for detail examples.
+The nameOfVariable is the name that stores different data of value. See below for detail examples.
 
 **Examples of declared variables**
 
 ```js
 // Declaring different variables of different data types
-let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
-let country = 'Finland' // country
-let city = 'Helsinki' // capital city
-let age = 100 // age in years
-let isMarried = true
+let firstName = "Asabeneh"; // first name of a person
+let lastName = "Yetayeh"; // last name of a person
+let country = "Finland"; // country
+let city = "Helsinki"; // capital city
+let age = 100; // age in years
+let isMarried = true;
 
-console.log(firstName, lastName, country, city, age, isMarried)
+console.log(firstName, lastName, country, city, age, isMarried);
 ```
 
 ```sh
@@ -626,11 +624,11 @@ Asabeneh Yetayeh Finland Helsinki 100 true
 
 ```js
 // Declaring variables with number values
-let age = 100 // age in years
-const gravity = 9.81 // earth gravity  in m/s2
-const boilingPoint = 100 // water boiling point, temperature in °C
-const PI = 3.14 // geometrical constant
-console.log(gravity, boilingPoint, PI)
+let age = 100; // age in years
+const gravity = 9.81; // earth gravity  in m/s2
+const boilingPoint = 100; // water boiling point, temperature in °C
+const PI = 3.14; // geometrical constant
+console.log(gravity, boilingPoint, PI);
 ```
 
 ```sh
@@ -639,8 +637,10 @@ console.log(gravity, boilingPoint, PI)
 
 ```js
 // Variables can also be declaring in one line separated by comma, however I recommend to use a seperate line to make code more readble
-let name = 'Asabeneh', job = 'teacher', live = 'Finland'
-console.log(name, job, live)
+let name = "Asabeneh",
+  job = "teacher",
+  live = "Finland";
+console.log(name, job, live);
 ```
 
 ```sh
