@@ -263,7 +263,7 @@ Set(3) {3, 4, 5}
 
 ### Difference of sets
 
-To find an the difference between two sets can be achieved using filter. Lets find the different of set A and set B (A \ B)
+To find an the difference between two sets can be achieved using filter. Lets find the difference of set A and set B (A \ B)
 
 ```js
 let a = [1, 2, 3, 4, 5]

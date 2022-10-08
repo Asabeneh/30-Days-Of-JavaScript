@@ -184,7 +184,7 @@ Node Express MongoDB
 
 ### Destructuring Object
 
-When we destructure the name of the variable we use to destructure should be exactly the same as the key or property of the object. See the example below.
+When we destructure the name of the variable our destructure should be exactly the same as the key or property of the object. See the example below.
 
 ```js
 const rectangle = {
