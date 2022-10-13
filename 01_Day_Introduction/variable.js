@@ -14,4 +14,4 @@ const PI = 3.14; // geometrical constant
 // Variables can also be declaring in one line separated by comma
 let name = "Ashu", //name of a person
   job = "teacher",
-  live = "India"; 'Finland'
+  live = "India"; 
