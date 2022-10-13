@@ -8,7 +8,6 @@ let age = 100                 // age in years
 let isMarried = true
 
 // Declaring variables with number values
-
 // We can use keywords like var,let and const to declare variables
 // let allows one time declaration and multiple time value assignment 
 // const allows one time declarartion as well as assignment
