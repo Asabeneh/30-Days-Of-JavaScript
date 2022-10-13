@@ -8,10 +8,11 @@ let age = 100                 // age in years
 let isMarried = true
 
 // Declaring variables with number values
+
 // We can use keywords like var,let and const to declare variables
 // let allows one time declaration and multiple time value assignment 
 // const allows one time declarartion as well as assignment
-// var allows multiple declaration and assignment.
+// var allows multiple declaration and assignment
 
 const gravity = 9.81         // earth gravity  in m/s2
 const boilingPoint = 100     // water boiling point, temperature in oC
