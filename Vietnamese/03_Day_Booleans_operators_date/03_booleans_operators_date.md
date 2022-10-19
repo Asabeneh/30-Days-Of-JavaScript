@@ -7,57 +7,58 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Author:
+  <sub>Tác giả:
   <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> January, 2020</small>
+  <small> Tháng 1, 2020</small>
   </sub>
 </div>
 
-[<< Day 2](../02_Day_Data_types/02_day_data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
+[<< Ngày 2](../02_Day_Data_types/02_day_data_types.md) | [Ngày 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
 
-![Thirty Days Of JavaScript](../images/banners/day_1_3.png)
+![Thirty Days Of JavaScript](../../images/banners/day_1_3.png)
 
-- [📔 Day 3](#-day-3)
+- [📔 Ngày 3](#-day-3)
 	- [Booleans](#booleans)
-		- [Truthy values](#truthy-values)
-		- [Falsy values](#falsy-values)
-	- [Undefined](#undefined)
-	- [Null](#null)
-	- [Operators](#operators)
-		- [Assignment operators](#assignment-operators)
-		- [Arithmetic Operators](#arithmetic-operators)
-		- [Comparison Operators](#comparison-operators)
-		- [Logical Operators](#logical-operators)
-		- [Increment Operator](#increment-operator)
-		- [Decrement Operator](#decrement-operator)
-		- [Ternary Operators](#ternary-operators)
-		- [Operator Precedence](#operator-precedence)
-	- [Window Methods](#window-methods)
-		- [Window alert() method](#window-alert-method)
-		- [Window prompt() method](#window-prompt-method)
-		- [Window confirm() method](#window-confirm-method)
-	- [Date Object](#date-object)
-		- [Creating a time object](#creating-a-time-object)
-		- [Getting full year](#getting-full-year)
-		- [Getting month](#getting-month)
-		- [Getting date](#getting-date)
-		- [Getting day](#getting-day)
+		- [Giá trị đúng](#truthy-values)
+		- [Giá trị sai](#falsy-values)
+	- [Không xác định](#undefined)
+	- [Giá trị không tồn tại](#null)
+	- [Toán tử](#operators)
+		- [Toán tử gán](#assignment-operators)
+		- [Toán tử số học](#arithmetic-operators)
+		- [Toán tử so sánh](#comparison-operators)
+		- [Toán tử logic](#logical-operators)
+		- [Toán tử tăng](#increment-operator)
+		- [Toán tử giảm](#decrement-operator)
+		- [Toán tử điều kiện](#ternary-operators)
+		- [Độ ưu tiên của toán tử](#operator-precedence)
+	- [Phương thức cửa sổ](#window-methods)
+		- [Phương thức alert()](#window-alert-method)
+		- [Phương thức prompt()](#window-prompt-method)
+		- [Phương thức confirm()](#window-confirm-method)
+	- [Đối tượng thời gian](#date-object)
+		- [Tạo một đối tượng thời gian](#creating-a-time-object)
+		- [Lấy giá trị năm](#getting-full-year)
+		- [Lấy giá trị tháng](#getting-month)
+		- [Lấy giá trị ngày](#getting-date)
+		- [Lấy giá trị thứ trong tuần](#getting-day)
 		- [Getting hours](#getting-hours)
 		- [Getting minutes](#getting-minutes)
 		- [Getting seconds](#getting-seconds)
 		- [Getting time](#getting-time)
-	- [💻 Day 3: Exercises](#-day-3-exercises)
-		- [Exercises: Level 1](#exercises-level-1)
-		- [Exercises: Level 2](#exercises-level-2)
-		- [Exercises: Level 3](#exercises-level-3)
+	- [💻 Ngày 3: Bài tập](#-day-3-exercises)
+		- [Bài tập: Cấp độ 1](#exercises-level-1)
+		- [Bài tập: Cấp độ 2](#exercises-level-2)
+		- [Bài tập: Cấp độ 3](#exercises-level-3)
 
 # 📔 Day 3
 
 ## Booleans
 
-A boolean data type represents one of the two values:_true_ or _false_. Boolean value is either true or false. The use of these data types will be clear when you start the comparison operator. Any comparisons return a boolean value which is either true or false.
 
-**Example: Boolean Values**
+Dữ liệu boolean thể hiện một trong hai giá trị: True (đúng) hoặc False (sai). Giá trị của boolean sẽ là đúng (True) hoặc sai (False). Việc sử dụng các kiểu dữ liệu này sẽ rõ ràng khi bạn sử dụng toán tử so sánh. Bất kì phương thức so sánh nào đều sẽ trả về giá trị boolean đúng hoặc sai. 
+
+**Ví dụ: Giá Trị Boolean**
 
 ```js
 let isLightOn = true
@@ -68,9 +69,9 @@ let truValue = 4 > 3    // true
 let falseValue = 4 < 3  // false
 ```
 
-We agreed that boolean values are either true or false.
+Chúng ta có thể thấy được boolean chỉ có giá trị đúng hoặc sai.
 
-### Truthy values
+### Giá trị đúng
 
 - All numbers(positive and negative) are truthy except zero
 - All strings are truthy except an empty string ('')
