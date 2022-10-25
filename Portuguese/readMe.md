@@ -37,7 +37,7 @@
 
 <div>
 <small>Dê suporte ao <strong>Autor</strong> para criar mais materiais educacionais</small> <br />  
-<a href = "https://www.paypal.me/asabeneh"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
+<a href = "https://www.paypal.me/asabeneh"><img src='/images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
 </div>
 
 <div align="center">
@@ -74,7 +74,7 @@
 
 [Dia 2 >>](./02_Day_Data_types/02_day_data_types.md)
 
-![Trinta Dias de JavaScript](./images/day_1_1.png)
+![Trinta Dias de JavaScript](/images/day_1_1.png)
 
 - [30 dias de JavaScript](#30-days-of-javascript)
 - [📔 Dia 1](#-day-1)
@@ -139,11 +139,11 @@ Eu acredito que voce tem a motivação e o forte desejo de ser um desenvolvedor,
 
 Você pode não precisar do Node.js agora mas você precisará mais tarde. Instalação do [node.js](https://nodejs.org/en/).
 
-![Node download](images/download_node.png)
+![Node download](/images/download_node.png)
 
 Depois do download click duplo e intalar
 
-![Instalação node](images/install_node.png)
+![Instalação node](/images/install_node.png)
 
 Nós podemos verificar se o Node está instalador na nossa máquina local abrindo nosso terminal do dispositivo ou prompt de comando.
 
@@ -162,13 +162,13 @@ Existe muitos navegadores por ai, Entento, Eu fortemente recomento o Google Chro
 
 Instalar o [Google Chrome](https://www.google.com.br/chrome/) se você não tem um ainda. Nós podemos escrever um pequeno código de JavaScript no console do browser, mas nós não usamos o console do navegador para desenvolver aplicações.
 
-![Google Chrome](images/google_chrome.png)
+![Google Chrome](/images/google_chrome.png)
 
 #### Abrindo o Google Chrome Console
 
 Você pode abrir o Google Chrome console por um ou outro clicando nos 3 pontos no topo do lado direito do navegador, selecionando _Mais ferramentas -> Ferramenta para desenvolvedores ou usando o atalho do teclado. Eu prefiro os atalhos.
 
-![Abrindo o chrome](images/opening_developer_tool.png)
+![Abrindo o chrome](/images/opening_developer_tool.png)
 
 Para abrir o console do Chrome usando o atalho do teclado.
 
