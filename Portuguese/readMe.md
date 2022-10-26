@@ -180,20 +180,16 @@ Windows/Linux:
 Ctl+Shift+J
 ```
 
-Windows/Linux:
-Ctl+Shift+J
-```
+![Abrindo o console](images/opening_chrome_console_shortcut.png)
 
-![Opening console](images/opening_chrome_console_shortcut.png)
+Depois de você abrir o console do Google Chrome, tente explorar os botões marcados. Nós vamos passar a maior parte do tempo no Console. O Console é o lugar onde vai seu código de JavaScript. O Console do Google Chrome V8 engine muda seu codigo de JavaScript para código de máquina.
+Vamos escrever códigos de JavaScript no Google Chome console: 
 
-After you open the Google Chrome console, try to explore the marked buttons. We will spend most of the time on the Console. The Console is the place where your JavaScript code goes. The Google Console V8 engine changes your JavaScript code to machine code.
-Let us write a JavaScript code on the Google Chrome console:
+![Escrevendo codigo no console](./images/js_code_on_chrome_console.png)
 
-![write code on console](./images/js_code_on_chrome_console.png)
+#### Escrevendo Código no console do Navegador
 
-#### Writing Code on Browser Console
-
-We can write any JavaScript code on the Google console or any browser console. However, for this challenge, we only focus on Google Chrome console. Open the console using:
+Nós podemos escrever qualquer código de JavaScript no console do Google Chrome ou qualquer outro console de navegador, para este desafio, nós vamos focar no Console do Google Chrome. Abra o Console usando: 
 
 ```sh
 Mac
@@ -205,27 +201,34 @@ Ctl+Shift+I
 
 ##### Console.log
 
-To write our first JavaScript code, we used a built-in function **console.log()**. We passed an argument as input data, and the function displays the output. We passed `'Hello, World'` as input data or argument in the console.log() function.
+Para escrever nosso primeiro código em JavaScript, vamos usar uma função já construída chamada **console.log()**. Nós passamos um argumento como dados de input, e a função mostra o output. Nós passamos `'Olá, Mundo!'` como dados de input ou argumento na função console.log(). 
 
 ```js
-console.log('Hello, World!')
+console.log('Olá, Mundo!')
 ```
 
-##### Console.log with Multiple Arguments
+##### Console.log com Múltiplos Argumentos
 
-The **`console.log()`** function can take multiple parameters separated by commas. The syntax looks like as follows:**`console.log(param1, param2, param3)`**
+A funçao **`console.log()`** pode receber múltiplos parâmetros separados por vírgulas. A sintaxe é similar ao seguinte modo:**`console.log(param1, param2, param3)`** 
 
-![console log multiple arguments](./images/console_log_multipl_arguments.png)
+![console.log com Múltiplos Argumentos](./images/console_log_multipl_arguments.png)
 
 ```js
-console.log('Hello', 'World', '!')
-console.log('HAPPY', 'NEW', 'YEAR', 2020)
-console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
+console.log('Olá', 'Mundo', '!')
+console.log('Feliz', 'Ano', 'Novo', 2020)
+console.log('Bem vindo', 'aos', 30, 'Dias', 'de', 'JavaScript')
 ```
 
-As you can see from the snippet code above, _`console.log()`_ can take multiple arguments.
+Como você pode ver pelo trecho de código acima,  _`console.log()`_ pode receber múltiplos argumentos.
 
-Congratulations! You wrote your first JavaScript code using _`console.log()`_.
+Parabéns! Você escreveu seu primeiro código de JavaScript usando _`console.log()`_.
+
+##### Comentários
+
+Nós podemos adicionar comentários para nosso código. Comentários sao importantes para fazer o codigo ser fácil de ler e deixar observações no nosso código. JavaScript nao executa o partes com comentário no nosso código. No JavaScript, qualquer linha de texto começando com // em JavaScript é um comentário, e q
+
+
+
 
 ##### Comments
 
