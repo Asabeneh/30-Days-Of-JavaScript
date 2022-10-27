@@ -15,7 +15,7 @@
 | 11    |                      [Destructuring and Spreading](./11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)                      |
 | 12    |                                  [Expressões Regulares](./12_Day_Regular_expressions/12_day_regular_expressions.md)                                  |
 | 13    |                             [Método Console Objeto](./13_Day_Console_object_methods/13_day_console_object_methods.md)                              |
-| 14    |                                         [Tratamento de Erros](./14_Day_Error_handling/14_day_error_handling.md)                                          |
+| 14    |                                         [Tratamento de Errors](./14_Day_Error_handling/14_day_error_handling.md)                                          |
 | 15    |                                                    [Classes](./15_Day_Classes/15_day_classes.md)                                                    |
 | 16    |                                                        [JSON](./16_Day_JSON/16_day_json.md)                                                         |
 | 17    |                                            [Armazenamento na Web](./17_Day_Web_storages/17_day_web_storages.md)                                             |
@@ -225,56 +225,49 @@ Parabéns! Você escreveu seu primeiro código de JavaScript usando _`console.lo
 
 ##### Comentários
 
-Nós podemos adicionar comentários para nosso código. Comentários sao importantes para fazer o codigo ser fácil de ler e deixar observações no nosso código. JavaScript nao executa o partes com comentário no nosso código. No JavaScript, qualquer linha de texto começando com // em JavaScript é um comentário, e q
+Nós podemos adicionar comentários para nosso código. Comentários são importantes para facilitar a leitura do código e deixar observações. O JavaScript não executa as partes com comentário no nosso código. No JavaScript, qualquer linha de texto começando com // é um comentário, e tudo anexo como isto `//` tambem é um comentário.
 
-
-
-
-##### Comments
-
-We can add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this `//` is also a comment.
-
-**Example: Single Line Comment**
+**Exemplo: Comentário de linha única**
 
 ```js
-// This is the first comment  
-// This is the second comment  
-// I am a single line comment
+// Este é o primeiro comentário  
+// Este é o segundo comentário
+// Eu sou um comentário de linha única
 ```
 
-**Example: Multiline Comment**
+**Exemplo: Comentários Várias Linhas**
 
 ```js
 /*
-This is a multiline comment  
- Multiline comments can take multiple lines  
- JavaScript is the language of the web  
+  Isto é um comentário de várias linhas  
+  Várias linhas de comentários.
+  JavaScript é a Linguagem da Web
  */
 ```
+##### Sintaxe
 
-##### Syntax
-
-Programming languages are similar to human languages. English or many other language uses words, phrases, sentences, compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language. Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+Linguagens de programação são similares com a linguagem humana. Portugês ou qualquer outra linguagem usa palavras, frases, orações, períodos, e outras mais para criar uma mensagem com significado. A definição em Português de sintaxe é _ Estrutura essencial para que frases, orações e períodos façam sentido e sejam de fácil compreensão por parte do leitor_. A definição técnica é a estrutura de declarações em uma linguagem de computador. Linguagens de programação tem sintaxes. JavaScript é uma linguagem de programação como outras linguagens de programação tem sua própria sintaxe. Se nós nao escrevermos uma sintaxe que JavaScript entenda, diferentes tipos de errors aparecerá. Nós iremos explorar diferentes tipos de errors no JavaScript depois. Por enquanto, vamos ver sintaxes de errors.
 
 ![Error](images/raising_syntax_error.png)
 
-I made a deliberate mistake. As a result, the console raises syntax errors. Actually, the syntax is very informative. It informs what type of mistake was made. By reading the error feedback guideline, we can correct the syntax and fix the problem. The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
+Eu fiz uma confusão proposital. Como resultado, criou vários errors. Na realidade, a sintaxe é muito informativa. Informa quais tipos de errors foi feito. lendo  as mensagens do feedback de error, nós podemos corrigir a sintaxe e resolver o problema. O processo de identificar e remover errors de um programa é chamado de Debugging. Vamos resolver os errors:
 
 ```js
-console.log('Hello, World!')
-console.log('Hello, World!')
+console.log('Olá, Mundo!')
+console.log('Olá, Mundo!')
 ```
 
-So far, we saw how to display text using the _`console.log()`_. If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or a backtick.
-**Example:**
+Até agora, nós vimos como exibir texto usando o _`console.log()`_. Se estamos imprimindo texto ou string usando _`console.log()`_, o texto tem que estar dentro de uma aspa simples e aspas duplas, ou crase.
+
+**Exemplo:**
 
 ```js
-console.log('Hello, World!')
-console.log("Hello, World!")
+console.log('Olá, Mundo!')
+console.log("Olá, Mundo!")
 console.log(`Hello, World!`)
 ```
 
-#### Arithmetics
+#### Aritimética
 
 Now, let us practice more writing JavaScript codes using _`console.log()`_ on Google Chrome console for number data types.
 In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
