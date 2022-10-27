@@ -767,7 +767,7 @@ Let us extract numbers from text using a regular expression. This is not the reg
 
 ```js
 let txt = 'In 2019, I ran 30 Days of Python. Now, in 2020 I am super exited to start this challenge'
-let regEx = /\d+/
+let regEx = /\d/g
 
 // d with escape character means d not a normal d instead acts a digit
 // + means one or more digit numbers,
