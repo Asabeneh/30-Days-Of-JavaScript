@@ -56,7 +56,7 @@
 
 <div>
 
-🇬🇧 [English](./readMe.md)
+🇬🇧 [English](../readMe.md)
 🇪🇸 [Spanish](./Spanish/readme.md)
 🇮🇹 [Italian](./Italian/readMe.md)
 🇷🇺 [Russian](./RU/README.md)
@@ -65,7 +65,7 @@
 🇰🇷 [Korean](./Korea/README.md)
 🇻🇳 [Vietnamese](./Vietnamese/README.md)
 🇵🇱 [Polish](./Polish/readMe.md)
-
+🇧🇷 [Portuguese](./readMe.md)
 
 </div>
 
@@ -201,7 +201,7 @@ Ctl+Shift+I
 
 ##### Console.log
 
-Para escrever nosso primeiro código em JavaScript, vamos usar uma função já construída chamada **console.log()**. Nós passamos um argumento como dados de input, e a função mostra o output. Nós passamos `'Olá, Mundo!'` como dados de input ou argumento na função console.log(). 
+Para escrever nosso primeiro código em JavaScript, vamos usar uma função built-it  **console.log()**. Nós passamos um argumento como dados de input, e a função mostra o output. Nós passamos `'Olá, Mundo!'` como dados de input ou argumento na função console.log(). 
 
 ```js
 console.log('Olá, Mundo!')
@@ -257,7 +257,7 @@ console.log('Olá, Mundo!')
 console.log('Olá, Mundo!')
 ```
 
-Até agora, nós vimos como exibir texto usando o _`console.log()`_. Se estamos imprimindo texto ou string usando _`console.log()`_, o texto tem que estar dentro de uma aspa simples e aspas duplas, ou crase.
+Até agora, nós vimos como exibir texto usando o _`console.log()`_. Se estamos imprimindo texto ou string usando _`console.log()`_, o texto tem que estar dentro de uma aspa simples, aspas duplas, ou crase.
 
 **Exemplo:**
 
@@ -269,36 +269,36 @@ console.log(`Hello, World!`)
 
 #### Aritimética
 
-Now, let us practice more writing JavaScript codes using _`console.log()`_ on Google Chrome console for number data types.
-In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
-It is possible to write JavaScript code on Google Chrome console can directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
+Agora, vamos praticar escrevendo mais códigos JavaScript usando _`console.log()`_ no console do Google Chrome para números e tipos de dados.
+Em adição ao texto, nós podemos tamem fazer calculos matemáticos usando javaSCript. Vamos fazer calculos simples a seguir.
+É possivel escrever códigos JavaScript no console do Google Chome diretamente sem o função **_`console.log()`_** Entretanto, está incluso nesta introdução porque maior parte deste desafio pode ocorrer no editor de texto onde o uso de funcões pode ser mantario. Você pode brincar diretamente com ins
 
 ![Arithmetic](images/arithmetic.png)
 
 ```js
-console.log(2 + 3) // Addition
-console.log(3 - 2) // Subtraction
-console.log(2 * 3) // Multiplication
-console.log(3 / 2) // Division
-console.log(3 % 2) // Modulus - finding remainder
-console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
+console.log(2 + 3) // Adição
+console.log(3 - 2) // Subtração
+console.log(2 * 3) // Muiltiplição
+console.log(3 / 2) // Divisão
+console.log(3 % 2) // Modulo - Resto da divisão
+console.log(3 ** 2) // Exponenciação 3 ** 2 == 3 * 3
 ```
 
-### Code Editor
+### Editor de Código
 
-We can write our codes on the browser console, but it won't be for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 dias de JavaScript challenge, we will be using Visual Studio Code.
+Nós podemos escrever nosso código no console do navegador. mas isso nao é usado para grandes projetos. No anbiente real de trabalho, desenvolvedores usam diferentes editores para escrever seus códigos. Neste desafio 30 dias de JavaScript, nós iremos utilizar o Visual Studio Code.
 
-#### Installing Visual Studio Code
+#### Instalando o Visual Studio Code
 
-Visual Studio Code is a very popular open-source text editor. I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
+Visual Studio Code é editor de texto open-source muito popular. Eu poderia recomendar o [download Visual Studio Code](https://code.visualstudio.com/), mas se você está familiarizado com outro editor, sinta livre para seguir oque você tem.
 
 ![Vscode](images/vscode.png)
 
-If you installed Visual Studio Code, let us start using it.
+Se você instalou o Visual Studio Code, Vamos começar usando-o.
 
-#### How to Use Visual Studio Code
+#### Como Usar Visual Studio Code
 
-Open the Visual Studio Code by double-clicking its icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
+Abra o Visual Studio Code clicando duas vezes com o mouse no ícone. Quando abrir, você terá esta interface. Tente interagir com os ícones rotulados.
 
 ![Vscode ui](./images/vscode_ui.png)
 
@@ -314,45 +314,45 @@ Open the Visual Studio Code by double-clicking its icon. When you open it, you w
 
 ![coding running](./images/launched_on_new_tab.png)
 
-## Adding JavaScript to a Web Page
+## Adicionando JavaScript Para uma Página na Web 
 
-JavaScript can be added to a web page in three different ways:
+JavaScript pode ser adicionado para uma página na internet em três diferentes maneiras:
 
-- **_Inline script_**
-- **_Internal script_**
-- **_External script_**
-- **_Multiple External scripts_**
+- **_Script em linha_**
+- **_Script Interno_**
+- **_Script Externo_**
+- **_Multiplos Scripts Externos_**
 
-The following sections show different ways of adding JavaScript code to your web page.
+As diferentes sessões mostra diferentes maneiras de adicionar códigos JavaScript para sua página na web.
 
 ### Inline Script
 
-Create a project folder on your desktop or in any location, name it 30DaysOfJS and create an **_`index.html`_** file in the project folder. Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
+Crie uma pasta do projeto no seu desktop ou em qualquer localização, nomeie de 30DaysOfJS e crie um **_`index.html`_** documento na sua pasta do projeto.
+Então copie os seguintes códigos e abra-o no navegador, por exemplo [Chrome](https://www.google.com/chrome/).
+
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfScript:Inline Script</title>
+    <title>30DaysOfScript: Script em linha</title>
   </head>
   <body>
-    <button onclick="alert('Welcome to 30DiasDeJavaScript!')">Click Me</button>
+    <button onclick="alert('Welcome to 30DaysOfScript!')">Clique</button>
   </body>
 </html>
 ```
+Agora, você escreveu seu primeiro script em linha. Nós podemos criar uma mensagem pop up usando o _`alert()`_ função built-it
 
-Now, you just wrote your first inline script. We can create a pop up alert message using the _`alert()`_ built-in function.
+### Script Interno
 
-### Internal Script
-
-The internal script can be written in the _`head`_ or the _`body`_, but it is preferred to put it on the body of the HTML document.
-First, let us write on the head part of the page.
+O script interno pode ser escrito no _`head`_ ou _`body`_, mas é preferível colocar no body do documento HTML.
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfScript:Internal Script</title>
+    <title>30DaysOfScript: Script Interno</title>
     <script>
       console.log('Welcome to 30DiasDeJavaScript')
     </script>
@@ -361,16 +361,16 @@ First, let us write on the head part of the page.
 </html>
 ```
 
-This is how we write an internal script most of the time. Writing the JavaScript code in the body section is the most preferred option. Open the browser console to see the output from the `console.log()`.
+Isto é como nós escrevemos scripts internos na maioria das vezes. Escrevemos o código de JavaScript na sessão body é a mais preferida opção. Abra o console do navegador e veja o output do `console.log()`.
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfScript:Internal Script</title>
+    <title>30DaysOfScript: Internal Script</title>
   </head>
   <body>
-    <button onclick="alert('Welcome to 30DiasDeJavaScript!');">Click Me</button>
+    <button onclick="alert('Welcome to 30DiasDeJavaScript!');">Click</button>
     <script>
       console.log('Welcome to 30DiasDeJavaScript')
     </script>
@@ -378,14 +378,14 @@ This is how we write an internal script most of the time. Writing the JavaScript
 </html>
 ```
 
-Open the browser console to see the output from the `console.log()`.
+Abra o console do navegador e veja o output do `console.log()`.
 
 ![js code from vscode](./images/js_code_vscode.png)
 
-### External Script
+### Script Externo
 
-Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
+Similar com o script interno, o link do script externo pode estar no header ou body, mas é mais indicado colocar no body do documento.
+Primeiro, Nós podemos criar Scripts externos de JavaScript com a .js extensão. Todos os arquivos terminados com a .js extensão são JavaScript documentos. Crie uma pasta nomeada Introdução.js dentro do diretório do projeto e escreva o seguinte código e copie o link do arquivo .js no bottom do body.
 
 ```js
 console.log('Welcome to 30DiasDeJavaScript')
