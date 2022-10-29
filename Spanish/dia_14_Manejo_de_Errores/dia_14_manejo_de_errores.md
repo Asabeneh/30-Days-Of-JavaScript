@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Día 13](../dia_13_Metodos_del_Objeto_Console/dia_13_metodos_del_objeto_console.md) | [Día 15>>](..)
+[<< Día 13](../dia_13_Metodos_del_Objeto_Console/dia_13_metodos_del_objeto_console.md) | [Día 15>>](../dia_15_Clases/dia_15_clases.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_14.png)
 
@@ -190,4 +190,4 @@ Practica
 
 🎉 ¡FELICITACIONES! 🎉
 
-[<< Día 13](../dia_13_Metodos_del_Objeto_Console/dia_13_metodos_del_objeto_console.md) | [Día 15>>](..)
+[<< Día 13](../dia_13_Metodos_del_Objeto_Console/dia_13_metodos_del_objeto_console.md) | [Día 15>>](../dia_15_Clases/dia_15_clases.md)

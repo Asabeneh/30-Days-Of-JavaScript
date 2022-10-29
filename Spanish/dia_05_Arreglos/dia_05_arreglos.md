@@ -778,4 +778,4 @@ const webTechs = [
 
 🎉 ¡Felicitaciones! 🎉
 
-[<< Day 4](../dia_04_Condicionales/dia_04_Condicionales.md) | [Day 6 >>](../dia_06_Bucles/dia_06_bucles.md)
+[<< Día 4](../dia_04_Condicionales/dia_04_Condicionales.md) | [Día 6 >>](../dia_06_Bucles/dia_06_bucles.md)
