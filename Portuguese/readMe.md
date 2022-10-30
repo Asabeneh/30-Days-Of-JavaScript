@@ -15,7 +15,7 @@
 | 11    |                      [Destructuring and Spreading](./11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)                      |
 | 12    |                                  [Expressões Regulares](./12_Day_Regular_expressions/12_day_regular_expressions.md)                                  |
 | 13    |                             [Método Console Objeto](./13_Day_Console_object_methods/13_day_console_object_methods.md)                              |
-| 14    |                                         [Tratamento de Erros](./14_Day_Error_handling/14_day_error_handling.md)                                          |
+| 14    |                                         [Tratamento de Errors](./14_Day_Error_handling/14_day_error_handling.md)                                          |
 | 15    |                                                    [Classes](./15_Day_Classes/15_day_classes.md)                                                    |
 | 16    |                                                        [JSON](./16_Day_JSON/16_day_json.md)                                                         |
 | 17    |                                            [Armazenamento na Web](./17_Day_Web_storages/17_day_web_storages.md)                                             |
@@ -56,16 +56,16 @@
 
 <div>
 
-🇬🇧 [English](./readMe.md)
-🇪🇸 [Spanish](./Spanish/readme.md)
-🇮🇹 [Italian](./Italian/readMe.md)
-🇷🇺 [Russian](./RU/README.md)
-🇹🇷 [Turkish](./Turkish/readMe.md)
-🇦🇿 [Azerbaijan](./Azerbaijani/readMe.md)
-🇰🇷 [Korean](./Korea/README.md)
-🇻🇳 [Vietnamese](./Vietnamese/README.md)
-🇵🇱 [Polish](./Polish/readMe.md)
-
+🇬🇧 [English](../readMe.md)
+🇪🇸 [Spanish](../Spanish/readme.md)
+🇮🇹 [Italian](../Italian/readMe.md)
+🇷🇺 [Russian](../RU/README.md)
+🇹🇷 [Turkish](../Turkish/readMe.md)
+🇦🇿 [Azerbaijan](../Azerbaijani/readMe.md)
+🇰🇷 [Korean](../Korea/README.md)
+🇻🇳 [Vietnamese](../Vietnamese/README.md)
+🇵🇱 [Polish](../Polish/readMe.md)
+🇧🇷 [Portuguese](./readMe.md)
 
 </div>
 
@@ -114,11 +114,11 @@
 
 ## Introdução
 
-**Parabéns** Em decidir participar dos 30 dias de JavaScript desafio. Neste desafio você aprenderá tudo que precisa para ser um JavaScript programador, e em general, todo o conceito de programaçao. No fim do desafio voce estará adquirindo o Certificado de conclusão dos 30DiasdeJavaScript desafio. Em caso de precisar de ajuda ou se preferir ajudar outros você pode entrar no [Grupo Telegram](https://t.me/ThirtyDaysOfJavaScript).
+**Parabéns** Em decidir de participar desafio dos 30 dias de JavaScript. Neste desafio você aprenderá tudo que precisa para ser um programador JavaScript, e em general, todo o conceito de programação. No fim do desafio voce estará adquirindo o Certificado de conclusão do desafio 30DaysOfJavaScript. Em caso de precisar de ajuda ou se preferir ajudar outros você pode entrar no [Grupo Telegram](https://t.me/ThirtyDaysOfJavaScript).
 
-**30DiasDeJavaScript** desafio é um guia tanto para iniciantes e Avançados JavaScript Desenvolvedores, Bem vindo ao JavaScript. JavaScript é a linguagem da internet. Eu me divirto em usar e ensinar JavaScript e eu acredito que voce fará tambem.
+**30DaysOfJavaScript** desafio é um guia tanto para iniciantes e Avançados JavaScript Desenvolvedores, Bem vindo ao JavaScript. JavaScript é a linguagem da internet. Eu me divirto em usar e ensinar JavaScript e eu acredito que voce fará tambem.
 
-Neste passo a passo do JavaScript Desafio, você aprenderá JavaScript, a mais popular linguagem de programação da história da humanindade.
+Neste passo a passo do desafio JavaScript, você aprenderá JavaScript, a mais popular linguagem de programação da história da humanindade.
 JavaScript é usado **_para adicionar interatividade aos websites, desenvolvimento de mobile apps, desktop aplicações, jogos_** e nos dias de hoje JavaScript pode ser usado para **_machine learning_** e **_AI_**.
 **_JavaScript (JS)_** Teve um aumento na popularidade nos últimos anos e segue como a linguagem de programação líder por seis anos consecutivos e é a linguagem de programação mais usada no GitHub
 
@@ -141,7 +141,7 @@ Você pode não precisar do Node.js agora mas você precisará mais tarde. Insta
 
 ![Node download](/images/download_node.png)
 
-Depois do download click duplo e intalar
+Depois do download click duplo no ícone e intalar
 
 ![Instalação node](/images/install_node.png)
 
@@ -180,12 +180,12 @@ Windows/Linux:
 Ctl+Shift+J
 ```
 
-![Abrindo o console](images/opening_chrome_console_shortcut.png)
+![Abrindo o console](/images/opening_chrome_console_shortcut.png)
 
 Depois de você abrir o console do Google Chrome, tente explorar os botões marcados. Nós vamos passar a maior parte do tempo no Console. O Console é o lugar onde vai seu código de JavaScript. O Console do Google Chrome V8 engine muda seu codigo de JavaScript para código de máquina.
 Vamos escrever códigos de JavaScript no Google Chome console: 
 
-![Escrevendo codigo no console](./images/js_code_on_chrome_console.png)
+![Escrevendo codigo no console](/images/js_code_on_chrome_console.png)
 
 #### Escrevendo Código no console do Navegador
 
@@ -201,7 +201,7 @@ Ctl+Shift+I
 
 ##### Console.log
 
-Para escrever nosso primeiro código em JavaScript, vamos usar uma função já construída chamada **console.log()**. Nós passamos um argumento como dados de input, e a função mostra o output. Nós passamos `'Olá, Mundo!'` como dados de input ou argumento na função console.log(). 
+Para escrever nosso primeiro código em JavaScript, vamos usar uma função built-it  **console.log()**. Nós passamos um argumento como dados de input, e a função mostra o output. Nós passamos `'Olá, Mundo!'` como dados de input ou argumento na função console.log(). 
 
 ```js
 console.log('Olá, Mundo!')
@@ -211,7 +211,7 @@ console.log('Olá, Mundo!')
 
 A funçao **`console.log()`** pode receber múltiplos parâmetros separados por vírgulas. A sintaxe é similar ao seguinte modo:**`console.log(param1, param2, param3)`** 
 
-![console.log com Múltiplos Argumentos](./images/console_log_multipl_arguments.png)
+![console.log com Múltiplos Argumentos](/images/console_log_multipl_arguments.png)
 
 ```js
 console.log('Olá', 'Mundo', '!')
@@ -225,224 +225,219 @@ Parabéns! Você escreveu seu primeiro código de JavaScript usando _`console.lo
 
 ##### Comentários
 
-Nós podemos adicionar comentários para nosso código. Comentários sao importantes para fazer o codigo ser fácil de ler e deixar observações no nosso código. JavaScript nao executa o partes com comentário no nosso código. No JavaScript, qualquer linha de texto começando com // em JavaScript é um comentário, e q
+Nós podemos adicionar comentários para nosso código. Comentários são importantes para facilitar a leitura do código e deixar observações. O JavaScript não executa as partes com comentário no nosso código. No JavaScript, qualquer linha de texto começando com // é um comentário, e tudo anexo como isto `//` tambem é um comentário.
 
-
-
-
-##### Comments
-
-We can add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this `//` is also a comment.
-
-**Example: Single Line Comment**
+**Exemplo: Comentário de linha única**
 
 ```js
-// This is the first comment  
-// This is the second comment  
-// I am a single line comment
+// Este é o primeiro comentário  
+// Este é o segundo comentário
+// Eu sou um comentário de linha única
 ```
 
-**Example: Multiline Comment**
+**Exemplo: Comentários Várias Linhas**
 
 ```js
 /*
-This is a multiline comment  
- Multiline comments can take multiple lines  
- JavaScript is the language of the web  
+  Isto é um comentário de várias linhas  
+  Várias linhas de comentários.
+  JavaScript é a Linguagem da Web
  */
 ```
+##### Sintaxe
 
-##### Syntax
-
-Programming languages are similar to human languages. English or many other language uses words, phrases, sentences, compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language. Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+Linguagens de programação são similares com a linguagem humana. Portugês ou qualquer outra linguagem usa palavras, frases, orações, períodos, e outras mais para criar uma mensagem com significado. A definição em Português de sintaxe é _ Estrutura essencial para que frases, orações e períodos façam sentido e sejam de fácil compreensão por parte do leitor_. A definição técnica é a estrutura de declarações em uma linguagem de computador. Linguagens de programação tem sintaxes. JavaScript é uma linguagem de programação como outras linguagens de programação tem sua própria sintaxe. Se nós nao escrevermos uma sintaxe que JavaScript entenda, diferentes tipos de errors aparecerá. Nós iremos explorar diferentes tipos de errors no JavaScript depois. Por enquanto, vamos ver sintaxes de errors.
 
 ![Error](images/raising_syntax_error.png)
 
-I made a deliberate mistake. As a result, the console raises syntax errors. Actually, the syntax is very informative. It informs what type of mistake was made. By reading the error feedback guideline, we can correct the syntax and fix the problem. The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
+Eu fiz uma confusão proposital. Como resultado, criou vários errors. Na realidade, a sintaxe é muito informativa. Informa quais tipos de errors foi feito. lendo  as mensagens do feedback de error, nós podemos corrigir a sintaxe e resolver o problema. O processo de identificar e remover errors de um programa é chamado de Debugging. Vamos resolver os errors:
 
 ```js
-console.log('Hello, World!')
-console.log('Hello, World!')
+console.log('Olá, Mundo!')
+console.log('Olá, Mundo!')
 ```
 
-So far, we saw how to display text using the _`console.log()`_. If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or a backtick.
-**Example:**
+Até agora, nós vimos como exibir texto usando o _`console.log()`_. Se estamos imprimindo texto ou string usando _`console.log()`_, o texto tem que estar dentro de uma aspa simples, aspas duplas, ou crase.
+
+**Exemplo:**
 
 ```js
-console.log('Hello, World!')
-console.log("Hello, World!")
+console.log('Olá, Mundo!')
+console.log("Olá, Mundo!")
 console.log(`Hello, World!`)
 ```
 
-#### Arithmetics
+#### Aritimética
 
-Now, let us practice more writing JavaScript codes using _`console.log()`_ on Google Chrome console for number data types.
-In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
-It is possible to write JavaScript code on Google Chrome console can directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
+Agora, vamos praticar escrevendo mais códigos JavaScript usando _`console.log()`_ no console do Google Chrome para números e tipos de dados.
+Em adição ao texto, nós podemos tamem fazer calculos matemáticos usando javaSCript. Vamos fazer calculos simples a seguir.
+É possivel escrever códigos JavaScript no console do Google Chome diretamente sem o função **_`console.log()`_** Entretanto, está incluso nesta introdução porque maior parte deste desafio pode ocorrer no editor de texto onde o uso de funcões pode ser mantario. Você pode brincar diretamente com ins
 
-![Arithmetic](images/arithmetic.png)
+![Arithmetic](/images/arithmetic.png)
 
 ```js
-console.log(2 + 3) // Addition
-console.log(3 - 2) // Subtraction
-console.log(2 * 3) // Multiplication
-console.log(3 / 2) // Division
-console.log(3 % 2) // Modulus - finding remainder
-console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
+console.log(2 + 3) // Adição
+console.log(3 - 2) // Subtração
+console.log(2 * 3) // Muiltiplição
+console.log(3 / 2) // Divisão
+console.log(3 % 2) // Modulo - Resto da divisão
+console.log(3 ** 2) // Exponenciação 3 ** 2 == 3 * 3
 ```
 
-### Code Editor
+### Editor de Código
 
-We can write our codes on the browser console, but it won't be for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 dias de JavaScript challenge, we will be using Visual Studio Code.
+Nós podemos escrever nosso código no console do navegador. mas isso nao é usado para grandes projetos. No anbiente real de trabalho, desenvolvedores usam diferentes editores para escrever seus códigos. Neste desafio 30 dias de JavaScript, nós iremos utilizar o Visual Studio Code.
 
-#### Installing Visual Studio Code
+#### Instalando o Visual Studio Code
 
-Visual Studio Code is a very popular open-source text editor. I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
+Visual Studio Code é editor de texto open-source muito popular. Eu poderia recomendar o [download Visual Studio Code](https://code.visualstudio.com/), mas se você está familiarizado com outro editor, sinta livre para seguir oque você tem.
 
-![Vscode](images/vscode.png)
+![Vscode](/images/vscode.png)
 
-If you installed Visual Studio Code, let us start using it.
+Se você instalou o Visual Studio Code, Vamos começar usando-o.
 
-#### How to Use Visual Studio Code
+#### Como Usar Visual Studio Code
 
-Open the Visual Studio Code by double-clicking its icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
+Abra o Visual Studio Code clicando duas vezes com o mouse no ícone. Quando abrir, você terá esta interface. Tente interagir com os ícones rotulados.
 
-![Vscode ui](./images/vscode_ui.png)
+![Vscode ui](/images/vscode_ui.png)
 
-![Vscode add project](./images/adding_project_to_vscode.png)
+![Vscode add project](/images/adding_project_to_vscode.png)
 
-![Vscode open project](./images/opening_project_on_vscode.png)
+![Vscode open project](/images/opening_project_on_vscode.png)
 
-![script file](images/scripts_on_vscode.png)
+![script file](/images/scripts_on_vscode.png)
 
-![Installing Live Server](images/vsc_live_server.png)
+![Installing Live Server](/images/vsc_live_server.png)
 
-![running script](./images/running_script.png)
+![running script](/images/running_script.png)
 
-![coding running](./images/launched_on_new_tab.png)
+![coding running](/images/launched_on_new_tab.png)
 
-## Adding JavaScript to a Web Page
+## Adicionando JavaScript Para uma Página na Web 
 
-JavaScript can be added to a web page in three different ways:
+JavaScript pode ser adicionado para uma página na internet em três diferentes maneiras:
 
-- **_Inline script_**
-- **_Internal script_**
-- **_External script_**
-- **_Multiple External scripts_**
+- **_Script em linha_**
+- **_Script Interno_**
+- **_Script Externo_**
+- **_Múltiplos Scripts Externos_**
 
-The following sections show different ways of adding JavaScript code to your web page.
+As diferentes sessões mostra diferentes maneiras de adicionar códigos JavaScript para sua página na web.
 
 ### Inline Script
 
-Create a project folder on your desktop or in any location, name it 30DaysOfJS and create an **_`index.html`_** file in the project folder. Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
+Crie uma pasta do projeto no seu desktop ou em qualquer localização, nomeie de 30DaysOfJS e crie um **_`index.html`_** documento na sua pasta do projeto.
+Então copie os seguintes códigos e abra-o no navegador, por exemplo [Chrome](https://www.google.com/chrome/).
+
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfScript:Inline Script</title>
+    <title>30DaysOfScript: Script em linha</title>
   </head>
   <body>
-    <button onclick="alert('Welcome to 30DiasDeJavaScript!')">Click Me</button>
+    <button onclick="alert('Welcome to 30DaysOfScript!')">Clique</button>
   </body>
 </html>
 ```
+Agora, você escreveu seu primeiro script em linha. Nós podemos criar uma mensagem pop up usando o _`alert()`_ função built-it
 
-Now, you just wrote your first inline script. We can create a pop up alert message using the _`alert()`_ built-in function.
+### Script Interno
 
-### Internal Script
-
-The internal script can be written in the _`head`_ or the _`body`_, but it is preferred to put it on the body of the HTML document.
-First, let us write on the head part of the page.
+O script interno pode ser escrito no _`head`_ ou _`body`_, mas é preferível colocar no body do documento HTML.
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfScript:Internal Script</title>
+    <title>30DaysOfScript: Script Interno</title>
     <script>
-      console.log('Welcome to 30DiasDeJavaScript')
+      console.log('Welcome to 30DaysOfJavaScript')
     </script>
   </head>
   <body></body>
 </html>
 ```
 
-This is how we write an internal script most of the time. Writing the JavaScript code in the body section is the most preferred option. Open the browser console to see the output from the `console.log()`.
+Isto é como nós escrevemos scripts internos na maioria das vezes. Escrevemos o código de JavaScript na sessão body é a mais preferida opção. Abra o console do navegador e veja o output do `console.log()`.
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfScript:Internal Script</title>
+    <title>30DaysOfScript: Internal Script</title>
   </head>
   <body>
-    <button onclick="alert('Welcome to 30DiasDeJavaScript!');">Click Me</button>
+    <button onclick="alert('Welcome to 30DaysOfJavaScript!');">Click</button>
     <script>
-      console.log('Welcome to 30DiasDeJavaScript')
+      console.log('Welcome to 30DaysOfJavaScript')
     </script>
   </body>
 </html>
 ```
 
-Open the browser console to see the output from the `console.log()`.
+Abra o console do navegador e veja o output do `console.log()`.
 
-![js code from vscode](./images/js_code_vscode.png)
+![js code from vscode](/images/js_code_vscode.png)
 
-### External Script
+### Script Externo
 
-Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
+Similar com o script interno, o link do script externo pode estar no header ou body, mas é mais indicado colocar no body do documento.
+Primeiro, nós podemos criar scripts externos de JavaScript com a .js extensão. Todos os arquivos terminados com a .js extensão são JavaScript documentos. Crie uma pasta nomeada Introdução.js dentro do diretório do projeto e escreva o seguinte código e copie o link do arquivo .js no bottom do body.
 
 ```js
-console.log('Welcome to 30DiasDeJavaScript')
+console.log('Welcome to 30DaysOfJavaScript')
 ```
 
-External scripts in the _head_:
+Scripts Externo no _head_:
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DiasDeJavaScript:External script</title>
+    <title>30DaysOfJavaScript: Script Externo</title>
     <script src="introduction.js"></script>
   </head>
   <body></body>
 </html>
 ```
 
-External scripts in the _body_:
+Scripts Externo no _body_:
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DiasDeJavaScript:External script</title>
+    <title>30DaysOfJavaScript: Scripts Externo</title>
   </head>
   <body>
-    <!-- JavaScript external link could be in the header or in the body --> 
-    <!-- Before the closing tag of the body is the recommended place to put the external JavaScript script -->
+    
+
+    <!-- JavaScript link externo pode estar no header ou no body --> 
+    <!-- Antes do fechamento da tag do body é o lugar recomendado para colocar o script do JavaScript externo --> 
     <script src="introduction.js"></script>
   </body>
 </html>
 ```
 
-Open the browser console to see the output of the `console.log()`.
+Abra o console do navegador para ver o output do `console.log()`.
 
-### Multiple External Scripts
+### Múltiplos Scripts Externo
 
-We can also link multiple external JavaScript files to a web page.
-Create a `helloworld.js` file inside the 30DaysOfJS folder and write the following code.
+Nós tambem podemos colocar o link de vários arquivos externos de JavaScript em uma página web.
+Crie um `helloworld.js` documento dentro da pasta 30DaysOfJS e escreva o seguinte código.
 
 ```js
-console.log('Hello, World!')
+console.log('Olá, Mundo!')
 ```
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Multiple External Scripts</title>
+    <title>Múltiplos Scripts Externo</title>
   </head>
   <body>
     <script src="./helloworld.js"></script>
@@ -451,28 +446,27 @@ console.log('Hello, World!')
 </html>
 ```
 
-_Your main.js file should be below all other scripts_. It is very important to remember this.
+_Seu arquivo main.js deve estar abaixo de todos os outros scripts_. E isto é muito importante de relembrar
 
-![Multiple Script](./images/multiple_script.png)
+![Multiple Script](/images/multiple_script.png)
 
-## Introduction to Data types
+## Introdução a tipo de Dados
 
-In JavaScript and also other programming languages, there are different types of data types. The following are JavaScript primitive data types: _String, Number, Boolean, undefined, Null_, and _Symbol_.
+Em JavaScript e tambem em outras linguagens de programação, existem vários tipos de dados. Os seguintes são tipos de dados primitivos do JavaScript: _String, Number, Boolean, undefined, Null_, and _Symbol_.
 
-### Numbers
+### Number
 
-- Integers: Integer (negative, zero and positive) numbers
-  Example:
+- Integers: Inteiros (Negativo, zero e positivos) números
+Examplo:
   ... -3, -2, -1, 0, 1, 2, 3 ...
-- Float-point numbers: Decimal number
-  Example
+- Float-point numbers: Números decimais.
   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
 ### Strings
 
-A collection of one or more characters between two single quotes, double quotes, or backticks.
+Uma coleção de um ou mais caracteres entre duas aspas simples, aspas duplas, ou crase.
 
-**Example:**
+**Examplo:**
 
 ```js
 'a'
@@ -489,11 +483,11 @@ A collection of one or more characters between two single quotes, double quotes,
 
 ### Booleans
 
-A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
+Um valor boleano ou é verdadeiro ou falso. Qualquer comparação retorna um valor booleano, que pode ser entre verdadeiro ou falso.
 
-A boolean data type is either a true or false value.
+Um tipo de dado boleanno é verdadeiro ou um valor falso
 
-**Example:**
+**Examplo:**
 
 ```js
 true // if the light is on, the value is true
@@ -502,7 +496,7 @@ false // if the light is off, the value is false
 
 ### Undefined
 
-In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
+Em JavaScript, se nós não atribuirmos um valor a uma variável, o valor é undefined. Em adição a isto, se uma funcção não está retornando nada, ela retorna undefined
 
 ```js
 let firstName
@@ -511,15 +505,15 @@ console.log(firstName) // undefined, because it is not assigned to a value yet
 
 ### Null
 
-Null in JavaScript means an empty value.
+Null em JavaScript significa um valor vazio.
 
 ```js
 let emptyValue = null
 ```
 
-## Checking Data Types
+## Verificando Tipos de Dados
 
-To check the data type of a certain variable, we use the **typeof** operator. See the following example.
+Para verificar o tipo de dado de uma determinada variavel, no usamos o operador **typeof**. Veja o seguinte exemplo.  
 
 ```js
 console.log(typeof 'Asabeneh') // string
@@ -529,7 +523,7 @@ console.log(typeof null) // object type
 console.log(typeof undefined) // undefined
 ```
 
-## Comments Again
+## Comentários de novo
 
 Remember that commenting in JavaScript is similar to other programming languages. Comments are important in making your code more readable.
 There are two ways of commenting:
@@ -653,14 +647,14 @@ Asabeneh teacher Finland
 
 When you run _index.html_ file in the 01-Day folder you should get this:
 
-![Day one](./images/day_1.png)
+![Day one](/images/day_1.png)
 
 🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and muscle.
 
 # 💻 Day 1: Exercises
 
 1. Write a single line comment which says, _comments can make code readable_
-2. Write another single comment which says, _Welcome to 30DiasDeJavaScript_
+2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_
 3. Write a multiline comment which says, _comments can make code readable, easy to reuse_
    _and informative_
 
@@ -679,4 +673,4 @@ You are 30 years old.
 
 🎉 CONGRATULATIONS ! 🎉
 
-[Day 2 >>](./02_Day_Data_types/02_day_data_types.md)
+[Dia 2 >>](./02_Day_Data_types/02_day_data_types.md)
