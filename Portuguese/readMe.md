@@ -114,7 +114,7 @@
 
 ## Introdução
 
-**Parabéns** Em decidir de participar desafio dos 30 dias de JavaScript. Neste desafio você aprenderá tudo que precisa para ser um programador JavaScript, e em general, todo o conceito de programação. No fim do desafio voce estará adquirindo o Certificado de conclusão do desafio 30DaysOfJavaScript. Em caso de precisar de ajuda ou se preferir ajudar outros você pode entrar no [Grupo Telegram](https://t.me/ThirtyDaysOfJavaScript).
+**Parabéns** Em decidir de participar do desafio 30DaysOfJavaScript. Neste desafio você aprenderá tudo que precisa para ser um programador JavaScript, e em general, todo o conceito de programação. No fim do desafio voce estará adquirindo o Certificado de conclusão do desafio 30DaysOfJavaScript. Em caso de precisar de ajuda ou se preferir ajudar outros você pode entrar no [Grupo Telegram](https://t.me/ThirtyDaysOfJavaScript).
 
 **30DaysOfJavaScript** desafio é um guia tanto para iniciantes e Avançados JavaScript Desenvolvedores, Bem vindo ao JavaScript. JavaScript é a linguagem da internet. Eu me divirto em usar e ensinar JavaScript e eu acredito que voce fará tambem.
 
@@ -508,12 +508,12 @@ console.log(firstName) // undefined, because it is not assigned to a value yet
 Null em JavaScript significa um valor vazio.
 
 ```js
-let emptyValue = null
+let valorVazio = null
 ```
 
 ## Verificando Tipos de Dados
 
-Para verificar o tipo de dado de uma determinada variavel, no usamos o operador **typeof**. Veja o seguinte exemplo.  
+Para verificar o tipo de dado de uma determinada variável, nós usamos o operador **typeof**. Veja o seguinte exemplo.  
 
 ```js
 console.log(typeof 'Asabeneh') // string
@@ -523,45 +523,45 @@ console.log(typeof null) // object type
 console.log(typeof undefined) // undefined
 ```
 
-## Comentários de novo
+## Comentários novamente
 
-Remember that commenting in JavaScript is similar to other programming languages. Comments are important in making your code more readable.
-There are two ways of commenting:
+Lembre que comentando no JavaScript é similar à outras linguagens de programação. Comentários são importantes em fazer mais fácil a leitura do seu código.
+Existe dois modos de comentar:
 
-- _Single line commenting_
-- _Multiline commenting_
+- _Comentando em linha única_
+- _Comentando em várias linhas_
 
 ```js
-// commenting the code itself with a single comment
-// let firstName = 'Asabeneh'; single line comment
-// let lastName = 'Yetayeh'; single line comment
+// Comentando o código com um único comentário
+// let firstName = 'Asabeneh'; Comentando em linha única_
+// let lastName = 'Yetayeh'; Comentando em linha única_
 ```
 
-Multiline commenting:
+Comentando em várias linhas:
 
 ```js
 /*
   let location = 'Helsinki';
   let age = 100;
   let isMarried = true;
-  This is a Multiple line comment
+  Isto é um comentário em linha única
 */
 ```
 
-## Variables
+## Variáveis
 
-Variables are _containers_ of data. Variables are used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords.
+Variáveis são _containers_ de dados. Variáveis são usadas para _armazenar_ dados na memória alocada. Quando variáveis são declaradas, uma memória alocada é reservada. Quando uma variável é atribuída para um valor (dados), espaço na memória irá ser preenchido com aqueles dados. Para declarar uma variável, nós usamos as palavras-chaves _var_, _let_, ou _const_. 
 
-For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do not change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is error prone way of declaring variable it has lots of leak. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
+Para uma variável que muda com o tempo, nós usamos _let_. Se os dados não vão mudar, nós usamos _const_. Por exemplo, PI, nome de país, gravidade não muda, e nós podemos usar _const_. Nós não vamos usar var neste desafio e eu nao recomendo usa-lo. Nós vamos falar mais sobre var, let, e const em detalhes em outras sessões (scope). Por enquanto, a explicação acima é suficiente.
 
-A valid JavaScript variable name must follow the following rules:
+Um nome de variável em JavaScript apenas segue a seguinte regra:
 
-- A JavaScript variable name should not begin with a number.
-- A JavaScript variable name does not allow special characters except dollar sign and underscore.
-- A JavaScript variable name follows a camelCase convention.
-- A JavaScript variable name should not have space between words.
+- Um nome de variável não deverá começar com um número.
+- Um nome de variável não pode permitir caracteres especiais exceto o sinal do dólar e underscore.
+- Um nome de variável segue a convenção camelCase.
+- Um nomede variável não deve ter espaços entre as palavras.
 
-The following are examples of valid JavaScript variables.
+Os seguintes exemplos são de variáveis válidas em JavaScript.
 
 ```js
 firstName
@@ -585,9 +585,9 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follows the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables(camelWithOneHump). We use CamelCase(CamelWithTwoHump) to declare classes, we will discuss about classes and objects in other section.
+A primeira e a segunda variável na lista segue a convenção camelCase de declaração no JavaScript. Neste material, nós vamos usar variáveis em camelCase (camelWithOneHump). Nós usamos CamelCase (CamelWithTwoHump) para declarar classes, nós vamos discutir sobre classes e objetos em outras sessões.
 
-Example of invalid variables:
+Exemplo de variáveis invalidas:
 
 ```js
   first-name
@@ -595,24 +595,24 @@ Example of invalid variables:
   num_#_1
 ```
 
-Let us declare variables with different data types. To declare a variable, we need to use _let_ or _const_ keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value(assigned data).
+Vamos declarar variáveis com diferentes tipos de dados. Para declarar uma variável, nós precisamos usar as palavras-chaves _let_ ou _const_ antes de um nome de variável. Após o nome da variável, nós escrevemos um sinal de igual (operador de atribuição), e um valor (dados atribuidos).
 
 ```js
-// Syntax
+// Sintaxe
 let nameOfVariable = value
 ```
 
-The nameOfVriable is the name that stores different data of value. See below for detail examples.
+O nomeDaVariavel é o nome que armazena diferente tipos de dados. Veja abaixo exemplos para mais detalhes.
 
-**Examples of declared variables**
+**Exemplos de variáveis declaradas**
 
 ```js
-// Declaring different variables of different data types
-let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
-let country = 'Finland' // country
-let city = 'Helsinki' // capital city
-let age = 100 // age in years
+// Declarando diferentes variáveis de diferentes tipos de dados
+let firstName = 'Asabeneh' // primeiro nome de uma pessoa
+let lastName = 'Yetayeh' //  ultimo nome de uma pessoa
+let country = 'Finland' // país
+let city = 'Helsinki' // capital da cidade
+let age = 100 // Idade
 let isMarried = true
 
 console.log(firstName, lastName, country, city, age, isMarried)
@@ -623,11 +623,11 @@ Asabeneh Yetayeh Finland Helsinki 100 true
 ```
 
 ```js
-// Declaring variables with number values
-let age = 100 // age in years
-const gravity = 9.81 // earth gravity  in m/s2
-const boilingPoint = 100 // water boiling point, temperature in °C
-const PI = 3.14 // geometrical constant
+// Declarando variáveis com o valor numérico
+let age = 100 // idade
+const gravity = 9.81 // gravidade na terra em m/s2
+const boilingPoint = 100 // ponto de ebulição da água, temperatura em °C
+const PI = 3.14 // constante geométrica
 console.log(gravity, boilingPoint, PI)
 ```
 
@@ -636,7 +636,7 @@ console.log(gravity, boilingPoint, PI)
 ```
 
 ```js
-// Variables can also be declaring in one line separated by comma, however I recommend to use a seperate line to make code more readble
+// Variáveis tambem podem ser declaradas em uma linha separadas por uma vírgula, entretanto eu recomento usar a separação por linha para facilitar a leitura do código
 let name = 'Asabeneh', job = 'teacher', live = 'Finland'
 console.log(name, job, live)
 ```
@@ -645,32 +645,30 @@ console.log(name, job, live)
 Asabeneh teacher Finland
 ```
 
-When you run _index.html_ file in the 01-Day folder you should get this:
+Quando você executa o arquivo _index.html_ na pasta dia-1 você deve conseguir isto:
 
 ![Day one](/images/day_1.png)
 
-🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and muscle.
+🌕 Você é incrivel! Você acaba de completar o desafio do dia 1 e você está no seu caminho para a grandeza. Agora faça alguns exercícios para seu cérebro e músculos.
 
-# 💻 Day 1: Exercises
+# 💻 Dia 1: Exercícios
 
-1. Write a single line comment which says, _comments can make code readable_
-2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_
-3. Write a multiline comment which says, _comments can make code readable, easy to reuse_
-   _and informative_
-
-4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
-5. Create datatypes.js file and use the JavaScript **_typeof_** operator to check different data types. Check the data type of each variable
-6. Declare four variables without assigning values
-7. Declare four variables with assigned values
-8. Declare variables to store your first name, last name, marital status, country and age in multiple lines
-9. Declare variables to store your first name, last name, marital status, country and age in a single line
-10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to the browser console.
+1. Escreva um comentário de linha única que diga, _comentários faz seu código ser fácil de ler_
+2. Escreva outro comentário de linha única que diga, _Welcome to 30DaysOfJavaScript_
+3. Escreva um comentário de várias linhas que diga, _comentários faz seu código ser fácil de ler, fácil de reusar_ _e informátivo_
+4. Crie um  arquivo variavel.js e declare variáveis e atribua uma string, boolean, undefined e null 
+5. Crie um arquivo tiposdedados.js e use o JavaScript **_typeof_** operador para verificar diferentes tipos de dados. Verifique o tipo de dado de cada variável
+6. Declare quatro variáveis sem atribuir valores
+7. Declare quatro variáveis e atribuir valores 
+8. Declare variáveis para armazenar seu primeiro nome, ultimo nome, estado civil, país e idade em multiplas linhas 
+9. Declare variáveis para armazenar seu primeiro nome, ultimo nome, estado civil, país e idade em uma única linha
+10. Declare duas variáveis _minhaIdade_ e _suaIdade_ e atribua valores iniciais e mostre no console do navegador.
 
 ```sh
 I am 25 years old.
 You are 30 years old.
 ```
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 PARABÉNS ! 🎉
 
 [Dia 2 >>](./02_Day_Data_types/02_day_data_types.md)
