@@ -7,29 +7,29 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Author:
+  <sub>Autor:
   <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> January, 2020</small>
+  <small> Janeiro, 2020</small>
   </sub>
 </div>
 </div>
 
 [<< Dia 1](../readMe.md) | [Dia 3 >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)
 
-![Thirty Days Of JavaScript](../images/banners/day_1_2.png)
+![Thirty Days Of JavaScript](/images/banners/day_1_2.png)
 
 - [📔 Dia 2](#-day-2)
-	- [Data Types](#data-types)
-		- [Primitive Data Types](#primitive-data-types)
-		- [Non-Primitive Data Types](#non-primitive-data-types)
-	- [Numbers](#numbers)
-		- [Declaring Number Data Types](#declaring-number-data-types)
-		- [Math Object](#math-object)
-			- [Random Number Generator](#random-number-generator)
+	- [Tipo de Dados](#data-types)
+		- [Tipos de Dados Primitivos](#primitive-data-types)
+		- [Tipos de Dados Não Primitivos](#non-primitive-data-types)
+	- [Números](#numbers)
+		- [Declarando Tipos de Dados Numéricos](#declaring-number-data-types)
+		- [Math Objeto](#math-object)
+			- [Gerador de Número Aleatório](#random-number-generator)
 	- [Strings](#strings)
-		- [String Concatenation](#string-concatenation)
-			- [Concatenating Using Addition Operator](#concatenating-using-addition-operator)
-			- [Long Literal Strings](#long-literal-strings)
+		- [String Concatenação](#string-concatenation)
+			- [Concatenando Usando o Operador de Adição](#concatenating-using-addition-operator)
+			- [Long Literal Strings ](#long-literal-strings)
 			- [Escape Sequences in Strings](#escape-sequences-in-strings)
 			- [Template Literals (Template Strings)](#template-literals-template-strings)
 		- [String Methods](#string-methods)
