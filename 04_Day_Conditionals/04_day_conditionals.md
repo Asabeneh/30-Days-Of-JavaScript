@@ -369,7 +369,7 @@ isRaining
     February has 28 days.
   ```
 
-1. Write a program which tells the number of days in a month, now consider leap year.
+2. Write a program which tells the number of days in a month, now consider leap year.
 
 
 🎉 CONGRATULATIONS ! 🎉
