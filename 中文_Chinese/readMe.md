@@ -1,6 +1,6 @@
 | 第#天 |                                        内容                                        |
 | :---- | :--------------------------------------------------------------------------------: |
-| 01    |                             [引入 Introduction](link)                              |
+| 01    |                             [引入 Introduction](./readMe.md)                              |
 | 02    |                                数据类型 Data Types                                 |
 | 03    |                   布尔值、操作符、日期 Booleans, Operators, Date                   |
 | 04    |                               条件结构 Conditionals                                |
