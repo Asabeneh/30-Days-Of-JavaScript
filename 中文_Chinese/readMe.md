@@ -144,7 +144,7 @@ v12.14.0
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;若你目前没有Chrome，可按此安装[Google Chrome](https://www.google.com/chrome/) 。我们可以在浏览器控制台写一些小型的JavaScript代码，不过不会使用控制台来开发应用。
 
-![Google Chrome](images/google_chrome.png)
+![Google Chrome](.//images/google_chrome.png)
 
 #### 开启Chrome控制台
 
