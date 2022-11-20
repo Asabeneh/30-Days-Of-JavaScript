@@ -58,7 +58,7 @@
 </div>
 </div>
 
-[Day 2 >>](./第二天_数据类型/第二天_数据类型.md)
+[第二天 >>](./第二天_数据类型/第二天_数据类型.md)
 
 ![Thirty Days Of JavaScript](../images/day_1_1.png)
 
