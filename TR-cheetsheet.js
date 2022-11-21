@@ -2,6 +2,7 @@
 //Now pressing any key will result in to correct key press untill you reach next space key. 
 //I made the user push space to move further, so that someone viewing your typing will think you are not faking.
 //warning: Site detects the WPM above 100 and asks you to do a captcha test.
+// Note: This is just used for EDUCATIONAL PURPOSES ONLY!!! And not to be used for FICTITIOUS INTENTIONS!!. Anyways Cheers!!!
 
 var jq = document.createElement('script');
 jq.src = "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js";
