@@ -27,7 +27,7 @@
 		- [Setting time](#setting-time)
 			- [Setting Interval using a setInterval function](#setinterval-fonksiyonu-ile-süre-ayarlama)
 			- [Setting a time using a setTimeout](#settimeout-ile-zaman-ayarlama)
-	- [Functional Programming- Fonksiyonel Programlama](#functional-programming)
+	- [Functional Programming- Fonksiyonel Programlama](#functional-programming---fonksiyonel-programalama)
 		- [forEach](#foreach)
 		- [map](#map)
 		- [filter](#filter)
@@ -37,13 +37,14 @@
 		- [findIndex](#findindex)
 		- [some](#some)
 		- [sort](#sort)
-			- [Sorting string values](#sorting-string-values)
-			- [Sorting Numeric values](#sorting-numeric-values)
-			- [Sorting Object Arrays](#sorting-object-arrays)
+			- [Sorting string values](#string-değerleri-sıralama)
+			- [Sorting Numeric values](#sayısal-değerleri-sıralama)
+			- [Sorting Object Arrays](#array-nesnelerini-sıralamak)
 	- [💻 Exercises](#-exercises)
 		- [Exercises: Level 1](#exercises-level-1)
 		- [Exercises: Level 2](#exercises-level-2)
 		- [Exercises: Level 3](#exercises-level-3)
+
 
 # Day 9
 
