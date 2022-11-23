@@ -205,7 +205,7 @@ The above snippet of code cleared all the child elements.
 
 ### Exercises: Level 1
 
-1. Create a div container on HTML document and create 100 to 100 numbers dynamically and append to the container div. 
+1. Create a div container on HTML document and create 0 to 101 numbers dynamically and append to the container div. 
    - Even numbers background is green
    - Odd numbers background is yellow
    - Prime numbers background is red
