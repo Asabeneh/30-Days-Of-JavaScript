@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7</title>
+    <script>
+        // emperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which convert oC to oF convertCelsiusToFahrenheit.
+        function convertTemperature(o, unit = 'C'){
+            if( unit = 'F'){
+                return (o - 32) * 5/9 + ' oC'
+            }
+            if( unit = 'C'){
+                return (o * 9/5) + 32 + 'oF'
+            }
+        }
+        console.log(`It's ${convertTemperature(5, 'C')}`)
+
+        // Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
+        function bmiCal(weight, height){
+            if (height == 0 || weight == 0){
+                return "Invalid height or weight"
+            }
+            return (weight / Math.pow(height/100, 2)).toFixed(2);
+        }
+        // The same groups apply to both men and women.
+        // Underweight: BMI is less than 18.5
+        // Normal weight: BMI is 18.5 to 24.9
+        // Overweight: BMI is 25 to 29.9
+        // Obese: BMI is 30 or more
+
+        function getBmiGroup(weight, height){
+            bmi = bmiCal(weight, height)
+            switch (true) {
+                case bmi < 18.5:
+                    console.log("BMI is less than 18.5")
+                    break;
+                case bmi < 24.9:
+                    console.log("BMI is 18.5 to 24.9")
+                    break;
+                case bmi < 29.9:
+                    console.log("BMI is 25 to 29.9")
+                    break;
+                case bmi > 30:
+                    console.log("BMI is 30 or more")
+                    break;
+                default:
+                    console.log(bmi)
+                    console.log("ok")
+                    break;
+            }
+        }
+        let weight = 55
+        let height = 172
+        console.log("You are " + weight + "kg and " + height + "cm BMI = ", bmiCal(55, 172))
+        getBmiGroup(weight, height)
+
+        // Math.max returns its largest argument. Write a function findMax that takes three arguments and returns their maximum with out using Math.max method.
+
+        // console.log(findMax(0, 10, 5))
+        // 10
+        // console.log(findMax(0, -10, -2))
+        // 0
+
+        function findMax(...args){
+            let max = args[0]
+            args.forEach(e => {
+                if (e > max){
+                    max = e
+                }
+            })
+            return max;
+        }
+        console.log(findMax(11, 2, 4, 5, 6))
+
+        function printArray(arr){
+            arr.forEach((v, i) => console.log(v))
+        }
+
+        printArray([1, 2, 3, 4])
+
+        function showDateTime(){
+            date = new Date
+            console.log(date.toLocaleDateString() + " " + date.toLocaleTimeString())
+        }
+
+        showDateTime()
+
+        function swapValues(a, b){
+            let temp;
+            temp = a;
+            a = b;
+            b = temp;
+            console.log(a, b)
+        }
+        swapValues(1, 2)
+
+        function reverseArray(arr){
+            arr = arr.reverse()
+            console.log(arr)
+        }
+        console.log(reverseArray(["a", "b", "c"]))
+
+        function addItem(item , arr){
+            arr.unshift(item)
+            console.log(arr)
+        }
+        console.log(addItem(1, [2, 3, 4]))
+
+        function removeItem(index, arr){
+            arr.splice(index - 1, 1)
+            return arr
+        }
+        console.log(removeItem(1, [1, 2, 3]))
+
+        function sumOfNumbers(arr){
+            console.log("sum arr", arr, arr.reduce((sum ,value) => sum + value))
+        }
+
+        sumOfNumbers([1, 2, 3, 4])
+    </script>
+</head>
+<body>
+
+</body>
+</html>
