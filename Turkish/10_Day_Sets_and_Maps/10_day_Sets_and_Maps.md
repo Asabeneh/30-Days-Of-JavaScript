@@ -1,5 +1,5 @@
 <div align="center">
-    <h1> 30 Days Of JavaScript: Sets and Maps</h1>
+    <h1> 30 Günde JavaScript: Setler ve Maplar</h1>
     <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
     <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
     </a>
@@ -11,7 +11,10 @@
   <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
   <small> January, 2020</small>
   </sub>
-  
+   <sub>Çevirmen:
+  <a href="https://github.com/guven07" target="_blank">Güven Karabulut</a><br>
+  <small> Kasım 2022</small>
+  </sub>
   </div>
   
   [<< Day 9](../09_Day_Higher_order_functions/09_day_higher_order_functions.md) | [Day 11>>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)
