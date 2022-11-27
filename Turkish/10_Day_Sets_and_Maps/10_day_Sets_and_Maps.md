@@ -16,7 +16,7 @@
   
   [<< Day 9](../09_Day_Higher_order_functions/09_day_higher_order_functions.md) | [Day 11>>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)
   
-  ![Day 10](../images/banners/day_1_10.png)
+  ![Day 10](/images/banners/day_1_10.png)
   
   - [Day 10](#day-10)
       - [Set](#set)
