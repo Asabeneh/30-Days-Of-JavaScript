@@ -331,7 +331,7 @@
   3
   ```
   
-  ### Map'ten değer alma*
+  ### Map'ten değer alma
   
   ```js
   console.log(countriesMap.get('Finland'))
