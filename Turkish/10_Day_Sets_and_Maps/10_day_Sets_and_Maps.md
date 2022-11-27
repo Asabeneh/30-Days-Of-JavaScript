@@ -19,9 +19,9 @@
   
   [<< Day 9](../09_Day_Higher_order_functions/09_day_higher_order_functions.md) | [Day 11>>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)
   
-  ![Day 10](/images/banners/day_1_10.png)
+  ![Gün 10](/images/banners/day_1_10.png)
   
-  - [Day 10](#day-10)
+  - [Gün 10](#gün-10)
       - [Set](#set)
           - [Boş bir set oluşturma](#boş-bir-set-oluşturma)
           - [Diziden set oluşturma](#diziden-set-oluşturma)
@@ -43,7 +43,7 @@
           - [Egzersiz:Seviye 2](#egzersizseviye-2)
           - [Egzersiz:Seviye 3](#egzersizseviye-3)
   
-  # Day 10
+  # Gün 10
   
   ## Set
   
