@@ -20,7 +20,7 @@
   
   - [Day 10](#day-10)
       - [Set](#set)
-          - [Boş bir set oluşturma](#boş_bir_set_oluşturma)
+          - [Boş bir set oluşturma](#boş-bir-set-oluşturma)
           - [Diziden set oluşturma](#creating-set-from-array)
           - [Bir set'e eleman ekleme](#adding-an-element-to-a-set)
           - [Bir elemanı set'den silme](#deleting-an-element-a-set)
