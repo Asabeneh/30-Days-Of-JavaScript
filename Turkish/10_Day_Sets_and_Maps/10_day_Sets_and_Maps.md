@@ -406,7 +406,7 @@
   
   1.A birleşim B'yi bulun
   2.A kesişim B'yi bulun
-  3. a ile b'yi bul
+  3. A ile B'yi bul
   
   ### Egzersiz:Seviye 3
   
