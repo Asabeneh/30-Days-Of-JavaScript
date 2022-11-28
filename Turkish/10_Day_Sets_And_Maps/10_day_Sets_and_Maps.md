@@ -385,7 +385,7 @@
   
   ## Egzersiz
   
-  ### EgzersizSeviye 1
+  ### Egzersiz:Seviye 1
   
   ```js
   const a = [4, 5, 8, 9]
@@ -401,13 +401,13 @@
   6. bir ülke map'ı oluşturun ve içindeki ülkelerin karakter sayısını girin
   
   
-  ### ExercisesLevel 2
+  ### Egzersiz:Seviye 2
   
   1.A birleşim B'yi bulun
   2.A kesişim B'yi bulun
   3. A ile B'yi bul
   
-  ### EgzersizSeviye 3
+  ### Egzersiz:Seviye 3
   
   1.Ülkeler nesne dosyasında kaç tane dil var
   
