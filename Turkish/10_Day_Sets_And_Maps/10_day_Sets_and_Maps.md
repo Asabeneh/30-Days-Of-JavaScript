@@ -1,21 +1,20 @@
-div align=center
-    h1 30 Günde JavaScript Setler ve Maplarh1
-    a class=header-badge target=_blank href=httpswww.linkedin.cominasabeneh
-    img src=httpsimg.shields.iobadgestyle--5eba00.svglabel=LinkedIn&logo=linkedin&style=social
-    a
-    a class=header-badge target=_blank href=httpstwitter.comAsabeneh
-    img alt=Twitter Follow src=httpsimg.shields.iotwitterfollowasabenehstyle=social
-    a
-  
-  subAuthor
-  a href=httpswww.linkedin.cominasabeneh target=_blankAsabeneh Yetayehabr
-  
-  sub
-   subÇevirmen
-  a href=httpsgithub.comguven07 target=_blankGüven Karabulutabr
-  small Kasım 2022small
-  sub
-  div
+<div align="center">
+  <h1> 30 Günde JavaScript: Loops - Döngüler</h1>
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  </a>
+
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+  <sub>Çevirmen:
+  <a href="https://github.com/guven07" target="_blank">Güven Karabulut</a><br>
+  <small> Kasım 2022</small>
+  </sub>
+</div>
+
   
   [ Day 9](..09_Day_Higher_order_functions09_day_higher_order_functions.md)  [Day 11](..11_Day_Destructuring_and_spreading11_day_destructuring_and_spreading.md)
   
