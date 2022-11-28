@@ -16,7 +16,7 @@
 </div>
 
   
-  [ Day 9](..09_Day_Higher_order_functions09_day_higher_order_functions.md)  [Day 11 >>](..11_Day_Destructuring_and_spreading11_day_destructuring_and_spreading.md)
+  [ Day 9](..09_Day_Higher_order_functions09_day_higher_order_functions.md)  [>> Day 11 ](..11_Day_Destructuring_and_spreading11_day_destructuring_and_spreading.md)
   
  ![Day 6](/images/banners/day_1_10.png)
   
@@ -441,4 +441,4 @@
   
   🎉 TEBRİKLER ! 🎉
   
-  [ Day 9](..09_Day_Higher_order_functions09_day_higher_order_functions.md)  [Day 11 >> ](..11_Day_Destructuring_and_spreading11_day_destructuring_and_spreading.md)
+  [ Day 9](..09_Day_Higher_order_functions09_day_higher_order_functions.md)  [ >> Day 11](..11_Day_Destructuring_and_spreading11_day_destructuring_and_spreading.md)
