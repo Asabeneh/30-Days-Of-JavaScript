@@ -1,1 +1,1 @@
-console.log('Welcome to 30DaysOfJavaScript')
+console.log('Bem vindo ao 30DaysOfJavaScript')
