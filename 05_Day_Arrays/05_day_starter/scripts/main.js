@@ -57,3 +57,6 @@ const webTechs = [
 23. Remove all IT companies
  */
 let myArr = Array(); //Empty array
+const animals = ['lion','dog','cat','pig','monkey'];
+const myArrayLength = animals.length();
+console.log(myArrayLength)
