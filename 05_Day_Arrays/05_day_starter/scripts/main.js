@@ -24,3 +24,16 @@ console.log('Number of web technologies:', webTechs.length)
 
 console.log('Countries:', countrie)
 console.log('Number of countries:', countrie.length)
+
+const arr = [
+    'Asabeneh',
+    250,
+    true,
+    { country: 'Finland', city: 'Helsinki' },
+    { skills: ['HTML', 'CSS', 'JS', 'React', 'Python'] }
+] // arr containing different data types
+console.log(arr)
+
+console.log(countries.includes('Congo'))
+console.log(countries.indexOf('Congo'))
+console.log(countries[39])
