@@ -1,39 +1,59 @@
-const numbers = [0, 3.14, 9.81, 37, 98.6, 100] // array of numbers
-const fruits = ['banana', 'orange', 'mango', 'lemon'] // array of strings, fruits
-const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] // array of strings, vegetables
-const animalProducts = ['milk', 'meat', 'butter', 'yoghurt'] // array of strings, products
-const webTechs = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB'] // array of web technologies
-const countrie = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland'] // array of strings, countries
+// //Exercise in Array
+// Exercise Level 1
+/**
+ * 
+ * ## 💻 Exercise
 
-// Print the array and its length
+### Exercise: Level 1
 
-console.log('Numbers:', numbers)
-console.log('Number of numbers:', numbers.length)
+```js
+const countries = [
+  'Albania',
+  'Bolivia',
+  'Canada',
+  'Denmark',
+  'Ethiopia',
+  'Finland',
+  'Germany',
+  'Hungary',
+  'Ireland',
+  'Japan',
+  'Kenya'
+]
 
-console.log('Fruits:', fruits)
-console.log('Number of fruits:', fruits.length)
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+]
+```
 
-console.log('Vegetables:', vegetables)
-console.log('Number of vegetables:', vegetables.length)
-
-console.log('Animal products:', animalProducts)
-console.log('Number of animal products:', animalProducts.length)
-
-console.log('Web technologies:', webTechs)
-console.log('Number of web technologies:', webTechs.length)
-
-console.log('Countries:', countrie)
-console.log('Number of countries:', countrie.length)
-
-const arr = [
-    'Asabeneh',
-    250,
-    true,
-    { country: 'Finland', city: 'Helsinki' },
-    { skills: ['HTML', 'CSS', 'JS', 'React', 'Python'] }
-] // arr containing different data types
-console.log(arr)
-
-console.log(countries.includes('Congo'))
-console.log(countries.indexOf('Congo'))
-console.log(countries[39])
+1. Declare an _empty_ array;
+2. Declare an array with more than 5 number of elements
+3. Find the length of your array
+4. Get the first item, the middle item and the last item of the array
+5. Declare an array called _mixedDataTypes_, put different data types in the array and find the length of the array. The array size should  be greater than 5
+6. Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
+7. Print the array using _console.log()_
+8. Print the number of companies in the array
+9. Print the first company, middle and last company
+10. Print out each company
+11. Change each company name  to uppercase one by one and print them out
+12. Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+13. Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is _not found_
+14. Filter out companies which have more than one 'o' without the filter method
+15. Sort the array using _sort()_ method
+16. Reverse the array using _reverse()_ method
+17. Slice out the first 3 companies from the array
+18. Slice out the last 3 companies from the array
+19. Slice out the middle IT company or companies from the array
+20. Remove the first IT company from the array
+21. Remove the middle IT company or companies from the array
+22. Remove the last IT company from the array
+23. Remove all IT companies
+ */
+let myArr = Array(); //Empty array
