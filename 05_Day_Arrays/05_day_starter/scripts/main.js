@@ -56,7 +56,8 @@ const webTechs = [
 22. Remove the last IT company from the array
 23. Remove all IT companies
  */
-let myArr = Array(); //Empty array
+ //Empty array
 const animals = ['lion','dog','cat','pig','monkey'];
-const myArrayLength = animals.length();
-console.log(myArrayLength)
+console.log(`This is my array:  ${animals}`)
+const myArrayLength = animals.length;
+console.log(`This array length is: ${myArrayLength}`);
