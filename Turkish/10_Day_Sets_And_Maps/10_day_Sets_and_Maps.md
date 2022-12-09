@@ -1,25 +1,24 @@
-div align=center
-    h1 30 Günde JavaScript Setler ve Maplarh1
-    a class=header-badge target=_blank href=httpswww.linkedin.cominasabeneh
-    img src=httpsimg.shields.iobadgestyle--5eba00.svglabel=LinkedIn&logo=linkedin&style=social
-    a
-    a class=header-badge target=_blank href=httpstwitter.comAsabeneh
-    img alt=Twitter Follow src=httpsimg.shields.iotwitterfollowasabenehstyle=social
-    a
+<div align="center">
+  <h1> 30 Günde JavaScript: Loops - Döngüler</h1>
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  </a>
+
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+  <sub>Çevirmen:
+  <a href="https://github.com/guven07" target="_blank">Güven Karabulut</a><br>
+  <small> Kasım 2022</small>
+  </sub>
+</div>
+
   
-  subAuthor
-  a href=httpswww.linkedin.cominasabeneh target=_blankAsabeneh Yetayehabr
+  [ Day 9](..09_Day_Higher_order_functions09_day_higher_order_functions.md)  [>> Day 11 ](..11_Day_Destructuring_and_spreading11_day_destructuring_and_spreading.md)
   
-  sub
-   subÇevirmen
-  a href=httpsgithub.comguven07 target=_blankGüven Karabulutabr
-  small Kasım 2022small
-  sub
-  div
-  
-  [ Day 9](..09_Day_Higher_order_functions09_day_higher_order_functions.md)  [Day 11](..11_Day_Destructuring_and_spreading11_day_destructuring_and_spreading.md)
-  
-  ![Gün 10](imagesbannersday_1_10.png)
+ ![Day 6](/images/banners/day_1_10.png)
   
   - [Gün 10](#gün-10)
       - [Set](#set)
@@ -386,7 +385,7 @@ div align=center
   
   ## Egzersiz
   
-  ### EgzersizSeviye 1
+  ### Egzersiz:Seviye 1
   
   ```js
   const a = [4, 5, 8, 9]
@@ -402,13 +401,13 @@ div align=center
   6. bir ülke map'ı oluşturun ve içindeki ülkelerin karakter sayısını girin
   
   
-  ### ExercisesLevel 2
+  ### Egzersiz:Seviye 2
   
   1.A birleşim B'yi bulun
   2.A kesişim B'yi bulun
   3. A ile B'yi bul
   
-  ### EgzersizSeviye 3
+  ### Egzersiz:Seviye 3
   
   1.Ülkeler nesne dosyasında kaç tane dil var
   
@@ -442,4 +441,4 @@ div align=center
   
   🎉 TEBRİKLER ! 🎉
   
-  [ Day 9](..09_Day_Higher_order_functions09_day_higher_order_functions.md)  [Day 11 ](..11_Day_Destructuring_and_spreading11_day_destructuring_and_spreading.md)
+  [ Day 9](..09_Day_Higher_order_functions09_day_higher_order_functions.md)  [ >> Day 11](..11_Day_Destructuring_and_spreading11_day_destructuring_and_spreading.md)
