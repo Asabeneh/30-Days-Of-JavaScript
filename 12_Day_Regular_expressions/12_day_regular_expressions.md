@@ -212,7 +212,7 @@ I fo%und te%a%ching m%ore i%n%t%er%%es%ting t%h%an any other %jobs.\
 D%o%es thi%s m%ot%iv%a%te %y%o%u to b%e a t%e%a%cher.'
 
 matches = txt.replace(/%/g, '')
-console.log(matches)  
+console.log(matches)
 ```
 
 ```sh
@@ -262,7 +262,7 @@ const pattern = '[Aa]pple' // this square bracket means either A or a
 const txt = 'Apple and banana are fruits. An old cliche says an apple a day keeps the  doctor way has been replaced by a banana a day keeps the doctor far far away. '
 const matches = txt.match(pattern)
 
-console.log(matches)  
+console.log(matches)
 ```
 
 ```sh
@@ -275,7 +275,7 @@ const pattern = /[Aa]pple/g // this square bracket means either A or a
 const txt = 'Apple and banana are fruits. An old cliche says an apple a day a doctor way has been replaced by a banana a day keeps the doctor far far away. '
 const matches = txt.match(pattern)
 
-console.log(matches)  
+console.log(matches)
 ```
 
 ```sh
@@ -289,7 +289,7 @@ const pattern = /[Aa]pple|[Bb]anana/g // this square bracket mean either A or a
 const txt = 'Apple and banana are fruits. An old cliche says an apple a day a doctor way has been replaced by a banana a day keeps the doctor far far away. Banana is easy to eat too.'
 const matches = txt.match(pattern)
 
-console.log(matches)  
+console.log(matches)
 ```
 
 ```sh
@@ -336,7 +336,7 @@ console.log(matches)  // ["an", "an", "an", "a ", "ar"]
 ```
 
 ```js
-const pattern = /[a].+/g  // . any character, + any character one or more times 
+const pattern = /[a].+/g  // . any character, + any character one or more times
 const txt = 'Apple and banana are fruits'
 const matches = txt.match(pattern)
 
@@ -349,7 +349,7 @@ Zero or many times. The pattern may not occur or it can occur many times.
 
 ```js
 
-const pattern = /[a].*/g  //. any character, + any character one or more times 
+const pattern = /[a].*/g  //. any character, + any character one or more times
 const txt = 'Apple and banana are fruits'
 const matches = txt.match(pattern)
 
@@ -377,7 +377,7 @@ We can specify the length of the substring we look for in a text, using a curly 
 
 ```js
 const txt = 'This regular expression example was made in December 6,  2019.'
-const pattern = /\\b\w{4}\b/g  //  exactly four character words
+const pattern = /\b\w{4}\b/g  //  exactly four character words
 const matches = txt.match(pattern)
 console.log(matches)  //['This', 'made', '2019']
 ```
@@ -406,7 +406,7 @@ console.log(matches)  // ['6', '2019']
 ### Cart ^
 
 - Starts with
-  
+
 ```js
 const txt = 'This regular expression example was made in December 6,  2019.'
 const pattern = /^This/ // ^ means starts with
@@ -442,7 +442,7 @@ console.log(result) // true
 ### Exercises: Level 1
 
 1. Calculate the total annual income of the person from the following text. ‘He earns 4000 euro from salary per month, 10000 euro annual bonus, 5500 euro online courses per month.’
-1. The position of some particles on the horizontal x-axis -12, -4, -3 and  -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers and find the distance between the two furthest particles.
+2. The position of some particles on the horizontal x-axis -1, 2, -4, -3 and  -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers and find the distance between the two furthest particles.
 
 ```js
 points = ['-1', '2', '-4', '-3', '-1', '0', '4', '8']
@@ -514,8 +514,8 @@ distance = 12
 
 ### Exercises: Level 3
 
-1. Writ a function which cleans text. Clean the following text. After cleaning, count three most frequent words in the string.
-  
+1. Write a function which cleans text. Clean the following text. After cleaning, count three most frequent words in the string.
+
   ```js
     sentence = `%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?`
     console.log(cleanText(sentence))
