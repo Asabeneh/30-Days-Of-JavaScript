@@ -377,7 +377,7 @@ We can specify the length of the substring we look for in a text, using a curly 
 
 ```js
 const txt = 'This regular expression example was made in December 6,  2019.'
-const pattern = /\\b\w{4}\b/g  //  exactly four character words
+const pattern = /\b\w{4}\b/g  //  exactly four character words
 const matches = txt.match(pattern)
 console.log(matches)  //['This', 'made', '2019']
 ```
@@ -442,7 +442,7 @@ console.log(result) // true
 ### Exercises: Level 1
 
 1. Calculate the total annual income of the person from the following text. ‘He earns 4000 euro from salary per month, 10000 euro annual bonus, 5500 euro online courses per month.’
-1. The position of some particles on the horizontal x-axis -12, -4, -3 and  -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers and find the distance between the two furthest particles.
+2. The position of some particles on the horizontal x-axis -1, 2, -4, -3 and  -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers and find the distance between the two furthest particles.
 
 ```js
 points = ['-1', '2', '-4', '-3', '-1', '0', '4', '8']
@@ -514,7 +514,7 @@ distance = 12
 
 ### Exercises: Level 3
 
-1. Writ a function which cleans text. Clean the following text. After cleaning, count three most frequent words in the string.
+1. Write a function which cleans text. Clean the following text. After cleaning, count three most frequent words in the string.
   
   ```js
     sentence = `%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?`
