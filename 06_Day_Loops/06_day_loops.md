@@ -42,7 +42,7 @@ In programming languages to carry out repetitive task we use different kinds of 
 
 ```js
 // For loop structure
-for(initialization, condition, increment/decrement){
+for(initialization; condition; increment/decrement){
   // code goes here
 }
 ```
