@@ -65,7 +65,7 @@
 🇰🇷 [Korean](./Korea/README.md)
 🇻🇳 [Vietnamese](./Vietnamese/README.md)
 🇵🇱 [Polish](./Polish/readMe.md)
-
+🇧🇷 [Portuguese](./Portuguese/readMe.md)
 
 </div>
 
