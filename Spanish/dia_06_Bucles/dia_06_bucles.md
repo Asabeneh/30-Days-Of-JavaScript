@@ -89,7 +89,7 @@ for (let i = 0; i < countries.length; i++) {
 // ["FINLAND", "SWEDEN", "DENMARK", "NORWAY", "ICELAND"]
 ```
 
-Agregar todos los elementos en un array
+Sumar todos los elementos en un array
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
