@@ -15,7 +15,7 @@
   </sub>
 </div>
 
-[<< Day 20](../20_Day_Writing_clean_codes/20_day_writing_clean_codes.md) | [Day 22 >>](../22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md)
+[<< Gün 20](../20_Day_Writing_clean_codes/20_day_writing_clean_codes.md) | [Gün 22 >>](../22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md)
 
 ![Thirty Days Of JavaScript](../images/21_Day_DOM/../../../images/banners/day_1_21.png)
 
@@ -406,4 +406,4 @@ Fark etmişsinizdir, JavaScript içinde kullandığımızda css özellikleri cam
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Day 20](../Turkish/20_Day_Writing_clean_codes/20_day_writing_clean_codes.md) | [Day 22 >>](../Turkish/22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md)
+[<< Gün 20](../Turkish/../20_Day_Writing_clean_codes/20_Day_writing_clean_codes.md) | [Gün 22 >>](../Turkish/../22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md)
