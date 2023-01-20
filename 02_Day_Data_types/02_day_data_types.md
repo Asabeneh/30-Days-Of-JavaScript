@@ -48,7 +48,7 @@
 
 ## Data Types
 
-In the previous section, we mentioned a little bit about data types. Data or values have data types. Data types describe the characteristics of data. Data types can be divided into two:
+In the previous section, we mentioned a little bit about data types. Data or values have data types. Data types describe the characteristics of data. Data types can be divided into two categories:
 
 1. Primitive data types
 2. Non-primitive data types(Object References)
@@ -159,7 +159,7 @@ let userTwo = userOne
 console.log(userOne == userTwo)  // true
 ```
 
-If you have a hard time understanding the difference between primitive data types and non-primitive data types, you are not the only one. Calm down and just go to the next section and try to come back after some time. Now let us start the data types by number type.
+If you have a hard time understanding the difference between primitive data types and non-primitive data types, you are not the only one. Calm down and just go to the next section and try to come back after some time. Now let us explore the details of data types starting with numbers.
 
 ## Numbers
 
@@ -183,7 +183,7 @@ console.log(age, gravity, mass, PI, boilingPoint, bodyTemp)
 
 ### Math Object
 
-In JavaScript the Math Object provides a lots of methods to work with numbers.
+In JavaScript the Math Object provides lots of methods to work with numbers.
 
 ```js
 const PI = Math.PI
@@ -381,7 +381,7 @@ The saying 'Seeing is Believing' isn't correct in 2020
 
 #### Template Literals (Template Strings)
 
-To create a template strings, we use two back-ticks. We can inject data as expressions inside a template string. To inject data, we enclose the expression with a curly bracket({}) preceded by a $ sign. See the syntax below.
+To create template strings, we use two back-ticks. We can inject data as expressions inside a template string. To inject data, we enclose the expression with a curly bracket({}) preceded by a $ sign. See the syntax below.
 
 ```js
 //Syntax
@@ -734,7 +734,7 @@ console.log(string.search('love'))          // 2
 console.log(string.search(/javascript/gi))  // 7
 ```
 
-19. *match*: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign.
+19. *match*: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. Let us see what a regular expression pattern looks like. It starts with / sign and ends with / sign.
 
 ```js
 let string = 'love'
@@ -821,12 +821,12 @@ console.log(typeof null)        // object
 
 ### Changing Data Type (Casting)
 
-- Casting: Converting one data type to another data type. We use _parseInt()_, _parseFloat()_, _Number()_, _+ sign_, _str()_
+- Casting: Converting one data type to another data type. We use _parseInt()_, _parseFloat()_, _Number()_, and the Plus sign(+) to convert strings.
   When we do arithmetic operations string numbers should be first converted to integer or float if not it returns an error.
 
 #### String to Int
 
-We can convert string number to a number. Any number inside a quote is a string number. An example of a string number: '10', '5', etc.
+We can convert a string number to a number. Any number inside a quote is a string number. An example of a string number: '10', '5', etc.
 We can convert string to number using the following methods:
 
 - parseInt()

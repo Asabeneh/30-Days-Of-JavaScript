@@ -325,7 +325,7 @@ const arr = Array() // creates an an empty array
 console.log(arr)
 
 const eightXvalues = Array(8).fill('X') // it creates eight element values filled with 'X'
-console.log(eightXvalues) // ['X', 'X','X','X','X','X','X','X']
+console.log(eightXvalues) // ['X','X','X','X','X','X','X','X']
 
 const eight0values = Array(8).fill(0) // it creates eight element values filled with '0'
 console.log(eight0values) // [0, 0, 0, 0, 0, 0, 0, 0]
@@ -653,37 +653,11 @@ console.log(arrayOfArray[0]) // [1, 2, 3]
  console.log(fullStack[1]) // ["Node", "Express", "MongoDB"]
 ```
 
-🌕  You are diligent and you have already achieved quite a lot. You have just completed day 5 challenges and you are 5 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕  You are diligent and you have already achieved quite a lot. You have just completed day 5 challenges and you are 5 steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## 💻 Exercise
 
 ### Exercise: Level 1
-
-```js
-const countries = [
-  'Albania',
-  'Bolivia',
-  'Canada',
-  'Denmark',
-  'Ethiopia',
-  'Finland',
-  'Germany',
-  'Hungary',
-  'Ireland',
-  'Japan',
-  'Kenya'
-]
-
-const webTechs = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Node',
-  'MongoDB'
-]
-```
 
 1. Declare an _empty_ array;
 2. Declare an array with more than 5 number of elements
@@ -712,6 +686,31 @@ const webTechs = [
 ### Exercise: Level 2
 
 1. Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js and store the webTechs array in to this file. Access both file in main.js file
+    ```js
+    const countries = [
+      'Albania',
+      'Bolivia',
+      'Canada',
+      'Denmark',
+      'Ethiopia',
+      'Finland',
+      'Germany',
+      'Hungary',
+      'Ireland',
+      'Japan',
+      'Kenya'
+    ]
+
+    const webTechs = [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Redux',
+      'Node',
+      'MongoDB'
+    ]
+    ```
 1. First remove all the punctuations and change the string to array and count the number of words in the array
 
     ```js

@@ -231,7 +231,7 @@ for(let i = 0; i <= 5; i++){
 // 0 1 2
 ```
 
-The above code stops if 3 found in the iteration process.
+The above code stops if 3 is found in the iteration process.
 
 ### continue
 
@@ -420,7 +420,7 @@ for(let i = 0; i <= 5; i++){
     ['Finland','Ireland', 'Iceland']
     ```
 
-3. In above countries array, check if there is  a country or countries end with a substring 'ia'. If there are countries end with, print it as array. If there is no country containing the word 'ai', print 'These are countries ends without ia'.
+3. In above countries array, check if there is  a country or countries end with a substring 'ia'. If there are countries end with, print it as array. If there is no country containing the word 'ia', print 'These countries do not end with ia'.
 
     ```sh
     ['Albania', 'Bolivia','Ethiopia']
@@ -474,7 +474,6 @@ for(let i = 0; i <= 5; i++){
 1. Sort the webTechs array and mernStack array
 1. Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
 1. Find the country containing the hightest number of characters in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
-1. Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
 1. Extract all the countries containing only four characters from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
 1. Extract all the countries containing two or more words from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
 1. Reverse the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and capitalize each country and stored it as an array

@@ -55,7 +55,7 @@
 
 ## Booleans
 
-A boolean data type represents one of the two values:_true_ or _false_. Boolean value is either true or false. The use of these data types will be clear when you start the comparison operator. Any comparisons return a boolean value which is either true or false.
+A boolean data type represents one of the two values:_true_ or _false_. Boolean value is either true or false. The use of these data types will be clear when you start using comparison operators. Any comparisons return a boolean value which is either true or false.
 
 **Example: Boolean Values**
 
@@ -86,7 +86,7 @@ We agreed that boolean values are either true or false.
 - the boolean false
 - '', "", ``, empty string
 
-It is good to remember those truthy values and falsy values. In later section, we will use them with conditions to make decisions.
+It is good to remember those truthy values and falsy values. In a later section, we will use them with conditions to make decisions.
 
 ## Undefined
 
@@ -218,7 +218,7 @@ console.log('python'.length > 'dragon'.length)   // false
 ```
 
 Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
-JavaScript is somehow a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
+JavaScript is somehow a wired kind of programming language. JavaScript code runs and gives you a result but unless you are good at it may not be the desired result.
 
 As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
 
@@ -272,7 +272,7 @@ console.log(count++)        // 0
 console.log(count)          // 1
 ```
 
-We use most of the time post-increment. At least you should remember how to use post-increment operator.
+Most of the time we use post-increment. At least you should remember how to use post-increment operator.
 
 ### Decrement Operator
 
@@ -351,7 +351,7 @@ alert(message)
 alert('Welcome to 30DaysOfJavaScript')
 ```
 
-Do not use too much alert because it is destructing and annoying, use it just to test.
+Do not use too much alert because it is distracting and annoying, use it just to test.
 
 ### Window prompt() method
 
@@ -388,7 +388,7 @@ _getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeco
 
 ### Creating a time object
 
-Once we create time object. The time object will provide information about time. Let us create a time object
+Once we create a time object. The time object will provide information about time. Let us create a time object
 
 ```js
 const now = new Date()
@@ -497,7 +497,7 @@ const minutes = now.getMinutes() // return number (0 -59)
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
 
-🌕  You have boundless energy. You have just completed day 3 challenges and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕  You have boundless energy. You have just completed day 3 challenges and you are three steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## 💻 Day 3: Exercises
 
@@ -548,7 +548,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 
 ### Exercises: Level 2
 
-1. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+1. Write a script that prompts the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
 
    ```sh
    Enter base: 20
@@ -556,7 +556,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    The area of the triangle is 100
    ```
 
-1. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
+1. Write a script that prompts the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
 
    ```sh
    Enter side a: 5
@@ -569,9 +569,9 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 1. Calculate the slope, x-intercept and y-intercept of y = 2x -2
 1. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between point (2, 2) and point(6,10)
-1. Compare the slope of above two questions.
+1. Compare the slopes of the two questions above.
 1. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
-1. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+1. Write a script that prompts a user to enter hours and rate per hour, then calculates the user's pay.
 
     ```sh
     Enter hours: 40
@@ -628,6 +628,6 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ### Exercises: Level 3
 
 1. Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
-   1. YYY-MM-DD HH:mm eg. 20120-01-02 07:05
+   1. YYYY-MM-DD HH:mm eg. 2012-01-02 07:05
 
 [<< Day 2](../02_Day_Data_types/02_day_data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
