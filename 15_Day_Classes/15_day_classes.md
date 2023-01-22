@@ -72,7 +72,7 @@ We have created an Person class but it does not have any thing inside.
 
 Instantiation class means creating an object from a class. We need the keyword _new_ and we call the name of the class after the word new.
 
-Let us create a dog object from our Person class.
+Let us create a person object from our Person class.
 
 ```js
 class Person {
@@ -243,7 +243,7 @@ console.log(person2.getFullName())
 
 ```sh
 Asabeneh Yetayeh
-test.js:19 Lidiya Tekle
+Lidiya Tekle
 ```
 
 ### Properties with initial value
