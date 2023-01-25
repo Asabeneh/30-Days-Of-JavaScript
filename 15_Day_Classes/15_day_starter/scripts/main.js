@@ -96,10 +96,10 @@ s2.setSkill = 'Organizing'
 console.log(s1)
 console.log(s2)
 
-console.log(s1.saySomething())
-console.log(s1.getFullName())
-console.log(s1.getPersonInfo())
-
 console.log(s2.saySomething())
 console.log(s2.getFullName())
 console.log(s2.getPersonInfo())
+
+console.log(s1.saySomething())
+console.log(s1.getFullName())
+console.log(s1.getPersonInfo())
