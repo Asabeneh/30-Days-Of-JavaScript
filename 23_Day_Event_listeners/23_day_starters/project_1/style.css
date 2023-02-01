@@ -1,0 +1,54 @@
+.wrapper {
+    width : 50%;
+    margin: auto;
+}
+
+.numbergenerator{
+    display : flex;
+    flex-wrap : wrap;
+}
+
+.generatednumber{
+    display : flex;
+    flex-wrap : wrap;
+    margin-top: 30px;
+}
+
+.number{
+    color : white;
+    font-size : 50px;
+    padding : 20px;
+    margin : 5px;
+    width : 11%;
+    text-align : center;
+}
+
+.prime{
+    background : rgb(253,94,83);
+}
+
+.even{
+    background : rgb(33,191,115);
+}
+
+.odd{
+    background : rgb(253,219,58);
+}
+
+.wrapper input{
+    width: 50%;
+    padding: 10px;
+    border: 2px solid rgb(33,191,115);
+}
+
+.wrapper button{
+    color: white;
+    background: rgb(33,191,115);
+    border: rgb(33,191,115);
+    margin-left: 15px;
+    padding: 12px;
+}
+
+.wrapper p{
+    color: red;
+}

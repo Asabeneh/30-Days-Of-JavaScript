@@ -3,14 +3,37 @@
 
 <head>
 	<title>30DaysOfJavaScript:11 Day </title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css">
+	<link rel="stylesheet" href="./css/style.css">	
 </head>
 
 <body>
-	<h1>30DaysOfJavaScript:11 Day</h1>
-	<h2>Destructuring and Spread</h2>
+	<div class="header">
+		<h1>WORLD COUNTRIES LIST</h1>
+		<h4>Total Number of countries : <span class="numberofcountries">193</span></h4>
+		<h5>Countries containing <span class="searchkey">f</span> are <span class="searchresult">7</span></h5>
+
+		<div class="button-group">
+			<button id="startingword">STARTING WORD</button>
+			<button id="anyword">SEARCH WITH ANY WORD</button>
+			<button id="filter"><i class="fa-solid fa-arrow-down-a-z"></i></button>
+		</div>
+		
+		<input type="text" class="searchbar" placeholder="Search country..."><span style="color: white; margin: 20px; font-size: 20px;"><i class="fa fa-search"></i></span>
+
+	</div>
+
+	<main>
+		<div class="countries">
+			<!-- <div class="card">
+				AFGHANISTAN
+			</div> -->
+		</div>
+	</main>
 
 	<script src="./data/countries.js"></script>
-	<script src="./scripts/main.js"></script>
+	<script src="./js/main.js"></script>
 
 </body>
 

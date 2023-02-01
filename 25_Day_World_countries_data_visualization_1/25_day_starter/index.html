@@ -13,7 +13,7 @@
 <body>
 	<header id="countries">
 		<h2>World Countries Data</h2>
-		<p class="subtitle"></p>
+		<p class="subtitle">Currently, we have <span class="numberofcountries"></span> countries</p>
 		<p class="feedback"></p>
 	</header>
 	<main>
@@ -23,14 +23,23 @@
 				<button class="population">Population</button>
 				<button class="languages">Languages</button>
 			</div>
-			<h4 class="graph-title"></h4>
+			<h4 class="graph-title">Top 10 of most spoken languages in the world</h4>
 			<div class="graphs">
-				<div class="graph-wrapper" id="stat"></div>
+				<div class="graph-wrapper" id="stat">
+					<div class="grid">
+						<!-- <div class="pays card">English</div>
+						<div class="portion card">
+							<div class="baton"></div>
+						</div>
+						<div class="valeur card">91</div> -->
+					</div>
+				</div>
 			</div>
 		</div>
 	</main>
 
 	<script src="./data/countries_data.js"></script>
+	<script src="./data/countries_data_old.js"></script>
 	<script src="./js/main.js"></script>
 
 </body>

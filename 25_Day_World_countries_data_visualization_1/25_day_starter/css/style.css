@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Montserrat;
+}
+header{
+    text-align: center;
+    background-color: rgb(240,240,240);
+    padding: 30px;
+    border-bottom: solid 5px rgba(200,200,200, 0.2);
+}
+header h2{
+    color: rgb(255,165,0);
+    font-size: 50px;
+}
+
+.subtitle{
+    font-size: 20px;
+}
+
+.graph-buttons{
+    text-align: center;
+    padding: 30px;
+}
+
+.graph-buttons button{
+    text-transform: uppercase;
+    background-color: rgb(255,165,0);
+    border: solid 1px rgb(255,165,0);
+    margin: 5px;
+    font-size: 15px;
+    padding: 10px;
+    min-width: 200px;
+    width: 10%;
+}
+
+.graph-title{
+    text-align: center;
+    font-size: 20px;
+}
+
+.graphs{
+    background-color: rgb(240,240,240);
+    border: solid 5px rgba(200,200,200, 0.2);
+    
+}
+
+.graph-wrapper{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    width: 70%;
+}
+
+.card {
+    background-color: #fef08a;
+    border: 1px solid #9ca3af;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-auto-rows: minmax(50px, auto);
+}
+
+.pays{
+    
+}
+
+.portion{
+    
+}
+
+.baton{
+    width: 0%;
+    background-color:  rgb(255,165,0);
+    min-height: 50px;
+}
+
+
+
+.valeur{
+    
+}
