@@ -11,7 +11,7 @@
 | 07    |                                               [Fonksiyonlar](./07_Day_Functions/07_day_functions.md)                                               |
 | 08    |                                                   [Nesneler](./08_Day_Objects/08_day_objects.md)                                                   |
 | 09    |                          [Yüksek Dereceli Fonksiyonlar](./09_Day_Higher_order_functions/09_day_higher_order_functions.md)                          |
-| 10    |                                       [Setler Ve Haritalar](./10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md)                                        |
+| 10    |                                       [Setler Ve Haritalar](./10_Day_Sets_And_Maps/10_day_Sets_and_Maps.md)                                        |
 | 11    |                        [Yıkıcılar Ve Yapıcılar](./11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)                        |
 | 12    |                                   [Düzenli İfadeler](./12_Day_Regular_expressions/12_day_regular_expressions.md)                                   |
 | 13    |                             [Consol Nesne Metodları](./13_Day_Console_object_methods/13_day_console_object_methods.md)                             |
