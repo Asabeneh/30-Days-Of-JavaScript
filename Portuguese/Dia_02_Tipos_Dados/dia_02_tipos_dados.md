@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript: Tipos de Dados</h1>
+  <h1> 30 Dias De JavaScript: Tipos de Dados</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -24,14 +24,14 @@
 		- [Tipos de Dados Não Primitivos](#tipos-de-dados-não-primitivos)
 	- [Números](#Números)
 		- [Declarando Tipos de Dados Numéricos](#declarando-tipos-de-dados-numéricos)
-		- [Math Objeto](#math-objeto)
+		- [Objeto Math](#objeto-math)
 			- [Gerador de Número Aleatório](#gerador-de-número-aleatório)
 	- [Strings](#strings)
 		- [String Concatenação](#string-concatenação)
 			- [Concatenando Usando o Operador de Adição](#concatenando-usando-o-operador-de-adição)
 			- [Escape Sequences em Strings](#escape-sequences-em-strings)
 			- [Strings Literais (Template Strings)](#Strings-Literais-template-strings)
-		- [String Methods](#string-methods)
+		- [String Métodos](#string-métodos)
 	- [Verificando Tipos de Dados e Casting](#verificando-tipos-de-dados-e-casting)
 		- [Verificando Tipos de Dados](#verificando-tipos-de-dados)
 		- [Mudando Tipo de Dado (Casting)](#mudando-tipo-de-dado-casting)
@@ -58,7 +58,7 @@ Tipos de dados primitivos em JavaScript inclui:
 
   1. Numbers - Inteiros, floats
   2. Strings - Qualquer dado entre aspas simples, aspas duplas e crase
-  3. Booleans - valores verdadeiros e falsos
+  3. Booleans - valores verdadeiros ou falsos
   4. Null - valor vazio ou sem valor
   5. Undefined - variável declarada sem um valor
   6. Symbol - Um valor único que pode ser gerado por um construtor de símbolo
@@ -69,43 +69,43 @@ Tipos de dados não primitivos em JavaScriot inclui:
   2. Arrays
 
 Agora, vamos ver exatamente oque significa tipos de dados primitivos e não primitivos.
-*Primitivo* são tipos de dados imutáveis(não-modificável). Uma vez criado um tipo de dado primitivo nós não podemos mais modificá-lo.
+*Primitivo* são tipos de dados imutáveis (não-modificável). Uma vez criado um tipo de dado primitivo nós não podemos mais modificá-lo.
 
 **Exemplo:**
 
 ```js
-let word = 'JavaScript'
+let exemplo = 'JavaScript'
 ```
 
-Se nós tentarmos modificar uma string armazenada na variável *word*, o JavaScript irá mostar um error. Qualquer dado entre aspas simples, aspas duplas, ou crase é um string.
+Se nós tentarmos modificar uma string armazenada na variável *exemplo*, o JavaScript irá mostar um error. Qualquer dado entre aspas simples, aspas duplas, ou crase é um string.
 
 ```js
-word[0] = 'Y'
+exemplo[0] = 'Y'
 ```
 
-Esta expressão não muda a string armazenada na variável *word*. Então, podemos dizer que strings não são modificavéis ou in outras palavras imutáveis.
+Esta expressão não muda a string armazenada na variável *exemplo*. Então, podemos dizer que strings não são modificavéis ou in outras palavras imutáveis.
 Tipos de dados primitivos são comparados pelo seu valor. Vamos comparar valores de dados diferentes. Veja o exemplo abaixo:
 
 ```js
 let numeroUm = 3
 let numeroDois = 3
 
-console.log(numeroUm == numeroDois)      // verdadeiro
+console.log(numeroUm == numeroDois)  // verdadeiro
 
 let js = 'JavaScript'
 let py = 'Python'
 
-console.log(js == py)             // falso 
+console.log(js == py)                // falso 
 
-let LuzLigar = true
-let lightApagar = false
+let luzLigar = true
+let luzApagar = false
 
-console.log(LuzLigar == lightApagar) // falso
+console.log(luzLigar == luzApagar)   // falso
 ```
 
 ### Tipos de Dados Não Primitivos
 
-*não primitivos* são tipos de dados modificáveis ou mutáveis. Nós podemos modificar o valor de um dado tipo não primitivo depois de criado.
+*Não primitivos* são tipos de dados modificáveis ou mutáveis. Nós podemos modificar o valor de um dado tipo não primitivo depois de criado.
 Vamos ver isso criando um array, um array é uma lista de valores de dados entre colchetes. Arrays que contém o mesmo ou diferentes tipos de dados. Valores de Arrays são referenciados pelo seu index. Em JavaScript o index do array começa em zero, em outras palavras o primeiro elemento de um array é encontrado no index zero, o segundo elemento no index um, e o terceiro elemento no index dois, etc.
 
 ```js
@@ -119,19 +119,19 @@ Como você pode ver, um array é um tipo de dado não primitivo e mutável. Tipo
 
 ```js
 let nums = [1, 2, 3]
-let numbers = [1, 2, 3]
+let numeros = [1, 2, 3]
 
-console.log(nums == numbers)  // falso
+console.log(nums == numeros)  // falso
 
 let userOne = {
-name:'Asabeneh',
-role:'teaching',
-country:'Finland'
+nome:'Asabeneh',
+profissao:'professor',
+país:'Finland'
 }
 
 let userTwo = {
-name:'Asabeneh',
-role:'teaching',
+nome:'Asabeneh',
+profissao:'professor',
 country:'Finland'
 }
 
@@ -142,14 +142,14 @@ Regra de ouro, nós não comparamos tipos de dados não primitivos. Não se comp
 
 ```js
 let nums = [1, 2, 3]
-let numbers = nums
+let numeros = nums
 
-console.log(nums == numbers)  // verdadeiro
+console.log(nums == numeros)  // verdadeiro
 
 let userOne = {
-name:'Asabeneh',
-role:'teaching',
-country:'Finland'
+nome:'Asabeneh',
+profissao:'Professor',
+país:'Finland'
 }
 
 let userTwo = userOne
@@ -157,7 +157,7 @@ let userTwo = userOne
 console.log(userOne == userTwo)  // verdadeiro
 ```
 
-Com dificuldade de entender a diferença entre tipos de dados primitivos e tipos de dados não primitivos, você não é o único. Calma e apenas vá para a próxima sessão e tente voltar aqui depois de algum tempo. Agora vamos começar com tipos de dados do tipo número.
+Com dificuldade de entender a diferença entre tipos de dados primitivos e tipos de dados não primitivos? Você não é o único. Calma e apenas vá para a próxima sessão e tente voltar aqui depois de algum tempo. Agora vamos começar com tipos de dados do tipo número.
 
 ## Números
 
@@ -168,70 +168,70 @@ Vamos ver alguns exemplos de Números.
 
 ```js
 let idade = 35
-const gravidade = 9.81  // nós usamos const para valores que não mudam, constante gravitacional em m/s2
-let massa = 72         // massa em Kilogramas
-const PI = 3.14       // pi constante geométrica
+const gravidade = 9.81        // nós usamos const para valores que não mudam, constante gravitacional em 9,8 m/s².
+let massa = 72                // massa em Kilogramas
+const PI = 3.14               // pi constante geométrica
 
 // Mais exemplos
-const pontoEbulição = 100 // temperatura em oC, ponto de ebulução da água que é uma constante
-const temperaturaCorpo = 37      // oC média da temperatura corporal humana, que é uma constante
+const pontoEbulicao = 100     // temperatura em oC, ponto de ebulução da água que é uma constante
+const temperaturaCorpo = 37   // oC média da temperatura corporal humana, que é uma constante
 
-console.log(idade, gravidade, massa, PI, pontoEbulição, temperaturaCorpo)
+console.log(idade, gravidade, massa, PI, pontoEbulicao, temperaturaCorpo)
 ```
 
-### Math Object
+### Objeto Math 
 
-Em JavaScript o Math Object promove muitos métodos para trabalhar com números.
+Em JavaScript o objeto Math promove muitos métodos para trabalhar com números.
 
 ```js
 const PI = Math.PI
 
-console.log(PI)                            // 3.141592653589793
+console.log(PI)                                 // 3.141592653589793
 
 // arredondando para o número mais próximo
 // se maior que 0.5 para cima, se menor que 0.5 para baixo.
 
-console.log(Math.round(PI))                // 3 é o valor mais próximo
+console.log(Math.round(PI))                     // 3 é o valor mais próximo
 
-console.log(Math.round(9.81))              // 10
+console.log(Math.round(9.81))                   // 10
 
-console.log(Math.floor(PI))                // 3 arredondando para baixo
+console.log(Math.floor(PI))                     // 3 arredondando para baixo
 
-console.log(Math.ceil(PI))                 // 4 arredondando para cima
+console.log(Math.ceil(PI))                      // 4 arredondando para cima
 
-console.log(Math.min(-5, 3, 20, 4, 5, 10)) // -5, retorna o valor mínimo
+console.log(Math.min(-5, 3, 20, 4, 5, 10))      // -5, retorna o valor mínimo
 
-console.log(Math.max(-5, 3, 20, 4, 5, 10)) // 20, retorna o valor máximo
+console.log(Math.max(-5, 3, 20, 4, 5, 10))      // 20, retorna o valor máximo
 
-const randNum = Math.random() // cria um número aleatório entre 0 ate 0.999999 
-console.log(randNum)
+const numAleatorio = Math.random()              // cria um número aleatório entre 0 até 0.999999 
+console.log(numAleatorio)
 
-// Vamos criar um numero aleatório entre 0 ate 10
+// Vamos criar um número aleatório entre 0 até 10
 
-const num = Math.floor(Math.random () * 11) // cria um número aleatório entre 0 ate 10
+const num = Math.floor(Math.random () * 11)     // cria um número aleatório entre 0 até 10
 console.log(num)
 
 // Valor absoluto
-console.log(Math.abs(-10))      // 10
+console.log(Math.abs(-10))                      // 10
 
 // Raiz quadrada
-console.log(Math.sqrt(100))     // 10
+console.log(Math.sqrt(100))                     // 10
 
-console.log(Math.sqrt(2))       // 1.4142135623730951
+console.log(Math.sqrt(2))                       // 1.4142135623730951
 
 // Potência
-console.log(Math.pow(3, 2))     // 9
+console.log(Math.pow(3, 2))                     // 9
 
-console.log(Math.E)             // 2.718
+console.log(Math.E)                             // 2.718
 
 // Logaritmo
 // Retorna o logaritmo natural com base E de x, Math.log(x)
-console.log(Math.log(2))        // 0.6931471805599453
-console.log(Math.log(10))       // 2.302585092994046
+console.log(Math.log(2))                        // 0.6931471805599453
+console.log(Math.log(10))                       // 2.302585092994046
 
 // Retorna o logaritmo natural de 2 e 10 repectivamente
-console.log(Math.LN2)           // 0.6931471805599453
-console.log(Math.LN10)          // 2.302585092994046
+console.log(Math.LN2)                           // 0.6931471805599453
+console.log(Math.LN10)                          // 2.302585092994046
 
 // Trigonometria
 Math.sin(0)
@@ -246,19 +246,19 @@ Math.cos(60)
 O objeto Math do JavaScript tem o método random() que gera números de 0 ate 0.999999999...
 
 ```js
-let randomNum = Math.random() // gera de 0 ate 0.999...
+let numeroAleatorio = Math.random()         // gera de 0 até 0.999...
 ```
 
 Agora, vamos ver como nós podemos usar o método random() para gerar um número aleatório entre 0 e 10:
 
 ```js
-let randomNum = Math.random()         // gera de 0 ate 0.999
-let numBtnZeroAndTen = randomNum * 11
+let numeroAleatorio = Math.random()         // gera de 0 até 0.999
+let numeroEntreZeroAteDez = numeroAleatorio * 11
 
-console.log(numBtnZeroAndTen)         // este retorna: min 0 and max 10.99
+console.log(numeroEntreZeroAteDez)          // retorna: min 0 and max 10.99
 
-let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen)
-console.log(randomNumRoundToFloor)    // este retorna entre 0 e 10
+let numeroAleatorioParaInteiro = Math.floor(numeroEntreZeroAteDez)
+console.log(numeroAleatorioParaInteiro)     // retorna: entre 0 e 10
 ```
 
 ## Strings
@@ -267,15 +267,15 @@ Strings são textos, que estão entre **_simples_**, **_duplas_**, **_crase_**. 
 Vamos ver alguns exemplos de string:
 
 ```js
-let espaço = ' '           // um valor de string vazia
+let espaço = ' '                 // um valor de string vazia
 let primeiroNone = 'Asabeneh'
 let ultimoNome = 'Yetayeh'
 let país = 'Finland'
 let cidade = 'Helsinki'
 let linguagem = 'JavaScript'
-let profissão = 'teacher'
-let citação = "The saying,'Seeing is Believing' is not correct in 2020."
-let citaçãoUsandoCrase = `The saying,'Seeing is Believing' is not correct in 2020.`
+let profissao = 'Professor'
+let citacao = "The saying,'Seeing is Believing' is not correct in 2020."
+let citacaoUsandoCrase = `The saying,'Seeing is Believing' is not correct in 2020.`
 ```
 
 ### String Concatenação
@@ -284,7 +284,7 @@ Conectando duas ou mais strings juntas é chamado de concatenação.
 Usando as strings declaradas na sessão anterior de strings: 
 
 ```js
-let nomeCompleto = primeiroNone + espaço + ultimoNome; // concatenação, combinar duas ou mais strings juntas.
+let nomeCompleto = primeiroNone + espaco + ultimoNome; // concatenação, combinar duas ou mais strings juntas.
 console.log(nomeCompleto);
 ```
 
@@ -300,16 +300,16 @@ Concatenando usando o operador de adição é o modo antigo de fazer. Este tipo 
 
 ```js
 // Declarando diferentes variáveis de diferentes tipos de dados
-let espaço = ' '
+let espaco = ' '
 let primeiroNome = 'Asabeneh'
 let ultimoNome = 'Yetayeh'
-let país = 'Finland'
+let pais = 'Finland'
 let cidade = 'Helsinki'
 let linguagem = 'JavaScript'
-let profissão = 'teacher'
+let profissao = 'teacher'
 let idade = 250
 
-let nomeCompleto = primeiroNome + espaço + ultimoNome
+let nomeCompleto = primeiroNome + espaco + ultimoNome
 let pessoaUmInfo = nomeCompleto + '. I am ' + idade + '. I live in ' + país; // ES5 adição de string
 
 console.log(pessoaUmInfo)
@@ -399,15 +399,15 @@ console.log(`The sum of ${a} and ${b} is ${a + b}`) // injetando dados dinamicam
 ```js
 let primeiroNome = 'Asabeneh'
 let ultimoNome = 'Yetayeh'
-let país = 'Finland'
+let pais = 'Finland'
 let cidade = 'Helsinki'
 let linguagem = 'JavaScript'
-let profissão = 'teacher'
+let profissao = 'teacher'
 let idade = 250
 let nomeCompleto = primeiroNome + ' ' + ultimoNome
 
-let pessoaInfoUm = `I am ${nomeCompleto}. I am ${idade}. I live in ${país}.` //ES6 - Método de interpolação de String
-let pesoaInfoDois = `I am ${nomeCompleto}. I live in ${cidade}, ${país}. I am a ${profissão}. I teach ${linguagem}.`
+let pessoaInfoUm = `I am ${nomeCompleto}. I am ${idade}. I live in ${pais}.` //ES6 - Método de interpolação de String
+let pesoaInfoDois = `I am ${nomeCompleto}. I live in ${cidade}, ${pais}. I am a ${profissao}. I teach ${linguagem}.`
 console.log(pessoaInfoUm)
 console.log(pesoaInfoDois)
 ```
@@ -479,7 +479,7 @@ let primeiroNome = 'Asabeneh'
 
 console.log(primeiroNome.toUpperCase())  // ASABENEH
 
-let país = 'Finland'
+let pais = 'Finland'
 
 console.log(país.toUpperCase())    // FINLAND
 ```
@@ -506,7 +506,7 @@ console.log(pais.toLowerCase())   // finland
 let string = 'JavaScript'
 console.log(string.substr(4,6))    // Script
 
-let país = 'Finland'
+let pais = 'Finland'
 console.log(país.substr(3, 4))   // land
 ```
 
@@ -519,7 +519,7 @@ console.log(string.substring(0,4))     // Java
 console.log(string.substring(4,10))    // Script
 console.log(string.substring(4))       // Script
 
-let país = 'Finland'
+let pais = 'Finland'
 
 console.log(país.substring(0, 3))   // Fin
 console.log(país.substring(3, 7))   // land
@@ -539,7 +539,7 @@ let primeiroNome = 'Asabeneh'
 console.log(primeiroNome.split())    // muda para um array - > ["Asabeneh"]
 console.log(primeiroNome.split(''))  // separa em um array cada letra ->  ["A", "s", "a", "b", "e", "n", "e", "h"]
 
-let país = 'Finland, Sweden, Norway, Denmark, and Iceland'
+let pais = 'Finland, Sweden, Norway, Denmark, and Iceland'
 
 console.log(país.split(','))  // separa para um array com vírgula -> ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
 console.log(país.split(', ')) //  ["Finland", "Sweden", "Norway", "Denmark", "and Iceland"]
@@ -578,7 +578,7 @@ console.log(string.includes('script'))   // false
 console.log(string.includes('java'))     // false
 console.log(string.includes('Java'))     // true
 
-let país = 'Finland'
+let pais = 'Finland'
 
 console.log(país.includes('fin'))     // false
 console.log(país.includes('Fin'))     // true
@@ -596,7 +596,7 @@ string.replace(antigaSubstring, novaSubstring)
 let string = '30 Days Of JavaScript'
 console.log(string.replace('JavaScript', 'Python')) // 30 Days Of Python
 
-let país = 'Finland'
+let pais = 'Finland'
 console.log(país.replace('Fin', 'Noman'))       // Nomanland
 ```
 11. *charAt()*: Usando um index e retorna o valor no index selecionado;
@@ -708,7 +708,7 @@ console.log(string.endsWith('world'))         // true
 console.log(string.endsWith('love'))          // false
 console.log(string.endsWith('in the world')) // true
 
-let país = 'Finland'
+let pais = 'Finland'
 
 console.log(país.endsWith('land'))         // true
 console.log(país.endsWith('fin'))          // false
@@ -795,10 +795,10 @@ Para verificar o tipo de uma variável nós usamos o método _typeOf_.
 
 let primeiroNome = 'Asabeneh'     // string
 let ultimoNome = 'Yetayeh'        // string
-let país = 'Finland'              // string
+let pais = 'Finland'              // string
 let cidade = 'Helsinki'           // string
 let idade = 250                   // número, não é minha idade real, não se preocupe com isso
-let profissão                     // undefined, porque o valor não foi definido.
+let profissao                     // undefined, porque o valor não foi definido.
 
 console.log(typeof 'Asabeneh')    // string
 console.log(typeof primeiroNome)  // string
@@ -807,7 +807,7 @@ console.log(typeof 3.14)          // number
 console.log(typeof true)          // boolean
 console.log(typeof false)         // boolean
 console.log(typeof NaN)           // number
-console.log(typeof profissão)     // undefined
+console.log(typeof profissao)     // undefined
 console.log(typeof undefined)     // undefined
 console.log(typeof null)          // object
 ```
@@ -962,7 +962,7 @@ console.log(numInt) // 9
 
 3. Limpar o seguinte texto e encontrar a palavra mais repetida (dica, use replace e expressões regulares)
   ```js
-    const sentence = " %I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching "
+    const frase = " %I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching "
   ```  
 
 4. Calcular o total anual de uma pessoa extraindo os números do seguinte texto. __"Ele recebe 5000 euros de salário por mês, 10000 euros de bônus anual, 15000 euros de cursos onlines por mês.'__. 
