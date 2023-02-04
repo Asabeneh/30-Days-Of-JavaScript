@@ -671,4 +671,4 @@ You are 30 years old.
 
 🎉 PARABÉNS ! 🎉
 
-[Dia 2 >>](./02_Day_Data_types/02_day_data_types.md)
+[Dia 2 >>](./Dia_02_Tipos_Dados/dia_02_tipos_dados.md)
