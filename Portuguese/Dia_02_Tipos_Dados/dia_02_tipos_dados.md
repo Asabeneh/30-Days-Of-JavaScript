@@ -14,7 +14,7 @@
 </div>
 </div>
 
-[<< Dia 1](../readMe.md) | [Dia 3 >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)
+[<< Dia 1](../readMe.md) | [Dia 3 >>](../Dia_03_Booleanos_Operadores_Data/dia_03_booleanos_operadores_data.md)
 
 ![Thirty Days Of JavaScript](/images/banners/day_1_2.png)
 
