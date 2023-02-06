@@ -19,8 +19,8 @@
 
 - [📔 Ngày 3](#-day-3)
 	- [Booleans](#booleans)
-		- [Giá trị đúng](#truthy-values)
-		- [Giá trị sai](#falsy-values)
+		- [Giá trị đúng](#gia-tri-dung)
+		- [Giá trị sai](#gia-tri-sai)
 	- [Không xác định](#undefined)
 	- [Giá trị không tồn tại](#null)
 	- [Toán tử](#operators)
@@ -36,7 +36,7 @@
 		- [Phương thức alert()](#window-alert-method)
 		- [Phương thức prompt()](#window-prompt-method)
 		- [Phương thức confirm()](#window-confirm-method)
-	- [Đối tượng thời gian](#date-object)
+	- [Đối tượng Date](#date-object)
 		- [Tạo một đối tượng thời gian](#creating-a-time-object)
 		- [Lấy giá trị năm](#getting-full-year)
 		- [Lấy giá trị tháng](#getting-month)
@@ -71,65 +71,65 @@ let falseValue = 4 < 3  // false
 
 Chúng ta có thể thấy được boolean chỉ có giá trị đúng hoặc sai.
 
-### Giá trị đúng
+### Gia tri dung
 
-- All numbers(positive and negative) are truthy except zero
-- All strings are truthy except an empty string ('')
-- The boolean true
+- Mọi số thực (dương và âm) đều mang giá trị đúng trừ 0
+- Mọi chuỗi đều có giá trị đúng trừ chuỗi rỗng ('')
+- Boolean đúng
 
-### Falsy values
+### Gia tri sai
 
 - 0
 - 0n
 - null
-- undefined
+- Không xác định
 - NaN
-- the boolean false
-- '', "", ``, empty string
+- Boolean sai
+- '', "", ``, những chuỗi rỗng
 
-It is good to remember those truthy values and falsy values. In later section, we will use them with conditions to make decisions.
+Ghi nhớ những điều kiện để giá trị đúng sai sẽ có ích, bởi vì ở phần tiếp theo, chúng ta sẽ sử dụng chúng với điều kiện để đưa ra lựa chọn.
 
-## Undefined
+## Không xác định
 
-If we declare a variable and if we do not assign a value, the value will be undefined. In addition to this, if a function is not returning the value, it will be undefined.
+Nếu chúng ta tạo một biến nhưng không gán một giá trị vào biến ấy, giá trị của biến ấy sẽ là *undefined*. Đồng thời, nếu một phương thức không trả một giá trị, phương thức ấy sẽ cho ra giá trị *underfined*
 
 ```js
 let firstName
-console.log(firstName) //not defined, because it is not assigned to a value yet
+console.log(firstName) // Không xác định, bởi vì biến firstName chưa được gán giá trị
 ```
 
 ## Null
 
 ```js
 let empty = null
-console.log(empty) // -> null , means no value
+console.log(empty) // -> null , nghĩa là không tồn tại
 ```
 
-## Operators
+## Toán tử
 
-### Assignment operators
+### Toán tử gán
 
-An equal sign in JavaScript is an assignment operator. It uses to assign a variable.
+Dấu bằng trong JavaScript là một toán tử gán. Nó được dụng để gán giá trị vào biến
 
 ```js
-let firstName = 'Asabeneh'
-let country = 'Finland'
+let firstName = 'Asabeneh' // Gán giá trị 'Asabeneh' vào biến firstName
+let country = 'Finland' // Gán giá trị 'Finland' vào biến country
 ```
 
-Assignment Operators
+Toán tử gán
 
-![Assignment operators](../images/assignment_operators.png)
+![Assignment operators](../../images/assignment_operators.png)
 
-### Arithmetic Operators
+### Toán tử số học
 
-Arithmetic operators are mathematical operators.
+Toán tử số học là những phép tính toán.
 
-- Addition(+): a + b
-- Subtraction(-): a - b
-- Multiplication(*): a * b
-- Division(/): a / b
-- Modulus(%): a % b
-- Exponential(**): a ** b
+- Phép cộng(+): a + b
+- Phép trừ(-): a - b
+- Phép nhân(*): a * b
+- Phép chia(/): a / b
+- Phép chia lấy dư(%): a % b
+- Lũy thừa(**): a ** b
 
 ```js
 let numOne = 4
@@ -147,25 +147,24 @@ console.log(sum, diff, mult, div, remainder, powerOf) // 7,1,12,1.33,1, 64
 
 ```js
 const PI = 3.14
-let radius = 100          // length in meter
+let radius = 100          // độ dài đơn vị mét
 
 //Let us calculate area of a circle
 const areaOfCircle = PI * radius * radius
 console.log(areaOfCircle)  //  314 m
 
 
-const gravity = 9.81      // in m/s2
-let mass = 72             // in Kilogram
+const gravity = 9.81      // đơn vị m/s2
+let mass = 72             // đơn vị Kilogram
 
-// Let us calculate weight of an object
+//Chúng ta sẽ tính khối lượng của đối tượng này
 const weight = mass * gravity
 console.log(weight)        // 706.32 N(Newton)
 
-const boilingPoint = 100  // temperature in oC, boiling point of water
-const bodyTemp = 37       // body temperature in oC
+const boilingPoint = 100  // Nhiệt độ sôi của nước (oC)
+const bodyTemp = 37       // Nhiệt độ cơ thể (oC)
 
-
-// Concatenating string with numbers using string interpolation
+// Nối chuỗi với số sử dụng phép nội suy chuỗi
 /*
  The boiling point of water is 100 oC.
  Human body temperature is 37 oC.
@@ -176,88 +175,85 @@ console.log(
 )
 ```
 
-### Comparison Operators
+### Toán tử so sánh
 
-In programming we compare values, we use comparison operators to compare two values. We check if a value is greater or less or equal to other value.
+Trong lập trình, khi chúng ta so sánh 2 giá trị với nhau, chúng ta sẽ sử dụng toán tử so sánh. Toán tử so sánh giúp cho chúng ta biết giá trị 1 sẽ lớn hoặc hay nhỏ hơn hoặc bằng giá trị 2.
 
-![Comparison Operators](../images/comparison_operators.png)
-**Example: Comparison Operators**
+![Comparison Operators](../../images/comparison_operators.png)
+**Example: Toán tử so sánh**
 
 ```js
-console.log(3 > 2)              // true, because 3 is greater than 2
-console.log(3 >= 2)             // true, because 3 is greater than 2
-console.log(3 < 2)              // false,  because 3 is greater than 2
-console.log(2 < 3)              // true, because 2 is less than 3
-console.log(2 <= 3)             // true, because 2 is less than 3
-console.log(3 == 2)             // false, because 3 is not equal to 2
-console.log(3 != 2)             // true, because 3 is not equal to 2
-console.log(3 == '3')           // true, compare only value
-console.log(3 === '3')          // false, compare both value and data type
-console.log(3 !== '3')          // true, compare both value and data type
-console.log(3 != 3)             // false, compare only value
-console.log(3 !== 3)            // false, compare both value and data type
-console.log(0 == false)         // true, equivalent
-console.log(0 === false)        // false, not exactly the same
-console.log(0 == '')            // true, equivalent
-console.log(0 == ' ')           // true, equivalent
-console.log(0 === '')           // false, not exactly the same
-console.log(1 == true)          // true, equivalent
-console.log(1 === true)         // false, not exactly the same
-console.log(undefined == null)  // true
-console.log(undefined === null) // false
-console.log(NaN == NaN)         // false, not equal
-console.log(NaN === NaN)        // false
-console.log(typeof NaN)         // number
+console.log(3 > 2)              // Đúng, bởi vì 3 lớn hơn 2
+console.log(3 >= 2)             // Đúng, bởi vì 3 lớn hơn 2
+console.log(3 < 2)              // Sai, bởi vì 3 lớn hơn 2
+console.log(2 < 3)              // Đúng, bởi vì 2 bé hơn 3 
+console.log(2 <= 3)             // Đúng, bởi vì 2 bé hơn 3
+console.log(3 == 2)             // Sai, bởi vì 3 không bằng 2
+console.log(3 != 2)             // Đúng, bởi vì 3 không bằng 2
+console.log(3 == '3')           // Đúng, chỉ so sánh giá trị
+console.log(3 === '3')          // Sai, so sánh cả giá trị lẫn kiểu dữ liệu
+console.log(3 !== '3')          // Đúng, so sánh cả giá trị lẫn kiểu dữ liệu
+console.log(3 != 3)             // Sai, chỉ so sánh giá trị
+console.log(3 !== 3)            // Sai, so sánh cả giá trị lẫn kiểu dữ liệu
+console.log(0 == false)         // Đúng, 2 giá trị tương đương nhau
+console.log(0 === false)        // Sai, 2 giá trị không giống nhau hoàn toàn
+console.log(0 == '')            // Đúng, giá trị tương đương nhau 
+console.log(0 == ' ')           // Đúng, giá trị tương đương nhau
+console.log(0 === '')           // Sai, 2 giá trị không giống nhau hoàn toàn
+console.log(1 == true)          // Đúng, giá trị tương đương nhau
+console.log(1 === true)         // Sai, 2 giá trị không giống nhau hoàn toàn
+console.log(undefined == null)  // Đúng
+console.log(undefined === null) // Sai
+console.log(NaN == NaN)         // Sai, không bằng nhau
+console.log(NaN === NaN)        // Sai
+console.log(typeof NaN)         // Kiểu dữ liệu số
 
-console.log('mango'.length == 'avocado'.length)  // false
-console.log('mango'.length != 'avocado'.length)  // true
-console.log('mango'.length < 'avocado'.length)   // true
-console.log('milk'.length == 'meat'.length)      // true
-console.log('milk'.length != 'meat'.length)      // false
-console.log('tomato'.length == 'potato'.length)  // true
-console.log('python'.length > 'dragon'.length)   // false
+console.log('mango'.length == 'avocado'.length)  // Sai
+console.log('mango'.length != 'avocado'.length)  // Đúng
+console.log('mango'.length < 'avocado'.length)   // Đúng
+console.log('milk'.length == 'meat'.length)      // Đúng
+console.log('milk'.length != 'meat'.length)      // Sai
+console.log('tomato'.length == 'potato'.length)  // Đúng
+console.log('python'.length > 'dragon'.length)   // Sai
 ```
 
-Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
-JavaScript is somehow a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
+Hãy cố hiểu những so sánh trên theo logic, không nên học thuộc lòng bởi vì sẽ khó hơn.
+Javascript là một ngôn ngữ lập trình lạ. Code Javascript sẽ chạy và đưa ra kết quả nhưng trừ khi bạn thật sự thành thạo ngôn ngữ này, kết quả sẽ không như mong đợi.
 
-As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
+Theo như quy tắc ngón tay, nếu giá trị là không đúng với '==' thì cũng sẽ không đúng với '==='. Sử dụng '===' để so sánh sẽ an toàn hơn sử dụng '=='. Đường [link](https://dorey.github.io/JavaScript-Equality-Table/) sau đây bao gồm một dãy kết quả so sánh giữa các kiểu dữ liệu khác nhau.
 
-### Logical Operators
+### Toán tử Logic
 
-The following symbols are the common logical operators:
-&&(ampersand) , ||(pipe) and !(negation).
-The && operator gets true only if the two operands are true.
-The || operator gets true either of the operand is true.
-The ! operator negates true to false and false to true.
+Các ký hiệu sau đây là các toán tử logic thông dụng:
+&& (và) , || (hoặc) và ! (phủ định). Toán tử && sẽ cho kết quả đúng khi cả hai đều kiện đều đúng. Toán tử || sẽ cho kết quả đúng khi một trong hai điều kiện đúng. Toán tử ! sẽ đảo ngược kết quả lại.
 
 ```js
-// && ampersand operator example
+// Ví dự toán tử &&
 
-const check = 4 > 3 && 10 > 5         // true && true -> true
-const check = 4 > 3 && 10 < 5         // true && false -> false
-const check = 4 < 3 && 10 < 5         // false && false -> false
+const check = 4 > 3 && 10 > 5         // đúng && đúng -> đúng
+const check = 4 > 3 && 10 < 5         // đúng && sai -> sai
+const check = 4 < 3 && 10 < 5         // sai && sai -> sai
 
-// || pipe or operator, example
+// Ví dụ toán tử ||
 
-const check = 4 > 3 || 10 > 5         // true  || true -> true
-const check = 4 > 3 || 10 < 5         // true  || false -> true
-const check = 4 < 3 || 10 < 5         // false || false -> false
+const check = 4 > 3 || 10 > 5         // đúng  || đúng -> đúng
+const check = 4 > 3 || 10 < 5         // đúng  || sai -> đúng
+const check = 4 < 3 || 10 < 5         // sai || sai -> sai
 
-//! Negation examples
+//Ví dụ toán tử !
 
-let check = 4 > 3                     // true
-let check = !(4 > 3)                  //  false
+let check = 4 > 3                     // đúng
+let check = !(4 > 3)                  // sai
 let isLightOn = true
-let isLightOff = !isLightOn           // false
-let isMarried = !false                // true
+let isLightOff = !isLightOn           // sai
+let isMarried = !false                // đúng
 ```
 
-### Increment Operator
+### Toán tử tăng
 
-In JavaScript we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
+Trong JavaScipt chúng ta dùng toán tử tăng để tăng giá trị được chứa trong một biến. Toán tử tăng có thể nằm trước hoặc sau. Sau đây là ví dụ về cả 2 dạng:
 
-1. Pre-increment
+1. Tăng nằm trước
 
 ```js
 let count = 0
@@ -265,7 +261,7 @@ console.log(++count)        // 1
 console.log(count)          // 1
 ```
 
-1. Post-increment
+1. Tăng nằm sau
 
 ```js
 let count = 0
@@ -273,13 +269,13 @@ console.log(count++)        // 0
 console.log(count)          // 1
 ```
 
-We use most of the time post-increment. At least you should remember how to use post-increment operator.
+Đa phần chúng ta sẽ dùng toán tử tăng nằm sau. Vì thế chúng ta nên nhớ cách sử dụng toán tử tăng nằm sau.
 
-### Decrement Operator
+### Toán tử giảm
 
-In JavaScript we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement. Let us see each of them:
+Trong Javascript chúng ta dùng toán tử giảm để giảm giá trị được chứa trong một biến. Toán tử giảm có thể nằm trước hoặc sau. Sau đây là ví dụ về cả 2 dạng:
 
-1. Pre-decrement
+1. Giảm nằm trước
 
 ```js
 let count = 0
@@ -287,7 +283,7 @@ console.log(--count) // -1
 console.log(count)  // -1
 ```
 
-2. Post-decrement
+2. Giảm nằm sau
 
 ```js
 let count = 0
@@ -295,10 +291,9 @@ console.log(count--) // 0
 console.log(count)   // -1
 ```
 
-### Ternary Operators
+### Toán tử điều kiện
 
-Ternary operator allows to write a condition.
-Another way to write conditionals is using ternary operators. Look at the following examples:
+Toán tử điều kiện cho chúng ta viết được điều kiện. Một cách khác để viết điều kiện là sử dụng toán tử điều kiện. Hãy xem các ví dụ sau:
 
 ```js
 let isRaining = true
@@ -334,15 +329,15 @@ number > 0
 -5 is a negative number
 ```
 
-### Operator Precedence
+### Độ ưu tiên toán tử
 
-I would like to recommend you to read about operator precedence from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+Nếu bạn muốn biết thêm về độ ưu tiên các toán tử hãy truy cập vào [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)  này.
 
-## Window Methods
+## Phương thức cửa sổ
 
-### Window alert() method
+### Hàm alert()
 
-As you have seen at very beginning alert() method displays an alert box with a specified message and an OK button. It is a builtin method and it takes on argument.
+Như ở đầu đã thấy, hàm alert() hiện một cửa sổ cảnh báo với một tin nhắn cụ thể và một nút bấm với chữ 'OK'. Đây là một hàm có sẵn và có thể nhận tham số.
 
 ```js
 alert(message)
@@ -352,11 +347,11 @@ alert(message)
 alert('Welcome to 30DaysOfJavaScript')
 ```
 
-Do not use too much alert because it is destructing and annoying, use it just to test.
+Đừng sử dụng hàm alert() quá nhiều bởi vì sẽ gây khó chịu cho người sử dụng. Chỉ nên dùng để kiểm tra.
 
-### Window prompt() method
+### Hàm prompt()
 
-The window prompt methods display a prompt box with an input on your browser to take input values and the input data can be stored in a variable. The prompt() method takes two arguments. The second argument is optional.
+Hàm prompt sẽ hiện một cửa sổ cho phép chúng ta nhập dữ liệu vào trong trình duyệt và dữ liệu sẽ được lưu vào một biến. Hàm prompt() nhận 2 tham số. Tham số thứ hai có thể có hoặc không.
 
 ```js
 prompt('required text', 'optional text')
@@ -367,151 +362,151 @@ let number = prompt('Enter number', 'number goes here')
 console.log(number)
 ```
 
-### Window confirm() method
+### Hàm confirm()
 
-The confirm() method displays a dialog box with a specified message, along with an OK and a Cancel button.
-A confirm box is often used to ask permission from a user to execute something. Window confirm() takes a string as an argument.
-Clicking the OK yields true value, whereas clicking the Cancel button yields false value.
+Hàm confirm() hiện một cửa sổ với một đoạn tin nhắn kèm theo một nút bấm 'OK' và nút bấm 'Cancel'.
+Hàm confirm() thường được dùng để hỏi sự chấp thuận của người dùng trước khi thực hiện một hành động nào đó. Hàm confirm() nhận chuỗi làm tham số. Chọn nút 'OK' sẽ trả về giá trị đúng, còn nút 'Cancel' sẽ trả về giá trị sai.
 
 ```js
 const agree = confirm('Are you sure you like to delete? ')
-console.log(agree) // result will be true or false based on what you click on the dialog box
+console.log(agree) // kết quả sẽ trả về đúng hoặc sai tùy vào nút người dùng chọn trong cửa sổ
 ```
 
-These are not all the window methods we will have a separate section to go deep into window methods.
+Đây không phải là toàn bộ phương thức cửa sổ. Sẽ có một phần riêng biệt để đi sâu vào các phương thức cửa sổ.
 
-## Date Object
+## Đối tượng Date
 
-Time is an important thing. We like to know the time a certain activity or event. In JavaScript current time and date is created using JavaScript Date Object. The object we create using Date object provides many methods to work with date and time.The methods we use to get date and time information from a date object values are started with a word _get_ because it provide the information.
-_getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
+Thời gian là một thứ quan trọng. Chúng ta muốn biết được thời gian của một hành động hoặc sự kiện gì đó. Trong Javascript, thời gian và ngày hiện tại được tạo ra sử dụng Đối tượng Date trong JavaScript. Đối tượng được tạo ra từ đối tượng Date sẽ có nhiều hàm giúp chúng ta trong việc xử lí thời gian và ngày. Những hàm được sử dụng để lấy được thông tin thời gian và ngày trong đối tượng Date đều bắt đầu với từ _get_.
+ _getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
 
-![Date time Object](../images/date_time_object.png)
+![Date time Object](../../images/date_time_object.png)
 
-### Creating a time object
+### Tạo một đối tượng thời gian
 
-Once we create time object. The time object will provide information about time. Let us create a time object
+Sau khi tạo một đối tượng thời gian. Đối tượng đó sẽ cho chúng ta thông tin về thời gian. Đây là bước để tạo đối tượng thời gian.
 
 ```js
 const now = new Date()
 console.log(now) // Sat Jan 04 2020 00:56:41 GMT+0200 (Eastern European Standard Time)
 ```
 
-We have created a time object and we can access any date time information from the object using the get methods we have mentioned on the table.
+Chúng ta đã tạo một đối tượng thời gian. Giờ chúng ta có thể lấy mọi thông tin liên quan đến thời gian từ đối tượng đã tạo bằng cách sử dụng các hàm _get_ trong bảng trên.
 
-### Getting full year
+### Lấy năm
 
-Let's extract or get the full year from a time object.
+Lấy năm từ đối tượng thời gian
 
 ```js
 const now = new Date()
 console.log(now.getFullYear()) // 2020
 ```
 
-### Getting month
+### Lấy tháng
 
-Let's extract or get the month from a time object.
-
-```js
-const now = new Date()
-console.log(now.getMonth()) // 0, because the month is January,  month(0-11)
-```
-
-### Getting date
-
-Let's extract or get the date of the month from a time object.
+Lấy tháng từ đối tượng thời gian
 
 ```js
 const now = new Date()
-console.log(now.getDate()) // 4, because the day of the month is 4th,  day(1-31)
+console.log(now.getMonth()) // 0, bởi vì đây là tháng Giêng, tháng(0-11)
 ```
 
-### Getting day
+### Lấy ngày
 
-Let's extract or get the day of the week from a time object.
+Lấy ngày trong tháng từ đối tượng thời gian
 
 ```js
 const now = new Date()
-console.log(now.getDay()) // 6, because the day is Saturday which is the 7th day
-//  Sunday is 0, Monday is 1 and Saturday is 6
-// Getting the weekday as a number (0-6)
+console.log(now.getDate()) // 4, bởi vì ngày trong tháng là ngày bốn, ngày(1-31)
 ```
 
-### Getting hours
+### Lấy thứ
 
-Let's extract or get the hours from a time object.
+Lấy thứ ngày trong tuần từ đối tượng thời gian
 
 ```js
 const now = new Date()
-console.log(now.getHours()) // 0, because the time is 00:56:41
+console.log(now.getDay()) // 6, bởi vì hôm nay là thứ bảy
+//  Chủ nhật là 0, thứ Hai là 1 và thứ bảy là 6
+// Ngày trong tuần (0-6)
 ```
 
-### Getting minutes
+### Lấy giờ
 
-Let's extract or get the minutes from a time object.
+Lấy giờ từ đối tượng thời gian
 
 ```js
 const now = new Date()
-console.log(now.getMinutes()) // 56, because the time is 00:56:41
+console.log(now.getHours()) // 0, bời vì thời gian là 00:56:41
 ```
 
-### Getting seconds
+### Lấy phút
 
-Let's extract or get the seconds from a time object.
+Lấy phút từ đối tượng thời gian
 
 ```js
 const now = new Date()
-console.log(now.getSeconds()) // 41, because the time is 00:56:41
+console.log(now.getMinutes()) // 56, bời vì thời gian là 00:56:41
 ```
 
-### Getting time
+### Lấy giây
 
-This method give time in milliseconds starting from January 1, 1970. It is also know as Unix time. We can get the unix time in two ways:
+Lấy giây từ đối tượng thời gian
 
-1. Using _getTime()_
+```js
+const now = new Date()
+console.log(now.getSeconds()) // 41, bời vì thời gian là 00:56:41
+```
+
+### Lấy thời gian
+
+Phương thức này sẽ cho chúng ta thời gian theo giây tính từ ngày 1, tháng 1, năm 1970. Đây còn được gọi là thời gian Unix. Chúng ta có thể lấy thời gian Unix theo 2 cách sau:
+
+1. Sử dụng hàm _getTime()_
 
 ```js
 const now = new Date() //
-console.log(now.getTime()) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
+console.log(now.getTime()) // 1578092201341, đây là số giây đã trôi qua kể từ ngày 1, tháng 1, năm 1970 đến 4 Tháng 1, 2020 00:56:41
 ```
 
-1. Using _Date.now()_
+1. Sử dụng hàm _Date.now()_
 
 ```js
 const allSeconds = Date.now() //
-console.log(allSeconds) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
+console.log(allSeconds) // 1578092201341,đây là số giây đã trôi qua kể từ ngày 1, tháng 1, năm 1970 đến 4 Tháng 1, 2020 00:56:41
 
 const timeInSeconds = new Date().getTime()
-console.log(allSeconds == timeInSeconds) // true
+console.log(allSeconds == timeInSeconds) // đúng
 ```
 
-Let us format these values to a human readable time format.
-**Example:**
+Chúng ta sẽ điều chỉnh lại giá trị để có thể dễ đọc thời gian hơn
+
+**Ví dụ:**
 
 ```js
 const now = new Date()
-const year = now.getFullYear() // return year
-const month = now.getMonth() + 1 // return month(0 - 11)
-const date = now.getDate() // return date (1 - 31)
-const hours = now.getHours() // return number (0 - 23)
-const minutes = now.getMinutes() // return number (0 -59)
+const year = now.getFullYear() // Lấy năm
+const month = now.getMonth() + 1 // Lấy tháng(0 - 11)
+const date = now.getDate() // Lấy ngày (1 - 31)
+const hours = now.getHours() // Lấy giờ (0 - 23)
+const minutes = now.getMinutes() // Lấy phút (0 -59)
 
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
 
-🌕  You have boundless energy. You have just completed day 3 challenges and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕  Bạn có năng lượng vô tận. Bạn vừa hoàn thành thử thách của ngày thứ 3 và bạn đã tiến được 3 bước trên con đường vươn tới sự vĩ đại. Bây giờ hãy làm một số bài tập để giúp cho trí não của bạn.
 
-## 💻 Day 3: Exercises
+## 💻 Day 3: Bài tập
 
-### Exercises: Level 1
+### Bài tập: Level 1
 
-1. Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.
-2. Check if type of '10' is equal to 10
-3. Check if parseInt('9.8') is equal to 10
-4. Boolean value is either true or false.
-   1. Write three JavaScript statement which provide truthy value.
-   2. Write three JavaScript statement which provide falsy value.
+1. Khai báo biến firstName, lastName, country, city, age, isMarried, year và gán giá trị cho nó và sử dụng toán tử typeof để kiểm tra các kiểu dữ liệu khác nhau.
+2. Kiểm tra xem kiểu dữ liệu của '10' có giống với 10
+3. Kiểm tra parseInt('9.8') có bằng 10 không
+4. Giá trị boolean có thể đúng hoặc sai
+   1. Viết ba câu lệnh JavaScript cung cấp giá trị đúng.
+   2. Viết ba câu lệnh JavaScript cung cấp giá trị sai.
 
-5. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+5. Hãy tìm ra kết quả của các biểu thức so sánh sau không sử dụng console.log(). Sau khi làm xong, hãy xác nhận nó bằng console.log()
    1. 4 > 3
    2. 4 >= 3
    3. 4 < 3
@@ -523,9 +518,9 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    9. 4 != '4'
    10. 4 == '4'
    11. 4 === '4'
-   12. Find the length of python and jargon and make a falsy comparison statement.
+   12. Tìm độ dài của python và biệt ngữ và đưa ra một câu lệnh so sánh sai
 
-6. Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
+6. Hãy tìm ra kết quả của các biểu thức so sánh sau không sử dụng console.log(). Sau khi làm xong, hãy xác nhận nó bằng console.log()
    1. 4 > 3 && 10 < 12
    2. 4 > 3 && 10 > 12
    3. 4 > 3 || 10 < 12
@@ -536,20 +531,20 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    8. !(4 > 3 && 10 < 12)
    9. !(4 > 3 && 10 > 12)
    10. !(4 === '4')
-   11. There is no 'on' in both dragon and python
+   11. Không có 'on' trong cả 2 từ dragon và python
 
-7. Use the Date object to do the following activities
-   1. What is the year today?
-   2. What is the month today as a number?
-   3. What is the date today?
-   4. What is the day today as a number?
-   5. What is the hours now?
-   6. What is the minutes now?
-   7. Find out the numbers of seconds elapsed from January 1, 1970 to now.
+7. Sử dụng đối tượng Date để làm các câu hỏi sau
+   1. Năm nay là năm mấy?
+   2. Tháng này là tháng mấy dưới dạng số?
+   3. Hôm nay ngày mấy?
+   4. Hôm nay là thứ mấy dưới dạng số?
+   5. Bây giờ mấy giờ?
+   6. Bây giờ mấy phút?
+   7. Tìm số giây đã trôi qua kể từ ngày 1, tháng 1, năm 1970 đến bây giờ.
 
-### Exercises: Level 2
+### Bài tập: Level 2
 
-1. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+1. Viết một đoạn lệnh yêu cầu người dùng nhập độ dài đáy và chiều cao của hình tam giác và tính diện tích của tam giác ấy (diện tích = 0.5 x đáy x cao).
 
    ```sh
    Enter base: 20
@@ -557,7 +552,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    The area of the triangle is 100
    ```
 
-1. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
+2. Viết một đoạn lệnh yêu cầu người dùng nhập độ dài cạnh a, cạnh b, cạnh c của hình tam giác và tính chu vi của tam giác ấy (chu vi = a + b + c).
 
    ```sh
    Enter side a: 5
@@ -566,13 +561,13 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    The perimeter of the triangle is 12
    ```
 
-1. Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
-1. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
-1. Calculate the slope, x-intercept and y-intercept of y = 2x -2
-1. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between point (2, 2) and point(6,10)
-1. Compare the slope of above two questions.
-1. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
-1. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+3. Yêu cầu nhập độ dài và độ rộng sau đó tính diện tích hình chữ nhật (diện tích = dài x rộng) và tính chu vi hình chữ nhật (chu vi = 2 x (dài + rộng).
+4. Yêu cầu nhập bán kính r sau đó tính diện tích hình tròn (diện tích = pi x r x r) và tính chu vi hình tròn (chu vi = 2 x pi x r), lấy pi = 3.14.
+5. Tính hệ số góc, tung độ gốc x và tung độ gốc y của phương trình y = 2x -2
+6. Tung độ góc m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Tìm tung độ góc giữa 2 điểm (2, 2) và (6, 10).
+7. So sánh tung độ góc của câu 5 và câu 6.
+8. Tính giá trị của y (y = x<sup>2</sup> + 6x + 9). Hãy thử sử dụng các giá trị x khác nhau và tìm ra giá trị x để y bằng 0.
+9. Viết đoạn lệnh yêu cầu người dùng nhập thời gian và mức lương theo giờ. Tính lương của người đó?
 
     ```sh
     Enter hours: 40
@@ -580,8 +575,8 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
     Your weekly earning is 1120
     ```
 
-1. If the length of your name is greater than 7 say, your name is long else say your name is short.
-1. Compare your first name length and your family name length and you should get this output.
+10. Nếu độ dài tên bạn lớn hơn 7, hiển thị 'your name is long' nếu không, hiển thị 'your name is short'.
+11. So sánh tên của bạn và họ của bạn, hiển thị kết quả theo cấu trúc sau.
 
     ```js
     let firstName = 'Asabeneh'
@@ -592,7 +587,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
     Your first name, Asabeneh is longer than your family name, Yetayeh
     ```
 
-1. Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
+12. Tạo 2 biến _myAge_ và _yourAge_ và gán giá trị vào 2 biến ấy. Hiển thị kết quả theo cấu trúc sau.
 
    ```js
    let myAge = 250
@@ -603,7 +598,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    I am 225 years older than you.
    ```
 
-1. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+13. Yêu cầu người dùng nhập năm sinh. Nếu người dùng lớn hơn hoặc bằng 18, cho phép người dùng lái xe. Nếu không hiển thị số năm người dùng cần phải chờ để đủ 18.
 
     ```sh
 
@@ -614,21 +609,21 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
     You are 15. You will be allowed to drive after 3 years.
     ```
 
-1. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
+14. Viết đoạn lệnh yêu cầu người dùng nhập số năm. Tính số giây của số năm đã nhập.
 
    ```sh
    Enter number of years you live: 100
    You lived 3153600000 seconds.
    ```
 
-1. Create a human readable time format using the Date time object
+15. Tạo các định dạng thời gian dễ đọc sử dụng đối tượng Date
    1. YYYY-MM-DD HH:mm
    2. DD-MM-YYYY HH:mm
    3. DD/MM/YYYY HH:mm
 
-### Exercises: Level 3
+### Bài tập: Level 3
 
-1. Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
+1. Tạo định dạng thời gian có thể đọc được bằng cách sử dụng đối tượng Date. Giờ và phút phải luôn có hai chữ số (7 giờ phải là 07 và 5 phút phải là 05 )
    1. YYY-MM-DD HH:mm eg. 20120-01-02 07:05
 
 [<< Day 2](../02_Day_Data_types/02_day_data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
