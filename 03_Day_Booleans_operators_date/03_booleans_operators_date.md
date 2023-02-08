@@ -571,7 +571,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between point (2, 2) and point(6,10)
 1. Compare the slope of above two questions.
 1. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
-1. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+1. Write a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
 
     ```sh
     Enter hours: 40
