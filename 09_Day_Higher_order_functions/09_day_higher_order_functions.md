@@ -581,7 +581,7 @@ const products = [
 9. Use **_map_** to change to each name to uppercase in the names array
 10. Use **_map_** to map the products array to its corresponding prices.
 11. Use **_filter_** to filter out countries containing **_land_**.
-12. Use **_filter_** to filter out countries having six character.
+12. Use **_filter_** to filter out countries having six characters.
 13. Use **_filter_** to filter out countries containing six letters and more in the country array.
 14. Use **_filter_** to filter out country start with 'E';
 15. Use **_filter_** to filter out only prices with values.
