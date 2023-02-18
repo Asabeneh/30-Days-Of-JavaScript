@@ -938,7 +938,7 @@ __'Bir cümleyi çünkü ile bitiremezsiniz çünkü çünkü bir bağlaçtır'_
 __'Bir cümleyi çünkü ile bitiremezsiniz çünkü çünkü bir bağlaçtır'__
 19. Aşağıdaki cümlede __çünkü__ kelimesinin ilk geçtiği yeri bulmak için __search__ kullanın:
 __'Bir cümleyi çünkü ile bitiremezsiniz çünkü çünkü bir bağlaçtır'__
-20. Bir dizgenin başındaki ve sonundaki boşlukları kaldırmak için __trim()__ kullanın. Örneğin '30 Days Of JavaScript'.
+20. Bir dizgenin başındaki ve sonundaki boşlukları kaldırmak için __trim()__ kullanın. Örneğin ' 30 Days Of JavaScript '.
 21. *30 Days Of JavaScript* dizesiyle __startsWith()__ yöntemini kullanın ve sonucu doğru yapın
 22. *30 Days Of JavaScript* dizesiyle __endsWith()__ yöntemini kullanın ve sonucu doğru yapın
 23. JavaScript'in 30 Günü'ndeki tüm __a__'leri bulmak için __match()__ yöntemini kullanın
