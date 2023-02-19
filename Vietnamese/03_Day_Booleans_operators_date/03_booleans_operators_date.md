@@ -71,13 +71,13 @@ let falseValue = 4 < 3  // false
 
 Chúng ta có thể thấy được boolean chỉ có giá trị đúng hoặc sai.
 
-### Gia tri dung
+### Giá trị đúng
 
 - Mọi số thực (dương và âm) đều mang giá trị đúng trừ 0
 - Mọi chuỗi đều có giá trị đúng trừ chuỗi rỗng ('')
 - Boolean đúng
 
-### Gia tri sai
+### Giá trị sai
 
 - 0
 - 0n
@@ -180,7 +180,7 @@ console.log(
 Trong lập trình, khi chúng ta so sánh 2 giá trị với nhau, chúng ta sẽ sử dụng toán tử so sánh. Toán tử so sánh giúp cho chúng ta biết giá trị 1 sẽ lớn hoặc hay nhỏ hơn hoặc bằng giá trị 2.
 
 ![Comparison Operators](../../images/comparison_operators.png)
-**Example: Toán tử so sánh**
+**Ví dụ: Toán tử so sánh**
 
 ```js
 console.log(3 > 2)              // Đúng, bởi vì 3 lớn hơn 2
