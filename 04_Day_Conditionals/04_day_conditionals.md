@@ -318,14 +318,14 @@ isRaining
     2 is an even number
 
     Enter a number: 9
-    9 is is an odd number.
+    9 is an odd number.
     ```
 
 ### Exercises: Level 2
 
 1. Write a code which  can give grades to students according to theirs scores:
    - 80-100, A
-   - 70-89, B
+   - 70-79, B
    - 60-69, C
    - 50-59, D
    - 0-49, F
