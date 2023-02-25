@@ -555,7 +555,7 @@ Using inheritance we can access all the properties and the methods of the parent
 
 ```js
 // syntax
-class ChildClassName extends {
+class ChildClassName extends ParentClassName {
  // code goes here
 }
 ```
