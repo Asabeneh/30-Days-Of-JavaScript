@@ -591,15 +591,15 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
     Your first name, Asabeneh is longer than your family name, Yetayeh
     ```
 
-1. Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
+1. Declare two variables _myAge_ and _yourAge_ and assign them initial values and compare myAge and yourAge.
 
    ```js
-   let myAge = 250
+   let myAge = 50
    let yourAge = 25
    ```
 
    ```sh
-   I am 225 years older than you.
+   I am 25 years older than you.
    ```
 
 1. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
