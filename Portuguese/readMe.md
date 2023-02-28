@@ -649,7 +649,7 @@ Quando você executa o arquivo _index.html_ na pasta dia-1 você deve conseguir 
 
 ![Day one](/images/day_1.png)
 
-🌕 Você é incrivel! Você acaba de completar o desafio do dia 1 e você está no seu caminho para a grandeza. Agora faça alguns exercícios para seu cérebro e músculos.
+🌕 Você é incrivel! Você acabou de completar o desafio do dia 1 e você está no seu caminho para o sucesso. Agora faça alguns exercícios para seu cérebro e músculos.
 
 # 💻 Dia 1: Exercícios
 
@@ -671,4 +671,4 @@ You are 30 years old.
 
 🎉 PARABÉNS ! 🎉
 
-[Dia 2 >>](./02_Day_Data_types/02_day_data_types.md)
+[Dia 2 >>](./Dia_02_Tipos_Dados/dia_02_tipos_dados.md)
