@@ -19,29 +19,29 @@
 ![Day 5](../images/banners/day_1_9.png)
 
 - [Day 9](#day-9)
-	- [Higher Order Function](#higher-order-function)
-		- [Callback](#callback)
-		- [Returning function](#returning-function)
-		- [Setting time](#setting-time)
-			- [Setting Interval using a setInterval function](#setting-interval-using-a-setinterval-function)
-			- [Setting a time using a setTimeout](#setting-a-time-using-a-settimeout)
-	- [Functional Programming](#functional-programming)
-		- [forEach](#foreach)
-		- [map](#map)
-		- [filter](#filter)
-		- [reduce](#reduce)
-		- [every](#every)
-		- [find](#find)
-		- [findIndex](#findindex)
-		- [some](#some)
-		- [sort](#sort)
-			- [Sorting string values](#sorting-string-values)
-			- [Sorting Numeric values](#sorting-numeric-values)
-			- [Sorting Object Arrays](#sorting-object-arrays)
-	- [💻 Exercises](#-exercises)
-		- [Exercises: Level 1](#exercises-level-1)
-		- [Exercises: Level 2](#exercises-level-2)
-		- [Exercises: Level 3](#exercises-level-3)
+  - [Higher Order Function](#higher-order-function)
+    - [Callback](#callback)
+    - [Returning function](#returning-function)
+    - [Setting time](#setting-time)
+      - [Setting Interval using a setInterval function](#setting-interval-using-a-setinterval-function)
+      - [Setting a time using a setTimeout](#setting-a-time-using-a-settimeout)
+  - [Functional Programming](#functional-programming)
+    - [forEach](#foreach)
+    - [map](#map)
+    - [filter](#filter)
+    - [reduce](#reduce)
+    - [every](#every)
+    - [find](#find)
+    - [findIndex](#findindex)
+    - [some](#some)
+    - [sort](#sort)
+      - [Sorting string values](#sorting-string-values)
+      - [Sorting Numeric values](#sorting-numeric-values)
+      - [Sorting Object Arrays](#sorting-object-arrays)
+  - [💻 Exercises](#-exercises)
+    - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 2](#exercises-level-2)
+    - [Exercises: Level 3](#exercises-level-3)
 
 # Day 9
 
@@ -108,7 +108,7 @@ console.log(sumArray(numbers))
 The above example can be simplified as follows:
 
 ```js
-const numbers = [1, 2, 3, 4]
+const numbers = [1, 2, 3, 4, 5]
 ​
 const sumArray = arr => {
   let sum = 0
