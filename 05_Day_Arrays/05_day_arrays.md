@@ -698,7 +698,8 @@ const webTechs = [
 11. Change each company name  to uppercase one by one and print them out
 12. Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
 13. Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is _not found_
-14. Filter out companies which have more than one 'o' without the filter method
+14. Filter out companies which have more than one 'o' without the filter method.
+ _Many of you seems to be have difficulty here, don't worry and try to find a solution. If you have tried hard and still can't figure out a solution see <a href="https://stackoverflow.com/questions/70813449/how-to-filter-array-items-in-js-without-filter-method/75606846#75606846">this</a>_
 15. Sort the array using _sort()_ method
 16. Reverse the array using _reverse()_ method
 17. Slice out the first 3 companies from the array
