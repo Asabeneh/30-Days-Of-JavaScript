@@ -1,0 +1,1 @@
+console.log('Welcome to Javascript' + ' Day 1'); //print Welcome to Javascript Day 1
