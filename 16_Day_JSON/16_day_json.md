@@ -58,6 +58,12 @@ JSON stands for JavaScript Object Notation. The JSON syntax is derived from Java
   "lastName":"Tekle",
   "age":28,
   "email":"lidiya@lidiya.com"
+  },
+  {
+  "firstName":"Carlos",
+  "lastName":"Garcia",
+  "age":39,
+  "email":"carlos.cagm@live.com"
   }
 ]
 }
