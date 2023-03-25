@@ -18,7 +18,7 @@
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_23.png)
 
-- [Day 22](#day-22)
+- [Day 23](#day-22)
 	- [DOM(Document Object Model)-Day 3](#domdocument-object-model-day-3)
 		- [Event Listeners](#event-listeners)
 			- [Click](#click)
