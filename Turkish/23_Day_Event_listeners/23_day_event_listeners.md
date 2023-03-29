@@ -7,12 +7,12 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<sub>Author:
+<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
 <sub>Çevirmen:
-  <a href="https://github.com/alicangunduz" target="_blank">Ali Can Gündüz</a><br>
-  <small> Mart 2023</small>
-  </sub>
+<a href="https://github.com/alicangunduz" target="_blank">Ali Can Gündüz</a><br>
+<small> Mart 2023</small>
+</sub>
 
 </div>
 
@@ -20,19 +20,19 @@
 
 ![Thirty Days Of JavaScript](../images/21_Day_DOM/../../../images/banners/day_1_23.png)
 
-- [Gün 23](#gün-23)
-  - [DOM(Document Object Model)-Gün 3](#domdocument-object-model-gün-3)
-    - [Event Listeners](#event-listeners)
-      - [Tıklama](#tıklama)
-      - [Çift tıklama](#çift-tıklama)
-      - [Fare tıklaması](#fare-tıklaması)
-    - [Bir input öğesinden değer alma](#bir-input-öğesinden-değer-alma)
-    - [input değeri](#input-değeri)
-      - [input olayı ve change olayı](#input-olayı-ve-change-olayı)
-      - [blur olayı](#blur-olayı)
-      - [keypress, keydow ve keyup](#keypress-keydow-ve-keyup)
-  - [Egzersizler](#egzersizler)
-    - [Egzersizler: Seviye 1](#egzersizler-seviye-1)
+-   [Gün 23](#gün-23)
+    -   [DOM(Document Object Model)-Gün 3](#domdocument-object-model-gün-3)
+        -   [Event Listeners](#event-listeners)
+            -   [Tıklama](#tıklama)
+            -   [Çift tıklama](#çift-tıklama)
+            -   [Fare tıklaması](#fare-tıklaması)
+        -   [Bir input öğesinden değer alma](#bir-input-öğesinden-değer-alma)
+        -   [input değeri](#input-değeri)
+            -   [input olayı ve change olayı](#input-olayı-ve-change-olayı)
+            -   [blur olayı](#blur-olayı)
+            -   [keypress, keydown ve keyup](#keypress-keydown-ve-keyup)
+    -   [Egzersizler](#egzersizler)
+        -   [Egzersizler: Seviye 1](#egzersizler-seviye-1)
 
 # Gün 23
 
@@ -45,14 +45,14 @@ Ortak HTML olayları: tıklama, değişiklik, fare üzerine gelme, fareyi elemen
 Herhangi bir DOM nesnesine olay dinleyici yöntemi ekleyebiliriz. HTML öğelerinde farklı olay türlerini dinlemek için **addEventListener()** yöntemini kullanırız. _addEventListener()_ yöntemi, bir olay dinleyicisi ve geri çağırma işlevi olmak üzere iki argüman alır.
 
 ```js
-selectedElement.addEventListener('eventlistner', function(e) {
-  // olaydan sonra olmasını istediğiniz aktivite burada olacak
-})
+selectedElement.addEventListener("eventlistner", function (e) {
+    // olaydan sonra olmasını istediğiniz aktivite burada olacak
+});
 // or
 
-selectedElement.addEventListener('eventlistner', e => {
-  // olaydan sonra olmasını istediğiniz aktivite burada olacak
-})
+selectedElement.addEventListener("eventlistner", (e) => {
+    // olaydan sonra olmasını istediğiniz aktivite burada olacak
+});
 ```
 
 #### Tıklama
@@ -66,25 +66,25 @@ Aşağıdaki örnek tıklama türü olayın bir örneğidir.
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Document Object Model</title>
-  </head>
+    <head>
+        <title>Document Object Model</title>
+    </head>
 
-  <body>
-    <button>Click Me</button>
+    <body>
+        <button>Click Me</button>
 
-    <script>
-      const button = document.querySelector('button')
-      button.addEventListener('click', e => {
-        console.log('e gives the event listener object:', e)
-        console.log('e.target gives the selected element: ', e.target)
-        console.log(
-          'e.target.textContent gives content of selected element: ',
-          e.target.textContent
-        )
-      })
-    </script>
-  </body>
+        <script>
+            const button = document.querySelector("button");
+            button.addEventListener("click", (e) => {
+                console.log("e gives the event listener object:", e);
+                console.log("e.target gives the selected element: ", e.target);
+                console.log(
+                    "e.target.textContent gives content of selected element: ",
+                    e.target.textContent
+                );
+            });
+        </script>
+    </body>
 </html>
 ```
 
@@ -95,18 +95,18 @@ Bir olay, doğrudan HTML öğesine satır içi komut dosyası olarak da eklenebi
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Document Object Model</title>
-  </head>
+    <head>
+        <title>Document Object Model</title>
+    </head>
 
-  <body>
-    <button onclick="clickMe()">Click Me</button>
-    <script>
-      const clickMe = () => {
-        alert('We can attach event on HTML element')
-      }
-    </script>
-  </body>
+    <body>
+        <button onclick="clickMe()">Click Me</button>
+        <script>
+            const clickMe = () => {
+                alert("We can attach event on HTML element");
+            };
+        </script>
+    </body>
 </html>
 ```
 
@@ -121,24 +121,24 @@ Aşağıdaki örnek, tıklama türü olayın bir örneğidir.
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Document Object Model</title>
-  </head>
+    <head>
+        <title>Document Object Model</title>
+    </head>
 
-  <body>
-    <button>Click Me</button>
-    <script>
-      const button = document.querySelector('button')
-      button.addEventListener('dblclick', e => {
-        console.log('e gives the event listener object:', e)
-        console.log('e.target gives the selected element: ', e.target)
-        console.log(
-          'e.target.textContent gives content of selected element: ',
-          e.target.textContent
-        )
-      })
-    </script>
-  </body>
+    <body>
+        <button>Click Me</button>
+        <script>
+            const button = document.querySelector("button");
+            button.addEventListener("dblclick", (e) => {
+                console.log("e gives the event listener object:", e);
+                console.log("e.target gives the selected element: ", e.target);
+                console.log(
+                    "e.target.textContent gives content of selected element: ",
+                    e.target.textContent
+                );
+            });
+        </script>
+    </body>
 </html>
 ```
 
@@ -153,81 +153,81 @@ Aşağıdaki örnek, tıklama türündeki bir olayın örneğidir.
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Document Object Model</title>
-  </head>
+    <head>
+        <title>Document Object Model</title>
+    </head>
 
-  <body>
-    <button>Click Me</button>
-    <script>
-      const button = document.querySelector('button')
-      button.addEventListener('mouseenter', e => {
-        console.log('e gives the event listener object:', e)
-        console.log('e.target gives the selected element: ', e.target)
-        console.log(
-          'e.target.textContent gives content of selected element: ',
-          e.target.textContent
-        )
-      })
-    </script>
-  </body>
+    <body>
+        <button>Click Me</button>
+        <script>
+            const button = document.querySelector("button");
+            button.addEventListener("mouseenter", (e) => {
+                console.log("e gives the event listener object:", e);
+                console.log("e.target gives the selected element: ", e.target);
+                console.log(
+                    "e.target.textContent gives content of selected element: ",
+                    e.target.textContent
+                );
+            });
+        </script>
+    </body>
 </html>
 ```
 
-Şimdiye kadar addEventListener yöntemini ve olay dinleyicisi nasıl ekleyeceğimizi öğrendiniz. Birçok olay dinleyicisi türü vardır, ancak bu meydan okumada en yaygın ve önemli olaylara odaklanacağız.
+Şimdiye kadar `addEventListener` yöntemini ve olay dinleyicisi nasıl ekleyeceğimizi öğrendiniz. Birçok olay dinleyicisi türü vardır ancak burada en önemli ve sık kullanılan olaylara odaklanacağız.
 
 Olay listesi:
 
-- click - eleman tıklandığında
-- dblclick - eleman çift tıklandığında
-- mouseenter - fare noktası öğeye girdiğinde
-- mouseleave - fare işaretçisi öğeden ayrıldığında
-- mousemove - fare işaretçisi öğe üzerinde hareket ettiğinde
-- mouseover - fare işaretçisi öğe üzerinde hareket ettiğinde
-- mouseout - fare işaretçisi öğeden dışarı çıktığında
-- input - değer giriş alanına girildiğinde
-- change - giriş alanında değer değiştiğinde
-- blur - öğe odaklanmadığında
-- keydown - bir tuş düştüğünde
-- keyup - bir anahtar bittiğinde
-- keypress - herhangi bir tuşa bastığımızda
-- onload - tarayıcı bir sayfayı yüklemeyi bitirdiğinde
+-   `click` - eleman tıklandığında
+-   `dblclick` - eleman çift tıklandığında
+-   `mouseenter` - fare noktası öğeye girdiğinde
+-   `mouseleave` - fare işaretçisi öğeden ayrıldığında
+-   `mousemove` - fare işaretçisi öğe üzerinde hareket ettiğinde
+-   `mouseover` - fare işaretçisi öğe üzerinde hareket ettiğinde
+-   `mouseout` - fare işaretçisi öğeden dışarı çıktığında
+-   `input` - değer giriş alanına girildiğinde
+-   `change` - giriş alanında değer değiştiğinde
+-   `blur` - öğe odaklanmadığında
+-   `keydown` - bir tuş düştüğünde
+-   `keyup` - bir anahtar bittiğinde
+-   `keypress` - herhangi bir tuşa bastığımızda
+-   `onload` - tarayıcı bir sayfayı yüklemeyi bitirdiğinde
 
 Yukarıdaki kod örneğindeki olay türünü değiştirerek yukarıdaki olay türlerini test edebilirsiniz.
 
 ### Bir input öğesinden değer alma
 
-Genellikle formları doldururuz ve formlar veri kabul eder. Form alanları, girdi HTML öğesi kullanılarak oluşturulur. İki girdi alanı, bir düğme ve bir p etiketi kullanarak bir kişinin vücut kitle indeksini hesaplamamıza izin veren küçük bir uygulama oluşturalım.
+Genellikle form doldururuz ve formlar verileri işler. Form alanları, girdi HTML öğesi kullanılarak oluşturulur. İki girdi alanı, bir düğme ve bir `p` etiketi kullanarak bir kişinin vücut kitle indeksini hesaplamamıza izin veren küçük bir uygulama oluşturalım.
 
 ### input değeri
 
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Document Object Model:30 Days Of JavaScript</title>
-  </head>
+    <head>
+        <title>Document Object Model:30 Days Of JavaScript</title>
+    </head>
 
-  <body>
-    <h1>Body Mass Index Calculator</h1>
+    <body>
+        <h1>Body Mass Index Calculator</h1>
 
-    <input type="text" id="mass" placeholder="Mass in Kilogram" />
-    <input type="text" id="height" placeholder="Height in meters" />
-    <button>Calculate BMI</button>
+        <input type="text" id="mass" placeholder="Mass in Kilogram" />
+        <input type="text" id="height" placeholder="Height in meters" />
+        <button>Calculate BMI</button>
 
-    <script>
-      const mass = document.querySelector('#mass')
-      const height = document.querySelector('#height')
-      const button = document.querySelector('button')
+        <script>
+            const mass = document.querySelector("#mass");
+            const height = document.querySelector("#height");
+            const button = document.querySelector("button");
 
-      let bmi
-      button.addEventListener('click', () => {
-        bmi = mass.value / height.value ** 2
-        alert(`your bmi is ${bmi.toFixed(2)}`)
-        console.log(bmi)
-      })
-    </script>
-  </body>
+            let bmi;
+            button.addEventListener("click", () => {
+                bmi = mass.value / height.value ** 2;
+                alert(`your bmi is ${bmi.toFixed(2)}`);
+                console.log(bmi);
+            });
+        </script>
+    </body>
 </html>
 ```
 
@@ -238,31 +238,31 @@ Yukarıdaki örnekte, iki girdi alanından verileri düğmeye tıklayarak almay�
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Document Object Model:30 Days Of JavaScript</title>
-  </head>
+    <head>
+        <title>Document Object Model:30 Days Of JavaScript</title>
+    </head>
 
-  <body>
-    <h1>Data Binding using input or change event</h1>
+    <body>
+        <h1>Data Binding using input or change event</h1>
 
-    <input type="text" placeholder="say something" />
-    <p></p>
+        <input type="text" placeholder="say something" />
+        <p></p>
 
-    <script>
-      const input = document.querySelector('input')
-      const p = document.querySelector('p')
+        <script>
+            const input = document.querySelector("input");
+            const p = document.querySelector("p");
 
-      input.addEventListener('input', e => {
-        p.textContent = e.target.value
-      })
-    </script>
-  </body>
+            input.addEventListener("input", (e) => {
+                p.textContent = e.target.value;
+            });
+        </script>
+    </body>
 </html>
 ```
 
 #### blur olayı
 
-_Input_ veya _change_ olaylarına karşın, blur olayı girdi alanı odaklı değilken meydana gelir.
+_Input_ veya _change_ olaylarının aksine, `blur` olayı girdi alanına odaklı değilken meydana gelir.
 
 ```js
 <!DOCTYPE html>
@@ -293,32 +293,32 @@ _Input_ veya _change_ olaylarına karşın, blur olayı girdi alanı odaklı de�
 </html>
 ```
 
-#### keypress, keydow ve keyup
+#### keypress, keydown ve keyup
 
-Farklı olay dinleyici türlerini kullanarak klavyenin tüm tuş numaralarına erişebiliriz. KeyPress'i kullanalım ve her klavye tuşunun keyCode'unu alalım.
+Farklı olay dinleyici türlerini kullanarak klavyenin tüm tuş numaralarına erişebiliriz. `KeyPress`'i kullanalım ve her klavye tuşunun keyCode'unu alalım.
 
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Document Object Model:30 Days Of JavaScript</title>
-  </head>
+    <head>
+        <title>Document Object Model:30 Days Of JavaScript</title>
+    </head>
 
-  <body>
-    <h1>Key events: Press any key</h1>
+    <body>
+        <h1>Key events: Press any key</h1>
 
-    <script>
-      document.body.addEventListener('keypress', e => {
-        alert(e.keyCode)
-      })
-    </script>
-  </body>
+        <script>
+            document.body.addEventListener("keypress", (e) => {
+                alert(e.keyCode);
+            });
+        </script>
+    </body>
 </html>
 ```
 
 ---
 
-🌕 Sen çok özel birisin, her gün ilerliyorsun. Şimdi, her tür DOM olayını nasıl ele alacağını biliyorsun. Büyüklüğe giden yolda sadece yedi günün kaldı. Şimdi beynin ve kasların için bazı egzersizler yap.
+🌕 Sen çok özel birisin, her gün gelişiyorsun. Artık herhangi bir DOM olayını nasıl ele alacağını biliyorsun. Başarıya giden yolda yalnızca yedi günün kaldı. Şimdi tüm bunları pekiştirmen için alıştırma vakti!
 
 ## Egzersizler
 
