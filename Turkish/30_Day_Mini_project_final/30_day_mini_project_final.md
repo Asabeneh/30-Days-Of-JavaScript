@@ -60,7 +60,7 @@
 
 Now it is time support the author and  express your thoughts about the Author and 30DaysOfJavaScript. You can leave your testimonial on this [link](https://testimonify.herokuapp.com/)
 
-## Support
+## Destek
 
 You can support the author to produce more educational materials
 
