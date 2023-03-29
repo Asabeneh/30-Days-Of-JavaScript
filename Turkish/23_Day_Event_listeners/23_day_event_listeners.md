@@ -174,7 +174,7 @@ Aşağıdaki örnek, tıklama türündeki bir olayın örneğidir.
 </html>
 ```
 
-Şimdiye kadar `addEventListener` yöntemini ve olay dinleyicisi nasıl ekleyeceğimizi öğrendiniz. Birçok olay dinleyicisi türü vardır, ancak bu meydan okumada en yaygın ve önemli olaylara odaklanacağız.
+Şimdiye kadar `addEventListener` yöntemini ve olay dinleyicisi nasıl ekleyeceğimizi öğrendiniz. Birçok olay dinleyicisi türü vardır ancak burada en önemli ve sık kullanılan olaylara odaklanacağız.
 
 Olay listesi:
 
@@ -197,7 +197,7 @@ Yukarıdaki kod örneğindeki olay türünü değiştirerek yukarıdaki olay tü
 
 ### Bir input öğesinden değer alma
 
-Genellikle formları doldururuz ve formlar veri kabul eder. Form alanları, girdi HTML öğesi kullanılarak oluşturulur. İki girdi alanı, bir düğme ve bir `p` etiketi kullanarak bir kişinin vücut kitle indeksini hesaplamamıza izin veren küçük bir uygulama oluşturalım.
+Genellikle form doldururuz ve formlar verileri işler. Form alanları, girdi HTML öğesi kullanılarak oluşturulur. İki girdi alanı, bir düğme ve bir `p` etiketi kullanarak bir kişinin vücut kitle indeksini hesaplamamıza izin veren küçük bir uygulama oluşturalım.
 
 ### input değeri
 
