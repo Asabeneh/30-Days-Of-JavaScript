@@ -59,7 +59,7 @@
 
 ## Testimony
 
-Now it is time support the author and  express your thoughts about the Author and 30DaysOfJavaScript. You can leave your testimonial on this [link](https://testimonify.herokuapp.com/)
+Now it is time to support the author by expressing your thoughts about the Author and 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://testimonial-vdzd.onrender.com//)
 
 ## Support
 
