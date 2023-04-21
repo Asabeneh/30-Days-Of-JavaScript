@@ -8,4 +8,13 @@ console.log(string.endsWith('in this world')) // true
 let country = 'Finland'
 console.log(country.endsWith('land')) // true
 console.log(country.endsWith('fin')) // false
-console.log(country.endsWith('Fin')) //  false
+
+
+
+// StartsWith is a helper function that takes a string and it returns a  boolean value 
+
+let verb = 'Here you can'
+console.log(verb.startsWith('Here')) // true
+
+
+//@is there startwith 
