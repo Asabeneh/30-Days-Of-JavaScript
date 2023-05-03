@@ -176,7 +176,7 @@ console.log(matchReplaced)
 ```
 
 ```sh
-JavaScript is the most beautiful language that a human begin has ever created.I recommend python for a first programming language
+JavaScript is the most beautiful language that a human being has ever created.I recommend python for a first programming language
 ```
 
 ```js
