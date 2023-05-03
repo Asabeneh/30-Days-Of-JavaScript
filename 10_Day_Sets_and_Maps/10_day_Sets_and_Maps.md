@@ -140,7 +140,7 @@ Set(5) {"Google", "Facebook", "Amazon", "Oracle", "Microsoft"}
 
 ```
 
-### Deleting an element a set
+### Deleting an element from a set
 
 We can delete an element from a set using a delete method.
 
