@@ -93,7 +93,7 @@ console.log(backEnd)
 ["Node", "Express", "MongoDB"]
 ```
 
-If we like to skip on of the values in the array we use additional comma. The comma helps to omit the value at that specific index
+If we like to skip one of the values in the array we use additional comma. The comma helps to omit the value at that specific index
 
 ```js
   const numbers = [1, 2, 3]
