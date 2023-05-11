@@ -50,7 +50,7 @@
 
 # 📔 Ngày 5
 
-## Mảng
+## Arrays
 
 Khác với biến, một mảng có thể lưu trữ _nhiều giá trị_. Mỗi giá trị trong một mảng có _index_ và mỗi index chỉ có _một địa chỉ tham chiếu trong bộ nhớ_. Mỗi giá trị có thể được truy cập bằng cách sử dụng _index_ của chúng. Index của một mảng bắt đầu từ _số không_, và index của phần tử cuối cùng ít hơn một đơn vị so với độ dài của mảng.
 
