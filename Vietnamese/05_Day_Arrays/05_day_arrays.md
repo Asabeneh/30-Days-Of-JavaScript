@@ -772,4 +772,4 @@ const webTechs = [
   
 🎉 CHÚC MỪNG ! 🎉
 
-[<< Day 4](../04_Day_Conditionals/04_day_Conditionals.md) | [Day 6 >>](../06_Day_Loops/06_day_loops.md)
+[<< Ngày 4](../04_Day_Conditionals/04_day_Conditionals.md) | [Ngày 6 >>](../06_Day_Loops/06_day_loops.md)
