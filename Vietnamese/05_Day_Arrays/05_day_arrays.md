@@ -17,7 +17,7 @@
 
 ![Ngày 5](../../images/banners/day_1_5.png)
 
-- [📔 Ngày 5](#-ngay-5)
+- [📔 Ngày 5](#-ngày-5)
 	- [Arrays](#arrays)
 		- [Cách tạo mảng rỗng](#cach-tao-mang-rong)
 		- [Cách tạo mảng với giá trị](#cach-tao-mang-voi-gia-tri)
