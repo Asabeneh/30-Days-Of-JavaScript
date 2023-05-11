@@ -15,42 +15,42 @@
 
 [<< Ngày 4](../04_Day_Conditionals/04_day_conditionals.md) | [Ngày 6 >>](../06_Day_Loops/06_day_loops.md)
 
-![Ngày 5](../images/banners/day_1_5.png)
+![Ngày 5](../../images/banners/day_1_5.png)
 
 - [📔 Ngày 5](#-day-5)
 	- [Mảng(Arrays)](#arrays)
-		- [Cách tạo mảng rỗng](#how-to-create-an-empty-array)
-		- [Cách tạo mảng với giá trị](#how-to-create-an-array-with-values)
-		- [Tạo mảng bằng cách sử dụng phương thức split](#creating-an-array-using-split)
-		- [Truy cập các phần tử trong mảng bằng giá trị index ](#accessing-array-items-using-index)
-		- [Sửa đổi phần tử trong mảng](#modifying-array-element)
-		- [Các phương thức xử lý mảng](#methods-to-manipulate-array)
-			- [Hàm khởi tạo mảng](#array-constructor)
-			- [Tạo giá trị tĩnh với fill](#creating-static-values-with-fill)
-			- [Nối các mảng với phương thức conca](#concatenating-array-using-concat)
-			- [Lấy độ dài của mảng](#getting-array-length)
-			- [Lấy index của một phần tử trong mảng](#getting-index-an-element-in-arr-array)
-			- [Lấy index cuối cùng của một phần tử trong mảng](#getting-last-index-of-an-element-in-array)
-			- [Kiểm tra mảng](#checking-array)
-			- [Chuyển đổi mảng thành chuỗi](#converting-array-to-string)
-			- [Nối các phần tử trong mảng](#joining-array-elements)
-			- [Cắt các phần tử trong mảng](#slice-array-elements)
-			- [Phương thức splice trong mảng](#splice-method-in-array)
-			- [Thêm một phần tử vào mảng bằng phương thức pus](#adding-item-to-an-array-using-push)
-			- [Xóa phần tử cuối cùng bằng phương thức pop](#removing-the-end-element-using-pop)
-			- [Xóa một phần tử từ đầu mảng](#removing-an-element-from-the-beginning)
-			- [Thêm một phần tử từ đầu mảng](#add-an-element-from-the-beginning)
-			- [Đảo thứ tự mảng](#reversing-array-order)
-			- [Sắp xếp các phần tử trong mảng](#sorting-elements-in-array)
-		- [Mảng của các mảng](#array-of-arrays)
-	- [💻 Bài tập](#-exercise)
-		- [Bài tập: Cấp độ 1](#exercise-level-1)
-		- [Bài tập: Cấp độ 2](#exercise-level-2)
-		- [Bài tập: Cấp độ 3](#exercise-level-3)
+		- [Cách tạo mảng rỗng](#cach-tao-mang-rong)
+		- [Cách tạo mảng với giá trị](#cach-tao-mang-voi-gia-tri)
+		- [Tạo mảng bằng cách sử dụng phương thức split](#tao-mang-bang-cach-su-dung-phuong-thuc-split)
+		- [Truy cập các phần tử trong mảng bằng giá trị index](#truy-cap-cac-phan-tu-trong-mang-bang-gia-tri-index)
+		- [Sửa đổi phần tử trong mảng](#sua-doi-cac-phan-tu-trong-mang)
+		- [Các phương thức xử lý mảng](#cac-phuong-thuc-xu-ly-mang)
+			- [Hàm khởi tạo mảng](#Hàm-khoi-tao-mang)
+			- [Tạo giá trị tĩnh với fill](#tao-gia-tri-tinh-voi-fill)
+			- [Nối các mảng với phương thức concat](#noi-cac-mang-voi-phuong-thuc-concat)
+			- [Lấy độ dài của mảng](#lay-do-dai-cua-mang)
+			- [Lấy index của một phần tử trong mảng](#lay-index-cua-mot-phan-tu-trong-mang)
+			- [Lấy index cuối cùng của một phần tử trong mảng](#lay-index-cuoi-cung-cua-mot-phan-tu-trong-mang)
+			- [Kiểm tra mảng](#kiem-tra-mang)
+			- [Chuyển đổi mảng thành chuỗi](#chuyen-doi-mang-thanh-chuoi)
+			- [Nối các phần tử trong mảng](#noi-cac-phan-tu-trong-mang)
+			- [Cắt các phần tử trong mảng](#cat-cac-phan-tu-trong-mang)
+			- [Phương thức splice trong mảng](#phuong-thuc-splice-trong-mang)
+			- [Thêm một phần tử vào mảng bằng phương thức push](#them-mot-phan-tu-vao-mang-bang-phuong-thuc-push)
+			- [Xóa phần tử cuối cùng bằng phương thức pop](#xoa-phan-tu-cuoi-cung-bang-phuong-thuc-pop)
+			- [Xóa một phần tử đầu mảng](#xoa-mot-phan-tu-dau-mang)
+			- [Thêm một phần tử đầu mảng](#them-mot-phan-tu-dau-mang)
+			- [Đảo thứ tự mảng](#rdao-thu-tu-mang)
+			- [Sắp xếp các phần tử trong mảng](#sap-xep-cac-phan-tu-trong-mang)
+		- [Mảng của các mảng](#mang-cua-cac-mang)
+	- [💻 Bài tập](#-bai-tap)
+		- [Bài tập: Cấp độ 1](#bai-tap-cap-do-1)
+		- [Bài tập: Cấp độ 2](#bai-tap-cap-do-2)
+		- [Bài tập: Cấp độ 3](#bai-tap-cap-do-3)
 
 # 📔 Day 5
 
-## Arrays
+## Mảng
 
 Khác với biến, một mảng có thể lưu trữ _nhiều giá trị_. Mỗi giá trị trong một mảng có _index_ và mỗi index chỉ có _một địa chỉ tham chiếu trong bộ nhớ_. Mỗi giá trị có thể được truy cập bằng cách sử dụng _index_ của chúng. Index của một mảng bắt đầu từ _số không_, và index của phần tử cuối cùng ít hơn một đơn vị so với độ dài của mảng.
 
@@ -71,7 +71,7 @@ const arr = Array()
 console.log(arr) // []
 ```
 
-- Using square brackets([])
+- Sử dụng dấu ngoặc vuông([])
 
 ```js
 // syntax
@@ -141,7 +141,7 @@ const arr = [
 console.log(arr)
 ```
 
-### Tạo một mảng sử dụng phương thức split.
+### Tạo mảng bằng cách sử dụng phương thức split.
 
 Như chúng ta đã thấy ở phía trên, chúng ta có thể chia một chuỗi ở các vị trí khác nhau và chuyển nó thành một mảng. Xem thêm các ví dụ dưới đây.
 
@@ -164,11 +164,11 @@ console.log(words)
 // ["I", "love", "teaching", "and", "empowering", "people.", "I", "teach", "HTML,", "CSS,", "JS,", "React,", "Python"]
 ```
 
-### Tru cập phần tử của mảng bằng cách sử dụng giá trị index
+### Truy cập các phần tử trong mảng bằng giá trị index
 
 Chúng ta truy cập từng phần tử trong một mảng bằng cách sử dụng giá trị index của chúng. Index của một mảng bắt đầu từ 0. Hình ảnh dưới đây cho thấy rõ giá trị index của từng phần tử trong mảng.
 
-![arr index](../images/array_index.png)
+![arr index](../../images/array_index.png)
 
 ```js
 const fruits = ['banana', 'orange', 'mango', 'lemon']
@@ -264,9 +264,9 @@ let lastIndex = shoppingCart.length - 1;
 console.log(shoppingCart[lastIndex]) //  -> Sugar
 ```
 
-### Modifying array element
+### Sửa đổi phần tử trong mảng
 
-An array is mutable(modifiable). Once an array is created, we can modify the contents of the array elements.
+Một mảng có thể thay đổi (có thể chỉnh sửa). Một khi một mảng đã được tạo, chúng ta có thể chỉnh sửa nội dung của các phần tử trong mảng.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -300,11 +300,11 @@ console.log(countries)
 ["Afghanistan", "Bolivia", "Canada", "Denmark", "Ethiopia", "Finland", "Germany", "Hungary", "Ireland", "Japan", "Korea"]
 ```
 
-### Các phương thức để thao tác với mảng
+### Các phương thức xử lý mảng
 
 Có nhiều phương thức khác nhau để thao tác với một mảng. Đây là một số phương thức có sẵn để làm việc với mảng:_Array, length, concat, indexOf, slice, splice, join, toString, includes, lastIndexOf, isArray, fill, push, pop, shift, unshift_
 
-#### Array Constructor
+#### Hàm khởi tạo mảng
 
 Array:Sử dụng để tạo một mảng.
 
@@ -316,7 +316,7 @@ const eightEmptyValues = Array(8) // tạo một mảng chứa 8 phần tử có
 console.log(eightEmptyValues) // [empty x 8]
 ```
 
-#### Creating static values with fill
+#### Tạo giá trị tĩnh với fill
 
 fill: Điền tất cả các phần tử của mảng với một giá trị tĩnh
 
@@ -334,9 +334,9 @@ const four4values = Array(4).fill(4) // Tạo mảng có 4 phần tử giá tr�
 console.log(four4values) // [4, 4, 4, 4]
 ```
 
-#### Nối mảng bằng concat
+#### Nối các mảng với phương thức conca
 
-concat:Dùng để nối hai mảng..
+concat:Dùng để nối hai mảng.
 
 ```js
 const firstList = [1, 2, 3]
@@ -460,9 +460,9 @@ const number = 100
 console.log(Array.isArray(number)) // false
 ```
 
-#### Converting array to string
+#### Chuyển đổi mảng thành chuỗi
 
-toString:Converts array to string
+toString:Chuyển đổi mảng thành chuỗi
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -472,10 +472,9 @@ const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 console.log(names.toString()) // Asabeneh,Mathias,Elias,Brook
 ```
 
-#### Joining array elements
+#### Nối các phần tử trong mảng
 
-join: 
-Phương thức join được sử dụng để nối các phần tử của mảng. Đối số mà chúng ta truyền vào phương thức join sẽ được nối vào trong mảng và trả về dưới dạng một chuỗi. Theo mặc định, phương thức join sẽ nối các phần tử bằng dấu phẩy, tuy nhiên chúng ta có thể truyền một ký tự khác để nối giữa các phần tử.
+join: Phương thức join được sử dụng để nối các phần tử của mảng. Đối số mà chúng ta truyền vào phương thức join sẽ được nối vào trong mảng và trả về dưới dạng một chuỗi. Theo mặc định, phương thức join sẽ nối các phần tử bằng dấu phẩy, tuy nhiên chúng ta có thể truyền một ký tự khác để nối giữa các phần tử.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -503,7 +502,7 @@ console.log(webTechs.join())       // "HTML,CSS,JavaScript,React,Redux,Node,Mong
 console.log(webTechs.join(' # '))  // "HTML # CSS # JavaScript # React # Redux # Node # MongoDB"
 ```
 
-#### Slice array elements
+#### Cắt các phần tử trong mảng
 
 Slice: Để cắt ra nhiều phần tử trong một khoảng, ta sử dụng phương thức slice(). Nó nhận hai tham số: vị trí bắt đầu và vị trí kết thúc hoặc không bao gồm vị trí kết thúc.
 
@@ -516,7 +515,7 @@ Slice: Để cắt ra nhiều phần tử trong một khoảng, ta sử dụng p
   console.log(numbers.slice(1,4)) // -> [2,3,4] // không bao gồm vị trí kết thúc
 ```
 
-#### Splice method in array
+#### Phương thức splice trong mảng
 
 Splice: Lấy ba tham số: vị trí bắt đầu, số lần xóa phần tử và các tử mới được thêm vào.
 
@@ -539,7 +538,7 @@ Splice: Lấy ba tham số: vị trí bắt đầu, số lần xóa phần tử 
   console.log(numbers.splice(3, 3, 7, 8, 9))  // -> [1, 2, 3, 7, 8, 9] //loại bỏ và thay thế 3 giá trị mới từ phần tử có index 3
 ```
 
-#### Adding item to an array using push
+#### Thêm một phần tử vào mảng bằng phương thức push
 
 Push: Để thêm một phần tử vào cuối một mảng hiện có, chúng ta sử dụng phương thức push.
 
@@ -579,7 +578,7 @@ numbers.pop() // -> xóa phần tử ở cuối
 console.log(numbers) // -> [1,2,3,4]
 ```
 
-#### Xóa một phần tử từ đầu mảng
+#### Xóa một phần tử đầu mảng
 
 shift: Xóa một phần tử từ đầu mảng.
 
@@ -589,7 +588,7 @@ numbers.shift() // -> xóa phần tử ở đầu mảng
 console.log(numbers) // -> [2,3,4,5]
 ```
 
-#### Thêm một phần tử từ đầu mảng
+#### Thêm một phần tử đầu mảng
 
 unshift: Thêm một phần tử vào đầu mảng.
 
@@ -614,7 +613,7 @@ console.log(numbers) // [1, 2, 3, 4, 5]
 
 #### Sắp xếp các phần tử trong mảng
 
-sort: aSắp xếp các phần tử của mảng theo thứ tự tăng dần. Phương thức sort cần một hàm callback, dưới đây là các ví dụ sort với hàm callback trong phần tiếp theo.
+sort: Sắp xếp các phần tử của mảng theo thứ tự tăng dần. Phương thức sort cần một hàm callback, dưới đây là các ví dụ sort với hàm callback trong phần tiếp theo.
 
 ```js
 const webTechs = [
@@ -659,7 +658,7 @@ console.log(arrayOfArray[0]) // [1, 2, 3]
 
 ## 💻 Bài tập
 
-### Bài tập: Mức dộ 1
+### Bài tập: Cấp độ 1
 
 ```js
 const countries = [
@@ -711,7 +710,7 @@ const webTechs = [
 22. Xóa công ty IT cuối cùng khỏi mảng
 23. Xóa tất cả các công ty IT
 
-### Exercise: Level 2
+### Bài tập: Cấp độ 2
 
 1. Tạo một file riêng tên countries.js và lưu trữ mảng countries vào file này, tạo một file riêng tên web_techs.js và lưu trữ mảng webTechs vào file này. Truy cập vào cả hai file trong file main.js
 1. Đầu tiên loại bỏ tất cả các dấu chấm câu và chuyển đổi chuỗi thành mảng và đếm số từ trong mảng.
@@ -754,7 +753,7 @@ const webTechs = [
     ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
     ```
 
-### Exercise: Level 3
+### Bài tập: Cấp độ 3
 
 1. Dưới đây là mảng chứ tuổi của 10 học sinh
 
