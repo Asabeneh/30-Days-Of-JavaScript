@@ -20,33 +20,33 @@
 - [📔 Ngày 5](#-ngày-5)
 	- [Arrays](#arrays)
 		- [Cách tạo mảng rỗng](#cách-tạo-mảng-rỗng)
-		- [Cách tạo mảng với giá trị](#Cách-tạo-mảng-với-giá-trị)
-		- [Tạo mảng bằng cách sử dụng phương thức split](#Tạo-mảng-bằng-cách-sử-dụng-phương-thức-split)
-		- [Truy cập các phần tử trong mảng bằng giá trị index](#Truy-cập-các-phần-tử-trong-mảng-bằng-giá-trị-index)
-		- [Sửa đổi phần tử trong mảng](#Sửa-đổi-phần-tử-trong-mảng)
-		- [Các phương thức xử lý mảng](#Các-phương-thức-xử-lý-mảng)
-			- [Hàm khởi tạo mảng](#Hàm-khởi-tạo-mảng)
-			- [Tạo giá trị tĩnh với fill](#Tạo-giá-trị-tĩnh-với-fill)
-			- [Nối các mảng với phương thức concat](#Nối-các-mảng-với-phương-thức-concat)
-			- [Lấy độ dài của mảng](#Lấy-độ-dài-của-mảng)
-			- [Lấy index của một phần tử trong mảng](#Lấy-index-của-một-phần-tử-trong-mảng)
-			- [Lấy index cuối cùng của một phần tử trong mảng](#Lấy-index-cuối-cùng-của-một-phần-tử-trong-mảng)
-			- [Kiểm tra mảng](#Kiểm-tra-mảng)
-			- [Chuyển đổi mảng thành chuỗi](#Chuyển-đổi-mảng-thành-chuỗi)
-			- [Nối các phần tử trong mảng](#Nối-các-phần-tử-trong-mảng)
-			- [Cắt các phần tử trong mảng](#Cắt-các-phần-tử-trong-mảng)
-			- [Phương thức splice trong mảng](#Phương-thức-splice-trong-mảng)
-			- [Thêm một phần tử vào mảng bằng phương thức push](#Thêm-một-phần-tử-vào-mảng-bằng-phương-thức-push)
-			- [Xóa phần tử cuối cùng bằng phương thức pop](#Xóa-phần-tử-cuối-cùng-bằng-phương-thức-pop)
-			- [Xóa một phần tử đầu mảng](#Xóa-một-phần-tử-đầu-mảng)
-			- [Thêm một phần tử đầu mảng](#Thêm-một-phần-tử-đầu-mảng)
-			- [Đảo thứ tự mảng](#Đảo-thứ-tự-mảng)
-			- [Sắp xếp các phần tử trong mảng](#Sắp-xếp-các-phần-tử-trong-mảng)
-		- [Mảng của các mảng](#Mảng-của-các-mảng)
-	- [💻 Bài tập](#-Bài-tập)
-		- [Bài tập: Cấp độ 1](#Bài-tập-Cấp-độ-1)
-		- [Bài tập: Cấp độ 2](#Bài-tập-Cấp-độ-2)
-		- [Bài tập: Cấp độ 3](#Bài-tập-Cấp-độ-3)
+		- [Cách tạo mảng với giá trị](#cách-tạo-mảng-với-giá-trị)
+		- [Tạo mảng bằng cách sử dụng phương thức split](#tạo-mảng-bằng-cách-sử-dụng-phương-thức-split)
+		- [Truy cập các phần tử trong mảng bằng giá trị index](#truy-cập-các-phần-tử-trong-mảng-bằng-giá-trị-index)
+		- [Sửa đổi phần tử trong mảng](#sửa-đổi-phần-tử-trong-mảng)
+		- [Các phương thức xử lý mảng](#các-phương-thức-xử-lý-mảng)
+			- [Hàm khởi tạo mảng](#hàm-khởi-tạo-mảng)
+			- [Tạo giá trị tĩnh với fill](#tạo-giá-trị-tĩnh-với-fill)
+			- [Nối các mảng với phương thức concat](#nối-các-mảng-với-phương-thức-concat)
+			- [Lấy độ dài của mảng](#lấy-độ-dài-của-mảng)
+			- [Lấy index của một phần tử trong mảng](#lấy-index-của-một-phần-tử-trong-mảng)
+			- [Lấy index cuối cùng của một phần tử trong mảng](#lấy-index-cuối-cùng-của-một-phần-tử-trong-mảng)
+			- [Kiểm tra mảng](#kiểm-tra-mảng)
+			- [Chuyển đổi mảng thành chuỗi](#chuyển-đổi-mảng-thành-chuỗi)
+			- [Nối các phần tử trong mảng](#nối-các-phần-tử-trong-mảng)
+			- [Cắt các phần tử trong mảng](#cắt-các-phần-tử-trong-mảng)
+			- [Phương thức splice trong mảng](#phương-thức-splice-trong-mảng)
+			- [Thêm một phần tử vào mảng bằng phương thức push](#thêm-một-phần-tử-vào-mảng-bằng-phương-thức-push)
+			- [Xóa phần tử cuối cùng bằng phương thức pop](#xóa-phần-tử-cuối-cùng-bằng-phương-thức-pop)
+			- [Xóa một phần tử đầu mảng](#xóa-một-phần-tử-đầu-mảng)
+			- [Thêm một phần tử đầu mảng](#thêm-một-phần-tử-đầu-mảng)
+			- [Đảo thứ tự mảng](#đảo-thứ-tự-mảng)
+			- [Sắp xếp các phần tử trong mảng](#sắp-xếp-các-phần-tử-trong-mảng)
+		- [Mảng của các mảng](#mảng-của-các-mảng)
+	- [💻 Bài tập](#-bài-tập)
+		- [Bài tập: Cấp độ 1](#bài-tập-Cấp-độ-1)
+		- [Bài tập: Cấp độ 2](#bài-tập-Cấp-độ-2)
+		- [Bài tập: Cấp độ 3](#bài-tập-Cấp-độ-3)
 
 # 📔 Ngày 5
 
@@ -56,7 +56,7 @@ Khác với biến, một mảng có thể lưu trữ _nhiều giá trị_. Mỗ
 
 Một mảng là một tập hợp các kiểu dữ liệu khác nhau có thứ tự và có thể được thay đổi (có thể sửa đổi). Một mảng cho phép lưu trữ các phần tử trùng lặp và các kiểu dữ liệu khác nhau. Một mảng có thể trống hoặc có thể chứa các giá trị khác nhau về kiểu dữ liệu.
 
-### Cách tạo một mảng rỗng
+### Cách tạo mảng rỗng
 
 Trong JavaScript, chúng ta có thể tạo một mảng bằng nhiều cách khác nhau. Dưới đây là các cách để tạo một mảng.
 Thường thì người ta sử dụng từ khóa _const_ thay vì _let_ để khai báo biến mảng. Nếu bạn sử dụng _const_ thì có nghĩa là bạn không sử dụng lại tên biến đó.
@@ -334,7 +334,7 @@ const four4values = Array(4).fill(4) // Tạo mảng có 4 phần tử giá tr�
 console.log(four4values) // [4, 4, 4, 4]
 ```
 
-#### Nối các mảng với phương thức conca
+#### Nối các mảng với phương thức concat
 
 concat:Dùng để nối hai mảng.
 
