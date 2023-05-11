@@ -18,8 +18,8 @@
 ![Ngày 5](../../images/banners/day_1_5.png)
 
 - [📔 Ngày 5](#-Ngày-5)
-	- [Arrays](#Arrays)
-		- [Cách tạo mảng rỗng](#Cách-tạo-mảng-rỗng)
+	- [Arrays](#arrays)
+		- [Cách tạo mảng rỗng](#cách-tạo-mảng-rỗng)
 		- [Cách tạo mảng với giá trị](#Cách-tạo-mảng-với-giá-trị)
 		- [Tạo mảng bằng cách sử dụng phương thức split](#Tạo-mảng-bằng-cách-sử-dụng-phương-thức-split)
 		- [Truy cập các phần tử trong mảng bằng giá trị index](#Truy-cập-các-phần-tử-trong-mảng-bằng-giá-trị-index)
