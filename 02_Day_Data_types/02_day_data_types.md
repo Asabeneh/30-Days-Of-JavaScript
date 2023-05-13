@@ -514,6 +514,9 @@ let country = 'Finland'
 console.log(country.substr(3, 4))   // land
 ```
 
+**NOTE**: `substr()` is no longer recommended, although some browsers may support it for compatibility reasons, it is in the process of being dropped.
+
+
 6. *substring()*: It takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping index.
 
 ```js
