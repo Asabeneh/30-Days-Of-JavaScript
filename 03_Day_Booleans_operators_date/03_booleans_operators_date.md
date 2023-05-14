@@ -218,7 +218,7 @@ console.log('python'.length > 'dragon'.length)   // false
 ```
 
 Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
-JavaScript is somehow a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
+JavaScript is somehow a wired kind of programming language. JavaScript code run and give you a result, but unless you are good at it, it may not be the desired result.
 
 As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
 
@@ -489,10 +489,10 @@ Let us format these values to a human readable time format.
 ```js
 const now = new Date()
 const year = now.getFullYear() // return year
-const month = now.getMonth() + 1 // return month(0 - 11)
+const month = now.getMonth() + 1 // return month(1 - 12)
 const date = now.getDate() // return date (1 - 31)
 const hours = now.getHours() // return number (0 - 23)
-const minutes = now.getMinutes() // return number (0 -59)
+const minutes = now.getMinutes() // return number (0 - 59)
 
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
