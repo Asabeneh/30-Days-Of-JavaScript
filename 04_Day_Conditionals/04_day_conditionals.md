@@ -177,7 +177,7 @@ if (weather === 'rainy') {
 
 ### Switch
 
-Switch  is an alternative for **if else if else else**.
+Switch  is an alternative for **if else if else**.
 The switch statement starts with a *switch* keyword followed by a parenthesis and code block. Inside the code block we will have different cases. Case block runs if the value in the switch statement parenthesis matches with the case value. The break statement is to terminate execution so the code execution  does not go down after the condition is satisfied.  The default block runs if all the cases don't satisfy the condition.
 
 ```js
@@ -297,7 +297,7 @@ isRaining
    You are 5 years older than me.
    ```
 
-1. If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in to ways
+1. If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in two ways
 
     - using if else
     - ternary operator.
@@ -354,8 +354,7 @@ isRaining
 ### Exercises: Level 3
 
 1. Write a program which tells the number of days in a month.
-
-  ```sh
+	  ```sh
     Enter a month: January
     January has 31 days.
 
@@ -367,10 +366,8 @@ isRaining
 
     Enter a month: FEbruary
     February has 28 days.
-  ```
-
-1. Write a program which tells the number of days in a month, now consider leap year.
-
+    ```  
+2.  Write a program which tells the number of days in a month, now consider leap year.
 
 🎉 CONGRATULATIONS ! 🎉
 
