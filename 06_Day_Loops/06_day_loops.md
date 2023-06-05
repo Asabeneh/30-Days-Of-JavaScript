@@ -408,7 +408,6 @@ for(let i = 0; i <= 5; i++){
       ['Germany', 'GER', 7],
       ['Hungary', 'HUN', 7],
       ['Ireland', 'IRE', 7],
-      ['Iceland', 'ICE', 7],
       ['Japan', 'JAP', 5],
       ['Kenya', 'KEN', 5]
     ]
@@ -417,7 +416,7 @@ for(let i = 0; i <= 5; i++){
 2. In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print `All these countries are without 'land'`.
 
     ```sh
-    ['Finland','Ireland', 'Iceland']
+    ['Finland','Ireland']
     ```
 
 3. In above countries array, check if there is a country or countries ending with a substring 'ia'. If there are countries ending with 'ia', print it as array. If there is no country containing the substring 'ia', print `These are no countries end with 'ia'`.
