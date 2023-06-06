@@ -101,14 +101,14 @@
     - [Script interne](#script-interne)
     - [Script externe](#script-externe)
     - [Multiple External Scripts](#multiple-external-scripts)
-  - [Introduction to Data types](#introduction-to-data-types)
-    - [Numbers](#numbers)
-    - [Strings](#strings)
-    - [Booleans](#booleans)
-    - [Undefined](#undefined)
+  - [Introduction aux types de données](#introduction-aux-types-de-données)
+    - [Les nombres](#les-nombres)
+    - [Les chaîne de caractère](#les-chaîne-de-caractère)
+    - [Booléens](#booléens)
+    - [Indéfini(Undefined)](#indéfiniundefined)
     - [Null](#null)
-  - [Checking Data Types](#checking-data-types)
-  - [Comments Again](#comments-again)
+  - [Vérification des types de données](#vérification-des-types-de-données)
+  - [Encore des commentaires](#encore-des-commentaires)
   - [Variables](#variables)
 - [💻 Day 1: Exercises](#-day-1-exercises)
 
@@ -427,13 +427,12 @@ Les scripts externes dans le _body_:
 
 
 
-
-Open the browser console to see the output of the `console.log()`.
+Ouvrez la console du navigateur pour voir le résultat de la commande`console.log()`.
 
 ### Multiple External Scripts
 
-We can also link multiple external JavaScript files to a web page.
-Create a `helloworld.js` file inside the 30DaysOfJS folder and write the following code.
+Nous pouvons également lier plusieurs fichiers JavaScript externes à une page web.
+Créer un fichier `helloworld.js` dans le dossier 30DaysOfJS et écrivez le code suivant.
 
 ```js
 console.log('Hello, World!')
@@ -452,123 +451,124 @@ console.log('Hello, World!')
 </html>
 ```
 
-_Your main.js file should be below all other scripts_. It is very important to remember this.
+_Votre fichier main.js doit être placé en dessous de tous les autres fichiers scripts_. Il est très important de s'en souvenir.
 
 ![Multiple Script](./images/multiple_script.png)
 
-## Introduction to Data types
+## Introduction aux types de données
 
-In JavaScript and also other programming languages, there are different types of data types. The following are JavaScript primitive data types: _String, Number, Boolean, undefined, Null_, and _Symbol_.
+En JavaScript et dans d'autres langages de programmation, il existe différents types de données. Voici les types de données primitives en JavaScript: _Chaine de caractère, Nombre, Booleen, undefined, Null_, et _Symbol_.
 
-### Numbers
+### Les nombres
 
-- Integers: Integer (negative, zero and positive) numbers
-  Example:
+- Nombres entiers : Nombres entiers (négatifs, nuls et positifs)
+  Exemple 
   ... -3, -2, -1, 0, 1, 2, 3 ...
-- Float-point numbers: Decimal number
-  Example
+- Nombres à virgule flottante : Nombre décimal
+  Exemple
   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
-### Strings
+### Les chaîne de caractère
 
-A collection of one or more characters between two single quotes, double quotes, or backticks.
+Ensemble d'un ou plusieurs caractères compris entre deux guillemets simples, deux guillemets doubles ou deux barres obliques.
 
-**Example:**
+**Exemple:**
 
 ```js
 'a'
 'Asabeneh'
 "Asabeneh"
 'Finland'
-'JavaScript is a beautiful programming language'
-'I love teaching'
-'I hope you are enjoying the first day'
-`We can also create a string using a backtick`
-'A string could be just as small as one character or as big as many pages'
-'Any data type under a single quote, double quote or backtick is a string'
+'JavaScript est un beau langage de programmation'
+'J\'aime enseigner'
+'J\'espère que vous appréciez ce premier jour'
+`Nous pouvons également créer une chaîne de caractères à l'aide d'un backtick`
+'Une chaîne de caractères peut être aussi petite qu\'un seul caractère ou aussi grande que plusieurs pages.'
+'Tout type de données placé sous un guillemet simple, un guillemet double ou une coche est une chaîne de caractères.'
 ```
 
-### Booleans
+### Booléens
 
-A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
+Une valeur booléenne est soit vraie, soit fausse. Toute comparaison renvoie une valeur booléenne, qui est soit vraie, soit fausse.
+Un type de données booléen est soit une valeur vraie, soit une valeur fausse.
 
-A boolean data type is either a true or false value.
-
-**Example:**
+**Exemple:**
 
 ```js
-true // if the light is on, the value is true
-false // if the light is off, the value is false
+true // si la lumière est allumée, la valeur est vraie
+false // si la lumière est éteinte, la valeur est fausse
 ```
 
-### Undefined
+### Indéfini(Undefined) 
 
-In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
+En JavaScript, si nous n'attribuons pas de valeur à une variable, cette valeur est indéfinie. En outre, si une fonction ne renvoie rien, elle renvoie une valeur indéfinie.
 
 ```js
 let firstName
-console.log(firstName) // undefined, because it is not assigned to a value yet
+console.log(firstName) // indéfini, car il n'est pas encore affecté à une valeur
 ```
 
 ### Null
 
-Null in JavaScript means an empty value.
+Null en JavaScript signifie une valeur vide.
 
 ```js
 let emptyValue = null
 ```
 
-## Checking Data Types
+## Vérification des types de données
 
-To check the data type of a certain variable, we use the **typeof** operator. See the following example.
-
-```js
-console.log(typeof 'Asabeneh') // string
-console.log(typeof 5) // number
-console.log(typeof true) // boolean
-console.log(typeof null) // object type
-console.log(typeof undefined) // undefined
-```
-
-## Comments Again
-
-Remember that commenting in JavaScript is similar to other programming languages. Comments are important in making your code more readable.
-There are two ways of commenting:
-
-- _Single line commenting_
-- _Multiline commenting_
+Pour vérifier le type de données d'une certaine variable, nous utilisons la fonction **typeof** de l'opérateur. Voir l'exemple suivant.
 
 ```js
-// commenting the code itself with a single comment
-// let firstName = 'Asabeneh'; single line comment
-// let lastName = 'Yetayeh'; single line comment
+console.log(typeof 'Asabeneh') // chaîne de caractère
+console.log(typeof 5) // nombre
+console.log(typeof true) // booléen
+console.log(typeof null) // type object 
+console.log(typeof undefined) // undefini
 ```
 
-Multiline commenting:
+## Encore des commentaires
+
+Rappelez-vous que les commentaires en JavaScript sont similaires à ceux des autres langages de programmation. Les commentaires sont importants pour rendre votre code plus lisible.
+Il existe deux façons de commenter :
+
+- _Commentaire sur une seule ligne_
+- _Commentaires multilignes_
+
+```js
+// commenter le code lui-même avec un seul commentaire
+// let firstName = 'Asabeneh'; commentaire sur une seule ligne
+// let lastName = 'Yetayeh'; commentaire sur une seule ligne
+```
+
+Commentaires en plusieurs lignes :
 
 ```js
 /*
   let location = 'Helsinki';
   let age = 100;
   let isMarried = true;
-  This is a Multiple line comment
+  Il s'agit d'un commentaire de plusieurs lignes
 */
 ```
 
 ## Variables
 
-Variables are _containers_ of data. Variables are used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords.
+Les variables sont des  _conteneurs_ of data.  Les variables sont utilisées pour _stocker_ des données dans un emplacement de mémoire. Lorsqu'une variable est déclarée, un emplacement mémoire est réservé. Lorsqu'une variable est affectée à une valeur (données), l'espace mémoire sera rempli avec ces données. Pour déclarer une variable, on utilise_var_, _let_, or _const_ keywords.
 
-For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do not change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is error prone way of declaring variable it has lots of leak. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
+Pour une variable qui change à un autre moment, nous utilisons_let_.  _const_. Si les données ne changent pas du tout, nous utilisons l'exemple suivant, PI, nom de pays, ne changent pas, et nous pouvons utiliser _const_. 
 
-A valid JavaScript variable name must follow the following rules:
+Nous n'utiliserons pas _var_ dans ce défi et je ne vous recommande pas de l'utiliser. C'est une façon de déclarer une variable qui peut être source d'erreurs et qui comporte de nombreuses fuites. Nous parlerons plus en détail de var, let et const dans d'autres sections (scope). Pour l'instant, l'explication ci-dessus est suffisante.
 
-- A JavaScript variable name should not begin with a number.
-- A JavaScript variable name does not allow special characters except dollar sign and underscore.
-- A JavaScript variable name follows a camelCase convention.
-- A JavaScript variable name should not have space between words.
+Un nom de variable JavaScript valide doit respecter les règles suivantes :
 
-The following are examples of valid JavaScript variables.
+- Le nom d'une variable JavaScript ne doit pas commencer par un chiffre.
+- Le nom d'une variable JavaScript n'autorise pas les caractères spéciaux, à l'exception du signe du dollar et du trait de soulignement.
+- Le nom d'une variable JavaScript suit la convention camelCase.
+- Le nom d'une variable JavaScript ne doit pas comporter d'espace entre les mots.
+
+Voici des exemples de variables JavaScript valides.
 
 ```js
 firstName
@@ -592,9 +592,9 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follows the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables(camelWithOneHump). We use CamelCase(CamelWithTwoHump) to declare classes, we will discuss about classes and objects in other section.
+La première et la deuxième variables de la liste suivent la convention camelCase de déclaration en JavaScript. Dans ce document, nous utiliserons des variables en camelCase (camelWithOneHump). Nous utilisons la camelCase (camelWithTwoHump) pour déclarer les classes, nous discuterons des classes et des objets dans d'autres sections.
 
-Example of invalid variables:
+Exemple de variables non valides :
 
 ```js
   first-name
@@ -602,24 +602,24 @@ Example of invalid variables:
   num_#_1
 ```
 
-Let us declare variables with different data types. To declare a variable, we need to use _let_ or _const_ keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value(assigned data).
+Déclarons des variables avec différents types de données. Pour déclarer une variable, nous devons utiliser _let_ or _const_ avant le nom de la variable. Après le nom de la variable, on écrit un signe égal (opérateur d'affectation), et une valeur (donnée affectée).
 
 ```js
 // Syntax
 let nameOfVariable = value
 ```
 
-The nameOfVriable is the name that stores different data of value. See below for detail examples.
+Le nom de l'objet est le nom qui stocke les différentes données de la valeur. Voir ci-dessous pour des exemples détaillés.
 
-**Examples of declared variables**
+**Exemples de variables déclarées**
 
 ```js
-// Declaring different variables of different data types
-let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
-let country = 'Finland' // country
-let city = 'Helsinki' // capital city
-let age = 100 // age in years
+// Déclarer différentes variables de différents types de données
+let firstName = 'Asabeneh' // prénom d'une personne
+let lastName = 'Yetayeh' // nom de famille d'une personne
+let country = 'Finland' // pays
+let city = 'Helsinki' // capitale
+let age = 100 // age 
 let isMarried = true
 
 console.log(firstName, lastName, country, city, age, isMarried)
@@ -643,7 +643,7 @@ console.log(gravity, boilingPoint, PI)
 ```
 
 ```js
-// Variables can also be declaring in one line separated by comma, however I recommend to use a seperate line to make code more readble
+// Les variables peuvent également être déclarées sur une seule ligne séparée par une virgule, mais je recommande d'utiliser une ligne séparée pour rendre le code plus lisible.
 let name = 'Asabeneh', job = 'teacher', live = 'Finland'
 console.log(name, job, live)
 ```
@@ -652,32 +652,32 @@ console.log(name, job, live)
 Asabeneh teacher Finland
 ```
 
-When you run _index.html_ file in the 01-Day folder you should get this:
+Lorsque vous exécutez _index.html_ dans le fichier 01-Jour vous devriez obtenir ceci:
 
 ![Day one](./images/day_1.png)
 
-🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and muscle.
+🌕 Vous êtes extraordinaire ! Vous venez de relever le défi du premier jour et vous êtes sur la voie de la grandeur. Maintenant, fais quelques exercices pour ton cerveau et tes muscles.
 
 # 💻 Day 1: Exercises
 
-1. Write a single line comment which says, _comments can make code readable_
-2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_
-3. Write a multiline comment which says, _comments can make code readable, easy to reuse_
-   _and informative_
+1. Rédigez un commentaire d'une seule ligne qui dit, _les commentaires rendent le code plus lisible_
+2. Rédigez un autre commentaire unique qui dit, _Bienvenue dans 30 jours de JavaScript_
+3. Rédigez un commentaire de plusieurs lignes qui dit, _les commentaires peuvent rendre le code lisible et facile à réutiliser_
+   _et informatif_
 
-4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
-5. Create datatypes.js file and use the JavaScript **_typeof_** operator to check different data types. Check the data type of each variable
-6. Declare four variables without assigning values
-7. Declare four variables with assigned values
-8. Declare variables to store your first name, last name, marital status, country and age in multiple lines
-9. Declare variables to store your first name, last name, marital status, country and age in a single line
-10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to the browser console.
+4. Créez un fichier variable.js, déclarez des variables et attribuez des types de données string, boolean, undefined et null.
+5.Créer le fichier datatypes.js et utiliser le JavaScript **_typeof_** pour vérifier les différents types de données. Vérifier le type de données de chaque variable
+6. Déclarer quatre variables sans leur attribuer de valeur
+7. Déclarer quatre variables avec des valeurs assignées
+8. Déclarez des variables pour stocker votre prénom, votre nom de famille, votre état civil, votre pays et votre âge sur plusieurs lignes.
+9. Déclarez des variables pour stocker votre prénom, votre nom, votre état civil, votre pays et votre âge sur une seule ligne.
+10. Déclarer deux variables _myAge_ and _yourAge_ et leur assigner des valeurs initiales et se connecter à la console du navigateur.
 
 ```sh
 I am 25 years old.
 You are 30 years old.
 ```
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 FÉLICITATIONS ! 🎉
 
-[Day 2 >>](./02_Day_Data_types/02_day_data_types.md)
+[Jour 2 >>](./02_Jour_les_types_des_donnee/02_Jour_les_types_des_donnee.md)
