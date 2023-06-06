@@ -1,4 +1,4 @@
-# 30 Days Of JavaScript
+# 30 jours de JavaScript
 
 | # Jours |                                                                       Tables des matières                                                                        |
 | ----- | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -57,6 +57,7 @@
 <div>
 
 🇬🇧 [English](./readMe.md)
+🇫🇷 [French](./French/readMe.md)
 🇪🇸 [Spanish](./Spanish/readme.md)
 🇮🇹 [Italian](./Italian/readMe.md)Setup
 🇷🇺 [Russian](./RU/README.md)
@@ -66,7 +67,7 @@
 🇻🇳 [Vietnamese](./Vietnamese/README.md)
 🇵🇱 [Polish](./Polish/readMe.md)
 🇧🇷 [Portuguese](./Portuguese/readMe.md)
-🇫🇷 [French](./French/readMe.md)
+
 
 </div>
 
@@ -77,38 +78,38 @@
 
 ![Thirty Days Of JavaScript](./images/day_1_1.png)
 
-- [30 Days Of JavaScript](#30-days-of-javascript)
+- [30 jours de JavaScript](#30-jours-de-javascript)
 - [📔 Jour 1](#-jour-1)
-	- [Introduction](#introduction)
-	- [Les éxigences](#les-éxigences)
-	- [Configuration](#configuration)
-		- [Installation de  Node.js](#installation-de--nodejs)
-		- [Navigateur](#navigateur)
-			- [Installation de  Google Chrome](#installation-de--google-chrome)
-			- [Ouverture de la console Google Chrome](#ouverture-de-la-console-google-chrome)
-			- [Écrire du code sur la console du navigateur](#écrire-du-code-sur-la-console-du-navigateur)
-				- [Console.log](#consolelog)
-				- [Console.log avec plusieurs arguments](#consolelog-avec-plusieurs-arguments)
-				- [Comments](#comments)
-				- [Syntaxe](#syntaxe)
-			- [AArithmétique](#aarithmétique)
-		- [Editeur de code](#editeur-de-code)
-			- [Installation de  Visual Studio Code](#installation-de--visual-studio-code)
-			- [Comment utiliser Visual Studio Code](#comment-utiliser-visual-studio-code)
-	- [Ajout de JavaScript à une page Web](#ajout-de-javascript-à-une-page-web)
-		- [Script en ligne](#script-en-ligne)
-		- [Script interne](#script-interne)
-		- [Script externe](#script-externe)
-		- [Multiple External Scripts](#multiple-external-scripts)
-	- [Introduction to Data types](#introduction-to-data-types)
-		- [Numbers](#numbers)
-		- [Strings](#strings)
-		- [Booleans](#booleans)
-		- [Undefined](#undefined)
-		- [Null](#null)
-	- [Checking Data Types](#checking-data-types)
-	- [Comments Again](#comments-again)
-	- [Variables](#variables)
+  - [Introduction](#introduction)
+  - [Les éxigences](#les-éxigences)
+  - [Configuration](#configuration)
+    - [Installation de  Node.js](#installation-de--nodejs)
+    - [Navigateur](#navigateur)
+      - [Installation de  Google Chrome](#installation-de--google-chrome)
+      - [Ouverture de la console Google Chrome](#ouverture-de-la-console-google-chrome)
+      - [Écrire du code sur la console du navigateur](#écrire-du-code-sur-la-console-du-navigateur)
+        - [Console.log](#consolelog)
+        - [Console.log avec plusieurs arguments](#consolelog-avec-plusieurs-arguments)
+        - [Comments](#comments)
+        - [Syntaxe](#syntaxe)
+      - [AArithmétique](#aarithmétique)
+    - [Editeur de code](#editeur-de-code)
+      - [Installation de  Visual Studio Code](#installation-de--visual-studio-code)
+      - [Comment utiliser Visual Studio Code](#comment-utiliser-visual-studio-code)
+  - [Ajout de JavaScript à une page Web](#ajout-de-javascript-à-une-page-web)
+    - [Script en ligne](#script-en-ligne)
+    - [Script interne](#script-interne)
+    - [Script externe](#script-externe)
+    - [Multiple External Scripts](#multiple-external-scripts)
+  - [Introduction to Data types](#introduction-to-data-types)
+    - [Numbers](#numbers)
+    - [Strings](#strings)
+    - [Booleans](#booleans)
+    - [Undefined](#undefined)
+    - [Null](#null)
+  - [Checking Data Types](#checking-data-types)
+  - [Comments Again](#comments-again)
+  - [Variables](#variables)
 - [💻 Day 1: Exercises](#-day-1-exercises)
 
 # 📔 Jour 1
