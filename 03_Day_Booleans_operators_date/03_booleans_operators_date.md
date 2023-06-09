@@ -64,7 +64,7 @@ let isLightOn = true
 let isRaining = false
 let isHungry = false
 let isMarried = true
-let truValue = 4 > 3    // true
+let trueValue = 4 > 3    // true
 let falseValue = 4 < 3  // false
 ```
 
@@ -86,7 +86,7 @@ We agreed that boolean values are either true or false.
 - the boolean false
 - '', "", ``, empty string
 
-It is good to remember those truthy values and falsy values. In later section, we will use them with conditions to make decisions.
+It is good to remember those truthy values and falsy values. In the later section, we will use them with conditions to make decisions.
 
 ## Undefined
 
@@ -160,18 +160,18 @@ let mass = 72             // in Kilogram
 const weight = mass * gravity
 console.log(weight)        // 706.32 N(Newton)
 
-const boilingPoint = 100  // temperature in oC, boiling point of water
-const bodyTemp = 37       // body temperature in oC
+const boilingPoint = 100  // temperature in °C, boiling point of water
+const bodyTemp = 37       // body temperature in °C
 
 
 // Concatenating string with numbers using string interpolation
 /*
- The boiling point of water is 100 oC.
- Human body temperature is 37 oC.
- The gravity of earth is 9.81 m/s2.
+ The boiling point of water is 100 °C.
+ The human body temperature is 37 °C.
+ The gravity of Earth is 9.81 m/s2.
  */
 console.log(
-  `The boiling point of water is ${boilingPoint} oC.\nHuman body temperature is ${bodyTemp} oC.\nThe gravity of earth is ${gravity} m / s2.`
+  `The boiling point of water is ${boilingPoint} °C.\nHuman body temperature is ${bodyTemp} °C.\nThe gravity of Earth is ${gravity} m / s2.`
 )
 ```
 
@@ -218,16 +218,16 @@ console.log('python'.length > 'dragon'.length)   // false
 ```
 
 Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
-JavaScript is somehow a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
+JavaScript is somehow a wired kind of programming language. JavaScript code runs and gives you a result but unless you are good at it may not be the desired result.
 
-As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
+As a rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
 
 ### Logical Operators
 
 The following symbols are the common logical operators:
 &&(ampersand) , ||(pipe) and !(negation).
 The && operator gets true only if the two operands are true.
-The || operator gets true either of the operand is true.
+The || operator gets true if either of the operands is true.
 The ! operator negates true to false and false to true.
 
 ```js
@@ -254,7 +254,7 @@ let isMarried = !false                // true
 
 ### Increment Operator
 
-In JavaScript we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
+In JavaScript we use the increment operator to increase a value stored in a variable. The increment could be pre or post-increment. Let us see each of them:
 
 1. Pre-increment
 
@@ -272,11 +272,11 @@ console.log(count++)        // 0
 console.log(count)          // 1
 ```
 
-We use most of the time post-increment. At least you should remember how to use post-increment operator.
+We use most of the time post-increment. At least you should remember how to use the post-increment operator.
 
 ### Decrement Operator
 
-In JavaScript we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement. Let us see each of them:
+In JavaScript we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post-decrement. Let us see each of them:
 
 1. Pre-decrement
 
@@ -296,41 +296,41 @@ console.log(count)   // -1
 
 ### Ternary Operators
 
-Ternary operator allows to write a condition.
-Another way to write conditionals is using ternary operators. Look at the following examples:
+The ternary operator allows to write a condition.
+Another way to write conditionals is by using ternary operators. Look at the following examples:
 
 ```js
 let isRaining = true
 isRaining
-  ? console.log('You need a rain coat.')
-  : console.log('No need for a rain coat.')
+  ? console.log('You need a raincoat.')
+  : console.log('No need for a raincoat.')
 isRaining = false
 
 isRaining
-  ? console.log('You need a rain coat.')
-  : console.log('No need for a rain coat.')
+  ? console.log('You need a raincoat.')
+  : console.log('No need for a raincoat.')
 ```
 
 ```sh
-You need a rain coat.
-No need for a rain coat.
+You need a raincoat.
+No need for a raincoat.
 ```
 
 ```js
 let number = 5
 number > 0
-  ? console.log(`${number} is a positive number`)
-  : console.log(`${number} is a negative number`)
+  ? console.log(`${number} is a positive number.`)
+  : console.log(`${number} is a negative number.`)
 number = -5
 
 number > 0
-  ? console.log(`${number} is a positive number`)
-  : console.log(`${number} is a negative number`)
+  ? console.log(`${number} is a positive number.`)
+  : console.log(`${number} is a negative number.`)
 ```
 
 ```sh
-5 is a positive number
--5 is a negative number
+5 is a positive number.
+-5 is a negative number.
 ```
 
 ### Operator Precedence
@@ -341,7 +341,7 @@ I would like to recommend you to read about operator precedence from this [link]
 
 ### Window alert() method
 
-As you have seen at very beginning alert() method displays an alert box with a specified message and an OK button. It is a builtin method and it takes on argument.
+As you have seen at the very beginning alert() method displays an alert box with a specified message and an OK button. It is a built-in method and it takes on argument.
 
 ```js
 alert(message)
@@ -381,14 +381,14 @@ These are not all the window methods we will have a separate section to go deep 
 
 ## Date Object
 
-Time is an important thing. We like to know the time a certain activity or event. In JavaScript current time and date is created using JavaScript Date Object. The object we create using Date object provides many methods to work with date and time.The methods we use to get date and time information from a date object values are started with a word _get_ because it provide the information.
-_getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
+Time is an important thing. We like to know the time a certain activity or event. In JavaScript current time and date is created using JavaScript Date Object. The object we create using Date object provides many methods to work with date and time. The methods we use to get date and time information from a date object values are started with a word _get_ because it provides the information.
+_getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes(), getSeconds(), getMilliseconds(), getTime(), getDay()_
 
 ![Date time Object](../images/date_time_object.png)
 
 ### Creating a time object
 
-Once we create time object. The time object will provide information about time. Let us create a time object
+Once we create a time object. The time object will provide information about time. Let us create a time object.
 
 ```js
 const now = new Date()
@@ -464,7 +464,7 @@ console.log(now.getSeconds()) // 41, because the time is 00:56:41
 
 ### Getting time
 
-This method give time in milliseconds starting from January 1, 1970. It is also know as Unix time. We can get the unix time in two ways:
+This method gives time in milliseconds starting from January 1, 1970. It is also known as Unix time. We can get the Unix time in two ways:
 
 1. Using _getTime()_
 
@@ -483,7 +483,7 @@ const timeInSeconds = new Date().getTime()
 console.log(allSeconds == timeInSeconds) // true
 ```
 
-Let us format these values to a human readable time format.
+Let us format these values to a human-readable time format.
 **Example:**
 
 ```js
@@ -497,7 +497,7 @@ const minutes = now.getMinutes() // return number (0 -59)
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
 
-🌕  You have boundless energy. You have just completed day 3 challenges and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕  You have boundless energy. You have just completed day 3 challenges and you are three steps ahead into your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## 💻 Day 3: Exercises
 
@@ -507,8 +507,8 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 2. Check if type of '10' is equal to 10
 3. Check if parseInt('9.8') is equal to 10
 4. Boolean value is either true or false.
-   1. Write three JavaScript statement which provide truthy value.
-   2. Write three JavaScript statement which provide falsy value.
+   1. Write three JavaScript statements which provide truthy value.
+   2. Write three JavaScript statements which provide falsy value.
 
 5. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
    1. 4 > 3
@@ -548,7 +548,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 
 ### Exercises: Level 2
 
-1. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+1. Write a script ss the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
 
    ```sh
    Enter base: 20
@@ -556,7 +556,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    The area of the triangle is 100
    ```
 
-1. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
+1. Write a script that prompts the user to enter side a, side b, and side c of the triangle and calculate the perimeter of triangle (perimeter = a + b + c)
 
    ```sh
    Enter side a: 5
@@ -565,13 +565,13 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    The perimeter of the triangle is 12
    ```
 
-1. Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
-1. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+1. Get length and width using prompt and calculate an area of rectangle (area = length x width) and the perimeter of rectangle (perimeter = 2 x (length + width))
+1. Get the radius using prompt and calculate the area of a circle (area = pi x r x r) and the circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 1. Calculate the slope, x-intercept and y-intercept of y = 2x -2
 1. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between point (2, 2) and point(6,10)
-1. Compare the slope of above two questions.
+1. Compare the slope of the above two questions.
 1. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
-1. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+1. Write a script that prompts a user to enter hours and rate per hour. Calculate the pay of the person.
 
     ```sh
     Enter hours: 40
@@ -613,21 +613,21 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
     You are 15. You will be allowed to drive after 3 years.
     ```
 
-1. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
+1. Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume someone lives just hundred years
 
    ```sh
    Enter number of years you live: 100
    You lived 3153600000 seconds.
    ```
 
-1. Create a human readable time format using the Date time object
+1. Create a human-readable time format using the Date time object
    1. YYYY-MM-DD HH:mm
    2. DD-MM-YYYY HH:mm
    3. DD/MM/YYYY HH:mm
 
 ### Exercises: Level 3
 
-1. Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
+1. Create a human-readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
    1. YYY-MM-DD HH:mm eg. 20120-01-02 07:05
 
 [<< Day 2](../02_Day_Data_types/02_day_data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
