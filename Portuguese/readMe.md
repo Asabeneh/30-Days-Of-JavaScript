@@ -3,8 +3,8 @@
 | # Dia |                                                                       Tópicos                                                                            |
 | ----- |   :-------------------------------------------------------------------------------------------------------------------------------------------------:    |
 | 01    |                                                             [Introdução](./readMe.md)                                                                    |
-| 02    |                                               [Tipos de Dados](./02_Day_Data_types/02_day_data_types.md)                                                 |
-| 03    |                             [Booleanos, Operadores, Data](./03_Day_Booleans_operators_date/03_booleans_operators_date.md)                                |
+| 02    |                                               [Tipos de Dados](./Dia_02_Tipos_Dados/dia_02_tipos_dados.md)
+| 03    |                             [Booleanos, Operadores, Data](./Dia_03_Booleanos_Operadores_Data/dia_03_booleanos_operadores_data.md)                                |
 | 04    |                                            [Condicionais](./04_Day_Conditionals/04_day_conditionals.md)                                                  |
 | 05    |                                                     [Arrays](./05_Day_Arrays/05_day_arrays.md)                                                           |
 | 06    |                                                       [Loops](./06_Day_Loops/06_day_loops.md)                                                            |
