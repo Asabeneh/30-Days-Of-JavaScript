@@ -147,7 +147,7 @@ In a function we can pass different data types(number, string, boolean, object, 
 ```js
 // function with one parameter
 function functionName(parm1) {
-  //code goes her
+  //code goes here
 }
 functionName(parm1) // during calling or invoking one argument needed
 
@@ -170,7 +170,7 @@ console.log(square(10))
 ```js
 // function with two parameters
 function functionName(parm1, parm2) {
-  //code goes her
+  //code goes here
 }
 functionName(parm1, parm2) // during calling or invoking two arguments needed
 // Function without parameter doesn't take input, so lets make a function with parameters
