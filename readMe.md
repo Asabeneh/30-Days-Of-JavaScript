@@ -679,8 +679,8 @@ You are 30 years old.
 ```
 11. Declare one variable **test** and assign the initial value as null and log to the browser console by doing following things:
 ```sh
-    i. **_typeof_** test
-    ii. **_typeof_** **_typeof_** test
+i. **_typeof_** test
+ii. **_typeof_** **_typeof_** test
 ```
 
 🎉 CONGRATULATIONS ! 🎉
