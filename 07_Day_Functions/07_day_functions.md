@@ -43,10 +43,10 @@
 
 ## Functions
 
-So far we have seen many builtin JavaScript functions. In this section, we will focus on custom functions. What is a function? Before we start making functions, lets understand what function is and why we need function?
+So far we have seen many built-in JavaScript functions. In this section, we will focus on custom functions. What is a function? Before we start making functions, lets understand what a function is and why we need function?
 
 A function is a reusable block of code or programming statements designed to perform a certain task.
-A function is declared by a function key word followed by a name, followed by parentheses (). A parentheses can take a parameter. If a function take a parameter it will be called with argument. A function can also take a default parameter. To store a data to a function, a function has to return certain data types. To get the value we call or invoke a function.
+A function is declared by a function keyword followed by a name, followed by parentheses (). A parentheses can take a parameter. If a function take a parameter(s), it will be called with argument(s). A function can also take a default parameter. To store a data to a function, a function has to return certain data types. To get the value we call or invoke a function.
 Function makes code:
 
 - clean and easy to read
@@ -179,7 +179,7 @@ function sumTwoNumbers(numOne, numTwo) {
   console.log(sum)
 }
 sumTwoNumbers(10, 20) // calling functions
-// If a function doesn't return it doesn't store data, so it should return
+// If a function doesn't return a value, it doesn't store data, so it should return
 
 function sumTwoNumbers(numOne, numTwo) {
   let sum = numOne + numTwo
@@ -416,8 +416,8 @@ function greetings(name = 'Peter') {
   return message
 }
 
-console.log(greetings())
-console.log(greetings('Asabeneh'))
+console.log(greetings()) // 'Peter, welcome to 30 Days of JavaScript!'
+console.log(greetings('Asabeneh')) // 'Asabeneh, welcome to 30 Days of JavaScript!'
 ```
 
 ```js
@@ -427,8 +427,8 @@ function generateFullName(firstName = 'Asabeneh', lastName = 'Yetayeh') {
   return fullName
 }
 
-console.log(generateFullName())
-console.log(generateFullName('David', 'Smith'))
+console.log(generateFullName()) // 'Asabeneh Yetayeh'
+console.log(generateFullName('David', 'Smith')) // 'David Smith'
 ```
 
 ```js
@@ -437,7 +437,7 @@ function calculateAge(birthYear, currentYear = 2019) {
   return age
 }
 
-console.log('Age: ', calculateAge(1819))
+console.log('Age: ', calculateAge(1819)) // Age: 200
 ```
 
 ```js
@@ -446,8 +446,10 @@ function weightOfObject(mass, gravity = 9.81) {
   return weight
 }
 
-console.log('Weight of an object in Newton: ', weightOfObject(100)) // 9.81 gravity at the surface of Earth
-console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gravity at surface of Moon
+console.log('Weight of an object in Newton: ', weightOfObject(100)) // 981
+// 9.81 gravity at the surface of Earth
+console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // 162
+// gravity at surface of Moon
 ```
 
 Let us see how we write the above functions with arrow functions
@@ -472,8 +474,8 @@ const greetings = (name = 'Peter') => {
   return message
 }
 
-console.log(greetings())
-console.log(greetings('Asabeneh'))
+console.log(greetings()) // 'Peter, welcome to 30 Days of JavaScript!'
+console.log(greetings('Asabeneh')) // 'Asabeneh, welcome to 30 Days of JavaScript!'
 ```
 
 ```js
@@ -483,28 +485,30 @@ const generateFullName = (firstName = 'Asabeneh', lastName = 'Yetayeh') => {
   return fullName
 }
 
-console.log(generateFullName())
-console.log(generateFullName('David', 'Smith'))
+console.log(generateFullName()) // 'Asabeneh Yetayeh'
+console.log(generateFullName('David', 'Smith')) // 'David Smith'
 ```
 
 ```js
 
 const calculateAge = (birthYear, currentYear = 2019) => currentYear - birthYear
-console.log('Age: ', calculateAge(1819))
+console.log('Age: ', calculateAge(1819)) // 200
 ```
 
 ```js
 const weightOfObject = (mass, gravity = 9.81) => mass * gravity + ' N'
   
-console.log('Weight of an object in Newton: ', weightOfObject(100)) // 9.81 gravity at the surface of Earth
-console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gravity at surface of Moon
+console.log('Weight of an object in Newton: ', weightOfObject(100)) // 981
+// 9.81 gravity at the surface of Earth
+console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // 162
+// gravity at surface of Moon
 ```
 
 ### Function declaration versus Arrow function
 
 It Will be covered in other section.
 
-🌕 You are a rising star, now you knew function . Now, you are super charged with the power of functions. You have just completed day 7 challenges and you are 7 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You are a rising star, now you knew function . Now, you are super charged with the power of functions. You have just completed day 7 challenges and you are 7 steps ahead in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 
 
@@ -521,10 +525,10 @@ It Will be covered in other section.
 7. Area of a circle is calculated as follows: _area = π x r x r_. Write a function which calculates _areaOfCircle_
 8. Circumference of a circle is calculated as follows: _circumference = 2πr_. Write a function which calculates _circumOfCircle_
 9. Density of a substance is calculated as follows:_density= mass/volume_. Write a function which calculates _density_.
-10. Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates a speed of a moving object, _speed_.
+10. Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates speed of a moving object, _speed_.
 11. Weight of a substance is calculated as follows: _weight = mass x gravity_. Write a function which calculates _weight_.
-12. Temperature in oC can be converted to oF using this formula: _oF = (oC x 9/5) + 32_. Write a function which convert oC to oF _convertCelsiusToFahrenheit_.
-13. Body mass index(BMI) is calculated as follows: _bmi = weight in Kg / (height x height) in m2_. Write a function which calculates _bmi_. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is _underweight, normal, overweight_ or _obese_ based the information given below.
+12. Temperature in &deg;C can be converted to &deg;F using this formula: _&deg;F = (&deg;C x 9/5) + 32_. Write a function which convert &deg;C to &deg;F _convertCelsiusToFahrenheit_.
+13. Body mass index(BMI) is calculated as follows: _bmi = weight in kg / (height x height) in $m^2$_. Write a function which calculates _bmi_. BMI is used to broadly define different weight groups in adults, 20 years old or older. Check if a person is _underweight, normal, overweight_ or _obese_ based the information given below.
 
     - The same groups apply to both men and women.
     - _Underweight_: BMI is less than 18.5
@@ -532,8 +536,8 @@ It Will be covered in other section.
     - _Overweight_: BMI is 25 to 29.9
     - _Obese_: BMI is 30 or more
 
-14. Write a function called _checkSeason_, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
-15. Math.max returns its largest argument. Write a function findMax that takes three arguments and returns their maximum with out using Math.max method.
+14. Write a function called _checkSeason_, it takes a month parameter and returns the season: Autumn, Winter, Spring or Summer.
+15. Math.max returns its largest argument. Write a function findMax that takes three arguments and returns their maximum without using Math.max() method.
 
     ```js
     console.log(findMax(0, 10, 5))
@@ -545,7 +549,7 @@ It Will be covered in other section.
 ### Exercises: Level 2
 
 1. Linear equation is calculated as follows: _ax + by + c = 0_. Write a function which calculates value of a linear equation, _solveLinEquation_.
-1. Quadratic equation is calculated as follows: _ax2 + bx + c = 0_. Write a function which calculates value or values of a quadratic equation, _solveQuadEquation_.
+1. Quadratic equation is calculated as follows: _a$x^2$ + bx + c = 0_. Write a function which calculates value or values of a quadratic equation, _solveQuadEquation_.
 
     ```js
     console.log(solveQuadratic()) // {0}
@@ -571,7 +575,7 @@ It Will be covered in other section.
     swapValues(4, 5) // x = 5, y = 4
     ```
 
-1. Declare a function name _reverseArray_. It takes array as a parameter and it returns the reverse of the array (don't use method).
+1. Declare a function name _reverseArray_. It takes array as a parameter and it returns the reverse of the array (don't use _Array.reverse()_ method).
 
     ```js
     console.log(reverseArray([1, 2, 3, 4, 5]))
@@ -580,13 +584,13 @@ It Will be covered in other section.
     //['C', 'B', 'A']
     ```
 
-1. Declare a function name _capitalizeArray_. It takes array as a parameter and it returns the - capitalizedarray.
+1. Declare a function name _capitalizeArray_. It takes array as a parameter and it returns the capitalized array.
 1. Declare a function name _addItem_. It takes an item parameter and it returns an array after adding the item
 1. Declare a function name _removeItem_. It takes an index parameter and it returns an array after removing an item
 1. Declare a function name _sumOfNumbers_. It takes a number parameter and it adds all the numbers in that range.
 1. Declare a function name _sumOfOdds_. It takes a number parameter and it adds all the odd numbers in that - range.
 1. Declare a function name _sumOfEven_. It takes a number parameter and it adds all the even numbers in that - range.
-1. Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
+1. Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds between zero and the number.
 
     ```sh
     evensAndOdds(100);
@@ -601,7 +605,7 @@ It Will be covered in other section.
     sum(1, 2, 3, 4) // -> 10
     ```
 
-1. Writ a function which generates a _randomUserIp_.
+1. Write a function which generates a _randomUserIp_.
 1. Write a function which generates a _randomMacAddress_
 1. Declare a function name _randomHexaNumberGenerator_. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
 
@@ -638,7 +642,7 @@ It Will be covered in other section.
     '
     ```
 
-1. Write a function name _rgbColorGenerator_ and it generates rgb colors.
+1. Write a function called _rgbColorGenerator_ and it generates rgb colors.
 
     ```sh
     rgbColorGenerator()
@@ -664,10 +668,10 @@ It Will be covered in other section.
 1. Call your function _sum_, it takes any number of arguments and it returns the sum.
 1. Write a function called _sumOfArrayItems_, it takes an array parameter and return the sum of all the items. Check if all the array items are number types. If not give return reasonable feedback.
 1. Write a function called _average_, it takes an array parameter and returns the average of the items. Check if all the array items are number types. If not give return reasonable feedback.
-1. Write a function called _modifyArray_ takes array as parameter and modifies the fifth item of the array and return the array. If the array length is less than five it return 'item not found'.
+1. Write a function called _modifyArray_ takes array as parameter and modifies(capitalize) the fifth item of the array and return the array. If the array length is less than five it return 'item not found'.
 
     ```js
-    console.log(modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot']);
+    console.log(modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot']));
     ```
 
     ```sh
@@ -701,7 +705,7 @@ It Will be covered in other section.
     [(1, 4, 5, 7, 9, 8, 0)]
     ```
 
-1. Write a function called reverseCountries, it takes countries array and first it copy the array and returns the reverse of the original array
+1. Write a function called _reverseCountries_, it takes countries array and first it copy the array and returns the reverse of the original array
 
 🎉 CONGRATULATIONS ! 🎉
 
