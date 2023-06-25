@@ -358,7 +358,7 @@ He teaches HTML, CSS, JavaScript, React, Node, MongoDB, Python, D3.js, Meteor, a
 
 There are different methods to manipulate an object. Let us see some of the available methods.
 
-_Object.assign_: To copy an object without modifying the original object
+_Object.assign(target, ...sources)_: Creates shallow copies of key value pairs that are then added to the target object without modifying the original object
 
 ```js
 const person = {
