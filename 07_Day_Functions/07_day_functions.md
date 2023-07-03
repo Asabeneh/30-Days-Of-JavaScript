@@ -528,7 +528,7 @@ It Will be covered in other section.
 10. Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates speed of a moving object, _speed_.
 11. Weight of a substance is calculated as follows: _weight = mass x gravity_. Write a function which calculates _weight_.
 12. Temperature in &deg;C can be converted to &deg;F using this formula: _&deg;F = (&deg;C x 9/5) + 32_. Write a function which convert &deg;C to &deg;F _convertCelsiusToFahrenheit_.
-13. Body mass index(BMI) is calculated as follows: _bmi = weight in kg / (height x height) in $m^2$_. Write a function which calculates _bmi_. BMI is used to broadly define different weight groups in adults, 20 years old or older. Check if a person is _underweight, normal, overweight_ or _obese_ based the information given below.
+13. Body mass index(BMI) is calculated as follows: _bmi = weight in kg / (height x height) in_ $` m^2 `$. Write a function which calculates _bmi_. BMI is used to broadly define different weight groups in adults, 20 years old or older. Check if a person is _underweight, normal, overweight_ or _obese_ based the information given below.
 
     - The same groups apply to both men and women.
     - _Underweight_: BMI is less than 18.5
@@ -549,7 +549,7 @@ It Will be covered in other section.
 ### Exercises: Level 2
 
 1. Linear equation is calculated as follows: _ax + by + c = 0_. Write a function which calculates value of a linear equation, _solveLinEquation_.
-1. Quadratic equation is calculated as follows: _a$x^2$ + bx + c = 0_. Write a function which calculates value or values of a quadratic equation, _solveQuadEquation_.
+1. Quadratic equation is calculated as follows: $` a{x^2} + bx + c = 0 `$. Write a function which calculates value or values of a quadratic equation, _solveQuadEquation_.
 
     ```js
     console.log(solveQuadratic()) // {0}
