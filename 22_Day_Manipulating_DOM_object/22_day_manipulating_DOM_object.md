@@ -125,7 +125,7 @@ To see a created element on the HTML document we should append it to the parent 
 
 ### Removing a child element from a parent node
 
-After creating an HTML, we may want to remove element or elements and we can use the *removeChild()* method.
+After creating an HTML element, we may want to remove element or elements and we can use the *removeChild()* method.
 
 **Example:**
 
@@ -163,7 +163,7 @@ After creating an HTML, we may want to remove element or elements and we can use
 </html>
 ```
 
-As we have see in the previous section there is a better way to eliminate all the inner HTML elements or the children of a parent element using the method *innerHTML* properties.
+As we have see in the previous section, there is a better way to eliminate all the inner HTML elements or the children of a parent element using the method *innerHTML* properties.
 
 ```html
 <!DOCTYPE html>
@@ -199,7 +199,7 @@ The above snippet of code cleared all the child elements.
 
 ---
 
-🌕 You are so special, you are progressing everyday. Now, you knew how to destroy a created DOM element when it is needed. You learned DOM and now you have the capability to build and develop applications. You are left with only eight days to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You are so special, you are progressing everyday. Now, you know how to destroy a created DOM element when it is needed. You learned DOM and now you have the capability to build and develop applications. You are left with only eight days to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## Exercises
 
