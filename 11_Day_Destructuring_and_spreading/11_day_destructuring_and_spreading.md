@@ -40,7 +40,7 @@
 
 ## Destructuring and Spread
 
-Destructuring is a way to unpack arrays, and objects and assigning to a distinct variable.
+Destructuring is a way to unpack arrays and objects and assigning to a distinct variable.
 
 ### Destructing Arrays
 
@@ -93,7 +93,7 @@ console.log(backEnd)
 ["Node", "Express", "MongoDB"]
 ```
 
-If we like to skip on of the values in the array we use additional comma. The comma helps to omit the value at that specific index
+If we like to skip one of the values in the array we use an additional comma. The comma helps to omit the value at that specific index
 
 ```js
   const numbers = [1, 2, 3]
@@ -117,7 +117,7 @@ If we like to skip on of the values in the array we use additional comma. The co
 Brook John
 ```
 
-We can use default value in case the value of array for that index is undefined:
+We can use the default value in case the value of the array for that index is undefined:
 
 ```js
 const names = [undefined, 'Brook', 'David']
@@ -135,7 +135,7 @@ console.log(firstPerson, secondPerson, thirdPerson, fourthPerson)
 Asabeneh Brook David John
 ```
 
-We can not assign variable to all the elements in the array. We can destructure few of the first and we can get the remaining as array using spread operator(...).
+We can not assign variables to all the elements in the array. We can destructure a few of the first and get the remaining as an array using the spread operator(...).
 
 ```js
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -373,7 +373,7 @@ Assess Test Result 4/1/2020 1:00 false
 
 ### Spread or Rest Operator
 
-When we destructure an array we use the spread operator(...) to get the rest elements as array. In addition to that we use spread operator to spread array elements to another array.
+When we destructure an array we use the spread operator(...) to get the rest elements as an array. In addition to that we use the spread operator to spread array elements to another array.
 
 ### Spread operator to get the rest of array elements
 
@@ -451,7 +451,7 @@ console.log(fullStack)
 ["HTML", "CSS", "JS", "React", "Node", "Express", "MongoDB"]
 ```
 
-### Spread operator to copy object
+### Spread operator to copy an object
 
 We can copy an object using a spread operator
 
@@ -491,7 +491,7 @@ console.log(copiedUser)
 
 #### Spread operator with arrow function
 
-Whenever we like to write an arrow function which takes unlimited number of arguments we use a spread operator. If we use a spread operator as a parameter, the argument passed when we invoke a function will change to an array.
+Whenever we like to write an arrow function which takes an unlimited number of arguments we use a spread operator. If we use a spread operator as a parameter, the argument passed when we invoke a function will change to an array.
 
 ```js
 
@@ -527,7 +527,7 @@ console.log(sumAllNums(1, 2, 3, 4, 5))
 
 ```
 
-🌕 You achieved quite a lot so far. Now, your level of JavaScript is upper intermediate. Keep going! You have just completed day 11 challenges and you are 11 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You achieved quite a lot so far. Now, your level of JavaScript is upper intermediate. Keep going! You have just completed day 11 challenges and you are 11 steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## Exercises
 
@@ -588,8 +588,8 @@ const users = [
 ]
 ```
 
-1. Destructure and assign the elements of constants array to e, pi, gravity, humanBodyTemp, waterBoilingTemp.
-2. Destructure and assign the elements of countries array to fin, est, sw, den, nor
+1. Destructure and assign the elements of the constants array to e, pi, gravity, humanBodyTemp, waterBoilingTemp.
+2. Destructure and assign the elements of the countries array to fin, est, sw, den, nor
 3. Destructure the rectangle object by its properties or keys.
 
 ### Exercises: Level 2
@@ -634,11 +634,11 @@ const users = [
       ]
   ```
 
-4. Copy the student object to newStudent without mutating the original object. In the new object add the following ?
+4. Copy the student object to newStudent without mutating the original object. In the new object add the following?
 
 - Add Bootstrap with level 8 to the front end skill sets
 - Add Express with level 9 to the back end skill sets
-- Add SQL with level 8 to the data base skill sets
+- Add SQL with level 8 to the database skill sets
 - Add SQL without level to the data science skill sets
 
 ```js
@@ -693,6 +693,6 @@ const users = [
 
 ```
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 CONGRATULATIONS! 🎉
 
 [<< Day 10](../10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md) | [Day 12 >>](../12_Day_Regular_expressions/12_day_regular_expressions.md)
