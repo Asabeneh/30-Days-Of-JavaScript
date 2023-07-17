@@ -424,7 +424,7 @@ console.log(numbers.lastIndexOf(4)) //  3
 console.log(numbers.lastIndexOf(6)) // -1
 ```
 
-includes:To check if an item exist in an array. If it exist it returns the true else it returns false.
+includes: To check if an item exist in an array. If it exist it returns the true else it returns false.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -462,7 +462,7 @@ console.log(Array.isArray(number)) // false
 
 #### Converting array to string
 
-toString:Converts array to string
+toString: Converts array to string
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -504,7 +504,7 @@ console.log(webTechs.join(' # '))  // "HTML # CSS # JavaScript # React # Redux #
 
 #### Slice array elements
 
-Slice: To cut out a multiple items in range. It takes two parameters:starting and ending position. It doesn't include the ending position.
+Slice: To cut out a multiple items in range. It takes two parameters: starting and ending position. It doesn't include the ending position.
 
 ```js
   const numbers = [1,2,3,4,5]
@@ -517,7 +517,7 @@ Slice: To cut out a multiple items in range. It takes two parameters:starting an
 
 #### Splice method in array
 
-Splice: It takes three parameters:Starting position, number of times to be removed and number of items to be added.
+Splice: It takes three parameters: Starting position, number of elements to remove (optional) and number of elements to add (optional).
 
 ```js
   const numbers = [1, 2, 3, 4, 5]
