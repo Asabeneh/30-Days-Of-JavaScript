@@ -114,15 +114,20 @@
 
 ## Introduction
 
-**Congratulations** on deciding to participate in 30 days of JavaScript programming challenge. In this challenge you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge completion certificate. In case you need help or if you would like to help others you may join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
+**Congratulations** on deciding to participate in 30 days of JavaScript programming challenge. In this challenge, you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming. In the end of the challenge,  you will get a 30DaysOfJavaScript programming challenge completion certificate. In case you need help or if you would like to help others you may join the dedicated [telegram group](https://t.me/ThirtyDaysOfJavaScript). 
 
 **A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the web. I enjoy using and teaching JavaScript and I hope you will do so too.
 
 In this step by step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
-JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **_machine learning_** and **_AI_**.
+JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **server-side programming**,  **_machine learning_** and **_AI_**.
+
 **_JavaScript (JS)_** has increased in popularity in recent years and has been the leading
-programming language for six consecutive years and is the most used programming language on
-Github.
+programming language for last ten years and is the most used programming language on
+GitHub.
+
+This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. Subscribe the channel, comment and ask questions on YouTube vides and be proactive, the author will eventually notice you. 
+
+The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://testimonial-vdzd.onrender.com//)
 
 ## Requirements
 
