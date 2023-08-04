@@ -351,8 +351,8 @@ for(let i = 0; i <= 5; i++){
       [2550, 2500]
     ```
 
-13. Develop a small script which generate array of 5 random numbers
-14. Develop a small script which generate array of 5 random numbers and the numbers must be unique
+13. Develop a small script which generate an array of 5 random numbers
+14. Develop a small script which generate an array of 5 random numbers and the numbers must be unique
 15. Develop a small script which generate a six characters random id:
 
     ```sh
