@@ -1,20 +1,48 @@
-// Declaring different variables of different data types
+// Declare and assign string data type
+const name = 'Gideon';
 
-let firstName = 'Asabeneh'    // first name of a person
-let lastName = 'Yetayeh'      // last name of a person
-let country = 'Finland'       // country
-let city = 'Helsinki'         // capital city
-let age = 100                 // age in years
-let isMarried = true
+// Declare and assign boolean data type
+const isStudent = true;
 
-// Declaring variables with number values
+// Declare a variable without assignment (undefined)
+  //let age;
 
-const gravity = 9.81         // earth gravity  in m/s2
-const boilingPoint = 100     // water boiling point, temperature in oC
-const PI = 3.14              // geometrical constant
+// Declare and assign null data type
+const favoriteColor = null;
 
-// Variables can also be declaring in one line separated by comma
+// Declaring four variables without assigning values
+let gideon
+let asabeneh
+let gitHub
+let nike
 
-let name = 'Asabeneh',     //name of a person
-  job = 'teacher',
-  live = 'Finland'
+// Declaring four variables with assigned values
+let randomName = 'Eren';
+let year = 2023;
+let month = 'August';
+let favoriteFruit = 'apple';
+
+// Declaring variables in multiple lines
+ /* const firstName = 'Gideon';
+  const lastName = 'Buba';
+  let isMarried = True;
+  let country = 'Nigeria';
+  const age = 21; */
+
+// Declaring varibles in a signle line 
+let firstName = 'Gideon', lastName = 'Buba', isMarried = true, age = 21;
+
+//variables to log to browser console
+myAge = 21;
+yourAge = 30;
+
+console.log('I am', myAge , 'years old');
+console.log('I am', yourAge, 'years old');
+
+
+
+// Print the variables to the console
+console.log('Name:', name);
+console.log('Is Student:', isStudent);
+console.log('Age:', age);
+console.log('Favorite Color:', favoriteColor);
