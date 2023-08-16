@@ -1,0 +1,3753 @@
+[33mcommit ab82298d37834646b1c92e22d111bad38a1deec3[m[33m ([m[1;36mHEAD -> [m[1;32m03_Day_Booleans_operators_date[m[33m, [m[1;32m02_Day_Data_types[m[33m)[m
+Author: Gideon-Buba <bubaambore@gmail.com>
+Date:   Tue Aug 15 17:58:17 2023 +0100
+
+    Completed unfinished tasks for Day 2
+
+[33mcommit 7de92b8af3720ee43e0a71ecf5e98c73f4228143[m[33m ([m[1;32m01_Day_Introduction[m[33m)[m
+Author: Gideon-Buba <bubaambore@gmail.com>
+Date:   Mon Aug 14 23:22:44 2023 +0100
+
+    Day 2: completed challenge
+
+[33mcommit 80495cefeec606af2c90f793b888ad43898cbbca[m[33m ([m[1;31morigin/01_Day_Introduction[m[33m)[m
+Author: Gideon-Buba <bubaambore@gmail.com>
+Date:   Mon Aug 14 02:36:17 2023 +0100
+
+    Day 1: Completed challenge
+
+[33mcommit 65e85f642b1b8e4bd2c2c59cc02ed4c5148ba5fa[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Apr 2 16:57:26 2023 +0300
+
+    links has been added
+
+[33mcommit 96397eba660e8e72ae99b860fee67caccc50ec5b[m
+Merge: 7fc6e87 b2e022e
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Apr 2 16:38:27 2023 +0300
+
+    Merge pull request #730 from alicangunduz/master
+    
+    Added 23-30 day
+
+[33mcommit b2e022e477081248843e75698615bda443ed28ed[m
+Author: Ali Can Gündüz <alicangunduzcom@gmail.com>
+Date:   Wed Mar 29 19:12:14 2023 +0300
+
+    Update 30_day_mini_project_final.md
+
+[33mcommit 0d1cc30419f3ac9efaad4cac513b715b9584f567[m
+Merge: 3856d15 8f4024e
+Author: Ali Can Gündüz <alicangunduzcom@gmail.com>
+Date:   Wed Mar 29 16:19:35 2023 +0300
+
+    Merge pull request #1 from ubsoydan/main
+    
+    Change branch name to 'main' and some other improvements on day 23
+
+[33mcommit 8f4024e6b7eb0a8b00bd282aaaaaf09d5d4feeb5[m
+Author: Umut Berkay Soydan <ubsoydan@protonmail.com>
+Date:   Wed Mar 29 14:18:22 2023 +0300
+
+    make some improvements
+
+[33mcommit e3ade562bccfb67692ac2cbf16a884906ce3dd6a[m
+Author: Umut Berkay Soydan <ubsoydan@protonmail.com>
+Date:   Wed Mar 29 13:59:32 2023 +0300
+
+    make some improvements
+
+[33mcommit 3856d15cfc5682c5aac179384a586eacaf6f252e[m
+Author: Ali Can Gündüz <alicangunduzcom@gmail.com>
+Date:   Sun Mar 26 00:36:09 2023 +0300
+
+    Added 23-30 day
+    
+    Added 23-30 day range for the Turkish translation of the tutorial.
+    
+    With this change, I added the 23-30 day range to the Turkish translation of the tutorial.
+
+[33mcommit 7fc6e874ee9611f0fd51cd7660dd88820f451903[m
+Merge: 2938cc3 7644463
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Feb 23 00:24:15 2023 +0200
+
+    Merge pull request #698 from Zearf/master
+    
+    Add Vietnamese Day 3 translation
+
+[33mcommit 2938cc3839bda1fb3a7e61770dc9a114fdd5512c[m
+Merge: ffd79e2 8b9f895
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Feb 23 00:22:15 2023 +0200
+
+    Merge pull request #664 from Dikendev/master
+    
+    Portuguese Day 2 Translation
+
+[33mcommit 7644463c283ea11d1f8406b5f23fc44f2615f0e5[m
+Author: Zearf <87173635+Zearf@users.noreply.github.com>
+Date:   Sun Feb 19 23:24:01 2023 +0700
+
+    Vietnamese day 3 translation
+
+[33mcommit 106f90f080467effe78799bd42b4de76cbdeb82d[m
+Author: Zearf <87173635+Zearf@users.noreply.github.com>
+Date:   Tue Feb 7 02:07:21 2023 +0700
+
+    Update 03_booleans_operators_date.md
+
+[33mcommit 8b9f895d40ce3cce7137a315a20615ac8cd4379f[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Sat Feb 4 09:45:40 2023 -0300
+
+    better variable names in portuguese variables
+
+[33mcommit 4f06258a4ba52712c46f74b91babc8c21e906f05[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Sat Feb 4 09:04:11 2023 -0300
+
+    fixed link pages
+
+[33mcommit e68b8261987e4fcb52417cd45dcd0dfbe7cdfe07[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Sat Feb 4 08:31:23 2023 -0300
+
+    added day 3 translation and fixed folder names in portuguese
+
+[33mcommit 54d1b87e66367aeae81c56bfe21a01fa906294db[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Wed Feb 1 01:31:47 2023 -0300
+
+    Portuguese translation Day 2
+
+[33mcommit bffe3993391bedab224c081d3b485a79a083db82[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Tue Jan 31 23:24:53 2023 -0300
+
+    Portuguese Day 2 translation
+
+[33mcommit ffd79e248d6dcb0c3f63fcc5c96fb0cd43694de4[m
+Merge: 8430e9f 30eb64c
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 22 14:27:17 2023 +0200
+
+    Merge pull request #651 from iampopovich/patch-1
+    
+    update RU 1 day readme.md
+
+[33mcommit 30eb64ca1259a13c03cb90e4b80136272903454d[m
+Author: Alex <iampopovich@gmail.com>
+Date:   Sat Jan 21 23:01:51 2023 +0700
+
+    update RU 1 day readme.md
+    
+    appended other available language links
+
+[33mcommit 8430e9ff3c0300dd582e079e17c8b4c3c8002655[m
+Merge: 41cc836 55e8e61
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 16 00:02:53 2023 +0200
+
+    Merge pull request #643 from alicangunduz/master
+    
+    addition of day 22
+
+[33mcommit 55e8e61ee61075a971f995eb15d37a06047a2644[m
+Author: Ali Can Gündüz <alicangunduzcom@gmail.com>
+Date:   Sat Jan 14 09:17:06 2023 +0300
+
+    addition of day 22
+    
+    day 22 translated. there have been some minor arrangements for day 21.
+
+[33mcommit 41cc8366769cf669e416ff83acde65e8d613e353[m
+Merge: 33cf6c0 5aed1a7
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 14 02:46:23 2023 +0200
+
+    Merge pull request #640 from alicangunduz/master
+    
+    added turkish language translation for day 21
+
+[33mcommit 5aed1a7f48204215c4c38f22ab82cda4f19aa667[m
+Author: Ali Can Gündüz <alicangunduzcom@gmail.com>
+Date:   Wed Jan 11 05:43:01 2023 +0300
+
+    added turkish language translation for day 21
+
+[33mcommit 33cf6c074d263cb60a9103c9ee24a7045b06e02c[m
+Merge: f03fdcd 3f31ef2
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Dec 11 02:10:09 2022 +0200
+
+    Merge pull request #604 from fraltnn/patch-2
+    
+    fix mistakes and typos in day 3 russian localization
+
+[33mcommit f03fdcddbdcf9bda244b3bdacdff0863fbdb0535[m
+Merge: 5a06eee 267a931
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Dec 11 02:09:47 2022 +0200
+
+    Merge pull request #605 from fraltnn/patch-3
+    
+    typos day 2 russian localization
+
+[33mcommit 5a06eee432a3a194e618b46f1c52b5573eb1b64d[m
+Merge: c2b3324 5a6fc05
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Dec 11 02:09:24 2022 +0200
+
+    Merge pull request #611 from guvenkarabulut/day-11-translated-to-turkish
+    
+    Day 11 translated to turkish
+
+[33mcommit 5a6fc05e51ac014dfbe6ea9da51aacd51c824746[m
+Merge: a4a9f7f c2b3324
+Author: Güven Karabulut <56564068+guvenkarabulut@users.noreply.github.com>
+Date:   Fri Dec 9 08:10:05 2022 +0300
+
+    Merge branch 'Asabeneh:master' into day-11-translated-to-turkish
+
+[33mcommit a4a9f7f550c49c216456063f4432014e2549a9ba[m
+Author: Güven Karabulut <56564068+guven07@users.noreply.github.com>
+Date:   Fri Dec 9 08:04:57 2022 +0300
+
+    Day 11 sucsefully translated to Turkish
+
+[33mcommit c2b33248cb28505ac8ae714ffbfde2573d0486e7[m
+Merge: eb66f6b 437ff29
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Dec 8 22:35:58 2022 +0200
+
+    Merge pull request #606 from fraltnn/patch-4
+    
+    fix mistakes in day 4 russian localization
+
+[33mcommit 437ff2937bf8ab406364fed7f0dbd5e74b3bed2a[m
+Author: fraltnn <112445623+fraltnn@users.noreply.github.com>
+Date:   Sun Dec 4 21:05:42 2022 +0300
+
+    Update 04_day_conditionals.md
+
+[33mcommit ee1414c30900cb087a344ccb0061100138253f43[m
+Author: fraltnn <112445623+fraltnn@users.noreply.github.com>
+Date:   Sun Dec 4 20:27:02 2022 +0300
+
+    Update 04_day_conditionals.md
+
+[33mcommit 112ab39ac550ce1b7aedfa31710c2e06380af9bc[m
+Author: fraltnn <112445623+fraltnn@users.noreply.github.com>
+Date:   Sun Dec 4 20:17:16 2022 +0300
+
+    Update 04_day_conditionals.md
+
+[33mcommit 9535eb94d5356f177a6895416512c3307d8920cb[m
+Author: fraltnn <112445623+fraltnn@users.noreply.github.com>
+Date:   Sun Dec 4 19:35:05 2022 +0300
+
+    fix mistakes in day 4 russian localization
+
+[33mcommit 267a9314d3d1353fc8f62e123a47bbaf354876d7[m
+Author: fraltnn <112445623+fraltnn@users.noreply.github.com>
+Date:   Sat Dec 3 23:12:09 2022 +0300
+
+    typos day 2 russian localization
+
+[33mcommit 3f31ef29b545e93e29a22bc19d5ea59faf2247ad[m
+Author: fraltnn <112445623+fraltnn@users.noreply.github.com>
+Date:   Sat Dec 3 23:08:03 2022 +0300
+
+    fix mistakes and typos in day 3 russian localization
+
+[33mcommit eb66f6b1f535c15359e3846d2062feea9cce6bb3[m
+Merge: 912bcfc f3699f6
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Dec 3 16:10:28 2022 +0200
+
+    Merge pull request #598 from lucas-mch/master
+    
+    Created and translated 01_Day_introduction for Portuguese
+
+[33mcommit 912bcfc11701470bbca5505e98e63bed35fbd862[m
+Merge: 643f3c4 ecf5618
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Dec 3 16:08:35 2022 +0200
+
+    Merge pull request #602 from fraltnn/patch-1
+    
+    fix mistakes in day 2 russian localization
+
+[33mcommit ecf561820fb71c8a576d0ee5610d3e3ba68f79c6[m
+Author: fraltnn <112445623+fraltnn@users.noreply.github.com>
+Date:   Sat Dec 3 01:40:00 2022 +0300
+
+    Update 02_day_data_types.md
+    
+    Строка 696 "начинается ли строка с указанной подстроки", предположу что тут опечатка , основываясь на оригинале и смысле метода.
+    
+    endsWith: it takes a substring as an argument and it checks if the string ends with that specified substring. It returns a boolean(true or false)
+
+[33mcommit f3699f64dba60b88c8ac71c114acd7f496df99f4[m
+Author: Lucas Machado de Souza <lcsmachaado@gmail.com>
+Date:   Thu Dec 1 16:14:42 2022 -0300
+
+    Portuguese translation 01_Day_introduction
+
+[33mcommit c09bdd921738ccf9b58d07c0b54273271b48739c[m
+Author: Lucas Machado de Souza <lcsmachaado@gmail.com>
+Date:   Thu Dec 1 16:13:58 2022 -0300
+
+    Portuguese translantion for 01_Day_introduction
+
+[33mcommit 4ab196807f44a772efe4ff3b69a86aba9b1a0ce5[m
+Author: Lucas Machado de Souza <lcsmachaado@gmail.com>
+Date:   Thu Dec 1 06:28:37 2022 -0300
+
+    Copy from 01_Day_introduction to Portuguese folder
+
+[33mcommit 643f3c452eccd7febc5408b070f023b7b7d37e62[m
+Merge: 26562ad b8a7179
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Nov 28 21:15:02 2022 +0200
+
+    Merge pull request #597 from guven07/day10-translate-turkish
+    
+    Day10 translate turkish
+
+[33mcommit b8a7179df1b8cfff5e678c608cb3bbccd447b717[m
+Author: Güven Karabulut <56564068+guven07@users.noreply.github.com>
+Date:   Mon Nov 28 21:40:08 2022 +0300
+
+    Day 10 translated to Turkish
+
+[33mcommit 464c456cac914bd9de12bc2accdc5e736d0e92c1[m
+Author: Güven Karabulut <56564068+guven07@users.noreply.github.com>
+Date:   Mon Nov 28 21:37:34 2022 +0300
+
+    Update 10_day_Sets_and_Maps.md
+
+[33mcommit 7ca2f847b4827eb1f47c8f633bfd6474050fdbec[m
+Author: Güven Karabulut <56564068+guven07@users.noreply.github.com>
+Date:   Mon Nov 28 21:36:58 2022 +0300
+
+    Day 10 Translate to Turkish
+
+[33mcommit 6b52d6e91b83fe7783e89b9d1eac3c40fb9e136a[m
+Author: Güven Karabulut <56564068+guven07@users.noreply.github.com>
+Date:   Mon Nov 28 21:35:24 2022 +0300
+
+    Update 10_day_Sets_and_Maps.md
+
+[33mcommit 55fcc9781de5e1ec10efa20359fe1d51e6c08c47[m
+Author: Güven Karabulut <56564068+guven07@users.noreply.github.com>
+Date:   Mon Nov 28 21:34:19 2022 +0300
+
+    Update 10_day_Sets_and_Maps.md
+
+[33mcommit 0492b9d622412bd6500fe43ebee129fdb70fe58e[m
+Author: guven07 <guven.07.568@gmail.com>
+Date:   Mon Nov 28 21:28:43 2022 +0300
+
+    Day 10 Translate into Turkish
+
+[33mcommit 26562ad8e90bbcc07d9ab51c588481eb6c8e128d[m
+Merge: 367bc34 e2cd117
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Nov 23 00:36:56 2022 +0200
+
+    Merge pull request #586 from hsynalv/master
+    
+    day 9 translated
+
+[33mcommit 367bc342c257c205ab466c17a0734b2d15576703[m
+Merge: a803660 47051ab
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Nov 23 00:35:39 2022 +0200
+
+    Merge pull request #588 from Dikendev/master
+    
+    day 2 portuguese translation
+
+[33mcommit 47051abec2e0fbfaa24bffc442f4042f369c5726[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Tue Nov 22 17:05:50 2022 -0300
+
+    day 2 portuguese translation
+
+[33mcommit e2cd117ee1ae106d664c658cdf98d4376cde750d[m
+Author: Hüseyin Alav <73330164+hsynalv@users.noreply.github.com>
+Date:   Tue Nov 22 20:11:00 2022 +0300
+
+    .
+
+[33mcommit ab79c64b3ef09cb67b32371eadca6fc108686bb4[m
+Author: Hüseyin Alav <73330164+hsynalv@users.noreply.github.com>
+Date:   Tue Nov 22 20:08:51 2022 +0300
+
+    day 9 translated
+
+[33mcommit d560f17c644b552ea60cf9d391dc50e9476ef01a[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Wed Nov 16 23:39:37 2022 -0300
+
+    day 2 portuguese translation
+
+[33mcommit 76cf3784c60019f7e28993de4d5033a7b63148d8[m
+Merge: 0351585 a803660
+Author: Diego Kennedy Guimarães Barros <103402889+Dikendev@users.noreply.github.com>
+Date:   Fri Nov 11 21:33:48 2022 -0500
+
+    Merge branch 'Asabeneh:master' into master
+
+[33mcommit a80366061eb1479611387364be60462b0893f08c[m
+Merge: 290acc8 6071846
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Nov 12 03:00:21 2022 +0200
+
+    Merge pull request #570 from 3JlOy-PYCCKUi/ru-day1
+    
+    fix mistakes and typos in day 1 russian localization
+
+[33mcommit 290acc85cd0f327e8b12fee3ec521a55ad2e4bf0[m
+Merge: 0053893 f5a9be5
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Nov 12 02:59:54 2022 +0200
+
+    Merge pull request #569 from 3JlOy-PYCCKUi/master
+    
+    fix mistakes and typos in day 2 russian localization
+
+[33mcommit 0053893602c4ff6ddb6a07149e7ac781ccf04ba5[m
+Merge: 298bc56 ef20617
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Nov 12 02:59:25 2022 +0200
+
+    Merge pull request #571 from 3JlOy-PYCCKUi/ru-day3
+    
+    fix mistakes and typos in day 3 russian localization
+
+[33mcommit ef206177ebce16d76cb86817805494ff71cc5055[m
+Author: 3JlOy_PYCCKUI <3jl0y_pycckui@riseup.net>
+Date:   Fri Nov 11 17:59:09 2022 +0300
+
+    fix mistakes and typos in day 3 russian localization
+
+[33mcommit 60718460fa55778329b2a3c7536153681b566701[m
+Author: 3JlOy_PYCCKUI <3jl0y_pycckui@riseup.net>
+Date:   Fri Nov 11 17:32:17 2022 +0300
+
+    fix mistakes and typos in day 1 russian localization
+
+[33mcommit f5a9be50e12ce53e8f75c5a0adc3a808129bcc9c[m
+Author: 3JlOy_PYCCKUI <3jl0y_pycckui@riseup.net>
+Date:   Fri Nov 11 17:19:14 2022 +0300
+
+    fix mistakes and typos in day 2 russian localization
+
+[33mcommit 0351585b1a51a192cbcddc6b0522343db1f6b1f3[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Tue Nov 8 23:46:03 2022 -0300
+
+    day 2 portuguese translation
+
+[33mcommit 298bc56ac8bd8f5cb7884875907bc83dd5046d5c[m
+Merge: c24de4c 2bd214e
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Nov 1 21:14:47 2022 +0200
+
+    Merge pull request #548 from Dikendev/master
+    
+    day 1 portuguese translation
+
+[33mcommit 2bd214e6cbb25c09f19c17edea9a8ab246a3e0ac[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Tue Nov 1 16:09:15 2022 -0300
+
+    day 1 portuguese translation
+
+[33mcommit c24de4c3932027d11c1d77bf29b06474039a2f41[m
+Merge: bef67f0 30496ad
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Oct 30 23:33:00 2022 +0200
+
+    Merge pull request #547 from Dikendev/master
+    
+    link to portuguese translation
+
+[33mcommit 30496ad801bb5130323ab4d31769c849f5d2dd89[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Sat Oct 29 01:24:12 2022 -0300
+
+    fixed img and links, portugueses translation
+
+[33mcommit 2d6561cbdf7eff217cc52020d5b41177a17e1ce8[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Fri Oct 28 17:14:47 2022 -0300
+
+    added Portuguese language link to main readme and portuguese translation
+
+[33mcommit bef67f08b0857d9f1089e6a37896b464bab744f5[m
+Merge: 1c0ea78 ee7527e
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Oct 27 23:43:14 2022 +0300
+
+    Merge pull request #544 from Dikendev/master
+    
+    Portuguese Translation
+
+[33mcommit f2e35f838acbabb0e9f250ec5c4ffe0d4e3c0f8c[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Thu Oct 27 12:59:37 2022 -0300
+
+    Portugese translation
+
+[33mcommit ee7527e26aee75f3141805e66ed8831a873e9a95[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Wed Oct 26 02:07:57 2022 -0300
+
+    Portuguese Translation
+
+[33mcommit d10932c12ffac4718b9691dc235e1dff7a3707b4[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Mon Oct 24 23:30:02 2022 -0300
+
+    portuguese translation
+
+[33mcommit 01f3b508c87e7f86025876f11e274edde60984df[m
+Author: diken.dev <diken.dev@gmail.com>
+Date:   Mon Oct 24 23:21:32 2022 -0300
+
+    portuguese translation
+
+[33mcommit fc9719cd27fb3709acad161e4e2d154ec01f2064[m
+Author: Zearf <baobaoa9@gmail.com>
+Date:   Thu Oct 20 01:51:44 2022 +0700
+
+    Update 03_booleans_operators_date.md
+
+[33mcommit 37b3a1abec1a7681d2c75760173d438bef0ec9e1[m
+Author: Zearf <baobaoa9@gmail.com>
+Date:   Thu Oct 20 01:49:27 2022 +0700
+
+    Create 03_booleans_operators_date.md
+
+[33mcommit 1c0ea781884f89f847520fd2f7f34955fd79f7ab[m
+Merge: cf35af9 de038c3
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Oct 4 00:57:32 2022 +0300
+
+    Merge pull request #521 from EmmanuelArenas/spanish-translation
+    
+    Spanish translation
+
+[33mcommit de038c3736c530dc5ff26bec0757f5eec8e0e30d[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Oct 2 22:54:53 2022 -0500
+
+    Correction of days
+
+[33mcommit 0f47b7c8f26578851c74c9e8672c3033ee3361ef[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Oct 2 22:35:30 2022 -0500
+
+    Spanish translation day 30 of 30
+
+[33mcommit 19ddac469d354e1d31d799256200da6a77620269[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Oct 2 22:14:40 2022 -0500
+
+    Spanish translation day 29 of 30
+
+[33mcommit f69c0f537f6c157783a818bcd13f79c06e614459[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Oct 2 21:39:42 2022 -0500
+
+    Spanish translation day 28 of 30
+
+[33mcommit bfc07fbcf1a4bb71a55f3bb0551f393acb78c9f8[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Oct 2 21:31:23 2022 -0500
+
+    Spanish translation day 27 of 30
+
+[33mcommit 51d96f2047d5dfa54fc8830c36fbc4eaf28a857a[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Oct 2 21:20:21 2022 -0500
+
+    Spanish translation day 26 of 30
+
+[33mcommit 40cf1f1518b3aaa32eda110c8faed02d37ca0acf[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Oct 2 21:12:58 2022 -0500
+
+    Spanish translation day 25 of 30
+
+[33mcommit 3e2251100c2bc52b68c4b2a3bb267797079f4687[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Oct 2 21:03:22 2022 -0500
+
+    Spanish translation day 24 of 30
+
+[33mcommit 31af27e90b9b77acc2ad87e2f27d84d14bd776df[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Oct 2 20:51:08 2022 -0500
+
+    Spanish translation day 23 of 30
+
+[33mcommit 424fc695df0cb2af8515ffc9436d41551399ff83[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Oct 2 20:01:17 2022 -0500
+
+    Spanish translation day 22 of 30
+
+[33mcommit c2226664bdc9cac0e425286fac7a4c42a2ac3e34[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Oct 2 18:44:04 2022 -0500
+
+    Spanish translation day 21 of 30
+
+[33mcommit cf35af992cab0fa98b28ca4bd27de9b29cde6be3[m
+Merge: 348fac4 debd7b2
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Sep 29 18:35:58 2022 +0300
+
+    Merge pull request #516 from EmmanuelArenas/spanish-translation
+    
+    Spanish translation
+
+[33mcommit 348fac404423e399aaee5d8b532cdfcc62f4a493[m
+Merge: e2587d1 ee36501
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Sep 29 18:31:51 2022 +0300
+
+    Merge pull request #515 from yigittosun/master
+    
+    Translate 14th and 15th Days to Turkish
+
+[33mcommit ee365019a5ec053c0bf17d6984741c122b6fdcd2[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Thu Sep 29 10:23:46 2022 +0300
+
+    Recover deleted 14_day_Error_Handling file
+
+[33mcommit 1df4102b871c555e0be30a0fc3e8d2865bdeb25f[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Thu Sep 29 10:15:34 2022 +0300
+
+    Translate '14_day_error_handling' to Turkish
+
+[33mcommit 95cfb3cd9d6c3608c257695c21cb931ffc86d209[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Thu Sep 29 10:14:10 2022 +0300
+
+    Delete 14_day_error_handling.md
+
+[33mcommit 6e4332d52b1059560e2773d99f13c6c4c51fdac9[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Thu Sep 29 10:09:57 2022 +0300
+
+    Translate '14_day_error_handling' to Turkish
+
+[33mcommit 852a72f8a036a460bde5bdcde7b20b8fcf3edfc7[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Mon Sep 26 13:32:44 2022 +0300
+
+    Fix image path in header
+
+[33mcommit 112cb41468f2053698f6e184dea09e46ee3d5c0c[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Mon Sep 26 13:29:49 2022 +0300
+
+    Translate 15_Day_Classes to Turkish
+
+[33mcommit debd7b2f6b7da1554153aa641f8c2c8a388118e2[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Mon Sep 26 02:34:24 2022 -0500
+
+    Spanish translation day 20 of 30
+
+[33mcommit 44e4782cb907e156e5d43b16839f20164c2214b8[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Mon Sep 26 01:24:16 2022 -0500
+
+    Spanish translation day 19 of 30
+
+[33mcommit 31a0721d0760e046012ffa9ba00ae6c4eb9969ac[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Mon Sep 26 01:00:26 2022 -0500
+
+    Spanish translation day 18 of 30
+
+[33mcommit e2587d1e6d561668f1083800b18de540a31aaf48[m
+Merge: fb18dc6 f6e2e5d
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Sep 19 17:27:40 2022 +0300
+
+    Merge pull request #510 from EmmanuelArenas/spanish-translation
+    
+    Spanish translation
+
+[33mcommit f6e2e5da00db5056c5d9112f3dc6cfe46eb1ddc3[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Mon Sep 19 00:15:43 2022 -0500
+
+    Spanish translation day 17 of 30
+
+[33mcommit a2c3ab672316e4e0a98312b34349c690181c8de7[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Sep 18 23:26:10 2022 -0500
+
+    Spanish translation day 16 of 30
+
+[33mcommit b7574bd596835e31279074cbb4fccc4b9a3b37c5[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Sep 18 21:34:13 2022 -0500
+
+    Spanish translation day 15 of 30
+
+[33mcommit fb18dc672dccb990178a4315de9b5b738f5ba9c4[m
+Merge: 0b926bb 752e513
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Sep 14 19:54:39 2022 +0300
+
+    Merge pull request #507 from EmmanuelArenas/spanish-translation
+    
+    Spanish translation
+
+[33mcommit 752e513074a80b04a9ff0f5557d15fcc6e1e7e74[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Fri Sep 9 20:40:50 2022 -0500
+
+    Spanish translation day 14 of 30
+
+[33mcommit e9ea627c2bec5fd8835521b7346304f489782d2d[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Fri Sep 9 20:11:48 2022 -0500
+
+    Spanish translation day 13 of 30
+
+[33mcommit 1ab1f3ecb69984189ae429a1eaa1bc95472ecf7e[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Fri Sep 9 18:46:33 2022 -0500
+
+    Spanish translation day 12 of 30
+
+[33mcommit 0b926bb8f9f6cf9d9d4b1d469a6c819c10ab35c9[m
+Merge: 270b352 790bc7f
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Sep 10 00:04:56 2022 +0300
+
+    Merge pull request #500 from EmmanuelArenas/spanish-translation
+    
+    Spanish translation day 10 of 30
+
+[33mcommit 790bc7f860387a0c5c96410514b31f58850aab27[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Thu Sep 8 22:47:42 2022 -0500
+
+    Spanish translation day 11 of 30
+
+[33mcommit d880c532ddec2ca5f55da682d63227abffaf399f[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Thu Sep 8 19:31:15 2022 -0500
+
+    Spanish translation day 10 of 30
+
+[33mcommit 270b3524038cbeff74ac838c0e25f88e934b88a3[m
+Merge: 1e68a81 dc558dd
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Sep 5 23:06:28 2022 +0300
+
+    Merge pull request #495 from EmmanuelArenas/spanish-translation
+    
+    Spanish translation day 8 and 9
+
+[33mcommit dc558dd9b12d37d1181ce4f6f341a55b0e6e04f1[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Sep 4 23:28:08 2022 -0500
+
+    Spanish translation day 9 of 30
+
+[33mcommit 3c7ac9bbbc4c9bedb256b9635f29c98b649b7d1f[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sat Sep 3 23:23:39 2022 -0500
+
+    Spanish translation day 8 of 30
+
+[33mcommit 1e68a81fe9aa79a1f69f53e03d51fd2c4e3bfe4f[m
+Merge: e71779f 97087bc
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Sep 1 21:49:23 2022 +0300
+
+    Merge pull request #491 from yigittosun/master
+    
+    Translate 16_day_JSON to Turkish
+
+[33mcommit e71779f3a7b6765621a9bf0b95ef0b4099fa5cf4[m
+Merge: 4e5ccf5 64617ad
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Sep 1 21:48:51 2022 +0300
+
+    Merge pull request #490 from EmmanuelArenas/spanish-translation
+    
+    Spanish translation day 6 of 30
+
+[33mcommit 97087bcdb14ab8f887dc23c4568893ad5e478999[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Thu Sep 1 09:54:41 2022 +0300
+
+    Translate 16_day_JSON to Turkish
+
+[33mcommit 64617ad348ce1b887cda42283985b6d0fa150052[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Wed Aug 31 19:49:45 2022 -0500
+
+    Spanish translation day 7 of 30
+
+[33mcommit 2df4042e3b31dc53a35308146df64af400e9cd04[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Fri Aug 26 17:20:28 2022 -0500
+
+    Spanish translation day 6 of 30
+
+[33mcommit 4e5ccf57e1cf3d77b6c5f158525459e775311549[m
+Merge: 7782c52 1c490c2
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Aug 26 17:44:14 2022 +0300
+
+    Merge pull request #458 from EmmanuelArenas/spanish-translation
+    
+    Spanish translation day 3 of 30
+
+[33mcommit 1c490c24f1dcd8d6da643f8e3f55daf56a9e323a[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Thu Aug 25 21:34:51 2022 -0500
+
+    Spanish translation day 5 of 30
+
+[33mcommit 7782c525e0aa35db79c365e0cfaf2527150f5358[m
+Merge: 4ab3bac 5ac7663
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Aug 25 02:56:50 2022 +0300
+
+    Merge pull request #468 from yigittosun/master
+    
+    Translate 17_day_web_stroges to Turkish
+
+[33mcommit 5ac76634d26749afc67d326dbd962bcefeeddebb[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Wed Aug 24 09:47:58 2022 +0300
+
+    Translate 17_day_web_stroges to Turkish
+
+[33mcommit 13a5ee2860ac54d3bf969f436a5a3978d3a5510a[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Tue Aug 23 14:51:12 2022 -0500
+
+    Spanish translation day 4 of 30
+
+[33mcommit b19cb7ddba175e3e78c5ae7acd68bb8f632053fe[m
+Author: EmmanuelArenas <emmanuel.live19@gmail.com>
+Date:   Sun Aug 21 21:12:20 2022 -0500
+
+    Spanish translation day 3 of 30
+
+[33mcommit 4ab3bac14fa42c540942976874828ed40844e54e[m
+Merge: 476158a 6ffb5ea
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Aug 18 13:21:06 2022 +0300
+
+    Merge pull request #452 from yigittosun/master
+    
+    Translate 20_Day_Writing_clean_codes to Turkish
+
+[33mcommit 6ffb5ea879639124693b3a373eba7a402256931d[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Thu Aug 18 13:05:26 2022 +0300
+
+    Add 20_Day_writing_clean_code file on project
+
+[33mcommit 7eca5b87f0a06941c1c0e716db3d9b0762ad3e33[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Thu Aug 18 11:40:52 2022 +0300
+
+    Delete 20_Day_Writing_clean_codes.md
+
+[33mcommit 69e899b2d1c4a923da1d3ae506e4a71fd7b2f06b[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Thu Aug 18 11:35:39 2022 +0300
+
+    Edit 20th page router link in 19th page
+
+[33mcommit 1201626e3b9e02d3ac8c9255df1474ab9defd191[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Thu Aug 18 11:29:06 2022 +0300
+
+    Fix page link bug on 20th page
+
+[33mcommit 2014f6d23d8ce687a2cc7fdcb4674d18f14ac3b9[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Thu Aug 18 11:16:47 2022 +0300
+
+    Edit file name in 20th Day
+
+[33mcommit d8c570338f8790b27cd9f7adfa15c719aa0f89a4[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Thu Aug 18 11:11:04 2022 +0300
+
+    Edit back page link anf file name on 20th day
+
+[33mcommit 523719a43a218d97260af9003e9d3a318f2a8f4f[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Thu Aug 18 10:50:39 2022 +0300
+
+    Translate 20_Day_Writing_Clean_Code document to Turkish
+
+[33mcommit 476158ab1939b1ef43d101153aba034cbbad0d57[m
+Merge: f0f1e66 dfc09e0
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Aug 12 09:46:01 2022 +0300
+
+    Merge pull request #444 from yigittosun/master
+    
+    Translate 19_Day_Closures to Turkish
+
+[33mcommit dfc09e0539b6e609217fcb8296ee8584fc1defc9[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Mon Aug 8 09:46:49 2022 +0300
+
+    Translate 19_Day_Closures to Turkish
+
+[33mcommit f0f1e662aea8d8a5b9636590db79ed8794df58f9[m
+Merge: 4e73681 654512b
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 30 14:22:30 2022 +0300
+
+    Merge pull request #423 from hsynalv/master
+    
+    day 7 bugi fixed and day 8 translated to Turkish
+
+[33mcommit 4e736814e027b8aa07a7672516b2d224295b1b9e[m
+Merge: e4af287 55728e2
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 30 14:21:56 2022 +0300
+
+    Merge pull request #422 from yigittosun/master
+    
+    Translated 18_day_promises
+
+[33mcommit 654512b2a5bf44058d092372509e09080a12b2fd[m
+Author: Hasan Hüseyin Alav <73330164+hsynalv@users.noreply.github.com>
+Date:   Fri Jul 29 14:34:26 2022 +0300
+
+    day 8 translated to Turkish
+
+[33mcommit 55728e210bd5c79c39e504d05330bdf7819fc695[m
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Thu Jul 28 16:20:00 2022 +0300
+
+    Delete 06_day_loops.md
+
+[33mcommit 2e4084bae551824008fecabd252b53dfcc225f37[m
+Author: Yiğit Tosun <yigit.tosun@empa.com>
+Date:   Thu Jul 28 16:07:51 2022 +0300
+
+    Change title name
+
+[33mcommit 4e3d9634c5e9ba0e5b20400deb9a581638b51c2d[m
+Merge: cd246e9 e4af287
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Thu Jul 28 16:03:36 2022 +0300
+
+    Merge branch 'Asabeneh:master' into master
+
+[33mcommit cd246e91a9ec10f8eee0d28868dc4dbcc6f3f403[m
+Author: Yiğit Tosun <yigit.tosun@empa.com>
+Date:   Thu Jul 28 16:02:44 2022 +0300
+
+    Translate 18_day_promises to Turkish
+
+[33mcommit 0e38ae49324c1cae41ee3731461c3063b0557d3b[m
+Author: Hasan Hüseyin Alav <73330164+hsynalv@users.noreply.github.com>
+Date:   Mon Jul 25 23:42:44 2022 +0300
+
+    day 7 redirect reference bug fixed
+
+[33mcommit 5bc9ef910c3d0a8eb8b665a67823ba9e7381fea0[m
+Author: Hasan Hüseyin Alav <73330164+hsynalv@users.noreply.github.com>
+Date:   Mon Jul 25 23:39:02 2022 +0300
+
+    day 6 redirect reference bug fixed
+
+[33mcommit cd126595f3d5f3fa7bec628777009fea0a729969[m
+Author: Hasan Hüseyin Alav <73330164+hsynalv@users.noreply.github.com>
+Date:   Mon Jul 25 23:37:05 2022 +0300
+
+    day 7 grammer bugs fixed.
+
+[33mcommit e4af287d59bffa3d2aa0dc4229797e76f8038434[m
+Merge: 9533bdb 596599f
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jul 25 14:58:20 2022 +0300
+
+    Merge pull request #416 from hsynalv/master
+    
+    day 7 translated to Turkish
+
+[33mcommit b03ff29d0f46682078ad933256bce4b7ec0fb5e4[m
+Merge: 6db0f3d 9533bdb
+Author: Yiğit Tosun <yigit-tosun@outlook.com>
+Date:   Mon Jul 25 09:29:55 2022 +0300
+
+    Merge branch 'Asabeneh:master' into master
+
+[33mcommit 596599fdf59a83aefcc94533fe52429af82a4386[m
+Author: Hasan Hüseyin Alav <73330164+hsynalv@users.noreply.github.com>
+Date:   Mon Jul 25 00:21:01 2022 +0300
+
+    day 7 translated to Turkish
+
+[33mcommit 9533bdb436362548fab51120ff96f653e77eca10[m
+Merge: 1768d43 8691736
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jul 24 19:04:06 2022 +0300
+
+    Merge pull request #415 from hsynalv/master
+    
+    day 6 translated to Turkish
+
+[33mcommit 869173619e40491f51d854d9c60be1b856ce01ba[m
+Author: Hasan Hüseyin Alav <73330164+hsynalv@users.noreply.github.com>
+Date:   Sun Jul 24 17:29:11 2022 +0300
+
+    redirect bug fixed
+
+[33mcommit 5e715f6302dbddd1d67e2448e5f690b2a9d2fab8[m
+Author: Hasan Hüseyin Alav <73330164+hsynalv@users.noreply.github.com>
+Date:   Sun Jul 24 16:55:28 2022 +0300
+
+    day 6 translated to Turkish
+    
+    day 6 translated to Turkish
+
+[33mcommit 6db0f3d91451a633b0893d019e5885233b829d3e[m
+Author: Yiğit Tosun <yigit.tosun@empa.com>
+Date:   Sun Jul 24 13:34:39 2022 +0300
+
+    Change image path
+
+[33mcommit 56eb2f19de4613e5f93468a5f63171a0ee96c736[m
+Author: Yiğit Tosun <yigit.tosun@empa.com>
+Date:   Sun Jul 24 13:31:08 2022 +0300
+
+    Add links for paragraph
+
+[33mcommit 9c94eb537957f08de6df47f751ed4fd2efd7d9c9[m
+Author: Yiğit Tosun <yigit.tosun@empa.com>
+Date:   Sun Jul 24 12:51:20 2022 +0300
+
+    Translate 06_day_loops to Turkish
+
+[33mcommit 1768d439e30e91f8fda1ec4cbb6cba87449fcdce[m
+Merge: ec08245 3c992f4
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jul 12 00:36:37 2022 +0300
+
+    Merge pull request #399 from Kadiralpcil/master
+    
+    05_Day_Arrays Translated to Turkish
+
+[33mcommit 3c992f4c93c1d130b7758fdae553c8ca02f374e0[m
+Author: Kadiralpcil <kadiralpcil@gmail.com>
+Date:   Sun Jul 10 00:58:39 2022 +0300
+
+    spelling updated
+
+[33mcommit f88921bda815395a9715ea94d584d18f788566d1[m
+Author: Kadiralpcil <kadiralpcil@gmail.com>
+Date:   Sun Jul 10 00:42:34 2022 +0300
+
+    Day 5 translated to turkish
+
+[33mcommit ec0824543b3180f3bf98ed30e25e905ee7df71f0[m
+Merge: 646c778 09b1937
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jun 24 12:19:22 2022 +0300
+
+    Merge pull request #384 from CampaniaGuy/master
+    
+    Day 15-30 Italian language support
+
+[33mcommit 09b1937368581f2cb376a035fec2585f923f5731[m
+Author: CampaniaGuy <merolamma@gmail.com>
+Date:   Thu Jun 23 17:42:41 2022 +0200
+
+    Added Day 15-30 Italian language support
+    
+    Added Day 8-14 Italian language support.
+    Fixes and little changes on previous days.
+
+[33mcommit 646c7781ae98567402a32e71538c655a66d06e73[m
+Merge: a63597b 026a7cf
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 21 00:35:40 2022 +0300
+
+    Merge pull request #378 from CampaniaGuy/master
+    
+     Day 8-14 Italian language support
+
+[33mcommit 026a7cfc54ab287644c37115b53e9934e701fc8d[m
+Author: CampaniaGuy <merolamma@gmail.com>
+Date:   Mon Jun 20 11:33:16 2022 +0200
+
+    Added Day 8-14 Italian language support
+    
+    Added Day 8-14 Italian language support and little corrections to previous files.
+    Added italian language link to "main" readMe.md
+
+[33mcommit a63597bc657b7018e28f4d6e153f2d21627d8a38[m
+Merge: e5b1542 bd3d962
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jun 12 19:38:52 2022 +0300
+
+    Merge pull request #365 from CampaniaGuy/master
+    
+    Day 1-7 Italian language
+
+[33mcommit bd3d962f9bab38ecbb7b4b746b9eff1f4eee9bcc[m
+Author: CampaniaGuy <merolamma@gmail.com>
+Date:   Sun Jun 12 17:39:30 2022 +0200
+
+    Added Day 1-7 Italian language support
+    
+    Lessons from day 1 to day 7 have been translated in Italian for one more language support.
+
+[33mcommit e5b1542a8d8724faae67aa845774c36c1bc3f760[m
+Merge: 2d2baae 48e7e2c
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jun 5 21:38:39 2022 +0300
+
+    Merge pull request #355 from thealiyasar/master
+    
+    Update 03_day  Create 04_day
+
+[33mcommit 48e7e2c30fb8e61e5479352ba1aa95f7d07eddc4[m
+Author: Ali Yaşar <43387306+thealiyasar@users.noreply.github.com>
+Date:   Sun Jun 5 01:26:17 2022 +0300
+
+    Create 04_day_conditionals.md
+
+[33mcommit caa748bd885137958085ce7a6ce0b6d1c8d9f92f[m
+Author: Ali Yaşar <43387306+thealiyasar@users.noreply.github.com>
+Date:   Thu Jun 2 19:17:17 2022 +0300
+
+    Update 03_booleans_operators_date.md
+
+[33mcommit 2d2baae288d5ffeefcb696862993099dee0f9530[m
+Merge: 9504d35 2a87b59
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jun 2 17:30:11 2022 +0300
+
+    Merge pull request #350 from thealiyasar/master
+    
+    Day 2 update images folder path & Day 3 Turkish Translator
+
+[33mcommit 2a87b5954046d5cf1b69475792be1ce283fe2ca3[m
+Author: Ali Yaşar <43387306+thealiyasar@users.noreply.github.com>
+Date:   Mon May 30 03:41:15 2022 +0300
+
+    Create 03_booleans_operators_date.md
+
+[33mcommit 8cf986fe55e02ef2f7226b1276e777ff1ce77251[m
+Author: Ali Yaşar <43387306+thealiyasar@users.noreply.github.com>
+Date:   Mon May 30 01:49:45 2022 +0300
+
+    Update 02_day_data_types.md
+
+[33mcommit 9504d35445723e9dccf4760700d508c219bb8708[m
+Merge: 8b4f5a7 62af0d2
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue May 24 19:41:46 2022 +0300
+
+    Merge pull request #340 from thealiyasar/master
+    
+    02_day_data_types Turkish
+
+[33mcommit 62af0d2325d415131eea8f9146649f2ce27f91d5[m
+Author: Ali Yaşar <43387306+thealiyasar@users.noreply.github.com>
+Date:   Thu May 12 20:48:23 2022 +0300
+
+    Create 02_day_data_types Turkish
+
+[33mcommit 8b4f5a7e8c53d9a53cf7c261dae6665c27553cb3[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Apr 16 12:18:04 2022 +0300
+
+    minor correction
+
+[33mcommit 0d064ad35f3198b8bc765a3649ae906551085cab[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Apr 16 10:26:55 2022 +0300
+
+    typo fix
+
+[33mcommit 153a57b89b1a29e738eac18371a70116832a0651[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Apr 16 10:26:06 2022 +0300
+
+    link added
+
+[33mcommit faace4f703913a2329fdb2ec37be05eedd7dfa56[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Apr 16 09:59:16 2022 +0300
+
+    typo fixes and some minor corrections
+
+[33mcommit 0f4a2b67ccbe94a744b5033ee99b6dc2f585a89e[m
+Merge: 895f7ea 95b8056
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Apr 15 15:05:56 2022 +0300
+
+    Merge pull request #317 from YusufAgca/master
+    
+    Added Turkish link in the main readMe.md
+
+[33mcommit 95b8056f266b1bf03b44057695430d0ffef41096[m
+Author: Yusuf <98342712+YusufAgca@users.noreply.github.com>
+Date:   Wed Apr 13 21:42:40 2022 +0300
+
+    Added Turkish link in the main readMe.md
+
+[33mcommit 895f7ea24b0d47ee3a210dd42edb28f066dfaa2e[m
+Merge: a22baed 47ae977
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Apr 13 21:01:46 2022 +0300
+
+    Merge pull request #316 from YusufAgca/master
+    
+    Turkish translation
+
+[33mcommit 47ae97784137354b73293bc719853bf87ae5dcee[m
+Author: YusufAgca <98342712+YusufAgca@users.noreply.github.com>
+Date:   Wed Apr 13 15:44:16 2022 +0300
+
+    Created Turkish translation
+
+[33mcommit a22baede03476a8e8b29d9cea18622e0efe3ddf9[m
+Merge: a10e078 46b4d9b
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Mar 27 01:03:52 2022 +0200
+
+    Merge pull request #294 from Milan-960/master
+    
+    typo error has been fixed and flag has been added and working on polish lang🔥
+
+[33mcommit 46b4d9bea9410101ad4390810020a5649150e3e4[m
+Author: Milan960 <milan.sachani.ms@gmail.com>
+Date:   Sun Mar 20 10:04:48 2022 +0100
+
+    typo error has been fixed and flag and Polish lang 🔥
+
+[33mcommit 5f955302227229b72d412792eef194149ee01c0b[m
+Author: Milan960 <milan.sachani.ms@gmail.com>
+Date:   Sun Mar 20 09:41:31 2022 +0100
+
+    typo error has been fixed and flag and Polish lang 🔥
+
+[33mcommit dc7d56b92022a6f33c7d396fa1e439b5bed79829[m
+Author: Milan960 <milan.sachani.ms@gmail.com>
+Date:   Sun Mar 20 09:38:14 2022 +0100
+
+    typo error has been fixed and flag has been added 🔥
+
+[33mcommit a10e07845cb2c5c70fb525ec6a22bc249c2345bc[m
+Merge: 1979091 7b9b786
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Mar 14 21:25:35 2022 +0200
+
+    Merge pull request #291 from datlechin/master
+    
+    vietnamese day2 translation
+
+[33mcommit 7b9b786be1b9aa9ba85b1a6d0e59444963c8ab8b[m
+Author: Ngô Quốc Đạt <56961917+datlechin@users.noreply.github.com>
+Date:   Mon Mar 14 21:21:07 2022 +0700
+
+    vietnamese day2 translation
+
+[33mcommit 197909146290685f9f5735f01b140caf8c742362[m
+Merge: d4746d3 26af1a2
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Mar 8 22:12:26 2022 +0200
+
+    Merge pull request #287 from Bakhtiyar-Garashov/master
+    
+    Fix merge conflict
+
+[33mcommit 26af1a261c03ce5a12895ae979b1fab5d091c9f3[m
+Author: Bakhtiyar_Garashov <bakhtiyar.garashov@mooncascade.com>
+Date:   Tue Mar 8 22:09:53 2022 +0200
+
+    Fix merge conflict
+
+[33mcommit d4746d3858b7edfe7d9926f4c46141ea6568e152[m
+Merge: 3ca1a9f 3dbcb1f
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Mar 8 20:45:28 2022 +0200
+
+    Merge pull request #286 from luisadrianpuga/patch-1
+    
+    Create dia_02_tipos_de_datos.md
+
+[33mcommit 3dbcb1f925e72a97f287f63d3618b561370f066d[m
+Author: Luis Puga <47259370+luisadrianpuga@users.noreply.github.com>
+Date:   Tue Mar 8 12:40:39 2022 -0500
+
+    Create dia_02_tipos_de_datos.md
+    
+    Day 2 English to Spanish translation.
+
+[33mcommit 3ca1a9ff0f2ec1356ed86f6b8b534ca635688e40[m
+Merge: ae69b6e e57c825
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Mar 8 07:39:36 2022 +0200
+
+    Merge pull request #285 from datlechin/master
+    
+    Vietnamese translation - Day 2 (wip)
+
+[33mcommit e57c825cc73cc81d467e2ae72f30761d96558834[m
+Merge: 87266b7 ae69b6e
+Author: Ngô Quốc Đạt <56961917+datlechin@users.noreply.github.com>
+Date:   Mon Mar 7 19:57:25 2022 -0800
+
+    Merge branch 'Asabeneh:master' into master
+
+[33mcommit 87266b7ac7243bbc7477060930ca05a09d4fa2d5[m
+Author: Ngô Quốc Đạt <56961917+datlechin@users.noreply.github.com>
+Date:   Mon Mar 7 19:56:24 2022 -0800
+
+    Vietnamese translation
+
+[33mcommit 6e54dc8d73c5dc0845e878582ec3a2d7029210b1[m
+Author: Ngô Quốc Đạt <56961917+datlechin@users.noreply.github.com>
+Date:   Mon Mar 7 19:42:12 2022 -0800
+
+    Day 1 `done`
+
+[33mcommit ae69b6ee4fbd599ff73ae8c801fd4c16402b1867[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Mar 7 22:15:14 2022 +0200
+
+    Vietnamese translation added
+
+[33mcommit 085341613f8297fd15f5e78b9952b417171e8ea9[m
+Merge: 56130ef 917e8fd
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Mar 7 22:04:50 2022 +0200
+
+    Merge pull request #284 from datlechin/master
+    
+    Vietnamese translation
+
+[33mcommit 917e8fd01c039c52de3acbf17facd25c03904099[m
+Author: Ngô Quốc Đạt <56961917+datlechin@users.noreply.github.com>
+Date:   Mon Mar 7 10:22:20 2022 -0800
+
+    update
+
+[33mcommit 79862982ddf09cfa0a5086d5b6b9a311a20b42d6[m
+Author: Ngô Quốc Đạt <56961917+datlechin@users.noreply.github.com>
+Date:   Mon Mar 7 10:21:59 2022 -0800
+
+    update
+
+[33mcommit fbdc0aa6bc5e4e6f2c76d11ca101939df96f5aad[m
+Author: Ngô Quốc Đạt <56961917+datlechin@users.noreply.github.com>
+Date:   Mon Mar 7 10:21:08 2022 -0800
+
+    update
+
+[33mcommit 0c4a8678706e539d03d35c23cb713cd07c0b6169[m
+Author: Ngô Quốc Đạt <56961917+datlechin@users.noreply.github.com>
+Date:   Mon Mar 7 10:18:58 2022 -0800
+
+    update
+
+[33mcommit 8c993f772039d410f3babbbc462471df034f2d74[m
+Author: Ngô Quốc Đạt <56961917+datlechin@users.noreply.github.com>
+Date:   Mon Mar 7 10:16:24 2022 -0800
+
+    Vietnamese translation
+
+[33mcommit 56130ef53388ab021fd0496f6740506019ad21f2[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Mar 6 11:41:17 2022 +0200
+
+    some corrections
+
+[33mcommit d63dc55cbb4556d4aa0abb4a8ca09f902682fa1b[m
+Merge: 7ccf2de 1bd41df
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Mar 5 17:57:07 2022 +0200
+
+    Merge branch 'master' of https://github.com/Asabeneh/30DaysOfJavaScript
+
+[33mcommit 7ccf2de915e8000e286bdf0513d9ffe00f20dee8[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Mar 5 17:55:24 2022 +0200
+
+    some fixes
+
+[33mcommit 1bd41df9b7a9f91e16c30020fd8f98126c2ea0ae[m
+Merge: 9fc1c2a b430af0
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Mar 5 17:51:08 2022 +0200
+
+    Merge pull request #144 from codenrich/master
+    
+    Grammar Correction
+
+[33mcommit 9fc1c2a87ce95ce1dc2011c20c2d4f3f3012e17c[m
+Merge: 6fbdea2 7fea1ed
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Mar 5 17:07:11 2022 +0200
+
+    Merge pull request #276 from MatinSasan/patch-1
+    
+    Fixed a typo in the line 183 (RU)
+
+[33mcommit 6fbdea240c8fd6425439a08242d593efce6dffa8[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Mar 5 17:04:58 2022 +0200
+
+    Korian Day 1 has been added
+
+[33mcommit e14526cbd13936397a04fdb6e90fc5ede63f5c5a[m
+Merge: ef014b8 a4dd61b
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Mar 5 17:01:25 2022 +0200
+
+    Merge pull request #282 from poiu694/master
+    
+    Translation To Korean (Day1)
+
+[33mcommit ef014b8fb975dfa4baab0f07b2759a03167504ab[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Mar 5 16:45:46 2022 +0200
+
+    some changes
+
+[33mcommit e20d6e4a3868177d6cadae6cc2ba18e72c682299[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Mar 5 15:57:51 2022 +0200
+
+    testimonial link added
+
+[33mcommit a4dd61b08395a4cc725ed564648192c8dd0354d8[m
+Author: Lee <43488305+poiu694@users.noreply.github.com>
+Date:   Fri Mar 4 19:48:09 2022 +0900
+
+    Update korean README.md
+
+[33mcommit 7fea1ed02d6801c35e7c301c5bbc359ae72c82d3[m
+Author: Matin Sasanpour <matin.sasan@gmail.com>
+Date:   Sat Feb 26 14:42:10 2022 +0330
+
+    Fixed a typo in the line 183 (RU)
+    
+    Removed the extra "t" character at the end of "Пример: Однострочный комментарий", line 183
+
+[33mcommit 97f84bf65fc9052afc2fb7ca0d481d22411d4496[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Nov 17 22:44:21 2021 +0200
+
+    corrections
+
+[33mcommit b094b3f64fd7482da3fc55085097577d0cef5c9f[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Nov 17 21:02:59 2021 +0200
+
+    fixes
+
+[33mcommit b430af0e7612aff61a4c4810af14ca4548921072[m
+Merge: 07143be 273fdb8
+Author: codenrich <henry.caicedovelasco@gmail.com>
+Date:   Wed Jan 27 17:24:59 2021 -0500
+
+    Merge pull request #1 from codenrich/codenrich-grammarSpanish-1
+    
+    Grammar Correction
+
+[33mcommit 273fdb855bb7b7f88d1457b6196cbf4cdbf36242[m
+Author: codenrich <henry.caicedovelasco@gmail.com>
+Date:   Wed Jan 27 17:22:42 2021 -0500
+
+    Grammar Correction
+    
+    This is a grammar correction
+
+[33mcommit 07143be3b78488dd7237c34a95694ec3fb68cfc6[m
+Author: asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 26 02:05:57 2021 +0200
+
+    paypal link has been added
+
+[33mcommit 8d98f733b8b3e5b1a90b939941eb4d96867fd3f1[m
+Author: asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 26 01:49:03 2021 +0200
+
+    paypal link has been added
+
+[33mcommit ff64df941921dbc970e96b2afeb712f69eb4091e[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Sep 6 14:54:56 2020 +0300
+
+    minor changes
+
+[33mcommit c205c28493a8de54a14161206daf5b63d4a0748e[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Aug 22 17:59:35 2020 +0300
+
+    day 1 fixes
+
+[33mcommit 06dd789a4f60404d8475d1d3d051e400475d5c2c[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Aug 21 20:04:57 2020 +0300
+
+    day 9 higher order function
+
+[33mcommit aa9cc2d76c8bb9ef3082ef20512f5dda5ff69742[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Aug 21 20:02:22 2020 +0300
+
+    day 9 higher order function
+
+[33mcommit 41a3f95b1af1c10a8dd6eeec84d47b3c382e9d6a[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Aug 20 21:47:41 2020 +0300
+
+    day 9 output format changed
+
+[33mcommit 585c33e7909b72bc72b55f0c9078ba70f4584bfa[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Aug 17 15:32:42 2020 +0300
+
+    fixes
+
+[33mcommit 8d0e1b0ecd28e07ebc874013c6ad8b553b2439f0[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jul 22 11:40:50 2020 +0300
+
+    objects part, typo fixes
+
+[33mcommit 07590604134158a0940a4880f69106993abff88a[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 14:20:40 2020 +0300
+
+    Introduction
+
+[33mcommit 669b24e703e392934222d1d9d5c0780556674502[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 01:37:10 2020 +0300
+
+    Introduction
+
+[33mcommit a91246d75144b9fd8e2da3772c9bb2f911e1276b[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 01:09:49 2020 +0300
+
+    Final Projects
+
+[33mcommit ea8eeae1c89181a17e3f74faac614fae6a2b60ff[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 01:07:59 2020 +0300
+
+    Final Projects
+
+[33mcommit db4715c26f25176f07ea7bcc890e15e5c138fbd8[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 01:06:29 2020 +0300
+
+    Min project portfolio
+
+[33mcommit 8ec9942065420452f32a699c35e7e83b901074b6[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 01:04:44 2020 +0300
+
+    Min project portfolio
+
+[33mcommit c99a9c0829adb2a345b99484ef1a7af3ab1ee40b[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 01:02:23 2020 +0300
+
+    Final Projects
+
+[33mcommit 98c01111476afbf55c6b3ecb6b6f1eb337323c41[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 00:59:37 2020 +0300
+
+    Animating characters
+
+[33mcommit 5a47c347030a884e1b7ef303c5169bd290e91fb4[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 00:58:52 2020 +0300
+
+    Final Project
+
+[33mcommit 5a41bb02d9593759f95f94c56ba1772f7c5c65e0[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 00:57:03 2020 +0300
+
+    Animating characters
+
+[33mcommit 1415c3fce2ef2ce4edf5a5eaf56c177a8205e840[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 00:54:53 2020 +0300
+
+    Portfolio
+
+[33mcommit 46f08555288aaa558b27c17c42990bacff6c1b9b[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 00:51:24 2020 +0300
+
+    World Countries Data Visulalization 2
+
+[33mcommit b4633de5b3eaf7885e441e12cf8114c9938b6e4d[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 00:47:34 2020 +0300
+
+    Mini project solar system
+
+[33mcommit 7cd6a2acebf2652b771e223f0ddd61736955d46d[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 00:46:03 2020 +0300
+
+    Mini project solar system
+
+[33mcommit 2f32af41122742e2c16a0728ec9f0621dde8d4c3[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 00:43:29 2020 +0300
+
+    World Countries Data Visulalization 1
+
+[33mcommit db1e530a18f5bb134bd929a835b7aad66fb97857[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jul 11 00:42:16 2020 +0300
+
+    Mini project solar system
+
+[33mcommit 91bc91b7679b9794eb1d073334cc89364bb3c02c[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 21:59:44 2020 +0300
+
+    Event listeners
+
+[33mcommit b0381df1b0888e1f4f70547b9ad892148d2df3b2[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 21:50:26 2020 +0300
+
+    Event listeners
+
+[33mcommit 8a85e2cda1ed1242f183314cc1fcc0069c23a706[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 21:42:00 2020 +0300
+
+    World Countries Data Vizualization 2
+
+[33mcommit 166befff0694f1728fc2cf019b8efe0e584ef4d6[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 21:39:08 2020 +0300
+
+    World Countries Data Vizualization
+
+[33mcommit 2b5b53d68d88ccaf5187dd74c22eaca5ee6bdae7[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 21:31:58 2020 +0300
+
+    Event Listeners
+
+[33mcommit 646ecd9b68e1115e204ae867af1f6f58ef7c92cd[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 21:25:48 2020 +0300
+
+    Mini project solar system
+
+[33mcommit 96e7e6967b14fe284d84beef503d3f18ac1b0d83[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 21:20:54 2020 +0300
+
+    Event Listeners
+
+[33mcommit 8f1def325ca77d47c28e013961596395cbc2eda2[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 21:02:13 2020 +0300
+
+    Web Storages
+
+[33mcommit 07ee73ce1af09e2bbd184178d89d63334a873f31[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 21:00:24 2020 +0300
+
+    Web Storages
+
+[33mcommit 4da248784809dbaf91d214f803e6e064fb1f4c42[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:59:03 2020 +0300
+
+    Destructuring and Spreading
+
+[33mcommit a6b05c3f59898f2e3b3418fb2fcf6449c900614a[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:58:19 2020 +0300
+
+    Destructuring and Spreading
+
+[33mcommit 9873970e6377ebecd5f86d260cbed7cf876ed441[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:55:43 2020 +0300
+
+    Hihger Order Functions
+
+[33mcommit e9e166d322aac8287e9d6badf919c8b87518563c[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:54:47 2020 +0300
+
+    Objects
+
+[33mcommit 3abd13b3f2d22f24852367f3abc51ac6bb320219[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:53:48 2020 +0300
+
+    Functions
+
+[33mcommit 6682648bb642c192cc2460fba646ffabefeac260[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:53:13 2020 +0300
+
+    Loops
+
+[33mcommit 940956b239bf8a50c215b6f5c286115ab0671d04[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:52:16 2020 +0300
+
+    Loops
+
+[33mcommit 4542bd01f4121887ea93534e1d3a0419f33ad9a8[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:51:01 2020 +0300
+
+    Arrays
+
+[33mcommit 3f08b48feee544bf28bd917a931647b365a9bd2f[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:49:15 2020 +0300
+
+    Conditionals
+
+[33mcommit 655a467d8a2818908adf430cc9ea6ddf32efaa5f[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:31:06 2020 +0300
+
+    Manipulating DOM Object
+
+[33mcommit ae43d675ec10ef083a3b6fe6ffb5ac8d61c20eb5[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:28:55 2020 +0300
+
+    DOM
+
+[33mcommit 9a01f9e833dc57102a32ead07e13d05a204f9121[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:24:15 2020 +0300
+
+    DOM
+
+[33mcommit 9c41dafd737b0803342bd75606f048bcaa4832dc[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:14:29 2020 +0300
+
+    DOM
+
+[33mcommit 49f937a9edd0c190f5c2d0fd834b442e2c796b13[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:12:59 2020 +0300
+
+    Writing Clean Codes
+
+[33mcommit b8bbeffa78b7739e347b99dc2f9328fcad0887cb[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:11:11 2020 +0300
+
+    Closures
+
+[33mcommit 04ba1f679105465e5dbe02653c0bd7ed83bfe13e[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:09:04 2020 +0300
+
+    Promises
+
+[33mcommit cea27915b32902ef3240264e13fccaf2726862be[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 20:07:29 2020 +0300
+
+    Web Storages
+
+[33mcommit 22080d36b985f9b315cffa025c86c38636ff106b[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 19:51:36 2020 +0300
+
+    JSON
+
+[33mcommit 0f66cca227f97e83ff45b7952d1f0db53007efbc[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 19:50:20 2020 +0300
+
+    Classes
+
+[33mcommit 25f0e5279ed3b4000bb150a1e7967ef91a7293b5[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 19:48:52 2020 +0300
+
+    Error handling
+
+[33mcommit 528eae77ddd03c64426b7d9c7a106ad68be4215a[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 19:47:10 2020 +0300
+
+    Console Object Methods
+
+[33mcommit 9bccf18cf97e675899bdcc3651a03cb63454a7d0[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 19:45:26 2020 +0300
+
+    Regular Expressions
+
+[33mcommit 8f3b62686b0f1739c603f40f53d227e63d836207[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 19:43:36 2020 +0300
+
+    Destructuring and Spreading
+
+[33mcommit 5030c42d8061c2c40dddc414aec372d4b5f984ff[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 19:41:47 2020 +0300
+
+    Sets and Maps
+
+[33mcommit f025fd0d1f05adfd2b1a427961f27c88863dda9c[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 19:38:35 2020 +0300
+
+    Higher Order Functions
+
+[33mcommit b660ebd58b13bdd7a411b3a5f04fd430b65ecf78[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 19:36:40 2020 +0300
+
+    Objects
+
+[33mcommit fd5ce6204c6ec6c191093bbcbc7a997ebae6a737[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 19:35:11 2020 +0300
+
+    Functions
+
+[33mcommit 792dca3210643b6a8ba7a1679cbff683ab3464e4[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 19:33:43 2020 +0300
+
+    Arrays
+
+[33mcommit 69e3fcb41cbc019faadd24cb31eb41601d2f91d0[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 19:33:03 2020 +0300
+
+    Functions
+
+[33mcommit 66e99f902c6117d71124197f56216b19014ee378[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 19:31:20 2020 +0300
+
+    Arrays
+
+[33mcommit 53048e2bd1fd72e1971d590a6a6101ef014c8623[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 19:29:45 2020 +0300
+
+    Conditionals
+
+[33mcommit 6aecad88ad35e221c963a81e4589871a6f3c3fd8[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 12:14:03 2020 +0300
+
+    Data Types
+
+[33mcommit 469bc26846673b725b154a5dc88b34866c7ae247[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 12:13:29 2020 +0300
+
+    Introduction
+
+[33mcommit 0a868e17aacec7b4c430e1c0068384314d585c50[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 12:11:44 2020 +0300
+
+    Booleans Operators Date
+
+[33mcommit cec710f41a8a1f9944102c04ddee3068993ecc79[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 12:10:36 2020 +0300
+
+    Booleans Operators Date
+
+[33mcommit 8370b8165001325609dbe0dd66fae1f83667cedf[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 12:08:08 2020 +0300
+
+    Booleans Operators Date
+
+[33mcommit 6e816d7576ffe2216f7e624f7fc33d86376ce90b[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 12:04:03 2020 +0300
+
+    Data types
+
+[33mcommit 85899a69e26e776d237a2ad0b5ca659fc7c81486[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jul 10 12:00:29 2020 +0300
+
+    Introduction
+
+[33mcommit f231757a791b57ae70b369bc92274ca058677fa9[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jun 20 05:35:16 2020 +0300
+
+    video tutorials added
+
+[33mcommit a71be3414c75fbc5a49bfb21008f5891d09d38ef[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jun 8 06:18:49 2020 +0300
+
+    patron icon added
+
+[33mcommit 2f9df1a642e68ac2d9f6cf074cd7dc2291ff4082[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jun 8 06:10:53 2020 +0300
+
+    patron icon added
+
+[33mcommit 61dac500534c24c691c49f8d187838d0abf9ecc0[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jun 8 06:03:05 2020 +0300
+
+    patron icon added
+
+[33mcommit 80775ad269dc99d46414287ea7a5d6ccc59ed351[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jun 8 05:30:54 2020 +0300
+
+    patreon icon added
+
+[33mcommit 2a4eedbd8e2aa8aced56c6de32229a7326ef51bb[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jun 6 02:44:28 2020 +0300
+
+    day 8 : scopes and object - reviewed
+
+[33mcommit 382a2aedddb510dc0f0aca7a74020f9dd944ee7f[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jun 6 00:53:03 2020 +0300
+
+    day 7 : functions - reviewed
+
+[33mcommit 11b266be087867ec8fb039c43ef611d89b25b976[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jun 6 00:04:58 2020 +0300
+
+    day 6: loops - reviewed
+
+[33mcommit 91d87517d846b3d70ea79fcff8331da65e2b5e81[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jun 5 23:42:50 2020 +0300
+
+    day 5:arrays - reviewed
+
+[33mcommit aad0bcb61b274a4716948c2482f9448f7bcd9040[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jun 5 23:10:09 2020 +0300
+
+    day 4: conditionals - reviewed
+
+[33mcommit d4ac4d146e8b6900bf04b332135d6c6b9cd2a241[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jun 5 22:53:11 2020 +0300
+
+    day 3 reviewed
+
+[33mcommit 9bdd8185e5f3a06f524fd13e22dc26a969e05bc4[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jun 5 21:42:25 2020 +0300
+
+    day 2 reviewed
+
+[33mcommit 65bc076e0bf96ef78b0e38380ed513d75aa57698[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jun 5 18:11:30 2020 +0300
+
+    day 1 reviewed
+
+[33mcommit d1b2fc8dca2e8ad512ae672ad268f5fd40ea0651[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jun 5 18:08:25 2020 +0300
+
+    day 1 reviewed
+
+[33mcommit 65d10ba7ae9bf2eabc0e69bcb7e89ca18ad5502a[m
+Merge: 5b53d3f 6f224d7
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jun 5 13:51:02 2020 +0300
+
+    Merge pull request #88 from venkatprasadh/master
+    
+    RegExp constructor name typo fixed.
+
+[33mcommit 6f224d7ab40b307348fdfa58cf3bc5c13f0bc7e2[m
+Merge: 7c19943 5b53d3f
+Author: Venkat Prasadh <venkat_prasadh@trimble.com>
+Date:   Thu Jun 4 21:34:35 2020 +0530
+
+    Merge branch 'master' of https://github.com/venkatprasadh/30DaysOfJavaScript
+
+[33mcommit 7c19943b55755f442101b2dfd5e32d794e22c094[m
+Author: Venkat Prasadh <venkat_prasadh@trimble.com>
+Date:   Thu Jun 4 21:31:14 2020 +0530
+
+    Update 12_day_regular_expressions.md
+    
+    Fix RegExp constructor name typo.
+
+[33mcommit 5b53d3f04b1126fc7abb245e3b34ca9c549f2f5b[m
+Merge: f6b0536 95c76f7
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 16:50:52 2020 +0300
+
+    Merge pull request #87 from pkiczko/day2up
+    
+    day 2 update
+
+[33mcommit 95c76f7ea6edce0ada39bda2fe8d47c33a6ada11[m
+Merge: d5ecfce f6b0536
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 16:50:39 2020 +0300
+
+    Merge branch 'master' into day2up
+
+[33mcommit d5ecfcec803c6147c7c0d30098c83114310c960a[m
+Author: Pawel Kiczko <pkiczko@gmail.com>
+Date:   Tue Jun 2 16:02:48 2020 +0300
+
+    day 2 update
+
+[33mcommit f6b0536f44ffbc4476e5a8c22e454fa683d00787[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 15:24:00 2020 +0300
+
+    language menu added
+
+[33mcommit a9f807a3f92a03942f5c36abc8283c2b470056dd[m
+Merge: b811623 b8c794c
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 14:54:28 2020 +0300
+
+    Merge pull request #75 from Badoorxp/patch-1
+    
+    Update 02_day_data_types.md
+
+[33mcommit b81162318734783091599a475686ddd41799899b[m
+Merge: 1ef3e93 a136d11
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 14:52:58 2020 +0300
+
+    Merge pull request #77 from MiddleOutManager/patch-1
+    
+    Update match.js
+
+[33mcommit 1ef3e9365170ecbd4a5591e45702590ea5999e05[m
+Merge: 77c97a5 6d42895
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 14:44:53 2020 +0300
+
+    Merge pull request #73 from ljcordero/patch-3
+    
+    Fixing day 27 link
+
+[33mcommit 77c97a5dcea589cdd8730a3ac6c93544cf4d8757[m
+Merge: 2ff454b 054a83e
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 14:40:53 2020 +0300
+
+    Merge pull request #72 from ljcordero/patch-2
+    
+    Fixing Days Links.
+
+[33mcommit 2ff454b5a83a740e8ca714495740489fc2677e6d[m
+Merge: bd771d9 2aaf693
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 14:40:14 2020 +0300
+
+    Merge pull request #71 from ljcordero/patch-1
+    
+    Fixing broken link
+
+[33mcommit bd771d9ca8680ea9bb024e0ef370d15273a1f2ba[m
+Merge: c4c7e54 200013b
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 14:35:38 2020 +0300
+
+    Merge pull request #74 from ljcordero/patch-4
+    
+    Day 25 link
+
+[33mcommit c4c7e549ad269a06978bc6e12a6564040463bf5c[m
+Merge: 1c7e6a4 3987303
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 14:32:53 2020 +0300
+
+    Merge pull request #70 from ograsyilmaz/patch-1
+    
+    Update 07_day_functions.md
+
+[33mcommit 1c7e6a4ed9d510503cb46e24c84a4ad2f184d66c[m
+Merge: 5b56056 4a2dc08
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 14:31:10 2020 +0300
+
+    Merge pull request #81 from Rajesh-kumar-r/patch-1
+    
+    url fix
+
+[33mcommit 5b5605634fdabaf65b91a3bf0e2c3f23546eab99[m
+Merge: ab33a12 d0fd565
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 14:19:57 2020 +0300
+
+    Merge pull request #79 from Ibochkarev/russian
+    
+    Start of translation into Russian
+
+[33mcommit ab33a126d403277aa261659b0865f54dfe661288[m
+Merge: 233fe17 2d44a25
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 14:17:31 2020 +0300
+
+    Merge pull request #82 from thamaragerigr/spanish
+    
+    Day 1- Spanish translation
+
+[33mcommit 233fe17cf09e9ca69b3a4840f6dd3e9e1737f07b[m
+Merge: c10b9ed 00536c9
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 14:16:18 2020 +0300
+
+    Merge pull request #84 from chety/patch-1
+    
+    Update 02_day_data_types.md
+
+[33mcommit c10b9ed54b660bd64059bddb357642656cf2ba89[m
+Merge: 69a857c f8ccdf0
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jun 2 14:14:56 2020 +0300
+
+    Merge pull request #86 from pkiczko/day1up
+    
+    Day 1
+
+[33mcommit f8ccdf0e119c988e7a1fc92e14a0722bc2b4702b[m
+Author: Pawel Kiczko <pkiczko@gmail.com>
+Date:   Tue Jun 2 13:46:18 2020 +0300
+
+    day 1 final revision
+
+[33mcommit 55d6aee5ea45d4c93b054b08361582bf3dde950a[m
+Author: Pawel Kiczko <pkiczko@gmail.com>
+Date:   Tue Jun 2 13:21:39 2020 +0300
+
+    checking added image size
+
+[33mcommit 2e8aadbf5f2088ea2a01dafc209b91fadf34b2bb[m
+Author: Pawel Kiczko <pkiczko@gmail.com>
+Date:   Tue Jun 2 13:20:44 2020 +0300
+
+    checking added image size
+
+[33mcommit 69a857c01963485dbb93fe84776211610f2aae3a[m
+Merge: 6c3be24 6dfcbc6
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed May 13 15:58:10 2020 +0300
+
+    Merge pull request #78 from silvaesouza/fix-day02-ascii-number
+    
+    Fix day 02 ascii number
+
+[33mcommit 00536c900ef98eb70acb1ba672d1c31a1d9607af[m
+Author: Chety <cetincelik20@gmail.com>
+Date:   Wed May 13 15:54:40 2020 +0300
+
+    Update 02_day_data_types.md
+
+[33mcommit 2d44a25b6e7abb348a3f92746f4106d42cc796a1[m
+Author: thamaragerigr <thamaragerigr@gmail.com>
+Date:   Tue Mar 24 10:41:54 2020 +0100
+
+    day1
+
+[33mcommit 4a2dc0882955499beb8ec63c31c86f2cdd644310[m
+Author: Rajesh-kumar-r <47350245+Rajesh-kumar-r@users.noreply.github.com>
+Date:   Tue Feb 25 17:33:24 2020 +0530
+
+    url fix
+
+[33mcommit d0fd5655cf8b7817ddc3eea5ba1a32b12016ee33[m
+Author: Ibochkarev <ivanx86@gmail.com>
+Date:   Fri Feb 14 14:02:01 2020 +0600
+
+    Added translation of materials of the 5 day
+
+[33mcommit 8a9ccb51276d13e0812199b981d1cd7099da3cdf[m
+Author: Ibochkarev <ivanx86@gmail.com>
+Date:   Fri Feb 14 13:36:05 2020 +0600
+
+    Added translation of materials of the 6 day
+
+[33mcommit 6ca66bb0a9f4916e49af544e7f390b477ef46176[m
+Author: Ibochkarev <ivanx86@gmail.com>
+Date:   Wed Feb 12 12:18:37 2020 +0600
+
+    Added translation of materials of the 4 day
+
+[33mcommit ca0d61405105fba7c33ade948482ab0f51836734[m
+Author: Ibochkarev <ivanx86@gmail.com>
+Date:   Tue Feb 11 20:55:10 2020 +0600
+
+    Added translation of materials of the 3 day
+
+[33mcommit cfc43353f1eaf54b13855c28fd044be66a791f7b[m
+Author: Ibochkarev <ivanx86@gmail.com>
+Date:   Mon Feb 10 15:15:55 2020 +0600
+
+    Minor update
+
+[33mcommit 7a31eb7d3febe298af501a3725d5744137db5498[m
+Author: Ibochkarev <ivanx86@gmail.com>
+Date:   Mon Feb 10 15:04:48 2020 +0600
+
+    Added translation of materials of the second day
+
+[33mcommit b61994647537838927ca85081b5a43f5413231a6[m
+Author: Ibochkarev <ivanx86@gmail.com>
+Date:   Mon Feb 10 04:46:30 2020 +0600
+
+    Start of translation into Russian
+
+[33mcommit 6dfcbc66c8977e73ebe1caa19bec62670405a4de[m
+Author: Adriano P. S. Souza <silvaesouza@gmail.com>
+Date:   Sat Feb 8 12:23:10 2020 -0300
+
+    Fix day 02 ascii number
+
+[33mcommit a136d11027a562d557d2ee778dce56cec265d3b4[m
+Author: MiddleOutManager <43626599+MiddleOutManager@users.noreply.github.com>
+Date:   Fri Feb 7 20:45:18 2020 -0500
+
+    Update match.js
+    
+    removed + from regEx = /\d+/ and added 'g' from the regEx to match the output described on line 21
+    Changed 'text' to txt'
+
+[33mcommit b8c794cd6e67165e8a5161b6ef8e10db008024d2[m
+Author: Bader B <Badoorxp@users.noreply.github.com>
+Date:   Mon Feb 3 14:20:49 2020 +0300
+
+    Update 02_day_data_types.md
+    
+    Corrected the numbering of String Object Methods/Functions as well as the Level 2 Exercises.
+
+[33mcommit 200013b9011e900112357437d013f194d205a2ef[m
+Author: ljcordero <cars098@hotmail.com>
+Date:   Fri Jan 31 13:56:04 2020 -0400
+
+    Day 25 link
+
+[33mcommit 6d4289591374ce526a3e21e3c28958072cb96049[m
+Author: ljcordero <cars098@hotmail.com>
+Date:   Fri Jan 31 13:54:18 2020 -0400
+
+    Fixing day 27 link
+
+[33mcommit 054a83e8829ba10727e4f445ca51187401163a51[m
+Author: ljcordero <cars098@hotmail.com>
+Date:   Fri Jan 31 09:40:35 2020 -0400
+
+    Fixing Days Links.
+
+[33mcommit 2aaf693363bbff30528a01a677f73251ae6eb4ed[m
+Author: ljcordero <cars098@hotmail.com>
+Date:   Fri Jan 31 09:37:46 2020 -0400
+
+    Fixing broken link
+
+[33mcommit 6c3be2413554887b6ce468d508ac92fd8285bd20[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 31 01:54:02 2020 +0200
+
+    day 30
+
+[33mcommit 3987303594feddf73b07c2fa9333b6a6a6115f0e[m
+Author: Yılmaz <yilmazogras@outlook.com.tr>
+Date:   Thu Jan 30 18:58:12 2020 +0300
+
+    Update 07_day_functions.md
+    
+    function sumArrayValues(arr)
+    It takes a variable array from the outside
+
+[33mcommit d215262816085da6c57104ecd5973678859642fd[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 30 01:30:06 2020 +0200
+
+    day 29
+
+[33mcommit 3765e51b6431a7a2f81bbf32dfac11da8eac8050[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 30 01:14:40 2020 +0200
+
+    day 29
+
+[33mcommit 51f3b2071eb3d501c1f610b40c462cf65e84f5dd[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 28 23:57:46 2020 +0200
+
+    day 28
+
+[33mcommit 899a3c884e7223924ae6c9cbed377af50fd4b2f5[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 28 01:03:13 2020 +0200
+
+    day 27
+
+[33mcommit 2d4106989926edf955a7e6bf378b3c2fc631ddb0[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 28 00:55:56 2020 +0200
+
+    day 27
+
+[33mcommit 60e8737dc004761592786a38fc2476086e9d01c1[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 26 23:25:29 2020 +0200
+
+    day 26
+
+[33mcommit aeffd9be589047fa9d1ccb8be353bec00449cc75[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 25 23:16:51 2020 +0200
+
+    day 25
+
+[33mcommit fe61b12460d8b76f841619a77037bc156877fc01[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 25 23:03:53 2020 +0200
+
+    day 25
+
+[33mcommit a66a26b8f54f58b518bef6f7717f5743485bf1db[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 25 22:45:42 2020 +0200
+
+    day 25
+
+[33mcommit ca2a1c84c7406a96d1bffc84159c2de9329bfdf7[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 25 02:30:38 2020 +0200
+
+    day 24
+
+[33mcommit 6ed4ed40d0b637a9ad9db6569e336aabfb86d488[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 24 01:09:09 2020 +0200
+
+    day 23
+
+[33mcommit 3d6fa6064a6a491348a9db14a3487e3c39c169a1[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 24 00:59:28 2020 +0200
+
+    day 23
+
+[33mcommit 3896123c19db40ca1043cf4d82b055e35f59b7dd[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 23 00:04:16 2020 +0200
+
+    day 22
+
+[33mcommit e29cb6f0e7449e97ac8b2bd753f5803286ef9749[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 23 00:00:56 2020 +0200
+
+    day 22
+
+[33mcommit d2310cc142afde94050cf781e0aaa1b87f5ab647[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 22 23:58:25 2020 +0200
+
+    day 22
+
+[33mcommit 262969fdddf696bd570be3e40d9956e347c1be01[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 22 23:54:57 2020 +0200
+
+    day 22
+
+[33mcommit 12f1aa06c3696cbee996c69c84a833747b0ae1a3[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 22 23:38:16 2020 +0200
+
+    day 22
+
+[33mcommit 4bc164d2ad4506acdeec85d8e1b85f0a1e4f98ed[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 22 11:03:35 2020 +0200
+
+    day 21
+
+[33mcommit 231a018c8cdabaecec76a7fc67c2c62fe34cf78e[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 22 11:00:55 2020 +0200
+
+    day 21
+
+[33mcommit 70e820944cef07c0bd7cf5d24fee07e3faa72efc[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 22 03:36:02 2020 +0200
+
+    day 21
+
+[33mcommit 4c79ffe59c090668c28583ea03cfdd091d7c0a96[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 22 03:10:16 2020 +0200
+
+    day 21
+
+[33mcommit a037360491d468fec83c9f81e50fc51260839ff6[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 22 03:06:42 2020 +0200
+
+    day 21
+
+[33mcommit 8a7e87b9e0adcb363eca946dcb9b61dcd0c5294b[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 22 03:04:12 2020 +0200
+
+    day 21
+
+[33mcommit d6254a901f618e0a4ce9cd8fdc775a646d8bf382[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 22 01:56:29 2020 +0200
+
+    day 21
+
+[33mcommit 689d035730b71e01bcc3ee93924679d3466317d4[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 21 01:33:22 2020 +0200
+
+    day 20
+
+[33mcommit 316b61c826be50167c53ef9d02cfd8a3525ca1fe[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 21 01:06:05 2020 +0200
+
+    day 20
+
+[33mcommit 108032543801b9602c4c629455cf59d2514ca36a[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 21 01:04:01 2020 +0200
+
+    day 20
+
+[33mcommit 5713a23e1d557f8fe31a442a6fece29d3f8f6dfc[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 21 00:58:06 2020 +0200
+
+    day 20
+
+[33mcommit 55d651a19c15677801e3a5b892bec4efc800d4b8[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 21 00:32:23 2020 +0200
+
+    day 20
+
+[33mcommit 20559fe38fc918da9287d2cb02796a403ad33eac[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 20 18:28:29 2020 +0200
+
+    fixing link
+
+[33mcommit c1c4842c1116f57910ea04f9d62fda0b3204e740[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 19 22:18:45 2020 +0200
+
+    day 19
+
+[33mcommit 73cdac8079b18da036b035720d26f289aea34170[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 19 03:03:50 2020 +0200
+
+    day 18
+
+[33mcommit 6e467ba897e9959cb741b91e523e976a594c63ea[m
+Merge: 0d45c6f 8068378
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 19 02:57:49 2020 +0200
+
+    day 18
+
+[33mcommit 0d45c6ff803d62901346a30cd979baabc85b7e43[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 19 02:56:08 2020 +0200
+
+    day 18
+
+[33mcommit 80683789e016a0f97e1d759fdef857d9e28a39e0[m
+Merge: a71d0c3 6f16325
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 18 14:14:00 2020 +0200
+
+    Merge pull request #59 from npnjuguna/npnjuguna-regular-expressions-examples-typo-fixes
+    
+    regular expressions examples typo fixes
+
+[33mcommit a71d0c3b7dc6b5ff1f90e2942a8aee792b1aac24[m
+Merge: a61e8a9 e9b7ce0
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 18 14:12:49 2020 +0200
+
+    Merge pull request #60 from npnjuguna/npnjuguna-default-values-with-constructor-fix
+    
+    default values with constructor fix
+
+[33mcommit a61e8a92c7a3a1ff91ebdf7ccd062cd8c07d210b[m
+Merge: c8eab85 75a1878
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 18 14:11:59 2020 +0200
+
+    Merge pull request #61 from npnjuguna/npnjuguna-json-examples-fix
+    
+    json examples fix
+
+[33mcommit 75a187864d0f8d81b2c22f9c46a570a538f283d8[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Sat Jan 18 14:12:00 2020 +0300
+
+    json examples fix
+    
+    avoid using 'text' as a variable name since it is reserved and returns an error
+
+[33mcommit e9b7ce001be7c36b7add6179bdea796f9ccc81b8[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Sat Jan 18 14:01:04 2020 +0300
+
+    default values with constructor fix
+    
+    to allow example to be run without returning already defined error
+
+[33mcommit 6f16325085f3baa4a2945cf5271e801e849a6722[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Sat Jan 18 13:28:21 2020 +0300
+
+    regular expressions examples typo fixes
+
+[33mcommit c8eab858a8d41d4c78eb5dfe8003cb9444955d99[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 18 01:09:01 2020 +0200
+
+    day 17
+
+[33mcommit 46bad2b21f07a0e7c5374bde1765c42fbf2389bd[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 18 00:38:13 2020 +0200
+
+    day 17
+
+[33mcommit 546fb71cd3be81a1997c5022fe2a76e783c0af0d[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 17 22:15:11 2020 +0200
+
+    day 16 fixes
+
+[33mcommit e3b022f0ed39d55ce6cf085cc183cd7930ec5597[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 17 02:09:20 2020 +0200
+
+    day 16
+
+[33mcommit c51058b3de4df70a216ed25e57ad474c6ffcb166[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 16 01:01:28 2020 +0200
+
+    day 15
+
+[33mcommit 2f06722dfb1d4c8e8559c8e559d894af1cdf02a2[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 16 00:59:38 2020 +0200
+
+    day 15
+
+[33mcommit d3b2c892ced8295ddc1542baab7089884271a56a[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 16 00:56:45 2020 +0200
+
+    day 15
+
+[33mcommit 0a55a7db096d5dd46388336086bb0e123ea747d1[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 16 00:50:11 2020 +0200
+
+    day 15
+
+[33mcommit 868322659deb26d2cd7735fa61c8fb22acc4e01d[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 15 01:17:59 2020 +0200
+
+    day 14
+
+[33mcommit b0fbeeccd1ea9969ecdd63e80eacf00aaf07af3b[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 15 01:16:52 2020 +0200
+
+    day 14
+
+[33mcommit a47f48f23ea701e9e998f3ce16d1d84eb8db169b[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 15 01:15:06 2020 +0200
+
+    day 14
+
+[33mcommit ac2ff0daf8a9470648fbc36384e3a07ef170cf7f[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 15 01:08:40 2020 +0200
+
+    day 14
+
+[33mcommit 373544944c91da9891f9a7853af23e764497edd8[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 15 00:57:37 2020 +0200
+
+    day 14
+
+[33mcommit 4648a74380b53beedbcca1affd3c2d1be1449b3f[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 14 14:36:25 2020 +0200
+
+    fixing links
+
+[33mcommit 1d1b681fc93149f7194699f267935916f276119f[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 14 14:34:04 2020 +0200
+
+    fixing links
+
+[33mcommit 72a0f3e7d1ed7a3f3964120aefa2be886d9533ed[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 14 01:34:32 2020 +0200
+
+    day 13
+
+[33mcommit 04f90c896854f7b383340837f11ee958a2bc3494[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 13 01:32:33 2020 +0200
+
+    day 12
+
+[33mcommit 29bb42d8b965d76e37683d0b214ab925c8051085[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 13 01:19:10 2020 +0200
+
+    day 12
+
+[33mcommit 3252cb6f3b0847798143d942c4efc9079550921b[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 12 00:47:36 2020 +0200
+
+    levels
+
+[33mcommit 09a9a7e0ff2d9a3aa3ad5569c2817cc321e53c92[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 12 00:43:40 2020 +0200
+
+    levels
+
+[33mcommit 17c546fa7f43431c64876e2b1f4df3681841677f[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 12 00:40:37 2020 +0200
+
+    levels
+
+[33mcommit 9ead21a3deb958fdcee6dad4b98726a16735cad8[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 12 00:39:24 2020 +0200
+
+    levels
+
+[33mcommit 1145e818518f817791835d214d3a5cde87b16f74[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 12 00:19:37 2020 +0200
+
+    levels
+
+[33mcommit 37ba263109ffed64c01554291a362ba12bca93bb[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 11 20:28:57 2020 +0200
+
+    day 11
+
+[33mcommit b026826c078be6cd63867689f1c90eab98dfb50d[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 11 20:17:53 2020 +0200
+
+    day 11
+
+[33mcommit 0c02afb9c7873648123c84010669d831d67d3b1b[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 11 20:02:35 2020 +0200
+
+    day 11
+
+[33mcommit 0efbad1ad75aa979fa6449ad32b8339a24da670a[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 11 13:14:46 2020 +0200
+
+    fixing links
+
+[33mcommit ed48496e6f2d692fd5fed885d5f54d2bbbc15b08[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 11 00:05:20 2020 +0200
+
+    day 10
+
+[33mcommit c9111011f13b7ae636ce9724c46199673de5c613[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 10 23:57:16 2020 +0200
+
+    day 9 fixes
+
+[33mcommit 8592102377a8182dd52c82b81590be8bc7606734[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 10 23:36:17 2020 +0200
+
+    day 9 fixes
+
+[33mcommit 5a2dae3c13472ad8299187b00fd2f8fbe99a075f[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 10 23:35:53 2020 +0200
+
+    day 10
+
+[33mcommit 5b8c908f7ecec78884c0dfaaf138ad390c00b83a[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 10 20:35:30 2020 +0200
+
+    day 9 fixes
+
+[33mcommit 0b3d3471676063326517f39b6e11236e7b9344d0[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 10 20:26:35 2020 +0200
+
+    day 9 fixes
+
+[33mcommit 57f90ab9cbf421c36606998bd5778e856a96f4a4[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 10 20:23:00 2020 +0200
+
+    day 9 fixes
+
+[33mcommit 667129e94c73d3ecd17f0e62542baa82dcc2322b[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 10 20:20:32 2020 +0200
+
+    day 9 fixes
+
+[33mcommit ba53c499ff1fefd348a354df5376b64a8a1039ac[m
+Merge: 6adedd1 4d84d2c
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 10 08:13:15 2020 +0200
+
+    Merge pull request #49 from npnjuguna/npnjuguna-find-example-fix
+    
+    find example fix
+
+[33mcommit 4d84d2c8ca1b5002c439e4a813ec6af4025f60fd[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Fri Jan 10 07:18:44 2020 +0300
+
+    find example fix
+    
+    added the output to the example
+
+[33mcommit 6adedd1b7b96c66a6e8c1a92e02c2267bd14c0f0[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 9 23:37:18 2020 +0200
+
+    day 9
+
+[33mcommit be2c8ce1a28d5dcbbc9515c923b80e98b56ca8c6[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 9 23:33:33 2020 +0200
+
+    day 9
+
+[33mcommit c12f1f9a6161c776a0dd4879ddbbe738d3b27333[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 9 23:31:33 2020 +0200
+
+    day 9
+
+[33mcommit 0220609900e3ed2b5f706149bd9c5fced1470eba[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 9 23:30:27 2020 +0200
+
+    day 9
+
+[33mcommit f434534ec49554f8e83ec061935fa62dfccc9e60[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 9 23:22:04 2020 +0200
+
+    day 9
+
+[33mcommit e7a2adc9475a07a45fe6ef298d6d88176693ceb3[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 9 14:43:40 2020 +0200
+
+    day 8 fixes
+
+[33mcommit e721612a385e79370b12f06f34b83c7f76f31449[m
+Merge: 76052d4 e6b77d5
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 9 14:37:16 2020 +0200
+
+    Merge pull request #40 from Meharban-Singh/master
+    
+    All days' exercise links work now
+
+[33mcommit 76052d4659956abb19f00337d30144af592251ab[m
+Merge: 93bbcb7 b285ca4
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 9 14:34:52 2020 +0200
+
+    Merge pull request #42 from npnjuguna/npnjuguna-one-line-printFullName-arrow-function-fix
+    
+    one line printFullName arrow function fix
+
+[33mcommit e6b77d5adfca7c7f6d777fff3e819fa5bd53afc2[m
+Author: Meharban Singh <meharbansingh10.ms@gmail.com>
+Date:   Wed Jan 8 21:03:24 2020 -0500
+
+    Update readMe.md
+
+[33mcommit 6ce81ed891de69f62dd7ce30256bc1e301f5bea3[m
+Author: Meharban Singh <meharbansingh10.ms@gmail.com>
+Date:   Wed Jan 8 21:02:22 2020 -0500
+
+    Update 02_day_data_types.md
+
+[33mcommit b09f379c44364b33b5f59e4f37384c84d69c9a9e[m
+Author: Meharban Singh <meharbansingh10.ms@gmail.com>
+Date:   Wed Jan 8 21:01:45 2020 -0500
+
+    Update 03_booleans_operators_date.md
+
+[33mcommit 0a05493ded07f6022a4a7e31b3971056f42be9ff[m
+Author: Meharban Singh <meharbansingh10.ms@gmail.com>
+Date:   Wed Jan 8 21:01:05 2020 -0500
+
+    Update 04_day_conditionals.md
+
+[33mcommit 1a89e1203cb9c5425c8269cfb3bec4e1e3974487[m
+Author: Meharban Singh <meharbansingh10.ms@gmail.com>
+Date:   Wed Jan 8 21:00:37 2020 -0500
+
+    Update 05_day_arrays.md
+
+[33mcommit 5d8d3e3a40c2d6c2ad3dc270b282f4ae920590bd[m
+Author: Meharban Singh <meharbansingh10.ms@gmail.com>
+Date:   Wed Jan 8 20:59:37 2020 -0500
+
+    Update 06_day_loops.md
+
+[33mcommit df8b294da3135a5d879ba8fb665b5b4995925d11[m
+Author: Meharban Singh <meharbansingh10.ms@gmail.com>
+Date:   Wed Jan 8 20:58:21 2020 -0500
+
+    Update 08_day_objects.md
+
+[33mcommit 05ef7c00a955bd9908ea98a2d168d68137987eaa[m
+Author: Meharban Singh <meharbansingh10.ms@gmail.com>
+Date:   Wed Jan 8 20:56:42 2020 -0500
+
+    Update 07_day_functions.md
+
+[33mcommit de80e92f89dc424be1d7c659f2b0255d7e17713a[m
+Merge: 271fd58 6bae6ef
+Author: Meharban Singh <meharbansingh10.ms@gmail.com>
+Date:   Wed Jan 8 20:53:27 2020 -0500
+
+    Merge pull request #1 from Meharban-Singh/patch-1
+    
+    Exercise link works
+
+[33mcommit 6bae6ef2702ff54ddab68677a271dc9178dbe2b7[m
+Author: Meharban Singh <meharbansingh10.ms@gmail.com>
+Date:   Wed Jan 8 20:50:45 2020 -0500
+
+    Exercise link works
+
+[33mcommit 271fd5870fa6d20ea2e6c0878f62825a043a05e9[m
+Author: Meharban Singh <meharbansingh10.ms@gmail.com>
+Date:   Wed Jan 8 20:48:59 2020 -0500
+
+    Exercises link work
+
+[33mcommit 93bbcb7f779fd7e9cdcf76db5292c96f85e472ef[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 9 01:15:28 2020 +0200
+
+    day 8
+
+[33mcommit 6e2f81bcfb90a17fbe9b064b05754e6723c16f6c[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 9 01:04:10 2020 +0200
+
+    day 8
+
+[33mcommit f8863c5dce7f60f6a5a68c9bd55fcb0141fad911[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 9 00:50:30 2020 +0200
+
+    day 8
+
+[33mcommit 7df4d43a3ac92808e5bbcea6c22b3ca730c22674[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 9 00:43:14 2020 +0200
+
+    day 8
+
+[33mcommit 7bbffa9a1f7dfec1e031908a37054e6027662c7e[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 9 00:42:07 2020 +0200
+
+    day 8
+
+[33mcommit 0b946d0fb832c2dea505ff7027bedcaa73e61dc5[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 9 00:34:46 2020 +0200
+
+    day 8
+
+[33mcommit 51f31ed96a5ceb7d89b514082fed713f1d234c1a[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 8 19:12:34 2020 +0200
+
+    cleanig day 7
+
+[33mcommit 4c6089215df148eafb240d1ae457b496edfb9ecb[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 8 17:39:58 2020 +0200
+
+    cleanig day 7
+
+[33mcommit 54718fd74c0f62414b7810aebbf36d6cfc3020fd[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 8 17:37:54 2020 +0200
+
+    cleanig day 7
+
+[33mcommit 7e07d086b2b547fd8a8c9063af0c6dba9f431ea3[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 8 17:11:01 2020 +0200
+
+    restructuring
+
+[33mcommit b285ca407b5f565b61d6436833015c1db8655c15[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Wed Jan 8 08:26:12 2020 +0300
+
+    one line printFullName arrow function fix
+
+[33mcommit 0dd4d7e165a2b82c0c7b61800523d73b3eb3dc8e[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 8 03:25:22 2020 +0200
+
+    Day error fixes
+
+[33mcommit 6d6a4ddb51ef6a0fdd71cb84edd0c6b3e2a92d4e[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 8 03:22:54 2020 +0200
+
+    Day Error fixes
+
+[33mcommit 4acb3acd00943fd617aca3275e5a647b771429ab[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 8 02:19:48 2020 +0200
+
+    day 7
+
+[33mcommit 4b5024c1be780f0e46be5e2a77e2d9d8cf3a4965[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 8 02:12:18 2020 +0200
+
+    day 7
+
+[33mcommit 6d60db7b5813e9072b918fb21ed36cf372c119e3[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 8 02:05:57 2020 +0200
+
+    day 7
+
+[33mcommit ea19bb164a5d08466be04350e836e5d276825866[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 8 01:57:14 2020 +0200
+
+    day 7
+
+[33mcommit 3d62a9eea152a9c85d836c60548f735bc69d62d1[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 7 17:45:11 2020 +0200
+
+    day 5 cleaned
+
+[33mcommit ccd09c65124a4230d45fea7589c9d4d5baf85474[m
+Merge: e14b51c 3eb887f
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Tue Jan 7 16:00:46 2020 +0200
+
+    Merge pull request #32 from nyan-lin-tun/fixed-typo-in-day2-markdown
+    
+    Change the wrong language name in day 2 markdown
+
+[33mcommit 3eb887f765d3a63d9ec0a078877e02adad0a50f4[m
+Author: nyan-lin-tun <ethicalvixix@gmail.com>
+Date:   Tue Jan 7 19:40:12 2020 +0630
+
+    Change the wrong language name in day 2 markdown
+
+[33mcommit e14b51c09e30a5f84ebf2c9a16c7d9ce00a64e4f[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 23:36:13 2020 +0200
+
+    day 6
+
+[33mcommit 371ab164bc105657330a16fccab3348774b120b4[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 23:30:38 2020 +0200
+
+    day 6
+
+[33mcommit 7e0772ec71822df174109c636248d88443de48dc[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 23:23:16 2020 +0200
+
+    day 6
+
+[33mcommit 3827787a1f3ba1447bcba8a815388e52f5ab4e55[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 23:05:55 2020 +0200
+
+    day 6
+
+[33mcommit 3636679daa2a8c600f1d669690c141e5c47ca75a[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 22:59:13 2020 +0200
+
+    day 6
+
+[33mcommit d2dc384833d398b93711c6c8e86d3016e31889ed[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 22:51:23 2020 +0200
+
+    day 6
+
+[33mcommit 7c13013e28b3bfb4d75c03c80a708d3b1fe8a77c[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 16:00:52 2020 +0200
+
+    restructuring
+
+[33mcommit cccf0203cc14b997fadfc848f2725a69df759293[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 15:53:06 2020 +0200
+
+    restructuring
+
+[33mcommit 5a95f04fb0adf3cfc8b7b0752969db4938e882f0[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 15:40:02 2020 +0200
+
+    restructuring
+
+[33mcommit 57ab3f2da5f2d146dc23e4cc3273dc27507246cf[m
+Merge: 408bcda 23bf1f4
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 15:08:32 2020 +0200
+
+    Merge pull request #29 from ermiaswalelgne/master
+    
+    Day 5 text, typo and grammar are patched
+
+[33mcommit 23bf1f4349c1f6fbe02debfdd55e309456987c40[m
+Author: Walelgne Ermias <walelge1@t40700-la031.org.aalto.fi>
+Date:   Mon Jan 6 14:06:47 2020 +0200
+
+    day 5 text, typ and grammar patched
+
+[33mcommit 408bcdafa35416e5e872e70dad65a3a6d728f34e[m
+Merge: 112ed61 327d9b4
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 07:08:20 2020 +0200
+
+    Merge pull request #28 from npnjuguna/npnjuguna-unshift-example-fix
+    
+    unshift example fix
+
+[33mcommit 327d9b411b30510eb4850353d0e0726564443fb2[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Mon Jan 6 08:05:21 2020 +0300
+
+    unshift example fix
+
+[33mcommit 112ed61f03dcdcb175d390a69f3fe8c2a66503e5[m
+Merge: 105f411 4790a23
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 07:05:14 2020 +0200
+
+    Merge pull request #27 from npnjuguna/npnjuguna-splice-method-in-array-example-fix
+    
+    splice method in array example fix
+
+[33mcommit 105f411e3da23cc7caf63221075ca42c22fc27f9[m
+Merge: dd35bb6 f318661
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 07:04:33 2020 +0200
+
+    Merge pull request #26 from npnjuguna/npnjuguna-slice-array-elements-example-fix
+    
+    slice array elements example fix
+
+[33mcommit 4790a2317e609ea915040254e3724381c305e266[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Mon Jan 6 07:59:46 2020 +0300
+
+    splice method in array example fix
+
+[33mcommit f318661ce093b922cadd225e4ea5439abeeec63b[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Mon Jan 6 07:54:13 2020 +0300
+
+    slice array elements example fix
+
+[33mcommit dd35bb6b1c3c1439558839014ec1a3aaf62f41e6[m
+Merge: 980c1e4 4f7583a
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 06:45:37 2020 +0200
+
+    Merge pull request #25 from npnjuguna/npnjuguna-static-values-with-fill-example-fix
+    
+    static values with fill example fix
+
+[33mcommit 4f7583ab95c4aa2f4cd2c5a499d8a348789f2190[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Mon Jan 6 07:42:20 2020 +0300
+
+    static values with fill example fix
+
+[33mcommit 980c1e479dbf2469bffe090acfdd6102d668439f[m
+Merge: 1c8492e 8ec8b36
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 06:03:37 2020 +0200
+
+    Merge pull request #23 from npnjuguna/npnjuguna-array-using-splits-example-fix
+    
+    array using splits example fix
+
+[33mcommit 1c8492e0c7ce06405805caa35c27da8f18ac78d9[m
+Merge: 65d269a e8765bd
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 06:03:11 2020 +0200
+
+    Merge pull request #24 from npnjuguna/npnjuguna-array-items-using-index-examples-fix
+    
+    array items using index examples fix
+
+[33mcommit 65d269a4387da90b96ec959eef516e5b9eb7198a[m
+Merge: b884b52 148abe0
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 06:02:39 2020 +0200
+
+    Merge pull request #22 from npnjuguna/npnjuguna-array-different-data-types-example-fix
+    
+    array different data types example fix
+
+[33mcommit b884b5292598ff83e15833d16fa2eb47b259210e[m
+Merge: d16e822 c636461
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 05:40:16 2020 +0200
+
+    Merge pull request #21 from npnjuguna/npnjuguna-create-array-with-values-example-fix
+    
+    create array with values example fix
+
+[33mcommit e8765bd580eb23964649db933b98be645368a970[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Mon Jan 6 06:32:47 2020 +0300
+
+    array items using index examples fix
+
+[33mcommit 8ec8b3650b43d49228b3591f74ba0a3dd3515cbe[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Mon Jan 6 06:20:04 2020 +0300
+
+    array using splits example fix
+    
+    to avoid using already defined text property definition
+
+[33mcommit 148abe07925ffd249490b9be51a1d5230b26eb7b[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Mon Jan 6 06:11:38 2020 +0300
+
+    array different data types example fix
+
+[33mcommit c636461c0b6615f0b316883f7d7a6e2c608d7ffb[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Mon Jan 6 06:04:22 2020 +0300
+
+    create array with values example fix
+
+[33mcommit d16e82245ab3c17531e189c2a438599c04c7e813[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 04:24:21 2020 +0200
+
+    cleaning
+
+[33mcommit 58006b135e88d923baed2344d59756a0d839282d[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 04:22:46 2020 +0200
+
+    cleaning
+
+[33mcommit d3147ec07908878ef9f44a4af4c37a81f982f8ef[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 04:18:00 2020 +0200
+
+    cleaning
+
+[33mcommit d58138e5406a08d3914384d3d11b5b64c631b51b[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 04:15:22 2020 +0200
+
+    cleaning
+
+[33mcommit 48ad1d6cf5b5717a427a54b1e5189ad1a8685efb[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 04:02:20 2020 +0200
+
+    some cleaning
+
+[33mcommit b6a158d0e91a73edd3734b2d6a2b62b1467b8923[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 03:49:33 2020 +0200
+
+    fixing link
+
+[33mcommit 9cb347b9bcc528147765b165d6b02430e7ffaa69[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 03:40:05 2020 +0200
+
+    day 5
+
+[33mcommit 9a0a37e60695b3628c8b1bd03afa04d225ae5120[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 03:34:45 2020 +0200
+
+    day 5
+
+[33mcommit 27c857d29db11685a1660cc422e2771a819d88ba[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Mon Jan 6 03:23:29 2020 +0200
+
+    day 5
+
+[33mcommit fc0b62b7f68b8d42943373ae039b22a24e032747[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 5 16:02:08 2020 +0200
+
+    some fixes
+
+[33mcommit 73a400583bca573a12ea3b769dcd616a2d9f1d69[m
+Merge: e403247 9ebad7b
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 5 15:09:24 2020 +0200
+
+    Merge pull request #17 from npnjuguna/npnjuguna-else-if-text-typo-fix
+    
+    else if text typo fix
+
+[33mcommit e403247a8dfc932753b33696606195a456f756f9[m
+Merge: cdc8246 acc584a
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 5 15:08:37 2020 +0200
+
+    Merge pull request #18 from npnjuguna/npnjuguna-if-else-if-example-fix
+    
+    if else if example fix
+
+[33mcommit cdc824634ea151cd59dca50447b4191e2a96497c[m
+Merge: 5b047b9 8bee3d4
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 5 15:07:42 2020 +0200
+
+    Merge pull request #16 from diegodario88/fix
+    
+    fix extra space
+
+[33mcommit acc584a52f85924fe43aa218dea151c74e925d47[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Sun Jan 5 06:21:06 2020 +0300
+
+    if else if example fix
+
+[33mcommit 9ebad7b6d1d17c8f79b73d0074cbf7bc0b24d75e[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Sun Jan 5 06:10:24 2020 +0300
+
+    else if text typo fix
+
+[33mcommit 8bee3d4422aebd01c5fa1d685cde9d956e352cf9[m
+Author: Diego Dario <diegodario88@gmail.com>
+Date:   Sat Jan 4 22:48:35 2020 -0300
+
+    fix extra space
+
+[33mcommit 5b047b93f46a9b50f22d9e258c4b5a24ec4a035d[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 5 02:06:16 2020 +0200
+
+    content restructured
+
+[33mcommit 24752f9b2963f797beee18d7ac7d6e919e08d371[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 5 02:01:19 2020 +0200
+
+    content restructured
+
+[33mcommit d8e0fe2fe9ef60a0135f9d812176a5f0a44bf113[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 5 01:50:18 2020 +0200
+
+    content restructured
+
+[33mcommit 0e8a4aa3befba50d3b36602c1455b43480d9487b[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 5 01:13:10 2020 +0200
+
+    content restructured
+
+[33mcommit 07e02ec446eac1ab5a9753c8756c12000eb312f5[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 5 01:01:12 2020 +0200
+
+    content restructured
+
+[33mcommit ea884ca9e820265bd79b3b783b0bcccbad706418[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sun Jan 5 00:47:45 2020 +0200
+
+    content restructured
+
+[33mcommit 668f626c0d39b11198749be72efed69dd2279b2c[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 23:57:39 2020 +0200
+
+    content restructured
+
+[33mcommit d73c98560a31d084db1671d512f3c2a13d2fc5dc[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 22:46:23 2020 +0200
+
+    day 4
+
+[33mcommit 7e32df25528d40cb3aa2d2239f0f178149bae26d[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 22:43:50 2020 +0200
+
+    day 4
+
+[33mcommit 10347cfe07847c1a1170836aafc283524bbe5a38[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 22:35:13 2020 +0200
+
+    day 4
+
+[33mcommit 052c896004028e3cc7c12b9fc4b086c9db8c48bc[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 20:35:07 2020 +0200
+
+    question add to day 2
+
+[33mcommit 109979e438eb55fd5e3d378a44d01eb2590e5fb4[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 20:07:05 2020 +0200
+
+    restructuring files
+
+[33mcommit 28dc2d5c239887c844095fc4a0ffd53f8fdf0c4a[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 17:01:32 2020 +0200
+
+    restructuring files
+
+[33mcommit 9adc1631c6d514ae343f125ceaa208c009816d05[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 16:54:41 2020 +0200
+
+    restructuring files
+
+[33mcommit fdbba29ce6f95dbf3c3221d379f6f7bb9af76565[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 16:26:59 2020 +0200
+
+    restructuring files
+
+[33mcommit 075d41207f5f6bdc4cd6cd2a28d07a17597917df[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 16:23:23 2020 +0200
+
+    restructuring files
+
+[33mcommit 35abce50bb9249cf4f1201b1ee97741e7ae5d40c[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 15:47:38 2020 +0200
+
+    restructuring files
+
+[33mcommit 2cefc1adda02761b98211a6231dc04256ada79aa[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 15:41:53 2020 +0200
+
+    restructuring files
+
+[33mcommit 26c53809d3b2fbaf212c0132716945b4cb994010[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 15:11:51 2020 +0200
+
+    cleaning day 1 day 2 day3
+
+[33mcommit e1aaaa8c87bbfa409fbcfa42cbc8a6a7d53f8137[m
+Merge: 39d469e 38e670d
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 14:45:15 2020 +0200
+
+    Merge pull request #15 from npnjuguna/npnjuguna-getSeconds-example-fix
+    
+    getSeconds example fix
+
+[33mcommit 38e670da5ff31b658bc88ad537c81aa4e271e0e4[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Sat Jan 4 15:35:05 2020 +0300
+
+    getSeconds example fix
+
+[33mcommit 39d469e0a9ff55bb80537ca18943c407a31e0b78[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 07:22:26 2020 +0200
+
+    Fixing errors
+
+[33mcommit 903e2dcb61c2f32628b7a43837076a78287b9c9f[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 07:12:49 2020 +0200
+
+    content added
+
+[33mcommit b85b314c17435c0cf2854cc243fbcd5c8344c829[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 07:10:26 2020 +0200
+
+    content added
+
+[33mcommit 05fc3c609d0fa9e9d2c43bef7de62607145aabb2[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 05:51:30 2020 +0200
+
+    content added
+
+[33mcommit 40b665309e9b536a3cfdf9da09d3d0db6287b775[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 05:37:02 2020 +0200
+
+    content added
+
+[33mcommit 48ab0c09bbf7793cac7c7f135a0551a056bd5b55[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 04:59:24 2020 +0200
+
+    fixing errors
+
+[33mcommit 20cdf019c5b30d739b3a0b2b28e2eb359ecd1556[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 04:51:50 2020 +0200
+
+    Fixing errors
+
+[33mcommit 11842f4261b2682cb818d87400927c00d0f61cb7[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 04:49:25 2020 +0200
+
+    Fixing error
+
+[33mcommit ce6b9fc96d4dbeb116c7673a4253b5243bf6eaa5[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 02:04:10 2020 +0200
+
+    day 3
+
+[33mcommit d0b95e7c4dea4c43ecd2cd2e65be42f0ffb32c56[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 01:59:41 2020 +0200
+
+    day 3
+
+[33mcommit b6fd2c6e94078c5de47bf22eb8c6f4336cbd229c[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Sat Jan 4 00:07:12 2020 +0200
+
+    day 2 fixes
+
+[33mcommit 7f825ed1615de6659d387d24cbd91f040f2801cf[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 23:30:44 2020 +0200
+
+    day 2 fixes
+
+[33mcommit 2818105c4670893f1a250d42522869a6ebc04bb4[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 22:29:34 2020 +0200
+
+    day 2 fixes
+
+[33mcommit 3df0f60daa55d183e040820265118d78fa865518[m
+Merge: 9e23edf 9abd626
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 22:19:44 2020 +0200
+
+    Merge pull request #10 from ermiaswalelgne/master
+    
+    Day one and day to ---fixed typo, grammar and texts
+
+[33mcommit 9abd6262e0fc283be8156761f58510ae39bdd18f[m
+Author: Walelgne Ermias <walelge1@t40700-la031.org.aalto.fi>
+Date:   Fri Jan 3 22:08:34 2020 +0200
+
+    Day one and day to ---fixed typo, grammar and texts
+
+[33mcommit 9e23edfdd6f537e4ccff5d0b399d5ecbcb261c91[m
+Merge: 2893300 963d2ce
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 22:07:31 2020 +0200
+
+    Merge pull request #8 from npnjuguna/npnjuguna-match-example-fix
+    
+    match string function example fix
+
+[33mcommit 28933001c1d6b83743320f4649326e77abe7f349[m
+Merge: 326b70d e29c114
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 22:06:43 2020 +0200
+
+    Merge pull request #9 from npnjuguna/npnjuguna-arithmetic-operators-example-fix
+    
+    arithmetic operators example fix
+
+[33mcommit e29c114428b880f79effc904e5603253abad0634[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Fri Jan 3 19:44:00 2020 +0300
+
+    fix to arithmetic operators example
+
+[33mcommit 963d2ceb42a894afeb4d35316e56aee6f0cfd90d[m
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Fri Jan 3 19:29:49 2020 +0300
+
+    fix to match string example
+
+[33mcommit 90b1476e9c6e5ff80e08dddf9c800b98be306510[m
+Merge: f23b774 326b70d
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Fri Jan 3 19:12:42 2020 +0300
+
+    Merge branch 'master' of https://github.com/Asabeneh/30DaysOfJavaScript
+
+[33mcommit 326b70db9341b08c5035dae4e9e2184852e0eabd[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 16:04:07 2020 +0200
+
+    script files added
+
+[33mcommit 5aeb038f5745e87c5efc254005e8d09257852d61[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 16:01:10 2020 +0200
+
+    script files added
+
+[33mcommit 947a6ca79bc8b8675472f942b9135cff987d6fae[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 14:39:27 2020 +0200
+
+    day 2 fixes
+
+[33mcommit b257090510bcbef49d8a4f4ab395fb45c101b1bf[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 14:30:53 2020 +0200
+
+    day 2 fixes
+
+[33mcommit c1095b9fd5eb6a91d9c0b6bfc7903e1b5d4b110c[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 12:50:31 2020 +0200
+
+    day 2 fixes
+
+[33mcommit 9960c823b5961b8323210a4d2c1fa2e56b8c520d[m
+Merge: b8ad02f 6ef058f
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 12:07:02 2020 +0200
+
+    python codes removed
+
+[33mcommit b8ad02ffaae63fb1af61304ef7bd63e42eade0e5[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 12:04:37 2020 +0200
+
+    python codes removed
+
+[33mcommit f23b7745a074bdb6a3181390c74826b2f370d2cf[m
+Merge: 5a3f62b 6ef058f
+Author: Patrick Njuguna <njuguna@njuguna.com>
+Date:   Fri Jan 3 12:25:52 2020 +0300
+
+    Merge pull request #1 from Asabeneh/master
+    
+    sync with upstream
+
+[33mcommit 6ef058f3838bee94a8b9cd4637049114f3528b58[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 03:21:40 2020 +0200
+
+    Fixes
+
+[33mcommit 83f1a5e61587d6bfaa6ab2a669c3627e24d4ee0a[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 03:01:28 2020 +0200
+
+    day 2
+
+[33mcommit c71408f538e8a7b07336bd60e23bd4362f5ce579[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 03:00:06 2020 +0200
+
+    day 2
+
+[33mcommit 1507caf8a3e6d8325f94bdb5f1a33bb01d15a16a[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Fri Jan 3 02:50:55 2020 +0200
+
+    day 2
+
+[33mcommit 5e27ca8ffd9742ffc2b994120b3a033a75ec074a[m
+Merge: cf3ee67 d472181
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 2 19:16:28 2020 +0200
+
+    Merge pull request #3 from JCorrivo/patch-1
+    
+    Fix filename typo
+
+[33mcommit cf3ee67fba8fefe509dc43f2213ce584b46b4588[m
+Merge: 9e5cf32 4a5dbf5
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 2 19:15:39 2020 +0200
+
+    Merge pull request #2 from akaustav/toc-fix
+    
+    fix: link to exercises in table of contents
+
+[33mcommit d4721810c6258237d7b7c925417099dc41792b0d[m
+Author: JCorrivo <jonathan.corriveau@gmail.com>
+Date:   Thu Jan 2 09:21:19 2020 -0500
+
+    Fix filename typo
+
+[33mcommit 4a5dbf588c6ea90ca8b1268a057791d95309de28[m
+Author: Ameet Kaustav <akaustav@republicservices.com>
+Date:   Thu Jan 2 06:57:40 2020 -0700
+
+    fix: link to exercises in table of contents
+
+[33mcommit 9e5cf32e994e7ff1b0cecc21c9f3eee7f05e2cb6[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 2 11:51:58 2020 +0200
+
+    some fixes
+
+[33mcommit 6b494b7c50feb896d28232575b282a8c6fd5c2ac[m
+Merge: 1ede251 5a3f62b
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 2 10:21:33 2020 +0200
+
+    fixes
+
+[33mcommit 1ede2511ba850e7f93aa96e894fab14f2e133469[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 2 10:19:28 2020 +0200
+
+    fixes
+
+[33mcommit 5a3f62bc8017b8fee72007604aff6ea1fc6203ee[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 2 00:18:46 2020 +0200
+
+    Fixes
+
+[33mcommit 6b21e8b267eb84385d6752e38247325bf2a0489a[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 2 00:15:16 2020 +0200
+
+    Fixes
+
+[33mcommit 4ffbb84d98ae2102d5ded8a6c71581138d3e6cc7[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 2 00:11:28 2020 +0200
+
+    Typo Fixes
+
+[33mcommit 1326bf8254688896d8ebd515288f52a8c248993b[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Thu Jan 2 00:02:43 2020 +0200
+
+    Typo fixes
+
+[33mcommit 24df9f13b8de8e0cdc86e56ab0b21655440cad21[m
+Author: Asabeneh <asabeneh@gmail.com>
+Date:   Wed Jan 1 21:41:36 2020 +0200
+
+    day 1
