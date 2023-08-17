@@ -190,7 +190,58 @@ console.log("The slope between the points is:", slope);
 
 // Exercise 7
 
-// Exercise 8
+
+// Exercise 10
+//const firstName = 'Gideon';
+//const lastName = 'Buba';
+ if(firstName.length > 7){
+    console.log('Your name is long') 
+    } else {
+        console.log('Your name is short') 
+ };
+
+
+ // Exercise 11
+ //const firstName = 'Gideon';
+//const lastName = 'Buba';
+if(firstName.length > lastName.length){
+    console.log(`Your first name, ${firstName} is longer than your last name ${lastName}`) 
+    } else {
+        console.log(`Your last name, ${lastName} is longer than your first name ${firstName}`) 
+ };
+
+
+// Exercise 12
+let myAge = 250
+let yourAge = 25
+
+let ageDifference = myAge - yourAge
+console.log(`I am ${ageDifference} years older than you`) 
+
+// Exercise 13
+let currentYear = new Date().getFullYear()
+let birthYear = prompt('Enter year of birth: ')
+let userBirthYear = parseInt(birthYear)
+
+let userAge = currentYear - userBirthYear;
+
+if (userBirthYear >= 18) {
+    console.log("You are allowed to drive.");
+  } else {
+    const yearsToWait = 18 - userAge;
+    console.log(`You are ${userAge}.You will be allowed to drive when you're ${yearsToWait}.`);
+  };
+
+// Exercise 14
+
+//
+
+
+
+
+
+
+
 
 
 
