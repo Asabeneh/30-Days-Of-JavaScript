@@ -84,20 +84,75 @@ switch (true) {
 console.log(`The student's grade is: ${grade}`);
 
 // Exercise 2
-/*
-let month = prompt('Input cuurent month: ');
-let cuurentMonth = month.toLowerCase()
+
+let month = prompt('Input current month: ');
+let currentMonth = month.toLowerCase();
 
 let autumn = ['september', 'october', 'november'];
 let winter = ['december', 'january', 'february'];
 let spring = ['march', 'april', 'may'];
 let summer = ['june', 'july', 'august'];
 
-if (cuurentMonth = autumn) {
-    console.log('It is autumn')
-} else if (cuurentMonth = winter) {
+if (autumn.includes(currentMonth)) {
+    console.log('It is autumn');
+} else if (winter.includes(currentMonth)) {
     console.log('It is winter');
+} else if (spring.includes(currentMonth)) {
+    console.log('It is spring');
+} else if (summer.includes(currentMonth)) {
+    console.log('It is summer');
+} else {
+    console.log('Invalid input or unknown season');
 }
-*/
+
+// Exercise 3
+let day = prompt('What is the day today? ');
+let lowerCaseDay = day.toLowerCase();
+
+switch (lowerCaseDay) {
+    case 'saturday':
+    case 'sunday':
+        console.log(`${day} is a weekend.`);
+        break;
+    case 'monday':
+    case 'tuesday':
+    case 'wednesday':
+    case 'thursday':
+    case 'friday':
+        console.log(`${day} is a working day.`);
+        break;
+    default:
+        console.log('Invalid day input.');
+}
+
+                                        // Exercise Level 3
+// Exercise 1
+let days = prompt('Enter month: ');
+let monthlyDays = days.toLowerCase();
+
+switch (monthlyDays) {
+    case 'february' :
+        console.log(`${monthlyDays} has 28 days`);
+        break;
+    case 'april':
+    case 'june':
+    case 'september':
+    case 'november':
+        console.log(` ${monthlyDays }has  30 days `);
+        break;
+    case 'january':
+    case 'march':
+    case 'may':
+    case 'july':
+    case 'august':
+    case 'october':
+    case 'december':
+        console.log (`${monthlyDays} has 31 days`);
+        break;
+    default:
+        console.log('Please enter correct month name') ;
+};
+
+
 
 
