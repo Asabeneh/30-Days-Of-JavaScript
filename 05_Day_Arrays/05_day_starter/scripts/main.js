@@ -93,9 +93,76 @@ const lastThreeCompanies = itCompanies.slice(-3)
 console.log(lastThreeCompanies)
 
 // Exercise 19
+// const middleIndex = Math.floor(itCompanies.length / 2);
+
+    //const middleIndex = Math.floor(itCompanies.length / 2);
+    //const middleCompany = itCompanies[middleIndex];
+
+console.log(middleCompany);
+const slicedMiddle = itCompanies.slice(middleIndex)
 
 
 // Exercise 20
+itCompanies.shift()
+console.log(itCompanies)
+
 // Exercise 21
+/*const itCompanies = ['facebook', 'google', 'microsoft', 'apple', 'IBM', 'oracle', 'amazon'];
+
+const middleIndex = Math.floor(itCompanies.length / 2);*/
+const remainingCompanies = [...itCompanies.slice(0, middleIndex), ...itCompanies.slice(middleIndex + 1)];
+
+console.log(remainingCompanies);
+
+
 // Exercise 22
+itCompanies.pop()
+console.log(itCompanies)
+
 // Exercise 23
+
+                                        // Exercise level 2
+// Exercise 2
+let text = 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+
+const textArray = text.split(" ");
+
+console.log(textArray)
+console.log(textArray.length)
+
+// Exercise 3
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+
+let beginningOfArray = shoppingCart.unshift('Meat', ...shoppingCart);
+let endOfArray = shoppingCart.shift('Sugar');
+let removeFromArray = shoppingCart.pop('Honey')
+shoppingCart[0] = 'GreenTea'
+
+console.log(beginningOfArray)
+console.log(endOfArray)
+console.log(removeFromArray)
+
+// Exercise 6
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+const backEnd = ['Node','Express', 'MongoDB']
+
+let fullStack = frontEnd.concat(backEnd)
+
+console.log(fullStack)
+
+                            // Exercise Level 3
+// Exercise 1
+
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+
+console.log(ages.sort())
+let minimunAge = ages[0]
+let maximumAge = ages[ages.length -1]
+
+console.log(minimunAge);
+console.log(maximumAge);
+
+
+
+
+
