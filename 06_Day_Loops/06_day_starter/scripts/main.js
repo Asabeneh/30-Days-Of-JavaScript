@@ -157,3 +157,118 @@ for (let i = 0; i < 6; i++) {
 
 console.log(randomId);
 
+                                    // Exercise level 2
+
+// Exercise 1                                     
+const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+let IdLength = Math.random() * 100
+let randomId = '';
+
+for (let i = 0; i < IdLength; i++) {
+    const randomIndex = Math.floor(Math.random() * characters.length);
+    randomId += characters.charAt(randomIndex);
+}
+
+console.log(randomId);
+
+//Exercise 2
+let characters = '0123456789ABCDEF';
+let hex = '#';
+
+for (let i = 0; i < 6; i++) {
+    const randomHex = Math.floor(Math.random * characters.length);
+    randomHex += characters.charAt(randomHex)
+}
+
+console.log(randomHex);
+
+// Exercise 3
+const numColors = 1; // Number of random colors to generate
+const colorArray = [];
+
+for (let i = 0; i < numColors; i++) {
+    const randomR = Math.floor(Math.random() * 256);
+    const randomG = Math.floor(Math.random() * 256);
+    const randomB = Math.floor(Math.random() * 256);
+
+    const randomRGB = `rgb(${randomR}, ${randomG}, ${randomB})`;
+    colorArray.push(randomRGB);
+}
+
+console.log(colorArray);
+
+// Exercise 4
+const newArr = [];
+
+for(let i = 0; i < countries.length; i++) {
+    newArr.push(countries[i].toUpperCase())
+}
+
+console.log(newArr);
+
+// Exercise 5 & 6
+for (let i = 0; i < countries.length; i++) {
+    let country = countries[i];
+    let countryLength = country.length;
+    console.log(`Country: ${country}, Length: ${countryLength}`);
+}
+
+// Exercise 7
+let countriesWithLand = []
+
+
+ for (i = 0; i < countries.length; i++) {
+
+    if (countries[i].includes('land')) {
+        countriesWithLand.push(countries[i])
+    }
+ }
+
+if (countriesWithLand.length > 0) {
+    console.log(countriesWithLand);
+} else {
+    console.log('These are countries without land')
+}
+
+// Exercise 8
+let countriesWithIa = []
+
+
+ for (i = 0; i < countries.length; i++) {
+
+    if (countries[i].includes('ia')) {
+        countriesWithIa.push(countries[i])
+    }
+ }
+
+if (countriesWithIa.length > 0) {
+    console.log(countriesWithIa);
+} else {
+    console.log('These are countries without "ia"')
+}
+
+// Exercise 9
+let highestIndex = -1
+let longestCountry = undefined
+
+for (let i = 0; i < countries.length; i++) {
+    if (i > highestIndex) {
+        highestIndex = i;
+        longestCountry = countries[i];
+    }
+} 
+
+console.log(longestCountry)
+
+// Exercise 10
+let fiveCharacters = [i]
+
+for (let i = 0; i < countries.length; i++) {
+    if(countries[i].length === 5) {
+        fiveCharacters.push(countries[i]);
+    }
+}
+
+console.log(fiveCharacters)
+
+// Exercise 11
