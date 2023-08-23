@@ -426,13 +426,13 @@ for(let i = 0; i <= 5; i++){
     ['Albania', 'Bolivia','Ethiopia']
     ```
 
-4. Using the above countries array, find the country containing the biggest number of characters.
+4. Using the countries array above, find the country containing the biggest number of characters.
 
       ```sh
       Ethiopia
       ```
 
-5. Using the above countries array, find the country containing only 5 characters.
+5. Using the countries array above, find the country containing only 5 characters.
 
     ```sh
     ['Japan', 'Kenya']
