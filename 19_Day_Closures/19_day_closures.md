@@ -68,19 +68,27 @@ function outerFunction() {
     }
 
     return {
-        plusOne:plusOne(),
-        minusOne:minusOne()
+        plusOne:plusOne,
+        minusOne:minusOne
     }
 }
 const innerFuncs = outerFunction()
 
-console.log(innerFuncs.plusOne)
-console.log(innerFuncs.minusOne)
+console.log(innerFuncs.plusOne())
+console.log(innerFuncs.plusOne())
+console.log(innerFuncs.plusOne())
+console.log(innerFuncs.minusOne())
+console.log(innerFuncs.minusOne())
+console.log(innerFuncs.plusOne())
 ```
 
 ```sh
 1
-0
+2
+3
+2
+1
+2
 ```
 
 🌕 You are making progress. Maintain your momentum,  keep the good work.  Now do some exercises for your brain and for your muscle.
