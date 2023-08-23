@@ -420,7 +420,7 @@ for(let i = 0; i <= 5; i++){
     ['Finland','Ireland', 'Iceland']
     ```
 
-3. In the countries array above, check if there is  a country or countries end with a substring 'ia'. If there are countries end with 'ia', print it as array. If there is no country containing the word 'ia', print 'These are countries ends without ia'.
+3. In the countries array above, check if there is a country or countries that ends with a substring 'ia'. If there are countries that ends with 'ia', print it as an array. If there is no country containing the word 'ia', print 'These are countries that ends without ia'.
 
     ```sh
     ['Albania', 'Bolivia','Ethiopia']
