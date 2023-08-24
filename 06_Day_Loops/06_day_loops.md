@@ -432,7 +432,7 @@ for(let i = 0; i <= 5; i++){
       Ethiopia
       ```
 
-5. Using the countries array above, find the country containing only 5 characters.
+5. Using the countries array above, find the country or countries containing only 5 characters.
 
     ```sh
     ['Japan', 'Kenya']
