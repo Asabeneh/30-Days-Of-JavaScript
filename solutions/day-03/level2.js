@@ -94,5 +94,5 @@ const month = now.getMonth() + 1;
 const date = now.getDate();
 const hours = now.getHours();
 const minutes = now.getMinutes();
-alert(`${currentYear}-${month}-${day} ${hours}:${minutes}`)
+alert(`${currentYear}-${month}-${day} ${hours}:${minutes}`);
 }
