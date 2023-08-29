@@ -110,5 +110,7 @@ const indexOfNorway = countries.findIndex((country) => country === 'Norway');
 const indexOfRussia = countries.findIndex((country) => country === 'Russia');
 
 
+                                            // Exercise level 2
+// Exercise 1
 
 
