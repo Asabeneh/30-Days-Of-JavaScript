@@ -43,10 +43,10 @@
 
 ## Functions
 
-So far we have seen many builtin JavaScript functions. In this section, we will focus on custom functions. What is a function? Before we start making functions, lets understand what function is and why we need function?
+So far we have seen many builtin JavaScript functions. In this section, we will focus on custom functions. What is a function? Before we start making functions, let's understand what function is and why we need functions?
 
 A function is a reusable block of code or programming statements designed to perform a certain task.
-A function is declared by a function key word followed by a name, followed by parentheses (). A parentheses can take a parameter. If a function take a parameter it will be called with argument. A function can also take a default parameter. To store a data to a function, a function has to return certain data types. To get the value we call or invoke a function.
+A function is declared by the function key word followed by a name, followed by parentheses (). A parentheses can take a parameter. If a function take a parameter it will be called with an argument. A function can also take a default parameter. To store data in a function, a function has to return certain data types. To get the value we call or invoke a function.
 Function makes code:
 
 - clean and easy to read
@@ -114,7 +114,7 @@ printFullName() // calling a function
 
 ### Function returning value
 
-Function can also return values, if a function does not return values the value of the function is undefined. Let us write the above functions with return. From now on, we return value to a function instead of printing it.
+Functions can also return values, if a function does not return values the value of the function is undefined. Let us write the above functions to include return statements. From now on, we return value to a function instead of printing it.
 
 ```js
 function printFullName (){
@@ -226,11 +226,11 @@ console.log(areaOfCircle(10))
 
 ### Function with unlimited number of parameters
 
-Sometimes we do not know how many arguments the user going to pass. Therefore, we should know how to write a function which can take unlimited number of arguments. The way we do it has a significant difference between a function declaration(regular function) and arrow function. Let us see examples both in function declaration and arrow function.
+Sometimes we do not know how many arguments the user is going to pass. Therefore, we should know how to write a function which can take unlimited number of arguments. This approach highlights a significant difference between a function declaration (regular function) and an arrow function. Let us see examples both using function declaration and arrow function.
 
 #### Unlimited number of parameters in regular function
 
- A function declaration provides a function scoped arguments array like object. Any thing we passed as argument in the function can be accessed from arguments object inside the functions. Let us see an example
+ A function declaration provides a function scoped arguments array like objects. Anything we pass as an argument to the function can be accessed using the arguments object inside the function. Let us see an example
 
  ```js
 // Let us access the arguments object
@@ -262,7 +262,7 @@ console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
 
 #### Unlimited number of parameters in arrow function
 
- Arrow function does not have the function scoped arguments object. To implement a function which takes unlimited number of arguments in an arrow function we use spread operator followed by any parameter name.  Any thing we passed as argument in the function can be accessed as array in the arrow function. Let us see an example
+ Arrow function does not have the function scoped arguments object. To implement a function that takes an unlimited number of arguments in an arrow function, we use the spread operator followed by any parameter name.  Anything we pass as an argument to the function can be accessed as an array within the arrow function. Let us see an example
 
  ```js
 // Let us access the arguments object
@@ -296,7 +296,7 @@ console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
 
 ### Anonymous Function
 
-Anonymous function or without name
+Anonymous function or function without name
 
 ```js
 const anonymousFun = function() {
@@ -308,7 +308,7 @@ const anonymousFun = function() {
 
 ### Expression Function
 
-Expression functions are anonymous functions. After we create a function without a name and we assign it to a variable. To return a value from the function we should call the variable. Look at the example below.
+Expression functions are anonymous functions. We create a function without a name and assign it to a variable. To return a value from the function, we can then call the variable. Look at the example below.
 
 ```js
 
@@ -322,7 +322,7 @@ console.log(square(2)) // -> 4
 
 ### Self Invoking Functions
 
-Self invoking functions are anonymous functions which do not need to be called to return a value.
+Self invoking functions are anonymous functions that do not need to be called to return a value.
 
 ```js
 (function(n) {
@@ -338,9 +338,9 @@ console.log(squaredNum)
 
 ### Arrow Function
 
-Arrow function is an alternative to write a function, however function declaration and arrow function have some minor differences.
+An arrow function is an alternative way to write a function, although function declaration and arrow function have some minor differences.
 
-Arrow function uses arrow instead of the keyword *function* to declare a function. Let us see both function declaration and arrow function.
+An arrow function uses an arrow instead of the keyword *function* to declare a function. Let us see both function declaration and arrow function.
 
 ```js
 // This is how we write normal or declaration function
@@ -394,7 +394,7 @@ console.log(printFullName('Asabeneh', 'Yetayeh'))
 
 ### Function with default parameters
 
-Sometimes we pass default values to parameters, when we invoke the function if we do not pass an argument the default value will be used. Both function declaration and arrow function can have a default value or values.
+Sometimes we pass default values to parameters, when we invoke the function if we do not pass an argument, the default value will be used. Both function declaration and arrow function can have a default value or values.
 
 ```js
 // syntax
@@ -504,7 +504,7 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
 
 It Will be covered in other section.
 
-🌕 You are a rising star, now you knew function . Now, you are super charged with the power of functions. You have just completed day 7 challenges and you are 7 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You are a rising star, now you know what a function is. Now you are super charged with the power of functions. You have just completed day 7's challenges and you are 7 steps ahead in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 
 
@@ -512,13 +512,13 @@ It Will be covered in other section.
 
 ### Exercises: Level 1
 
-1. Declare a function _fullName_ and it print out your full name.
-2. Declare a function _fullName_ and now it takes firstName, lastName as a parameter and it returns your full - name.
-3. Declare a function _addNumbers_ and it takes two two parameters and it returns sum.
-4. An area of a rectangle is calculated as follows: _area = length x width_. Write a function which calculates _areaOfRectangle_.
-5. A perimeter of a rectangle is calculated as follows: _perimeter= 2x(length + width)_. Write a function which calculates _perimeterOfRectangle_.
-6. A volume of a rectangular prism is calculated as follows: _volume = length x width x height_. Write a function which calculates _volumeOfRectPrism_.
-7. Area of a circle is calculated as follows: _area = π x r x r_. Write a function which calculates _areaOfCircle_
+1. Declare a function _fullName_ and print out your full name.
+2. Declare a function _fullName_ that takes firstName, lastName as parameters, and returns your full - name.
+3. Declare a function _addNumbers_ that takes two parameters and returns their sum.
+4. The area of a rectangle is calculated as follows: _area = length x width_. Write a function which calculates _areaOfRectangle_.
+5. The perimeter of a rectangle is calculated as follows: _perimeter= 2x(length + width)_. Write a function which calculates _perimeterOfRectangle_.
+6. The volume of a rectangular prism is calculated as follows: _volume = length x width x height_. Write a function which calculates _volumeOfRectPrism_.
+7. The area of a circle is calculated as follows: _area = π x r x r_. Write a function which calculates _areaOfCircle_
 8. Circumference of a circle is calculated as follows: _circumference = 2πr_. Write a function which calculates _circumOfCircle_
 9. Density of a substance is calculated as follows:_density= mass/volume_. Write a function which calculates _density_.
 10. Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates a speed of a moving object, _speed_.
@@ -532,8 +532,8 @@ It Will be covered in other section.
     - _Overweight_: BMI is 25 to 29.9
     - _Obese_: BMI is 30 or more
 
-14. Write a function called _checkSeason_, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
-15. Math.max returns its largest argument. Write a function findMax that takes three arguments and returns their maximum with out using Math.max method.
+14. Write a function called _checkSeason_, that takes a month parameter and returns the season: Autumn, Winter, Spring or Summer.
+15. Math.max returns its largest argument. Write a function findMax that takes three arguments and returns their maximum without using Math.max method.
 
     ```js
     console.log(findMax(0, 10, 5))
@@ -545,7 +545,7 @@ It Will be covered in other section.
 ### Exercises: Level 2
 
 1. Linear equation is calculated as follows: _ax + by + c = 0_. Write a function which calculates value of a linear equation, _solveLinEquation_.
-1. Quadratic equation is calculated as follows: _ax2 + bx + c = 0_. Write a function which calculates value or values of a quadratic equation, _solveQuadEquation_.
+1. Quadratic equation is calculated as follows: _ax2 + bx + c = 0_. Write a function that calculates the value or values of a quadratic equation, _solveQuadEquation_.
 
     ```js
     console.log(solveQuadratic()) // {0}
@@ -556,22 +556,22 @@ It Will be covered in other section.
     console.log(solveQuadratic(1, -1, 0)) //{1, 0}
     ```
 
-1. Declare a function name _printArray_. It takes array as a parameter and it prints out each value of the array.
-1. Write a function name _showDateTime_ which shows time in this format: 08/01/2020 04:08 using the Date object.
+1. Declare a function name _printArray_ that takes an array as parameter and it prints out each value of the array.
+1. Write a function name _showDateTime_ that shows time in this format: 08/01/2020 04:08 using the Date object.
 
     ```sh
     showDateTime()
     08/01/2020 04:08
     ```
 
-1. Declare a function name _swapValues_. This function swaps value of x to y.
+1. Declare a function name _swapValues_. This function swaps value of x with y.
 
     ```js
     swapValues(3, 4) // x => 4, y=>3
     swapValues(4, 5) // x = 5, y = 4
     ```
 
-1. Declare a function name _reverseArray_. It takes array as a parameter and it returns the reverse of the array (don't use method).
+1. Declare a function name _reverseArray_. It takes an array as a parameter and it returns the reverse of the array (don't use the reverse method).
 
     ```js
     console.log(reverseArray([1, 2, 3, 4, 5]))
@@ -580,13 +580,13 @@ It Will be covered in other section.
     //['C', 'B', 'A']
     ```
 
-1. Declare a function name _capitalizeArray_. It takes array as a parameter and it returns the - capitalizedarray.
-1. Declare a function name _addItem_. It takes an item parameter and it returns an array after adding the item
-1. Declare a function name _removeItem_. It takes an index parameter and it returns an array after removing an item
-1. Declare a function name _sumOfNumbers_. It takes a number parameter and it adds all the numbers in that range.
-1. Declare a function name _sumOfOdds_. It takes a number parameter and it adds all the odd numbers in that - range.
-1. Declare a function name _sumOfEven_. It takes a number parameter and it adds all the even numbers in that - range.
-1. Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
+1. Declare a function named _capitalizeArray_ that takes an array as parameter and returns the - capitalizedarray.
+1. Declare a function named _addItem_ that takes an item parameter and returns an array after adding the item.
+1. Declare a function named _removeItem_ that takes an index parameter and returns an array after removing an item.
+1. Declare a function named _sumOfNumbers_ that takes a number parameter and it adds all the numbers in that range.
+1. Declare a function named _sumOfOdds_ that takes a number parameter and it adds all the odd numbers in that range.
+1. Declare a function named _sumOfEven_ that takes a number parameter and it adds all the even numbers in that range.
+1. Declare a function named _evensAndOdds_ that takes a positive integer as parameter and icounts number of evens and odds in the number.
 
     ```sh
     evensAndOdds(100);
@@ -594,15 +594,15 @@ It Will be covered in other section.
     The number of evens are 51.
     ```
 
-1. Write a function which takes any number of arguments and return the sum of the arguments
+1. Write a function which takes any number of arguments and returns the sum of the arguments.
 
     ```js
     sum(1, 2, 3) // -> 6
     sum(1, 2, 3, 4) // -> 10
     ```
 
-1. Writ a function which generates a _randomUserIp_.
-1. Write a function which generates a _randomMacAddress_
+1. Writ a function that generates a _randomUserIp_.
+1. Write a function that generates a _randomMacAddress_
 1. Declare a function name _randomHexaNumberGenerator_. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
 
     ```sh
@@ -610,7 +610,7 @@ It Will be covered in other section.
     '#ee33df'
     ```
 
-1. Declare a function name _userIdGenerator_. When this function is called it generates seven character id. The function return the id.
+1. Declare a function named _userIdGenerator_. When this function is called, it generates a seven-character ID and returns the ID.
 
     ```sh
     console.log(userIdGenerator());
@@ -619,7 +619,7 @@ It Will be covered in other section.
 
 ### Exercises: Level 3
 
-1. Modify the _userIdGenerator_ function. Declare a function name _userIdGeneratedByUser_. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
+1. Modify the _userIdGenerator_ function. Declare a function named _userIdGeneratedByUser_. It doesn’t take any parameters but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of IDs which are supposed to be generated.
 
     ```sh
     userIdGeneratedByUser()
@@ -638,18 +638,18 @@ It Will be covered in other section.
     '
     ```
 
-1. Write a function name _rgbColorGenerator_ and it generates rgb colors.
+1. Write a function named _rgbColorGenerator_ that generates rgb colors.
 
     ```sh
     rgbColorGenerator()
     rgb(125,244,255)
     ```
 
-1. Write a function **_arrayOfHexaColors_** which return any number of hexadecimal colors in an array.
-1. Write a function **_arrayOfRgbColors_** which return any number of RGB colors in an array.
-1. Write a function **_convertHexaToRgb_** which converts hexa color to rgb and it returns an rgb color.
-1. Write a function **_convertRgbToHexa_** which converts rgb to hexa color and it returns an hexa color.
-1. Write a function **_generateColors_** which can generate any number of hexa or rgb colors.
+1. Write a function **_arrayOfHexaColors_** which returns any number of hexadecimal colors in an array.
+1. Write a function **_arrayOfRgbColors_** which returns any number of RGB colors in an array.
+1. Write a function **_convertHexaToRgb_** which converts hexadecimal format to rgb and returns an rgb color.
+1. Write a function **_convertRgbToHexa_** which converts rgb to hexadecimal format and returns an hexadecimal color.
+1. Write a function **_generateColors_** which can generate any number of hexadecimal or rgb colors.
 
     ```js
     console.log(generateColors('hexa', 3)) // ['#a3e12f', '#03ed55', '#eb3d2b']
@@ -662,9 +662,9 @@ It Will be covered in other section.
 1. Call your function _factorial_, it takes a whole number as a parameter and it return a factorial of the number
 1. Call your function _isEmpty_, it takes a parameter and it checks if it is empty or not
 1. Call your function _sum_, it takes any number of arguments and it returns the sum.
-1. Write a function called _sumOfArrayItems_, it takes an array parameter and return the sum of all the items. Check if all the array items are number types. If not give return reasonable feedback.
-1. Write a function called _average_, it takes an array parameter and returns the average of the items. Check if all the array items are number types. If not give return reasonable feedback.
-1. Write a function called _modifyArray_ takes array as parameter and modifies the fifth item of the array and return the array. If the array length is less than five it return 'item not found'.
+1. Write a function called _sumOfArrayItems_, it takes an array as parameter and returns the sum of all the items. Check if all the array items are of number type. If not give a reasonable feedback.
+1. Write a function called _average_, it takes an array parameter and returns the average of the items. Check if all the array items are number types. If not give a reasonable feedback.
+1. Write a function called _modifyArray_ that takes an array as parameter and modifies the fifth item of the array and return the array. If the array length is less than five returns 'item not found'.
 
     ```js
     console.log(modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot']);
@@ -690,18 +690,18 @@ It Will be covered in other section.
       'Not Found'
     ```
 
-1. Write a function called _isPrime_, which checks if a number is prime number.
-1. Write a functions which checks if all items are unique in the array.
+1. Write a function called _isPrime_, which checks if a number is a prime number.
+1. Write a functions which checks if all items in the array are unique.
 1. Write a function which checks if all the items of the array are the same data type.
-1. JavaScript variable name does not support special characters or symbols except \$ or \_. Write a function **isValidVariable** which check if a variable is valid or invalid variable.
-1. Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
+1. JavaScript variable names do not support special characters or symbols except \$ or \_. Write a function **isValidVariable** which check if a variable is valid or invalid.
+1. Write a function which returns an array of seven random numbers in a range of 0-9. All the numbers must be unique.
 
     ```js
     sevenRandomNumbers()
     [(1, 4, 5, 7, 9, 8, 0)]
     ```
 
-1. Write a function called reverseCountries, it takes countries array and first it copy the array and returns the reverse of the original array
+1. Write a function called _reverseCountries_ that takes a _countries_ array as parameter. First, it copies the array and then returns the reverse of the original array.
 
 🎉 CONGRATULATIONS ! 🎉
 

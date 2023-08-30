@@ -86,7 +86,7 @@ We agreed that boolean values are either true or false.
 - the boolean false
 - '', "", ``, empty string
 
-It is good to remember those truthy values and falsy values. In later section, we will use them with conditions to make decisions.
+It's important to remember truthy and falsy values. In later section, we will use them with conditions to make decisions.
 
 ## Undefined
 
@@ -108,7 +108,7 @@ console.log(empty) // -> null , means no value
 
 ### Assignment operators
 
-An equal sign in JavaScript is an assignment operator. It uses to assign a variable.
+An equal sign in JavaScript is an assignment operator. It is used to assign a value to a variable.
 
 ```js
 let firstName = 'Asabeneh'
@@ -164,7 +164,7 @@ const boilingPoint = 100  // temperature in oC, boiling point of water
 const bodyTemp = 37       // body temperature in oC
 
 
-// Concatenating string with numbers using string interpolation
+// Concatenating strings with numbers using string interpolation
 /*
  The boiling point of water is 100 oC.
  Human body temperature is 37 oC.
@@ -177,7 +177,7 @@ console.log(
 
 ### Comparison Operators
 
-In programming we compare values, we use comparison operators to compare two values. We check if a value is greater or less or equal to other value.
+In programming we compare values, we use a comparison operator to compare two values. We check if a value is greater or less or equal to another value.
 
 ![Comparison Operators](../images/comparison_operators.png)
 **Example: Comparison Operators**
@@ -218,17 +218,17 @@ console.log('python'.length > 'dragon'.length)   // false
 ```
 
 Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
-JavaScript is somehow a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
+JavaScript is somehow a wired kind of programming language. JavaScript code runs and gives you a result but unless you are good at it may not give the desired result.
 
-As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
+As a rule of thumb, if a value is not considered true with == it won't be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparisons of data types.
 
 ### Logical Operators
 
 The following symbols are the common logical operators:
-&&(ampersand) , ||(pipe) and !(negation).
-The && operator gets true only if the two operands are true.
-The || operator gets true either of the operand is true.
-The ! operator negates true to false and false to true.
+_&&_(ampersand) , ||(pipe) and !(negation).
+The _&&_ operator evaluates to true only if the two operands are true.
+The _||_ operator evaluates to true if either of the operand is true.
+The _!_ operator converts true to false and false to true through negation.
 
 ```js
 // && ampersand operator example
@@ -254,7 +254,7 @@ let isMarried = !false                // true
 
 ### Increment Operator
 
-In JavaScript we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
+In JavaScript we use the increment operator to increase a value stored in a variable. The increment could be pre or post-increment. Let us see each of them:
 
 1. Pre-increment
 
@@ -272,11 +272,11 @@ console.log(count++)        // 0
 console.log(count)          // 1
 ```
 
-We use most of the time post-increment. At least you should remember how to use post-increment operator.
+We use most of the time the post-increment. At least you should remember how to use the post-increment operator.
 
 ### Decrement Operator
 
-In JavaScript we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement. Let us see each of them:
+In JavaScript we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post-decrement. Let us see each of them:
 
 1. Pre-decrement
 
@@ -335,13 +335,13 @@ number > 0
 
 ### Operator Precedence
 
-I would like to recommend you to read about operator precedence from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+I recommend reading about operator precedence from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 
 ## Window Methods
 
 ### Window alert() method
 
-As you have seen at very beginning alert() method displays an alert box with a specified message and an OK button. It is a builtin method and it takes on argument.
+As you have seen, at very beginning the _alert()_ method displays an alert box with a specified message and an OK button. It is a built-in method and it takes one argument.
 
 ```js
 alert(message)
@@ -351,11 +351,11 @@ alert(message)
 alert('Welcome to 30DaysOfJavaScript')
 ```
 
-Do not use too much alert because it is destructing and annoying, use it just to test.
+Do not use too much alerts because it is destructing and annoying, use it just to test.
 
 ### Window prompt() method
 
-The window prompt methods display a prompt box with an input on your browser to take input values and the input data can be stored in a variable. The prompt() method takes two arguments. The second argument is optional.
+The window.prompt method displays an input prompt box in your browser, allowing you to gather input values that can be stored in variables. The _prompt()_ method requires two arguments, with the second one being optional.
 
 ```js
 prompt('required text', 'optional text')
@@ -368,8 +368,8 @@ console.log(number)
 
 ### Window confirm() method
 
-The confirm() method displays a dialog box with a specified message, along with an OK and a Cancel button.
-A confirm box is often used to ask permission from a user to execute something. Window confirm() takes a string as an argument.
+The _confirm()_ method displays a dialog box with a specified message, along with an OK and a Cancel button.
+A confirm box is often used to ask permission from a user to execute something. _Window.confirm()_ takes a string as argument.
 Clicking the OK yields true value, whereas clicking the Cancel button yields false value.
 
 ```js
@@ -377,25 +377,25 @@ const agree = confirm('Are you sure you like to delete? ')
 console.log(agree) // result will be true or false based on what you click on the dialog box
 ```
 
-These are not all the window methods we will have a separate section to go deep into window methods.
+These are not all the window methods, we will have a separate section to go deep into window methods.
 
 ## Date Object
 
-Time is an important thing. We like to know the time a certain activity or event. In JavaScript current time and date is created using JavaScript Date Object. The object we create using Date object provides many methods to work with date and time.The methods we use to get date and time information from a date object values are started with a word _get_ because it provide the information.
+Time is an important thing. We like to know the time a certain activity or event. In JavaScript the current time and date are created using the JavaScript Date Object. The object created using the Date object offers numerous methods for handling dates and times. The methods employed to extract date and time details from date object values are prefixed with the word 'get' because they provide this information.
 _getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
 
 ![Date time Object](../images/date_time_object.png)
 
 ### Creating a time object
 
-Once we create time object. The time object will provide information about time. Let us create a time object
+Once we create a time object, the time object will provide information about time. Let us create a time object.
 
 ```js
 const now = new Date()
 console.log(now) // Sat Jan 04 2020 00:56:41 GMT+0200 (Eastern European Standard Time)
 ```
 
-We have created a time object and we can access any date time information from the object using the get methods we have mentioned on the table.
+We have created a time object and we can access any date time information from an object using the get methods as we have mentioned.
 
 ### Getting full year
 
@@ -464,7 +464,7 @@ console.log(now.getSeconds()) // 41, because the time is 00:56:41
 
 ### Getting time
 
-This method give time in milliseconds starting from January 1, 1970. It is also know as Unix time. We can get the unix time in two ways:
+This method gives the time in milliseconds starting from January 1, 1970. It is also known as Unix time. We can get the unix time in two ways:
 
 1. Using _getTime()_
 
@@ -497,20 +497,20 @@ const minutes = now.getMinutes() // return number (0 -59)
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
 
-🌕  You have boundless energy. You have just completed day 3 challenges and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕  You have boundless energy. You have just completed day 3's challenges and you are three steps ahead in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## 💻 Day 3: Exercises
 
 ### Exercises: Level 1
 
-1. Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.
+1. Declare _firstName_, _lastName_, _country_, _city_, _age_, _isMarried_, _year_ variables and assign values to them and use the _typeof_ operator to check the different data types.
 2. Check if type of '10' is equal to 10
-3. Check if parseInt('9.8') is equal to 10
+3. Check if _parseInt('9.8')_ is equal to 10
 4. Boolean value is either true or false.
-   1. Write three JavaScript statement which provide truthy value.
-   2. Write three JavaScript statement which provide falsy value.
+   1. Write three JavaScript statements which provide truthy value.
+   2. Write three JavaScript statements which provide falsy value.
 
-5. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+5. First, determine the result of the following comparison expression without using _console.log()_. Once you've made your decision, confirm the result using _console.log()_.
    1. 4 > 3
    2. 4 >= 3
    3. 4 < 3
@@ -522,9 +522,9 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    9. 4 != '4'
    10. 4 == '4'
    11. 4 === '4'
-   12. Find the length of python and jargon and make a falsy comparison statement.
+   12. Find the length of 'python' and 'jargon' and make a falsy comparison statement.
 
-6. Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
+6. First, determine the result of the following comparison expression without using _console.log()_. Once you've made your decision, confirm the result using _console.log()_.
    1. 4 > 3 && 10 < 12
    2. 4 > 3 && 10 > 12
    3. 4 > 3 || 10 < 12
@@ -535,7 +535,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    8. !(4 > 3 && 10 < 12)
    9. !(4 > 3 && 10 > 12)
    10. !(4 === '4')
-   11. There is no 'on' in both dragon and python
+   11. There is no 'on' in both 'dragon' and 'python'
 
 7. Use the Date object to do the following activities
    1. What is the year today?
@@ -548,7 +548,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 
 ### Exercises: Level 2
 
-1. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+1. Write a script that prompt the user to enter a base and a height of the triangle and calculate the area of a triangle (area = 0.5 x b x h).
 
    ```sh
    Enter base: 20
@@ -556,7 +556,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    The area of the triangle is 100
    ```
 
-1. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
+1. Write a script that prompts the user to enter side a, side b, and side c of the triangle and calculate the perimeter of a triangle (perimeter = a + b + c)
 
    ```sh
    Enter side a: 5
@@ -565,13 +565,13 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    The perimeter of the triangle is 12
    ```
 
-1. Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
-1. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+1. Get a length and a width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
+1. Get a radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 1. Calculate the slope, x-intercept and y-intercept of y = 2x -2
 1. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between point (2, 2) and point(6,10)
-1. Compare the slope of above two questions.
+1. Compare the slope of the above two questions.
 1. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
-1. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+1. Writ a script that prompts a user to enter hours and rate per hour. Calculate pay of the person?
 
     ```sh
     Enter hours: 40
@@ -579,8 +579,8 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
     Your weekly earning is 1120
     ```
 
-1. If the length of your name is greater than 7 say, your name is long else say your name is short.
-1. Compare your first name length and your family name length and you should get this output.
+1. If the length of your name is greater than 7 say, 'your name is long' else say 'your name is short'.
+1. Compare your first name's length and your family name's length, and the expected output should be.
 
     ```js
     let firstName = 'Asabeneh'
@@ -602,7 +602,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    I am 225 years older than you.
    ```
 
-1. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+1. Using the prompt, get the year the user was born and if the user is 18 or above allow the user to drive, if not tell the user to wait a certain amount of years.
 
     ```sh
 
@@ -613,7 +613,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
     You are 15. You will be allowed to drive after 3 years.
     ```
 
-1. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
+1. Create a script that prompts the user to input a number of years and calculates the total number of seconds a person can live, assuming a lifespan of one hundred years.
 
    ```sh
    Enter number of years you live: 100

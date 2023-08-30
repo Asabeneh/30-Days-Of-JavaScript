@@ -33,11 +33,11 @@
 
 ## Conditionals
 
-Conditional statements are used for  make decisions based on different conditions.
-By default , statements in JavaScript script executed sequentially from top to bottom. If the processing logic require so, the sequential flow of execution can be altered in two ways:
+Conditional statements are used to make decisions based on different conditions.
+By default, statements in JavaScript's scripts are executed sequentially from top to bottom. If the processing logic requires so, the sequential flow of execution can be altered in two ways:
 
-- Conditional execution: a block of one or more statements will be executed if a certain expression is true
-- Repetitive execution: a block of one or more statements will be repetitively executed as long as a certain expression is true. In this section, we will cover _if_, _else_ , _else if_ statements. The comparison and logical operators we learned in the previous sections will be useful in here.
+- Conditional execution: a block of one or more statements will be executed if a certain expression is true.
+- Repetitive execution: a block of one or more statements will be repetitively executed as long as a certain expression is true. In this section, we will cover _if_, _else_ , _else if_ statements. The comparison and logical operators we learned in the previous sections will be useful here.
 
 Conditions can be implementing using the following ways:
 
@@ -49,7 +49,7 @@ Conditions can be implementing using the following ways:
 
 ### If
 
-In JavaScript and other programming languages the key word _if_ is to used check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
+In JavaScript and other programming languages, the key word _if_ is used to check if a condition is true and to execute the block code. To create an if condition, we need the _if_ keyword, place the condition within parentheses, and enclose the block of code within curly brackets ({}).
 
 ```js
 // syntax
@@ -68,7 +68,7 @@ if (num > 0) {
 //  3 is a positive number
 ```
 
-As you can see in the  condition example above, 3 is greater than 0, so it is a positive number. The condition was true and the block of code was executed. However, if the condition is false, we won't  see any results.
+As you can see in the  condition example above, 3 is greater than 0, so it is a positive number. The condition was true and the block of code was executed. However, if the condition is false, we won't see any results.
 
 ```js
 let isRaining = true
@@ -77,7 +77,7 @@ if (isRaining) {
 }
 ```
 
- The same goes for the second condition, if isRaining is false the if block will not be executed and we do not see any output. In order to see the result of a falsy condition, we should have another block, which is going to be _else_.
+The same goes for the second condition, if _isRaining_ is false the if block will not be executed and we do not see any output. In order to see the result of a falsy condition, we should have another block, which is going to be _else_.
 
 ### If Else
 
@@ -128,11 +128,11 @@ if (isRaining) {
 // No need for a rain coat.
 ```
 
-The last condition is false, therefore the else block was executed. What if we have more than two conditions? In that case,  we would use *else if* conditions.
+The last condition is false, therefore the else block was executed. What if we have more than two conditions? In that case, we would use *else if* conditions.
 
 ### If  Else if Else
 
-On our daily life, we make decisions on daily basis. We make decisions not by checking  one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full of conditions. We use *else if* when we have multiple conditions.
+In our daily life, we make decisions on daily basis. We make decisions not by checking one or two conditions, instead we make decisions based on multiple conditions. Similarly to our daily life, programming is also full of conditions. We use *else if* when we have multiple conditions.
 
 ```js
 // syntax
@@ -178,7 +178,7 @@ if (weather === 'rainy') {
 ### Switch
 
 Switch  is an alternative for **if else if else else**.
-The switch statement starts with a *switch* keyword followed by a parenthesis and code block. Inside the code block we will have different cases. Case block runs if the value in the switch statement parenthesis matches with the case value. The break statement is to terminate execution so the code execution  does not go down after the condition is satisfied.  The default block runs if all the cases don't satisfy the condition.
+The switch statement starts with a *switch* keyword followed by a parenthesis and a code block. Inside the code block we will have different cases. The case block runs when the value in the switch statement's parentheses matches the case value. The break statement is used to terminate execution so that code execution does not continue after the condition is satisfied. The default block runs when none of the cases satisfy the condition.
 
 ```js
 switch(caseValue){
@@ -274,30 +274,30 @@ isRaining
   : console.log('No need for a rain coat.')
 ```
 
-🌕  You are extraordinary and you have a remarkable potential. You have just completed day 4 challenges and you are four steps ahead to your way to greatness. Now do some exercises for your brain and  muscle.  
+🌕  You are extraordinary and you have a remarkable potential. You have just completed day 4's challenges and you are four steps ahead to your way to greatness. Now do some exercises for your brain and muscles.  
 
 ## 💻 Exercises
 
 ### Exercises: Level 1
 
-1. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to  wait for the number of years he needs to turn 18.
+1. Get the user input using the prompt(“Enter your age:”). If the user is 18 or older, provide feedback:'You are old enough to drive' Otherwise, if the user is not 18, provide feedback indicating how many years they need to wait until they turn 18.
 
    ```sh
    Enter your age: 30
    You are old enough to drive.
 
    Enter your age:15
-   You are left with 3 years to drive.
+   You have 3 years left before you can drive.
    ```
 
-1. Compare the values of myAge and yourAge using if … else. Based on the comparison and log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
+1. Compare the values of _myAge_ and _yourAge_ using if … else. Based on the comparison log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
 
    ```sh
    Enter your age: 30
    You are 5 years older than me.
    ```
 
-1. If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in to ways
+1. If _a_ is greater than _b_ return 'a is greater than b' else 'a is less than b'. Try to implement it in two ways.
 
     - using if else
     - ternary operator.
@@ -323,7 +323,7 @@ isRaining
 
 ### Exercises: Level 2
 
-1. Write a code which  can give grades to students according to theirs scores:
+1. Write a code that assigns grades to students based on their scores:
    - 80-100, A
    - 70-89, B
    - 60-69, C
@@ -369,7 +369,7 @@ isRaining
     February has 28 days.
   ```
 
-1. Write a program which tells the number of days in a month, now consider leap year.
+1. Write a program that calculates the number of days in a given month, taking leap years into account.
 
 
 🎉 CONGRATULATIONS ! 🎉

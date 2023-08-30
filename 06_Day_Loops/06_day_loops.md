@@ -34,7 +34,7 @@
 
 ## Loops
 
-Most of the activities we do in life are full of repetitions. Imagine if I ask you to print out from 0 to 100 using console.log(). To implement this simple task it may take you 2 to 5 minutes, such kind of tedious and repetitive task can be carried out using loop. If you prefer watching the videos, you can checkout the [video tutorials](https://www.youtube.com/channel/UCM4xOopkYiPwJqyKsSqL9mw)
+Most of the activities we do in life are full of repetitions. Imagine if I ask you to print out numbers from 0 to 100 using console.log(). To implement this simple task it may take you 2 to 5 minutes, such kind of tedious and repetitive task can be carried out using loops. If you prefer watching the videos, you can checkout the [video tutorials](https://www.youtube.com/channel/UCM4xOopkYiPwJqyKsSqL9mw)
 
 In programming languages to carry out repetitive task we use different kinds of loops. The following examples are the commonly used loops in JavaScript and other programming languages.
 
@@ -351,8 +351,8 @@ for(let i = 0; i <= 5; i++){
       [2550, 2500]
     ```
 
-13. Develop a small script which generate array of 5 random numbers
-14. Develop a small script which generate array of 5 random numbers and the numbers must be unique
+13. Develop a small script which generate an array of 5 random numbers
+14. Develop a small script which generate an array of 5 random numbers and the numbers must be unique
 15. Develop a small script which generate a six characters random id:
 
     ```sh
@@ -361,7 +361,7 @@ for(let i = 0; i <= 5; i++){
 
 ### Exercises: Level 2
 
-1. Develop a small script which generate any number of characters random id:
+1. Develop a small script that generates a random ID with any number of characters:
 
     ```sh
       fe3jo1gl124g
@@ -389,7 +389,7 @@ for(let i = 0; i <= 5; i++){
     ["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
     ```
 
-1. Using the above countries array, create an array for countries length'.
+1. Using the above countries array, create an array for the countries length'.
 
     ```sh
     [7, 7, 6, 7, 8, 7, 7, 7, 7, 5, 5]
@@ -414,13 +414,13 @@ for(let i = 0; i <= 5; i++){
     ]
     ```
 
-2. In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print 'All these countries are without land'.
+2. In the above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print 'All these countries are without land'.
 
     ```sh
     ['Finland','Ireland', 'Iceland']
     ```
 
-3. In above countries array, check if there is  a country or countries end with a substring 'ia'. If there are countries end with, print it as array. If there is no country containing the word 'ai', print 'These are countries ends without ia'.
+3. In the above countries array, check if there is  a country or countries ending with a substring 'ia'. If there are countries that end with it, print them as an array. If there are no countries containing the word 'ai', print 'These are countries that do not end with 'ia'.
 
     ```sh
     ['Albania', 'Bolivia','Ethiopia']
@@ -474,10 +474,10 @@ for(let i = 0; i <= 5; i++){
 1. Sort the webTechs array and mernStack array
 1. Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
 1. Find the country containing the hightest number of characters in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
-1. Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
+1. Extract all the countries containing the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as an array
 1. Extract all the countries containing only four characters from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
 1. Extract all the countries containing two or more words from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-1. Reverse the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and capitalize each country and stored it as an array
+1. Reverse the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and capitalize each country and store it as an array
 
 🎉 CONGRATULATIONS ! 🎉
 

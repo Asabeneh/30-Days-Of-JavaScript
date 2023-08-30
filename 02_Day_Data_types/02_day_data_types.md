@@ -208,7 +208,7 @@ console.log(Math.max(-5, 3, 20, 4, 5, 10)) // 20, returns the maximum value
 const randNum = Math.random() // creates random number between 0 to 0.999999
 console.log(randNum)
 
-// Let us  create random number between 0 to 10
+// Let us  create a random number between 0 to 10
 
 const num = Math.floor(Math.random () * 11) // creates random number between 0 and 10
 console.log(num)
@@ -245,7 +245,7 @@ Math.cos(60)
 
 #### Random Number Generator
 
-The JavaScript Math Object has a random() method number generator which generates number from 0 to 0.999999999...
+The JavaScript Math Object has a random() method number generator which generates a number from 0 to 0.999999999...
 
 ```js
 let randomNum = Math.random() // generates 0 to 0.999...
@@ -331,9 +331,9 @@ A string could be a single character or paragraph or a page. If the string lengt
 const paragraph = "My name is Asabeneh Yetayeh. I live in Finland, Helsinki.\
 I am a teacher and I love teaching. I teach HTML, CSS, JavaScript, React, Redux, \
 Node.js, Python, Data Analysis and D3.js for anyone who is interested to learn. \
-In the end of 2019, I was thinking to expand my teaching and to reach \
+At the end of 2019, I was thinking to expand my teaching and to reach \
 to global audience and I started a Python challenge from November 20 - December 19.\
-It was one of the most rewarding and inspiring experience.\
+It was one of the most rewarding and inspiring experiences.\
 Now, we are in 2020. I am enjoying preparing the 30DaysOfJavaScript challenge and \
 I hope you are enjoying too."
 
@@ -965,7 +965,7 @@ console.log(numInt) // 9
 
 ### Exercises: Level 3
 
-1. 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word __love__ in this sentence.
+1. 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of words __love__ in this sentence.
 2. Use __match()__ to count the number of all __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 3. Clean the following text and find the most frequent word (hint, use replace and regular expressions).
 
