@@ -504,7 +504,7 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
 
 It Will be covered in other section.
 
-🌕 You are a rising star, now you knew function . Now, you are super charged with the power of functions. You have just completed day 7 challenges and you are 7 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You are a rising star, now you know function. Now, you are super charged with the power of functions. You have just completed day 7 challenges and you are 7 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 
 
@@ -513,7 +513,7 @@ It Will be covered in other section.
 ### Exercises: Level 1
 
 1. Declare a function _fullName_ and it print out your full name.
-2. Declare a function _fullName_ and now it takes firstName, lastName as a parameter and it returns your full - name.
+2. Declare a function _fullName_ and now it takes firstName, lastName as a parameter and it returns your full name.
 3. Declare a function _addNumbers_ and it takes two two parameters and it returns sum.
 4. An area of a rectangle is calculated as follows: _area = length x width_. Write a function which calculates _areaOfRectangle_.
 5. A perimeter of a rectangle is calculated as follows: _perimeter= 2x(length + width)_. Write a function which calculates _perimeterOfRectangle_.
@@ -521,10 +521,10 @@ It Will be covered in other section.
 7. Area of a circle is calculated as follows: _area = π x r x r_. Write a function which calculates _areaOfCircle_
 8. Circumference of a circle is calculated as follows: _circumference = 2πr_. Write a function which calculates _circumOfCircle_
 9. Density of a substance is calculated as follows:_density= mass/volume_. Write a function which calculates _density_.
-10. Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates a speed of a moving object, _speed_.
+10. Speed is calculated by dividing the total distance covered by a moving object by the total amount of time taken. Write a function that calculates the _speed_ of a moving object.
 11. Weight of a substance is calculated as follows: _weight = mass x gravity_. Write a function which calculates _weight_.
 12. Temperature in oC can be converted to oF using this formula: _oF = (oC x 9/5) + 32_. Write a function which convert oC to oF _convertCelsiusToFahrenheit_.
-13. Body mass index(BMI) is calculated as follows: _bmi = weight in Kg / (height x height) in m2_. Write a function which calculates _bmi_. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is _underweight, normal, overweight_ or _obese_ based the information given below.
+13. Body mass index(BMI) is calculated as follows: _bmi = weight in Kg / (height x height) in m2_. Write a function which calculates _bmi_. BMI is used to broadly define different weight groups in adults 20 years old or older. Check if a person is _underweight, normal, overweight_ or _obese_ based the information given below.
 
     - The same groups apply to both men and women.
     - _Underweight_: BMI is less than 18.5
@@ -571,7 +571,7 @@ It Will be covered in other section.
     swapValues(4, 5) // x = 5, y = 4
     ```
 
-1. Declare a function name _reverseArray_. It takes array as a parameter and it returns the reverse of the array (don't use method).
+1. Declare a function name _reverseArray_. It takes array as a parameter and it returns the reverse of the array (don't use a method).
 
     ```js
     console.log(reverseArray([1, 2, 3, 4, 5]))
@@ -586,7 +586,7 @@ It Will be covered in other section.
 1. Declare a function name _sumOfNumbers_. It takes a number parameter and it adds all the numbers in that range.
 1. Declare a function name _sumOfOdds_. It takes a number parameter and it adds all the odd numbers in that - range.
 1. Declare a function name _sumOfEven_. It takes a number parameter and it adds all the even numbers in that - range.
-1. Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
+1. Declare a function name _evensAndOdds_. It takes a positive integer as parameter and it counts number of evens and odds in the number.
 
     ```sh
     evensAndOdds(100);
@@ -601,7 +601,7 @@ It Will be covered in other section.
     sum(1, 2, 3, 4) // -> 10
     ```
 
-1. Writ a function which generates a _randomUserIp_.
+1. Write a function which generates a _randomUserIp_.
 1. Write a function which generates a _randomMacAddress_
 1. Declare a function name _randomHexaNumberGenerator_. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
 
@@ -662,7 +662,7 @@ It Will be covered in other section.
 1. Call your function _factorial_, it takes a whole number as a parameter and it return a factorial of the number
 1. Call your function _isEmpty_, it takes a parameter and it checks if it is empty or not
 1. Call your function _sum_, it takes any number of arguments and it returns the sum.
-1. Write a function called _sumOfArrayItems_, it takes an array parameter and return the sum of all the items. Check if all the array items are number types. If not give return reasonable feedback.
+1. Write a function called _sumOfArrayItems_, it takes an array parameter and return the sum of all the items. Check if all the array items are number types. If not, give return a reasonable feedback.
 1. Write a function called _average_, it takes an array parameter and returns the average of the items. Check if all the array items are number types. If not give return reasonable feedback.
 1. Write a function called _modifyArray_ takes array as parameter and modifies the fifth item of the array and return the array. If the array length is less than five it return 'item not found'.
 
@@ -691,7 +691,7 @@ It Will be covered in other section.
     ```
 
 1. Write a function called _isPrime_, which checks if a number is prime number.
-1. Write a functions which checks if all items are unique in the array.
+1. Write a function which checks if all items are unique in the array.
 1. Write a function which checks if all the items of the array are the same data type.
 1. JavaScript variable name does not support special characters or symbols except \$ or \_. Write a function **isValidVariable** which check if a variable is valid or invalid variable.
 1. Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
@@ -701,7 +701,7 @@ It Will be covered in other section.
     [(1, 4, 5, 7, 9, 8, 0)]
     ```
 
-1. Write a function called reverseCountries, it takes countries array and first it copy the array and returns the reverse of the original array
+1. Write a function called _reverseCountries_, it takes countries array and first it copy the array and returns the reverse of the original array
 
 🎉 CONGRATULATIONS ! 🎉
 
