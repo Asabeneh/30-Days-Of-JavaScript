@@ -38,3 +38,13 @@ switch (true) {
     default:
         console.log(`${a} is less than ${b}`);
 }
+
+function isEven() {
+    num = parseInt(prompt("Input a number:"))
+    if (num % 2 === 0) {
+        alert(`${num} is an even number.`)
+    }
+    else {
+        alert(`${num} is an odd number.`)
+    }
+}
