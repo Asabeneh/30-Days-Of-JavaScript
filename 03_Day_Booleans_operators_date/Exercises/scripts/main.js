@@ -285,7 +285,7 @@
         else
             console.log(`Your first name, ${firstName} is the same length as your family name, ${lastName}`);
 
-    //Exercise 12 -- Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.
+    //Exercise 12 -- Declare two variables myAge and yourAge and assign them initial values myAge and yourAge
         let myAge = 250;
         let yourAge = 25;
 
