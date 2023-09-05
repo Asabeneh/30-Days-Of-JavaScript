@@ -42,7 +42,7 @@
 
 ## Scope
 
-Variable is the fundamental part in programming. We declare variable to store different data types. To declare a variable we use the key word _var_, _let_ and _const_. A variable can be declared at different scope. In this section, we will see the scope variables, scope of variables when we use var or let.
+Variable is the fundamental part in programming. We declare variable to store different data types. To declare a variable we use the key word _var_, _let_ and _const_. A variable can be declared at different scope. In this section, we will see the scope of variables when we use var or let.
 Variables scopes can be:
 
 - Global
@@ -433,14 +433,11 @@ console.log(copyPerson.hasOwnProperty('score'))
 1. Print the the dog object on the console
 1. Add name, legs, color, age and bark properties for the dog object. The bark property is a method which return _woof woof_
 1. Get name, legs, color, age and bark value from the dog object
-1. Set new properties the dog object: breed, getDogInfo
+1. Set new properties to the dog object: breed, getDogInfo
 
 ### Exercises: Level 2
 
-1. Find the person who has many skills in the users object.
-1. Count logged in users, count users having greater than equal to 50 points from the following object.
-
-   ````js
+  ```js
    const users = {
      Alex: {
        email: 'alex@alex.com',
@@ -491,18 +488,18 @@ console.log(copyPerson.hasOwnProperty('score'))
        isLoggedIn: false,
        points: 40
      }
-   }```
+   }
+  ```
 
-1. Find people who are MERN stack developer from the users object
+1. Find the person who has many skills in the users object.
+1. Count the logged in users that has greater than or equal to 50 points in the users object.
+1. Find people who are MERN stack developer(s) from the users object
 1. Set your name in the users object without modifying the original users object
 1. Get all keys or properties of users object
 1. Get all the values of users object
-1. Use the countries object to print a country name, capital, populations and languages.
+1. Use the [countries object](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/08_Day_Objects/08_day_starter/data/countries_data.js) to print a country name, capital, populations and languages.
 
 ### Exercises: Level 3
-
-1. Create an object literal called _personAccount_. It has _firstName, lastName, incomes, expenses_ properties and it has _totalIncome, totalExpense, accountInfo,addIncome, addExpense_ and _accountBalance_ methods. Incomes is a set of incomes and its description and expenses is a set of incomes and its description.
-2. **** Questions:2, 3 and 4 are based on the following two arrays:users and products ()
 
   ```js
       const users = [
@@ -579,15 +576,13 @@ console.log(copyPerson.hasOwnProperty('score'))
   ]
   ```
 
-  Imagine you are getting the above users collection from a MongoDB database.
-    a. Create a function called signUp which allows user to add to the collection. If user exists, inform the user that he has already an account.  
-    b. Create a function called signIn which allows user to sign in to the application  
+1. Create an object literal named _personAccount_ with the following properties: _firstName_, _lastName_, _incomes_, and _expenses_. The _incomes_ property should be an array of income objects, where each object contains an _amount_ and a _description_ for the income. Similarly, the _expenses_ property should be an array of expense objects, with each object containing an _amount_ and a _description_ for the expense.  Additionally, implement the following methods for the _personAccount_ object: _totalIncome_, _totalExpense_, _accountInfo_, _addIncome_, _addExpense_, and _accountBalance_. These methods should allow you to manage and retrieve information about the person's income and expenses.
 
-3. The products array has three elements and each of them has six properties.
-    a. Create a function called rateProduct which rates the product
-    b. Create a function called averageRating which calculate the average rating of a product  
+2. Imagine you are getting the above users collection from a MongoDB database. (A) Create a function called _signUp_ which allows user to add to the collection. If user exists, inform the user that he has already an account. (B) Create a function called _signIn_ which allows user to sign in to the application.
 
-4. Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove like if it was liked.
+3. The products array has three elements and each of them has six properties. (A) Create a function called _rateProduct_ which rates the product. (B) Create a function called _averageRating_ which calculate the average rating of a product.
+
+4. Create a function called _likeProduct_. This function will helps to like to the product if it is not liked and remove like if it was liked.
 
 
 🎉 CONGRATULATIONS ! 🎉
