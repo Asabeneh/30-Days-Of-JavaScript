@@ -134,7 +134,7 @@ In JavaScript we can execute some activities in a certain interval of time or we
 
 #### Setting Interval using a setInterval function
 
-In JavaScript, we use setInterval higher order function to do some activity continuously with in some interval of time. The setInterval global method take a callback function and a duration as a parameter. The duration is in milliseconds and the callback will be always called in that interval of time.
+In JavaScript, we use setInterval higher order function to do some activity continuously with in some interval of time. The setInterval global method takes a callback function and a duration as a parameter. The duration is in milliseconds and the callback will be always called in that interval of time.
 
 ```js
 // syntax
@@ -153,7 +153,7 @@ setInterval(sayHello, 1000) // it prints hello in every second, 1000ms is 1s
 
 #### Setting a time using a setTimeout
 
-In JavaScript, we use setTimeout higher order function to execute some action at some time in the future. The setTimeout global method take a callback function and a duration as a parameter. The duration is in milliseconds and the callback wait for that amount of time.
+In JavaScript, we use setTimeout higher order function to execute some action at some time in the future. The setTimeout global method takes a callback function and a duration as a parameter. The duration is in milliseconds and the callback wait for that amount of time.
 
 ```js
 // syntax
@@ -308,7 +308,7 @@ const countriesFirstThreeLetters = countries.map((country) =>
 
 ### filter
 
-_Filter_: Filter out items which full fill filtering conditions and return a new array.
+_Filter_: Filter out items which fulfill filtering conditions and return a new array.
 
 ```js
 //Filter countries containing land
@@ -600,45 +600,46 @@ const products = [
 ### Exercises: Level 2
 
 1. Find the total price of products by chaining two or more array iterators(eg. arr.map(callback).filter(callback).reduce(callback))
-1. Find the sum of price of products using only reduce reduce(callback))
-1. Declare a function called **_categorizeCountries_** which returns an array of countries which have some common pattern(you find the countries array in this repository as countries.js(eg 'land', 'ia', 'island','stan')).
-1. Create a function which return an array of objects, which is the letter and the number of times the letter use to start with a name of a country.
+1. Find the sum of price of products using only reduce reduce(callback)
+1. Declare a function called **_categorizeCountries_** which returns an array of countries which have some common pattern (you find the countries array in this repository as [counrtries.js](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/data/countries.js) (eg. 'land', 'ia', 'island','stan')).
+1. Write a function that generates an array of objects. Each object should contain a letter and the count of times that letter is the initial letter in the names of various countries.
 1. Declare a **_getFirstTenCountries_** function and return an array of ten countries. Use different functional programming to work on the countries.js array
 1. Declare a **_getLastTenCountries_** function which which returns the last ten countries in the countries array.
 1. Find out which _letter_ is used many _times_ as initial for a country name from the countries array (eg. Finland, Fiji, France etc)
 
 ### Exercises: Level 3
 
-1. Use the countries information, in the data folder. Sort countries by name, by capital, by population
-1. \*\*\* Find the 10 most spoken languages:
+1. Use the countries information, in the data folder ([countries_data.js](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/09_Day_Higher_order_functions/09_day_starter/data/countries_data.js)). Sort countries by name, by capital, by population
+
+2. Find the 10 most spoken languages:
 
    ````js
    // Your output should look like this
    console.log(mostSpokenLanguages(countries, 10))
    [
-   {country: 'English',count:91},
-   {country: 'French',count:45},
-   {country: 'Arabic',count:25},
-   {country: 'Spanish',count:24},
-   {country:'Russian',count:9},
-   {country:'Portuguese', count:9},
-   {country:'Dutch',count:8},
-   {country:'German',count:7},
-   {country:'Chinese',count:5},
-   {country:'Swahili',count:4}
+   {language: 'English', count:91},
+   {language: 'French', count:45},
+   {language: 'Arabic', count:25},
+   {language: 'Spanish', count:24},
+   {language: 'Russian', count:9},
+   {language: 'Portuguese', count:9},
+   {language: 'Dutch', count:8},
+   {language: 'German', count:7},
+   {language: 'Chinese', count:5},
+   {language: 'Swahili', count:4}
    ]
 
    // Your output should look like this
    console.log(mostSpokenLanguages(countries, 3))
    [
-   {country: 'English',count: 91},
-   {country: 'French',count: 45},
-   {country: 'Arabic',count: 25},
-   ]```
+   {language: 'English', count: 91},
+   {language: 'French', count: 45},
+   {language: 'Arabic', count: 25},
+   ]
 
    ````
 
-2. \*\*\* Use countries_data.js file create a function which create the ten most populated countries
+3. Use countries_data.js file create a function which create the ten most populated countries
 
    ````js
    console.log(mostPopulatedCountries(countries, 10))
@@ -666,7 +667,7 @@ const products = [
 
    ````
 
-3. \*\*\* Try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create an object called statistics and create all the functions which do statistical calculations as method for the statistics object. Check the output below.
+4. Try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create an object called statistics and create all the functions which do statistical calculations as method for the statistics object. Check the output below.
 
    ```js
    const ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
@@ -675,14 +676,14 @@ const products = [
    console.log('Sum: ', statistics.sum()) // 744
    console.log('Min: ', statistics.min()) // 24
    console.log('Max: ', statistics.max()) // 38
-   console.log('Range: ', statistics.range() // 14
+   console.log('Range: ', statistics.range()) // 14
    console.log('Mean: ', statistics.mean()) // 30
-   console.log('Median: ',statistics.median()) // 29
+   console.log('Median: ', statistics.median()) // 29
    console.log('Mode: ', statistics.mode()) // {'mode': 26, 'count': 5}
-   console.log('Variance: ',statistics.var()) // 17.5
+   console.log('Variance: ', statistics.var()) // 17.5
    console.log('Standard Deviation: ', statistics.std()) // 4.2
-   console.log('Variance: ',statistics.var()) // 17.5
-   console.log('Frequency Distribution: ',statistics.freqDist()) # [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
+   console.log('Variance: ', statistics.var()) // 17.5
+   console.log('Frequency Distribution: ', statistics.freqDist()) # [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
    ```
 
    ```sh
