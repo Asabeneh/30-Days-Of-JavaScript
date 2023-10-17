@@ -58,7 +58,7 @@ console.log(companies)
 Set(0) {}
 ```
 
-### Creating set from array
+### Creating a set from array
 
 ```js
 const languages = [
@@ -295,7 +295,7 @@ console.log(map)
 Map(0) {}
 ```
 
-### Creating an Map from array
+### Creating a Map from array
 
 ```js
 countries = [
@@ -340,7 +340,7 @@ console.log(countriesMap.get('Finland'))
 Helsinki
 ```
 
-### Checking key in Map
+### Checking a key in Map
 
 Check if a key exists in a map using _has_ method. It returns _true_ or _false_.
 
@@ -382,7 +382,7 @@ Norway Oslo
 
 ## Exercises
 
-### Exercises:Level 1
+### Exercises: Level 1
 
 ```js
 const a = [4, 5, 8, 9]
@@ -390,24 +390,24 @@ const b = [3, 4, 5, 7]
 const countries = ['Finland', 'Sweden', 'Norway']
 ```
 
-1. create an empty set
+1. Create an empty set
 2. Create a set containing 0 to 10 using loop
 3. Remove an element from a set
 4. Clear a set
 5. Create a set of 5 string elements from array
 6. Create a map of countries and number of characters of a country
 
-### Exercises:Level 2
+### Exercises: Level 2
 
 1. Find a union b
 2. Find a intersection b
 3. Find a with b
 
-### Exercises:Level 3
+### Exercises: Level 3
 
-1. How many languages are there in the countries object file.
+1. How many languages are there in the countries object file?
 
-1. \*\*\* Use the countries data to find the 10 most spoken languages:
+2. Use the [countries_data.js](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/data/countries_data.js) to find the 10 most spoken languages:
 
 ```js
    // Your output should look like this
@@ -429,9 +429,9 @@ const countries = ['Finland', 'Sweden', 'Norway']
   // Your output should look like this
   console.log(mostSpokenLanguages(countries, 3))
   [
-  {English:91},
-  {French:45},
-  {Arabic:25}
+     { English: 91 },
+     { French: 45 },
+     { Arabic: 25 }
   ]
 ```
 
