@@ -42,7 +42,7 @@
 
 Destructuring is a way to unpack arrays, and objects and assigning to a distinct variable.
 
-### Destructing Arrays
+### Destructuring Arrays
 
 ```js
   const numbers = [1, 2, 3]
@@ -135,7 +135,7 @@ console.log(firstPerson, secondPerson, thirdPerson, fourthPerson)
 Asabeneh Brook David John
 ```
 
-We can not assign variable to all the elements in the array. We can destructure few of the first and we can get the remaining as array using spread operator(...).
+We cannot assign a variable to all the elements in the array. We can destructure few of the first and we can get the remaining as array using spread operator(...).
 
 ```js
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -184,7 +184,7 @@ Node Express MongoDB
 
 ### Destructuring Object
 
-When we destructure the name of the variable we use to destructure should be exactly the same as the key or property of the object. See the example below.
+When we destructure an object, the variable name used for destructuring should exactly match the corresponding key or property of the object. See the example below.
 
 ```js
 const rectangle = {
@@ -218,7 +218,7 @@ console.log(w, h, a, p)
 20 10 200 undefined
 ```
 
-If the key is not found in the object the variable will be assigned to undefined. Sometimes the key might not be in the object, in that case we can give a default value during declaration. See the example.
+If the key is not found in the object, the corresponding variable will be assigned the value undefined. In cases where the key might not be present in the object, a default value can be provided during declaration. See the example below
 
 ```js
 const rectangle = {
@@ -373,7 +373,7 @@ Assess Test Result 4/1/2020 1:00 false
 
 ### Spread or Rest Operator
 
-When we destructure an array we use the spread operator(...) to get the rest elements as array. In addition to that we use spread operator to spread array elements to another array.
+When we destructure an array we use the spread operator(...) to get the rest elements as array. In addition to that, we use the spread operator to spread array elements to another array.
 
 ### Spread operator to get the rest of array elements
 
@@ -542,50 +542,6 @@ const rectangle = {
   area: 200,
   perimeter: 60
 }
-const users = [
-{
-  name:'Brook',
-  scores:75,
-  skills:['HTM', 'CSS', 'JS'],
-  age:16
-},
-{
-  name:'Alex',
-  scores:80,
-  skills:['HTM', 'CSS', 'JS'],
-  age:18
-},
-{
-  name:'David',
-  scores:75,
-  skills:['HTM', 'CSS'],
-  age:22
-},
-{
-  name:'John',
-  scores:85,
-  skills:['HTML'],
-  age:25
-},
-{
-  name:'Sara',
-  scores:95,
-  skills:['HTM', 'CSS', 'JS'],
-  age: 26
-},
-{
-  name:'Martha',
-  scores:80,
-  skills:['HTM', 'CSS', 'JS'],
-  age:18
-},
-{
-  name:'Thomas',
-  scores:90,
-  skills:['HTM', 'CSS', 'JS'],
-  age:20
-}
-]
 ```
 
 1. Destructure and assign the elements of constants array to e, pi, gravity, humanBodyTemp, waterBoilingTemp.
@@ -594,12 +550,59 @@ const users = [
 
 ### Exercises: Level 2
 
+```js
+const users = [
+  {
+    name:'Brook',
+    scores: 75,
+    skills: ['HTML', 'CSS', 'JS'],
+    age: 16
+  },
+  {
+    name: 'Alex',
+    scores: 80,
+    skills: ['HTML', 'CSS', 'JS'],
+    age: 18
+  },
+  {
+    name: 'David',
+    scores: 75,
+    skills: ['HTML', 'CSS'],
+    age: 22
+  },
+  {
+    name: 'John',
+    scores: 85,
+    skills: ['HTML'],
+    age: 25
+  },
+  {
+    name: 'Sara',
+    scores: 95,
+    skills: ['HTML', 'CSS', 'JS'],
+    age: 26
+  },
+  {
+    name: 'Martha',
+    scores: 80,
+    skills: ['HTML', 'CSS', 'JS'],
+    age: 18
+  },
+  {
+    name: 'Thomas',
+    scores: 90,
+    skills: ['HTML', 'CSS', 'JS'],
+    age: 20
+  }
+]
+```
+
 1. Iterate through the users array and get all the keys of the object using destructuring
 2. Find the persons who have less than two skills
 
 ### Exercises: Level 3
 
-1. Destructure the countries object print name, capital, population and languages of all countries
+1. Destructure the [countries_data.js](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/data/countries_data.js) object print name, capital, population and languages of all countries
 2. A junior developer structure student name, skills and score in array of arrays which may not easy to read. Destructure the following array name to name, skills array to skills, scores array to scores, JavaScript score to jsScore and React score to reactScore variable in one line.
 
   ```js
@@ -620,6 +623,7 @@ const users = [
         ]
 
       console.log(convertArrayToObject(students))
+      // Output should be like this
       [
         {
           name: 'David',
@@ -634,7 +638,7 @@ const users = [
       ]
   ```
 
-4. Copy the student object to newStudent without mutating the original object. In the new object add the following ?
+4. Copy the student object to newStudent without mutating the original object. In the new object add the following:
 
 - Add Bootstrap with level 8 to the front end skill sets
 - Add Express with level 9 to the back end skill sets
