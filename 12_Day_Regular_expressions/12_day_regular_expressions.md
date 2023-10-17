@@ -95,22 +95,22 @@ let regEx = new RegExp('love','gi')
 Declaring regular expression with global flag and case insensitive flag.
 
 ```js
-let regEx= /love/gi
+let regEx = /love/gi
 ```
 
 The above regular expression is the same as the one which we created with RegExp constructor
 
 ```js
-let regEx= new RegExp('love','gi')
+let regEx = new RegExp('love','gi')
 ```
 
-### RegExpp Object Methods
+### RegExp Object Methods
 
 Let us see some of RegExp methods
 
 #### Testing for  a match
 
-*test()*:Tests for a match in a string. It returns true or false.
+*test()*: Tests for a match in a string. It returns true or false.
 
 ```js
 const str = 'I love JavaScript'
@@ -125,7 +125,7 @@ true
 
 #### Array containing all of the match
 
-*match()*:Returns an array containing all of the matches, including capturing groups, or null if no match is found.
+*match()*: Returns an array containing all of the matches, including capturing groups, or null if no match is found.
 If we do not use a global flag, match() returns an array containing the pattern, index, input and group.
 
 ```js
@@ -303,17 +303,9 @@ Using the square bracket and or operator , we manage to extract Apple, apple, Ba
 ```js
 const pattern = /\d/g  // d is a special character which means digits
 const txt = 'This regular expression example was made in January 12,  2020.'
-const matches = txt. match(pattern)
+const matches = txt.match(pattern)
 
 console.log(matches)  // ["1", "2", "2", "0", "2", "0"], this is not what we want
-```
-
-```js
-const pattern = /\d+/g  // d is a special character which means digits
-const txt = 'This regular expression example was made in January 12,  2020.'
-const matches = txt. match(pattern)
-
-console.log(matches)  // ["12", "2020"], this is not what we want
 ```
 
 ### One or more times(+)
@@ -321,8 +313,8 @@ console.log(matches)  // ["12", "2020"], this is not what we want
 ```js
 const pattern = /\d+/g  // d is a special character which means digits
 const txt = 'This regular expression example was made in January 12,  2020.'
-const matches = txt. match(pattern)
-console.log(matches)  // ["12", "2020"], this is not what we want
+const matches = txt.match(pattern)
+console.log(matches)  // ["12", "2020"], this is what we want
 ```
 
 ### Period(.)
@@ -373,10 +365,10 @@ console.log(matches)  // ["e-mail", "email", "Email", "E-mail"]
 
 ### Quantifier in RegExp
 
-We can specify the length of the substring we look for in a text, using a curly bracket. Let us see, how ot use RegExp quantifiers. Imagine, we are interested in substring that their length are 4 characters
+We can specify the length of the substring we look for in a text, using a curly bracket. Let us see, how to use RegExp quantifiers. Imagine, we are interested in substring that their length are 4 characters
 
 ```js
-const txt = 'This regular expression example was made in December 6,  2019.'
+const txt = 'This regular expression example was made in December 6, 2019.'
 const pattern = /\\b\w{4}\b/g  //  exactly four character words
 const matches = txt.match(pattern)
 console.log(matches)  //['This', 'made', '2019']
@@ -442,56 +434,57 @@ console.log(result) // true
 ### Exercises: Level 1
 
 1. Calculate the total annual income of the person from the following text. ‘He earns 4000 euro from salary per month, 10000 euro annual bonus, 5500 euro online courses per month.’
-1. The position of some particles on the horizontal x-axis -12, -4, -3 and  -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers and find the distance between the two furthest particles.
+2. The position of some particles on the horizontal x-axis -12, -4, -3 and  -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers and find the distance between the two furthest particles.
 
-```js
-points = ['-1', '2', '-4', '-3', '-1', '0', '4', '8']
-sortedPoints =  [-4, -3, -1, -1, 0, 2, 4, 8]
-distance = 12
-```
+    ```js
+    points = ['-1', '2', '-4', '-3', '-1', '0', '4', '8']
+    sortedPoints =  [-4, -3, -1, -1, 0, 2, 4, 8]
+    distance = 12
+    ```
 
-1. Write a pattern which identify if a string is a valid JavaScript variable
+3. Write a pattern which identify if a string is a valid JavaScript variable
 
-    ```sh
-    is_valid_variable('first_name') # True
-    is_valid_variable('first-name') # False
-    is_valid_variable('1first_name') # False
-    is_valid_variable('firstname') # True
+    ```js
+    console.log(is_valid_variable('first_name')) // True
+    console.log(is_valid_variable('first-name')) // False
+    console.log(is_valid_variable('1first_name')) // False
+    console.log(is_valid_variable('firstname')) // True
     ```
 
 ### Exercises: Level 2
 
-1. Write a function called *tenMostFrequentWords* which get the ten most frequent word from a string?
+1. Write a function called *tenMostFrequentWords* which get the ten most frequent word from a string
 
     ```js
-        paragraph = `I love teaching. If you do not love teaching what else can you love. I love Python if you do not love something which can give you all the capabilities to develop an application what else can you love.`
-        console.log(tenMostFrequentWords(paragraph))
+    paragraph = `I love teaching. If you do not love teaching what else can you love. I love Python if you do not love something which can give you all the capabilities to develop an application what else can you love.`
+    console.log(tenMostFrequentWords(paragraph))
     ```
 
     ```sh
-        [
-        {word:'love', count:6},
-        {word:'you', count:5},
-        {word:'can', count:3},
-        {word:'what', count:2},
-        {word:'teaching', count:2},
-        {word:'not', count:2},
-        {word:'else', count:2},
-        {word:'do', count:2},
-        {word:'I', count:2},
-        {word:'which', count:1},
-        {word:'to', count:1},
-        {word:'the', count:1},
-        {word:'something', count:1},
-        {word:'if', count:1},
-        {word:'give', count:1},
-        {word:'develop',count:1},
-        {word:'capabilities',count:1},
-        {word:'application', count:1},
-        {word:'an',count:1},
-        {word:'all',count:1},
-        {word:'Python',count:1},
-        {word:'If',count:1}]
+    [
+      {word:'love', count:6},
+      {word:'you', count:5},
+      {word:'can', count:3},
+      {word:'what', count:2},
+      {word:'teaching', count:2},
+      {word:'not', count:2},
+      {word:'else', count:2},
+      {word:'do', count:2},
+      {word:'I', count:2},
+      {word:'which', count:1},
+      {word:'to', count:1},
+      {word:'the', count:1},
+      {word:'something', count:1},
+      {word:'if', count:1},
+      {word:'give', count:1},
+      {word:'develop',count:1},
+      {word:'capabilities',count:1},
+      {word:'application', count:1},
+      {word:'an',count:1},
+      {word:'all',count:1},
+      {word:'Python',count:1},
+      {word:'If',count:1}
+    ]
     ```
 
     ```js
@@ -499,37 +492,40 @@ distance = 12
     ```
 
     ```sh
-   [{word:'love', count:6},
-    {word:'you', count:5},
-    {word:'can', count:3},
-    {word:'what', count:2},
-    {word:'teaching', count:2},
-    {word:'not', count:2},
-    {word:'else', count:2},
-    {word:'do', count:2},
-    {word:'I', count:2},
-    {word:'which', count:1}
+    [
+      {word:'love', count:6},
+      {word:'you', count:5},
+      {word:'can', count:3},
+      {word:'what', count:2},
+      {word:'teaching', count:2},
+      {word:'not', count:2},
+      {word:'else', count:2},
+      {word:'do', count:2},
+      {word:'I', count:2},
+      {word:'which', count:1}
     ]
     ```
 
 ### Exercises: Level 3
 
-1. Writ a function which cleans text. Clean the following text. After cleaning, count three most frequent words in the string.
+1. Write a function which cleans text. Clean the following text. After cleaning, count three most frequent words in the string.
   
-  ```js
+    ```js
     sentence = `%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?`
     console.log(cleanText(sentence))
-   ```
-
-   ```sh
-    I am a teacher and I love teaching There is nothing as more rewarding as educating and empowering people I found teaching more interesting than any other jobs Does this motivate you to be a teacher
     ```
+
+    ```js
+    // Output
+    'I am a teacher and I love teaching There is nothing as more rewarding as educating and empowering people I found teaching more interesting than any other jobs Does this motivate you to be a teacher'
+    ```
+
 2. Write a function which find the most frequent words. After cleaning, count three most frequent words in the string.
 
-  ```js
+    ```js
     console.log(mostFrequentWords(cleanedText))
     [{word:'I', count:3}, {word:'teaching', count:2}, {word:'teacher', count:2}]
-  ```
+    ```
 
 🎉 CONGRATULATIONS ! 🎉
 
