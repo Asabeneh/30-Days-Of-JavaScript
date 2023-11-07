@@ -37,7 +37,7 @@
 
 <div>
 <small>Dukung <strong>author</strong> untuk membuat lebih banyak materi pembelajaran</small> <br />  
-<a href = "https://www.paypal.me/asabeneh"><img src='/images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
+<a href = "https://www.paypal.me/asabeneh"><img src='../images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
 </div>
 
 <div align="center">
@@ -74,7 +74,7 @@
 
 [Day 2 >>](./02_Day_Data_types/02_day_data_types.md)
 
-![Thirty Days Of JavaScript](/images/day_1_1.png)
+![Thirty Days Of JavaScript](../images/day_1_1.png)
 
 - [30 Hari Javascript](#30-days-of-javascript)
 - [📔 Day 1](#-day-1)
@@ -146,11 +146,11 @@ Saya percaya kamu memiliki motivasi yang kuat untuk menjadi Developer, sebuah ko
 
 Kamu mungkin tidak butuh saat ini tapi akan terpakai nanti. Install [node.js](https://nodejs.org/en/).
 
-![Node download](images/download_node.png)
+![Node download](../images/download_node.png)
 
 Setelah mendownload dan Install
 
-![Install node](images/install_node.png)
+![Install node](../images/install_node.png)
 
 Kita bisa mengecek apakan node berhasil terinstall di perangkat kita dengan membuka terminal atau command prompt
 
@@ -169,13 +169,13 @@ Ada banyak browser di luar sana, tapi saya merekomendasikan Google Chrome.
 
 Install [Google Chrome](https://www.google.com/chrome/) jika kamu belum punya. Kita bisa menulis kode sederhana pada console browser, tapi kita tidak menggunakan console untuk mengembangkan aplikasi.
 
-![Google Chrome](images/google_chrome.png)
+![Google Chrome](../images/google_chrome.png)
 
 #### Membuka Google Chrome Console
 
 Kamu bisa membuka console pada Chrome salah satunya dengan mengklik titik tiga pada atas kanan pojok browser, pilih _More tools -> Developer tools_ atau gunakan shortcut keyboard.
 
-![Opening chrome](images/opening_developer_tool.png)
+![Opening chrome](../images/opening_developer_tool.png)
 
 Untuk membuka console Chrome dengan shortcut keyboard.
 
@@ -187,12 +187,12 @@ Windows/Linux:
 Ctl+Shift+J
 ```
 
-![Opening console](images/opening_chrome_console_shortcut.png)
+![Opening console](../images/opening_chrome_console_shortcut.png)
 
 Setelah kamu membuka console pada Google Chrome, coba pada tombol yang ditandai. Kita akan lebih sering menggunakan Console. Console merupakan tempat di mana kode Javascript kamu ditulis. V8 engine pada Console merubah kode Javascript menjadi kode mesin.
 Mari kita tulis kode Javascript pada Console:
 
-![write code on console](/images/js_code_on_chrome_console.png)
+![write code on console](../images/js_code_on_chrome_console.png)
 
 #### Menulis kode pada console Browser
 
@@ -218,7 +218,7 @@ console.log('Hello, World!')
 
 Fungsi **`console.log()`** dapat menerima beberapa parameter yang dipisahkan oleh koma. Syntaxnya terlihat seperti berikut: **`console.log(param1, param2, param3)`**
 
-![console log multiple arguments](/images/console_log_multipl_arguments.png)
+![console log multiple arguments](../images/console_log_multipl_arguments.png)
 
 ```js
 console.log('Hello', 'World', '!')
@@ -256,7 +256,7 @@ This is a multiline comment
 
 Bahasa pemrograman mirip dengan bahasa manusia. Bahasa Inggris atau banyak bahasa lain menggunakan kata-kata, frasa, kalimat, kalimat majemuk, dan lainnya untuk menyampaikan pesan yang bermakna. Arti bahasa Inggris dari sintaksis adalah "pengaturan kata-kata dan frasa untuk menciptakan kalimat yang terbentuk dengan baik dalam suatu bahasa." Definisi teknis sintaksis adalah struktur pernyataan dalam bahasa komputer. Bahasa pemrograman memiliki sintaksis. JavaScript adalah bahasa pemrograman, dan seperti bahasa pemrograman lainnya, ia memiliki sintaksisnya sendiri. Jika kita tidak menulis sintaksis yang dimengerti oleh JavaScript, itu akan menampilkan berbagai jenis error. Kita akan mempelajari berbagai jenis error JavaScript nanti. Untuk saat ini, mari kita lihat syntax yang error.
 
-![Error](images/raising_syntax_error.png)
+![Error](../images/raising_syntax_error.png)
 
 Saya membuat error dengan sengaja. Akibatnya, console menampilkan error. Sebenarnya, sintaksis sangat informatif. itu akan memberi tahu jenis error yang dibuat. Dengan membaca panduan pada error, kita dapat memperbaiki sintaksis dan memperbaiki masalahnya. Proses mengidentifikasi dan menghapus error dari program disebut debugging. Mari kita perbaiki error tersebut:
 
@@ -282,7 +282,7 @@ Selain teks, kita juga dapat melakukan perhitungan matematika menggunakan JavaSc
 
 Kita bisa menulis kode JavaScript di console Google Chrome tanpa perlu fungsi **_`console.log()`**. Namun, ini tetap dimasukkan pada tantangan ini karena kita akan lebih banya melakukan di dalam text editor di mana penggunaan fungsi tersebut wajib. Kamu dapat mencobanya langsung dengan menulis di console.
 
-![Arithmetic](images/arithmetic.png)
+![Arithmetic](../images/arithmetic.png)
 
 ```js
 console.log(2 + 3) // Penambahan
@@ -301,7 +301,7 @@ Kita dapat menulis kode kita di console browser, tetapi ini tidak diperuntukan u
 
 Visual Studio Code adalah text editor open-source yang sangat populer. Saya merekomendasikan [Download Visual Studio Code](https://code.visualstudio.com/), tetapi jika kamu lebih suka menggunakan editor lain, silakan gunakan apa yang kamu miliki.
 
-![Vscode](images/vscode.png)
+![Vscode](../images/vscode.png)
 
 Jika kamu sudah menginstallnya, mari kita mulai.
 
@@ -309,19 +309,19 @@ Jika kamu sudah menginstallnya, mari kita mulai.
 
 Untuk membuka Visual Studio Code, cukup klik dua kali ikonnya. Ketika kamu membukanya, kamu akan mendapatkan antarmuka seperti ini. Cobalah berinteraksi dengan ikon-ikon yang diberi tanda.
 
-![Vscode ui](/images/vscode_ui.png)
+![Vscode ui](../images/vscode_ui.png)
 
-![Vscode add project](/images/adding_project_to_vscode.png)
+![Vscode add project](../images/adding_project_to_vscode.png)
 
-![Vscode open project](/images/opening_project_on_vscode.png)
+![Vscode open project](../images/opening_project_on_vscode.png)
 
-![script file](images/scripts_on_vscode.png)
+![script file](../images/scripts_on_vscode.png)
 
-![Installing Live Server](images/vsc_live_server.png)
+![Installing Live Server](../images/vsc_live_server.png)
 
-![running script](/images/running_script.png)
+![running script](../images/running_script.png)
 
-![coding running](/images/launched_on_new_tab.png)
+![coding running](../images/launched_on_new_tab.png)
 
 ## Menambahkan JavaScript ke dalam halaman web
 
@@ -388,7 +388,7 @@ Inilah cara kita menulis internal script. Menulis kode JavaScript di dalam bagia
 
 Buka console browser untuk melihat hasil dengan `console.log()`.
 
-![js code from vscode](/images/js_code_vscode.png)
+![js code from vscode](../images/js_code_vscode.png)
 
 ### External Script
 
@@ -454,7 +454,7 @@ console.log('Hello, World!')
 
 _File main.js kamu harus berada di bawah semua skrip lainnya_. Sangat penting untuk mengingat ini.
 
-![Multiple Script](/images/multiple_script.png)
+![Multiple Script](../images/multiple_script.png)
 
 ## Mengenal Tipe Data
 
@@ -652,7 +652,7 @@ Asabeneh teacher Finland
 
 Ketika kamu menjalankan file _index.html_ di folder 01-Day, kamu akan mendapatkan tampilan seperti ini:
 
-![Hari pertama](/images/day_1.png)
+![Hari pertama](../images/day_1.png)
 
 🌕 luar biasa! kamu baru saja menyelesaikan tantangan hari 1 dan kamu sedang dalam perjalanan menuju kesuksesan. Sekarang, lakukan beberapa latihan untuk otak dan otot tanganmu.
 
