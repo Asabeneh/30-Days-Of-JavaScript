@@ -8,6 +8,9 @@ let str = "";
 //     alert('open the console please')
 // }
 // butn.addEventListener('click', myFun())
+
+
+
 console.log(variable);
 console.log(variable.length);
 console.log(variable.toUpperCase());
@@ -33,6 +36,8 @@ console.log(variable.match('a'));
 console.log(str.concat( '30 Days of',  'JavaScript'));
 console.log(variable.repeat(2));
 
+
+//Exercise: Level 2
 
 
 
