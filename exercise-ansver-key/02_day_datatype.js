@@ -1,6 +1,6 @@
 //----------------------------day2_level1 1.exercise-------------------------\\
 // Declare a variable named challenge and assign it to an initial 
-value '30 Days Of JavaScript'.
+//value '30 Days Of JavaScript'.
 
 let challenge = '30 days of javascript'
 
@@ -66,7 +66,7 @@ console.log(challenge.split(" "))
 
 //----------------------------day2_level1 11.exercise------------------------\\
 // 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string
-at the comma and change it to an array.
+//at the comma and change it to an array.
 
 let companies = 'Facebook, Google, Microsoft, Apple, IBM, Oracle,Amazon'
 console.log(companies.split(`,`))
@@ -79,7 +79,7 @@ console.log(challenge.replace("javascript","phyton"))
 
 //----------------------------day2_level1 13.exercise------------------------\\
 // What is character at index 15 in '30 Days Of JavaScript' string? 
-Use charAt() method.
+//Use charAt() method.
 
 challenge = "30 days of javascript"
 console.log(challenge.charAt(15))
@@ -93,59 +93,59 @@ console.log(challenge.charCodeAt("j"))
 
 //----------------------------day2_level1 15.exercise------------------------\\
 // Use indexOf to determine the position of the first occurrence 
-of a in 30 Days Of JavaScript
+//of a in 30 Days Of JavaScript
 
 challenge = "30 days of javascript"
 console.log(challenge.indexOf("a"))
 
 //----------------------------day2_level1 16.exercise------------------------\\
 // Use lastIndexOf to determine the position of the last occurrence of a in
-30 Days Of JavaScript.
+//30 Days Of JavaScript.
 
 challenge = "30 days of javascript"
 console.log(challenge.lastIndexOf("a"))
 
 //----------------------------day2_level1 17.exercise------------------------\\
 // Use indexOf to find the position of the first occurrence of the word
-because in the following sentence:'You cannot end a sentence with because
-because because is a conjunction'
+//because in the following sentence:'You cannot end a sentence with because
+//because because is a conjunction'
 
 let sentence = "You cannot end a sentence with because because is a conjunction."
 console.log(challenge.indexOf("because"))
 
 //----------------------------day2_level1 18.exercise------------------------\\
 // Use lastIndexOf to find the position of the last occurrence of the word 
-because in the following sentence:'You cannot end a sentence with because
-because because is a conjunction'
+//because in the following sentence:'You cannot end a sentence with because
+//because because is a conjunction'
 
 sentence = "You cannot end a sentence with because because is a conjunction."
 console.log(challenge.lastIndexOf("because"))
 
 //----------------------------day2_level1 19.exercise------------------------\\
 // Use search to find the position of the first occurrence of the word because 
-in the following sentence:'You cannot end a sentence with because because
-because is a conjunction'
+//in the following sentence:'You cannot end a sentence with because because
+//because is a conjunction'
 
 sentence = "You cannot end a sentence with because because is a conjunction."
 console.log(challenge.search("because"))
 
 //----------------------------day2_level1 20.exercise------------------------\\
 // Use trim() to remove any trailing whitespace at the beginning and the end 
-of a string.E.g ' 30 Days Of JavaScript '.
+//of a string.E.g ' 30 Days Of JavaScript '.
 
 challenge = "30 Days Of JavaScript       "
 console.log(challenge.trim())
 
 //----------------------------day2_level1 21.exercise------------------------\\
 // Use startsWith() method with the string 30 Days Of JavaScript and make the 
-result true
+// result true
 
 challenge = "30 Days Of JavaScript"
 console.log(challenge.startsWith(30))
 
 //----------------------------day2_level1 22.exercise------------------------\\
 // Use endsWith() method with the string 30 Days Of JavaScript and make the 
-result true
+// result true
 
 challenge = "30 Days Of JavaScript"
 console.log(challenge.endsWith("JavaScript"))
@@ -177,15 +177,15 @@ console.log(challenge.repeat(2))
 //----------------------------day2_level2 1.exercise-------------------------\\
 // Using console.log() print out the following statement:
 
-console.log("The quote 'There is no exercise better for the heart than reaching
-down and lifting people up.' by John Holmes teaches us to help one another.")
+console.log(`The quote 'There is no exercise better for the heart than reaching
+down and lifting people up.' by John Holmes teaches us to help one another.`)
 
 //----------------------------day2_level2 2.exercise-------------------------\\
 // Using console.log() print out the following quote by Mother Teresa:
 
-console.log("Love is not patronizing and charity isn't about pity, it is about
+console.log(`Love is not patronizing and charity isn't about pity, it is about
 love. Charity and love are the same -- with charity you give love, so don't 
-just give money but reach out your hand instead.")
+just give money but reach out your hand instead.`)
 
 //----------------------------day2_level2 3.exercise-------------------------\\
 // Using console.log() print out the following quote by Mother Teresa:
@@ -198,7 +198,7 @@ console.log(number1===10)
 
 //----------------------------day2_level2 4.exercise-------------------------\\
 // Check if parseFloat('9.8') is equal to 10 if not make it exactly 
-equal with 10.
+// equal with 10.
 
 let parseNumber =parseFloat(9.8)
 console.log(number===10)
@@ -248,11 +248,11 @@ console.log("1 1 1 1 1 \n2 1 2 4 8 \n3 1 3 9 27 \n4 1 4 16 64 \n5 1 5 25 125 ")
 
 //----------------------------day2_level2 12.exercise------------------------\\
 // Use substr to slice out the phrase because because because from the 
-following sentence:'You cannot end a sentence with because because because is
-a conjunction'
+// following sentence:'You cannot end a sentence with because because because is
+// a conjunction'
 
-let statement = "You cannot end a sentence with because because because 
-is a conjunction"
+let statement = `You cannot end a sentence with because because because 
+is a conjunction`
 console.log(statement.replace("because",""))
 
 
@@ -263,32 +263,32 @@ console.log(statement.replace("because",""))
 
 //----------------------------day2_leve3 1.exercise--------------------------\\
 // 'Love is the best thing in this world. Some found their love and some are
-still looking for their love.' Count the number of word love in this sentence.
+// still looking for their love.' Count the number of word love in this sentence.
 
-let strng ="Love is the best thing in this world. Some found their love and
-some are still looking for their love."
+let strng =`Love is the best thing in this world. Some found their love and
+some are still looking for their love.`
 let count = strng.match(/love/gi)||[].length
 console.log(count)
 
 //----------------------------day2_leve3 2.exercise--------------------------\\
 // Use match() to count the number of all because in the following sentence:
-'You cannot end a sentence with because because because is a conjunction'
+//'You cannot end a sentence with because because because is a conjunction'
 
-let sentence1 = "You cannot end a sentence with because because because
-is a conjunction"
+let sentence1 = `You cannot end a sentence with because because because
+is a conjunction`
 let count1 = sentence1.match(/because/gi)||[].length
 console.log(count1)
 
 //----------------------------day2_leve3 3.exercise--------------------------\\
 // Clean the following text and find the most frequent word 
-(hint, use replace and regular expressions).
+// (hint, use replace and regular expressions).
 
-let messySentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;.
+let messySentence = `%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;.
 The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& 
 @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n
 any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? 
 %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of
-tea&ching';
+tea&ching`;
 
 let cleanSentence = messySentence.replace(/[^a-zA-Z ]/g, " ");
 let words = cleanSentence.split(' ');
@@ -312,11 +312,12 @@ console.log(`Most frequent word is '${maxWord}' with count ${maxCount}`);
 
 //----------------------------day2_leve3 4.exercise--------------------------\\
 // Calculate the total annual income of the person by extracting the numbers
-from the following text. 'He earns 5000 euro from salary per month, 10000 euro
-annual bonus, 15000 euro online courses per month.'
+//from the following text. 'He earns 5000 euro from salary per month, 10000 euro
+//annual bonus, 15000 euro online courses per month.'
 
-let text ='He earns 5000 euro from salary per month, 10000 euro annual bonus,
-15000 euro online courses per month.'
+let text =`He earns 5000 euro from salary per month, 10000 euro annual 
+bonus, 15000 euro online courses per month.`
+
 
 let pattern =/\d+/g
 let numbers = text.match(pattern)

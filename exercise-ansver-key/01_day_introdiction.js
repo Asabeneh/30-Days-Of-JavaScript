@@ -9,13 +9,15 @@
 //Welcome to 30DaysOfJavaScript
 
 //---------------------------day1_level_1 3.exercise-------------------------\\
-// Write a multiline comment which says, comments can make code readable, easy to reuse and informative
+// Write a multiline comment which says, comments can make code readable, easy 
+// to reuse and informative
 
 /*        comments can make code readable,
            easy to reuse and informative  */
 
 //---------------------------day1_level_1 4.exercise-------------------------\\
-// Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
+// Create a variable.js file and declare variables and assign string, boolean,
+// undefined and null data types
 
 //variable.js
 let string = 'nevzat'
@@ -25,7 +27,8 @@ let nulll = null
 let any;     //undefined
 
 //---------------------------day1_level_1 5.exercise-------------------------\\
-// Create datatypes.js file and use the JavaScript typeof operator to check different data types. Check the data type of each variable
+// Create datatypes.js file and use the JavaScript typeof operator to check 
+// different data types. Check the data type of each variable
 
 //type.js
 console.log(typeof (string) )
@@ -51,7 +54,8 @@ variable3 =  true;
 variable4 = 25;
 
 //---------------------------day1_level_1 8.exercise-------------------------\\
-// Declare variables to store your first name, last name, marital status, country and age in multiple lines
+// Declare variables to store your first name, last name, marital status, 
+// country and age in multiple lines
 
 let firstName = "nevzat"
 let lastName = "atalay"
@@ -59,12 +63,14 @@ let old = 25
 let isMarried = true
 
 //---------------------------day1_level_1 9.exercise-------------------------\\
-// Declare variables to store your first name, last name, marital status, country and age in a single line
+// Declare variables to store your first name, last name, marital status, 
+// country and age in a single line
 
 let name = "nevzat",surName="atalay",age = 25, married = true
 
 //---------------------------day1_level_1 10.exercise------------------------\\
-// Declare two variables myAge and yourAge and assign them initial values and log to the browser console.
+// Declare two variables myAge and yourAge and assign them initial values 
+// and log to the browser console.
 
 let myAge= 25
 let yourAge = 22
