@@ -373,11 +373,11 @@ console.log(matches)  // ["e-mail", "email", "Email", "E-mail"]
 
 ### Quantifier in RegExp
 
-We can specify the length of the substring we look for in a text, using a curly bracket. Let us see, how ot use RegExp quantifiers. Imagine, we are interested in substring that their length are 4 characters
+We can specify the length of the substring we look for in a text, using a curly bracket. Let us see, how to use RegExp quantifiers. Imagine, we are interested in substring that their length are 4 characters
 
 ```js
 const txt = 'This regular expression example was made in December 6,  2019.'
-const pattern = /\\b\w{4}\b/g  //  exactly four character words
+const pattern = /\b\w{4}\b/g  //  exactly four character words
 const matches = txt.match(pattern)
 console.log(matches)  //['This', 'made', '2019']
 ```
