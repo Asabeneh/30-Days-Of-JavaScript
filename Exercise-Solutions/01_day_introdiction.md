@@ -118,4 +118,4 @@ console.log("I am " + " " +  myAge + " " + "years old.") // I am 25 years old.
 console.log("You are" + " " +  yourAge + " " +  "years old.") // You are 22 years old.
 ```
 
-## [< Home >](../README.md) | [Day 2 >>](./02_day_datatype.md)
+### [< Home >](../README.md) | [Day 2 >>](./02_day_datatype.md)
