@@ -1,9 +1,9 @@
 # Day 1 - Introduction
 
-## [< Home >](../README.md) | [Day 2 >>](./02_day_datatype.md)
 
-### [Exercise Level 1](#exercise-level-1)
+## [Exercise Level 1](#exercise-level-1)
 
+### [< Home >](../README.md) | [Day 2 >>](./02_day_datatype.md)
 ### Exercise Level 1
 
 1. Write a single line comment which says, _comments can make code readable_
