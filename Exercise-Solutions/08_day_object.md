@@ -1,5 +1,5 @@
  
-# Day 7 - Functions
+# Day 8 - Object
  
 
 ## [Exercise:Solutions](#exercise-solutions)
@@ -260,7 +260,7 @@ console.log(personAccount.accountBalance());
 
 ```
 
-2. **** Questions:2, 3 and 4 are based on the following two arrays:users and products ()
+2. Questions:2, 3 and 4 are based on the following two arrays:users and products ()
 
 ```js
       const users = [
@@ -337,12 +337,229 @@ console.log(personAccount.accountBalance());
   ]
   ```
 
-  Imagine you are getting the above users collection from a MongoDB database.
-    a. Create a function called signUp which allows user to add to the collection. If user exists, inform the user that he has already an account.  
-    b. Create a function called signIn which allows user to sign in to the application  
+  2. Imagine you are getting the above users collection from a MongoDB database.
+- a. Create a function called signUp which allows user to add to the collection. If user exists, inform the user that he has already an account.
+
+```js
+// app.js
+const users = [
+    {
+        _id: 'ab12ex',
+        username: 'Alex',
+        email: 'alex@alex.com',
+        password: '123123',
+        createdAt:'08/01/2020 9:00 AM',
+        isLoggedIn: false
+    },
+    {
+        _id: 'fg12cy',
+        username: 'Asab',
+        email: 'asab@asab.com',
+        password: '123456',
+        createdAt:'08/01/2020 9:30 AM',
+        isLoggedIn: true
+    }
+ ]
+
+function signUp(user) {
+    for (let existing_user of users) {
+        if (existing_user.email === user.email) {
+            return console.log("User already exists")
+        }
+    }
+    users.push(user);
+    return console.log("User added successfully")
+}
+
+let newUser ={
+    _id: 'fg12cy',
+    username: 'Asab',
+    email: 'asab@asab.com',
+    password: '123456',
+    createdAt:'08/01/2020 9:30 AM',
+    isLoggedIn: true
+}
+
+signUp(newUser)
+```
+- b. Create a function called signIn which allows user to sign in to the application  
+```js
+//app.js
+const users = [
+    {
+        _id: 'ab12ex',
+        username: 'Alex',
+        email: 'alex@alex.com',
+        password: '123123',
+        createdAt:'08/01/2020 9:00 AM',
+        isLoggedIn: false
+    },
+    {
+        _id: 'fg12cy',
+        username: 'Asab',
+        email: 'asab@asab.com',
+        password: '123456',
+        createdAt:'08/01/2020 9:30 AM',
+        isLoggedIn: true
+    }
+ ]
+
+ function signIn(email, password) {
+    for (let user of users) {
+        if (user.email === email && user.password === password) {
+            user.isLoggedIn = true;
+            return console.log("Sign in successful")
+        }
+    }
+    return console.log("Invalid email or password");
+}
+
+signIn("asab@asab.com","123456")
+```
 
 3. The products array has three elements and each of them has six properties.
-    a. Create a function called rateProduct which rates the product
-    b. Create a function called averageRating which calculate the average rating of a product  
+- a. Create a function called rateProduct which rates the product
+```js
+//app.js
+
+const products = [
+    {
+      _id: 'eedfcf',
+      name: 'mobile phone',
+      description: 'Huawei Honor',
+      price: 200,
+      ratings: [
+        { userId: 'fg12cy', rate: 5 },
+        { userId: 'zwf8md', rate: 4.5 }
+      ],
+      likes: []
+    },
+    {
+      _id: 'aegfal',
+      name: 'Laptop',
+      description: 'MacPro: System Darwin',
+      price: 2500,
+      ratings: [],
+      likes: ['fg12cy']
+    },
+    {
+      _id: 'hedfcg',
+      name: 'TV',
+      description: 'Smart TV:Procaster',
+      price: 400,
+      ratings: [{ userId: 'fg12cy', rate: 5 }],
+      likes: ['fg12cy']
+    }
+  ]
+function rateProduct(productId, userId, rating) {
+    for (let product of products) {
+        if (product._id === productId ) {
+            product.ratings.push({ userId: userId, rate: rating });
+            return console.log("Product rated successfully");
+        }
+    }
+    return console.log("Product not found");
+}
+
+rateProduct("hedfcg","fg12cy",5)
+```
+- b. Create a function called averageRating which calculate the average rating of a product
+```js
+//app.js
+
+const products = [
+    {
+      _id: 'eedfcf',
+      name: 'mobile phone',
+      description: 'Huawei Honor',
+      price: 200,
+      ratings: [
+        { userId: 'fg12cy', rate: 5 },
+        { userId: 'zwf8md', rate: 4.5 }
+      ],
+      likes: []
+    },
+    {
+      _id: 'aegfal',
+      name: 'Laptop',
+      description: 'MacPro: System Darwin',
+      price: 2500,
+      ratings: [],
+      likes: ['fg12cy']
+    },
+    {
+      _id: 'hedfcg',
+      name: 'TV',
+      description: 'Smart TV:Procaster',
+      price: 400,
+      ratings: [{ userId: 'fg12cy', rate: 5 }],
+      likes: ['fg12cy']
+    }
+  ]
+  function averageRating(productId) {
+    let product = products.find(p => p._id === productId);
+    if (!product) {
+        return console.log("Product not found");
+    }
+    if (product.ratings.length === 0) {
+        return console.log( "No ratings yet");
+    }
+    let sum = product.ratings.reduce((a, b) => a + b.rate, 0);
+    let avg = sum / product.ratings.length;
+    return `The average rating for ${product.name} is ${avg.toFixed(2)}`;
+}
+
+averageRating("aegfal")
+``` 
 
 4. Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove like if it was liked.
+```js
+//app.js
+
+const products = [
+    {
+      _id: 'eedfcf',
+      name: 'mobile phone',
+      description: 'Huawei Honor',
+      price: 200,
+      ratings: [
+        { userId: 'fg12cy', rate: 5 },
+        { userId: 'zwf8md', rate: 4.5 }
+      ],
+      likes: []
+    },
+    {
+      _id: 'aegfal',
+      name: 'Laptop',
+      description: 'MacPro: System Darwin',
+      price: 2500,
+      ratings: [],
+      likes: ['fg12cy']
+    },
+    {
+      _id: 'hedfcg',
+      name: 'TV',
+      description: 'Smart TV:Procaster',
+      price: 400,
+      ratings: [{ userId: 'fg12cy', rate: 5 }],
+      likes: ['fg12cy']
+    }
+  ]
+
+
+  function likeProduct(productId, userId) {
+    let product = products.find(p => p._id === productId);
+    if (!product) {
+        return console.log("Product not found");
+    }
+    if (product.likes.includes(userId)) {
+        product.likes = product.likes.filter(id => id !== userId);
+        return console.log("Like removed successfully");
+    } else {
+        product.likes.push(userId);
+        return console.log("Product liked successfully");
+    }
+}
+
+likeProduct("hedfcg","hedfcg")
+```
