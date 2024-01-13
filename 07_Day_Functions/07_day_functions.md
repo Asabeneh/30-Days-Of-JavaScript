@@ -18,26 +18,26 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_7.png)
 
 - [📔 Day 7](#-day-7)
-  - [Functions](#functions)
-    - [Function Declaration](#function-declaration)
-    - [Function without a parameter and return](#function-without-a-parameter-and-return)
-    - [Function returning value](#function-returning-value)
-    - [Function with a parameter](#function-with-a-parameter)
-    - [Function with two parameters](#function-with-two-parameters)
-    - [Function with many parameters](#function-with-many-parameters)
-    - [Function with unlimited number of parameters](#function-with-unlimited-number-of-parameters)
-      - [Unlimited number of parameters in regular function](#unlimited-number-of-parameters-in-regular-function)
-      - [Unlimited number of parameters in arrow function](#unlimited-number-of-parameters-in-arrow-function)
-    - [Anonymous Function](#anonymous-function)
-    - [Expression Function](#expression-function)
-    - [Self Invoking Functions](#self-invoking-functions)
-    - [Arrow Function](#arrow-function)
-    - [Function with default parameters](#function-with-default-parameters)
-    - [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
-  - [💻 Exercises](#-exercises)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Functions](#functions)
+		- [Function Declaration](#function-declaration)
+		- [Function without a parameter and return](#function-without-a-parameter-and-return)
+		- [Function returning value](#function-returning-value)
+		- [Function with a parameter](#function-with-a-parameter)
+		- [Function with two parameters](#function-with-two-parameters)
+		- [Function with many parameters](#function-with-many-parameters)
+		- [Function with unlimited number of parameters](#function-with-unlimited-number-of-parameters)
+			- [Unlimited number of parameters in regular function](#unlimited-number-of-parameters-in-regular-function)
+			- [Unlimited number of parameters in arrow function](#unlimited-number-of-parameters-in-arrow-function)
+		- [Anonymous Function](#anonymous-function)
+		- [Expression Function](#expression-function)
+		- [Self Invoking Functions](#self-invoking-functions)
+		- [Arrow Function](#arrow-function)
+		- [Function with default parameters](#function-with-default-parameters)
+		- [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
+	- [💻 Exercises](#-exercises)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 7
 
@@ -239,7 +239,7 @@ function sumAllNums() {
   console.log(arguments)
 }
 
-sumAllNums(1, 2, 3, 4)) 
+sumAllNums(1, 2, 3, 4)
 // Arguments(4) [1, 2, 3, 4, callee: ƒ, Symbol(Symbol.iterator): ƒ]
 
 ```
@@ -269,11 +269,11 @@ console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
 ​
 const sumAllNums = (...args) => {
   // console.log(arguments), arguments object not found in arrow function
-  // instead we use an a parameter followed by spread operator
+  // instead we use a parameter followed by spread operator (...)
   console.log(args)
 }
 
-sumAllNums(1, 2, 3, 4))
+sumAllNums(1, 2, 3, 4)
 // [1, 2, 3, 4]
 
 ```
@@ -502,9 +502,11 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
 
 ### Function declaration versus Arrow function
 
-It ill be covered in other time
+It Will be covered in other section.
 
 🌕 You are a rising star, now you knew function . Now, you are super charged with the power of functions. You have just completed day 7 challenges and you are 7 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+
+
 
 ## 💻 Exercises
 
@@ -521,7 +523,7 @@ It ill be covered in other time
 9. Density of a substance is calculated as follows:_density= mass/volume_. Write a function which calculates _density_.
 10. Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates a speed of a moving object, _speed_.
 11. Weight of a substance is calculated as follows: _weight = mass x gravity_. Write a function which calculates _weight_.
-12. Temperature in oC can be converted to oF using this formula: _oF = (oC x 9/5) + 32_. Write a function which convert oC to oF _convertCelciusToFahrenheit_.
+12. Temperature in oC can be converted to oF using this formula: _oF = (oC x 9/5) + 32_. Write a function which convert oC to oF _convertCelsiusToFahrenheit_.
 13. Body mass index(BMI) is calculated as follows: _bmi = weight in Kg / (height x height) in m2_. Write a function which calculates _bmi_. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is _underweight, normal, overweight_ or _obese_ based the information given below.
 
     - The same groups apply to both men and women.
@@ -617,7 +619,7 @@ It ill be covered in other time
 
 ### Exercises: Level 3
 
-1. Modify question number n . Declare a function name _userIdGeneratedByUser_. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
+1. Modify the _userIdGenerator_ function. Declare a function name _userIdGeneratedByUser_. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
 
     ```sh
     userIdGeneratedByUser()

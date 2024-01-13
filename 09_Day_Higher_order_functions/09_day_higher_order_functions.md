@@ -19,29 +19,29 @@
 ![Day 5](../images/banners/day_1_9.png)
 
 - [Day 9](#day-9)
-  - [Higher Order Function](#higher-order-function)
-    - [Callback](#callback)
-    - [Returning function](#returning-function)
-    - [setting time](#setting-time)
-      - [setInterval](#setinterval)
-      - [setTimeout](#settimeout)
-  - [Functional Programming](#functional-programming)
-    - [forEach](#foreach)
-    - [map](#map)
-    - [filter](#filter)
-    - [reduce](#reduce)
-    - [every](#every)
-    - [find](#find)
-    - [findIndex](#findindex)
-    - [some](#some)
-    - [sort](#sort)
-      - [Sorting string values](#sorting-string-values)
-      - [Sorting Numeric values](#sorting-numeric-values)
-      - [Sorting Object Arrays](#sorting-object-arrays)
-  - [💻 Exercises](#-exercises)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Higher Order Function](#higher-order-function)
+		- [Callback](#callback)
+		- [Returning function](#returning-function)
+		- [Setting time](#setting-time)
+			- [Setting Interval using a setInterval function](#setting-interval-using-a-setinterval-function)
+			- [Setting a time using a setTimeout](#setting-a-time-using-a-settimeout)
+	- [Functional Programming](#functional-programming)
+		- [forEach](#foreach)
+		- [map](#map)
+		- [filter](#filter)
+		- [reduce](#reduce)
+		- [every](#every)
+		- [find](#find)
+		- [findIndex](#findindex)
+		- [some](#some)
+		- [sort](#sort)
+			- [Sorting string values](#sorting-string-values)
+			- [Sorting Numeric values](#sorting-numeric-values)
+			- [Sorting Object Arrays](#sorting-object-arrays)
+	- [💻 Exercises](#-exercises)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # Day 9
 
@@ -54,12 +54,12 @@ Higher order functions are functions which take other function as a parameter or
 A callback is a function which can be passed as parameter to other function. See the example below.
 
 ```js
-// a callback function, the function could be any name
+// a callback function, the name of the function could be any name
 const callback = (n) => {
   return n ** 2
 }
 ​
-// function take other function as a callback
+// function that takes other function as a callback
 function cube(callback, n) {
   return callback(n) * n
 }
@@ -71,7 +71,6 @@ console.log(cube(callback, 3))
 
 Higher order functions return function as a value
 ​
-
 ```js
 // Higher order function returning an other function
 const higherOrder = n => {
@@ -81,23 +80,21 @@ const higherOrder = n => {
     }
     return doWhatEver
   }
-​
   return doSomething
 }
 console.log(higherOrder(2)(3)(10))
 ```
 
-Let us see were we use call back functions.For instance the _forEach_ method uses call back.
+Let us see were we use call back functions. For instance the _forEach_ method uses call back.
 
 ```js
-const numbers = [1, 2, 3, 4]
-​
+const numbers = [1, 2, 3, 4, 5]
 const sumArray = arr => {
   let sum = 0
-  const callBack = function(element) {
+  const callback = function(element) {
     sum += element
   }
-  numbers.forEach(callback)
+  arr.forEach(callback)
   return sum
 
 }
@@ -115,7 +112,7 @@ const numbers = [1, 2, 3, 4]
 ​
 const sumArray = arr => {
   let sum = 0
-  numbers.forEach(function(element) {
+  arr.forEach(function(element) {
     sum += element
   })
   return sum
@@ -128,20 +125,20 @@ console.log(sumArray(numbers))
 15
 ```
 
-### setting time
+### Setting time
 
-In JavaScript we can execute some activity on certain interval of time or we can schedule(wait) for sometime to execute some activities.
+In JavaScript we can execute some activities in a certain interval of time or we can schedule(wait) for some time to execute some activities.
 
 - setInterval
 - setTimeout
 
-#### setInterval
+#### Setting Interval using a setInterval function
 
 In JavaScript, we use setInterval higher order function to do some activity continuously with in some interval of time. The setInterval global method take a callback function and a duration as a parameter. The duration is in milliseconds and the callback will be always called in that interval of time.
 
 ```js
 // syntax
-function callBack() {
+function callback() {
   // code goes here
 }
 setInterval(callback, duration)
@@ -151,10 +148,10 @@ setInterval(callback, duration)
 function sayHello() {
   console.log('Hello')
 }
-setInterval(sayHello, 2000) // it prints hello in every 2 seconds
+setInterval(sayHello, 1000) // it prints hello in every second, 1000ms is 1s
 ```
 
-#### setTimeout
+#### Setting a time using a setTimeout
 
 In JavaScript, we use setTimeout higher order function to execute some action at some time in the future. The setTimeout global method take a callback function and a duration as a parameter. The duration is in milliseconds and the callback wait for that amount of time.
 
@@ -195,9 +192,8 @@ arr.forEach((element, index, arr) => console.log(index, element, arr))
 
 ```js
 let sum = 0;
-const numbers = [1,2,3,4,5];
-numbers.forEach(num => console.log(num)))
-
+const numbers = [1, 2, 3, 4, 5];
+numbers.forEach(num => console.log(num))
 console.log(sum)
 ```
 
@@ -211,8 +207,8 @@ console.log(sum)
 
 ```js
 let sum = 0;
-const numbers = [1,2,3,4,5];
-numbers.forEach(num => sum += num))
+const numbers = [1, 2, 3, 4, 5];
+numbers.forEach(num => sum += num)
 
 console.log(sum)
 ```
@@ -349,18 +345,19 @@ console.log(countriesHaveFiveLetters)
 ```js
 const scores = [
   { name: 'Asabeneh', score: 95 },
+   { name: 'Lidiya', score: 98 },
   { name: 'Mathias', score: 80 },
   { name: 'Elias', score: 50 },
   { name: 'Martha', score: 85 },
   { name: 'John', score: 100 },
 ]
 
-const scoresGreaterEight = scores.filter((score) => score.score > 80)
-console.log(scoresGreaterEight)
+const scoresGreaterEighty = scores.filter((score) => score.score > 80)
+console.log(scoresGreaterEighty)
 ```
 
 ```sh
-[{name: 'Asabeneh', score: 95}, {name: 'Martha', score: 85},{name: 'John', score: 100}]
+[{name: 'Asabeneh', score: 95}, { name: 'Lidiya', score: 98 },{name: 'Martha', score: 85},{name: 'John', score: 100}]
 ```
 
 ### reduce
@@ -391,9 +388,9 @@ _every_: Check if all the elements are similar in one aspect. It returns boolean
 
 ```js
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
-const areAllStr = names.every((name) => typeof name === 'string')
+const areAllStr = names.every((name) => typeof name === 'string') // Are all strings?
 
-console.log(arrAllStr)
+console.log(areAllStr)
 ```
 
 ```sh
@@ -402,11 +399,9 @@ true
 
 ```js
 const bools = [true, true, true, true]
-const areAllTrue = bools.every((b) => {
-  return b === true
-})
+const areAllTrue = bools.every((b) => b === true) // Are all true? 
 
-console.log(areAllTrue) //true
+console.log(areAllTrue) // true
 ```
 
 ```sh
@@ -448,9 +443,7 @@ const scores = [
   { name: 'John', score: 100 },
 ]
 
-const score = scores.find((user) => {
-  return user.score > 80
-})
+const score = scores.find((user) => user.score > 80)
 console.log(score)
 ```
 
@@ -481,15 +474,13 @@ _some_: Check if some of the elements are similar in one aspect. It returns bool
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 const bools = [true, true, true, true]
 
-const areSomeTrue = bools.some((b) => {
-  return b === true
-})
+const areSomeTrue = bools.some((b) =>  b === true)
 
 console.log(areSomeTrue) //true
 ```
 
 ```js
-const areAllStr = names.some((name) => typeof name === 'number')
+const areAllStr = names.some((name) => typeof name === 'number') // Are all strings ?
 console.log(areAllStr) // false
 ```
 
@@ -527,7 +518,7 @@ console.log(numbers) //[100, 37, 9.81, 3.14]
 
 #### Sorting Object Arrays
 
-When ever we sort objects in an array. We use the object key to compare. Lets see the example below.
+Whenever we sort objects in an array, we use the object key to compare. Let us see the example below.
 
 ```js
 objArr.sort(function (a, b) {
@@ -547,7 +538,7 @@ objArr.sort(function (a, b) {
 const users = [
   { name: 'Asabeneh', age: 150 },
   { name: 'Brook', age: 50 },
-  { name: 'Eyo', age: 100 },
+  { name: 'Eyob', age: 100 },
   { name: 'Elias', age: 22 },
 ]
 users.sort((a, b) => {
@@ -556,7 +547,7 @@ users.sort((a, b) => {
   return 0
 })
 console.log(users) // sorted ascending
-//[{…}, {…}, {…}, {…}]
+// [{…}, {…}, {…}, {…}]
 ```
 
 🌕 You are doing great.Never give up because great things take time. You have just completed day 9 challenges and you are 9 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
@@ -580,7 +571,7 @@ const products = [
 ```
 
 1. Explain the difference between **_forEach, map, filter, and reduce_**.
-2. Define a call function before you them in forEach, map, filter or reduce.
+2. Define a callback function before you use it in forEach, map, filter or reduce.
 3. Use **_forEach_** to console.log each country in the countries array.
 4. Use **_forEach_** to console.log each name in the names array.
 5. Use **_forEach_** to console.log each number in the numbers array.

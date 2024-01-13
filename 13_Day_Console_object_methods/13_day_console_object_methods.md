@@ -19,21 +19,21 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_13.png)
 
 - [Day 13](#day-13)
-  - [Console Object Methods](#console-object-methods)
-    - [console.log()](#consolelog)
-    - [console.warn()](#consolewarn)
-    - [console.error()](#consoleerror)
-    - [console.table()](#consoletable)
-    - [console.time()](#consoletime)
-    - [console.info()](#consoleinfo)
-    - [console.assert()](#consoleassert)
-    - [console.group()](#consolegroup)
-    - [console.count()](#consolecount)
-    - [console.clear()](#consoleclear)
-  - [Exercises](#exercises)
-    - [Exercises:Level 1](#exerciseslevel-1)
-    - [Exercises:Level 2](#exerciseslevel-2)
-    - [Exercises:Level 3](#exerciseslevel-3)
+	- [Console Object Methods](#console-object-methods)
+		- [console.log()](#consolelog)
+		- [console.warn()](#consolewarn)
+		- [console.error()](#consoleerror)
+		- [console.table()](#consoletable)
+		- [console.time()](#consoletime)
+		- [console.info()](#consoleinfo)
+		- [console.assert()](#consoleassert)
+		- [console.group()](#consolegroup)
+		- [console.count()](#consolecount)
+		- [console.clear()](#consoleclear)
+	- [Exercises](#exercises)
+		- [Exercises:Level 1](#exerciseslevel-1)
+		- [Exercises:Level 2](#exerciseslevel-2)
+		- [Exercises:Level 3](#exerciseslevel-3)
 
 # Day 13
 
@@ -43,7 +43,7 @@ In this section, we will cover about console and console object methods. Absolut
 
 We use console object methods to show output on the browser console and we use document.write to show output on the browser document(view port). Both methods used only for testing and debugging purposes. The console method is the most popular testing and debugging tool on the browser. We use document.getElementById() when we like to interact with DOM try using JavaScript. We will cover DOM in another section.
 
-In addition to the famous, console.log() method, the console provides other more methods methods.
+In addition to the famous, console.log() method, the console provides other more methods.
 
 ### console.log()
 
@@ -99,7 +99,7 @@ console.warn('Warning is different from error')
 
 ### console.error()
 
-The console.error() methods shows an error messages.
+The console.error() method shows an error messages.
 
 ```js
 console.error('This is an error message')
@@ -224,7 +224,7 @@ According the above output the regular for loop is slower than for of or forEach
 
 ### console.info()
 
-It display information message on browser console.
+It displays information message on browser console.
 
 ```js
 console.info('30 Days Of JavaScript challenge is trending on Github')
@@ -312,7 +312,7 @@ console.groupEnd()
 
 ### console.count()
 
-It prints the number of time this console.count() is called. It takes a string label parameter. It is very helpful to count the number of times a function is called. In the following example, the console.count() method will run three times
+It prints the number of times the console.count() is called. It takes a string label parameter. It is very helpful to count the number of times a function is called. In the following example, the console.count() method will run three times
 
 ```js
 const func = () => {

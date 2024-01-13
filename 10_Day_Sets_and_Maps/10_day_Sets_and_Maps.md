@@ -19,33 +19,33 @@
 ![Day 10](../images/banners/day_1_10.png)
 
 - [Day 10](#day-10)
-  - [Set](#set)
-    - [Creating an empty set](#creating-an-empty-set)
-    - [Creating set from array](#creating-set-from-array)
-    - [Adding an element to a set](#adding-an-element-to-a-set)
-    - [Deleting an element a set](#deleting-an-element-a-set)
-    - [Checking an element in the set](#checking-an-element-in-the-set)
-    - [Clearing the set](#clearing-the-set)
-    - [Union of sets](#union-of-sets)
-    - [Intersection of sets](#intersection-of-sets)
-    - [Difference of sets](#difference-of-sets)
-  - [Map](#map)
-    - [Creating an empty Map](#creating-an-empty-map)
-    - [Creating an Map from array](#creating-an-map-from-array)
-    - [Adding values to the Map](#adding-values-to-the-map)
-    - [Getting a value from Map](#getting-a-value-from-map)
-    - [Checking key in Map](#checking-key-in-map)
-  - [Exercises](#exercises)
-    - [Exercises:Level 1](#exerciseslevel-1)
-    - [Exercises:Level 2](#exerciseslevel-2)
-    - [Exercises:Level 3](#exerciseslevel-3)
+	- [Set](#set)
+		- [Creating an empty set](#creating-an-empty-set)
+		- [Creating set from array](#creating-set-from-array)
+		- [Adding an element to a set](#adding-an-element-to-a-set)
+		- [Deleting an element a set](#deleting-an-element-a-set)
+		- [Checking an element in the set](#checking-an-element-in-the-set)
+		- [Clearing the set](#clearing-the-set)
+		- [Union of sets](#union-of-sets)
+		- [Intersection of sets](#intersection-of-sets)
+		- [Difference of sets](#difference-of-sets)
+	- [Map](#map)
+		- [Creating an empty Map](#creating-an-empty-map)
+		- [Creating an Map from array](#creating-an-map-from-array)
+		- [Adding values to the Map](#adding-values-to-the-map)
+		- [Getting a value from Map](#getting-a-value-from-map)
+		- [Checking key in Map](#checking-key-in-map)
+	- [Exercises](#exercises)
+		- [Exercises:Level 1](#exerciseslevel-1)
+		- [Exercises:Level 2](#exerciseslevel-2)
+		- [Exercises:Level 3](#exerciseslevel-3)
 
 # Day 10
 
 ## Set
 
 Set is  a collection of elements. Set can only contains unique elements.
-Lets see how to create a set
+Let us see how to create a set in the section below.
 
 ### Creating an empty set
 
@@ -55,7 +55,7 @@ console.log(companies)
 ```
 
 ```sh
-{}
+Set(0) {}
 ```
 
 ### Creating set from array
@@ -71,8 +71,8 @@ const languages = [
   'French',
 ]
 
-const setOfLangauges = new Set(languages)
-console.log(setOfLangauges)
+const setOfLanguages = new Set(languages)
+console.log(setOfLanguages)
 ```
 
 ```sh
@@ -92,9 +92,9 @@ const languages = [
   'French',
 ]
 
-const setOfLangauges = new Set(languages)
+const setOfLanguages = new Set(languages)
 
-for (const language of setOfLangauges) {
+for (const language of setOfLanguages) {
   console.log(language)
 }
 ```
@@ -117,7 +117,6 @@ companies.add('Facebook')
 companies.add('Amazon')
 companies.add('Oracle')
 companies.add('Microsoft')
-
 console.log(companies.size) // 5 elements in the set
 console.log(companies)
 ```
@@ -165,13 +164,11 @@ It removes all the elements from a set.
 
 ```js
 companies.clear()
-
 console.log(companies)
 ```
 
 ```sh
-{}
-
+Set(0) {}
 ```
 
 See the example below to learn how to use set.
@@ -202,7 +199,7 @@ console.log(counts)
 ```
 
 ```js
-;[
+[
   { lang: 'English', count: 3 },
   { lang: 'Finnish', count: 1 },
   { lang: 'French', count: 2 },
@@ -241,12 +238,11 @@ console.log(C)
 
 ```sh
 Set(6) {1, 2, 3, 4, 5,6}
-
 ```
 
 ### Intersection of sets
 
-To find an intersection of two sets can be achieved using filter. Lets find the union of set A and set B (A ∩ B)
+To find an intersection of two sets can be achieved using filter. Lets find the intersection of set A and set B (A ∩ B)
 
 ```js
 let a = [1, 2, 3, 4, 5]
@@ -263,7 +259,6 @@ console.log(C)
 
 ```sh
 Set(3) {3, 4, 5}
-
 ```
 
 ### Difference of sets
@@ -285,7 +280,6 @@ console.log(C)
 
 ```sh
 Set(2) {1, 2}
-
 ```
 
 ## Map
@@ -348,7 +342,7 @@ Helsinki
 
 ### Checking key in Map
 
-Check if a key exist in a map using _has_ method. It returns _true_ or _false_.
+Check if a key exists in a map using _has_ method. It returns _true_ or _false_.
 
 ```js
 console.log(countriesMap.has('Finland'))
@@ -372,9 +366,9 @@ for (const country of countriesMap) {
 (2) ["Norway", "Oslo"]
 ```
 
-```sh
+```js
 for (const [country, city] of countriesMap){
-console.log(country, city)
+ console.log(country, city)
 }
 ```
 
@@ -391,8 +385,8 @@ Norway Oslo
 ### Exercises:Level 1
 
 ```js
-const a = {4, 5, 8, 9}
-const b = {3, 4, 5, 7}
+const a = [4, 5, 8, 9]
+const b = [3, 4, 5, 7]
 const countries = ['Finland', 'Sweden', 'Norway']
 ```
 
@@ -415,10 +409,11 @@ const countries = ['Finland', 'Sweden', 'Norway']
 
 1. \*\*\* Use the countries data to find the 10 most spoken languages:
 
-   ```js
+```js
    // Your output should look like this
-   console.log(mostSpokenLanguages(countries, 10))[
-     ({ English: 91 },
+   console.log(mostSpokenLanguages(countries, 10))
+   [
+     { English: 91 },
      { French: 45 },
      { Arabic: 25 },
      { Spanish: 24 },
@@ -428,24 +423,18 @@ const countries = ['Finland', 'Sweden', 'Norway']
      { German: 7 },
      { Chinese: 5 },
      { Swahili: 4 },
-     { Serbian: 4 })
+     { Serbian: 4 }
    ]
 
-   // Your output should look like this
-   console.log(mostSpokenLanguages(countries, 3))
-   ```
-
-[
-{'English':91},
-{'French':45},
-{'Arabic':25}
-]
-
+  // Your output should look like this
+  console.log(mostSpokenLanguages(countries, 3))
+  [
+  {English:91},
+  {French:45},
+  {Arabic:25}
+  ]
 ```
-
 
 🎉 CONGRATULATIONS ! 🎉
 
-
-[<< Day 9](../09_Day_Higher_order_functions/09_day_higher_order_functions.md) | [Day 11>>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)
-```
+[<< Day 9](../09_Day_Higher_order_functions/09_day_higher_order_functions.md) | [Day 11 >>](../11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)

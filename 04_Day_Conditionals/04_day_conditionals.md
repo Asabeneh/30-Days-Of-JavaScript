@@ -18,16 +18,16 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_4.png)
 
 - [📔 Day 4](#-day-4)
-  - [Conditionals](#conditionals)
-    - [If](#if)
-    - [If Else](#if-else)
-    - [If  Else if Else](#if-else-if-else)
-    - [Switch](#switch)
-    - [Ternary Operators](#ternary-operators)
-  - [💻 Exercises](#-exercises)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Conditionals](#conditionals)
+		- [If](#if)
+		- [If Else](#if-else)
+		- [If  Else if Else](#if--else-if-else)
+		- [Switch](#switch)
+		- [Ternary Operators](#ternary-operators)
+	- [💻 Exercises](#-exercises)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 4
 
@@ -189,7 +189,8 @@ switch(caseValue){
    // code
    break
   case 3:
-  // code
+   // code
+   break
   default:
    // code
 }
@@ -279,7 +280,7 @@ isRaining
 
 ### Exercises: Level 1
 
-1. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to  wait for the number of years he neds to turn 18.
+1. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to  wait for the number of years he needs to turn 18.
 
    ```sh
    Enter your age: 30

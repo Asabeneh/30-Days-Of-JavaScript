@@ -14,15 +14,15 @@
 
 </div>
 
-[<< Day 28](../28_Day_Mini_project_animating_characters/28_day_mini_project_animating_characters.md) | [Day 30>>](../30_Day_Mini_project_final/30_day_mini_project_final.md)
+[<< Day 28](../28_Day_Mini_project_leaderboard/28_day_mini_project_leaderboard.md) | [Day 30>>](../30_Day_Mini_project_final/30_day_mini_project_final.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_29.png)
 
 - [Day 29](#day-29)
-  - [Exercises](#exercises)
-    - [Exercise: Level 1](#exercise-level-1)
-    - [Exercise: Level 2](#exercise-level-2)
-    - [Exercise: Level 3](#exercise-level-3)
+	- [Exercises](#exercises)
+		- [Exercise: Level 1](#exercise-level-1)
+		- [Exercise: Level 2](#exercise-level-2)
+		- [Exercise: Level 3](#exercise-level-3)
 
 # Day 29
 
@@ -41,4 +41,4 @@
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 28](../28_Day_Mini_project_animating_characters/28_day_mini_project_animating_characters.md) | [Day 30>>](../30_Day_Mini_project_final/30_day_mini_project_final.md)
+[<< Day 28](../28_Day_Mini_project_leaderboard/28_day_mini_project_leaderboard.md) | [Day 30>>](../30_Day_Mini_project_final/30_day_mini_project_final.md)

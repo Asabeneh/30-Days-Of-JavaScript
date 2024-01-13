@@ -1,4 +1,3 @@
-
 <div align="center">
   <h1> 30 Días de JavaScript</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
@@ -8,25 +7,24 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Autor:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> Enero de 2020</small>
-  </sub>
+<sub>Autor:
+<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<small> Enero de 2020</small>
+</sub>
 
   <div>
 
-  🇬🇧 [English](../readMe.md)
-  🇪🇸 [Spanish](./readme.md)
-  🇷🇺 [Russian](../RU/README.md)
+🇬🇧 [English](../readMe.md)
+🇪🇸 [Spanish](./readme.md)
+🇷🇺 [Russian](../RU/README.md)
 
   </div>
 </div>
 
-
 ![Thirty Days Of JavaScript](./images/day_1_1.png)
 
-
 [📔Día 1](#día-1)
+
 - [📔Día 1](#día-1)
   - [Introducción](#introducción)
   - [Requerimientos](#requerimientos)
@@ -68,7 +66,7 @@
 
 **30 días de JavaScript** es una guía tanto para principiantes como para desarrolladores avanzados. Bienvenido a JavaScript. Disfruto de usarlo y enseñarlo y espero que tú también. JavaScript es el lenguaje del navegador.
 
-En este tutorial de paso a paso, aprenderás JavaScript, el leguaje de programación más popular de la historia de la humanidad. Se usa para **agregar interactividad a las páginas web, para desarrollar aplicaciones móbiles, aplicaciones de desktop, juegos** y ahora también puede ser usado para el **aprendizaje automático** (machine learning) e **inteligencia artificial** (AI). Su popularidad ha incrementado en años recientes, siendo el lenguaje predominante por cuatro años consecutivos y el más usado en GitHub.
+En este tutorial de paso a paso, aprenderás JavaScript, el lenguaje de programación más popular de la historia de la humanidad. Se usa para **agregar interactividad a las páginas web, para desarrollar aplicaciones móviles, aplicaciones de desktop, juegos** y ahora también puede ser usado para el **aprendizaje automático** (machine learning) e **inteligencia artificial** (AI). Su popularidad ha incrementado en años recientes, siendo el lenguaje predominante por cuatro años consecutivos y el más usado en GitHub.
 
 ## Requerimientos
 
@@ -92,14 +90,14 @@ Tal vez no lo necesites ahora pero si más adelante. Asi que instala [node.js](h
 
 Luego de que se descargue, haz doble click e instálalo
 
- ![Install node](./images/install_node.png)
+![Install node](./images/install_node.png)
 
 Puedes comprobar si se ha instalado correctamente abriendo la terminal del ordenador
 
     asabeneh $ node -v
     v12.14.0
 
-Para el desafío estaremos utilizando la versión 12.14.0, la cual es la recomendada por node.
+Para el desafío estaremos utilizando la versión 12.14.0, la cual es la recomendada por Node.
 
 ### Navegador
 
@@ -163,7 +161,7 @@ Como pueden ver, en el código del fragmento de arriba, console.log() puede toma
 
 ##### Comentario
 
-Podemos añadir comentarios a nuestro código. Los comentarios son muy importantes para hacer el código más legible y para dejar recordatorios en nuestro código. JavaScript no ejecuta la parte de comentarios de nuestro código. Cualquier hay texto que empiece con // en JavaScript es un comentario o cualquier cosa que encierre como esta /\* \*/ es un comentario.
+Podemos añadir comentarios a nuestro código. Los comentarios son muy importantes para hacer el código más legible y para dejar recordatorios en nuestro código. JavaScript no ejecuta la parte de comentarios de nuestro código. Cualquier texto que empiece con // en JavaScript es un comentario o cualquier cosa que encierre como esta /\* \*/ es un comentario.
 
 **Ejemplo: Comentario en una sola línea**
 
@@ -249,7 +247,7 @@ JavaScript puede ser añadido a una página web de tres maneras diferentes:
 
 Las siguientes secciones muestran diferentes formas de añadir código JavaScript a nuestra página web.
 
-### Script en línea 
+### Script en línea
 
 Crea una carpeta en tu escritorio y llámala 30DíasDeJS o en cualquier lugar y crea un archivo **_index.html_** en la carpeta del proyecto. Luego pega el siguiente código y ábrelo en un navegador, ya sea en [Chrome](https://www.google.com/chrome/).
 
@@ -371,8 +369,8 @@ En JavaScript y también en otros lenguajes de programación, hay diferentes tip
 
 Una colección de uno o más carácteres entre comillas. **Ejemplo:**
 
-    "Asabeneh
-    "Finlandia
+    "Asabeneh"
+    "Finlandia"
     'JavaScript es un hermoso lenguaje de programación'.
     "Me encanta enseñar"
     "Espero que estés disfrutando del primer día"
@@ -548,3 +546,5 @@ Cuando ejecutas los archivos en la carpeta Día_1 deberías obtener esto:
             Tú tienes 30 años.
 
     🎉 ¡FELICIDADES! 🎉
+
+[Day 2 >>](./dia_02_tipos_de_datos.md)

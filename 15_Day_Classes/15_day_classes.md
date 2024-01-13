@@ -19,22 +19,22 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_15.png)
 
 - [Day 15](#day-15)
-  - [Classes](#classes)
-    - [Defining a classes](#defining-a-classes)
-    - [Class Instantiation](#class-instantiation)
-    - [Class Constructor](#class-constructor)
-    - [Default values with constructor](#default-values-with-constructor)
-    - [Class methods](#class-methods)
-    - [Properties with initial value](#properties-with-initial-value)
-    - [getter](#getter)
-    - [setter](#setter)
-    - [Static method](#static-method)
-  - [Inheritance](#inheritance)
-    - [Overriding methods](#overriding-methods)
-  - [Exercises](#exercises)
-    - [Exercises Level 1](#exercises-level-1)
-    - [Exercises Level 2](#exercises-level-2)
-    - [Exercises Level 3](#exercises-level-3)
+	- [Classes](#classes)
+		- [Defining a classes](#defining-a-classes)
+		- [Class Instantiation](#class-instantiation)
+		- [Class Constructor](#class-constructor)
+		- [Default values with constructor](#default-values-with-constructor)
+		- [Class methods](#class-methods)
+		- [Properties with initial value](#properties-with-initial-value)
+		- [getter](#getter)
+		- [setter](#setter)
+		- [Static method](#static-method)
+	- [Inheritance](#inheritance)
+		- [Overriding methods](#overriding-methods)
+	- [Exercises](#exercises)
+		- [Exercises Level 1](#exercises-level-1)
+		- [Exercises Level 2](#exercises-level-2)
+		- [Exercises Level 3](#exercises-level-3)
 
 # Day 15
 
@@ -111,7 +111,7 @@ console.log(person)
 ```
 
 ```sh
-Person {firstName: undefined, lastName}
+Person {firstName: undefined, lastName:undefined}
 ```
 
 All the keys of the object are undefined. When ever we instantiate we should pass the value of the properties. Let us pass value at this time when we instantiate the class.
@@ -305,7 +305,7 @@ class Person {
     const fullName = this.firstName + ' ' + this.lastName
     return fullName
   }
-  get getscore() {
+  get getScore() {
     return this.score
   }
   get getSkills() {
@@ -586,7 +586,7 @@ Asabeneh Yetayeh is Finland. He lives Helsinki, 250.
 
 ### Overriding methods
 
-As you can see, we manage to access all the methods in the Person Class and we used it in the Student child class. We can customize the parent methods, we can add additional properties to a child class. If we want to customize, the methods and if we want to add extra properties, we need to use the constructor function the child class too. In side the constructor function we call the super() function to access all the properties from the parent class. The Person class didn't have gender but now let us give gender property for the child class, Student. If the same method name used in the child class, the parent method will be overridden.
+As you can see, we manage to access all the methods in the Person Class and we used it in the Student child class. We can customize the parent methods, we can add additional properties to a child class. If we want to customize, the methods and if we want to add extra properties, we need to use the constructor function the child class too. Inside the constructor function we call the super() function to access all the properties from the parent class. The Person class didn't have gender but now let us give gender property for the child class, Student. If the same method name used in the child class, the parent method will be overridden.
 
 ```js
 class Student extends Person {

@@ -19,31 +19,31 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_21.png)
 
 - [Day 21](#day-21)
-  - [Document Object Model (DOM) - Day 1](#document-object-model-dom---day-1)
-    - [Getting Element](#getting-element)
-      - [Getting elements by tag name](#getting-elements-by-tag-name)
-      - [Getting elements by class name](#getting-elements-by-class-name)
-      - [Getting an element by id](#getting-an-element-by-id)
-      - [Getting elements by using querySelector methods](#getting-elements-by-using-queryselector-methods)
-    - [Adding attribute](#adding-attribute)
-      - [Adding attribute using setAttribute](#adding-attribute-using-setattribute)
-      - [Adding attribute without setAttribute](#adding-attribute-without-setattribute)
-      - [Adding class using classList](#adding-class-using-classlist)
-      - [Removing class using remove](#removing-class-using-remove)
-    - [Adding Text to HTML element](#adding-text-to-html-element)
-      - [Adding Text content using textContent](#adding-text-content-using-textcontent)
-      - [Adding Text Content using innHTML](#adding-text-content-using-innhtml)
-        - [Text Content](#text-content)
-        - [Inner HTML](#inner-html)
-    - [Adding style](#adding-style)
-      - [Adding Style Color](#adding-style-color)
-      - [Adding Style Background Color](#adding-style-background-color)
-      - [Adding Style Font Size](#adding-style-font-size)
-  - [Exercises](#exercises)
-    - [Exercise: Level 1](#exercise-level-1)
-    - [Exercise: Level 2](#exercise-level-2)
-    - [Exercise: Level 3](#exercise-level-3)
-      - [DOM: Mini project 1](#dom-mini-project-1)
+	- [Document Object Model (DOM) - Day 1](#document-object-model-dom---day-1)
+		- [Getting Element](#getting-element)
+			- [Getting elements by tag name](#getting-elements-by-tag-name)
+			- [Getting elements by class name](#getting-elements-by-class-name)
+			- [Getting an element by id](#getting-an-element-by-id)
+			- [Getting elements by using querySelector methods](#getting-elements-by-using-queryselector-methods)
+		- [Adding attribute](#adding-attribute)
+			- [Adding attribute using setAttribute](#adding-attribute-using-setattribute)
+			- [Adding attribute without setAttribute](#adding-attribute-without-setattribute)
+			- [Adding class using classList](#adding-class-using-classlist)
+			- [Removing class using remove](#removing-class-using-remove)
+		- [Adding Text to HTML element](#adding-text-to-html-element)
+			- [Adding Text content using textContent](#adding-text-content-using-textcontent)
+			- [Adding Text Content using innerHTML](#adding-text-content-using-innerhtml)
+				- [Text Content](#text-content)
+				- [Inner HTML](#inner-html)
+		- [Adding style](#adding-style)
+			- [Adding Style Color](#adding-style-color)
+			- [Adding Style Background Color](#adding-style-background-color)
+			- [Adding Style Font Size](#adding-style-font-size)
+	- [Exercises](#exercises)
+		- [Exercise: Level 1](#exercise-level-1)
+		- [Exercise: Level 2](#exercise-level-2)
+		- [Exercise: Level 3](#exercise-level-3)
+			- [DOM: Mini project 1](#dom-mini-project-1)
 
 # Day 21
 
@@ -57,7 +57,7 @@ We can access already created element or elements using JavaScript. To access or
 
 ```html
 <!DOCTYPE html>
-  <html>
+  <html lang="en">
     <head>
       <title>Document Object Model</title>
     </head>
@@ -74,7 +74,7 @@ We can access already created element or elements using JavaScript. To access or
 
 #### Getting elements by tag name
 
-**_getElementsByTagName()_**:takes a take name as a string parameter and this method returns an HTMLCollection object. An HTMLCollection is an array like object of HTML elements. The length property provides the size of the collection. Whenever we use this method we access the individual elements using index or after loop through each individual items. An HTMLCollection does not support all array methods therefore we should use regular for loop instead of forEach.
+**_getElementsByTagName()_**:takes a tag name as a string parameter and this method returns an HTMLCollection object. An HTMLCollection is an array like object of HTML elements. The length property provides the size of the collection. Whenever we use this method we access the individual elements using index or after loop through each individual items. An HTMLCollection does not support all array methods therefore we should use regular for loop instead of forEach.
 
 ```js
 // syntax
@@ -84,7 +84,7 @@ document.getElementsByTagName('tagname')
 ```js
 const allTitles = document.getElementsByTagName('h1')
 
-console.log(allTitles) //HTMCollections
+console.log(allTitles) //HTMLCollections
 console.log(allTitles.length) // 4
 
 for (let i = 0; i < allTitles.length; i++) {
@@ -104,7 +104,7 @@ document.getElementsByClassName('classname')
 ```js
 const allTitles = document.getElementsByClassName('title')
 
-console.log(allTitles) //HTMCollections
+console.log(allTitles) //HTMLCollections
 console.log(allTitles.length) // 4
 
 for (let i = 0; i < allTitles.length; i++) {
@@ -133,15 +133,15 @@ The _document.querySelector_ method can select an HTML or HTML elements by tag n
 **_querySelector_**: can be used to select HTML element by its tag name, id or class. If the tag name is used it selects only the first element.
 
 ```js
-let firstTitle = document.querySelector('h1') // select the first available h2 element
+let firstTitle = document.querySelector('h1') // select the first available h1 element
 let firstTitle = document.querySelector('#first-title') // select id with first-title
-let firstTitle = document.querySelector('.title') // select the first available h2 element with class title
+let firstTitle = document.querySelector('.title') // select the first available element with class title
 ```
 
-**_querySelectorAll_**: can be used to select html element by its tag name or class. It return a nodeList which is an array like object which support array methods. We can use **_for loop_** or **_forEach_** to loop through each nodeList elements.
+**_querySelectorAll_**: can be used to select html elements by its tag name or class. It returns a nodeList which is an array like object which supports array methods. We can use **_for loop_** or **_forEach_** to loop through each nodeList elements.
 
 ```js
-const allTitles = document.querySelectorAll('h1')
+const allTitles = document.querySelectorAll('h1') # selects all the available h1 elements in the page
 
 console.log(allTitles.length) // 4
 for (let i = 0; i < allTitles.length; i++) {
@@ -158,7 +158,7 @@ An attribute is added in the opening tag of HTML which gives additional informat
 
 ```js
 const titles = document.querySelectorAll('h1')
-titles[3].class = 'title'
+titles[3].className = 'title'
 titles[3].id = 'fourth-title'
 ```
 
@@ -214,7 +214,7 @@ const titles = document.querySelectorAll('h1')
 titles[3].textContent = 'Fourth Title'
 ```
 
-#### Adding Text Content using innHTML
+#### Adding Text Content using innerHTML
 
 Most people get confused between _textContent_ and _innerHTML_. _textContent_ is meant to add text to an HTML element, however innerHTML can add a text or HTML element or elements as a child.
 
@@ -234,7 +234,7 @@ It value we assign is going to be a string of HTML elements.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>JavaScript for Everyone:DOM</title>
   </head>
@@ -264,7 +264,7 @@ The innerHTML property can allow us also to remove all the children of a parent 
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>JavaScript for Everyone:DOM</title>
   </head>
@@ -351,7 +351,7 @@ As you have notice, the properties of css when we use it in JavaScript is going 
 ### Exercise: Level 1
 
 1. Create an index.html file and put four p elements as above: Get the first paragraph by using **_document.querySelector(tagname)_** and tag name
-2. Get get each of the the paragraph using **_document.querySelector('#id')_** and by their id
+2. Get each of the the paragraph using **_document.querySelector('#id')_** and by their id
 3. Get all the p as nodeList using **_document.querySelectorAll(tagname)_** and by their tag name
 4. Loop through the nodeList and get the text content of each paragraph
 5. Set a text content to paragraph the fourth paragraph,**_Fourth Paragraph_**
@@ -378,7 +378,7 @@ As you have notice, the properties of css when we use it in JavaScript is going 
 ```html
 <!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>JavaScript for Everyone:DOM</title>
   </head>

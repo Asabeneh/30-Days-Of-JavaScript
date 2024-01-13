@@ -18,17 +18,17 @@
 ![Day 5](../images/banners/day_1_6.png)
 
 - [📔 Day 6](#-day-6)
-  - [Loops](#loops)
-    - [for Loop](#for-loop)
-    - [while loop](#while-loop)
-    - [do while loop](#do-while-loop)
-    - [for of loop](#for-of-loop)
-    - [break](#break)
-    - [continue](#continue)
-  - [💻 Exercises:Day 6](#-exercisesday-6)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+	- [Loops](#loops)
+		- [for Loop](#for-loop)
+		- [while loop](#while-loop)
+		- [do while loop](#do-while-loop)
+		- [for of loop](#for-of-loop)
+		- [break](#break)
+		- [continue](#continue)
+	- [💻 Exercises:Day 6](#-exercisesday-6)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
+		- [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 6
 
@@ -108,7 +108,7 @@ const numbers = [1, 2, 3, 4, 5]
 const newArr = []
 let sum = 0
 for(let i = 0; i < numbers.length; i++){
-  newArr.push(i * i)
+  newArr.push( numbers[i] ** 2)
 
 }
 
@@ -178,7 +178,9 @@ for (const num of numbers) {
 // adding all the numbers in the array
 let sum = 0
 for (const num of numbers) {
-  sum += sum + num  // can be also shorten like this, sum += num
+  sum = sum + num  
+	// can be also shorten like this, sum += num
+  // after this we will use the shorter synthax(+=, -=, *=, /= etc)
 }
 console.log(sum) // 15
 
@@ -406,6 +408,7 @@ for(let i = 0; i <= 5; i++){
       ['Germany', 'GER', 7],
       ['Hungary', 'HUN', 7],
       ['Ireland', 'IRE', 7],
+      ['Iceland', 'ICE', 7],
       ['Japan', 'JAP', 5],
       ['Kenya', 'KEN', 5]
     ]
@@ -414,7 +417,7 @@ for(let i = 0; i <= 5; i++){
 2. In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print 'All these countries are without land'.
 
     ```sh
-    ['Finland', 'Iceland']
+    ['Finland','Ireland', 'Iceland']
     ```
 
 3. In above countries array, check if there is  a country or countries end with a substring 'ia'. If there are countries end with, print it as array. If there is no country containing the word 'ai', print 'These are countries ends without ia'.
