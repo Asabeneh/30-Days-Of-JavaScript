@@ -7,49 +7,50 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Autor;
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> Janeiro, 2020</small>
-  </sub>
+<sub>Autor;
+<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<small> Janeiro, 2020</small>
+</sub>
+
 </div>
 
-[<< Day 2](../Dia_02_Tipos_Dados/dia_02_tipos_dados.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
+[<< Day 2](../Dia_02_Tipos_Dados/dia_02_tipos_dados.md) | [Day 4 >>](../Dia_04_Condicionais/Dia_04_condicionais.md)
 
-![Thirty Days Of JavaScript](../images/banners/day_1_3.png)
+![Thirty Days Of JavaScript](../../images/banners/day_1_3.png)
 
 - [📔 Day 3](#-day-3)
-	- [Booleans](#booleans)
-		- [Truthy values](#truthy-values)
-		- [Falsy values](#falsy-values)
-	- [Undefined](#undefined)
-	- [Null](#null)
-	- [Operators](#operators)
-		- [Assignment operators](#assignment-operators)
-		- [Arithmetic Operators](#arithmetic-operators)
-		- [Comparison Operators](#comparison-operators)
-		- [Logical Operators](#logical-operators)
-		- [Increment Operator](#increment-operator)
-		- [Decrement Operator](#decrement-operator)
-		- [Ternary Operators](#ternary-operators)
-		- [Operator Precedence](#operator-precedence)
-	- [Window Methods](#window-methods)
-		- [Window alert() method](#window-alert-method)
-		- [Window prompt() method](#window-prompt-method)
-		- [Window confirm() method](#window-confirm-method)
-	- [Date Object](#date-object)
-		- [Creating a time object](#creating-a-time-object)
-		- [Getting full year](#getting-full-year)
-		- [Getting month](#getting-month)
-		- [Getting date](#getting-date)
-		- [Getting day](#getting-day)
-		- [Getting hours](#getting-hours)
-		- [Getting minutes](#getting-minutes)
-		- [Getting seconds](#getting-seconds)
-		- [Getting time](#getting-time)
-	- [💻 Day 3: Exercises](#-day-3-exercises)
-		- [Exercises: Level 1](#exercises-level-1)
-		- [Exercises: Level 2](#exercises-level-2)
-		- [Exercises: Level 3](#exercises-level-3)
+  - [Booleans](#booleans)
+    - [Truthy values](#truthy-values)
+    - [Falsy values](#falsy-values)
+  - [Undefined](#undefined)
+  - [Null](#null)
+  - [Operators](#operators)
+    - [Assignment operators](#assignment-operators)
+    - [Arithmetic Operators](#arithmetic-operators)
+    - [Comparison Operators](#comparison-operators)
+    - [Logical Operators](#logical-operators)
+    - [Increment Operator](#increment-operator)
+    - [Decrement Operator](#decrement-operator)
+    - [Ternary Operators](#ternary-operators)
+    - [Operator Precedence](#operator-precedence)
+  - [Window Methods](#window-methods)
+    - [Window alert() method](#window-alert-method)
+    - [Window prompt() method](#window-prompt-method)
+    - [Window confirm() method](#window-confirm-method)
+  - [Date Object](#date-object)
+    - [Creating a time object](#creating-a-time-object)
+    - [Getting full year](#getting-full-year)
+    - [Getting month](#getting-month)
+    - [Getting date](#getting-date)
+    - [Getting day](#getting-day)
+    - [Getting hours](#getting-hours)
+    - [Getting minutes](#getting-minutes)
+    - [Getting seconds](#getting-seconds)
+    - [Getting time](#getting-time)
+  - [💻 Day 3: Exercises](#-day-3-exercises)
+    - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 2](#exercises-level-2)
+    - [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 3
 
@@ -573,11 +574,11 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
 1. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
 
-    ```sh
-    Enter hours: 40
-    Enter rate per hour: 28
-    Your weekly earning is 1120
-    ```
+   ```sh
+   Enter hours: 40
+   Enter rate per hour: 28
+   Your weekly earning is 1120
+   ```
 
 1. If the length of your name is greater than 7 say, your name is long else say your name is short.
 1. Compare your first name length and your family name length and you should get this output.
@@ -588,8 +589,8 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
     ```
 
     ```sh
-    Your first name, Asabeneh is longer than your family name, Yetayeh
-    ```
+   Your first name, Asabeneh is longer than your family name, Yetayeh
+   ```
 
 1. Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
 
@@ -604,14 +605,14 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 
 1. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
 
-    ```sh
+   ```sh
 
-    Enter birth year: 1995
-    You are 25. You are old enough to drive
+   Enter birth year: 1995
+   You are 25. You are old enough to drive
 
-    Enter birth year: 2005
-    You are 15. You will be allowed to drive after 3 years.
-    ```
+   Enter birth year: 2005
+   You are 15. You will be allowed to drive after 3 years.
+   ```
 
 1. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
 
@@ -630,4 +631,4 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
    1. YYY-MM-DD HH:mm eg. 20120-01-02 07:05
 
-[<< Dia 2](../Dia_02_Tipos_Dados/dia_02_tipos_dados.md) | [Dia 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
+[<< Dia 2](../Dia_02_Tipos_Dados/dia_02_tipos_dados.md) | [Dia 4 >>](../Dia_04_Condicionais/Dia_04_condicionais.md)
