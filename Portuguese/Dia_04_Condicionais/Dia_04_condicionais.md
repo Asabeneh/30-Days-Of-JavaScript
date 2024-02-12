@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Dia 3](../Dia_03_Booleanos_Operadores_Data/Dia_03_booleanos_operadores_data.md) | [Dia 5 >>](../05_Day_Arrays/05_day_arrays.md)
+[<< Day 3](../Dia_03_Booleanos_Operadores_Data/Dia_03_booleanos_operadores_data.md) | [Day 5 >>](../Dia_05_Arrays/dia_05_arrays.md)
 
 ![Trinta Dias de JavaScript](../../images/banners/day_1_4.png)
 
@@ -372,4 +372,4 @@ Digite um número: 9
 
 🎉 PARABÉNS ! 🎉
 
-[<< Day 3](../Dia_03_Booleanos_Operadores_Data/Dia_03_booleanos_operadores_data.md) | [Day 5 >>](../05_Day_Arrays/05_day_arrays.md)
+[<< Day 3](../Dia_03_Booleanos_Operadores_Data/Dia_03_booleanos_operadores_data.md) | [Day 5 >>](../Dia_05_Arrays/dia_05_arrays.md)
