@@ -16,7 +16,7 @@
 
 [<< Dia 4](../Dia_04_Condicionais.md) | [Dia 6 >>](../Dia_06_Loops/Dia_06_Loops.md)
 
-![Dia 5](../../images/banners/day_1_5.png)
+![Dia 5](/images/banners/day_1_5.png)
 
 - [📔 Dia 5](#-dia-5)
   - [Arrays](#arrays)
@@ -169,7 +169,7 @@ console.log(words);
 
 Acessamos cada elemento em um array usando seu índice. O índice de um array começa do 0. A imagem abaixo mostra claramente o índice de cada elemento no array.
 
-![arr index](../../images/array_index.png)
+![arr index](/images/array_index.png)
 
 ```js
 const frutas = ['banana', 'laranja', 'manga', 'limão'];
