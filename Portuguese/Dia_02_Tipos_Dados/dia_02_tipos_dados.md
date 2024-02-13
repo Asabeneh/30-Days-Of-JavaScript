@@ -17,7 +17,7 @@
 
 [<< Dia 1](../readMe.md) | [Dia 3 >>](../Dia_03_Booleanos_Operadores_Data/dia_03_booleanos_operadores_data.md)
 
-![Thirty Days Of JavaScript](/images/banners/day_1_2.png)
+![Thirty Days Of JavaScript](../../images/banners/day_1_2.png)
 
 - [📔 Dia 2](#-dia-2)
   - [Tipo de Dados](#tipos-de-dados)
@@ -450,7 +450,7 @@ console.log(primeiroNome.length); // 8
 
 2. _Acessando caracteres em uma string_: Nós podemos acessar cada caractere em uma string usando seu index. Em programação, a contagem começa em 0. O primeiro index de uma string é zero, e o último index é o length de uma string - 1.
 
-![Accessing string by index](/images/string_indexes.png)
+![Accessing string by index](../../images/string_indexes.png)
 
 Vamos acessar diferentes caracteres em 'JavaScript' string.
 
