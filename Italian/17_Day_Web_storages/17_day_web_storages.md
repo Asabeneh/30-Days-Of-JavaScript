@@ -57,7 +57,7 @@ sessionStorage è disponibile solo all'interno della sessione della scheda o del
 
 ### localStorage
 
-HTML5 localStorage fa parte dell'API di archiviazione web che viene utilizzato per memorizzare i dati sul browser senza scadenza. I dati saranno disponibili sul browser anche dopo la sua chiusura. localStorage viene mantenuto anche tra le sessioni del browser. Ciò significa che i dati sono ancora disponibili quando il browser viene chiuso e riaperto e anche istantaneamente tra le schede e le finestre.
+HTML5 localStorage fa parte dell'API di archiviazione web che viene utilizzata per memorizzare i dati sul browser senza scadenza. I dati saranno disponibili sul browser anche dopo la sua chiusura. localStorage viene mantenuto anche tra le sessioni del browser. Ciò significa che i dati sono ancora disponibili quando il browser viene chiuso e riaperto e anche istantaneamente tra le schede e le finestre.
 
 I dati di Web Storage, in entrambi i casi, non sono disponibili tra i diversi browser. Ad esempio, gli oggetti di memorizzazione creati in Firefox non sono accessibili in Internet Explorer, esattamente come i cookie. Esistono cinque metodi per lavorare sull'archiviazione locale:
 _setItem(), getItem(), removeItem(), clear(), key()_
@@ -75,7 +75,7 @@ Alcuni casi d'uso degli archivi web sono
 
 Per gli esempi sopra citati, ha senso usare localStorage. Ci si potrebbe chiedere, allora, quando si dovrebbe usare sessionStorage.
 
-Nel caso in cui si voglia sbarazzarsi dei dati non appena la finestra viene chiusa. Oppure, se non si vuole che l'applicazione interferisca con la stessa applicazione aperta in un'altra finestra. Questi scenari sono meglio serviti con sessionStorage.
+Nel caso in cui si voglia sbarazzarsi dei dati non appena la finestra viene chiusa. Oppure, se non si vuole che l'applicazione interferisca con la stessa applicazione aperta in un'altra finestra. Questi scenari sono meglio gestiti con sessionStorage.
 
 Vediamo ora come utilizzare queste API di Web Storage.
 
@@ -99,7 +99,7 @@ Oggetti Web Storage:
 
 ### Impostare elementi nel localStorage
 
-Quando si impostano i dati da memorizzare in un localStorage, questi vengono memorizzati come stringa. Se stiamo memorizzando un array o un oggetto, dovremmo prima stringare per mantenere il formato, a meno che non si perda la struttura dell'array o dell'oggetto dei dati originali.
+Quando si impostano i dati da memorizzare in un localStorage, questi vengono memorizzati come stringa. Se stiamo memorizzando un array o un oggetto, dovremmo prima convertirlo in stringa per mantenere il formato, a meno che non si perda la struttura dell'array o dell'oggetto dei dati originali.
 
 I dati vengono memorizzati nel localStorage utilizzando il metodo _localStorage.setItem_.
 
@@ -119,7 +119,7 @@ console.log(localStorage)
 Storage {firstName: 'Asabeneh', length: 1}
 ```
 
-- Storing number in a local storage
+- Memorizzazione numeri in un localStorage
 
 ```js
 localStorage.setItem('age', 200)
@@ -130,7 +130,7 @@ console.log(localStorage)
  Storage {age: '200', firstName: 'Asabeneh', length: 2}
 ```
 
-- Memorizzazione di un array in un localStorage. Se si memorizza un array, un oggetto o un array di oggetti, occorre prima stringere l'oggetto. Vedere l'esempio seguente.
+- Memorizzazione di un array in un localStorage. Se si memorizza un array, un oggetto o un array di oggetti, occorre prima convertire in stringa l'oggetto. Vedere l'esempio seguente.
 
 ```js
 const skills = ['HTML', 'CSS', 'JS', 'React']
@@ -159,7 +159,7 @@ let skillJSON = JSON.stringify(skills)
 localStorage.setItem('skills', skillJSON)
 ```
 
-- Memorizzazione di un oggetto in un localStorage. Prima di memorizzare gli oggetti in un localStorage, l'oggetto deve essere stringato.
+- Memorizzazione di un oggetto in un localStorage. Prima di memorizzare gli oggetti in un localStorage, l'oggetto deve essere convertito in stringa.
 
 ```js
 const user = {
@@ -192,7 +192,7 @@ console.log(firstName, age, skills)
  'Asabeneh', '200', '['HTML','CSS','JS','React']'
 ```
 
-Come si può vedere, l'abilità è in formato stringa. Utilizziamo JSON.parse() per analizzarla in un normale array.
+Come si può vedere, la variabile 'skills' è in formato stringa. Utilizziamo JSON.parse() per analizzarla in un normale array.
 
 ```js
 let skills = localStorage.getItem('skills')
@@ -212,7 +212,7 @@ Il metodo clear cancella tutto ciò che è memorizzato nella memoria locale.
 localStorage.clear()
 ```
 
-🌕 Ora conosci un Web Storages e sai come memorizzare piccoli dati sui browser dei client. Sei a 17 passi dalla tua strada verso la grandezza. Ora fai qualche esercizio per il tuo cervello e per i muscoli.
+🌕 Ora conosci un Web Storage e sai come memorizzare dati di piccole dimensioni sui browser lato client. Sei a 17 passi dalla tua strada verso la grandezza. Ora fai qualche esercizio per rimanere allenato.
 
 ## Esercizi
 
@@ -226,7 +226,7 @@ localStorage.clear()
 
 ### Esercizi: Livello 3
 
-1. Creare un oggetto chiamato personAccount. Ha le proprietà nome, cognome, reddito, spese e i metodi totalIncome, totalExpense, accountInfo, addIncome, addExpense e accountBalance. Le entrate sono un insieme di entrate e la loro descrizione e le spese sono anch'esse un insieme di spese e la loro descrizione.
+1. Creare un oggetto chiamato personAccount. Ha le proprietà nome, cognome, reddito, spese e i metodi totalIncome, totalExpense, accountInfo, addIncome, addExpense e accountBalance. La voce reddito rappresenta un insieme di entrate e la loro descrizione, e le spese sono anch'esse l'insieme delle spese con la loro descrizione.
 
 🎉 CONGRATULAZIONI ! 🎉
 
