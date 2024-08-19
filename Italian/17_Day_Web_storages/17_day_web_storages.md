@@ -57,7 +57,7 @@ sessionStorage è disponibile solo all'interno della sessione della scheda o del
 
 ### localStorage
 
-HTML5 localStorage è il para dell'API di archiviazione web che viene utilizzato per memorizzare i dati sul browser senza scadenza. I dati saranno disponibili sul browser anche dopo la sua chiusura. localStorage viene mantenuto anche tra le sessioni del browser. Ciò significa che i dati sono ancora disponibili quando il browser viene chiuso e riaperto e anche istantaneamente tra le schede e le finestre.
+HTML5 localStorage fa parte dell'API di archiviazione web che viene utilizzato per memorizzare i dati sul browser senza scadenza. I dati saranno disponibili sul browser anche dopo la sua chiusura. localStorage viene mantenuto anche tra le sessioni del browser. Ciò significa che i dati sono ancora disponibili quando il browser viene chiuso e riaperto e anche istantaneamente tra le schede e le finestre.
 
 I dati di Web Storage, in entrambi i casi, non sono disponibili tra i diversi browser. Ad esempio, gli oggetti di memorizzazione creati in Firefox non sono accessibili in Internet Explorer, esattamente come i cookie. Esistono cinque metodi per lavorare sull'archiviazione locale:
 _setItem(), getItem(), removeItem(), clear(), key()_
