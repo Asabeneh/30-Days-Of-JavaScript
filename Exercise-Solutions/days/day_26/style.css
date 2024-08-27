@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif,'Courier New', Courier, monospace;
+    /* border: 1px solid; */
+}
+.container{
+    background-image: url("./globe-2.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 60vh;
+    object-fit: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-position: 40% 60%;
+}
+.main{
+    width: 100%;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.3em;
+}
+.btn{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 15px;
+    font-weight: 100;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+
+.btn:hover{
+    background-color: rgb(42, 165, 118);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header h1{
+    margin-bottom: 20px;
+    font-size:400%;
+    color:aliceblue
+    
+}
+.header h2{
+    color: rgb(0, 0, 0);
+    font-size:200%;
+    margin-bottom:20px
+}
+.header p{
+    font-weight: bold;
+    font-size:x-large
+}
+
+.form-wrapper{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-wrapper .search{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#search{
+    padding: 10px;
+    
+}
+.form-wrapper .search input{
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 3px 0;
+    border: none;
+    padding: 10px 10px;
+}
+.country-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 40vh;
+    background-color: rgb(127, 235, 206);
+}
+li{
+    list-style: none;
+    border: 1px solid;
+    padding: 20px 10px;
+    background-image: url("./map_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    filter: drop-shadow(2px 2px 5px  green);
+    
+}

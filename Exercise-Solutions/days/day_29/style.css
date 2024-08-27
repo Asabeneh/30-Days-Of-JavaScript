@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 100vh;
+}
+#header{
+    display: flex;
+    line-height: 2em;
+    font-size: 4em;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,90 @@
+*{
+  /* border: 1px solid; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif,'Times New Roman', Times, serif,monospace;
+}
+.container{
+  display: flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  margin: 0 10%;
+  height: auto;
+}
+
+/*   Header CSS */
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  min-height:25%;
+}
+.header .title{
+  letter-spacing: 1em;
+}
+.header .title .card-wrapper{
+  
+}
+.header .title .card-wrapper .card{
+  
+}
+.header .header-animation{
+  background-color:yellow;
+  padding: 5%;
+}
+h1{
+  font-size:600%;
+  letter-spacing:0.4em
+}
+/* Main CSS */
+
+.main{
+  display:  flex;
+  flex-direction: column;
+  margin-bottom:15%;
+}
+.main p{
+  margin-top: 25px;
+}
+.container .main .challenge{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container .main .challenge .skill{
+  display: flex;
+  padding: 75px;
+  align-items: center;
+  justify-content: center;
+  margin-top:5%;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+/* Footer CSS*/
+
+span{
+  color:fuchsia;
+  font-weight: bold;
+}
+
+
+#header {
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  display: inline;
+  font-weight: bold;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 0;
+  }
+  
+  to {
+    margin-left: 10%;
+  }
+}

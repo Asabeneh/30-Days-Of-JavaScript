@@ -1,0 +1,84 @@
+*{
+    text-align: center;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./images/galaxy.gif");
+    height: 100vh;
+    margin: 0;
+}
+h3{
+    color: #fff;
+    font-size: 36px;;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex: 20px;
+}
+form > input{
+   flex: 25px;   
+   border: 1px solid rebeccapurple;
+   border-radius: 5px;
+   margin: 5px;
+   padding: 25px;
+   box-sizing: border-box;
+}
+#planetName{
+    flex: 25px;
+    margin: 5px;
+    padding: 25px;
+    background-color: rgb(194, 150, 150);
+    border-radius: 5px;
+}
+#button{
+    text-align:center;
+    margin: 5px;
+}
+#wrapper{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-content: center;
+    background-color:#ffffff;
+    opacity: 0.6;
+    margin: 300px 20px;
+    flex-wrap: wrap;
+}
+#wrapper > img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  
+}
+#wrapper > p{
+    background-color: aquamarine;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 80px;
+    padding: 20px;
+  
+}
+
+@media screen and (max-width:600px){
+  
+    #wrapper > p{
+      
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      flex-wrap:wrap;
+      margin: 15px 0;
+    }
+    #wrapper{
+        display: flex;
+      flex-direction: column;
+      margin-top:20px;
+    }
+    #wrapper img{
+      margin: 0 auto;
+    }
+}

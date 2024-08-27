@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    
+    
+    <div id="demo" class="container">
+        
+        <div class="header">
+            <h3>World Countries Data</h3>
+            <p>Current we have 250 countries</p>
+            <form action="" id="search">
+                <input type="text" id="input" >
+                <div class="button-wrapper">
+                    <button type="submit" id="reverseButton">name</button>
+                    <button type="submit" id="capitalButton">capital</button>
+                    <button type="submit" id="population-button">population</button>
+                </div>
+                <hr>
+            </form>
+            <a href="#graphic" id="icon"> <img class="icon" src="statistics.png" alt=""></a>
+        </div>   
+        <div id="main" class="main">
+            
+        </div>
+        <div id="graphic" class="graphic-wrapper2">
+            <div>
+                <button>langue</button>
+                <button>population</button>
+            </div>
+            <canvas id="myChart"></canvas>
+            <a href="#top" class="arrow"><i class="fa-solid fa-arrow-up "></i></a>
+        </div>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../data/countries_data.js"></script>
+    <script src="../data/countries.js"></script>
+    <script src="app.js" ></script>
+    
+</body>
+</html>

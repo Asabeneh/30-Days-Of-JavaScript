@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif,'Times New Roman', Times, serif;
+    /* border: 1px solid; */
+}
+body{
+    background-color: rgb(32, 220, 160);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.container .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+h3{
+    font-size:400%
+}
+p{
+    font-size: 200%;
+}
+.container .header form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-around;
+}
+.container .header form input{
+    padding: 10px 20px;
+    border-radius:10px;
+    font-size:x-large
+}
+.container .header .button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(37, 156, 220);
+    padding: 15px 35px;
+    color:aliceblue;
+    font-size:large;
+}
+
+/* main css*/
+
+.container .main, .main-reverse, .filtered-countries, 
+.filtered-countries-reverse, .main-capital, .main-capital-reverse,
+ .filtered-capital, .filtered-capital-reverse, .main-population,
+  .main-population-reverse, .filtered-population,
+   .filtered-population-reverse{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container .country-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 120px;
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 10px 0;
+    
+}
+.container .country-wrapper img{
+    margin: 5px 0;
+    width: 80%;
+}
+.container .country-wrapper p{
+    font-size: x-large;
+    margin-top: 5px;
+}
+.icon{
+    width: 60px;
+}
+.container .country-wrapper ul{
+    width: 80%;
+    list-style: none;
+}
+.container .country-wrapper ul li{
+    font-size: 1em;
+}
+.graphic-wrapper2{
+  display: none;
+}
+.graphic-wrapper{
+    display:flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:30px auto ;
+}
+
+
+.fa-solid{
+    padding: 50px;
+    font-size: 50px;
+}

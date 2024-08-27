@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<div class="container">
+  <div class="main">
+    <div class="header"> 
+      <h1>WORLD COUNTRİES LİST</h1>
+      <h2>Total numbers of countries 250</h2>
+      <p id="text"></p>
+    </div>
+    <div class="form-wrapper">
+      <form action="" id="form">
+        <button class="btn" id="start">STARTİNG WORLD</button>
+        <button class="btn" id="any">STARTİNG WİTH ANY WORLD</button>
+        <button class="btn" id="sort"><i class="fa-solid fa-arrow-up-a-z"></i></button>  
+        <div class="search">
+          <input type="text" id="filter" placeholder="search country" style="text-align: center;">
+          <button id="search"> <i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div id="list" class="country-wrapper">
+</div>
+<script src="app.js"></script>

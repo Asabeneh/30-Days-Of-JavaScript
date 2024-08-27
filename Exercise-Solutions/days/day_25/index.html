@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>JavaScript for Everyone:DOM</title>
+</head>
+<body>
+
+<div class="container">
+<div class="header">
+  <h1>World Countries Data</h1>
+  <p>Current we have 250 countries</p>
+</div>
+<div class="button-wrapper">
+  <button class="btn" onclick="displayCountry()">POPULATİON</button>
+  <button class="btn" onclick="displayLan()">LANGUES</button>
+</div>
+<div class="chart-wrapper">
+  <div id="country">
+  <p>10 Most populated countries in the World</p>
+    <canvas id="population" class="graf"></canvas>
+  </div>
+  <div id="lan">
+  <p>10 Most spoken langues in the World</p>
+  <canvas id="langue" class="graf" ></canvas>
+</div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-horizontalBar"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,'Times New Roman', Times, serif;
+    /* border: 1px solid; */
+}
+.container{
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Header CSS*/
+.container .header{
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    justify-content: space-around;
+}
+.container .header .title h3{
+    text-align: center;
+}
+.container .header .form-wrapper{
+    width: 60%;
+    margin: 0 auto;
+}
+.container .header .form-wrapper form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .header .form-wrapper form input{
+padding: 5px 14px;
+width: 23%;
+}
+
+/* Main CSS*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+}
+.main ul{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    justify-content:space-between;
+    width: 60%;
+    margin: 0 auto;
+    background-color: thistle;
+    margin-bottom: 5px;
+}
+.main ul li{
+    list-style: none;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    width: 20%;
+}
+.main .button-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    text-align: center;
+}
+.main .button-wrapper button{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: aqua;
+}
+.main .button-wrapper button:hover{
+    background-color: tomato;
+}
+
+
+@media screen and (max-width:600px){
+    .main .button-wrapper button{
+        padding: 2px;
+    }
+    .main ul{
+        width: 100%;
+    }
+    .container .header .form-wrapper{
+        width: 100%;
+    }
+
+}
