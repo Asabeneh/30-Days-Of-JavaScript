@@ -44,7 +44,7 @@
 
 ## Set
 
-Set is  a collection of elements. Set can only contains unique elements.
+Set is a collection of elements. Set can only contains unique elements.
 Let us see how to create a set in the section below.
 
 ### Creating an empty set
@@ -283,6 +283,8 @@ Set(2) {1, 2}
 ```
 
 ## Map
+
+Map objects are collections of key-value pairs.
 
 ### Creating an empty Map
 
