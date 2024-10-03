@@ -7,10 +7,11 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> January, 2020</small>
-  </sub>
+<sub>Author:
+<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<small> January, 2020</small>
+</sub>
+
 </div>
 
 [<< Day 2](../02_Day_Data_types/02_day_data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
@@ -18,38 +19,38 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_3.png)
 
 - [📔 Day 3](#-day-3)
-	- [Booleans](#booleans)
-		- [Truthy values](#truthy-values)
-		- [Falsy values](#falsy-values)
-	- [Undefined](#undefined)
-	- [Null](#null)
-	- [Operators](#operators)
-		- [Assignment operators](#assignment-operators)
-		- [Arithmetic Operators](#arithmetic-operators)
-		- [Comparison Operators](#comparison-operators)
-		- [Logical Operators](#logical-operators)
-		- [Increment Operator](#increment-operator)
-		- [Decrement Operator](#decrement-operator)
-		- [Ternary Operators](#ternary-operators)
-		- [Operator Precedence](#operator-precedence)
-	- [Window Methods](#window-methods)
-		- [Window alert() method](#window-alert-method)
-		- [Window prompt() method](#window-prompt-method)
-		- [Window confirm() method](#window-confirm-method)
-	- [Date Object](#date-object)
-		- [Creating a time object](#creating-a-time-object)
-		- [Getting full year](#getting-full-year)
-		- [Getting month](#getting-month)
-		- [Getting date](#getting-date)
-		- [Getting day](#getting-day)
-		- [Getting hours](#getting-hours)
-		- [Getting minutes](#getting-minutes)
-		- [Getting seconds](#getting-seconds)
-		- [Getting time](#getting-time)
-	- [💻 Day 3: Exercises](#-day-3-exercises)
-		- [Exercises: Level 1](#exercises-level-1)
-		- [Exercises: Level 2](#exercises-level-2)
-		- [Exercises: Level 3](#exercises-level-3)
+  - [Booleans](#booleans)
+    - [Truthy values](#truthy-values)
+    - [Falsy values](#falsy-values)
+  - [Undefined](#undefined)
+  - [Null](#null)
+  - [Operators](#operators)
+    - [Assignment operators](#assignment-operators)
+    - [Arithmetic Operators](#arithmetic-operators)
+    - [Comparison Operators](#comparison-operators)
+    - [Logical Operators](#logical-operators)
+    - [Increment Operator](#increment-operator)
+    - [Decrement Operator](#decrement-operator)
+    - [Ternary Operators](#ternary-operators)
+    - [Operator Precedence](#operator-precedence)
+  - [Window Methods](#window-methods)
+    - [Window alert() method](#window-alert-method)
+    - [Window prompt() method](#window-prompt-method)
+    - [Window confirm() method](#window-confirm-method)
+  - [Date Object](#date-object)
+    - [Creating a time object](#creating-a-time-object)
+    - [Getting full year](#getting-full-year)
+    - [Getting month](#getting-month)
+    - [Getting date](#getting-date)
+    - [Getting day](#getting-day)
+    - [Getting hours](#getting-hours)
+    - [Getting minutes](#getting-minutes)
+    - [Getting seconds](#getting-seconds)
+    - [Getting time](#getting-time)
+  - [💻 Day 3: Exercises](#-day-3-exercises)
+    - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 2](#exercises-level-2)
+    - [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 3
 
@@ -60,12 +61,12 @@ A boolean data type represents one of the two values:_true_ or _false_. Boolean 
 **Example: Boolean Values**
 
 ```js
-let isLightOn = true
-let isRaining = false
-let isHungry = false
-let isMarried = true
-let truValue = 4 > 3    // true
-let falseValue = 4 < 3  // false
+let isLightOn = true;
+let isRaining = false;
+let isHungry = false;
+let isMarried = true;
+let truValue = 4 > 3; // true
+let falseValue = 4 < 3; // false
 ```
 
 We agreed that boolean values are either true or false.
@@ -93,15 +94,15 @@ It is good to remember those truthy values and falsy values. In later section, w
 If we declare a variable and if we do not assign a value, the value will be undefined. In addition to this, if a function is not returning the value, it will be undefined.
 
 ```js
-let firstName
-console.log(firstName) //not defined, because it is not assigned to a value yet
+let firstName;
+console.log(firstName); //not defined, because it is not assigned to a value yet
 ```
 
 ## Null
 
 ```js
-let empty = null
-console.log(empty) // -> null , means no value
+let empty = null;
+console.log(empty); // -> null , means no value
 ```
 
 ## Operators
@@ -111,8 +112,8 @@ console.log(empty) // -> null , means no value
 An equal sign in JavaScript is an assignment operator. It uses to assign a variable.
 
 ```js
-let firstName = 'Asabeneh'
-let country = 'Finland'
+let firstName = "Asabeneh";
+let country = "Finland";
 ```
 
 Assignment Operators
@@ -125,44 +126,41 @@ Arithmetic operators are mathematical operators.
 
 - Addition(+): a + b
 - Subtraction(-): a - b
-- Multiplication(*): a * b
+- Multiplication(_): a _ b
 - Division(/): a / b
 - Modulus(%): a % b
 - Exponential(**): a ** b
 
 ```js
-let numOne = 4
-let numTwo = 3
-let sum = numOne + numTwo
-let diff = numOne - numTwo
-let mult = numOne * numTwo
-let div = numOne / numTwo
-let remainder = numOne % numTwo
-let powerOf = numOne ** numTwo
+let numOne = 4;
+let numTwo = 3;
+let sum = numOne + numTwo;
+let diff = numOne - numTwo;
+let mult = numOne * numTwo;
+let div = numOne / numTwo;
+let remainder = numOne % numTwo;
+let powerOf = numOne ** numTwo;
 
-console.log(sum, diff, mult, div, remainder, powerOf) // 7,1,12,1.33,1, 64
-
+console.log(sum, diff, mult, div, remainder, powerOf); // 7,1,12,1.33,1, 64
 ```
 
 ```js
-const PI = 3.14
-let radius = 100          // length in meter
+const PI = 3.14;
+let radius = 100; // length in meter
 
 //Let us calculate area of a circle
-const areaOfCircle = PI * radius * radius
-console.log(areaOfCircle)  //  314 m
+const areaOfCircle = PI * radius * radius;
+console.log(areaOfCircle); //  314 m
 
-
-const gravity = 9.81      // in m/s2
-let mass = 72             // in Kilogram
+const gravity = 9.81; // in m/s2
+let mass = 72; // in Kilogram
 
 // Let us calculate weight of an object
-const weight = mass * gravity
-console.log(weight)        // 706.32 N(Newton)
+const weight = mass * gravity;
+console.log(weight); // 706.32 N(Newton)
 
-const boilingPoint = 100  // temperature in oC, boiling point of water
-const bodyTemp = 37       // body temperature in oC
-
+const boilingPoint = 100; // temperature in oC, boiling point of water
+const bodyTemp = 37; // body temperature in oC
 
 // Concatenating string with numbers using string interpolation
 /*
@@ -172,7 +170,7 @@ const bodyTemp = 37       // body temperature in oC
  */
 console.log(
   `The boiling point of water is ${boilingPoint} oC.\nHuman body temperature is ${bodyTemp} oC.\nThe gravity of earth is ${gravity} m / s2.`
-)
+);
 ```
 
 ### Comparison Operators
@@ -183,38 +181,38 @@ In programming we compare values, we use comparison operators to compare two val
 **Example: Comparison Operators**
 
 ```js
-console.log(3 > 2)              // true, because 3 is greater than 2
-console.log(3 >= 2)             // true, because 3 is greater than 2
-console.log(3 < 2)              // false,  because 3 is greater than 2
-console.log(2 < 3)              // true, because 2 is less than 3
-console.log(2 <= 3)             // true, because 2 is less than 3
-console.log(3 == 2)             // false, because 3 is not equal to 2
-console.log(3 != 2)             // true, because 3 is not equal to 2
-console.log(3 == '3')           // true, compare only value
-console.log(3 === '3')          // false, compare both value and data type
-console.log(3 !== '3')          // true, compare both value and data type
-console.log(3 != 3)             // false, compare only value
-console.log(3 !== 3)            // false, compare both value and data type
-console.log(0 == false)         // true, equivalent
-console.log(0 === false)        // false, not exactly the same
-console.log(0 == '')            // true, equivalent
-console.log(0 == ' ')           // true, equivalent
-console.log(0 === '')           // false, not exactly the same
-console.log(1 == true)          // true, equivalent
-console.log(1 === true)         // false, not exactly the same
-console.log(undefined == null)  // true
-console.log(undefined === null) // false
-console.log(NaN == NaN)         // false, not equal
-console.log(NaN === NaN)        // false
-console.log(typeof NaN)         // number
+console.log(3 > 2); // true, because 3 is greater than 2
+console.log(3 >= 2); // true, because 3 is greater than 2
+console.log(3 < 2); // false,  because 3 is greater than 2
+console.log(2 < 3); // true, because 2 is less than 3
+console.log(2 <= 3); // true, because 2 is less than 3
+console.log(3 == 2); // false, because 3 is not equal to 2
+console.log(3 != 2); // true, because 3 is not equal to 2
+console.log(3 == "3"); // true, compare only value
+console.log(3 === "3"); // false, compare both value and data type
+console.log(3 !== "3"); // true, compare both value and data type
+console.log(3 != 3); // false, compare only value
+console.log(3 !== 3); // false, compare both value and data type
+console.log(0 == false); // true, equivalent
+console.log(0 === false); // false, not exactly the same
+console.log(0 == ""); // true, equivalent
+console.log(0 == " "); // true, equivalent
+console.log(0 === ""); // false, not exactly the same
+console.log(1 == true); // true, equivalent
+console.log(1 === true); // false, not exactly the same
+console.log(undefined == null); // true
+console.log(undefined === null); // false
+console.log(NaN == NaN); // false, not equal
+console.log(NaN === NaN); // false
+console.log(typeof NaN); // number
 
-console.log('mango'.length == 'avocado'.length)  // false
-console.log('mango'.length != 'avocado'.length)  // true
-console.log('mango'.length < 'avocado'.length)   // true
-console.log('milk'.length == 'meat'.length)      // true
-console.log('milk'.length != 'meat'.length)      // false
-console.log('tomato'.length == 'potato'.length)  // true
-console.log('python'.length > 'dragon'.length)   // false
+console.log("mango".length == "avocado".length); // false
+console.log("mango".length != "avocado".length); // true
+console.log("mango".length < "avocado".length); // true
+console.log("milk".length == "meat".length); // true
+console.log("milk".length != "meat".length); // false
+console.log("tomato".length == "potato".length); // true
+console.log("python".length > "dragon".length); // false
 ```
 
 Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
@@ -233,23 +231,23 @@ The ! operator negates true to false and false to true.
 ```js
 // && ampersand operator example
 
-const check = 4 > 3 && 10 > 5         // true && true -> true
-const check = 4 > 3 && 10 < 5         // true && false -> false
-const check = 4 < 3 && 10 < 5         // false && false -> false
+const check = 4 > 3 && 10 > 5; // true && true -> true
+const check = 4 > 3 && 10 < 5; // true && false -> false
+const check = 4 < 3 && 10 < 5; // false && false -> false
 
 // || pipe or operator, example
 
-const check = 4 > 3 || 10 > 5         // true  || true -> true
-const check = 4 > 3 || 10 < 5         // true  || false -> true
-const check = 4 < 3 || 10 < 5         // false || false -> false
+const check = 4 > 3 || 10 > 5; // true  || true -> true
+const check = 4 > 3 || 10 < 5; // true  || false -> true
+const check = 4 < 3 || 10 < 5; // false || false -> false
 
 //! Negation examples
 
-let check = 4 > 3                     // true
-let check = !(4 > 3)                  //  false
-let isLightOn = true
-let isLightOff = !isLightOn           // false
-let isMarried = !false                // true
+let check = 4 > 3; // true
+let check = !(4 > 3); //  false
+let isLightOn = true;
+let isLightOff = !isLightOn; // false
+let isMarried = !false; // true
 ```
 
 ### Increment Operator
@@ -259,17 +257,17 @@ In JavaScript we use the increment operator to increase a value stored in a vari
 1. Pre-increment
 
 ```js
-let count = 0
-console.log(++count)        // 1
-console.log(count)          // 1
+let count = 0;
+console.log(++count); // 1
+console.log(count); // 1
 ```
 
 1. Post-increment
 
 ```js
-let count = 0
-console.log(count++)        // 0
-console.log(count)          // 1
+let count = 0;
+console.log(count++); // 0
+console.log(count); // 1
 ```
 
 We use most of the time post-increment. At least you should remember how to use post-increment operator.
@@ -281,17 +279,17 @@ In JavaScript we use the decrement operator to decrease a value stored in a vari
 1. Pre-decrement
 
 ```js
-let count = 0
-console.log(--count) // -1
-console.log(count)  // -1
+let count = 0;
+console.log(--count); // -1
+console.log(count); // -1
 ```
 
 2. Post-decrement
 
 ```js
-let count = 0
-console.log(count--) // 0
-console.log(count)   // -1
+let count = 0;
+console.log(count--); // 0
+console.log(count); // -1
 ```
 
 ### Ternary Operators
@@ -300,15 +298,15 @@ Ternary operator allows to write a condition.
 Another way to write conditionals is using ternary operators. Look at the following examples:
 
 ```js
-let isRaining = true
+let isRaining = true;
 isRaining
-  ? console.log('You need a rain coat.')
-  : console.log('No need for a rain coat.')
-isRaining = false
+  ? console.log("You need a rain coat.")
+  : console.log("No need for a rain coat.");
+isRaining = false;
 
 isRaining
-  ? console.log('You need a rain coat.')
-  : console.log('No need for a rain coat.')
+  ? console.log("You need a rain coat.")
+  : console.log("No need for a rain coat.");
 ```
 
 ```sh
@@ -317,15 +315,15 @@ No need for a rain coat.
 ```
 
 ```js
-let number = 5
+let number = 5;
 number > 0
   ? console.log(`${number} is a positive number`)
-  : console.log(`${number} is a negative number`)
-number = -5
+  : console.log(`${number} is a negative number`);
+number = -5;
 
 number > 0
   ? console.log(`${number} is a positive number`)
-  : console.log(`${number} is a negative number`)
+  : console.log(`${number} is a negative number`);
 ```
 
 ```sh
@@ -344,11 +342,11 @@ I would like to recommend you to read about operator precedence from this [link]
 As you have seen at very beginning alert() method displays an alert box with a specified message and an OK button. It is a builtin method and it takes on argument.
 
 ```js
-alert(message)
+alert(message);
 ```
 
 ```js
-alert('Welcome to 30DaysOfJavaScript')
+alert("Welcome to 30DaysOfJavaScript");
 ```
 
 Do not use too much alert because it is destructing and annoying, use it just to test.
@@ -358,12 +356,12 @@ Do not use too much alert because it is destructing and annoying, use it just to
 The window prompt methods display a prompt box with an input on your browser to take input values and the input data can be stored in a variable. The prompt() method takes two arguments. The second argument is optional.
 
 ```js
-prompt('required text', 'optional text')
+prompt("required text", "optional text");
 ```
 
 ```js
-let number = prompt('Enter number', 'number goes here')
-console.log(number)
+let number = prompt("Enter number", "number goes here");
+console.log(number);
 ```
 
 ### Window confirm() method
@@ -373,8 +371,8 @@ A confirm box is often used to ask permission from a user to execute something. 
 Clicking the OK yields true value, whereas clicking the Cancel button yields false value.
 
 ```js
-const agree = confirm('Are you sure you like to delete? ')
-console.log(agree) // result will be true or false based on what you click on the dialog box
+const agree = confirm("Are you sure you like to delete? ");
+console.log(agree); // result will be true or false based on what you click on the dialog box
 ```
 
 These are not all the window methods we will have a separate section to go deep into window methods.
@@ -382,7 +380,7 @@ These are not all the window methods we will have a separate section to go deep 
 ## Date Object
 
 Time is an important thing. We like to know the time a certain activity or event. In JavaScript current time and date is created using JavaScript Date Object. The object we create using Date object provides many methods to work with date and time.The methods we use to get date and time information from a date object values are started with a word _get_ because it provide the information.
-_getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
+_getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime()_
 
 ![Date time Object](../images/date_time_object.png)
 
@@ -391,8 +389,8 @@ _getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeco
 Once we create time object. The time object will provide information about time. Let us create a time object
 
 ```js
-const now = new Date()
-console.log(now) // Sat Jan 04 2020 00:56:41 GMT+0200 (Eastern European Standard Time)
+const now = new Date();
+console.log(now); // Sat Jan 04 2020 00:56:41 GMT+0200 (Eastern European Standard Time)
 ```
 
 We have created a time object and we can access any date time information from the object using the get methods we have mentioned on the table.
@@ -402,8 +400,8 @@ We have created a time object and we can access any date time information from t
 Let's extract or get the full year from a time object.
 
 ```js
-const now = new Date()
-console.log(now.getFullYear()) // 2020
+const now = new Date();
+console.log(now.getFullYear()); // 2020
 ```
 
 ### Getting month
@@ -411,8 +409,8 @@ console.log(now.getFullYear()) // 2020
 Let's extract or get the month from a time object.
 
 ```js
-const now = new Date()
-console.log(now.getMonth()) // 0, because the month is January,  month(0-11)
+const now = new Date();
+console.log(now.getMonth()); // 0, because the month is January,  month(0-11)
 ```
 
 ### Getting date
@@ -420,8 +418,8 @@ console.log(now.getMonth()) // 0, because the month is January,  month(0-11)
 Let's extract or get the date of the month from a time object.
 
 ```js
-const now = new Date()
-console.log(now.getDate()) // 4, because the day of the month is 4th,  day(1-31)
+const now = new Date();
+console.log(now.getDate()); // 4, because the day of the month is 4th,  day(1-31)
 ```
 
 ### Getting day
@@ -429,8 +427,8 @@ console.log(now.getDate()) // 4, because the day of the month is 4th,  day(1-31)
 Let's extract or get the day of the week from a time object.
 
 ```js
-const now = new Date()
-console.log(now.getDay()) // 6, because the day is Saturday which is the 7th day
+const now = new Date();
+console.log(now.getDay()); // 6, because the day is Saturday which is the 7th day
 //  Sunday is 0, Monday is 1 and Saturday is 6
 // Getting the weekday as a number (0-6)
 ```
@@ -440,8 +438,8 @@ console.log(now.getDay()) // 6, because the day is Saturday which is the 7th day
 Let's extract or get the hours from a time object.
 
 ```js
-const now = new Date()
-console.log(now.getHours()) // 0, because the time is 00:56:41
+const now = new Date();
+console.log(now.getHours()); // 0, because the time is 00:56:41
 ```
 
 ### Getting minutes
@@ -449,8 +447,8 @@ console.log(now.getHours()) // 0, because the time is 00:56:41
 Let's extract or get the minutes from a time object.
 
 ```js
-const now = new Date()
-console.log(now.getMinutes()) // 56, because the time is 00:56:41
+const now = new Date();
+console.log(now.getMinutes()); // 56, because the time is 00:56:41
 ```
 
 ### Getting seconds
@@ -458,8 +456,8 @@ console.log(now.getMinutes()) // 56, because the time is 00:56:41
 Let's extract or get the seconds from a time object.
 
 ```js
-const now = new Date()
-console.log(now.getSeconds()) // 41, because the time is 00:56:41
+const now = new Date();
+console.log(now.getSeconds()); // 41, because the time is 00:56:41
 ```
 
 ### Getting time
@@ -469,35 +467,35 @@ This method give time in milliseconds starting from January 1, 1970. It is also 
 1. Using _getTime()_
 
 ```js
-const now = new Date() //
-console.log(now.getTime()) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
+const now = new Date(); //
+console.log(now.getTime()); // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
 ```
 
 1. Using _Date.now()_
 
 ```js
-const allSeconds = Date.now() //
-console.log(allSeconds) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
+const allSeconds = Date.now(); //
+console.log(allSeconds); // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
 
-const timeInSeconds = new Date().getTime()
-console.log(allSeconds == timeInSeconds) // true
+const timeInSeconds = new Date().getTime();
+console.log(allSeconds == timeInSeconds); // true
 ```
 
 Let us format these values to a human readable time format.
 **Example:**
 
 ```js
-const now = new Date()
-const year = now.getFullYear() // return year
-const month = now.getMonth() + 1 // return month(0 - 11)
-const date = now.getDate() // return date (1 - 31)
-const hours = now.getHours() // return number (0 - 23)
-const minutes = now.getMinutes() // return number (0 -59)
+const now = new Date();
+const year = now.getFullYear(); // return year
+const month = now.getMonth() + 1; // return month(0 - 11)
+const date = now.getDate(); // return date (1 - 31)
+const hours = now.getHours(); // return number (0 - 23)
+const minutes = now.getMinutes(); // return number (0 -59)
 
-console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
+console.log(`${date}/${month}/${year} ${hours}:${minutes}`); // 4/1/2020 0:56
 ```
 
-🌕  You have boundless energy. You have just completed day 3 challenges and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You have boundless energy. You have just completed day 3 challenges and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## 💻 Day 3: Exercises
 
@@ -507,10 +505,12 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 2. Check if type of '10' is equal to 10
 3. Check if parseInt('9.8') is equal to 10
 4. Boolean value is either true or false.
+
    1. Write three JavaScript statement which provide truthy value.
    2. Write three JavaScript statement which provide falsy value.
 
 5. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+
    1. 4 > 3
    2. 4 >= 3
    3. 4 < 3
@@ -525,6 +525,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    12. Find the length of python and jargon and make a falsy comparison statement.
 
 6. Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
+
    1. 4 > 3 && 10 < 12
    2. 4 > 3 && 10 > 12
    3. 4 > 3 || 10 < 12
@@ -573,29 +574,29 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
 1. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
 
-    ```sh
-    Enter hours: 40
-    Enter rate per hour: 28
-    Your weekly earning is 1120
-    ```
+   ```sh
+   Enter hours: 40
+   Enter rate per hour: 28
+   Your weekly earning is 1120
+   ```
 
 1. If the length of your name is greater than 7 say, your name is long else say your name is short.
 1. Compare your first name length and your family name length and you should get this output.
 
-    ```js
-    let firstName = 'Asabeneh'
-    let lastName = 'Yetayeh'
-    ```
+   ```js
+   let firstName = "Asabeneh";
+   let lastName = "Yetayeh";
+   ```
 
-    ```sh
-    Your first name, Asabeneh is longer than your family name, Yetayeh
-    ```
+   ```sh
+   Your first name, Asabeneh is longer than your family name, Yetayeh
+   ```
 
 1. Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
 
    ```js
-   let myAge = 250
-   let yourAge = 25
+   let myAge = 250;
+   let yourAge = 25;
    ```
 
    ```sh
@@ -604,14 +605,14 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 
 1. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
 
-    ```sh
+   ```sh
 
-    Enter birth year: 1995
-    You are 25. You are old enough to drive
+   Enter birth year: 1995
+   You are 25. You are old enough to drive
 
-    Enter birth year: 2005
-    You are 15. You will be allowed to drive after 3 years.
-    ```
+   Enter birth year: 2005
+   You are 15. You will be allowed to drive after 3 years.
+   ```
 
 1. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
 
