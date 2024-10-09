@@ -1,5 +1,8 @@
 # 30 Days Of JavaScript
 
+  <strong>Learn with Asabeneh by joining the upcoming [<em>CODING BOOTCAMP</em>](https://docs.google.com/forms/d/e/1FAIpQLSf0oNIYR9XU1DCctfl-pY36KbWse-SQX5aQaUgetqSinFYnmQ/viewform) </strong>
+
+
 | # Day |                                                                       Topics                                                                        |
 | ----- | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
 | 01    |                                                             [Introduction](./readMe.md)                                                             |
@@ -32,6 +35,8 @@
 | 28    |                          [Mini Project: Leaderboard](./28_Day_Mini_project_leaderboard/28_day_mini_project_leaderboard.md)                          |
 | 29    |             [Mini Project: Animating characters](./29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)             |
 | 30    |                                     [Final Projects](./30_Day_Mini_project_final/30_day_mini_project_final.md)                                      |
+
+  <strong>Learn with Asabeneh by joining the upcoming [<em>CODING BOOTCAMP</em>](https://docs.google.com/forms/d/e/1FAIpQLSf0oNIYR9XU1DCctfl-pY36KbWse-SQX5aQaUgetqSinFYnmQ/viewform) </strong>
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 
@@ -78,36 +83,36 @@
 
 - [30 Days Of JavaScript](#30-days-of-javascript)
 - [📔 Day 1](#-day-1)
-	- [Introduction](#introduction)
-	- [Requirements](#requirements)
-	- [Setup](#setup)
-		- [Install Node.js](#install-nodejs)
-		- [Browser](#browser)
-			- [Installing Google Chrome](#installing-google-chrome)
-			- [Opening Google Chrome Console](#opening-google-chrome-console)
-			- [Writing Code on Browser Console](#writing-code-on-browser-console)
-				- [Console.log](#consolelog)
-				- [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
-				- [Comments](#comments)
-				- [Syntax](#syntax)
-			- [Arithmetics](#arithmetics)
-		- [Code Editor](#code-editor)
-			- [Installing Visual Studio Code](#installing-visual-studio-code)
-			- [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
-	- [Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
-		- [Inline Script](#inline-script)
-		- [Internal Script](#internal-script)
-		- [External Script](#external-script)
-		- [Multiple External Scripts](#multiple-external-scripts)
-	- [Introduction to Data types](#introduction-to-data-types)
-		- [Numbers](#numbers)
-		- [Strings](#strings)
-		- [Booleans](#booleans)
-		- [Undefined](#undefined)
-		- [Null](#null)
-	- [Checking Data Types](#checking-data-types)
-	- [Comments Again](#comments-again)
-	- [Variables](#variables)
+  - [Introduction](#introduction)
+  - [Requirements](#requirements)
+  - [Setup](#setup)
+    - [Install Node.js](#install-nodejs)
+    - [Browser](#browser)
+      - [Installing Google Chrome](#installing-google-chrome)
+      - [Opening Google Chrome Console](#opening-google-chrome-console)
+      - [Writing Code on Browser Console](#writing-code-on-browser-console)
+        - [Console.log](#consolelog)
+        - [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
+        - [Comments](#comments)
+        - [Syntax](#syntax)
+      - [Arithmetics](#arithmetics)
+    - [Code Editor](#code-editor)
+      - [Installing Visual Studio Code](#installing-visual-studio-code)
+      - [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
+  - [Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
+    - [Inline Script](#inline-script)
+    - [Internal Script](#internal-script)
+    - [External Script](#external-script)
+    - [Multiple External Scripts](#multiple-external-scripts)
+  - [Introduction to Data types](#introduction-to-data-types)
+    - [Numbers](#numbers)
+    - [Strings](#strings)
+    - [Booleans](#booleans)
+    - [Undefined](#undefined)
+    - [Null](#null)
+  - [Checking Data Types](#checking-data-types)
+  - [Comments Again](#comments-again)
+  - [Variables](#variables)
 - [💻 Day 1: Exercises](#-day-1-exercises)
 
 # 📔 Day 1
@@ -127,7 +132,7 @@ GitHub.
 
 This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. Subscribe the channel, comment and ask questions on YouTube vides and be proactive, the author will eventually notice you. 
 
-The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://testimonial-vdzd.onrender.com//)
+The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://testimonial-s3sw.onrender.com/)
 
 ## Requirements
 

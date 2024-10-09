@@ -28,12 +28,12 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_30.png)
 
 - [Day 30](#day-30)
-	- [Exercises](#exercises)
-		- [Exercise: Level 1](#exercise-level-1)
-		- [Exercise: Level 2](#exercise-level-2)
-		- [Exercise: Level 3](#exercise-level-3)
-	- [Testimony](#testimony)
-	- [Support](#support)
+  - [Exercises](#exercises)
+    - [Exercise: Level 1](#exercise-level-1)
+    - [Exercise: Level 2](#exercise-level-2)
+    - [Exercise: Level 3](#exercise-level-3)
+  - [Testimony](#testimony)
+  - [Support](#support)
 
 # Day 30
 
@@ -59,7 +59,7 @@
 
 ## Testimony
 
-Now it is time to support the author by expressing your thoughts about the Author and 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://testimonial-vdzd.onrender.com//)
+Now it is time to support the author by expressing your thoughts about the Author and 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://testimonial-s3sw.onrender.com/)
 
 ## Support
 
