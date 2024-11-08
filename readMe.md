@@ -15,7 +15,7 @@
 | 11    |                      [Destructuring and Spreading](./11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)                      |
 | 12    |                                  [Regular Expressions](./12_Day_Regular_expressions/12_day_regular_expressions.md)                                  |
 | 13    |                             [Console Object Methods](./13_Day_Console_object_methods/13_day_console_object_methods.md)                              |
-| 14    |                                         [Error Handling](./14_Day_Error_handling/13_day_console_object_methods.md)                                          |
+| 14    |                                         [Error Handling](./14_Day_Error_handling/14_day_error_handling.md)                                          |
 | 15    |                                                    [Classes](./15_Day_Classes/15_day_classes.md)                                                    |
 | 16    |                                                        [JSON](./16_Day_JSON/16_day_json.md)                                                         |
 | 17    |                                            [Web Storages](./17_Day_Web_storages/17_day_web_storages.md)                                             |
