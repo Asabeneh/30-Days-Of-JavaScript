@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 12](../12_Day_Regular_expressions/12_day_regular_expressions.md) | [Day 14>>](../14_Day_Error_handling/14_day_error_handling.md)
+[<< Day 12](../12_Day_Regular_expressions/12_day_regular_expressions.md) | [Day 14>>](../14_Day_Error_handling/13_day_console_object_methods.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_13.png)
 
