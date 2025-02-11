@@ -54,7 +54,7 @@
 
 ## Testimonio
 
-Ahora es el momento de apoyar al autor y expresar su opinión sobre el autor y 30DaysOfJavaScript. Puedes dejar tu testimonio en este [link](https://testimonify.herokuapp.com/)
+Ahora es el momento de apoyar al autor y expresar su opinión sobre el autor y 30DaysOfJavaScript. Puedes dejar tu testimonio en este [link](https://www.asabeneh.com/testimonials)
 
 ## Apoyo
 

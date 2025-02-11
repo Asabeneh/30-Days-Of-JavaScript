@@ -1,6 +1,6 @@
 # 30 Days Of JavaScript
 
-  <strong>Learn with Asabeneh by joining the upcoming [<em>CODING BOOTCAMP</em>](https://docs.google.com/forms/d/e/1FAIpQLSf0oNIYR9XU1DCctfl-pY36KbWse-SQX5aQaUgetqSinFYnmQ/viewform) </strong>
+ <!--  <strong>Learn with Asabeneh by joining the upcoming [<em>CODING BOOTCAMP</em>](https://docs.google.com/forms/d/e/1FAIpQLSf0oNIYR9XU1DCctfl-pY36KbWse-SQX5aQaUgetqSinFYnmQ/viewform) </strong> -->
 
 
 | # Day |                                                                       Topics                                                                        |
@@ -36,7 +36,7 @@
 | 29    |             [Mini Project: Animating characters](./29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)             |
 | 30    |                                     [Final Projects](./30_Day_Mini_project_final/30_day_mini_project_final.md)                                      |
 
-  <strong>Learn with Asabeneh by joining the upcoming [<em>CODING BOOTCAMP</em>](https://docs.google.com/forms/d/e/1FAIpQLSf0oNIYR9XU1DCctfl-pY36KbWse-SQX5aQaUgetqSinFYnmQ/viewform) </strong>
+  <!-- <strong>Learn with Asabeneh by joining the upcoming [<em>CODING BOOTCAMP</em>](https://docs.google.com/forms/d/e/1FAIpQLSf0oNIYR9XU1DCctfl-pY36KbWse-SQX5aQaUgetqSinFYnmQ/viewform) </strong> -->
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 
@@ -132,7 +132,7 @@ GitHub.
 
 This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. Subscribe the channel, comment and ask questions on YouTube vides and be proactive, the author will eventually notice you. 
 
-The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://testimonial-s3sw.onrender.com/)
+The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://www.asabeneh.com/testimonials)
 
 ## Requirements
 

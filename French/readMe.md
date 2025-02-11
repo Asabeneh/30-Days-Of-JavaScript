@@ -127,7 +127,7 @@ depuis dix ans et est le langage de programmation le plus utilisé sur GitHub.
 
 Ce défi est facile à lire, écrit dans un français facile, engageant, motivant et en même temps, il est très exigeant. Vous devez consacrer beaucoup de temps à la réalisation de ce défi. Si vous êtes un apprenant visuel, vous pouvez obtenir la leçon vidéo sur <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> Chaîne YouTube. Abonnez-vous à la chaîne, commentez et posez des questions sur les vidéos YouTube et soyez proactif, l'auteur finira par vous remarquer. 
 
-L'auteur aimerait connaître votre opinion sur le défi, partager l'auteur en exprimant vos pensées sur le défi 30 jours de JavaScript. Vous pouvez laisser votre témoignage sur cette page [link](https://testimonial-vdzd.onrender.com//)
+L'auteur aimerait connaître votre opinion sur le défi, partager l'auteur en exprimant vos pensées sur le défi 30 jours de JavaScript. Vous pouvez laisser votre témoignage sur cette page [link](https://www.asabeneh.com/testimonials)
 
 ## Les éxigences
 

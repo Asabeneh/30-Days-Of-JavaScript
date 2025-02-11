@@ -28,12 +28,12 @@
 ![Thirty Days Of JavaScript](../../images/banners/day_1_30.png)
 
 - [Day 30](#day-30)
-	- [Esercizi](#exercises)
-		- [Esercizio: Livello 1](#exercise-level-1)
-		- [Esercizio: Livello 2](#exercise-level-2)
-		- [Esercizio: Livello 3](#exercise-level-3)
-	- [Testimony](#testimony)
-	- [Support](#support)
+  - [Esercizi](#esercizi)
+    - [Exercise: Livello 1](#exercise-livello-1)
+    - [Exercise: Livello 2](#exercise-livello-2)
+    - [Exercise: Livello 3](#exercise-livello-3)
+  - [Testimony](#testimony)
+  - [Support](#support)
 
 # Day 30
 
@@ -59,7 +59,7 @@
 
 ## Testimony
 
-Ora è il momento di sostenere l'autore e di esprimere il tuo pensiero sull'autore e su 30DaysOfJavaScript. Potete lasciare la vostra testimonianza su questo [link](https://testimonify.herokuapp.com/)
+Ora è il momento di sostenere l'autore e di esprimere il tuo pensiero sull'autore e su 30DaysOfJavaScript. Potete lasciare la vostra testimonianza su questo [link](https://www.asabeneh.com/testimonials)
 
 ## Support
 

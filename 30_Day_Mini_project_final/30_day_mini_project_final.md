@@ -59,7 +59,7 @@
 
 ## Testimony
 
-Now it is time to support the author by expressing your thoughts about the Author and 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://testimonial-s3sw.onrender.com/)
+Now it is time to support the author by expressing your thoughts about the Author and 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://www.asabeneh.com/testimonials)
 
 ## Support
 

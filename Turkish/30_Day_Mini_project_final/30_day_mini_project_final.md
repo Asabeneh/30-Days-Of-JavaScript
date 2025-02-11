@@ -34,7 +34,7 @@
     - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
   - [Mükemmelsin](#mükemmelsin)
   - [Testimony](#testimony)
-  - [Support](#support)
+  - [Destek](#destek)
 
 # Gün 30
 
@@ -58,7 +58,7 @@
 
 ## Testimony
 
-Now it is time support the author and  express your thoughts about the Author and 30DaysOfJavaScript. You can leave your testimonial on this [link](https://testimonify.herokuapp.com/)
+Now it is time support the author and  express your thoughts about the Author and 30DaysOfJavaScript. You can leave your testimonial on this [link](https://www.asabeneh.com/testimonials)
 
 ## Destek
 
