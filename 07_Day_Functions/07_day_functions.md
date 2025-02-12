@@ -197,10 +197,10 @@ console.log(printFullName('Asabeneh', 'Yetayeh'))
 
 ```js
 // function with multiple parameters
-function functionName(parm1, parm2, parm3,...){
+function functionName(parm1, parm2, parm3,...otherParms){
   //code goes here
 }
-functionName(parm1,parm2,parm3,...) // during calling or invoking three arguments needed
+functionName(parm1,parm2,parm3,parm4,...parm5) // during calling or invoking three arguments needed
 
 
 // this function takes array as a parameter and sum up the numbers in the array
