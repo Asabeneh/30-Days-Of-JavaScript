@@ -94,7 +94,7 @@ function addTwoNumbers() {
   let numTwo = 20
   let sum = numOne + numTwo
 
-  console.log(sum)
+  console.log(sum) // 30
 }
 
 addTwoNumbers() // a function has to be called by its name to be executed 
@@ -106,7 +106,7 @@ addTwoNumbers() // a function has to be called by its name to be executed
       let lastName = 'Yetayeh'
       let space = ' '
       let fullName = firstName + space + lastName
-      console.log(fullName)
+      console.log(fullName) // Asabeneh Yetayeh
 }
 
 printFullName() // calling a function
@@ -124,7 +124,7 @@ function printFullName (){
       let fullName = firstName + space + lastName
       return fullName
 }
-console.log(printFullName())
+console.log(printFullName()) --> Asabeneh Yetayeh
 ```
 
 ```js
@@ -137,7 +137,7 @@ console.log(printFullName())
 
   }
 
-console.log(addTwoNumbers())
+console.log(addTwoNumbers()) --> 5
 ```
 
 ### Function with a parameter
@@ -162,7 +162,7 @@ function square(number) {
   return number * number
 }
 
-console.log(square(10))
+console.log(square(10)) --> 100
 ```
 
 ### Function with two parameters
