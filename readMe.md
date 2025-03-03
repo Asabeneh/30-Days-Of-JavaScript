@@ -284,7 +284,7 @@ console.log(`Hello, World!`)
 
 Now, let us practice more writing JavaScript codes using _`console.log()`_ on Google Chrome console for number data types.
 In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
-It is possible to write JavaScript code on Google Chrome console can directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
+It is possible to write JavaScript code on the Google Chrome console directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
 
 ![Arithmetic](images/arithmetic.png)
 
