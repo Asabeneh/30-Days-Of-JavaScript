@@ -767,14 +767,14 @@ Let us extract numbers from text using a regular expression. This is not the reg
 
 ```js
 let txt = 'In 2019, I ran 30 Days of Python. Now, in 2020 I am super exited to start this challenge'
-let regEx = /\d+/
+let regEx = /\d/g
+
+console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
+console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 
 // d with escape character means d not a normal d instead acts a digit
 // + means one or more digit numbers,
 // if there is g after that it means global, search everywhere.
-
-console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
-console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
 
 20. *repeat()*: it takes a number as argument and it returns the repeated version of the string.
