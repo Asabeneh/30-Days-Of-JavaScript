@@ -19,7 +19,7 @@
 
 [<< Gün 21](../21_Day_DOM/21_day_dom.md) | [Gün 23 >>](../23_Day_Event_listeners/23_day_event_listeners.md)
 
-![Thirty Days Of JavaScript](../images/21_Day_DOM/../../../images/banners/day_1_21.png)
+![Thirty Days Of JavaScript](../images/21_Day_DOM/../../../images/banners/day_1_22.png)
 - [Gün 22](#gün-22)
   - [DOM(Document Object Model)-Gün 2](#domdocument-object-model-gün-2)
     - [Element Oluşturma](#element-oluşturma)
