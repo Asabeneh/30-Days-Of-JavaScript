@@ -72,7 +72,7 @@ console.log(cube(callback, 3))
 Higher order functions return function as a value
 ​
 ```js
-// Higher order function returning an other function
+// Higher order function returning another function
 const higherOrder = n => {
   const doSomething = m => {
     const doWhatEver = t => {
@@ -85,7 +85,7 @@ const higherOrder = n => {
 console.log(higherOrder(2)(3)(10))
 ```
 
-Let us see were we use call back functions. For instance the _forEach_ method uses call back.
+Let us see where we use callback functions. For instance the _forEach_ method uses callback.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -96,8 +96,8 @@ const sumArray = arr => {
   }
   arr.forEach(callback)
   return sum
-
 }
+
 console.log(sumArray(numbers))
 ```
 
@@ -108,7 +108,7 @@ console.log(sumArray(numbers))
 The above example can be simplified as follows:
 
 ```js
-const numbers = [1, 2, 3, 4]
+const numbers = [1, 2, 3, 4, 5]
 ​
 const sumArray = arr => {
   let sum = 0
@@ -116,8 +116,8 @@ const sumArray = arr => {
     sum += element
   })
   return sum
-
 }
+
 console.log(sumArray(numbers))
 ```
 
@@ -127,7 +127,7 @@ console.log(sumArray(numbers))
 
 ### Setting time
 
-In JavaScript we can execute some activities in a certain interval of time or we can schedule(wait) for some time to execute some activities.
+In JavaScript we can execute some activities in a certain interval of time or we can schedule(wait) to execute some activities for some other time.
 
 - setInterval
 - setTimeout
@@ -172,11 +172,11 @@ setTimeout(sayHello, 2000) // it prints hello after it waits for 2 seconds.
 
 ## Functional Programming
 
-Instead of writing regular loop, latest version of JavaScript introduced lots of built in methods which can help us to solve complicated problems. All builtin methods take callback function. In this section, we will see _forEach_, _map_, _filter_, _reduce_, _find_, _every_, _some_, and _sort_.
+Instead of writing regular loops, the latest version of JavaScript introduces lots of built-in methods which can help us solve complicated problems. All built-in methods take callback function. In this section, we will see _forEach_, _map_, _filter_, _reduce_, _find_, _every_, _some_, and _sort_.
 
 ### forEach
 
-_forEach_: Iterate an array elements. We use _forEach_ only with arrays. It takes a callback function with elements, index parameter and array itself. The index and the array optional.
+_forEach_: Iterate an array of elements. We use _forEach_ only with arrays. It takes a callback function with elements, index parameter and array itself. The index and the array being optional.
 
 ```js
 arr.forEach(function (element, index, arr) {
@@ -232,7 +232,7 @@ ICELAND
 
 ### map
 
-_map_: Iterate an array elements and modify the array elements. It takes a callback function with elements,  index , array parameter and return a new array.
+_map_: Iterate an array of elements and modify the array elements. It takes a callback function with elements,  index , array parameter and return a new array.
 
 ```js
 const modifiedArray = arr.map(function (element, index, arr) {
@@ -308,7 +308,7 @@ const countriesFirstThreeLetters = countries.map((country) =>
 
 ### filter
 
-_Filter_: Filter out items which full fill filtering conditions and return a new array.
+_Filter_: Filter out items which fullfill filtering conditions and return a new array.
 
 ```js
 //Filter countries containing land
@@ -550,14 +550,14 @@ console.log(users) // sorted ascending
 // [{…}, {…}, {…}, {…}]
 ```
 
-🌕 You are doing great.Never give up because great things take time. You have just completed day 9 challenges and you are 9 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You are doing great.Never give up because great things take time. You have just completed day 9 challenges and you are 9 steps ahead into your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## 💻 Exercises
 
 ### Exercises: Level 1
 
 ```js
-const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
+const countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 const products = [
@@ -577,34 +577,34 @@ const products = [
 5. Use **_forEach_** to console.log each number in the numbers array.
 6. Use **_map_** to create a new array by changing each country to uppercase in the countries array.
 7. Use **_map_** to create an array of countries length from countries array.
-8. Use **_map_** to create a new array by changing each number to square in the numbers array
-9. Use **_map_** to change to each name to uppercase in the names array
+8. Use **_map_** to create a new array by changing each number to its square in the numbers array
+9. Use **_map_** to change each name to uppercase in the names array
 10. Use **_map_** to map the products array to its corresponding prices.
 11. Use **_filter_** to filter out countries containing **_land_**.
 12. Use **_filter_** to filter out countries having six character.
 13. Use **_filter_** to filter out countries containing six letters and more in the country array.
-14. Use **_filter_** to filter out country start with 'E';
+14. Use **_filter_** to filter out countries starting with 'E';
 15. Use **_filter_** to filter out only prices with values.
 16. Declare a function called getStringLists which takes an array as a parameter and then returns an array only with string items.
 17. Use **_reduce_** to sum all the numbers in the numbers array.
-18. Use **_reduce_** to concatenate all the countries and to produce this sentence: **_Estonia, Finland, Sweden, Denmark, Norway, and IceLand are north European countries_**
+18. Use **_reduce_** to concatenate all the countries and to produce this sentence: **_Estonia, Finland, Sweden, Denmark, Norway, and Iceland are north European countries_**
 19. Explain the difference between **_some_** and **_every_**
 20. Use **_some_** to check if some names' length greater than seven in names array
 21. Use **_every_** to check if all the countries contain the word land
 22. Explain the difference between **_find_** and **_findIndex_**.
 23. Use **_find_** to find the first country containing only six letters in the countries array
 24. Use **_findIndex_** to find the position of the first country containing only six letters in the countries array
-25. Use **_findIndex_** to find the position of **_Norway_** if it doesn't exist in the array you will get -1.
-26. Use **_findIndex_** to find the position of **_Russia_** if it doesn't exist in the array you will get -1.
+25. Use **_findIndex_** to find the position of **_Norway_**, if it doesn't exist in the array you will get -1.
+26. Use **_findIndex_** to find the position of **_Russia_**, if it doesn't exist in the array you will get -1.
 
 ### Exercises: Level 2
 
 1. Find the total price of products by chaining two or more array iterators(eg. arr.map(callback).filter(callback).reduce(callback))
-1. Find the sum of price of products using only reduce reduce(callback))
-1. Declare a function called **_categorizeCountries_** which returns an array of countries which have some common pattern(you find the countries array in this repository as countries.js(eg 'land', 'ia', 'island','stan')).
-1. Create a function which return an array of objects, which is the letter and the number of times the letter use to start with a name of a country.
+1. Find the sum of price of products using only reduce reduce(callback)
+1. Declare a function called **_categorizeCountries_** which returns an array of countries which have some common pattern(you find the countries array in this repository as [countries.js](../09_Day_Higher_order_functions/09_day_starter/data/countries_data.js) (eg 'land', 'ia', 'island','stan')).
+1. Create a function which return an array of objects, which is the letter and the number of times the letter is used to start with a name of a country.
 1. Declare a **_getFirstTenCountries_** function and return an array of ten countries. Use different functional programming to work on the countries.js array
-1. Declare a **_getLastTenCountries_** function which which returns the last ten countries in the countries array.
+1. Declare a **_getLastTenCountries_** function which returns the last ten countries in the countries array.
 1. Find out which _letter_ is used many _times_ as initial for a country name from the countries array (eg. Finland, Fiji, France etc)
 
 ### Exercises: Level 3
@@ -638,7 +638,7 @@ const products = [
 
    ````
 
-2. \*\*\* Use countries_data.js file create a function which create the ten most populated countries
+2. \*\*\* Use countries_data.js file to create a function which create the ten most populated countries
 
    ````js
    console.log(mostPopulatedCountries(countries, 10))
