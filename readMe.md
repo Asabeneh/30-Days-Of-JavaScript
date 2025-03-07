@@ -329,7 +329,7 @@ Open the Visual Studio Code by double-clicking its icon. When you open it, you w
 
 ## Adding JavaScript to a Web Page
 
-JavaScript can be added to a web page in three different ways:
+JavaScript can be added to a web page in four different ways:
 
 - **_Inline script_**
 - **_Internal script_**
