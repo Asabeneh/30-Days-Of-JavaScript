@@ -308,12 +308,12 @@ const countriesFirstThreeLetters = countries.map((country) =>
 
 ### filter
 
-_Filter_: Filter out items which full fill filtering conditions and return a new array.
+_Filter_: Filter out items which fullfill filtering conditions and return a new array.
 
 ```js
 //Filter countries containing land
 const countriesContainingLand = countries.filter((country) =>
-  country.includes('land')
+  country.name.includes('land')
 )
 console.log(countriesContainingLand)
 ```
