@@ -141,7 +141,7 @@ let firstTitle = document.querySelector('.title') // select the first available 
 **_querySelectorAll_**: can be used to select html elements by its tag name or class. It returns a nodeList which is an array like object which supports array methods. We can use **_for loop_** or **_forEach_** to loop through each nodeList elements.
 
 ```js
-const allTitles = document.querySelectorAll('h1') # selects all the available h1 elements in the page
+let allTitles = document.querySelectorAll('h1') // selects all the available h1 elements in the page
 
 console.log(allTitles.length) // 4
 for (let i = 0; i < allTitles.length; i++) {
@@ -149,7 +149,7 @@ for (let i = 0; i < allTitles.length; i++) {
 }
 
 allTitles.forEach(title => console.log(title))
-const allTitles = document.querySelectorAll('.title') // the same goes for selecting using class
+allTitles = document.querySelectorAll('.title') // the same goes for selecting using class
 ```
 
 ### Adding attribute
