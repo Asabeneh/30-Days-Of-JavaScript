@@ -146,7 +146,7 @@ No prior knowledge of programming is required to follow this challenge. You need
 
 ## Setup
 
-I believe you have the motivation and a strong desire to be a developer, a computer and Internet. If you have those, then you have everything to get started.
+I believe you have the motivation and a strong desire to be a developer, a computer and Internet. If you have those, then you have everything you need to get started.
 
 ### Install Node.js
 
