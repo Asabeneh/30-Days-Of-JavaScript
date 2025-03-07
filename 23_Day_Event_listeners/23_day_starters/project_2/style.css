@@ -1,0 +1,33 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project{
+    margin: 10% auto;
+    width: 50%;
+    text-align: center;
+}
+
+.keyinput {
+    padding: 20px;
+    border: solid 1px rgb(224, 224, 224);
+    box-shadow: 5px 5px 10px 5px rgb(224, 224, 224);
+    font-weight: bold;
+    font-size: 30px;
+}
+.keyname{
+    color : rgb(33,191,115);
+}
+
+.keycode{
+    font-weight: bold;
+    font-size: 100px;
+    color : rgb(33,191,115);
+    padding: 20px;
+    border: solid 1px rgb(224, 224, 224);
+    box-shadow: 5px 5px 10px 5px rgb(224, 224, 224);
+    width: 50%;
+    padding-top:60px;
+    padding-bottom:60px;
+    margin: 30px auto;
+}

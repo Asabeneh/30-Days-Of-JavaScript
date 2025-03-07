@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-gap: 1em; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    min-height: 100px;
+    text-align: center;
+}
+
+#title{
+    background-color: rgb(239,237,243);
+    display: grid;
+    align-items: center;
+    padding: 10px;
+}
+
+#title h1{
+    font-weight: normal;
+    font-size: 40px;
+    color: rgb(246, 199, 127);
+}
+
+#searchbar{
+    min-height: 100px;
+    padding: 20px;
+}
+
+#searchbar input{
+    padding: 10px;
+    width: 50%;
+    border-radius: 50px;
+    border:solid 1px rgb(239,237,243);
+    margin-bottom: 35px;
+}
+
+#searchbar input:focus{
+    outline: solid 2px rgb(239,237,243);
+}
+
+.filter-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filter-button button{
+    padding: 15px;
+    text-transform: uppercase;
+    width: 200px;
+    background-color: rgb(242,159,59);
+    border: none;
+    margin: 5px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.filter-button button:hover{
+    background-color: rgb(255, 169, 63);
+    color: white;
+}
+
+.filter-button #buttonsignal{
+    width: auto;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 0%;
+    border-left: solid 5px rgb(242,159,59);
+    border-bottom: solid 5px rgb(242,159,59);
+    padding: 0;
+    padding-left: 10px;
+    color: rgb(242,159,59);
+    font-size: 30px;
+}
+
+main{
+    background-color: pink;
+    min-height: 100vh;
+}
+
+.searchresults{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 235, 240);
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: calc(14.285714285714285714285714285714% - 20px);
+    margin: 10px;
+    background-color: white;
+}
+
+.card .image{
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.card .image img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 14.285714285714285714285714285714%;
+    margin:0;
+}
+
+/* Add some padding inside the card container */
+.card .container {
+    padding: 30px 20px;
+}
+
+.card .container h4{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(242,159,59);
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.stats{
+    min-height: 100px;
+}
+
+.stats-header{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+.stats-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.stats-button button{
+    padding: 15px;
+    text-transform: uppercase;
+    min-width: 200px;
+    background-color: rgb(242,159,59);
+    border: none;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.stats-button button:hover{
+    background-color: rgb(255, 169, 63);
+    color: white;
+}
+
+.stats-chart{
+    min-height: 100px;
+    background-color: rgb(239,237,243);
+    padding: 30px;
+}
+.stats-container
+{
+    width: 80%;
+    margin: auto;
+}
+.stats-line{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+}
+
+.stats-line .country{
+    width: 20%;
+}
+.stats-line .portion-container{
+    width: 60%;
+}
+.stats-line .total{
+    width: 20%;
+}
+
+.stats-line .portion{
+    background-color: rgb(242,159,59);
+    width: 100%;
+    min-height: 50px;
+}
+
+footer{
+    background-color: rgb(199, 198, 201);
+}
+.copyright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+.copyrightname{
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    #title h1{
+        font-size: 30px;
+    }
+    #searchbar input{
+        width: 80%;
+    }
+    .filter-button{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: calc(50% - 20px);
+        margin: 10px;
+    }
+    .card:hover {
+        width: 50%;
+        margin:0;
+    }
+    .stats-button{
+        flex-direction: column;
+        align-content: center;
+    }
+    .stats-container
+    {
+        width: 100%;
+        font-size: 10px;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    #title h1{
+        font-size: 30px;
+    }
+    #searchbar input{
+        width: 80%;
+    }
+    .filter-button{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: calc(33.3333% - 20px);
+        margin: 10px;
+    }
+    .card:hover {
+        width: 33.3333%;
+        margin:0;
+    }
+    .stats-container
+    {
+        width: 100%;
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    #title h1{
+        font-size: 40px;
+    }
+    #searchbar input{
+        width: 80%;
+    }
+    .filter-button{
+        flex-direction: row;
+        align-items: center;
+    }
+    .card {
+        width: calc(25% - 20px);
+        margin: 10px;
+    }
+    .card:hover {
+        width: 25%;
+        margin:0;
+    }
+    .stats-container
+    {
+        width: 100%;
+    }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    #searchbar input{
+        width: 60%;
+    }
+    .card {
+        width: calc(20% - 20px);
+        margin: 10px;
+    }
+    .card:hover {
+        width: 20%;
+        margin:0;
+    }
+    .stats-container
+    {
+        width: 80%;
+    }
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    #searchbar input{
+        width: 50%;
+    }
+    .card {
+        width: calc(14.285714285714285714285714285714% - 20px);
+        margin: 10px;
+    }
+    .card:hover {
+        width: 14.285714285714285714285714285714%;
+        margin:0;
+    }
+    .stats-container
+    {
+        width: 80%;
+    }
+ } 
