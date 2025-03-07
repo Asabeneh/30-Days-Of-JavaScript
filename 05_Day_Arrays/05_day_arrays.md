@@ -522,7 +522,7 @@ Splice: It takes three parameters:Starting position, number of times to be remov
 ```js
   const numbers = [1, 2, 3, 4, 5]
   numbers.splice()
-  console.log(numbers)                // -> remove all items
+  console.log(numbers)                // -> don't remove any items
 
 ```
 
