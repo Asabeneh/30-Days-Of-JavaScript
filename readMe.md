@@ -123,14 +123,11 @@
 
 **A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the web. I enjoy using and teaching JavaScript and I hope you will do so too.
 
-In this step by step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
-JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **server-side programming**,  **_machine learning_** and **_AI_**.
+In this step-by-step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind. JavaScript is used to **_add interactivity to websites_**, **_develop mobile apps_**, **_desktop applications_** and **_games_**. Nowadays, JavaScript can also be used for **_server-side programming_**, **_machine learning_**, and **_AI_**.
 
-**_JavaScript (JS)_** has increased in popularity in recent years and has been the leading
-programming language for last ten years and is the most used programming language on
-GitHub.
+**_JavaScript (JS)_** has experienced a significant increase in popularity in recent years and has remained the leading programming language for the past ten years. It is also the most widely used programming language on GitHub.
 
-This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. Subscribe the channel, comment and ask questions on YouTube vides and be proactive, the author will eventually notice you. 
+This challenge is easy to read, written in conversational English, engaging, and motivating. At the same time, it is very demanding, requiring a substantial time commitment to complete successfully. If you are a visual learner, you may find the video lesson on the <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel helpful. Subscribe to the channel, comment, and ask questions on YouTube videos to be proactive; the author will eventually notice you.
 
 The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://www.asabeneh.com/testimonials)
 
@@ -146,15 +143,15 @@ No prior knowledge of programming is required to follow this challenge. You need
 
 ## Setup
 
-I believe you have the motivation and a strong desire to be a developer, a computer and Internet. If you have those, then you have everything to get started.
+I believe you have the motivation and a strong desire to become a developer, along with access to a computer and the Internet. If you have these, then you already have everything you need to get started.
 
 ### Install Node.js
 
-You may not need Node.js right now but you may need it for later. Install [node.js](https://nodejs.org/en/).
+You may not need Node.js right now, but you may need it later. Install [node.js](https://nodejs.org/en/).
 
 ![Node download](images/download_node.png)
 
-After downloading double click and install
+After downloading Node.js, double click and install
 
 ![Install node](images/install_node.png)
 
@@ -179,7 +176,7 @@ Install [Google Chrome](https://www.google.com/chrome/) if you do not have one y
 
 #### Opening Google Chrome Console
 
-You can open Google Chrome console either by clicking three dots at the top right corner of the browser, selecting _More tools -> Developer tools_ or using a keyboard shortcut. I prefer using shortcuts.
+You can open the Google Chrome console either by clicking three dots at the top right corner of the browser, selecting _More tools -> Developer tools_ or using a keyboard shortcut. I prefer using shortcuts.
 
 ![Opening chrome](images/opening_developer_tool.png)
 
@@ -196,7 +193,7 @@ Ctl+Shift+J
 ![Opening console](images/opening_chrome_console_shortcut.png)
 
 After you open the Google Chrome console, try to explore the marked buttons. We will spend most of the time on the Console. The Console is the place where your JavaScript code goes. The Google Console V8 engine changes your JavaScript code to machine code.
-Let us write a JavaScript code on the Google Chrome console:
+Let us write some JavaScript code on the Google Chrome console:
 
 ![write code on console](./images/js_code_on_chrome_console.png)
 
@@ -222,7 +219,7 @@ console.log('Hello, World!')
 
 ##### Console.log with Multiple Arguments
 
-The **`console.log()`** function can take multiple parameters separated by commas. The syntax looks like as follows:**`console.log(param1, param2, param3)`**
+The **`console.log()`** function can take multiple arguments separated by commas. The syntax looks like this: **`console.log(arg1, arg2, arg3)`**.
 
 ![console log multiple arguments](./images/console_log_multipl_arguments.png)
 
@@ -238,7 +235,7 @@ Congratulations! You wrote your first JavaScript code using _`console.log()`_.
 
 ##### Comments
 
-We can add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this `//` is also a comment.
+We can add comments to our code. Comments are very important to make the code more readable and to leave remarks in our code. JavaScript does not execute the commented part of our code. In JavaScript, any line starting with `//` is a comment, and anything enclosed like `/* */` is also a comment.
 
 **Example: Single Line Comment**
 
@@ -253,14 +250,14 @@ We can add comments to our code. Comments are very important to make code more r
 ```js
 /*
 This is a multiline comment  
- Multiline comments can take multiple lines  
+ Multiline comments can span multiple lines  
  JavaScript is the language of the web  
  */
 ```
 
 ##### Syntax
 
-Programming languages are similar to human languages. English or many other language uses words, phrases, sentences, compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language. Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+Programming languages are similar to human languages. English and many other languages use words, phrases, sentences, compound sentences and other things to convey a meaningful message. The English meaning of syntax is "_the arrangement of words and phrases to create well-formed sentences in a language_". The technical definition of syntax is the structure of statements in a computer language. Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
 
 ![Error](images/raising_syntax_error.png)
 
@@ -271,7 +268,7 @@ console.log('Hello, World!')
 console.log('Hello, World!')
 ```
 
-So far, we saw how to display text using the _`console.log()`_. If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or a backtick.
+So far, we saw how to display text using the _`console.log()`_. If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or backticks.
 **Example:**
 
 ```js
@@ -282,9 +279,9 @@ console.log(`Hello, World!`)
 
 #### Arithmetics
 
-Now, let us practice more writing JavaScript codes using _`console.log()`_ on Google Chrome console for number data types.
+Now, let us practice more writing JavaScript code using _`console.log()`_ on Google Chrome console for the `Number` data type.
 In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
-It is possible to write JavaScript code on Google Chrome console can directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
+It is possible to write JavaScript code on Google Chrome console directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
 
 ![Arithmetic](images/arithmetic.png)
 
@@ -299,7 +296,7 @@ console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 
 ### Code Editor
 
-We can write our codes on the browser console, but it won't be for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days of JavaScript challenge, we will be using Visual Studio Code.
+We can write our code on the browser console, but it won't be for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days of JavaScript challenge, we will be using Visual Studio Code.
 
 #### Installing Visual Studio Code
 
