@@ -564,8 +564,8 @@ console.log(firstName.trim())  // still removes spaces at the beginning and the 
 ```
 
 ```sh
-   30 Days Of JavasCript   
-30 Days Of JavasCript
+   30 Days Of JavaScript   
+30 Days Of JavaScript
   Asabeneh 
 Asabeneh
 ```
