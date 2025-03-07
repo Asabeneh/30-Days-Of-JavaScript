@@ -437,7 +437,7 @@ console.log(`${a} is greater than ${b}: ${a > b}`)
 
 Everything in JavaScript is an object. A string is a primitive data type that means we can not modify it once it is created. The string object has many string methods. There are different string methods that can help us to work with strings.
 
-1. *length*: The string *length* method returns the number of characters in a string included empty space.
+1. *length*: The string *length* method returns the number of characters in a string including empty spaces.
 
 **Example:**
 
