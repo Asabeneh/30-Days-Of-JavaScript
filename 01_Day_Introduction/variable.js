@@ -15,3 +15,6 @@ const PI = 3.14 // geometrical constant
 let name = 'Asabeneh', //name of a person
   job = 'teacher',
   live = 'Finland'
+
+// Varibles of different data types from excercises
+ 
