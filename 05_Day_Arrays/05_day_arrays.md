@@ -143,7 +143,7 @@ console.log(arr)
 
 ### Creating an array using split
 
-As we have seen in the earlier section, we can split a string at different positions, and we can change to an array. Let us see the examples below.
+As we have seen in the earlier section, we can split a string at different positions, and change it to an array. Let us see the examples below.
 
 ```js
 let js = 'JavaScript'
