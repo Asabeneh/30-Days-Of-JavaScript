@@ -1,6 +1,6 @@
 // import { webTechs } from "../data/webtechs";
-// import { countries } from "../data/countries.mjs";
-// import { webTechs } from "../data/webtechs.mjs";
+import { countries } from "../data/countries.mjs";
+import { webTechs } from "../data/webtechs.mjs";
 
 //Declare an empty array;
 const emptyArray = [];
@@ -131,5 +131,49 @@ let text =
   "I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.";
 
 let words = text.replace(/\,|\./gm, "").split(" ");
-console.log("Text Array:", words)
-console.log(`Text Length: ${words.length}`);
+// console.log("Text Array:", words)
+// console.log(`Text Length: ${words.length}`);
+
+//In the following shopping cart add, remove, edit items
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
+
+//Add 'Meat' in the beginning of your shoppinh cart if it has not been already added
+let foodToAdd = "Meat";
+let checkFood = shoppingCart.includes(foodToAdd);
+!checkFood ? shoppingCart.unshift(foodToAdd) : '';
+console.log(shoppingCart);
+
+//Add Sugar at the end of your shopping cart if it has not already been added
+let foodToAdd2 = "Sugar";
+let checkFood2 = shoppingCart.includes(foodToAdd2);
+!checkFood2 ? shoppingCart.push(foodToAdd2) : "";
+console.log(shoppingCart);
+
+//Remove Honey if you are allergic to honey
+let foodToRemove = "Honey"
+let allergy = shoppingCart.includes(foodToRemove);
+allergy ? shoppingCart.splice(shoppingCart.indexOf(foodToRemove), 1) : null;
+console.log(shoppingCart);
+
+//Modify Tea to 'Green Tea'
+let searchItem = "Tea";
+let checkItem = shoppingCart.includes(searchItem);
+checkItem ? shoppingCart[shoppingCart.indexOf(searchItem)] = "Green Tea" : null;
+console.log(shoppingCart);
+
+//Check if Ethiopia exists in the countries array. If it exists, print 'ETHIOPIA'. If not, add it to the countries list
+let checkCountries = countries.includes("Ethiopia");
+checkCountries ? console.log('ETHIOPIA') : countries.push('Ethiopia');
+
+//Check if Sass exists in webTechs, if it exists, print 'Sass is a CSS Preprocessor'. If not, add Sass to webTechs
+
+let checkWebTechs = webTechs.includes("Sass");
+checkWebTechs ? console.log("Sass is a CSS Preprocessor") : webTechs.push("Sass");
+console.log(webTechs);
+
+//Concatenate the following two variables and store it in a fullStack variable
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux'];
+const backend = ['Node', 'Express', 'MongoDB'];
+
+let fullStack = frontEnd.concat(backend);
+console.log(fullStack);
