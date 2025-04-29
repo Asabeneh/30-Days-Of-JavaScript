@@ -1,25 +1,6 @@
-const countries = [
-  "Albania",
-  "Bolivia",
-  "Canada",
-  "Denmark",
-  "Ethiopia",
-  "Finland",
-  "Germany",
-  "Hungary",
-  "Ireland",
-  "Japan",
-  "Kenya",
-];
-const webTechs = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React",
-  "Redux",
-  "Node",
-  "MongoDB",
-];
+// import { webTechs } from "../data/webtechs";
+// import { countries } from "../data/countries.mjs";
+// import { webTechs } from "../data/webtechs.mjs";
 
 //Declare an empty array;
 const emptyArray = [];
@@ -28,12 +9,12 @@ const emptyArray = [];
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 //Find the length of the array
-console.log("Length of numbers array:", numbers.length);
+// console.log("Length of numbers array:", numbers.length);
 
 //Get the first, middle and last elements of the array
-console.log("First Item:", numbers[0]);
-console.log("Middle Item:", numbers[Math.floor(numbers.length / 2)]);
-console.log("Last Item:", numbers[numbers.length - 1]);
+// console.log("First Item:", numbers[0]);
+// console.log("Middle Item:", numbers[Math.floor(numbers.length / 2)]);
+// console.log("Last Item:", numbers[numbers.length - 1]);
 
 //Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
 const mixedDataTypes = [
@@ -59,46 +40,46 @@ const itCompanies = [
 ];
 
 //Print the array using console.log()
-console.log("IT Companies:", itCompanies);
+// console.log("IT Companies:", itCompanies);
 
 //Print the number of companies in the array
-console.log("IT Companies count:", itCompanies.length);
+// console.log("IT Companies count:", itCompanies.length);
 
 //Print the first, middle and last IT company
-console.log("First IT Company:", itCompanies[0]);
-console.log(
-  "Middle IT Company:",
-  itCompanies[Math.floor(itCompanies.length / 2)]
-);
-console.log("Last IT Company:", itCompanies[itCompanies.length - 1]);
+// console.log("First IT Company:", itCompanies[0]);
+// console.log(
+//   "Middle IT Company:",
+//   itCompanies[Math.floor(itCompanies.length / 2)]
+// );
+// console.log("Last IT Company:", itCompanies[itCompanies.length - 1]);
 
 //Print out each company
-console.log("IT Companies List:");
-itCompanies.forEach((company) => console.log(company));
+// console.log("IT Companies List:");
+// itCompanies.forEach((company) => console.log(company));
 
 //Change each company name to uppercase one by one and print them out
-console.log("Companies in Uppercase");
-itCompanies.forEach((company) => console.log(company.toUpperCase()));
+// console.log("Companies in Uppercase");
+// itCompanies.forEach((company) => console.log(company.toUpperCase()));
 
 //Print out the Array as a sentence
-console.log(itCompanies.toString());
+// console.log(itCompanies.toString());
 
 //Check if a certain company exists in the itCompanies array. If it exists, return the company else return a company is not found
 let companySearch = "IBAM";
-itCompanies.includes(companySearch) == true
-  ? console.log(companySearch, "has been found")
-  : console.log(`The company ${companySearch} is not found`);
+// itCompanies.includes(companySearch) == true
+//   ? console.log(companySearch, "has been found")
+//   : console.log(`The company ${companySearch} is not found`);
 
 //Filter out companies which have more than one "o" without the filter method
-console.log("Companies with double o")
+// console.log("Companies with double o")
 let doubleo = [];
 for (let company of itCompanies) {
     company.match(/oo/gm) ? doubleo.push(company) : null
 }
-console.log(doubleo);
+// console.log(doubleo);
 
 //Sort the array using sort() method
-console.log(itCompanies.sort());
+// console.log(itCompanies.sort());
 
 //Reverse the array using the reverse() method
 // console.log(itCompanies.reverse());
@@ -109,7 +90,7 @@ console.log(itCompanies.sort());
 
 //Slice out the last 3 companies from the array
 // itCompanies.splice(itCompanies.length - 3, 3);
-console.log(itCompanies)
+// console.log(itCompanies)
 
 //Slice out the middle IT company or companies from the array
 // if (itCompanies.length % 2 > 0) {
@@ -136,4 +117,19 @@ console.log(itCompanies)
 // console.log(itCompanies);
 
 //Remove all the IT companies
-console.log(itCompanies.splice());
+// console.log(itCompanies.splice());
+
+//LEVEL 2
+
+//Create separate files for countries and web_techs and access from this file.
+// console.log(countries)
+// console.log(webTechs);
+
+//Remove punctuations and change the string to array and count the number of words in it.
+
+let text =
+  "I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.";
+
+let words = text.replace(/\,|\./gm, "").split(" ");
+console.log("Text Array:", words)
+console.log(`Text Length: ${words.length}`);
