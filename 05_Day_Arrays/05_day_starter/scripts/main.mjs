@@ -248,3 +248,5 @@ console.log(isEven);
 console.log(countries.length);
 console.log(firstHalf.length, firstHalf);
 console.log(secondHalf.length, secondHalf);
+
+console.log("New change")
