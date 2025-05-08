@@ -35,8 +35,8 @@ const itCompanies = [
   "Apple",
   "IBM",
   "Oracle",
-    "Amazon",
-  "Netflix"
+  "Amazon",
+  "Netflix",
 ];
 
 //Print the array using console.log()
@@ -74,7 +74,7 @@ let companySearch = "IBAM";
 // console.log("Companies with double o")
 let doubleo = [];
 for (let company of itCompanies) {
-    company.match(/oo/gm) ? doubleo.push(company) : null
+  company.match(/oo/gm) ? doubleo.push(company) : null;
 }
 // console.log(doubleo);
 
@@ -135,45 +135,116 @@ let words = text.replace(/\,|\./gm, "").split(" ");
 // console.log(`Text Length: ${words.length}`);
 
 //In the following shopping cart add, remove, edit items
-const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
+const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
 
 //Add 'Meat' in the beginning of your shoppinh cart if it has not been already added
 let foodToAdd = "Meat";
 let checkFood = shoppingCart.includes(foodToAdd);
-!checkFood ? shoppingCart.unshift(foodToAdd) : '';
-console.log(shoppingCart);
+!checkFood ? shoppingCart.unshift(foodToAdd) : "";
+// console.log(shoppingCart);
 
 //Add Sugar at the end of your shopping cart if it has not already been added
 let foodToAdd2 = "Sugar";
 let checkFood2 = shoppingCart.includes(foodToAdd2);
 !checkFood2 ? shoppingCart.push(foodToAdd2) : "";
-console.log(shoppingCart);
+// console.log(shoppingCart);
 
 //Remove Honey if you are allergic to honey
-let foodToRemove = "Honey"
+let foodToRemove = "Honey";
 let allergy = shoppingCart.includes(foodToRemove);
 allergy ? shoppingCart.splice(shoppingCart.indexOf(foodToRemove), 1) : null;
-console.log(shoppingCart);
+// console.log(shoppingCart);
 
 //Modify Tea to 'Green Tea'
 let searchItem = "Tea";
 let checkItem = shoppingCart.includes(searchItem);
-checkItem ? shoppingCart[shoppingCart.indexOf(searchItem)] = "Green Tea" : null;
-console.log(shoppingCart);
+checkItem
+  ? (shoppingCart[shoppingCart.indexOf(searchItem)] = "Green Tea")
+  : null;
+// console.log(shoppingCart);
 
 //Check if Ethiopia exists in the countries array. If it exists, print 'ETHIOPIA'. If not, add it to the countries list
 let checkCountries = countries.includes("Ethiopia");
-checkCountries ? console.log('ETHIOPIA') : countries.push('Ethiopia');
+checkCountries ? console.log("ETHIOPIA") : countries.push("Ethiopia");
 
 //Check if Sass exists in webTechs, if it exists, print 'Sass is a CSS Preprocessor'. If not, add Sass to webTechs
 
 let checkWebTechs = webTechs.includes("Sass");
-checkWebTechs ? console.log("Sass is a CSS Preprocessor") : webTechs.push("Sass");
-console.log(webTechs);
+checkWebTechs
+  ? console.log("Sass is a CSS Preprocessor")
+  : webTechs.push("Sass");
+// console.log(webTechs);
 
 //Concatenate the following two variables and store it in a fullStack variable
-const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux'];
-const backend = ['Node', 'Express', 'MongoDB'];
+const frontEnd = ["HTML", "CSS", "JS", "React", "Redux"];
+const backend = ["Node", "Express", "MongoDB"];
 
 let fullStack = frontEnd.concat(backend);
-console.log(fullStack);
+// console.log(fullStack);
+
+//LEVEL 3
+
+//sort array of student ages
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+
+ages.sort((a, b) => a - b);
+
+console.log(ages);
+
+//Find the median age (one middle item or two middle items divided by two)
+let median =
+  ages.length % 2 > 0
+    ? ages[Math.floor(ages.length / 2)]
+    : Math.round((ages[ages.length / 2 - 1] + ages[ages.length / 2]) / 2);
+// console.log(median)
+
+//Find the average age (all items divided by number of items)
+let sumAges = 0;
+ages.forEach((age) => (sumAges += age));
+let average = sumAges / ages.length;
+// console.log(average);
+
+//Find the range of the ages (max minus min)
+let minAge = Math.min(...ages);
+let maxAge = Math.max(...ages);
+//using arrays after sorting
+//let minAge = ages[0]
+//let maxAge = ages.reverse()[0];
+let range = maxAge - minAge;
+// console.log(range)
+
+//Compare the value of (min - average) and (max - average), use abs() method
+let minval = minAge - average;
+let maxval = maxAge - average;
+console.log(Math.abs(maxval - minval));
+
+//Slice the first ten countries from countries array
+// console.log(countries.slice(0, 10));
+
+//Find the middle country(ies) in the countries array
+countries.length % 2 !== 0
+  ? console.log(countries[Math.ceil(countries.length / 2) - 1])
+  : console.log(
+      countries[Math.floor(countries.length / 2 - 2)],
+      countries[Math.floor(countries.length / 2 - 1)]
+    );
+
+//Divide the countries array into two equal arrays if it is even. if not, add one more country to the first half
+
+let firstHalf = [];
+let secondHalf = [];
+
+let isEven = countries.length % 2 !== 0 ? false : true;
+
+isEven
+  ? (firstHalf.push(...countries.slice(0, countries.length / 2)),
+    secondHalf.push(...countries.slice(countries.length / 2, countries.length)))
+  : (firstHalf.push(...countries.slice(0, Math.ceil(countries.length / 2))),
+    secondHalf.push(
+      ...countries.slice(Math.ceil(countries.length / 2), countries.length)
+    ));
+
+console.log(isEven);
+console.log(countries.length);
+console.log(firstHalf.length, firstHalf);
+console.log(secondHalf.length, secondHalf);
