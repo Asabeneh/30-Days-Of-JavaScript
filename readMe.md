@@ -614,7 +614,7 @@ Let us declare variables with different data types. To declare a variable, we ne
 let nameOfVariable = value
 ```
 
-The nameOfVriable is the name that stores different data of value. See below for detail examples.
+The nameOfVariable is the name that stores different data of value. See below for detail examples.
 
 **Examples of declared variables**
 
