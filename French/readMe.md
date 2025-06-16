@@ -92,7 +92,7 @@
         - [Console.log avec plusieurs arguments](#consolelog-avec-plusieurs-arguments)
         - [Comments](#comments)
         - [Syntaxe](#syntaxe)
-      - [AArithmétique](#aarithmétique)
+      - [Arithmétique](#aarithmétique)
     - [Editeur de code](#editeur-de-code)
       - [Installation de  Visual Studio Code](#installation-de--visual-studio-code)
       - [Comment utiliser Visual Studio Code](#comment-utiliser-visual-studio-code)
@@ -131,7 +131,7 @@ L'auteur aimerait connaître votre opinion sur le défi, partager l'auteur en ex
 
 ## Les éxigences
 
-No prior knowledge of programming is required to follow this challenge. You need only:
+Aucune connaissance préalable en programmation n'est requise pour suivre ce défi. Vous avez juste besoin de:
 
 1. La motivation
 2. Un ordinateur
@@ -141,7 +141,7 @@ No prior knowledge of programming is required to follow this challenge. You need
 
 ## Configuration
 
-I believe you have the motivation and a strong desire to be a developer, a computer and Internet. If you have those, then you have everything to get started.
+Je crois que vous avez la motivation et un fort désir de devenir développeur, ainsi qu'un ordinateur et un accès à Internet. Si vous avez cela, alors vous avez tout ce qu'il faut pour commencer.
 
 ### Installation de  Node.js
 
@@ -273,7 +273,7 @@ console.log("Hello, World!")
 console.log(`Hello, World!`)
 ```
 
-#### AArithmétique
+#### Arithmétique
 
 Maintenant, pratiquons davantage l'écriture de codes JavaScript à l'aide _`console.log()`_ ode la console Google Chrome pour les types de données numériques. En plus du texte, nous pouvons également effectuer des calculs mathématiques en utilisant JavaScript. Faisons les calculs simples suivants. Il est possible d'écrire du code JavaScript sur la console Google Chrome directement sans la fonction. **_`console.log()`_** Cependant, il est inclus dans cette introduction car la majeure partie de ce défi se déroulerait dans un éditeur de texte où l'utilisation de la fonction serait obligatoire. Vous pouvez jouer directement avec les instructions sur la console.
 ![Arithmetic](images/arithmetic.png)
