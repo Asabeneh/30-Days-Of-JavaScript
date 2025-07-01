@@ -1,43 +1,43 @@
 # 30 Dias de JavaScript
 
-| # Dia |                                                                       Tópicos                                                                            |
-| ----- |   :-------------------------------------------------------------------------------------------------------------------------------------------------:    |
-| 01    |                                                             [Introdução](./readMe.md)                                                                    |
-| 02    |                                               [Tipos de Dados](./02_Day_Data_types/02_day_data_types.md)                                                 |
-| 03    |                             [Booleanos, Operadores, Data](./03_Day_Booleans_operators_date/03_booleans_operators_date.md)                                |
-| 04    |                                            [Condicionais](./04_Day_Conditionals/04_day_conditionals.md)                                                  |
-| 05    |                                                     [Arrays](./05_Day_Arrays/05_day_arrays.md)                                                           |
-| 06    |                                                       [Loops](./06_Day_Loops/06_day_loops.md)                                                            |
-| 07    |                                                 [Funções](./07_Day_Functions/07_day_functions.md)                                                        |
-| 08    |                                                    [Objetos](./08_Day_Objects/08_day_objects.md)                                                         |
-| 09    |                             [Higher Order Functions](./09_Day_Higher_order_functions/09_day_higher_order_functions.md)                                   |
-| 10    |                                           [Sets and Maps](./10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md)                                                |
-| 11    |                      [Destructuring and Spreading](./11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)                           |
-| 12    |                                  [Expressões Regulares](./12_Day_Regular_expressions/12_day_regular_expressions.md)                                      |
-| 13    |                             [Método Console Objeto](./13_Day_Console_object_methods/13_day_console_object_methods.md)                                    |
+| # Dia |                                                                         Tópicos                                                                          |
+| ----- | :------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 01    |                                                                [Introdução](./readMe.md)                                                                 |
+| 02    |                                                [Tipos de Dados](./02_Day_Data_types/02_day_data_types.md)                                                |
+| 03    |                              [Booleanos, Operadores, Data](./03_Day_Booleans_operators_date/03_booleans_operators_date.md)                               |
+| 04    |                                               [Condicionais](./04_Day_Conditionals/04_day_conditionals.md)                                               |
+| 05    |                                                        [Arrays](./05_Day_Arrays/05_day_arrays.md)                                                        |
+| 06    |                                                         [Loops](./06_Day_Loops/06_day_loops.md)                                                          |
+| 07    |                                                    [Funções](./07_Day_Functions/07_day_functions.md)                                                     |
+| 08    |                                                      [Objetos](./08_Day_Objects/08_day_objects.md)                                                       |
+| 09    |                                [Higher Order Functions](./09_Day_Higher_order_functions/09_day_higher_order_functions.md)                                |
+| 10    |                                             [Sets and Maps](./10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md)                                              |
+| 11    |                        [Destructuring and Spreading](./11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)                         |
+| 12    |                                    [Expressões Regulares](./12_Day_Regular_expressions/12_day_regular_expressions.md)                                    |
+| 13    |                                [Método Console Objeto](./13_Day_Console_object_methods/13_day_console_object_methods.md)                                 |
 | 14    |                                         [Tratamento de Errors](./14_Day_Error_handling/14_day_error_handling.md)                                         |
-| 15    |                                                    [Classes](./15_Day_Classes/15_day_classes.md)                                                         |
-| 16    |                                                        [JSON](./16_Day_JSON/16_day_json.md)                                                              |
-| 17    |                                            [Armazenamento na Web](./17_Day_Web_storages/17_day_web_storages.md)                                          |
-| 18    |                                                  [Promises](./18_Day_Promises/18_day_promises.md)                                                        |
-| 19    |                                                   [Closure](./19_Day_Closures/19_day_closures.md)                                                        |
+| 15    |                                                      [Classes](./15_Day_Classes/15_day_classes.md)                                                       |
+| 16    |                                                           [JSON](./16_Day_JSON/16_day_json.md)                                                           |
+| 17    |                                           [Armazenamento na Web](./17_Day_Web_storages/17_day_web_storages.md)                                           |
+| 18    |                                                     [Promises](./18_Day_Promises/18_day_promises.md)                                                     |
+| 19    |                                                     [Closure](./19_Day_Closures/19_day_closures.md)                                                      |
 | 20    |                                  [Escrevendo Código Limpo](./20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)                                   |
-| 21    |                                                          [DOM](./21_Day_DOM/21_day_dom.md)                                                               |
-| 22    |                            [Manipulando DOM Objetos](./22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md)                                 |
-| 23    |                                        [Event Listeners](./23_Day_Event_listeners/23_day_event_listeners.md)                                             |
-| 24    |                             [Mini Projeto: Sistema Solar](./24_Day_Project_solar_system/24_day_project_solar_system.md)                                  |
-| 25    | [Mini Projeto: Visualização de Dados de Paises do mundo](./25_Day_World_countries_data_visualization_1/25_day_world_countries_data_visualization_1.md)   |
+| 21    |                                                            [DOM](./21_Day_DOM/21_day_dom.md)                                                             |
+| 22    |                              [Manipulando DOM Objetos](./22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md)                               |
+| 23    |                                          [Event Listeners](./23_Day_Event_listeners/23_day_event_listeners.md)                                           |
+| 24    |                               [Mini Projeto: Sistema Solar](./24_Day_Project_solar_system/24_day_project_solar_system.md)                                |
+| 25    |  [Mini Projeto: Visualização de Dados de Paises do mundo](./25_Day_World_countries_data_visualization_1/25_day_world_countries_data_visualization_1.md)  |
 | 26    | [Mini Projeto: Visualização de Dados de Paises do mundo 2](./26_Day_World_countries_data_visualization_2/26_day_world_countries_data_visualization_2.md) |
-| 27    |                             [Mini Projeto: Portfólio](./27_Day_Mini_project_portfolio/27_day_mini_project_portfolio.md)                                  |
-| 28    |                          [Mini Projeto: Leaderboard](./28_Day_Mini_project_leaderboard/28_day_mini_project_leaderboard.md)                               |
-| 29    |             [Mini Projeto: Caracteres Animados](./29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)                  |
-| 30    |                                     [Projetos Finais](./30_Day_Mini_project_final/30_day_mini_project_final.md)                                          |
+| 27    |                               [Mini Projeto: Portfólio](./27_Day_Mini_project_portfolio/27_day_mini_project_portfolio.md)                                |
+| 28    |                            [Mini Projeto: Leaderboard](./28_Day_Mini_project_leaderboard/28_day_mini_project_leaderboard.md)                             |
+| 29    |               [Mini Projeto: Caracteres Animados](./29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)                |
+| 30    |                                       [Projetos Finais](./30_Day_Mini_project_final/30_day_mini_project_final.md)                                        |
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 
 <div>
 <small>Dê suporte ao <strong>Autor</strong> para criar mais materiais educacionais</small> <br />  
-<a href = "https://www.paypal.me/asabeneh"><img src='/images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
+<a href = "https://www.paypal.me/asabeneh"><img src='../images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
 </div>
 
 <div align="center">
@@ -74,40 +74,40 @@
 
 [Dia 2 >>](./02_Day_Data_types/02_day_data_types.md)
 
-![Trinta Dias de JavaScript](/images/day_1_1.png)
+![Trinta Dias de JavaScript](../images/day_1_1.png)
 
 - [30 dias de JavaScript](#30-dias-de-javascript)
 - [📔 Dia 1](#-dia-1)
-	- [Introdução](#introdução)
-	- [Requisitos](#requisitos)
-	- [Setup](#setup)
-		- [Instalação Node.js](#instalação-nodejs)
-		- [Navegador](#navegador)
-			- [Instalando Google Chrome](#instalando-google-chrome)
-			- [Abrindo o Google Chrome Console](#abrindo-o-google-chrome-console)
-			- [Escrevendo Código no console do Navegador](#escrevendo-código-no-console-do-navegador)
-				- [Console.log](#consolelog)
-				- [Console.log com Múltiplos Argumentos](#console.log-com-múltiplos-argumentos)
-				- [Comentários](#comentários)
-				- [Sintaxe](#sintaxe)
-			- [Aritimética](#aritimética)
-		- [Editor de Código](#editor-de-código)
-			- [Instalando o Visual Studio Code](#instalando-o-visual-studio-code)
-			- [Como usar o Visual Studio Code](#como-usar-o-visual-studio-code)
-	- [Adicionando JavaScript Para uma Página na Web ](#adicionando-javaScript-para-uma-página-na-web )
-		- [Script em Linha](#inline-script)
-		- [Script Interno](#script-interno)
-		- [Script Externo](#script-externo)
-		- [Múltiplos Scripts Externos](#múltiplos-scripts-externos)
-	- [Introdução a tipo de Dados](#introdução-a-tipo-de-dados)
-		- [Números](#números)
-		- [Strings](#strings)
-		- [Booleanos](#booleans)
-		- [Undefined](#undefined)
-		- [Null](#null)
-	- [Verificando Tipos de Dados](#verificando-tipos-de-dados)
-	- [Comentários novamente](#comentários-novamente)
-	- [Variáveis](#variáveis)
+  - [Introdução](#introdução)
+  - [Requisitos](#requisitos)
+  - [Setup](#setup)
+    - [Instalação Node.js](#instalação-nodejs)
+    - [Navegador](#navegador)
+      - [Instalando Google Chrome](#instalando-google-chrome)
+      - [Abrindo o Google Chrome Console](#abrindo-o-google-chrome-console)
+      - [Escrevendo Código no console do Navegador](#escrevendo-código-no-console-do-navegador)
+        - [Console.log](#consolelog)
+        - [Console.log com Múltiplos Argumentos](#console.log-com-múltiplos-argumentos)
+        - [Comentários](#comentários)
+        - [Sintaxe](#sintaxe)
+      - [Aritimética](#aritimética)
+    - [Editor de Código](#editor-de-código)
+      - [Instalando o Visual Studio Code](#instalando-o-visual-studio-code)
+      - [Como usar o Visual Studio Code](#como-usar-o-visual-studio-code)
+  - [Adicionando JavaScript Para uma Página na Web ](#adicionando-javaScript-para-uma-página-na-web)
+    - [Script em Linha](#inline-script)
+    - [Script Interno](#script-interno)
+    - [Script Externo](#script-externo)
+    - [Múltiplos Scripts Externos](#múltiplos-scripts-externos)
+  - [Introdução a tipo de Dados](#introdução-a-tipo-de-dados)
+    - [Números](#números)
+    - [Strings](#strings)
+    - [Booleanos](#booleans)
+    - [Undefined](#undefined)
+    - [Null](#null)
+  - [Verificando Tipos de Dados](#verificando-tipos-de-dados)
+  - [Comentários novamente](#comentários-novamente)
+  - [Variáveis](#variáveis)
 - [💻 Dia 1: Exercícios](#-dia-1-exercícios)
 
 # 📔 Dia 1
@@ -125,6 +125,7 @@ JavaScript é usado **_para adicionar interatividade aos websites, desenvolvimen
 ## Requisitos
 
 Sem conhecimentos prévios de programação é exigido para seguir este desafio. Precisará apenas:
+
 1. Motivação
 2. Um computador
 3. Internet
@@ -139,11 +140,11 @@ Eu acredito que voce tem a motivação e o forte desejo de ser um desenvolvedor,
 
 Você pode não precisar do Node.js agora mas você precisará mais tarde. Instalação do [node.js](https://nodejs.org/en/).
 
-![Node download](/images/download_node.png)
+![Node download](../images/download_node.png)
 
 Depois do download click duplo no ícone e intalar
 
-![Instalação node](/images/install_node.png)
+![Instalação node](../images/install_node.png)
 
 Nós podemos verificar se o Node está instalador na nossa máquina local abrindo nosso terminal do dispositivo ou prompt de comando.
 
@@ -162,13 +163,13 @@ Existe muitos navegadores por ai, Entento, Eu fortemente recomento o Google Chro
 
 Instalar o [Google Chrome](https://www.google.com.br/chrome/) se você não tem um ainda. Nós podemos escrever um pequeno código de JavaScript no console do browser, mas nós não usamos o console do navegador para desenvolver aplicações.
 
-![Google Chrome](/images/google_chrome.png)
+![Google Chrome](../images/google_chrome.png)
 
 #### Abrindo o Google Chrome Console
 
-Você pode abrir o Google Chrome console por um ou outro clicando nos 3 pontos no topo do lado direito do navegador, selecionando _Mais ferramentas -> Ferramenta para desenvolvedores ou usando o atalho do teclado. Eu prefiro os atalhos.
+Você pode abrir o Google Chrome console por um ou outro clicando nos 3 pontos no topo do lado direito do navegador, selecionando \_Mais ferramentas -> Ferramenta para desenvolvedores ou usando o atalho do teclado. Eu prefiro os atalhos.
 
-![Abrindo o chrome](/images/opening_developer_tool.png)
+![Abrindo o chrome](../images/opening_developer_tool.png)
 
 Para abrir o console do Chrome usando o atalho do teclado.
 
@@ -180,16 +181,16 @@ Windows/Linux:
 Ctl+Shift+J
 ```
 
-![Abrindo o console](/images/opening_chrome_console_shortcut.png)
+![Abrindo o console](../images/opening_chrome_console_shortcut.png)
 
 Depois de você abrir o console do Google Chrome, tente explorar os botões marcados. Nós vamos passar a maior parte do tempo no Console. O Console é o lugar onde vai seu código de JavaScript. O Console do Google Chrome V8 engine muda seu codigo de JavaScript para código de máquina.
-Vamos escrever códigos de JavaScript no Google Chome console: 
+Vamos escrever códigos de JavaScript no Google Chome console:
 
-![Escrevendo codigo no console](/images/js_code_on_chrome_console.png)
+![Escrevendo codigo no console](../images/js_code_on_chrome_console.png)
 
 #### Escrevendo Código no console do Navegador
 
-Nós podemos escrever qualquer código de JavaScript no console do Google Chrome ou qualquer outro console de navegador, para este desafio, nós vamos focar no Console do Google Chrome. Abra o Console usando: 
+Nós podemos escrever qualquer código de JavaScript no console do Google Chrome ou qualquer outro console de navegador, para este desafio, nós vamos focar no Console do Google Chrome. Abra o Console usando:
 
 ```sh
 Mac
@@ -201,25 +202,25 @@ Ctl+Shift+I
 
 ##### Console.log
 
-Para escrever nosso primeiro código em JavaScript, vamos usar uma função built-it  **console.log()**. Nós passamos um argumento como dados de input, e a função mostra o output. Nós passamos `'Olá, Mundo!'` como dados de input ou argumento na função console.log(). 
+Para escrever nosso primeiro código em JavaScript, vamos usar uma função built-it **console.log()**. Nós passamos um argumento como dados de input, e a função mostra o output. Nós passamos `'Olá, Mundo!'` como dados de input ou argumento na função console.log().
 
 ```js
-console.log('Olá, Mundo!')
+console.log('Olá, Mundo!');
 ```
 
 ##### Console.log com Múltiplos Argumentos
 
-A funçao **`console.log()`** pode receber múltiplos parâmetros separados por vírgulas. A sintaxe é similar ao seguinte modo:**`console.log(param1, param2, param3)`** 
+A funçao **`console.log()`** pode receber múltiplos parâmetros separados por vírgulas. A sintaxe é similar ao seguinte modo:**`console.log(param1, param2, param3)`**
 
-![console.log com Múltiplos Argumentos](/images/console_log_multipl_arguments.png)
+![console.log com Múltiplos Argumentos](../images/console_log_multipl_arguments.png)
 
 ```js
-console.log('Olá', 'Mundo', '!')
-console.log('Feliz', 'Ano', 'Novo', 2020)
-console.log('Bem vindo', 'aos', 30, 'Dias', 'de', 'JavaScript')
+console.log('Olá', 'Mundo', '!');
+console.log('Feliz', 'Ano', 'Novo', 2020);
+console.log('Bem vindo', 'aos', 30, 'Dias', 'de', 'JavaScript');
 ```
 
-Como você pode ver pelo trecho de código acima,  _`console.log()`_ pode receber múltiplos argumentos.
+Como você pode ver pelo trecho de código acima, _`console.log()`_ pode receber múltiplos argumentos.
 
 Parabéns! Você escreveu seu primeiro código de JavaScript usando _`console.log()`_.
 
@@ -230,7 +231,7 @@ Nós podemos adicionar comentários para nosso código. Comentários são import
 **Exemplo: Comentário de linha única**
 
 ```js
-// Este é o primeiro comentário  
+// Este é o primeiro comentário
 // Este é o segundo comentário
 // Eu sou um comentário de linha única
 ```
@@ -244,17 +245,18 @@ Nós podemos adicionar comentários para nosso código. Comentários são import
   JavaScript é a Linguagem da Web
  */
 ```
+
 ##### Sintaxe
 
 Linguagens de programação são similares com a linguagem humana. Portugês ou qualquer outra linguagem usa palavras, frases, orações, períodos, e outras mais para criar uma mensagem com significado. A definição em Português de sintaxe é _ Estrutura essencial para que frases, orações e períodos façam sentido e sejam de fácil compreensão por parte do leitor_. A definição técnica é a estrutura de declarações em uma linguagem de computador. Linguagens de programação tem sintaxes. JavaScript é uma linguagem de programação como outras linguagens de programação tem sua própria sintaxe. Se nós nao escrevermos uma sintaxe que JavaScript entenda, diferentes tipos de errors aparecerá. Nós iremos explorar diferentes tipos de errors no JavaScript depois. Por enquanto, vamos ver sintaxes de errors.
 
-![Error](/images/raising_syntax_error.png)
+![Error](../images/raising_syntax_error.png)
 
-Eu fiz uma confusão proposital. Como resultado, criou vários errors. Na realidade, a sintaxe é muito informativa. Informa quais tipos de errors foi feito. lendo  as mensagens do feedback de error, nós podemos corrigir a sintaxe e resolver o problema. O processo de identificar e remover errors de um programa é chamado de Debugging. Vamos resolver os errors:
+Eu fiz uma confusão proposital. Como resultado, criou vários errors. Na realidade, a sintaxe é muito informativa. Informa quais tipos de errors foi feito. lendo as mensagens do feedback de error, nós podemos corrigir a sintaxe e resolver o problema. O processo de identificar e remover errors de um programa é chamado de Debugging. Vamos resolver os errors:
 
 ```js
-console.log('Olá, Mundo!')
-console.log('Olá, Mundo!')
+console.log('Olá, Mundo!');
+console.log('Olá, Mundo!');
 ```
 
 Até agora, nós vimos como exibir texto usando o _`console.log()`_. Se estamos imprimindo texto ou string usando _`console.log()`_, o texto tem que estar dentro de uma aspa simples, aspas duplas, ou crase.
@@ -262,9 +264,9 @@ Até agora, nós vimos como exibir texto usando o _`console.log()`_. Se estamos 
 **Exemplo:**
 
 ```js
-console.log('Olá, Mundo!')
-console.log("Olá, Mundo!")
-console.log(`Hello, World!`)
+console.log('Olá, Mundo!');
+console.log('Olá, Mundo!');
+console.log(`Hello, World!`);
 ```
 
 #### Aritimética
@@ -273,15 +275,15 @@ Agora, vamos praticar escrevendo mais códigos JavaScript usando _`console.log()
 Em adição ao texto, nós podemos tamem fazer calculos matemáticos usando javaSCript. Vamos fazer calculos simples a seguir.
 É possivel escrever códigos JavaScript no console do Google Chome diretamente sem o função **_`console.log()`_** Entretanto, está incluso nesta introdução porque maior parte deste desafio pode ocorrer no editor de texto onde o uso de funcões pode ser mantario. Você pode brincar diretamente com ins
 
-![Arithmetic](/images/arithmetic.png)
+![Arithmetic](../images/arithmetic.png)
 
 ```js
-console.log(2 + 3) // Adição
-console.log(3 - 2) // Subtração
-console.log(2 * 3) // Muiltiplição
-console.log(3 / 2) // Divisão
-console.log(3 % 2) // Modulo - Resto da divisão
-console.log(3 ** 2) // Exponenciação 3 ** 2 == 3 * 3
+console.log(2 + 3); // Adição
+console.log(3 - 2); // Subtração
+console.log(2 * 3); // Muiltiplição
+console.log(3 / 2); // Divisão
+console.log(3 % 2); // Modulo - Resto da divisão
+console.log(3 ** 2); // Exponenciação 3 ** 2 == 3 * 3
 ```
 
 ### Editor de Código
@@ -292,7 +294,7 @@ Nós podemos escrever nosso código no console do navegador. mas isso nao é usa
 
 Visual Studio Code é editor de texto open-source muito popular. Eu poderia recomendar o [download Visual Studio Code](https://code.visualstudio.com/), mas se você está familiarizado com outro editor, sinta livre para seguir oque você tem.
 
-![Vscode](/images/vscode.png)
+![Vscode](../images/vscode.png)
 
 Se você instalou o Visual Studio Code, Vamos começar usando-o.
 
@@ -300,21 +302,21 @@ Se você instalou o Visual Studio Code, Vamos começar usando-o.
 
 Abra o Visual Studio Code clicando duas vezes com o mouse no ícone. Quando abrir, você terá esta interface. Tente interagir com os ícones rotulados.
 
-![Vscode ui](/images/vscode_ui.png)
+![Vscode ui](../images/vscode_ui.png)
 
-![Vscode add project](/images/adding_project_to_vscode.png)
+![Vscode add project](../images/adding_project_to_vscode.png)
 
-![Vscode open project](/images/opening_project_on_vscode.png)
+![Vscode open project](../images/opening_project_on_vscode.png)
 
-![script file](/images/scripts_on_vscode.png)
+![script file](../images/scripts_on_vscode.png)
 
-![Installing Live Server](/images/vsc_live_server.png)
+![Installing Live Server](../images/vsc_live_server.png)
 
-![running script](/images/running_script.png)
+![running script](../images/running_script.png)
 
-![coding running](/images/launched_on_new_tab.png)
+![coding running](../images/launched_on_new_tab.png)
 
-## Adicionando JavaScript Para uma Página na Web 
+## Adicionando JavaScript Para uma Página na Web
 
 JavaScript pode ser adicionado para uma página na internet em três diferentes maneiras:
 
@@ -330,7 +332,6 @@ As diferentes sessões mostra diferentes maneiras de adicionar códigos JavaScri
 Crie uma pasta do projeto no seu desktop ou em qualquer localização, nomeie de 30DaysOfJS e crie um **_`index.html`_** documento na sua pasta do projeto.
 Então copie os seguintes códigos e abra-o no navegador, por exemplo [Chrome](https://www.google.com/chrome/).
 
-
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -342,6 +343,7 @@ Então copie os seguintes códigos e abra-o no navegador, por exemplo [Chrome](h
   </body>
 </html>
 ```
+
 Agora, você escreveu seu primeiro script em linha. Nós podemos criar uma mensagem pop up usando o _`alert()`_ função built-it
 
 ### Script Interno
@@ -354,7 +356,7 @@ O script interno pode ser escrito no _`head`_ ou _`body`_, mas é preferível co
   <head>
     <title>30DaysOfScript: Script Interno</title>
     <script>
-      console.log('Welcome to 30DaysOfJavaScript')
+      console.log('Welcome to 30DaysOfJavaScript');
     </script>
   </head>
   <body></body>
@@ -372,7 +374,7 @@ Isto é como nós escrevemos scripts internos na maioria das vezes. Escrevemos o
   <body>
     <button onclick="alert('Welcome to 30DaysOfJavaScript!');">Click</button>
     <script>
-      console.log('Welcome to 30DaysOfJavaScript')
+      console.log('Welcome to 30DaysOfJavaScript');
     </script>
   </body>
 </html>
@@ -380,7 +382,7 @@ Isto é como nós escrevemos scripts internos na maioria das vezes. Escrevemos o
 
 Abra o console do navegador e veja o output do `console.log()`.
 
-![js code from vscode](/images/js_code_vscode.png)
+![js code from vscode](../images/js_code_vscode.png)
 
 ### Script Externo
 
@@ -388,7 +390,7 @@ Similar com o script interno, o link do script externo pode estar no header ou b
 Primeiro, nós podemos criar scripts externos de JavaScript com a .js extensão. Todos os arquivos terminados com a .js extensão são JavaScript documentos. Crie uma pasta nomeada Introdução.js dentro do diretório do projeto e escreva o seguinte código e copie o link do arquivo .js no bottom do body.
 
 ```js
-console.log('Welcome to 30DaysOfJavaScript')
+console.log('Welcome to 30DaysOfJavaScript');
 ```
 
 Scripts Externo no _head_:
@@ -413,10 +415,8 @@ Scripts Externo no _body_:
     <title>30DaysOfJavaScript: Scripts Externo</title>
   </head>
   <body>
-    
-
-    <!-- JavaScript link externo pode estar no header ou no body --> 
-    <!-- Antes do fechamento da tag do body é o lugar recomendado para colocar o script do JavaScript externo --> 
+    <!-- JavaScript link externo pode estar no header ou no body -->
+    <!-- Antes do fechamento da tag do body é o lugar recomendado para colocar o script do JavaScript externo -->
     <script src="introduction.js"></script>
   </body>
 </html>
@@ -430,7 +430,7 @@ Nós tambem podemos colocar o link de vários arquivos externos de JavaScript em
 Crie um `helloworld.js` documento dentro da pasta 30DaysOfJS e escreva o seguinte código.
 
 ```js
-console.log('Olá, Mundo!')
+console.log('Olá, Mundo!');
 ```
 
 ```html
@@ -448,7 +448,7 @@ console.log('Olá, Mundo!')
 
 _Seu arquivo main.js deve estar abaixo de todos os outros scripts_. E isto é muito importante de relembrar
 
-![Multiple Script](/images/multiple_script.png)
+![Multiple Script](../images/multiple_script.png)
 
 ## Introdução a tipo de Dados
 
@@ -457,7 +457,7 @@ Em JavaScript e tambem em outras linguagens de programação, existem vários ti
 ### Números
 
 - Integers: Inteiros (Negativo, zero e positivos) números
-Examplo:
+  Examplo:
   ... -3, -2, -1, 0, 1, 2, 3 ...
 - Float-point numbers: Números decimais.
   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
@@ -469,16 +469,15 @@ Uma coleção de um ou mais caracteres entre duas aspas simples, aspas duplas, o
 **Examplo:**
 
 ```js
-'a'
-'Asabeneh'
-"Asabeneh"
-'Finland'
-'JavaScript is a beautiful programming language'
-'I love teaching'
-'I hope you are enjoying the first day'
-`We can also create a string using a backtick`
-'A string could be just as small as one character or as big as many pages'
-'Any data type under a single quote, double quote or backtick is a string'
+'a';
+'Asabeneh';
+'Asabeneh';
+'Finland';
+'JavaScript is a beautiful programming language';
+'I love teaching';
+'I hope you are enjoying the first day'`We can also create a string using a backtick`;
+('A string could be just as small as one character or as big as many pages');
+('Any data type under a single quote, double quote or backtick is a string');
 ```
 
 ### Booleans
@@ -490,8 +489,8 @@ Um tipo de dado boleanno é verdadeiro ou um valor falso
 **Examplo:**
 
 ```js
-true // if the light is on, the value is true
-false // if the light is off, the value is false
+true; // if the light is on, the value is true
+false; // if the light is off, the value is false
 ```
 
 ### Undefined
@@ -499,8 +498,8 @@ false // if the light is off, the value is false
 Em JavaScript, se nós não atribuirmos um valor a uma variável, o valor é undefined. Em adição a isto, se uma funcção não está retornando nada, ela retorna undefined
 
 ```js
-let firstName
-console.log(firstName) // undefined, because it is not assigned to a value yet
+let firstName;
+console.log(firstName); // undefined, because it is not assigned to a value yet
 ```
 
 ### Null
@@ -508,19 +507,19 @@ console.log(firstName) // undefined, because it is not assigned to a value yet
 Null em JavaScript significa um valor vazio.
 
 ```js
-let valorVazio = null
+let valorVazio = null;
 ```
 
 ## Verificando Tipos de Dados
 
-Para verificar o tipo de dado de uma determinada variável, nós usamos o operador **typeof**. Veja o seguinte exemplo.  
+Para verificar o tipo de dado de uma determinada variável, nós usamos o operador **typeof**. Veja o seguinte exemplo.
 
 ```js
-console.log(typeof 'Asabeneh') // string
-console.log(typeof 5) // number
-console.log(typeof true) // boolean
-console.log(typeof null) // object type
-console.log(typeof undefined) // undefined
+console.log(typeof 'Asabeneh'); // string
+console.log(typeof 5); // number
+console.log(typeof true); // boolean
+console.log(typeof null); // object type
+console.log(typeof undefined); // undefined
 ```
 
 ## Comentários novamente
@@ -550,7 +549,7 @@ Comentando em várias linhas:
 
 ## Variáveis
 
-Variáveis são _containers_ de dados. Variáveis são usadas para _armazenar_ dados na memória alocada. Quando variáveis são declaradas, uma memória alocada é reservada. Quando uma variável é atribuída para um valor (dados), espaço na memória irá ser preenchido com aqueles dados. Para declarar uma variável, nós usamos as palavras-chaves _var_, _let_, ou _const_. 
+Variáveis são _containers_ de dados. Variáveis são usadas para _armazenar_ dados na memória alocada. Quando variáveis são declaradas, uma memória alocada é reservada. Quando uma variável é atribuída para um valor (dados), espaço na memória irá ser preenchido com aqueles dados. Para declarar uma variável, nós usamos as palavras-chaves _var_, _let_, ou _const_.
 
 Para uma variável que muda com o tempo, nós usamos _let_. Se os dados não vão mudar, nós usamos _const_. Por exemplo, PI, nome de país, gravidade não muda, e nós podemos usar _const_. Nós não vamos usar var neste desafio e eu nao recomendo usa-lo. Nós vamos falar mais sobre var, let, e const em detalhes em outras sessões (scope). Por enquanto, a explicação acima é suficiente.
 
@@ -564,25 +563,25 @@ Um nome de variável em JavaScript apenas segue a seguinte regra:
 Os seguintes exemplos são de variáveis válidas em JavaScript.
 
 ```js
-firstName
-lastName
-country
-city
-capitalCity
-age
-isMarried
+firstName;
+lastName;
+country;
+city;
+capitalCity;
+age;
+isMarried;
 
-first_name
-last_name
-is_married
-capital_city
+first_name;
+last_name;
+is_married;
+capital_city;
 
-num1
-num_1
-_num_1
-$num1
-year2020
-year_2020
+num1;
+num_1;
+_num_1;
+$num1;
+year2020;
+year_2020;
 ```
 
 A primeira e a segunda variável na lista segue a convenção camelCase de declaração no JavaScript. Neste material, nós vamos usar variáveis em camelCase (camelWithOneHump). Nós usamos CamelCase (CamelWithTwoHump) para declarar classes, nós vamos discutir sobre classes e objetos em outras sessões.
@@ -599,7 +598,7 @@ Vamos declarar variáveis com diferentes tipos de dados. Para declarar uma vari�
 
 ```js
 // Sintaxe
-let nameOfVariable = value
+let nameOfVariable = value;
 ```
 
 O nomeDaVariavel é o nome que armazena diferente tipos de dados. Veja abaixo exemplos para mais detalhes.
@@ -608,14 +607,14 @@ O nomeDaVariavel é o nome que armazena diferente tipos de dados. Veja abaixo ex
 
 ```js
 // Declarando diferentes variáveis de diferentes tipos de dados
-let firstName = 'Asabeneh' // primeiro nome de uma pessoa
-let lastName = 'Yetayeh' //  ultimo nome de uma pessoa
-let country = 'Finland' // país
-let city = 'Helsinki' // capital da cidade
-let age = 100 // Idade
-let isMarried = true
+let firstName = 'Asabeneh'; // primeiro nome de uma pessoa
+let lastName = 'Yetayeh'; //  ultimo nome de uma pessoa
+let country = 'Finland'; // país
+let city = 'Helsinki'; // capital da cidade
+let age = 100; // Idade
+let isMarried = true;
 
-console.log(firstName, lastName, country, city, age, isMarried)
+console.log(firstName, lastName, country, city, age, isMarried);
 ```
 
 ```sh
@@ -624,11 +623,11 @@ Asabeneh Yetayeh Finland Helsinki 100 true
 
 ```js
 // Declarando variáveis com o valor numérico
-let age = 100 // idade
-const gravity = 9.81 // gravidade na terra em m/s2
-const boilingPoint = 100 // ponto de ebulição da água, temperatura em °C
-const PI = 3.14 // constante geométrica
-console.log(gravity, boilingPoint, PI)
+let age = 100; // idade
+const gravity = 9.81; // gravidade na terra em m/s2
+const boilingPoint = 100; // ponto de ebulição da água, temperatura em °C
+const PI = 3.14; // constante geométrica
+console.log(gravity, boilingPoint, PI);
 ```
 
 ```sh
@@ -637,8 +636,10 @@ console.log(gravity, boilingPoint, PI)
 
 ```js
 // Variáveis tambem podem ser declaradas em uma linha separadas por uma vírgula, entretanto eu recomento usar a separação por linha para facilitar a leitura do código
-let name = 'Asabeneh', job = 'teacher', live = 'Finland'
-console.log(name, job, live)
+let name = 'Asabeneh',
+  job = 'teacher',
+  live = 'Finland';
+console.log(name, job, live);
 ```
 
 ```sh
@@ -647,7 +648,7 @@ Asabeneh teacher Finland
 
 Quando você executa o arquivo _index.html_ na pasta dia-1 você deve conseguir isto:
 
-![Day one](/images/day_1.png)
+![Day one](../images/day_1.png)
 
 🌕 Você é incrivel! Você acabou de completar o desafio do dia 1 e você está no seu caminho para o sucesso. Agora faça alguns exercícios para seu cérebro e músculos.
 
@@ -656,11 +657,11 @@ Quando você executa o arquivo _index.html_ na pasta dia-1 você deve conseguir 
 1. Escreva um comentário de linha única que diga, _comentários faz seu código ser fácil de ler_
 2. Escreva outro comentário de linha única que diga, _Welcome to 30DaysOfJavaScript_
 3. Escreva um comentário de várias linhas que diga, _comentários faz seu código ser fácil de ler, fácil de reusar_ _e informátivo_
-4. Crie um  arquivo variavel.js e declare variáveis e atribua uma string, boolean, undefined e null 
+4. Crie um arquivo variavel.js e declare variáveis e atribua uma string, boolean, undefined e null
 5. Crie um arquivo tiposdedados.js e use o JavaScript **_typeof_** operador para verificar diferentes tipos de dados. Verifique o tipo de dado de cada variável
 6. Declare quatro variáveis sem atribuir valores
-7. Declare quatro variáveis e atribuir valores 
-8. Declare variáveis para armazenar seu primeiro nome, ultimo nome, estado civil, país e idade em multiplas linhas 
+7. Declare quatro variáveis e atribuir valores
+8. Declare variáveis para armazenar seu primeiro nome, ultimo nome, estado civil, país e idade em multiplas linhas
 9. Declare variáveis para armazenar seu primeiro nome, ultimo nome, estado civil, país e idade em uma única linha
 10. Declare duas variáveis _minhaIdade_ e _suaIdade_ e atribua valores iniciais e mostre no console do navegador.
 
