@@ -193,3 +193,44 @@ const countries = [
   'Zambia',
   'Zimbabwe'
 ]
+
+
+const isEthiopia = countries.includes('Ethopia');
+
+if(isEthiopia){
+  console.log('Ethiopia');
+} else {
+    countries.push('Ethiopia');
+    console.log(countries);
+  }
+
+
+  const firstTenCountries = countries.slice(0, 10);
+  console.log(firstTenCountries);
+  //['Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria']
+
+  const middleIndex = Math.floor(countries.length / 2);
+  
+  if (countries.length % 2 === 1) {
+    // If the array has an odd number of countries
+    const middleCountry = countries[middleIndex];
+    console.log('Middle Country (Odd):', middleCountry);
+  } else {
+    // If the array has an even number of countries
+    const middleCountry1 = countries[middleIndex - 1];
+    const middleCountry2 = countries[middleIndex];
+    console.log('Middle Countries (Even):', middleCountry1, middleCountry2);
+  }
+  
+  let firstHalf;
+  let secondHalf;
+
+  if(countries.length % 2 === 0) {
+    firstHalf = countries.slice(0, middleIndex);
+    secondHalf = countries.slice(middleIndex);
+  } else {
+    firstHalf = countries.slice(0, middleIndex+1);
+    secondHalf = countries.slice(middleIndex + 1);
+  }
+  console.log('First Half:', firstHalf);
+  console.log('Second Half:', secondHalf);
