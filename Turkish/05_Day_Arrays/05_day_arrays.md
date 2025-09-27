@@ -665,7 +665,7 @@ console.log(eight0values) // [0, 0, 0, 0, 0, 0, 0, 0]
 
   
 
-const  four4values = Array(4).fill(4) //'4' değerine sahip 8 tane eleman oluşturur.
+const  four4values = Array(4).fill(4) //'4' değerine sahip 4 tane eleman oluşturur.
 
 console.log(four4values) // [4, 4, 4, 4]
 
