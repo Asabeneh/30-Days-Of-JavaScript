@@ -55,7 +55,7 @@ Our amazing sponsors for supporting my open-source contribution and the **30 Day
 
 <h3 align="center">Dictation that understands code</h3>
 <p align="center" style="text-align:center;">
-  Ship 4x faster with developer-first dictation that works in every app.
+ <em> Ship 4x faster with developer-first dictation that works in every app.</em>
 </p>
 
 ---
