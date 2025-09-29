@@ -47,9 +47,9 @@ Our amazing sponsors for supporting my open-source contribution and the **30 Day
 ### Current Sponsor
 
 <p align="center">
-  <a href="https://ref.wisprflow.ai/MPMzRGE" target="_blank">
-    <img src="./images/wispr_flow_logo.svg" alt="Wispr Flow Logo"  title = "Wispr Flow" />
-  </a>
+   <a href="https://ref.wisprflow.ai/MPMzRGE" target="_blank">
+     <img src="./images/Wispr_Flow-logo.png" width="400px" alt="Wispr Flow Logo"  title = "Wispr Flow" />
+   </a>
 </p>
 
 <h3 align="center">Dictation that understands code</h3>
