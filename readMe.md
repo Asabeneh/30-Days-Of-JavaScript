@@ -40,10 +40,33 @@
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 
-<div>
-<small>Support the <strong>author</strong> to create more educational materials</small> <br />  
-<a href = "https://www.paypal.me/asabeneh"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
-</div>
+## 💖 Sponsors
+
+Our amazing sponsors for supporting my open-source contribution and the **30 Days of Challenge** series!
+
+### Current Sponsor
+
+<p align="center">
+  <a href="https://ref.wisprflow.ai/MPMzRGE" target="_blank">
+    <img src="./images/wispr_flow_logo.svg" alt="Wispr Flow Logo"  title = "Wispr Flow" />
+  </a>
+</p>
+
+<h3 align="center">Dictation that understands code</h3>
+<em align="center" style="text-align:center;">
+  Ship 4x faster with developer-first dictation that works in every app.
+</em>
+
+---
+
+### 🙌 Become a Sponsor
+
+You can support this project by becoming a sponsor on **[GitHub Sponsors](https://github.com/sponsors/asabeneh)** or through [PayPal](https://www.paypal.me/asabeneh).
+
+Every contribution, big or small, makes a huge difference. Thank you for your support! 🌟
+
+---
+>
 
 <div align="center">
   <h1> 30 Days Of JavaScript: Introduction</h1>
@@ -82,6 +105,9 @@
 ![Thirty Days Of JavaScript](./images/day_1_1.png)
 
 - [30 Days Of JavaScript](#30-days-of-javascript)
+  - [💖 Sponsors](#-sponsors)
+    - [Current Sponsor](#current-sponsor)
+    - [🙌 Become a Sponsor](#-become-a-sponsor)
 - [📔 Day 1](#-day-1)
   - [Introduction](#introduction)
   - [Requirements](#requirements)
