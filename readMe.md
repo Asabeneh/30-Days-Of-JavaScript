@@ -40,13 +40,6 @@
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 
-## 💖 Sponsors
-
-Our amazing sponsors for supporting my open-source contribution and the **30 Days of Challenge** series!
-
-### Current Sponsor
-
----
 <div>
 <h2>💖 Sponsors</h2>
 
@@ -119,8 +112,6 @@ Every contribution, big or small, makes a huge difference. Thank you for your su
 ![Thirty Days Of JavaScript](./images/day_1_1.png)
 
 - [30 Days Of JavaScript](#30-days-of-javascript)
-  - [💖 Sponsors](#-sponsors)
-    - [Current Sponsor](#current-sponsor)
     - [🙌 Become a Sponsor](#-become-a-sponsor)
 - [📔 Day 1](#-day-1)
   - [Introduction](#introduction)
