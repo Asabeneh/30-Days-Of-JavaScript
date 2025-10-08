@@ -766,7 +766,7 @@ console.log(string.match(pattern))   // ["love", "love", "love"]
 Let us extract numbers from text using a regular expression. This is not the regular expression section, do not panic! We will cover regular expressions later on.
 
 ```js
-let txt = 'In 2019, I ran 30 Days of Python. Now, in 2020 I am super exited to start this challenge'
+let txt = 'In 2019, I ran 30 Days of Python. Now, in 2020 I am super excited to start this challenge'
 let regEx = /\d+/
 
 // d with escape character means d not a normal d instead acts a digit
