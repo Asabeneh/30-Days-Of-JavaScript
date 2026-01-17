@@ -36,9 +36,49 @@
 🧡🧡🧡 MUTLU KODLAMALAR 🧡🧡🧡
 
 <div>
-<small><strong> Yazarı</strong> daha fazla eğitim materyalleri oluşturabilmesi için destekleyebilirsiniz.</small> <br />  
-<a href = "https://www.paypal.me/asabeneh"><img src='../images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
+<h2>💖 Sponsorlar</h2>
+
+<p>Açık kaynak katkılarımı ve <strong>30 Günlük Meydan Okuma Serisini</strong> destekleyen muhteşem sponsorlarımıza teşekkür ederiz!</p>
+
+<h3>Mevcut Sponsor</h3>
+<hr />
+<div align="center">
+  <a href="https://ref.wisprflow.ai/MPMzRGE" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <!-- Dark mode -->
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asabeneh/asabeneh/master/images/Wispr_Flow-Logo-white.png" />
+      <!-- Light mode (fallback) -->
+      <img src="https://raw.githubusercontent.com/Asabeneh/asabeneh/master/images/Wispr_Flow-logo.png"
+           width="400px"
+           alt="Wispr Flow Logo"
+           title="Wispr Flow" />
+    </picture>
+  </a>
+
+  <h1>
+    <a href="https://ref.wisprflow.ai/MPMzRGE" target="_blank" rel="noopener noreferrer">
+      Kodla konuş, Flow'da kal.
+    </a>
+  </h1>
+
+  <h2>
+    <a href="https://ref.wisprflow.ai/MPMzRGE" target="_blank" rel="noopener noreferrer">
+      Flow, araçlarını sürekli kullanan geliştiriciler için tasarlanmıştır. Konuşun ve daha fazla bağlam sağlayın, daha iyi sonuçlar elde edin. 
+    </a>
+  </h2>
 </div>
+
+
+---
+
+### 🙌 Sponsor Olun
+
+**[GitHub Sponsors](https://github.com/sponsors/asabeneh)**'da sponsor olarak veya [PayPal](https://www.paypal.me/asabeneh) aracılığıyla bu projeyi destekleyebilirsiniz.
+
+Büyük ya da küçük her katkı büyük bir fark yaratır. Desteğiniz için teşekkür ederiz! 🌟
+
+---
+>
 
 <div align="center">
   <h1> 30 Günde JavaScript: Giriş</h1>
@@ -56,13 +96,16 @@
 
 <div>
 
-🇬🇧 [English](../readMe.md)
-🇪🇸 [Spanish](../Spanish/readme.md)
-🇷🇺 [Russian](../RU/README.md)
-🇦🇿 [Azerbaijan](../Azerbaijani/readMe.md)
-🇰🇷 [Korean](../Korea/README.md)
-🇻🇳 [Vietnamese](../Vietnamese/README.md)
-🇵🇱 [Polish](../Polish/readMe.md)
+🇬🇧 [English](./readMe.md)
+🇪🇸 [Spanish](./Spanish/readme.md)
+🇮🇹 [Italian](./Italian/readMe.md)
+🇷🇺 [Russian](./RU/README.md)
+🇹🇷 [Turkish](./Turkish/readMe.md)
+🇦🇿 [Azerbaijan](./Azerbaijani/readMe.md)
+🇰🇷 [Korean](./Korea/README.md)
+🇻🇳 [Vietnamese](./Vietnamese/README.md)
+🇵🇱 [Polish](./Polish/readMe.md)
+🇧🇷 [Portuguese](./Portuguese/readMe.md)
 
 </div>
 
@@ -74,6 +117,7 @@
 ![30 Günde JavaScript](../images/day_1_1.png)
 
 - [30 Günde JavaScript](#30-günde-javascript)
+  - [🙌 Katkıda Bulunun](#-become-a-sponsor)
 - [📔 1. Gün](#-1-gün)
   - [Giriş](#giriş)
   - [Gereksinimler](#gereksinimler)
@@ -111,17 +155,23 @@
 
 ## Giriş
 
-30 Günlük JavaScript programlama kursuna katılmaya karar verdiğiniz için **tebrikler**. Bu kursta, bir JavaScript programcısı olmak için ihtiyacınız olan her şeyi ve genel olarak tüm programlama kavramınlarını öğreneceksiniz. Eğitimin sonunda 30 Günlük JavaScript programlama kursu tamamlama sertifikası alacaksınız. Yardıma ihtiyacınız olması veya başkalarına yardım etmek istemeniz durumunda [telegram grubuna](https://t.me/ThirtyDaysOfJavaScript) katılabilirsiniz.
+30 günlük JavaScript programlama eğitimine katılmaya karar verdiğiniz için tebrikler. Bu eğitim, bir JavaScript programcısı olmak için ihtiyacınız olan her şeyi ve genel olarak programlamanın tüm kavramlarını öğreneceksiniz. Yarışmanın sonunda, 30GündeJavaScript programlama meydan okumasını tamamlama sertifikası alacaksınız. Sertifika almak için, etkileşimli ve ilgi çekici bir çevrimiçi eğitim platformu olan [DevOsome](https://www.devosome.com/)'a kaydolmanız gerekir.
 
-**30GündeJavaScript** eğitimi, hem yeni başlayanlar için hem de uzman JavaScript geliştiricileri için rehber niteliği taşımaktadır. JavaScript'e Hoş Geldiniz. JavaScript web'in dilidir. JavaScript'i kullanmaktan ve öğretmekten zevk alıyorum, umuyorum siz de öğrenirken ve kullanırken zevk alacaksınız.
+Yardıma ihtiyacınız olursa veya başkalarına yardım etmek isterseniz, özel [Telegram grubuna](https://t.me/ThirtyDaysOfJavaScript) katılabilirsiniz.
 
-Bu adım adım JavaScript kursunda, insanlık tarihindeki en popüler programlama dili olan JavaScript'i öğreneceksininiz.
-JavaScript **_web sitelerine interaktiflik katmak, mobil-masaüstü-oyun uygulamaları geliştirmek_** için, hatta günümüzde JavaScript ile **_makina öğrenimi_** ve **_Yapay Zeka_** uygulamaları da geliştirebilirsiniz.
-**_JavaScript (JS)_** son yıllarda popülaritesi artırarak altı yıl üst üste lider ve Github'da en çok kullanılan programlama dili olmuştur.
+**30GündeJavaScript** eğitimi, hem yeni başlayanlar hem de ileri düzey JavaScript geliştiricileri için bir rehberdir. JavaScript'e hoş geldiniz. JavaScript, web'in dilidir. JavaScript'i kullanmaktan ve öğretmekten keyif alıyorum ve umarım siz de öyle yaparsınız.
+
+Bu adım adım JavaScript eğitiminde, insanlık tarihinin en popüler programlama dili olan JavaScript'i öğreneceksiniz. JavaScript, **_web sitelerine etkileşim eklemek_**, **_mobil uygulamalar_**, **_masaüstü uygulamaları_** ve **_oyunlar_** geliştirmek için kullanılır. Günümüzde JavaScript, **_sunucu tarafı programlama_**, **_makine öğrenimi_** ve **_yapay zeka_** için de kullanılabilir.
+
+**_JavaScript (JS)_**, son yıllarda popülerliği artan ve son on yıldır önde gelen programlama dili olan ve GitHub'da en çok kullanılan programlama dilidir.
+
+Bu eğitim, okunması kolay, konuşma Türkçesiyle yazılmış, ilgi çekici, motive edici ve aynı zamanda çok zorlayıcıdır. Bu zorluğu tamamlamak için çok zaman ayırmanız gerekir. Görsel öğrenen biriyseniz, [Washera](https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw) YouTube kanalından video dersleri alabilirsiniz. Kanalı abone olun, YouTube videolarına yorum yapın ve sorular sorun, proaktif olun, yazar sonunda sizi fark edecektir.
+
+Yazar, bu eğitimle ilgili görüşlerinizi duymaktan memnuniyet duyar. 30GündeJavaScript eğitimi hakkındaki düşüncelerinizi paylaşarak yazara geri bildirimde bulunabilirsiniz. [Bu bağlantıdan](https://www.asabeneh.com/testimonials) görüşlerinizi paylaşabilirsiniz.
 
 ## Gereksinimler
 
-Bu kursu takip etmek için önceden programlama bilgisine sahip olmanıza gerek yoktur. Sadece ihtiyacınız olanlar şunlardır:
+Bu eğitimi tamamlamak için önceden programlama bilgisi gerekmez. Tek ihtiyacınız olan:
 
 1. Motivasyon
 2. Bir bilgisayar
@@ -131,26 +181,26 @@ Bu kursu takip etmek için önceden programlama bilgisine sahip olmanıza gerek 
 
 ## Kurulum
 
-Bir geliştirici olmak için motivasyonunuz ve güçlü bir arzunuz olduğuna inanıyorum. Eğer bilgisayar ve İnternete sahipseniz, artık başlamak için her şeye sahipsiniz.
+Geliştirici, bilgisayar ve internet uzmanı olmak için motivasyonunuz ve güçlü bir arzunuz olduğuna inanıyorum. Bunlara sahipseniz, başlamak için gereken her şeye sahipsiniz demektir.
 
 ### Node.js Kurulumu
 
-Şu aşamada belki Node.js'e ihtiyacınız olmayabilir, fakat ilerisi için ihtiyacınız olacaktır. Dilerseniz şuan [node.js](https://nodejs.org/en/) yükleyebilirsiniz.
+Şu anda Node.js'ye ihtiyacınız olmayabilir, ancak ileride ihtiyacınız olabilir. [Node.js](https://nodejs.org/en/)'yi yükleyin.
 
 ![Node download](../images/download_node.png)
 
-Görseldeki web sitesinden son sürümü indirin ve çift tıklayarak bilgisayarınıza yükleyin.
+İndirdikten sonra çift tıklayın ve kurun.
 
 ![Install node](../images/install_node.png)
 
-Node.js'i başarılı bir şekilde yüklediğinizi kontrol etmek için komut satırı(cmd) ya da terminal ekranınızda aşağıdaki komutu kullanabilirsiniz.
+Cihaz terminalimizi veya komut istemini (cmd) açarak node'un yerel makinemize yüklü olup olmadığını kontrol edebiliriz.
 
 ```sh
 asabeneh $ node -v
 v12.14.0
 ```
 
-Bu eğitimi hazırlarken Node.js'in 12.14.0 sürümünü kullanıyordum. Muhtemelen sizin kullanacağınız sürüm çok daha güncel olacaktır.
+Bu eğitimi hazırlarken Node sürüm 12.14.0 kullanıyordum, ancak şu anda indirilmesi önerilen Node.js sürümü v14.17.6'dır. Bu materyali kullandığınızda daha yüksek bir Node.js sürümüne sahip olabilirsiniz.
 
 ### Tarayıcı
 
