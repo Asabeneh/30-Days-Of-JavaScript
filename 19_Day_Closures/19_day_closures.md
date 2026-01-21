@@ -38,7 +38,7 @@ function outerFunction() {
         return count
     }
 
-    return innerFunction
+    return innerFunction()
 }
 const innerFunc = outerFunction()
 
