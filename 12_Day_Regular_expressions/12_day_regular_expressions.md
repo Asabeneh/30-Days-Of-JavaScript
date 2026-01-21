@@ -377,7 +377,7 @@ We can specify the length of the substring we look for in a text, using a curly 
 
 ```js
 const txt = 'This regular expression example was made in December 6,  2019.'
-const pattern = /\\b\w{4}\b/g  //  exactly four character words
+const pattern = /\b\w{4}\b/g  //  exactly four character words
 const matches = txt.match(pattern)
 console.log(matches)  //['This', 'made', '2019']
 ```
