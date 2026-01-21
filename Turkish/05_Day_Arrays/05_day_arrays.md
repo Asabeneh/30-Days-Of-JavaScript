@@ -32,7 +32,7 @@
 
   
 
-[<< Gün 4](../04_Day_Conditionals/04_day_conditionals.md) | [Gün 6 >>](../06_Day_Loops/06_day_loops.md)
+[<< Gün 4](../04_Day_Conditionals/04_day_conditionals.md) | [Gün 6 >>](../06_Day_Donguler/06_day_loops.md)
 
   
 
@@ -1533,4 +1533,4 @@ const  ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
   
 
-[<< Gün 4](../04_Day_Conditionals/04_day_Conditionals.md) | [Gün 6 >>](../06_Day_Loops/06_day_loops.md)
+[<< Gün 4](../04_Day_Conditionals/04_day_Conditionals.md) | [Gün 6 >>](../06_Day_Donguler/06_day_loops.md)
