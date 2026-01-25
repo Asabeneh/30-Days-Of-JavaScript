@@ -74,6 +74,7 @@ We agreed that boolean values are either true or false.
 
 - All numbers(positive and negative) are truthy except zero
 - All strings are truthy except an empty string ('')
+- Empty array
 - The boolean true
 
 ### Falsy values
