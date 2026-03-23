@@ -180,12 +180,12 @@ const showDateTime = () => {
 }
 ```
 
-The `new Dat().toLocaleString()` can also be used to display current date time. The `toLocaleString()` methods takes different arguments. You may learn more about date and time from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString).
+The `new Date().toLocaleString()` can also be used to display current date time. The `toLocaleString()` methods takes different arguments. You may learn more about date and time from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString).
 
 #### Loops
 
-We coverer many types of loops in this challenges. The regular for loop, while loop, do while loop, for of loop, forEach loop and for in loop.
-Lets see how we use them:
+We covered many types of loops in this challenge. The regular for loop, while loop, do while loop, for of loop, forEach loop and for in loop.
+Let's see how we use them:
 
 ```js
 for (let i = 0; i < n; i++){

@@ -222,7 +222,7 @@ Set(5) {5, 3, 2, 9, 4}
 
 ### Union of sets
 
-To find a union to two sets can be achieved using spread operator. Lets find the union of set A and set B (A U B)
+To find a union of two sets can be achieved using spread operator. Let's find the union of set A and set B (A U B)
 
 ```js
 let a = [1, 2, 3, 4, 5]
@@ -242,7 +242,7 @@ Set(6) {1, 2, 3, 4, 5,6}
 
 ### Intersection of sets
 
-To find an intersection of two sets can be achieved using filter. Lets find the intersection of set A and set B (A ∩ B)
+To find an intersection of two sets can be achieved using filter. Let's find the intersection of set A and set B (A ∩ B)
 
 ```js
 let a = [1, 2, 3, 4, 5]
@@ -263,7 +263,7 @@ Set(3) {3, 4, 5}
 
 ### Difference of sets
 
-To find an the difference between two sets can be achieved using filter. Lets find the different of set A and set B (A \ B)
+To find the difference between two sets can be achieved using filter. Let's find the difference of set A and set B (A \ B)
 
 ```js
 let a = [1, 2, 3, 4, 5]
