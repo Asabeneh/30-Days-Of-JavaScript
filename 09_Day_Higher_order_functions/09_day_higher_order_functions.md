@@ -480,8 +480,8 @@ console.log(areSomeTrue) //true
 ```
 
 ```js
-const areAllStr = names.some((name) => typeof name === 'number') // Are all strings ?
-console.log(areAllStr) // false
+const isThereANumber = names.some((name) => typeof name === 'number') // Is there a number ?
+console.log(isThereANumber) // false
 ```
 
 ### sort
