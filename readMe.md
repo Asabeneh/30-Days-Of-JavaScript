@@ -160,22 +160,22 @@ Every contribution, big or small, makes a huge difference. Thank you for your su
 
 ## Introduction
 
-**Congratulations** on deciding to participate in 30 days of JavaScript programming challenge. In this challenge, you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming. In the end of the challenge,  you will get a 30DaysOfJavaScript programming challenge completion certificate.  In order to get a certificate, you have to enroll to [DevOsome](https://www.devosome.com/) which is an interactive and engaging online educational platform.
+**Congratulations** on deciding to participate in the 30 Days of JavaScript programming challenge. In this challenge, you will learn everything you need to become a JavaScript programmer, and in general, the whole concept of programming. At the end of the challenge, you will receive a 30DaysOfJavaScript programming challenge completion certificate. To get a certificate, you need to enroll in [DevOsome](https://www.devosome.com/), an interactive and engaging online educational platform.
 
-In case you need help or if you would like to help others you may join the dedicated [telegram group](https://t.me/ThirtyDaysOfJavaScript). 
+If you need help or would like to help others, you may join the dedicated [telegram group](https://t.me/ThirtyDaysOfJavaScript).
 
-**A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the web. I enjoy using and teaching JavaScript and I hope you will do so too.
+The **30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the web. I enjoy using and teaching JavaScript and I hope you will too.
 
-In this step by step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
-JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **server-side programming**,  **_machine learning_** and **_AI_**.
+In this step-by-step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
+JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **server-side programming**, **_machine learning_** and **_AI_**.
 
-**_JavaScript (JS)_** has increased in popularity in recent years and has been the leading
-programming language for last ten years and is the most used programming language on
+**_JavaScript (JS)_** has grown in popularity in recent years and has been the leading
+programming language for the last ten years and is the most used programming language on
 GitHub.
 
-This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. Subscribe the channel, comment and ask questions on YouTube vides and be proactive, the author will eventually notice you. 
+This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to dedicate significant time to finish this challenge. If you are a visual learner, you can find video lessons on the <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw">Washera</a> YouTube channel. Subscribe to the channel, comment and ask questions on YouTube videos and be proactive — the author will eventually notice you.
 
-The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://www.asabeneh.com/testimonials)
+The author loves hearing your thoughts about the challenge. Share your feedback by leaving a testimonial on this [link](https://www.asabeneh.com/testimonials).
 
 ## Requirements
 
@@ -189,7 +189,7 @@ No prior knowledge of programming is required to follow this challenge. You need
 
 ## Setup
 
-I believe you have the motivation and a strong desire to be a developer, a computer and Internet. If you have those, then you have everything to get started.
+I believe you have the motivation and a strong desire to become a developer, a computer, and an internet connection. If you have those, then you have everything to get started.
 
 ### Install Node.js
 
@@ -281,7 +281,7 @@ Congratulations! You wrote your first JavaScript code using _`console.log()`_.
 
 ##### Comments
 
-We can add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this `//` is also a comment.
+We can add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. In JavaScript, any line starting with `//` is a single-line comment, and anything enclosed between `/*` and `*/` is a multi-line comment.
 
 **Example: Single Line Comment**
 
@@ -303,7 +303,7 @@ This is a multiline comment
 
 ##### Syntax
 
-Programming languages are similar to human languages. English or many other language uses words, phrases, sentences, compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language. Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+Programming languages are similar to human languages. English and many other languages use words, phrases, sentences, and compound sentences to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language. Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
 
 ![Error](images/raising_syntax_error.png)
 
@@ -607,7 +607,7 @@ Multiline commenting:
 
 Variables are _containers_ of data. Variables are used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords.
 
-For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do not change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is error prone way of declaring variable it has lots of leak. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
+For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do not change, and we can use _const_. We will not use var in this challenge and I don't recommend using it. It is an error-prone way of declaring variables and has many scoping issues. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
 
 A valid JavaScript variable name must follow the following rules:
 
@@ -657,7 +657,7 @@ Let us declare variables with different data types. To declare a variable, we ne
 let nameOfVariable = value
 ```
 
-The nameOfVriable is the name that stores different data of value. See below for detail examples.
+The nameOfVariable is the name that stores a piece of data. See the detailed examples below.
 
 **Examples of declared variables**
 
@@ -691,7 +691,7 @@ console.log(gravity, boilingPoint, PI)
 ```
 
 ```js
-// Variables can also be declaring in one line separated by comma, however I recommend to use a seperate line to make code more readble
+// Variables can also be declared on one line separated by commas, however I recommend using separate lines to make code more readable
 let name = 'Asabeneh', job = 'teacher', live = 'Finland'
 console.log(name, job, live)
 ```
