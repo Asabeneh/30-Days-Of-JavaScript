@@ -146,7 +146,7 @@ console.log(sum, diff, mult, div, remainder, powerOf) // 7,1,12,1.33,1, 64
 
 ```js
 const PI = 3.14
-let radius = 100          // length in meter
+let radius = 10          // length in meter
 
 //Let us calculate area of a circle
 const areaOfCircle = PI * radius * radius
