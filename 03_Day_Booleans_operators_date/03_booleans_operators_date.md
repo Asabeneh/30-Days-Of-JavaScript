@@ -76,6 +76,17 @@ We agreed that boolean values are either true or false.
 - All strings are truthy except an empty string ('')
 - The boolean true
 
+#### ⚠️ Note:
+Even though non-zero numbers and decimal numbers(like -1,1.5,etc) are truthy in a Boolean context, they are not equal to true when using ==.
+
+Example: Truthy but not equal to true
+
+if (-1) → Evaluates to true because -1 is truthy.
+
+-1 == true → Returns false because true is coerced to 1, and -1 is not equal to 1.
+
+To explicitly check the truthiness of a value, use Boolean(value) or use them in if-else , while or do-while conditional statements.
+
 ### Falsy values
 
 - 0
