@@ -272,14 +272,17 @@ let b = [3, 4, 5, 6]
 let A = new Set(a)
 let B = new Set(b)
 
-let c = a.filter((num) => !B.has(num))
-let C = new Set(c)
+let diffOfA = a.filter((num) => !B.has(num))
+let diffOfB = b.filter((num) => !A.has(num))
+
+let diffOfAB = [...diffOfA, ...diffOfB]
+let C = new Set(diffOfAB)
 
 console.log(C)
 ```
 
 ```sh
-Set(2) {1, 2}
+Set(2) {1, 2, 6}
 ```
 
 ## Map
