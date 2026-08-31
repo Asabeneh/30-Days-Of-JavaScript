@@ -667,7 +667,7 @@ It Will be covered in other section.
 1. Write a function called _modifyArray_ takes array as parameter and modifies the fifth item of the array and return the array. If the array length is less than five it return 'item not found'.
 
     ```js
-    console.log(modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot']);
+    console.log(modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot']));
     ```
 
     ```sh
@@ -675,7 +675,7 @@ It Will be covered in other section.
     ```
 
     ```js
-    console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon','Microsoft',  'IBM']);
+    console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon','Microsoft',  'IBM']));
     ```
 
     ```sh
@@ -683,7 +683,7 @@ It Will be covered in other section.
     ```
 
     ```js
-    console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon']);
+    console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon']));
     ```
 
     ```sh
