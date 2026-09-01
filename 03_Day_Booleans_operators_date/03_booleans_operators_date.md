@@ -556,7 +556,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    The area of the triangle is 100
    ```
 
-1. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
+1. Write a script that prompt the user to enter side a, side b, and side c of the triangle and calculate the perimeter of triangle (perimeter = a + b + c)
 
    ```sh
    Enter side a: 5
@@ -613,7 +613,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
     You are 15. You will be allowed to drive after 3 years.
     ```
 
-1. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
+1. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume someone lives just hundred years
 
    ```sh
    Enter number of years you live: 100

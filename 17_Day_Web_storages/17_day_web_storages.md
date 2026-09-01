@@ -75,7 +75,7 @@ Some use case of Web Storages are
 
 For the examples mentioned above, it makes sense to use localStorage. You may be wondering, then, when we should use sessionStorage.
 
-In cases, we want to to get rid of the data as soon as the window is closed. Or, perhaps, if we do not want the application to interfere with the same application that’s open in another window. These scenarios are served best with sessionStorage.
+In cases, we want to get rid of the data as soon as the window is closed. Or, perhaps, if we do not want the application to interfere with the same application that’s open in another window. These scenarios are served best with sessionStorage.
 
 Now, let us see how make use of these Web Storage APIs.
 
