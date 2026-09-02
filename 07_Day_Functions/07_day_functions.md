@@ -215,13 +215,6 @@ const numbers = [1, 2, 3, 4, 5];
     //calling a function
 console.log(sumArrayValues(numbers));
 
-
-    const areaOfCircle = (radius) => {
-      let area = Math.PI * radius * radius;
-      return area;
-    }
-console.log(areaOfCircle(10))
-
 ```
 
 ### Function with unlimited number of parameters
