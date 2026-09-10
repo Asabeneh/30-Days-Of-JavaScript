@@ -93,7 +93,7 @@ console.log(backEnd)
 ["Node", "Express", "MongoDB"]
 ```
 
-If we like to skip on of the values in the array we use additional comma. The comma helps to omit the value at that specific index
+If we like to skip one of the values in the array we use additional comma. The comma helps to omit the value at that specific index
 
 ```js
   const numbers = [1, 2, 3]
@@ -184,7 +184,7 @@ Node Express MongoDB
 
 ### Destructuring Object
 
-When we destructure the name of the variable we use to destructure should be exactly the same as the key or property of the object. See the example below.
+When we destructure, the name of the variable we use to destructure should be exactly the same as the key or property of the object. See the example below.
 
 ```js
 const rectangle = {
@@ -258,7 +258,6 @@ const calculatePerimeter = rectangle => {
 }
 
 console.log(calculatePerimeter(rect)) // 60
-//with destructuring
 ```
 
 ```js
