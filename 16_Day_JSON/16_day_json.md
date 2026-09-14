@@ -251,7 +251,7 @@ The _JSON.parse()_ is very handy to use. You do not have to pass optional parame
 
 ### Converting Object to JSON
 
-When we want to change the object to JSON we use _JSON.stringify()_. The stringify method takes one required parameter and two optional parameters. The replacer is used as filter and the space is an indentations. If we do not want to filter out any of the keys from the object we can just pass undefined.
+When we want to change the object to JSON we use _JSON.stringify()_. The stringify method takes one required parameter and two optional parameters. The replacer is used as filter and the space is an indentation. If we do not want to filter out any of the keys from the object we can just pass undefined.
 
 ```js
 JSON.stringify(obj, replacer, space)
