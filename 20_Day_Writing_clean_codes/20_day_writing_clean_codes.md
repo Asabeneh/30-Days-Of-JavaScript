@@ -48,7 +48,7 @@ JavaScript is a programming language and like human language it has syntax. The 
 
 You have been coding alone for so long but now it seems to work in a team. It does not matter in anyway you write you code as long as it running, however when you work in team of 10 or 20 or more developer on one project and on the same code base, the code will be messy and hard to manage if there is no any guidelines to follow.
 
-You can develop your own guidelines and conventions or you can also adapt well developed guidelines. Let us the most common know guidelines.
+You can develop your own guidelines and conventions or you can also adapt well developed guidelines. Let us see the most common know guidelines.
 Most common JavaScript Style Guides
 
 - Airbnb JavaScript Style Guide
