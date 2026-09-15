@@ -85,7 +85,7 @@ function letsLearnScope() {
     let b = 100
     console.log(a, b) // Python 100
   }
-  console.log(a, b)
+  console.log(a, b) // JavaScript 10
 }
 letsLearnScope()
 console.log(a, b) // JavaScript 10, accessible
