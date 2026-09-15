@@ -42,6 +42,7 @@
 			- [Add an element from the beginning](#add-an-element-from-the-beginning)
 			- [Reversing array order](#reversing-array-order)
 			- [Sorting elements in array](#sorting-elements-in-array)
+			- [Converting Arrays to Strings](#converting-arrays-to-string)
 		- [Array of arrays](#array-of-arrays)
 	- [💻 Exercise](#-exercise)
 		- [Exercise: Level 1](#exercise-level-1)
@@ -651,6 +652,16 @@ console.log(arrayOfArray[0]) // [1, 2, 3]
  console.log(fullStack.length)  // 2
  console.log(fullStack[0])  // ["HTML", "CSS", "JS", "React", "Redux"]
  console.log(fullStack[1]) // ["Node", "Express", "MongoDB"]
+```
+
+### Converting Arrays to String
+
+The join() method allows you to concatenate all elements of an array and returns a new string:
+```js
+const frontEnd = ['HTML', 'CSS', 'JS'];
+const btnClass = cssClasses.join(' ');
+
+console.log(btnClass);  //HTML CSS JS
 ```
 
 🌕  You are diligent and you have already achieved quite a lot. You have just completed day 5 challenges and you are 5 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
