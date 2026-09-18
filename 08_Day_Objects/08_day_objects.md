@@ -440,7 +440,7 @@ console.log(copyPerson.hasOwnProperty('score'))
 1. Find the person who has many skills in the users object.
 1. Count logged in users, count users having greater than equal to 50 points from the following object.
 
-   ````js
+   ```js
    const users = {
      Alex: {
        email: 'alex@alex.com',
@@ -491,7 +491,7 @@ console.log(copyPerson.hasOwnProperty('score'))
        isLoggedIn: false,
        points: 40
      }
-   }```
+   }
 
 1. Find people who are MERN stack developer from the users object
 1. Set your name in the users object without modifying the original users object
