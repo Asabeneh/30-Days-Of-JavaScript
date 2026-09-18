@@ -145,8 +145,8 @@ Set(5) {"Google", "Facebook", "Amazon", "Oracle", "Microsoft"}
 We can delete an element from a set using a delete method.
 
 ```js
-console.log(companies.delete('Google'))
-console.log(companies.size) // 4 elements left in the set
+console.log(setOfCompanies.delete('Google'))
+console.log(setOfCompanies.size) // 4 elements left in the set
 ```
 
 ### Checking an element in the set
@@ -154,8 +154,8 @@ console.log(companies.size) // 4 elements left in the set
 The has method can help to know if a certain element exists in a set.
 
 ```js
-console.log(companies.has('Apple')) // false
-console.log(companies.has('Facebook')) // true
+console.log(setOfCompanies.has('Apple')) // false
+console.log(setOfCompanies.has('Facebook')) // true
 ```
 
 ### Clearing the set
@@ -163,8 +163,8 @@ console.log(companies.has('Facebook')) // true
 It removes all the elements from a set.
 
 ```js
-companies.clear()
-console.log(companies)
+setOfCompanies.clear()
+console.log(setOfCompanies)
 ```
 
 ```sh
@@ -295,7 +295,7 @@ console.log(map)
 Map(0) {}
 ```
 
-### Creating an Map from array
+### Creating a Map from array
 
 ```js
 countries = [
