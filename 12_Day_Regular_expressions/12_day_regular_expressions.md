@@ -308,21 +308,13 @@ const matches = txt. match(pattern)
 console.log(matches)  // ["1", "2", "2", "0", "2", "0"], this is not what we want
 ```
 
-```js
-const pattern = /\d+/g  // d is a special character which means digits
-const txt = 'This regular expression example was made in January 12,  2020.'
-const matches = txt. match(pattern)
-
-console.log(matches)  // ["12", "2020"], this is not what we want
-```
-
 ### One or more times(+)
 
 ```js
 const pattern = /\d+/g  // d is a special character which means digits
 const txt = 'This regular expression example was made in January 12,  2020.'
 const matches = txt. match(pattern)
-console.log(matches)  // ["12", "2020"], this is not what we want
+console.log(matches)  // ["12", "2020"], this is what we want
 ```
 
 ### Period(.)
@@ -514,22 +506,26 @@ distance = 12
 
 ### Exercises: Level 3
 
-1. Writ a function which cleans text. Clean the following text. After cleaning, count three most frequent words in the string.
+1. Write a function which cleans text. Clean the following text. After cleaning, count three most frequent words in the string.
   
-  ```js
+   ```js
     sentence = `%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?`
     console.log(cleanText(sentence))
-   ```
+    ```
 
    ```sh
     I am a teacher and I love teaching There is nothing as more rewarding as educating and empowering people I found teaching more interesting than any other jobs Does this motivate you to be a teacher
-    ```
+   ```
+
 2. Write a function which find the most frequent words. After cleaning, count three most frequent words in the string.
 
-  ```js
+   ```js
     console.log(mostFrequentWords(cleanedText))
+   ```
+   ```sh
     [{word:'I', count:3}, {word:'teaching', count:2}, {word:'teacher', count:2}]
-  ```
+   ```
+  
 
 🎉 CONGRATULATIONS ! 🎉
 
