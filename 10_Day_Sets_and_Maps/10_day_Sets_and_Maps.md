@@ -422,7 +422,6 @@ const countries = ['Finland', 'Sweden', 'Norway']
      { Dutch: 8 },
      { German: 7 },
      { Chinese: 5 },
-     { Swahili: 4 },
      { Serbian: 4 }
    ]
 
