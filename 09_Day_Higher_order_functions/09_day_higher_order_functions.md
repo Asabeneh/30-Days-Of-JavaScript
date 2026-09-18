@@ -108,7 +108,7 @@ console.log(sumArray(numbers))
 The above example can be simplified as follows:
 
 ```js
-const numbers = [1, 2, 3, 4]
+const numbers = [1, 2, 3, 4, 5]
 ​
 const sumArray = arr => {
   let sum = 0
