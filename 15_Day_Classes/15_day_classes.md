@@ -48,7 +48,7 @@ In the object section, we saw how to create an object literal. Object literal is
 
 ### Defining a classes
 
-To define a class in JavaScript we need the keyword _class_ , the name of a class in **CamelCase** and block code(two curly brackets). Let us create a class name Person.
+To define a class in JavaScript we need the keyword _class_ , the name of a class in **UpperCamelCase** and block code(two curly brackets). Let us create a class name Person.
 
 ```sh
 // syntax
