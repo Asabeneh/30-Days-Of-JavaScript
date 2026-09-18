@@ -313,13 +313,13 @@ const pattern = /\d+/g  // d is a special character which means digits
 const txt = 'This regular expression example was made in January 12,  2020.'
 const matches = txt. match(pattern)
 
-console.log(matches)  // ["12", "2020"], this is not what we want
+console.log(matches)  // ["12", "2020"], this is what we want
 ```
 
 ### One or more times(+)
 
 ```js
-const pattern = /\d+/g  // d is a special character which means digits
+const pattern = /\d+/g  // + is a special character that matches one or more occurences of the preceding element
 const txt = 'This regular expression example was made in January 12,  2020.'
 const matches = txt. match(pattern)
 console.log(matches)  // ["12", "2020"], this is not what we want
