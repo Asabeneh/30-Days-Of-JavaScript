@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Montserrat;
+}
+
+main{
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 35px;
+}
+
+.container h1{
+    font-size: 22px;
+}
+
+
+.form-add-player{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-add-player input{
+    padding: 10px;
+    margin: 5px;
+    border: solid 1px rgb(229, 201, 197);
+    width: 16%;
+    min-width: 150px;
+}
+
+.form-add-player button{
+    background-color: rgb(229, 201, 197);
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+    width: 16%;
+    min-width: 150px;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    background-color: rgb(229, 201, 197);
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.board .upname{
+    display: flex;
+    align-items: center; 
+}
+.board .player .name {
+    /* text-transform: uppercase;    */
+}
+
+.board .player .time {
+    font-size: 15px;
+    color: grey;
+}
+
+.board .country {
+    display: flex;
+    align-items: center; 
+}
+
+.board .score {
+    display: flex;
+    align-items: center; 
+}
+
+.board .options {
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.board .options button{
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border: none;
+}
+
+.board .options button.delete{
+    color: red;
+}
+
+#errormessage{
+    color: red;
+    font-weight: bold;
+    display: none;
+}

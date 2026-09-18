@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Montserrat;
+}
+
+.header{
+    background-image: linear-gradient(to bottom, transparent, rgb(53, 83, 98)), url("../images/globe-2.jpg");
+    
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: 300px;
+    height: auto;
+}
+
+.header h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+
+.header h4{
+    color: white;
+    font-size: 20px;
+}
+.header h5{
+    color: white;
+    font-size: 15px;
+    display: none;
+}
+.header h5 .searchkey{
+    color: rgb(201,88,84);
+    font-style: italic;
+}
+.header h5 .searchresult{
+    color: rgb(125,179,102);
+}
+
+.button-group{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.button-group button{
+    padding:15px;
+    margin: 1px;
+    color: white;
+    background-color: rgb(127, 84, 214);
+    border: none;
+}
+
+.button-group button:hover{
+    background-color: rgb(80, 32, 165);
+}
+
+.searchbar{
+    padding: 10px;
+    min-width: 500px;
+    width: 25%;
+    border-radius: 20px;
+}
+
+main{
+    min-height: 200px;
+    background-color: rgb(255,255,227);
+    padding: 30px;
+}
+
+.countries{
+    width: 70%;
+    margin: auto;
+    text-align:center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(6, minmax(200px, 1fr));
+}
+
+.countries .card{
+    background-image: linear-gradient(to bottom, transparent, rgb(53, 83, 98)), url("../images/map_image.jpg");
+    background-size: cover;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}

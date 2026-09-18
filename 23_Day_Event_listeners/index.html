@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document Object Model</title>
+  </head>
+
+  <body>
+    <button>Click Me</button>
+
+    <!-- <script>
+      const button = document.querySelector('button')
+      button.addEventListener('click', e => {
+        console.log('e gives the event listener object:', e)
+        console.log('e.target gives the selected element: ', e.target)
+        console.log(
+          'e.target.textContent gives content of selected element: ',
+          e.target.textContent
+        )
+      })
+    </script> -->
+    <script>
+      const button = document.querySelector('button')
+      button.addEventListener('dblclick', e => {
+        console.log('e gives the event listener object:', e)
+        console.log('e.target gives the selected element: ', e.target)
+        console.log(
+          'e.target.textContent gives content of selected element: ',
+          e.target.textContent
+        )
+      })
+    </script>
+
+    <h1>Giving feedback using blur event</h1>
+
+    <input type="text" id="mass" placeholder="say something" />
+    <p></p>
+
+    <script>
+        const input = document.querySelector('input')
+        const p = document.querySelector('p')
+
+        input.addEventListener('blur', (e) => {
+            p.textContent = 'Field is required'
+            p.style.color = 'red'
+
+        })
+    </script>
+
+    <h1>Key events: Press any key</h1>
+
+    <script>
+      document.body.addEventListener('keypress', e => {
+        alert(e.keyCode)
+      })
+    </script>
+  </body>
+</html>

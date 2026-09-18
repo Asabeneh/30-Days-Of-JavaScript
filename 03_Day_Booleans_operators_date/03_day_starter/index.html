@@ -3,15 +3,140 @@
 
 <head>
     <title>30DaysOfJavaScript: 03 Day</title>
+    <link rel="stylesheet" href="mvp.css">
+     <!-- import your scripts here -->
+     <script src="./scripts/main.js"></script>
 </head>
 
 <body>
-    <h1>30DaysOfJavaScript:03 Day</h1>
-    <h2>Booleans, undefined, null, date object</h2>
+    <main>
+        <h1>30DaysOfJavaScript:03 Day</h1>
+        <h2>Booleans, undefined, null, date object</h2>
+        <hr>
+        <h2>Exercises: Level 1</h2>
+        
+        <p>1. Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.</p>
 
-    <!-- import your scripts here -->
-    <script src="./scripts/main.js"></script>
+        <p>2. Check if type of '10' is equal to 10</p>
 
+        <p>3. Check if parseInt('9.8') is equal to 10</p>
+
+        <p>4. Boolean value is either true or false.</p>
+        <ul>
+            <li>i. Write three JavaScript statement which provide truthy value.</li>
+            <li>ii. Write three JavaScript statement which provide falsy value.</li>
+        </ul>
+        <p>5. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()</p>
+        <ul>
+            <li>i. 4 > 3</li>
+            <li>ii. 4 >= 3</li>
+            <li>iii. 4 < 3</li>
+            <li>iv. 4 <= 3</li>
+            <li>v. 4 == 4</li>
+            <li>vi. 4 === 4</li>
+            <li>vii. 4 != 4</li>
+            <li>viii. 4 !== 4</li>
+            <li>ix. 4 != '4'</li>
+            <li>x. 4 == '4'</li>
+            <li>xi. 4 === '4'</li>
+        </ul>
+        <p>6. Find the length of python and jargon and make a falsy comparison statement.</p>
+        <ul>
+            <li>4 > 3 && 10 < 12</li>
+            <li>4 > 3 && 10 > 12</li>
+            <li>4 > 3 || 10 < 12</li>
+            <li>4 > 3 || 10 > 12</li>
+            <li>!(4 > 3)</li>
+            <li>!(4 < 3)</li>
+            <li>!(false)</li>
+            <li>!(4 > 3 && 10 < 12)</li>
+            <li>!(4 > 3 && 10 > 12)</li>
+            <li>!(4 === '4')</li>
+            <li>There is no 'on' in both dragon and python</li>
+        </ul>
+        
+        <p>7. Use the Date object to do the following activities</p>
+        <ul>    
+            <li>What is the year today?</li>
+            <li>What is the month today as a number?</li>
+            <li>What is the date today?</li>
+            <li>What is the day today as a number?</li>
+            <li>What is the hours now?</li>
+            <li>What is the minutes now?</li>
+            <li>Find out the numbers of seconds elapsed from January 1, 1970 to now.</li>
+        </ul>
+        <hr>
+
+        <h2>Exercises: Level 2</h2>
+        <p>1. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).    </p>
+        <i>
+            Enter base: 20 </br>
+            Enter height: 10</br>
+            The area of the triangle is 100</br>
+        </i>
+        <p>2. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)</p>
+        <i>
+            Enter side a: 5</br>
+            Enter side b: 4</br>
+            Enter side c: 3</br>
+            The perimeter of the triangle is 12</br>
+        </i>
+
+        <p>3. Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))</p>
+
+        <p>4. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.</p>
+
+        <p>5. Calculate the slope, x-intercept and y-intercept of y = 2x -2</p>
+
+        <p>6. Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)</p>
+
+        <p>7. Compare the slope of above two questions.</p>
+
+        <p>8. Calculate the value of y (y = x2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.</p>
+
+        <p>9. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?</p>
+
+        <p>10. If the length of your name is greater than 7 say, your name is long else say your name is short.</p>
+
+        <p>11. Compare your first name length and your family name length and you should get this output.</p>
+        <i>
+            let firstName = 'Asabeneh'</br>
+            let lastName = 'Yetayeh'</br>
+            Your first name, Asabeneh is longer than your family name, Yetayeh</br>
+        </i>
+        <p>12. Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.</p>
+        <i>
+            let myAge = 250</br>
+            let yourAge = 25</br>
+            I am 225 years older than you.</br>
+        </i>
+        <p>13. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.</p>
+        <i>        
+            Enter birth year: 1995</br>
+            You are 25. You are old enough to drive</br></br>
+
+            Enter birth year: 2005</br>
+            You are 15. You will be allowed to drive after 3 years.</br>
+        </i>
+        <p>14. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years</p>
+        <i>
+            Enter number of years you live: 100</br>
+            You lived 3153600000 seconds.</br>
+        </i>
+        <p>15. Create a human readable time format using the Date time object</p>
+        <ul>    
+            <li>YYYY-MM-DD HH:mm</li>
+            <li>DD-MM-YYYY HH:mm</li>
+            <li>DD/MM/YYYY HH:mm</li>
+        </ul>
+        <hr>
+        <h2>Exercises: Level 3</h2>
+        <p>Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )</p>
+        <ul>
+            <li>i. YYY-MM-DD HH:mm eg. 20120-01-02 07:05</li>
+        </ul>
+    </main>
+    
 </body>
 
 </html>

@@ -1,0 +1,84 @@
+body{
+    background-image: url(images/galaxy.gif);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+header h1{
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+header input{
+    padding: 10px;
+    width: 15%;
+    margin-right: 5px;
+}
+
+header select{
+    padding: 10px;
+    width: 10%;
+    margin-right: 5px;
+}
+
+header button{
+    padding: 10px;
+    width: 10%;
+    color: white;
+    background-color: rgb(107,107,107);
+    border: solid 1px rgb(107,107,107);
+}
+
+.flex-container{
+    margin:auto;
+    width: 70%;
+    background-color: rgba(80,80,80,0.5);
+    display: flex;
+}
+
+
+.flex-item.image{
+    width: 40%;
+    margin: 50px;
+}
+
+.flex-item.description{
+    background-color: rgba(100,100,100,0.5);
+    width: 40%;
+    align-self: flex-start;
+    text-align: center;
+    color: white;
+    margin-top: 15%;
+}
+
+.weight{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(120,120,120,0.5);
+    width: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center; /* center number horizontally */
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.flex-item.error{
+    background-color: rgba(100,100,100,0.5);
+    width: 40%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: none;
+}
