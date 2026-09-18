@@ -248,7 +248,7 @@ for(let i = 0; i <= 5; i++){
 // 0 1 2 4 5
 ```
 
-🌕 You are so brave, you made it to this far. Now, you have gained the power to automate repetitive and tedious tasks. You have just completed day 6 challenges and you are 6 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You are so brave, you made it to this far. Now, you have gained the power to automate repetitive and tedious tasks. You have just completed day 6 challenges and you are 6 steps ahead in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## 💻 Exercises:Day 6
 
@@ -287,7 +287,7 @@ for(let i = 0; i <= 5; i++){
 3. Iterate 0 to n using for loop
 4. Write a loop that makes the following pattern using console.log():
 
-   ```js
+   ```sh
        #
        ##
        ###
@@ -408,19 +408,18 @@ for(let i = 0; i <= 5; i++){
       ['Germany', 'GER', 7],
       ['Hungary', 'HUN', 7],
       ['Ireland', 'IRE', 7],
-      ['Iceland', 'ICE', 7],
       ['Japan', 'JAP', 5],
       ['Kenya', 'KEN', 5]
     ]
     ```
 
-2. In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print 'All these countries are without land'.
+2. In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print `All these countries are without 'land'`.
 
     ```sh
-    ['Finland','Ireland', 'Iceland']
+    ['Finland','Ireland']
     ```
 
-3. In above countries array, check if there is  a country or countries end with a substring 'ia'. If there are countries end with, print it as array. If there is no country containing the word 'ai', print 'These are countries ends without ia'.
+3. In above countries array, check if there is a country or countries ending with a substring 'ia'. If there are countries ending with 'ia', print it as array. If there is no country containing the substring 'ia', print `These are no countries end with 'ia'`.
 
     ```sh
     ['Albania', 'Bolivia','Ethiopia']
