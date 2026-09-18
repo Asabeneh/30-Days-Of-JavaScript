@@ -140,7 +140,7 @@ doPromise
 ```
 
 The above promise has been settled with resolve.
-Let us another example when the promise is settled with reject.
+Let us see another example when the promise is settled with reject.
 
 ```js
 // Promise
