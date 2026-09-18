@@ -194,7 +194,7 @@ arr.forEach((element, index, arr) => console.log(index, element, arr))
 let sum = 0;
 const numbers = [1, 2, 3, 4, 5];
 numbers.forEach(num => console.log(num))
-console.log(sum)
+
 ```
 
 ```sh
