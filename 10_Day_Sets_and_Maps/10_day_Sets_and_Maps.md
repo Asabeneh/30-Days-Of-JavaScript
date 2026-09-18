@@ -390,7 +390,7 @@ const b = [3, 4, 5, 7]
 const countries = ['Finland', 'Sweden', 'Norway']
 ```
 
-1. create an empty set
+1. Create an empty set
 2. Create a set containing 0 to 10 using loop
 3. Remove an element from a set
 4. Clear a set
