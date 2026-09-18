@@ -341,7 +341,7 @@ Dizide elemanların indexlerini kullanarak o elemana ulaşabiliriz. Dizinin inde
 
   
 
-![arr index](../images/array_index.png)
+![arr index](../../images/array_index.png)
 
   
 
