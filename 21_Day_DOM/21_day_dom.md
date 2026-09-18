@@ -203,7 +203,7 @@ titles[3].classList.remove('title', 'header-title')
 
 ### Adding Text to HTML element
 
-An HTML is a build block of an opening tag, a closing tag and a text content. We can add a text content using the property _textContent_ or \*innerHTML.
+An HTML element is a build block of an opening tag, a closing tag and a text content. We can add a text content using the property _textContent_ or \*innerHTML.
 
 #### Adding Text content using textContent
 
