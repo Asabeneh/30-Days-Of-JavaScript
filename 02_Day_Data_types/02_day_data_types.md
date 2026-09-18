@@ -111,9 +111,9 @@ Let us see by creating an array. An array is a list of data values in a square b
 
 ```js
 let nums = [1, 2, 3]
-nums[0] = 10
+nums[0] = 1
 
-console.log(nums)  // [10, 2, 3]
+console.log(nums)  // [1, 2, 3]
 ```
 
 As you can see, an array, which is a non-primitive data type is mutable. Non-primitive data types cannot be compared by value. Even if two non-primitive data types have the same properties and values, they are not strictly equal.
