@@ -513,6 +513,9 @@ console.log(string.substr(4,6))    // Script
 let country = 'Finland'
 console.log(country.substr(3, 4))   // land
 ```
+**Note**: `substr()` method has been deprecated and not part of main ECMAScript specification. Use of `substring()` and `slice()` methods are advised for cross-platform support. 
+Reference : [MDN susbtr()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr )
+
 
 6. *substring()*: It takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping index.
 
