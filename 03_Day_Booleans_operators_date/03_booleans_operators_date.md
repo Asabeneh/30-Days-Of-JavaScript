@@ -297,7 +297,7 @@ console.log(count)   // -1
 ### Ternary Operators
 
 Ternary operator allows to write a condition.
-Another way to write conditionals is using ternary operators. Look at the following examples:
+Later we'll see another way to create conditionals. Look at the following examples:
 
 ```js
 let isRaining = true
