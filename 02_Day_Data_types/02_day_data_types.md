@@ -39,6 +39,7 @@
 			- [String to Int](#string-to-int)
 			- [String to Float](#string-to-float)
 			- [Float to Int](#float-to-int)
+			- [Number to String](#number-to-string)
 	- [💻 Day 2: Exercises](#-day-2-exercises)
 		- [Exercise: Level 1](#exercise-level-1)
 		- [Exercise: Level 2](#exercise-level-2)
@@ -821,7 +822,7 @@ console.log(typeof null)        // object
 
 ### Changing Data Type (Casting)
 
-- Casting: Converting one data type to another data type. We use _parseInt()_, _parseFloat()_, _Number()_, _+ sign_, _str()_
+- Casting: Converting one data type to another data type. We use _parseInt()_, _parseFloat()_, _Number()_, _+ sign_, _String()_, _toString()_.
   When we do arithmetic operations string numbers should be first converted to integer or float if not it returns an error.
 
 #### String to Int
@@ -896,6 +897,31 @@ let numInt = parseInt(num)
 
 console.log(numInt) // 9
 ```
+
+#### Number to String
+
+We can convert a number(float or int) to a string.
+We use the following methods to convert a number to a string:
+
+- String()
+- toString()
+  
+```js
+let num = 9.81
+let strNum = String(num)
+
+console.log(strNum) // '9.81'
+```
+
+```js
+let num = 9
+let strNum = num.toString()
+
+console.log(strNum) // '9'
+```
+
+Calling toString() with an undefined or null value will produce an error. String() doesn't cause that error.
+
 
 🌕  You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.  
 
