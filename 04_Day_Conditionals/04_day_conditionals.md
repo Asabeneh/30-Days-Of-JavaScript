@@ -297,7 +297,7 @@ isRaining
    You are 5 years older than me.
    ```
 
-1. If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in to ways
+1. If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in two ways
 
     - using if else
     - ternary operator.
