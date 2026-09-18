@@ -168,7 +168,7 @@ console.log(result)
 *replace()*: Executes a search for a match in a string, and replaces the matched substring with a replacement substring.
 
 ```js
-const txt = 'Python is the most beautiful language that a human begin has ever created.\
+const txt = 'Python is the most beautiful language that a human being has ever created.\
 I recommend python for a first programming language'
 
 matchReplaced = txt.replace(/Python|python/, 'JavaScript')
