@@ -474,7 +474,7 @@ console.log(names.toString()) // Asabeneh,Mathias,Elias,Brook
 
 #### Joining array elements
 
-join: It is used to join the elements of the array, the argument we passed in the join method will be joined in the array and return as a string. By default, it joins with a comma, but we can pass different string parameter which can be joined between the items.
+join: the join method is used to join the elements of the array, the argument we passed in the join method will be joined in the array and return as a string. By default, it joins with a comma, but we can pass different string parameter which can be joined between the items.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -504,7 +504,7 @@ console.log(webTechs.join(' # '))  // "HTML # CSS # JavaScript # React # Redux #
 
 #### Slice array elements
 
-Slice: To cut out a multiple items in range. It takes two parameters:starting and ending position. It doesn't include the ending position.
+Slice: To cut out  multiple items in range. It takes two parameters:starting and ending position. It doesn't include the ending position.
 
 ```js
   const numbers = [1,2,3,4,5]
