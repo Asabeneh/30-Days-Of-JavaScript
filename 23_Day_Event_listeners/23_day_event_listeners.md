@@ -288,7 +288,7 @@ In contrast to _input_ or _change_, the _blur_ event occur when the input field 
 </html>
 ```
 
-#### keypress, keydow and keyup
+#### keypress, keydown and keyup
 
 We can access all the key numbers of the keyboard using different event listener types. Let us use keypress and get the keyCode of each keyboard keys.
 
