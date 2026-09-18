@@ -108,7 +108,7 @@ console.log(empty) // -> null , means no value
 
 ### Assignment operators
 
-An equal sign in JavaScript is an assignment operator. It uses to assign a variable.
+An equal sign in JavaScript is an assignment operator. It uses to assign value to a variable.
 
 ```js
 let firstName = 'Asabeneh'
