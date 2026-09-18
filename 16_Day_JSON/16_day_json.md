@@ -464,7 +464,7 @@ console.log(txt)
 }
 ```
 
-🌕 You are extraordinary.  Now, you knew a light-weight data format which you may use to store data or to send it an HTTP server. You are 16 steps a head to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You are extraordinary.  Now, you know a light-weight data format which you may use to store data or to send it an HTTP server. You are 16 steps a head to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## Exercises
 
