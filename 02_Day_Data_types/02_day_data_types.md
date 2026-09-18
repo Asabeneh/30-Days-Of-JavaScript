@@ -908,7 +908,7 @@ console.log(numInt) // 9
 3. Print the __length__ of the string on the browser console using _console.log()_
 4. Change all the string characters to capital letters using __toUpperCase()__ method
 5. Change all the string characters to lowercase letters using __toLowerCase()__ method
-6. Cut (slice) out the first word of the string using __substr()__ or __substring()__ method
+6. Cut (slice) out the first word of the string using __substring()__ method
 7. Slice out the phrase *Days Of JavaScript* from *30 Days Of JavaScript*.
 8. Check if the string contains a word __Script__ using __includes()__ method
 9. Split the __string__ into an __array__ using __split()__ method
