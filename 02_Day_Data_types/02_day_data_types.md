@@ -183,7 +183,7 @@ console.log(age, gravity, mass, PI, boilingPoint, bodyTemp)
 
 ### Math Object
 
-In JavaScript the Math Object provides a lots of methods to work with numbers.
+In JavaScript the Math Object provides a lot of methods to work with numbers.
 
 ```js
 const PI = Math.PI
