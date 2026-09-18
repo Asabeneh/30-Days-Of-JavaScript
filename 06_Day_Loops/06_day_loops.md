@@ -180,7 +180,7 @@ let sum = 0
 for (const num of numbers) {
   sum = sum + num  
 	// can be also shorten like this, sum += num
-  // after this we will use the shorter synthax(+=, -=, *=, /= etc)
+  // after this we will use the shorter syntax(+=, -=, *=, /= etc)
 }
 console.log(sum) // 15
 
