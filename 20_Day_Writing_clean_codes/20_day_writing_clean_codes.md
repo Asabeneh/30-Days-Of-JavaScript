@@ -330,7 +330,7 @@ isRaining
 
 #### Classes
 
-We declare class with CamelCase which starts with capital letter.
+We declare class with PascalCase which starts with capital letter.
 
 ```js
 // syntax
