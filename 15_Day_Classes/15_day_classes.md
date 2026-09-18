@@ -159,7 +159,7 @@ Person {firstName: "Lidiya", lastName: "Tekle"}
 Person {firstName: "Abraham", lastName: "Yetayeh"}
 ```
 
-Using the class Person we created three persons object. As you can see our class did not many properties let us add more properties to the class.
+Using the class Person we created three persons object. As you can see our class did not has many properties let us add more properties to the class.
 
 ```js
 class Person {
