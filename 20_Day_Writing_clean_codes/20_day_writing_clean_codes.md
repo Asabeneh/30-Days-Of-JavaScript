@@ -250,7 +250,7 @@ for(const key in person) {
 
 #### Conditional
 
- We say if, if else, if else if else, switch and ternary operators in previous challenges.
+ We see if, if else, if else if else, switch and ternary operators in previous challenges.
 
  ```js
  // syntax
