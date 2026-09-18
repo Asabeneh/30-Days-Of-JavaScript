@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 19](../19_Day_Closuers/19_day_closures.md) | [Day 21 >>](../21_Day_DOM/21_day_dom.md)
+[<< Day 19](../19_Day_Closures/19_day_closures.md) | [Day 21 >>](../21_Day_DOM/21_day_dom.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_20.png)
 - [Day 20](#day-20)
