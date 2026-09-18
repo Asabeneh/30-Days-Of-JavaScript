@@ -943,7 +943,7 @@ console.log(numInt) // 9
     "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
     ```
 
-3. Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
+3. Check if typeof '10' is exactly equal to that of 10. If not make it exactly equal.
 4. Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
 5. Check if 'on' is found in both python and jargon
 6. _I hope this course is not full of jargon_. Check if _jargon_ is in the sentence.
