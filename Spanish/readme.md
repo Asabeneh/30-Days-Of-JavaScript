@@ -66,7 +66,8 @@
 
 **30 días de JavaScript** es una guía tanto para principiantes como para desarrolladores avanzados. Bienvenido a JavaScript. Disfruto de usarlo y enseñarlo y espero que tú también. JavaScript es el lenguaje del navegador.
 
-En este tutorial de paso a paso, aprenderás JavaScript, el lenguaje de programación más popular de la historia de la humanidad. Se usa para **agregar interactividad a las páginas web, para desarrollar aplicaciones móviles, aplicaciones de desktop, juegos** y ahora también puede ser usado para el **aprendizaje automático** (machine learning) e **inteligencia artificial** (AI). Su popularidad ha incrementado en años recientes, siendo el lenguaje predominante por cuatro años consecutivos y el más usado en GitHub.
+En este tutorial de paso a paso, aprenderás JavaScript, el leguaje de programación más popular de la historia de la humanidad. Se usa para **_agregar interactividad a las páginas web, para desarrollar aplicaciones móviles, aplicaciones de desktop, juegos_** y ahora también puede ser usado para el **_aprendizaje automático_** (machine learning) e **_inteligencia artificial_** (AI). Su popularidad ha incrementado en años recientes, siendo el lenguaje predominante por cuatro años consecutivos y el más usado en GitHub.
+
 
 ## Requerimientos
 
@@ -84,18 +85,20 @@ Asumo que tienes motivación, un fuerte deseo de convertirte en un desarrollador
 
 ### Instala Node.js
 
-Tal vez no lo necesites ahora pero si más adelante. Asi que instala [node.js](https://nodejs.org/en/)
+Tal vez no lo necesites ahora, pero si más adelante. Así que instala [node.js](https://nodejs.org/en/)
 
 ![Node download](./images/download_node.png)
 
-Luego de que se descargue, haz doble click e instálalo
+Cuando se descargue, haz doble click e instálalo
 
 ![Install node](./images/install_node.png)
 
 Puedes comprobar si se ha instalado correctamente abriendo la terminal del ordenador
 
+```sh
     asabeneh $ node -v
     v12.14.0
+```
 
 Para el desafío estaremos utilizando la versión 12.14.0, la cual es la recomendada por Node.
 
@@ -117,11 +120,13 @@ Puedes abrir la consola de Google Chrome haciendo click en los tres puntos de la
 
 Para abrir la consola Chrome usando un atajo.
 
+```sh
     Mac
     Command+Option+I
 
     Windows:
     Ctl+Shift+I
+```
 
 ![Opening console](./images/opening_chrome_console_shortcut.png)
 
@@ -133,29 +138,34 @@ Después de abrir la consola de Google Chrome, intenta explorar los botones marc
 
 Podemos escribir cualquier código de JavaScript en la consola de Google o en la de cualquier navegador. Sin embargo, para este desafío, sólo nos centramos en la consola de Google Chrome. Abre la consola usando:
 
+```sh
     Mac
     Comando+Opción+I
 
     Windows:
     Ctl+Mayúsculas+I
+```
 
 ##### Console.log
 
 Para escribir nuestro primer código de JavaScript, usamos una función incorporada, **console.log()**. Pasamos un argumento como datos de entrada, y la función muestra la salida. Pasamos 'Hola, Mundo' como datos de entrada o argumento en la función console.log().
 
+```js
     console.log('¡Hola, Mundo!')
-
+```
 ##### Console.log con múltiples argumentos
 
-El console.log(param1, param2, param3), puede tomar múltiples argumentos.
+El console.log(param1, param2, param3), puede tomar múltiples argumentos separados por comas.
 
 ![console log multiple arguments](./images/console_log_multipl_arguments.png)
 
+```js
     console.log('Hola', 'Mundo', '!')
     console.log('FELIZ', 'AÑO', 'NUEVO', 2020)
     console.log('Bienvenido', 'a', 30, 'Días', 'de', 'JavaScript')
+```
 
-Como pueden ver, en el código del fragmento de arriba, console.log() puede tomar múltiples argumentos.
+Como pueden ver, en el código del fragmento de arriba, _console.log()_ puede tomar múltiples argumentos.
 
 ¡Felicidades! Escribiste tu primer código JavaScript usando _console.log()_.
 
@@ -164,20 +174,20 @@ Como pueden ver, en el código del fragmento de arriba, console.log() puede toma
 Podemos añadir comentarios a nuestro código. Los comentarios son muy importantes para hacer el código más legible y para dejar recordatorios en nuestro código. JavaScript no ejecuta la parte de comentarios de nuestro código. Cualquier texto que empiece con // en JavaScript es un comentario o cualquier cosa que encierre como esta /\* \*/ es un comentario.
 
 **Ejemplo: Comentario en una sola línea**
-
+```js
     // Este es el primer comentario
     // Este es el segundo comentario
     // Soy un comentario de una sola línea
-
+```
 **Ejemplo: Comentario multilínea**
-
+```js
     /* Este es un comentario de varias líneas.
 
     Los comentarios multilínea pueden tomar múltiples líneas.
 
     JavaScript es el lenguaje de la web
     */
-
+```
 ##### Sintaxis
 
 JavaScript es un lenguaje de programación. Como resultado, tiene su sintaxis como otros lenguajes. Si no escribimos una sintaxis que JavaScript entienda, se producirán diferentes tipos de errores. Exploraremos diferentes tipos de errores de JavaScript más adelante. Por ahora, veamos los errores de sintaxis.
@@ -185,29 +195,29 @@ JavaScript es un lenguaje de programación. Como resultado, tiene su sintaxis co
 ![Error](./images/raising_syntax_error.png)
 
 Cometí un error deliberado. Como resultado, la consola produce un error de sintaxis. En realidad, la sintaxis es muy informativa. Informa sobre el tipo de error que cometimos. Leyendo la guía de retroalimentación de errores, podemos corregir la sintaxis y arreglar el problema. El proceso de identificar y eliminar errores de un programa se llama 'debugging'. Corrijamos los errores:
-
+```js
     console.log("¡Hola, Mundo!")
     console.log('¡Hola, Mundo!')
-
+```
 Hasta ahora, hemos visto cómo mostrar el texto usando un console.log(). Si imprimimos texto o cadena usando console.log(), el texto tiene que estar entre comillas simples, dobles o 'backtick' (``). **Ejemplo:**
-
+```js
     console.log("¡Hola, Mundo!")
     console.log('¡Hola, Mundo!')
     console.log(`Hola, Mundo!`)
-
+```
 #### Aritmética
 
 Ahora, practiquemos más la escritura de códigos JavaScript usando console.log() en la consola de Google Chrome para los tipos de datos numéricos. Además del texto, también podemos hacer cálculos matemáticos usando JavaScript. Hagamos los siguientes cálculos sencillos.
 
 ![Arithmetic](./images/arithmetic.png)
-
+```js
     console.log(2 + 3) // Adición
     console.log(3 - 2) // Sustracción
     console.log(2 * 3) // Multiplicación
     console.log(3 / 2) // División
     console.log(3 % 2) // Módulo - encontrar el resto
     console.log(3 ** 2) // Exponencial
-
+```
 ### Editor de código
 
 Podemos escribir nuestros códigos en la consola del navegador, pero no será para proyectos más grandes. En un entorno de trabajo real, los desarrolladores utilizan diferentes editores para escribir sus códigos. En este desafío de 30 días de JavaScript, usaremos Visual Studio Code.
@@ -249,51 +259,55 @@ Las siguientes secciones muestran diferentes formas de añadir código JavaScrip
 
 ### Script en línea
 
-Crea una carpeta en tu escritorio y llámala 30DíasDeJS o en cualquier lugar y crea un archivo **_index.html_** en la carpeta del proyecto. Luego pega el siguiente código y ábrelo en un navegador, ya sea en [Chrome](https://www.google.com/chrome/).
+Crea una carpeta en tu escritorio y llámala 30DiasDeJS y crea un archivo **_index.html_** en la carpeta del proyecto. Luego pega el siguiente código y ábrelo en un navegador, ya sea en [Chrome](https://www.google.com/chrome/).
 
-    <!DOCTYPE html>
-      <html>
-       <head>
-         <title>30DíasDeJS:Inline Script</title>
-       </head>
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>30DaysOfScript: Script en línea</title>
+  </head>
+  <body>
+    <button onclick="alert('¡Bienvenido a 30DaysOfJavaScript!')">Haz click aquí</button>
+  </body>
+</html>
+```
 
-       <body>
-         <button onclick="alert('Bienvenido a 30DaysOfJavaScript!')">Hazme Click</button>
-       </body>
-    </html>
-
-Ahora, escribiste tu primer inline script. Podemos crear un mensaje de alerta emergente usando la función integrada _alert()_.
+Ahora, escribiste tu primer script en línea (inline). Podemos crear un mensaje de alerta emergente usando la función integrada _alert()_.
 
 ### Script interno
 
 El Script interno puede ser escrito en la cabecera del código _('head')_ o en el cuerpo _('body')_, pero es preferible ponerlo en el cuerpo del documento HTML. Primero, escribamos en la parte de la cabeza de la página.
 
-    <!DOCTYPE html>
-    <html>
-        <head>
-        <title>30DíasDeJS:Scripts Internos</title>
-        <script>
-            console.log("Bienvenido a 30DaysOfJavaScript!")
-        </script>
-        </head>
-        <body>
-        </body>
-    </html>
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>30DaysOfScript: Script interno</title>
+    <script>
+      console.log('¡Bienvenidos a 30DaysOfJavaScript!')
+    </script>
+  </head>
+  <body></body>
+</html>
+```
 
 Así es como escribimos el guión interno la mayor parte del tiempo. Escribir el código de JavaScript en la sección del body es el lugar más recomendado. Abre la consola del navegador para ver la respuesta del console.log()
 
-    <!DOCTYPE html>
-    <html>
-        <head>
-         <title>30DíasDeJS:Scripts Internos</title>
-        </head>
-        <body>
-        <button onclick="alert('Bienvenido a 30DaysOfJavaScript!');">Click Me</button>
-        <script>
-            console.log("Bienvenido a 30DaysOfJavaScript!");
-        </script>
-        </body>
-    </html>
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>30DaysOfScript: Script interno</title>
+  </head>
+  <body>
+    <button onclick="alert('¡Bienvenido a 30DaysOfJavaScript!');">Haz click aquí</button>
+    <script>
+      console.log('Bienvenido a 30DaysOfJavaScript')
+    </script>
+  </body>
+</html>
+```
 
 Abre la consola del navegador para ver la respuesta del console.log()
 
@@ -307,29 +321,32 @@ Al igual que el script interno, el enlace del script externo puede estar en la c
 
 **Script externo en la cabecera**
 
-    <!DOCTYPE html>
-    <html>
-        <head>
-         <title>30DíasDeJS:Scripts Externos</title>
-        <script src="introduction.js"></script>
-        </head>
-        <body>
-        </body>
-        </html>
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>30DaysOfJavaScript: Script externo</title>
+    <script src="introduction.js"></script>
+  </head>
+  <body></body>
+</html>
+```
 
 **Script externo en el cuerpo**
 
-    <!DOCTYPE html>
-    <html>
-        <head>
-         <title>30DíasDeJS:Scripts Externos</title>
-        </head>
-        <body>
-        //Podría estar en la cabecera o en el cuerpo...
-        // Aquí está el lugar recomendado para poner el script externo
-        <script src="introduction.js"></script>
-        </body>
-        </html>
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>30DaysOfJavaScript: Script externo</title>
+  </head>
+  <body>
+    <!-- podría ir en la cabecera (head) o en el body -->
+    <!-- este es el lugar recomendado para poner un script externo -->
+    <script src="introduction.js"></script>
+  </body>
+</html>
+```
 
 Abre la consola del navegador para ver la respuesta del console.log()
 
@@ -337,34 +354,36 @@ Abre la consola del navegador para ver la respuesta del console.log()
 
 Podemos enlazar múltiples archivos externos de JavaScript a una página web. Crea un archivo holamundo.js dentro de la carpeta 30DiasDeJS y escribe el siguiente código.
 
-    console.log('¡Hola, Mundo!')
+```js
+console.log('¡Hola, Mundo!')
+```
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Múltiples Scripts externos</title>
+  </head>
+  <body>
+    <script src="./helloworld.js"></script>
+    <script src="./introduction.js"></script>
+  </body>
+</html>
+```
 
-    <!DOCTYPE html>
-    <html>
-        <cabeza>
-        <título>Múltiples guiones externos</título>
-        </cabeza>
-        <cuerpo>
-
-        <script src ="./holamundo.js"></script>
-        <script src="./introduccion.js"></script>
-        </cuerpo>
-    </html>
-
-Tu archivo main.js debería estar por debajo de todos los otros scripts. Ten cuidado con tu ejercicio para entender esta línea.
+Tu archivo main.js debería estar por debajo de todos los otros scripts. Es muy importante recordarlo.
 
 ![Multiple Script](./images/multiple_script.png)
 
 ## Introducción a los tipos de datos
 
-En JavaScript y también en otros lenguajes de programación, hay diferentes tipos de datos. Los siguientes son los tipos de datos primitivos de JavaScript: _Cadenas de texto ('string'), Números, Booleanos, undefined, Null_ y _Symbol_.
+En JavaScript y también en otros lenguajes de programación, hay diferentes tipos de datos. Los siguientes son los tipos de datos primitivos de JavaScript: Cadenas de texto ('string'), Números, Booleanos, undefined, Null_ y Symbol.
 
 ### Números
 
-- Enteros: Números enteros (negativos, cero y positivos) Ejemplo: ... -3, -2, -1, 0, 1, 2, 3 ...
-- Float: Números decimales Ejemplo ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
-
+- Enteros: Números enteros (negativos, cero y positivos). Ejemplo: ... -3, -2, -1, 0, 1, 2, 3 ...
+- Float: Números decimales. Ejemplo ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
+Recuerda que los números decimales se deben separar por un punto, no vale usar comas o comillas.
 ### Cadenas de texto
 
 Una colección de uno o más carácteres entre comillas. **Ejemplo:**
@@ -380,74 +399,76 @@ Una colección de uno o más carácteres entre comillas. **Ejemplo:**
 
 Un valor booleano es verdadero o falso. Cualquier comparación devuelve un valor booleano, que es verdadero o falso.
 
-Un tipo de datos booleano es un valor Verdadero o Falso.
+Un tipo de datos booleano es un valor true (verdadero) o false (falso).
 
 **Ejemplo:**
 
-    true // si la luz está encendida, el valor es true
-    falso // si la luz está apagada, el valor es Falso
+    true // si la luz está encendida, el valor es verdadero (true)
+    false // si la luz está apagada, el valor es falso (false)
 
 ### Undefined
 
 En JavaScript, si no asignamos un valor a una variable, el valor es indefinido. Además, si una función no devuelve nada, devuelve undefined.
-
+```js
     let nombre;
     console.log(nombre); //no está definida, porque no está asignada a un valor todavía
-
+```
 ### Null
 
 Null en JavaScript significa un valor vacío/nulo.
-
+```js
     let valorVacio = null
-
+```
 ## Comprobando los tipos de datos
 
 Para comprobar el tipo de datos de un determinado valor, utilizamos el operador **'typeof'**. Véase el siguiente ejemplo.
-
-    console.log(typeof 'Asabeneh') // string
-    console.log(typeof 5) // número
-    console.log(typeof true ) // boolean
-    console.log(typeof null) // tipo de objeto
-    console.log(typeof undefined) // undefined
-
+```js
+    console.log(typeof 'Asabeneh') // string o cadena de texto
+    console.log(typeof 5) // number o número
+    console.log(typeof true ) // boolean o booleano
+    console.log(typeof null) // object u objeto
+    console.log(typeof undefined) // undefined o no definido
+```
 ## Comentarios
 
 Los comentarios en JavaScript son similares a los de otros lenguajes de programación. Los comentarios son importantes para hacer tu código más legible. Hay dos maneras de comentar:
 
 - _Comentario en una sola línea_
 - _Comentario multilineal_
-
+```js
         // comentando el código mismo con un solo comentario
         // let nombre = 'Asabeneh'; comentario de una sola línea
         // let apellido = 'Yetayeh'; comentario de una sola línea
-
+```
 Comentario multilineal:
-
+```js
     /*
         let ubicación = 'Helsinki';
         let edad = 100;
         let casado = verdadero;
         Este es un comentario de varias líneas
      */
-
+```
 ### Variables
 
 Las variables son contenedores de datos. Las variables se utilizan para almacenar datos en una ubicación de memoria. Cuando se declara una variable, se reserva una ubicación de memoria. Cuando se asigna una variable a un valor (data), el espacio de memoria se llena con esos datos. Para declarar una variable, usamos palabras clave _var_, _let_ o _const_. Hablaremos más sobre var, let y const en detalle en otras secciones (ámbito). Por ahora, la explicación anterior es suficiente.
 
-Para una variable que cambia en un momento diferente, usamos _let_. Si los datos no cambian en absoluto, usamos _const_. Por ejemplo, PI, nombre del país, gravedad no cambian, y podemos usar _const._
+Para una variable que cambia en algún momento, usamos _let_. Si los datos no cambian en absoluto, usamos _const_. Por ejemplo: el número PI, el nombre del país o la gravedad no cambian, y podemos usar _const_. No recomiendo usar _var_, ni lo usaremos durante el curso, ya que es susceptible a provocar errores al declarar variables. Hablaremos más sobre _var_, _let_ y _const_ en otras secciones (scope). De momento esta explicación es suficiente para ir empezando.
 
-- El nombre de una variable en JavaScript no debe comenzar con un número.
-- Un nombre de variable JavaScript no permite caracteres especiales excepto el signo de dólar y el guión bajo.
+Un correcto nombre de variable en JavaScript debe seguir las siguientes normas:
+
+- Los nombres de las variables en JavaScript no deben comenzar con un número.
+- Los nombres de las variables en JavaScript no permiten caracteres especiales excepto el signo de dólar y el guión bajo.
 - Los nombres de las variables en JavaScript siguen una convención 'CamelCase'.
-- El nombre de una variable no debe tener espacio entre palabras.
+- Los nombres de las variables en JavaScript no deben tener espacio entre palabras.
 
 Los siguientes son ejemplos válidos de variables JavaScript.
 
 Variables válidas en JavaScript:
-
+```js
     primerNombre
     apellido
-    país
+    pais
     ciudadCapital
     capital
     edad
@@ -464,22 +485,22 @@ Variables válidas en JavaScript:
     $num1
     año2020
     año_2020
-
-camelCase es convencional en JavaScript. En este material, usaremos variables de CamelCase.
+```
+camelCase es convencional en JavaScript. En este material, usaremos variables de camelCase.
 
 Variables inválidas:
-
+```js
     primer-nombre
     1_numero
     num_#_1
-
+```
 Declaremos las variables con diferentes tipos de datos. Para declarar una variable, necesitamos usar la palabra clave let o const antes del nombre de la variable. Después del nombre de la variable, escribimos un signo igual (operador de asignación), y un valor.
-
+```js
     # Sintaxis
     let nombreDeLaVariable = valor
-
+```
 **Ejemplos: Variables**
-
+```js
     // Declarando diferentes variables de diferentes tipos de datos
     let nombre = 'Asabeneh' // nombre de una persona
     let apellido = 'Yetayeh' // apellido de una persona
@@ -488,33 +509,32 @@ Declaremos las variables con diferentes tipos de datos. Para declarar una variab
     let edad = 100 // edad en años
     let estaCasado = true
 
-    console.log(nombre, apellido, país, ciudad, edad, estáCasado)
-
-
+    console.log(nombre, apellido, pais, ciudad, edad, estaCasado)
+```
+#Resultado en consola:
     Asabeneh Yetayeh Finlandia Helsinki 100 True
-
+```js
     // Declarando variables con valores numéricos
-    let edad = 100 // edad en años
-    const constante = 9,81 // gravedad terrestre en m/s2
-    const puntoDeEbullición  = 100 // punto de ebullición del agua, temperatura en oC
+    const gravedad = 9.81 // gravedad terrestre en m/s2
+    const puntoDeEbullicion  = 100 // punto de ebullición del agua, temperatura en oC
     const PI = 3.14 // constante geométrica
 
-    console.log(gravedad, punto de ebullición, PI)
-
-
+    console.log(gravedad, puntoDeEbullicion, PI)
+```
+#Resultado en consola:
     9.81 100 3.14
 
-
+```js
     // Las variables también pueden ser declaradas en una línea separada por una coma
     let nombre = 'Asabeneh', // nombre de una persona
     trabajo = 'profesor',
     viveEn = 'Finlandia';
     console.log(nombre, trabajo, viveEn);
+```
+#Resultado en consola:
+    Asabeneh profesor Finlandia
 
-
-    Asabeneh profesor de Finlandia
-
-Cuando ejecutas los archivos en la carpeta Día_1 deberías obtener esto:
+Cuando ejecutas los archivos en la carpeta Dia_1 deberías obtener esto:
 
 ![Day one](./images/day_1.png)
 
@@ -536,7 +556,7 @@ Cuando ejecutas los archivos en la carpeta Día_1 deberías obtener esto:
 
 7.  Declara cuatro variables con valores asignados
 
-8.  Declara variables para almacenar su nombre, apellido, estado civil, país y edad en múltiples líneas
+8.  Declara variables para almacenar tu nombre, apellido, estado civil, país y edad en múltiples líneas
 
 9.  Declara variables para almacenar su nombre, apellido, estado civil, país y edad en una sola línea
 
