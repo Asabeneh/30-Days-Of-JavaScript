@@ -72,20 +72,29 @@ Non-primitive data types in JavaScript includes:
 Now, let us see what exactly primitive and non-primitive data types mean.
 *Primitive* data types are immutable(non-modifiable) data types. Once a primitive data type is created we cannot modify it.
 
+It may be little bit confusing for beginner learners. Do not confuse with primitive data and a variable assigned a primitive data. We can assign a new primitive value to the variable. All i want to say is that non primitive datas can be altered but not primitive. Let us have a look at the below example :
+
 **Example:**
 
 ```js
 let word = 'JavaScript'
+console.log(word) // JavaScript
+word.toUpperCase() // this is a string method to convert it to upper case
+console.log(word) // JavaScript (still we are getting the same result because it is a primitive data type)
+// If we want to change it then we have to reassign it with new data type
+word = word.toUpperCase()
+console.log(word) // JAVASCRIPT
+
+// Now letus use a method in non-primitive data type
+let x = []; // creates an array variable
+console.log(x); // []
+x.push("Subrat");
+console.log(x); // ["Subrat"]
 ```
 
-If we try to modify the string stored in variable *word*, JavaScript should raise an error. Any data type under a single quote, double quote, or backtick quote is a string data type.
+Remember, Any data type under a single quote, double quote, or backtick quote is a string data type.
 
-```js
-word[0] = 'Y'
-```
-
-This expression does not change the string stored in the variable *word*. So, we can say that strings are not modifiable or in other words immutable.
-Primitive data types are compared by its values. Let us compare different data values. See the example below:
+Primitive data types can be compared by its values. Let us compare different data values. See the example below:
 
 ```js
 let numOne = 3
