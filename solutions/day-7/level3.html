@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     
+
+     <script>
+          let numChar = parseInt(prompt('Enter the number of charecters for id:',0));
+          let numId = parseInt(prompt('Enter the number of id :',0));
+          console.log(numChar,numId);
+         console.log( userIdGeneratedByUser(numChar,numId));
+          function userIdGeneratedByUser(Char,Id){
+               let id_s = [];
+               for(let i=0;i<Id;i++){
+                    id_s.push(userIdGenerator(Char))
+               }
+               return id_s;
+          }
+          function userIdGenerator(Char) {
+                    let idcode = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+                    let id = '';
+                    for (let i = 0; i < numChar; i++) {
+                         let rand = Math.floor(Math.random() * idcode.length);
+                         id += idcode[rand];
+                    }
+                    return id;
+               }
+
+     </script>
+</body>
+</html>
