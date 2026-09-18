@@ -188,7 +188,7 @@ We coverer many types of loops in this challenges. The regular for loop, while l
 Lets see how we use them:
 
 ```js
-for (let i = 0; i < n; i++){
+for (let i = 0; i < 20; i++){
     console.log()
 }
 
