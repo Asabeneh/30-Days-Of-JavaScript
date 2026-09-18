@@ -1,0 +1,12 @@
+/* Style for country boxes */
+.country-box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 100px;
+    margin: 5px;
+    font-size: 14px;
+    background-color: #f0f0f0;
+}
