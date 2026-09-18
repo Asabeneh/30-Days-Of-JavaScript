@@ -89,6 +89,7 @@ Let us see were we use call back functions. For instance the _forEach_ method us
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
+
 const sumArray = arr => {
   let sum = 0
   const callback = function(element) {
@@ -96,8 +97,8 @@ const sumArray = arr => {
   }
   arr.forEach(callback)
   return sum
-
 }
+
 console.log(sumArray(numbers))
 ```
 
@@ -116,8 +117,8 @@ const sumArray = arr => {
     sum += element
   })
   return sum
-
 }
+
 console.log(sumArray(numbers))
 ```
 
@@ -191,10 +192,8 @@ arr.forEach((element, index, arr) => console.log(index, element, arr))
 ```
 
 ```js
-let sum = 0;
 const numbers = [1, 2, 3, 4, 5];
 numbers.forEach(num => console.log(num))
-console.log(sum)
 ```
 
 ```sh
@@ -238,12 +237,13 @@ _map_: Iterate an array elements and modify the array elements. It takes a callb
 const modifiedArray = arr.map(function (element, index, arr) {
   return element
 })
+
+/*Arrow function and explicit return
+const modifiedArray = arr.map((element,index, arr) => element);
+*/
 ```
 
 ```js
-/*Arrow function and explicit return
-const modifiedArray = arr.map((element,index) => element);
-*/
 //Example
 const numbers = [1, 2, 3, 4, 5]
 const numbersSquare = numbers.map((num) => num * num)
@@ -471,15 +471,16 @@ console.log(age) // 5
 _some_: Check if some of the elements are similar in one aspect. It returns boolean
 
 ```js
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 const bools = [true, true, true, true]
 
 const areSomeTrue = bools.some((b) =>  b === true)
-
 console.log(areSomeTrue) //true
 ```
 
 ```js
+
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+
 const areAllStr = names.some((name) => typeof name === 'number') // Are all strings ?
 console.log(areAllStr) // false
 ```
