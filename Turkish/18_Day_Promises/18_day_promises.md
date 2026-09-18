@@ -19,15 +19,15 @@
 ![Thirty Days Of JavaScript](../../images/banners/day_1_18.png)
 
 - [Gün 18](#gün-18)
-	- [Promise](#promise)
-	- [Callbacks](#callbacks)
-		- [Promise yapıcısı](#promise-constructor)
-	- [Fetch API](#fetch-api)
-	- [Async ve Await](#async-and-await)
-	- [Egzersizler](#egzersizler)
-		- [Egzersiz: Seviye 1](#egzersiz-level-1)
-		- [Egzersiz: Seviye 2](#egzersiz-level-2)
-		- [Egzersiz: Seviye 3](#egzersiz-level-3)
+  - [Promise](#promise)
+  - [Callbacks](#callbacks)
+    - [Promise yapıcısı](#promise-yapıcısı)
+  - [Fetch API](#fetch-api)
+  - [Async ve Await](#async-ve-await)
+  - [Egzersizler](#egzersizler)
+    - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
+    - [Egzersiz: Seviye 2](#egzersiz-seviye-2)
+    - [Egzersiz: Seviye 3](#egzersiz-seviye-3)
 
 # Gün 18
 
@@ -45,16 +45,18 @@ Bir Promise şu durumlardan birindedir:
 
 Bekleyen bir promise ya bir değerle yerine getirilebilir(fulfilled) ya da bir sebeple (error) rejected olabilir. Bu seçeneklerden herhangi biri gerçekleştiğinde, bir sözün o zaman yöntemiyle sıraya alınan ilişkili işleyiciler çağrılır. (Karşılık gelen bir işleyici(handler) eklendiğinde promise zaten fulfilled veya rejected ise, işleyici(handler) çağrılır, bu nedenle asynchronous bir işlemin tamamlanması ile işleyicilerinin eklenmesi arasında bir yarış koşulu yoktur.)
 
-As the Promise.prototype.then() and Promise.prototype.catch() methods return promises, they can be chained.
+
+Promise.prototype.then() ve Promise.prototype.catch() metotları birer Promise döndürmektedirler. Bu sebepten dolayı bu iki metot zincirlemeye uygundurlar.
 
 ## Callbacks
 
 Promise çok iyi anlamak için önce callback mantığını anlayalım. Aşağıdaki callback örneklerini görelim. Aşağıdaki kod bloklarında, callback ve promise arasındaki farkları fark edeceksiniz.
 
-- callback
-  Let us see a callback function which can take two parameters. The first parameter is err and the second is result. If the err parameter is false, there will not be error other wise it will return an error.
+- Callback:
 
-In this case the err has a value and it will return the err block.
+  İki parametre alan bir callback fonksiyonunu inceleyelim. İlk parametre err (hata) iken ikinci parametremiz result (sonuç) olsun. Eğer err parametremiz false ise herhangi bir hata dönülmeyecektir. False olmadığı aksi durumda ise hata dönülecektir.
+
+Belirtilen durumda err parametremiz bir değere sahip olacaktır ve bir hata bloğu dönecektir.
 
 ```js
 //Callback
