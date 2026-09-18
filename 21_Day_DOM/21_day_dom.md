@@ -114,7 +114,7 @@ for (let i = 0; i < allTitles.length; i++) {
 
 #### Getting an element by id
 
-**_getElementsById()_** targets a single HTML element. We pass the id without # as an argument.
+**_getElementById()_** targets a single HTML element. We pass the id without # as an argument.
 
 ```js
 //syntax
