@@ -193,3 +193,5 @@ const countries = [
   'Zambia',
   'Zimbabwe'
 ]
+//exporting array
+export{countries};
