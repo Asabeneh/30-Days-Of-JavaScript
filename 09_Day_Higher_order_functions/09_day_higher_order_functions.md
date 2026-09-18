@@ -480,7 +480,8 @@ console.log(areSomeTrue) //true
 ```
 
 ```js
-const areAllStr = names.some((name) => typeof name === 'number') // Are all strings ?
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const areAllStr = names.some((name) => typeof name === 'number') // Are some numbers?
 console.log(areAllStr) // false
 ```
 
