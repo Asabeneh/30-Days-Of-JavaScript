@@ -453,10 +453,10 @@ distance = 12
 1. Write a pattern which identify if a string is a valid JavaScript variable
 
     ```sh
-    is_valid_variable('first_name') # True
-    is_valid_variable('first-name') # False
-    is_valid_variable('1first_name') # False
-    is_valid_variable('firstname') # True
+    is_valid_variable('first_name') // True
+    is_valid_variable('first-name') // False
+    is_valid_variable('1first_name') // False
+    is_valid_variable('firstname') // True
     ```
 
 ### Exercises: Level 2
