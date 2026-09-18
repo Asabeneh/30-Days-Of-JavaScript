@@ -605,8 +605,8 @@ class Student extends Person {
       this.skills.slice(0, this.skills.length - 1).join(', ') +
         ` and ${this.skills[this.skills.length - 1]}`
 
-    let formattedSkills = skills ? `He knows ${skills}` : ''
     let pronoun = this.gender == 'Male' ? 'He' : 'She'
+    let formattedSkills = skills ? `${pronoun} knows ${skills}` : ''
 
     let info = `${fullName} is ${this.age}. ${pronoun} lives in ${this.city}, ${this.country}. ${formattedSkills}`
     return info
@@ -653,7 +653,7 @@ Asabeneh Yetayeh is 250. He lives in Helsinki, Finland. He knows HTML, CSS and J
 I am a child of the person class
 Lidiya Tekle
 Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Helsinki", …}
-Lidiya Tekle is 28. She lives in Helsinki, Finland. He knows Planning, Managing and Organizing
+Lidiya Tekle is 28. She lives in Helsinki, Finland. She knows Planning, Managing and Organizing
 ```
 
 Now, the getPersonInfo method has been overridden and it identifies if the person is male or female.
